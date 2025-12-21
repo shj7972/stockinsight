@@ -25,15 +25,24 @@ header[data-testid="stHeader"] {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Sidebar styling - Modern glass look */
+/* Sidebar styling - Modern glass look with forced width */
 [data-testid="stSidebar"] {
     background: rgba(15, 23, 42, 0.95) !important;
     border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
     backdrop-filter: blur(10px) !important;
+    min-width: 320px !important;
+    max-width: 320px !important;
+    width: 320px !important;
+}
+
+[data-testid="stSidebar"]>div:first-child {
+    width: 320px !important;
 }
 
 [data-testid="stSidebar"] .block-container {
     padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Typography Enhancements */
