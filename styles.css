@@ -1,0 +1,211 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+/* Main background and text color */
+.stApp {
+    background: radial-gradient(circle at top right, #1e293b 0%, #0f172a 100%);
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Header/Deploy area styling */
+header[data-testid="stHeader"] {
+    background: rgba(15, 23, 42, 0.8) !important;
+    backdrop-filter: blur(8px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Sidebar styling - Modern glass look */
+[data-testid="stSidebar"] {
+    background: rgba(15, 23, 42, 0.95) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+[data-testid="stSidebar"] .block-container {
+    padding-top: 2rem;
+}
+
+/* Typography Enhancements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #f8fafc;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700 !important;
+}
+
+/* Metric Cards - Premium Glassmorphism */
+[data-testid="stMetricContainer"] {
+    background: rgba(30, 41, 59, 0.5) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+[data-testid="stMetricContainer"]:hover {
+    transform: translateY(-4px);
+    background: rgba(30, 41, 59, 0.7) !important;
+    border-color: rgba(56, 189, 248, 0.4) !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    color: #f1f5f9 !important;
+}
+
+/* Tabs Styling - Modern Pill Look */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: rgba(15, 23, 42, 0.5);
+    padding: 6px;
+    border-radius: 12px;
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 44px;
+    border-radius: 8px;
+    color: #94a3b8;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: none !important;
+    background: transparent !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%) !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Sidebar Ticker Buttons - List Style */
+[data-testid="stSidebar"] button[kind="secondary"] {
+    background: rgba(30, 41, 59, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    color: #cbd5e1 !important;
+    border-radius: 8px !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    padding: 0.6rem 1rem !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+[data-testid="stSidebar"] button[kind="secondary"]:hover {
+    background: rgba(30, 41, 59, 0.8) !important;
+    border-color: rgba(56, 189, 248, 0.5) !important;
+    color: #f8fafc !important;
+    transform: translateX(4px);
+}
+
+/* Custom Alert / Insight Boxes */
+.stAlert {
+    background: rgba(30, 41, 59, 0.4) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+}
+
+/* Plotly Chart Container */
+.js-plotly-plot {
+    background: rgba(30, 41, 59, 0.3) !important;
+    border-radius: 16px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Input Fields */
+[data-testid="stTextInput"] input {
+    background: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    color: #f8fafc !important;
+    padding: 0.6rem 1rem !important;
+}
+
+[data-testid="stTextInput"] input:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2) !important;
+}
+
+/* Scrollbar Styling - Thinner and more subtle */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.4);
+}
+
+/* Glassmorphism Card Utility (can be used via markdown) */
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Animated Pulse for AI Recommendation */
+@keyframes glow-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(56, 189, 248, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0);
+    }
+}
+
+.verdict-badge {
+    animation: glow-pulse 2s infinite;
+}
