@@ -16,6 +16,21 @@ st.set_page_config(
 with open('styles.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+# SEO Meta Tags for Search Engines (including Naver)
+# Note: Streamlit doesn't support direct head tag modification,
+# but these meta tags in body can still be recognized by some crawlers
+st.markdown("""
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="Yeti" content="index, follow">
+    <meta name="NaverBot" content="index, follow">
+    <meta name="description" content="Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼">
+    <meta name="keywords" content="주식분석, AI투자, 주식차트, 투자조언, 주식뉴스, 감성분석, 실시간지수">
+    <meta property="og:title" content="Stock Insight AI - 스마트 투자 분석 플랫폼">
+    <meta property="og:description" content="AI 기반 실시간 주식 분석 및 투자 조언 서비스">
+    <meta property="og:type" content="website">
+""", unsafe_allow_html=True)
+
 # Major Indices
 MAJOR_INDICES = {
     "미국": [

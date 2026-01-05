@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# 네이버 검색로봇 허용
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+# 사이트맵 위치 (나중에 추가 가능)
+# Sitemap: https://stock-insight.app/sitemap.xml
+
