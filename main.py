@@ -762,9 +762,12 @@ async def etf_explorer_post(request: Request, ticker: str = Form(...)):
 @app.get("/robots.txt")
 async def robots():
     """Serve robots.txt"""
-    with open("static/robots.txt", "r", encoding="utf-8") as f:
-        from fastapi.responses import Response
-        return Response(content=f.read(), media_type="text/plain")
+    from fastapi.responses import PlainTextResponse
+    import os
+    robots_path = os.path.join("static", "robots.txt")
+    with open(robots_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return PlainTextResponse(content=content, headers={"Cache-Control": "public, max-age=3600"})
 
 @app.get("/sitemap.xml")
 async def sitemap():
