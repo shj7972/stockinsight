@@ -286,7 +286,7 @@ def get_analysis_context(ticker: str):
     }
 
 @app.get("/", response_class=HTMLResponse)
-async def home(request: Request, ticker: str = None):
+async def home(request: Request, ticker: str = ""):
     """Main page with stock analysis"""
     
     # Dynamic Rankings
