@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block title %}환율 계산기 - Stock Insight AI{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">💱</span> 환율 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">실시간 환율 정보를 바탕으로 환전 금액을 계산합니다.</p>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="border-color: #fca5a5; color: #fca5a5;">
+    ⚠️ {{ error }}
+</div>
+{% else %}
+<div style="display: grid; grid-template-columns: 1fr 0.2fr 1fr; align-items: center; gap: 1rem; margin-bottom: 3rem;">
+    <!-- From -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📤 보내는 금액</h3>
+        <input type="number" id="amount" value="1" min="0" step="any" class="styled-input"
+            style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">
+        <select id="fromCurr" class="styled-select">
+            <option value="USD">USD (미국 달러)</option>
+            <option value="KRW">KRW (한국 원)</option>
+            <option value="JPY">JPY (일본 엔)</option>
+            <option value="EUR">EUR (유로)</option>
+            <option value="GBP">GBP (영국 파운드)</option>
+            <option value="CNY">CNY (중국 위안)</option>
+            <option value="AUD">AUD (호주 달러)</option>
+            <option value="CAD">CAD (캐나다 달러)</option>
+        </select>
+    </div>
+
+    <!-- Icon -->
+    <div style="text-align: center; font-size: 2rem;">➡️</div>
+
+    <!-- To -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 받는 금액</h3>
+        <div id="resultValue"
+            style="background: rgba(0,0,0,0.2); padding: 0.8rem; border-radius: 8px; font-size: 1.5rem; font-weight: bold; color: #38bdf8; margin-bottom: 1rem; border: 1px solid rgba(255,255,255,0.1); min-height: 50px;">
+            -
+        </div>
+        <select id="toCurr" class="styled-select">
+            <option value="KRW" selected>KRW (한국 원)</option>
+            <option value="USD">USD (미국 달러)</option>
+            <option value="JPY">JPY (일본 엔)</option>
+            <option value="EUR">EUR (유로)</option>
+            <option value="GBP">GBP (영국 파운드)</option>
+            <option value="CNY">CNY (중국 위안)</option>
+            <option value="AUD">AUD (호주 달러)</option>
+            <option value="CAD">CAD (캐나다 달러)</option>
+        </select>
+    </div>
+</div>
+
+<div class="glass-panel">
+    <h3>🌏 오늘 기준 환율 (1 USD 기준)</h3>
+    <div class="metrics-grid" style="margin-top: 0;">
+        <div class="metric-card">
+            <div class="metric-label">USD / KRW</div>
+            <div class="metric-value">{{ rates['KRW']|round(2) }} 원</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">USD / JPY</div>
+            <div class="metric-value">{{ rates['JPY']|round(2) }} 엔</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">EUR / USD</div>
+            <div class="metric-value">{{ (1 / rates['EUR'])|round(4) }} 달러</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">GBP / USD</div>
+            <div class="metric-value">{{ (1 / rates['GBP'])|round(4) }} 달러</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">USD / CNY</div>
+            <div class="metric-value">{{ rates['CNY']|round(2) }} 위안</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">AUD / USD</div>
+            <div class="metric-value">{{ (1 / rates['AUD'])|round(4) }} 달러</div>
+        </div>
+    </div>
+</div>
+
+{% if analysis %}
+<div class="glass-panel" style="background: rgba(30, 41, 59, 0.6); border: 1px solid rgba(56, 189, 248, 0.2);">
+    <h3 style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0;">
+        <span>🤖</span> AI 스마트 환전 어드바이저 (최근 1개월 기준)
+    </h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <!-- USD Advice -->
+        <div class="advice-card"
+            style="background: rgba(15, 23, 42, 0.4); padding: 1rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 0.5rem; color: #e2e8f0;">🇺🇸 USD/KRW 전략
+            </div>
+            <div
+                style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem; 
+                color: {% if '매수' in analysis['USD']['status'] %}#4ade80{% elif '관망' in analysis['USD']['status'] %}#f87171{% else %}#fbbf24{% endif %};">
+                {{ analysis['USD']['status'] }}
+            </div>
+            <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 1rem; line-height: 1.4;">{{
+                analysis['USD']['message'] }}</p>
+            <div
+                style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; font-size: 0.8rem; color: #94a3b8; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.5rem;">
+                <div>
+                    <div>현재</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['USD']['current'] }}</div>
+                </div>
+                <div>
+                    <div>30일 평균</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['USD']['avg'] }}</div>
+                </div>
+                <div>
+                    <div>30일 최저</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['USD']['min'] }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JPY Advice -->
+        <div class="advice-card"
+            style="background: rgba(15, 23, 42, 0.4); padding: 1rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 0.5rem; color: #e2e8f0;">🇯🇵 JPY/KRW
+                (100엔) 전략</div>
+            <div
+                style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem;
+                color: {% if '매수' in analysis['JPY']['status'] %}#4ade80{% elif '관망' in analysis['JPY']['status'] %}#f87171{% else %}#fbbf24{% endif %};">
+                {{ analysis['JPY']['status'] }}
+            </div>
+            <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 1rem; line-height: 1.4;">{{
+                analysis['JPY']['message'] }}</p>
+            <div
+                style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; font-size: 0.8rem; color: #94a3b8; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.5rem;">
+                <div>
+                    <div>현재</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['JPY']['current'] }}</div>
+                </div>
+                <div>
+                    <div>30일 평균</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['JPY']['avg'] }}</div>
+                </div>
+                <div>
+                    <div>30일 최저</div>
+                    <div style="color: white; font-weight: 600;">{{ analysis['JPY']['min'] }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+
+<style>
+    .styled-input {
+        width: 100%;
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        color: white;
+        padding: 0.8rem;
+    }
+
+    .styled-select {
+        width: 100%;
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        color: white;
+        padding: 0.8rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .styled-select option {
+        background: #1e293b;
+        color: white;
+    }
+
+    @media (max-width: 768px) {
+        div[style*="grid-template-columns"] {
+            grid-template-columns: 1fr !important;
+        }
+
+        div[style*="text-align: center; font-size: 2rem;"] {
+            transform: rotate(90deg);
+        }
+    }
+</style>
+
+<script>
+    // Rates from server
+    const rates = {{ rates | tojson }};
+    const symbols = {
+        "USD": "$", "KRW": "₩", "JPY": "¥", "EUR": "€",
+        "GBP": "£", "CNY": "¥", "AUD": "A$", "CAD": "C$"
+    };
+
+    function convert() {
+        const amount = parseFloat(document.getElementById('amount').value);
+        const from = document.getElementById('fromCurr').value;
+        const to = document.getElementById('toCurr').value;
+
+        if (isNaN(amount)) return;
+
+        // Convert to Base (USD) first
+        // Rate is "How much of this currency for 1 USD"?
+        // e.g. KRW = 1300. 1 USD = 1300 KRW.
+        // Amount In USD = Amount / Rate
+
+        let valInUsd = amount / rates[from];
+        let valInTarget = valInUsd * rates[to];
+
+        document.getElementById('resultValue').innerText =
+            symbols[to] + " " + valInTarget.toLocaleString(undefined, { maximumFractionDigits: 2 });
+    }
+
+    document.getElementById('amount').addEventListener('input', convert);
+    document.getElementById('fromCurr').addEventListener('change', convert);
+    document.getElementById('toCurr').addEventListener('change', convert);
+
+    // Initial call
+    convert();
+</script>
+{% endblock %}

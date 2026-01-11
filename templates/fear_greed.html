@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}공포 & 탐욕 지수 - Stock Insight AI{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">😨</span> 공포 & 탐욕 지수 (Fear & Greed Index)
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">
+        시장 데이터를 기반으로 자체 분석한 현재 시장의 심리 상태입니다. (0: 극도의 공포 ~ 100: 극도의 탐욕)
+    </p>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="border-color: #fca5a5; color: #fca5a5;">
+    ⚠️ {{ error }}
+</div>
+{% else %}
+<div class="gauge-container glass-panel" style="text-align: center; padding: 2rem;">
+    <!-- Plotly Chart Injector -->
+    <div id="gauge-chart"></div>
+</div>
+
+<!-- History Trend Chart -->
+<div class="glass-panel" style="padding: 1.5rem; margin-top: 1.5rem;">
+    <div id="trend-chart"></div>
+</div>
+
+<div class="metrics-grid" style="margin-top: 2rem;">
+    <div class="metric-card" style="text-align: center;">
+        <div style="font-size: 0.9rem; color: #94a3b8;">시장 모멘텀 (S&P 500)</div>
+        <div style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem; color: #38bdf8;">
+            {{ details['Momentum Score'] }}
+        </div>
+        <div style="font-size: 0.8rem; color: #64748b; margin-top: 0.5rem;">추세 강도</div>
+    </div>
+
+    <div class="metric-card" style="text-align: center;">
+        <div style="font-size: 0.9rem; color: #94a3b8;">시장 변동성 (VIX)</div>
+        <div style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem; color: #38bdf8;">
+            {{ details['Volatility Score'] }}
+        </div>
+        <div style="font-size: 0.8rem; color: #64748b; margin-top: 0.5rem;">현재 VIX: {{ details['VIX']|round(2) }}</div>
+    </div>
+
+    <div class="metric-card" style="text-align: center;">
+        <div style="font-size: 0.9rem; color: #94a3b8;">매수 강도 (RSI)</div>
+        <div style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem; color: #38bdf8;">
+            {{ details['Strength Score'] }}
+        </div>
+        <div style="font-size: 0.8rem; color: #64748b; margin-top: 0.5rem;">현재 RSI: {{ details['RSI']|round(2) }}</div>
+    </div>
+</div>
+{% endif %}
+
+{% block extra_scripts %}
+<script>
+    {% if gauge_json %}
+    var gaugeData = {{ gauge_json | safe }};
+    Plotly.newPlot('gauge-chart', gaugeData.data, gaugeData.layout, { displayModeBar: false, responsive: true });
+    {% endif %}
+
+    {% if trend_json %}
+    var trendData = {{ trend_json | safe }};
+    Plotly.newPlot('trend-chart', trendData.data, trendData.layout, { displayModeBar: false, responsive: true });
+    {% endif %}
+</script>
+{% endblock %}
+{% endblock %}

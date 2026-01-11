@@ -1,16 +1,32 @@
+# 모든 검색로봇 허용
 User-agent: *
 Allow: /
+Disallow: /static/
+Disallow: /__pycache__/
 
 # 네이버 검색로봇 명시적 허용
 User-agent: Yeti
 Allow: /
+Crawl-delay: 1
 
 User-agent: NaverBot
 Allow: /
+Crawl-delay: 1
 
 # 구글 검색로봇
 User-agent: Googlebot
 Allow: /
 
-# 사이트맵 위치 (나중에 추가 가능)
-# Sitemap: https://stock-insight.app/sitemap.xml
+User-agent: Googlebot-Image
+Allow: /
+
+# 빙 검색로봇
+User-agent: Bingbot
+Allow: /
+
+# 다음 검색로봇
+User-agent: Daumoa
+Allow: /
+
+# 사이트맵 위치
+Sitemap: https://stock-insight.app/sitemap.xml

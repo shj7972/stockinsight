@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+
+{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else
+%}Stock Insight AI{% endif %}{% endblock %}
+
+{% block content %}
+<!-- Major Indices -->
+<div class="glass-panel indices-section">
+    <h3>📊 실시간 글로벌 지수</h3>
+    <div class="indices-grid">
+        {% for region, indices in indices_data.items() %}
+        {% for index in indices %}
+        <div class="index-card">
+            <div class="index-name">{{ index.name }}</div>
+            <div class="index-value">
+                {% if region == "한국" %}
+                {{ "{:,.0f}".format(index.current) }}
+                {% else %}
+                {{ "{:,.2f}".format(index.current) }}
+                {% endif %}
+            </div>
+            <div class="index-change {% if index.change >= 0 %}positive{% else %}negative{% endif %}">
+                {{ "{:+.2f}".format(index.change) }} ({{ "{:+.2f}".format(index.change_pct) }}%)
+            </div>
+        </div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+
+{% if stock_data %}
+<!-- Stock Analysis Section -->
+<div class="stock-header glass-panel {{ stock_data.verdict_class }}">
+    <div class="stock-title-section">
+        <h1 class="gradient-text">{{ stock_data.company_name }} ({{ stock_data.ticker }})</h1>
+        <div class="verdict-badge"
+            style="background: {{ stock_data.verdict_color }}22; color: {{ stock_data.verdict_color }}; border-color: {{ stock_data.verdict_color }}44;">
+            {{ stock_data.verdict }}
+        </div>
+    </div>
+    <div class="stock-price-section">
+        <div class="price-label">현재가</div>
+        <div class="price-value">{{ stock_data.currency_symbol }}{{ "{:,.2f}".format(stock_data.current_price) }}</div>
+        <div class="price-change {% if stock_data.delta >= 0 %}positive{% else %}negative{% endif %}">
+            {{ "{:+.2f}".format(stock_data.delta) }}
+        </div>
+    </div>
+</div>
+
+<!-- Tabs -->
+<div class="tabs-container">
+    <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('chart', this)">📊 차트 & 분석</button>
+        <button class="tab-btn" onclick="showTab('financial', this)">📋 재무 정보</button>
+        <button class="tab-btn" onclick="showTab('news', this)">📰 뉴스 & 평판</button>
+        <button class="tab-btn" onclick="showTab('advice', this)">🤖 AI 조언</button>
+    </div>
+
+    <!-- Chart Tab -->
+    <div id="chart-tab" class="tab-content active">
+        <div class="glass-panel" style="padding: 1.5rem;">
+            <div id="chart-container" style="width: 100%; height: 650px; min-height: 650px;"></div>
+        </div>
+    </div>
+
+    <!-- Financial Tab -->
+    <div id="financial-tab" class="tab-content">
+        <div class="glass-panel">
+            <h3>📝 기업 개요</h3>
+            <div class="summary-text">{{ stock_data.summary }}</div>
+        </div>
+
+        <div class="glass-panel">
+            <h3>💎 주요 지표</h3>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">시가총액</div>
+                    <div class="metric-value">{{ "{:,}".format(stock_data.market_cap) }}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">PER</div>
+                    <div class="metric-value">{{ stock_data.pe_ratio }}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">배당수익률</div>
+                    <div class="metric-value">
+                        {% if stock_data.dividend_yield %}
+                        {{ "{:.2f}".format(stock_data.dividend_yield) }}%
+                        {% else %}
+                        N/A
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Tab -->
+    <div id="news-tab" class="tab-content">
+        <div class="glass-panel">
+            <h3>🌍 실시간 뉴스 및 시장 심리</h3>
+        </div>
+
+        {% if stock_data.sentiment_details %}
+        <div class="glass-panel sentiment-summary">
+            <div class="sentiment-item">
+                <div class="sentiment-label">평균 감성 점수</div>
+                <div class="sentiment-value">{{ "{:.2f}".format(stock_data.sentiment_score) }}</div>
+                <div class="sentiment-range">(-1.0 ~ 1.0)</div>
+            </div>
+            <div class="sentiment-item">
+                <div class="sentiment-label">분석된 뉴스</div>
+                <div class="sentiment-value">{{ stock_data.news_count }}</div>
+                <div class="sentiment-range">개</div>
+            </div>
+        </div>
+
+        <div class="news-list">
+            {% for item in stock_data.sentiment_details %}
+            <details class="news-item">
+                <summary>
+                    <span class="sentiment-icon">
+                        {% if item.compound > 0.05 %}🟢
+                        {% elif item.compound < -0.05 %}🔴 {% else %}⚪{% endif %} </span>
+                            {{ item.translated_title }}
+                </summary>
+                <div class="news-details">
+                    <p><strong>출처:</strong> {{ item.publisher }}</p>
+                    <p><strong>감성 점수:</strong> {{ "{:.3f}".format(item.compound) }}</p>
+                    {% if item.link and item.link != '#' %}
+                    <p><a href="{{ item.link }}" target="_blank">기사 읽기</a></p>
+                    {% endif %}
+                </div>
+            </details>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="glass-panel">
+            <p>'{{ stock_data.ticker }}'에 대한 최신 뉴스를 찾을 수 없습니다.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Advice Tab -->
+    <div id="advice-tab" class="tab-content">
+        <div class="glass-panel">
+            <h3>💡 AI 투자 전략 제안</h3>
+        </div>
+
+        {% for advice in stock_data.advice_list %}
+        <div class="advice-item" style="border-left-color: {{ advice.color }}; background: {{ advice.color }}22;">
+            {{ advice.text }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    // Render Plotly chart
+    {% if stock_data and stock_data.chart_json %}
+    document.addEventListener('DOMContentLoaded', function () {
+        var chartData = {{ stock_data.chart_json | tojson | safe
+    }};
+    if (chartData && chartData.data && chartData.layout) {
+        Plotly.newPlot('chart-container', chartData.data, chartData.layout, {
+            responsive: true,
+            displayModeBar: false
+        });
+    } else {
+        console.error('Chart data is invalid:', chartData);
+    }
+    });
+    {% endif %}
+
+    // Tab functionality
+    function showTab(tabName, element) {
+        // Hide all tabs
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        // Show selected tab
+        document.getElementById(tabName + '-tab').classList.add('active');
+        element.classList.add('active');
+    }
+</script>
+{% else %}
+<div class="glass-panel welcome-section">
+    <h2>주식 티커를 입력하여 분석을 시작하세요</h2>
+    <p>좌측 사이드바에서 티커를 입력하거나 인기 주식을 선택하세요.</p>
+</div>
+{% endif %}
+{% endblock %}

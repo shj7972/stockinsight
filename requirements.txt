@@ -1,7 +1,13 @@
-streamlit
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
+starlette
 yfinance
 pandas
 plotly
 vaderSentiment
 stockstats
 deep-translator
+gunicorn
+requests

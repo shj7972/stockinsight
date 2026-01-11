@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="Yeti" content="index, follow">
+    <meta name="NaverBot" content="index, follow">
+    <meta name="description" content="Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼">
+    <meta name="keywords" content="주식분석, AI투자, 주식차트, 투자조언, 주식뉴스, 감성분석, 실시간지수">
+    <meta property="og:title" content="Stock Insight AI - 스마트 투자 분석 플랫폼">
+    <meta property="og:description" content="AI 기반 실시간 주식 분석 및 투자 조언 서비스">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stock-insight.app">
+    <meta property="og:image" content="https://stock-insight.app/static/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://stock-insight.app{% block canonical_path %}/{% endblock %}">
+
+    <title>{% block title %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endblock %}</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Plotly - Latest version -->
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/styles.css">
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar (Search & Tools) -->
+        <aside class="sidebar">
+            <div class="logo-container glass-panel">
+                <a href="/" style="text-decoration: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">📈</div>
+                    <h1>Stock Insight AI</h1>
+                    <div class="logo-subtitle">Smart Investment Intelligence</div>
+                    <div class="logo-line"></div>
+                </a>
+            </div>
+
+            <form method="POST" action="/" class="ticker-form">
+                <label for="ticker">티커 또는 종목명 입력</label>
+                <input type="text" id="ticker" name="ticker" value="{{ selected_ticker }}" placeholder="예: AAPL"
+                    required>
+                <button type="submit">검색</button>
+            </form>
+
+            <hr>
+
+            <div class="ticker-section">
+                <h3>🇺🇸 미국 인기 TOP 10</h3>
+                <div class="ticker-buttons">
+                    {% for tick, name in us_tickers %}
+                    <a href="/?ticker={{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="ticker-section">
+                <h3>🇰🇷 한국 인기 TOP 10</h3>
+                <div class="ticker-buttons">
+                    {% for tick, name in kr_tickers %}
+                    <a href="/?ticker={{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <hr>
+
+            <details class="tips-expander">
+                <summary>💡 사용 팁</summary>
+                <p>미국 주식 티커 (예: AAPL, TSLA) 또는 한국 주식 코드 (예: 005930.KS)를 입력하세요.</p>
+            </details>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Navigation Tabs -->
+            <nav class="content-nav">
+                <a href="/" class="nav-item {% if request.url.path == '/' %}active{% endif %}">
+                    <span>📊</span> 대시보드
+                </a>
+                <a href="/yield-calculator"
+                    class="nav-item {% if request.url.path == '/yield-calculator' %}active{% endif %}">
+                    <span>🧮</span> 수익률 계산기
+                </a>
+                <a href="/fear-greed-index"
+                    class="nav-item {% if request.url.path == '/fear-greed-index' %}active{% endif %}">
+                    <span>😨</span> 공포/탐욕 지수
+                </a>
+                <a href="/exchange-rate"
+                    class="nav-item {% if request.url.path == '/exchange-rate' %}active{% endif %}">
+                    <span>💱</span> 환율 계산기
+                </a>
+                <a href="/etf-explorer" class="nav-item {% if request.url.path == '/etf-explorer' %}active{% endif %}">
+                    <span>🔭</span> ETF 탐험가
+                </a>
+            </nav>
+
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="loader-content">
+            <img src="/static/loading_icon.png" alt="Loading...">
+            <div class="loader-text">AI 분석 중입니다...</div>
+        </div>
+    </div>
+
+    <script>
+        // Loading State & Double Submit Prevention
+        document.addEventListener('DOMContentLoaded', () => {
+            const overlay = document.getElementById('loading-overlay');
+            const forms = document.querySelectorAll('form');
+            const tickerBtns = document.querySelectorAll('.ticker-btn');
+
+            forms.forEach(form => {
+                form.addEventListener('submit', (e) => {
+                    const submitBtn = form.querySelector('button[type="submit"]');
+
+                    if (submitBtn) {
+                        // Prevent double click
+                        if (submitBtn.classList.contains('btn-disabled')) {
+                            e.preventDefault();
+                            return;
+                        }
+
+                        // Disable button & Show overlay
+                        submitBtn.classList.add('btn-disabled');
+                        submitBtn.innerHTML = '분석 중...';
+                        overlay.style.display = 'flex';
+                    }
+                });
+            });
+
+            // Ticker Button Clicks (Sidebar)
+            tickerBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    overlay.style.display = 'flex';
+                });
+            });
+        });
+
+        // Fix for "Back" button (Safari/Chrome BFCache)
+        window.onpageshow = function (event) {
+            if (event.persisted) {
+                const overlay = document.getElementById('loading-overlay');
+                if (overlay) overlay.style.display = 'none';
+
+                const disabledBtns = document.querySelectorAll('.btn-disabled');
+                disabledBtns.forEach(btn => {
+                    btn.classList.remove('btn-disabled');
+                    btn.innerHTML = '검색';
+                });
+            }
+        };
+    </script>
+
+    {% block extra_scripts %}{% endblock %}
+</body>
+
+</html>

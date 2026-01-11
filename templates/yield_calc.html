@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+
+{% block title %}수익률 계산기 - Stock Insight AI{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">🧮</span> 주식 수익률 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">매수/매도 금액과 수수료를 입력하여 예상 수익을 계산해보세요.</p>
+</div>
+
+<div class="calculator-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <!-- Inputs -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 입력 정보</h3>
+
+        <div class="input-group">
+            <label for="buyPrice">매수 단가</label>
+            <input type="number" id="buyPrice" value="10000" step="any" class="styled-input">
+        </div>
+
+        <div class="input-group">
+            <label for="quantity">수량 (주)</label>
+            <input type="number" id="quantity" value="10" step="1" class="styled-input">
+        </div>
+
+        <div class="input-group">
+            <label for="sellPrice">매도/현재 단가</label>
+            <input type="number" id="sellPrice" value="12000" step="any" class="styled-input">
+        </div>
+
+        <div class="input-group">
+            <label for="feeRate">거래 수수료율 (%)</label>
+            <input type="number" id="feeRate" value="0.015" step="0.001" class="styled-input">
+        </div>
+
+        <button onclick="calculate()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- Results -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">총 매수 금액 (수수료 포함)</div>
+            <div class="result-value" id="totalBuyCost">-</div>
+        </div>
+
+        <div class="result-item">
+            <div class="result-label">총 평가 금액 (수수료 제외)</div>
+            <div class="result-value" id="totalSellNet">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="result-item highlight">
+            <div class="result-label">최종 손익</div>
+            <div class="result-value" id="netProfit" style="font-size: 2rem;">-</div>
+            <div class="roi-badge" id="roiBadge">-</div>
+        </div>
+
+        <div class="breakdown" style="margin-top: 1.5rem; font-size: 0.9rem; color: #94a3b8;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>순수 매수금:</span>
+                <span id="rawBuy">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>순수 평가금:</span>
+                <span id="rawSell">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; color: #fca5a5;">
+                <span>총 수수료:</span>
+                <span id="totalFee">-</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group {
+        margin-bottom: 1.25rem;
+    }
+
+    .input-group label {
+        display: block;
+        color: #94a3b8;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .styled-input {
+        width: 100%;
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        color: white;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .action-btn {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+        background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+
+    .action-btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .result-item {
+        margin-bottom: 1rem;
+    }
+
+    .result-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #f8fafc;
+    }
+
+    @media (max-width: 768px) {
+        .calculator-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<script>
+    function calculate() {
+        const buyPrice = parseFloat(document.getElementById('buyPrice').value);
+        const quantity = parseFloat(document.getElementById('quantity').value);
+        const sellPrice = parseFloat(document.getElementById('sellPrice').value);
+        const feeRate = parseFloat(document.getElementById('feeRate').value);
+
+        if (isNaN(buyPrice) || isNaN(quantity) || isNaN(sellPrice)) return;
+
+        const totalBuy = buyPrice * quantity;
+        const totalSellGross = sellPrice * quantity;
+
+        const buyFee = totalBuy * (feeRate / 100);
+        const sellFee = totalSellGross * (feeRate / 100);
+        const totalFee = buyFee + sellFee;
+
+        const totalBuyCost = totalBuy + buyFee;
+        const totalSellNet = totalSellGross - sellFee;
+
+        const netProfit = totalSellNet - totalBuyCost;
+        const roi = totalBuyCost > 0 ? (netProfit / totalBuyCost) * 100 : 0;
+
+        // Format
+        const fmt = (num) => num.toLocaleString(undefined, { maximumFractionDigits: 0 });
+
+        document.getElementById('totalBuyCost').innerText = fmt(totalBuyCost);
+        document.getElementById('totalSellNet').innerText = fmt(totalSellNet);
+        document.getElementById('rawBuy').innerText = fmt(totalBuy);
+        document.getElementById('rawSell').innerText = fmt(totalSellGross);
+        document.getElementById('totalFee').innerText = '-' + fmt(totalFee);
+
+        const profitEl = document.getElementById('netProfit');
+        profitEl.innerText = (netProfit >= 0 ? '+' : '') + fmt(netProfit);
+        profitEl.style.color = netProfit >= 0 ? '#4CAF50' : '#f44336';
+
+        document.getElementById('roiBadge').innerText = (roi >= 0 ? '+' : '') + roi.toFixed(2) + '%';
+        document.getElementById('roiBadge').style.color = roi >= 0 ? '#4CAF50' : '#f44336';
+    }
+
+    // Run on load
+    calculate();
+</script>
+{% endblock %}
