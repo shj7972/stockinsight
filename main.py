@@ -760,6 +760,7 @@ async def etf_explorer_post(request: Request, ticker: str = Form(...)):
     return await etf_explorer(request, ticker)
 
 @app.get("/robots.txt")
+@app.head("/robots.txt")
 async def robots():
     """Serve robots.txt"""
     from fastapi.responses import PlainTextResponse
