@@ -10,6 +10,8 @@ from plotly.subplots import make_subplots
 import plotly
 import plotly.utils
 import json
+from datetime import datetime
+import time
 
 app = FastAPI(title="Stock Insight AI")
 
@@ -70,6 +72,9 @@ def get_popular_tickers(candidates, region_key, top_n=10):
     Uses caching to avoid frequent API calls.
     """
     import yfinance as yf
+    
+    today = datetime.now()
+    ONE_DAY_MS = 24 * 60 * 60 * 1000
     
     global _ranking_cache
     now = time.time()
@@ -206,6 +211,8 @@ def get_analysis_context(ticker: str):
     """Reuseable function to analyze stock data"""
     if not ticker:
         return None
+    
+    ticker = ticker.strip()
 
     history, info = utils.get_stock_data(ticker)
     if history is None or history.empty:
@@ -268,12 +275,17 @@ def get_analysis_context(ticker: str):
         'verdict_class': verdict_class,
         'chart_json': chart_json,
         'summary': utils.translate_text(info.get('longBusinessSummary', '정보 없음')) if info.get('longBusinessSummary') != '정보 없음' else '정보 없음',
-        'market_cap': info.get('marketCap', 0),
-        'pe_ratio': info.get('trailingPE', 'N/A'),
-        'dividend_yield': info.get('dividendYield', 0) * 100 if info.get('dividendYield') else None,
+        'market_cap': utils.format_market_cap(info.get('marketCap', 0), ticker),
+        'pe_ratio': f"{info['trailingPE']:.2f}" if info.get('trailingPE') else 'N/A',
+        'dividend_yield': info.get('dividendYield', 0) if info.get('dividendYield') else None,
         'sentiment_score': sentiment_score,
         'sentiment_details': translated_news,
         'news_count': len(sentiment_details),
+        'pbr': f"{info['priceToBook']:.2f}" if info.get('priceToBook') else 'N/A',
+        'roe': f"{info['returnOnEquity']*100:.2f}%" if info.get('returnOnEquity') else 'N/A',
+        'eps': f"{info['trailingEps']:.2f}" if info.get('trailingEps') else 'N/A',
+        'week52_high': info.get('fiftyTwoWeekHigh'),
+        'week52_low': info.get('fiftyTwoWeekLow'),
         'advice_list': [
             {
                 'text': advice,

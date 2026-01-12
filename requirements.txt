@@ -11,3 +11,4 @@ stockstats
 deep-translator
 gunicorn
 requests
+beautifulsoup4

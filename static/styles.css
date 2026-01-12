@@ -781,20 +781,70 @@ a:hover {
 /* Responsive */
 @media (max-width: 1024px) {
     .sidebar {
-        display: none;
-        /* Hide sidebar */
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 4px 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
     }
 
     .main-content {
         margin-left: 0;
         width: 100%;
-        padding: 1rem;
+        padding: 4rem 1rem 1rem 1rem;
+        /* Top padding for menu btn */
     }
 
     .nav-links {
         width: 100%;
         justify-content: center;
         font-size: 0.8rem;
+    }
+
+    /* Mobile Menu Button */
+    .mobile-menu-btn {
+        display: flex !important;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        z-index: 2000;
+        background: rgba(30, 41, 59, 0.8);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: white;
+        padding: 0.5rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.5rem;
+        transition: all 0.2s;
+    }
+
+    .mobile-menu-btn:hover {
+        background: rgba(56, 189, 248, 0.2);
+    }
+
+    /* Sidebar Overlay */
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Fallback */
+        backdrop-filter: blur(4px);
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .sidebar-overlay.active {
+        display: block;
+        opacity: 1;
     }
 
     .nav-item {

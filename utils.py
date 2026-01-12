@@ -2,6 +2,8 @@ import yfinance as yf
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
+import requests
+from bs4 import BeautifulSoup
 
 def translate_text(text, target_lang='ko'):
     """Translates text to target language."""
@@ -40,8 +42,69 @@ def get_stock_data(ticker_symbol):
     except Exception as e:
         return None, None
 
+    except Exception as e:
+        return None, None
+
+def get_naver_news(ticker_code):
+    """Crawls news from Naver Finance for Korean stocks."""
+    try:
+        # Remove suffix (e.g. 005930.KS -> 005930)
+        code = ticker_code.split('.')[0]
+        url = f"https://finance.naver.com/item/news_news.naver?code={code}&page=1"
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Referer': f'https://finance.naver.com/item/main.naver?code={code}'
+        }
+        
+        response = requests.get(url, headers=headers)
+        # response.encoding = 'euc-kr' # Naver usually uses euc-kr but sometimes it varies
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        news_items = []
+        
+        # Select news tables (titles usually in 'title' class or link)
+        # Check if we got anything
+        articles = soup.select('td.title > a')
+        if not articles:
+             # Try fallback structure or logging
+             print(f"No articles found for {code}. Status: {response.status_code}")
+
+        providers = soup.select('td.info') # Press name
+        
+        for i, article in enumerate(articles):
+            if i >= 10: # Limit to 10 items
+                break
+                
+            title = article.get_text().strip()
+            link = "https://finance.naver.com" + article['href']
+            
+            # Provider parsing might not align perfectly with select list if structure varies,
+            # but usually it's parallel.
+            provider = "Naver Finance"
+            if i < len(providers):
+                provider = providers[i].get_text().strip()
+            
+            news_items.append({
+                'title': title,
+                'link': link,
+                'publisher': provider
+            })
+            
+        return news_items
+        
+    except Exception as e:
+        print(f"Naver News Error: {e}")
+        return []
+
 def get_news(ticker_symbol):
     """Fetches news for a given ticker."""
+    
+    # Check if Korean stock
+    if ticker_symbol.endswith('.KS') or ticker_symbol.endswith('.KQ'):
+        return get_naver_news(ticker_symbol)
+
     try:
         ticker = yf.Ticker(ticker_symbol)
         news = ticker.news
@@ -137,36 +200,6 @@ def calculate_metrics(df):
     macd = exp12 - exp26
     signal = macd.ewm(span=9, adjust=False).mean()
     
-    df['macds'] = macd - signal # Using histogram/difference as signal strength indicator or just store signal?
-    # Wait, the original code used 'macds' which usually means MACD Signal line in stockstats? 
-    # Let's check stockstats docs or assumption. 
-    # stockstats 'macds' is the MACD Signal line.
-    # stockstats 'macd' is the MACD line.
-    # stockstats 'macdh' is the MACD Histogram.
-    
-    # My generate_advice uses 'macds'.
-    # "if macd > 0:" where macd = last_row['macds']
-    # "MACD가 상승 추세를 보이고 있습니다."
-    
-    # If I want to check trend, I should probably compare MACD line vs Signal line (Histogram).
-    # But if I stick to previous logic:
-    # "if macd > 0" -> implies MACD Signal > 0? Or MACD > 0?
-    # Let's assume 'macds' meant MACD Signal line.
-    
-    df['macds'] = macd # Let's just use the MACD line itself for simplicity if the logic was "MACD > 0" (Bullish trend above zero line)
-    # Or if the logic was "MACD > Signal" (Bullish crossover).
-    
-    # Let's look at generate_advice again.
-    # if macd > 0: advice.append("MACD가 상승 추세를 보이고 있습니다.")
-    # This usually means MACD histogram > 0 (MACD > Signal) OR MACD line > 0.
-    # Given the text "MACD가 상승 추세를 보이고 있습니다", it likely means MACD is increasing or positive.
-    # Let's use MACD Histogram (MACD - Signal) as 'macds' for "trend strength" or just MACD line.
-    
-    # To be safe and useful:
-    # Let's calculate MACD and Signal.
-    # And let 'macds' be the MACD line (value).
-    # Because "MACD > 0" is a standard check for bullish trend.
-    
     df['macds'] = macd
     
     return df
@@ -185,10 +218,23 @@ def analyze_sentiment(news_items):
                 title = item.get('title', '')
                 if not title or not title.strip():
                     continue
+                
+                # Setup Translator
+                # Check if text is likely Korean (simple heuristic)
+                is_korean = any(ord(char) >= 0xAC00 and ord(char) <= 0xD7A3 for char in title)
+                
+                text_to_analyze = title
+                if is_korean:
+                    try:
+                        # Translate to English for VADER
+                        translator = GoogleTranslator(source='auto', target='en')
+                        text_to_analyze = translator.translate(title)
+                    except:
+                        pass # Fallback to original text if translation fails
                     
-                score = analyzer.polarity_scores(title)
+                score = analyzer.polarity_scores(text_to_analyze)
                 sentiments.append({
-                    'title': title,
+                    'title': title, # Keep original title for display
                     'link': item.get('link', '#'),
                     'publisher': item.get('publisher', 'Unknown'),
                     'compound': score['compound'],
@@ -268,3 +314,35 @@ def generate_advice(metrics_df, sentiment_score):
         verdict = "강력 매도 (Strong Sell) 📉"
         
     return verdict, advice
+
+def format_market_cap(value, ticker):
+    """Formats market cap to readable string (e.g. 100조, $2B)."""
+    if not value:
+        return "N/A"
+    
+    try:
+        value = float(value)
+    except:
+        return str(value)
+
+    is_krw = ticker.endswith('.KS') or ticker.endswith('.KQ')
+    currency = "₩" if is_krw else "$"
+    
+    if is_krw:
+        # Korean Won (Unit: Jo, Eok)
+        if value >= 1000000000000: # 1 Jo
+            return f"{currency}{value/1000000000000:.2f}조"
+        elif value >= 100000000: # 1 Eok
+            return f"{currency}{value/100000000:.0f}억"
+        else:
+            return f"{currency}{value:,.0f}"
+    else:
+        # USD (Unit: T, B, M)
+        if value >= 1000000000000: # Trillion
+            return f"{currency}{value/1000000000000:.2f}T"
+        elif value >= 1000000000: # Billion
+            return f"{currency}{value/1000000000:.2f}B"
+        elif value >= 1000000: # Million
+            return f"{currency}{value/1000000:.2f}M"
+        else:
+             return f"{currency}{value:,.0f}"

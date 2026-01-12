@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endif %}{% endblock %}
+{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else
+%}Stock Insight AI - 스마트 투자 분석 플랫폼{% endif %}{% endblock %}
 
 {% block content %}
 <!-- Major Indices -->
@@ -74,7 +75,7 @@
             <div class="metrics-grid">
                 <div class="metric-card">
                     <div class="metric-label">시가총액</div>
-                    <div class="metric-value">{{ "{:,}".format(stock_data.market_cap) }}</div>
+                    <div class="metric-value">{{ stock_data.market_cap }}</div>
                 </div>
                 <div class="metric-card">
                     <div class="metric-label">PER</div>
@@ -85,6 +86,29 @@
                     <div class="metric-value">
                         {% if stock_data.dividend_yield %}
                         {{ "{:.2f}".format(stock_data.dividend_yield) }}%
+                        {% else %}
+                        N/A
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">PBR</div>
+                    <div class="metric-value">{{ stock_data.pbr }}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">ROE</div>
+                    <div class="metric-value">{{ stock_data.roe }}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">EPS</div>
+                    <div class="metric-value">{{ stock_data.eps }}</div>
+                </div>
+                <div class="metric-card" style="grid-column: span 2;">
+                    <div class="metric-label">52주 가격 범위</div>
+                    <div class="metric-value" style="font-size: 1.5rem;">
+                        {% if stock_data.week52_low and stock_data.week52_high %}
+                        {{ stock_data.currency_symbol }}{{ "{:,.2f}".format(stock_data.week52_low) }} ~
+                        {{ stock_data.currency_symbol }}{{ "{:,.2f}".format(stock_data.week52_high) }}
                         {% else %}
                         N/A
                         {% endif %}
