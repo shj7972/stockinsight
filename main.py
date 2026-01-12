@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request, Form
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from jinja2 import Template
 from starlette.templating import Jinja2Templates
@@ -338,6 +338,11 @@ async def home(request: Request, ticker: str = ""):
 async def search_stock(request: Request, ticker: str = Form(...)):
     """Handle stock search form submission"""
     return await home(request, ticker=ticker.upper())
+
+@app.get("/ads.txt", response_class=PlainTextResponse)
+async def ads_txt():
+    """Serve ads.txt for Google AdSense"""
+    return "google.com, pub-2947913248390883, DIRECT, f08c47fec0942fa0"
 
 @app.get("/yield-calculator", response_class=HTMLResponse)
 async def yield_calculator(request: Request):
