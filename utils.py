@@ -346,3 +346,27 @@ def format_market_cap(value, ticker):
             return f"{currency}{value/1000000:.2f}M"
         else:
              return f"{currency}{value:,.0f}"
+
+def format_price_short(value, ticker):
+    """Formats price to be short (e.g. 1.5만, $150)."""
+    if not value:
+        return "N/A"
+    
+    try:
+        value = float(value)
+    except:
+        return str(value)
+
+    is_krw = ticker.endswith('.KS') or ticker.endswith('.KQ')
+    currency = "₩" if is_krw else "$"
+    
+    if is_krw:
+        # Korean Won (Shorten >= 10,000)
+        if value >= 10000: 
+            # Example: 15300 -> 15,300
+            return f"{value:,.0f}"
+        else:
+            return f"{value:,.0f}"
+    else:
+        # USD (Standard 2 decimals)
+        return f"{currency}{value:,.2f}"

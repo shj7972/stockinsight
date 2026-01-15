@@ -284,8 +284,8 @@ def get_analysis_context(ticker: str):
         'pbr': f"{info['priceToBook']:.2f}" if info.get('priceToBook') else 'N/A',
         'roe': f"{info['returnOnEquity']*100:.2f}%" if info.get('returnOnEquity') else 'N/A',
         'eps': f"{info['trailingEps']:.2f}" if info.get('trailingEps') else 'N/A',
-        'week52_high': info.get('fiftyTwoWeekHigh'),
-        'week52_low': info.get('fiftyTwoWeekLow'),
+        'week52_high': utils.format_price_short(info.get('fiftyTwoWeekHigh'), ticker),
+        'week52_low': utils.format_price_short(info.get('fiftyTwoWeekLow'), ticker),
         'advice_list': [
             {
                 'text': advice,
@@ -787,6 +787,16 @@ async def robots():
         content = f.read()
     return PlainTextResponse(content=content, headers={"Cache-Control": "public, max-age=3600"})
 
+@app.get("/privacy-policy", response_class=HTMLResponse)
+async def privacy_policy(request: Request):
+    """Privacy Policy Page"""
+    return templates.TemplateResponse("privacy_policy.html", {"request": request})
+
+@app.get("/terms-of-service", response_class=HTMLResponse)
+async def terms_of_service(request: Request):
+    """Terms of Service Page"""
+    return templates.TemplateResponse("terms.html", {"request": request})
+
 @app.get("/sitemap.xml")
 async def sitemap():
     """Generate and serve dynamic sitemap.xml"""
@@ -832,6 +842,18 @@ async def sitemap():
         <lastmod>{today}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/privacy-policy</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>{base_url}/terms-of-service</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
     </url>
 """
     

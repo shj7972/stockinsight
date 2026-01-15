@@ -315,6 +315,8 @@ body::before {
     padding: 2rem;
     width: calc(100% - 300px);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Typography */
@@ -861,6 +863,20 @@ a:hover {
     .indices-grid {
         grid-template-columns: 1fr;
     }
+
+    /* Force 52-week range card to take full width on mobile if needed, or just ensure it fits */
+    .metric-card.wide-card {
+        grid-column: 1 / -1;
+    }
+
+    .metric-card.wide-card .metric-value {
+        font-size: 1.5rem;
+        /* Smaller font for long price ranges on mobile */
+        white-space: nowrap;
+        /* Prevent wrapping if simpler */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
 /* Loading Overlay */
@@ -1048,4 +1064,66 @@ a:hover {
     100% {
         transform: translateY(0px);
     }
+}
+
+/* Footer Styling */
+.app-footer {
+    padding: 2rem 1rem;
+    margin-top: auto;
+    /* Ensure space from content */
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.main-content {
+    /* Ensure content pushes footer down */
+    min-height: calc(100vh - 150px);
+    /* Adjust based on footer height approx to prevent overlay if content is short */
+    margin-bottom: 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+.separator {
+    color: #475569;
+    font-size: 0.8rem;
+}
+
+.footer-copyright {
+    color: #64748b;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-note {
+    color: #475569;
+    font-size: 0.75rem;
 }

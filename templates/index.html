@@ -103,12 +103,11 @@
                     <div class="metric-label">EPS</div>
                     <div class="metric-value">{{ stock_data.eps }}</div>
                 </div>
-                <div class="metric-card" style="grid-column: span 2;">
+                <div class="metric-card wide-card">
                     <div class="metric-label">52주 가격 범위</div>
-                    <div class="metric-value" style="font-size: 1.5rem;">
+                    <div class="metric-value">
                         {% if stock_data.week52_low and stock_data.week52_high %}
-                        {{ stock_data.currency_symbol }}{{ "{:,.2f}".format(stock_data.week52_low) }} ~
-                        {{ stock_data.currency_symbol }}{{ "{:,.2f}".format(stock_data.week52_high) }}
+                        {{ stock_data.week52_low }} ~ {{ stock_data.week52_high }}
                         {% else %}
                         N/A
                         {% endif %}
