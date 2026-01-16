@@ -833,23 +833,17 @@ async def api_og(ticker: str, price: str, change: str, pct: str, verdict: str, c
     
     # 3. Load Fonts
     try:
-        # Try asking for a system font. 
-        # On Windows 'arial.ttf' or 'malgun.ttf' (Malgun Gothic for KR) might work.
-        # On Linux usually need path.
-        # For this environment, we'll try a common one, else default.
-        font_large = ImageFont.truetype("malgun.ttf", 80)
-        font_medium = ImageFont.truetype("malgun.ttf", 50)
-        font_small = ImageFont.truetype("malgun.ttf", 30)
-    except:
-        try:
-            # Fallback for linux/other
-            font_large = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 80)
-            font_medium = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 50)
-            font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
-        except:
-             font_large = ImageFont.load_default()
-             font_medium = ImageFont.load_default()
-             font_small = ImageFont.load_default()
+        # Load local Korean font for server-side generation
+        font_path = "static/NanumGothic-Bold.ttf"
+        font_large = ImageFont.truetype(font_path, 80)
+        font_medium = ImageFont.truetype(font_path, 50)
+        font_small = ImageFont.truetype(font_path, 30)
+    except Exception as e:
+        # Fallback to default if font file is missing (text might break)
+        print(f"Font loading failed: {e}")
+        font_large = ImageFont.load_default()
+        font_medium = ImageFont.load_default()
+        font_small = ImageFont.load_default()
 
     # 4. Draw Text
     # Ticker
