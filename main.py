@@ -341,7 +341,8 @@ async def home(request: Request, ticker: str = ""):
                 "color": stock_data['verdict_color']
             }
             query = urllib.parse.urlencode(params)
-            og_image = f"/api/og?{query}"
+            import time
+            og_image = f"/api/og?{query}&v={int(time.time())}"
     
     return templates.TemplateResponse("index.html", {
         "request": request,
@@ -832,9 +833,13 @@ async def api_og(ticker: str, price: str, change: str, pct: str, verdict: str, c
     draw.ellipse((900, 400, 1400, 800), fill='#1e293b')
     
     # 3. Load Fonts
+    # 3. Load Fonts
     try:
         # Load local Korean font for server-side generation
-        font_path = "static/NanumGothic-Bold.ttf"
+        import os
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        font_path = os.path.join(base_dir, "static", "NanumGothic-Bold.ttf")
+        
         font_large = ImageFont.truetype(font_path, 80)
         font_medium = ImageFont.truetype(font_path, 50)
         font_small = ImageFont.truetype(font_path, 30)
