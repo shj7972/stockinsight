@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request, Form
-from fastapi.responses import HTMLResponse, PlainTextResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 from fastapi.staticfiles import StaticFiles
 from jinja2 import Template
 from starlette.templating import Jinja2Templates
@@ -10,6 +10,9 @@ from plotly.subplots import make_subplots
 import plotly
 import plotly.utils
 import json
+import io
+import urllib.parse
+from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 import time
 
@@ -301,6 +304,9 @@ def get_analysis_context(ticker: str):
 async def home(request: Request, ticker: str = ""):
     """Main page with stock analysis"""
     
+    # default OG
+    og_image = "/static/og-image.png"
+    
     # Dynamic Rankings
     us_tickers = get_popular_tickers(US_CANDIDATES, 'us')
     kr_tickers = get_popular_tickers(KR_CANDIDATES, 'kr')
@@ -324,6 +330,18 @@ async def home(request: Request, ticker: str = ""):
     stock_data = None
     if ticker:
         stock_data = get_analysis_context(ticker)
+        if stock_data:
+            # Construct dynamic OG URL
+            params = {
+                "ticker": stock_data['ticker'],
+                "price": f"{stock_data['current_price']:,.0f}",
+                "change": f"{stock_data['delta']:+,.0f}",
+                "pct": f"{(stock_data['delta']/stock_data['prev_price'])*100:+.2f}%",
+                "verdict": stock_data['verdict'].split('(')[0].strip() if '(' in stock_data['verdict'] else stock_data['verdict'], 
+                "color": stock_data['verdict_color']
+            }
+            query = urllib.parse.urlencode(params)
+            og_image = f"/api/og?{query}"
     
     return templates.TemplateResponse("index.html", {
         "request": request,
@@ -331,7 +349,9 @@ async def home(request: Request, ticker: str = ""):
         "stock_data": stock_data,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
-        "selected_ticker": ticker
+        "kr_tickers": kr_tickers,
+        "selected_ticker": ticker,
+        "og_image": og_image
     })
 
 @app.post("/", response_class=HTMLResponse)
@@ -796,6 +816,64 @@ async def privacy_policy(request: Request):
 async def terms_of_service(request: Request):
     """Terms of Service Page"""
     return templates.TemplateResponse("terms.html", {"request": request})
+
+@app.get("/api/og")
+async def api_og(ticker: str, price: str, change: str, pct: str, verdict: str, color: str):
+    """Generate dynamic OG image"""
+    
+    # 1. Create Base Image (Dark Theme)
+    W, H = 1200, 630
+    img = Image.new('RGB', (W, H), color='#0f172a')
+    draw = ImageDraw.Draw(img)
+    
+    # 2. visual elements (gradient-like background effect)
+    # Draw some subtle circles
+    draw.ellipse((-100, -100, 300, 300), fill='#1e293b')
+    draw.ellipse((900, 400, 1400, 800), fill='#1e293b')
+    
+    # 3. Load Fonts
+    try:
+        # Try asking for a system font. 
+        # On Windows 'arial.ttf' or 'malgun.ttf' (Malgun Gothic for KR) might work.
+        # On Linux usually need path.
+        # For this environment, we'll try a common one, else default.
+        font_large = ImageFont.truetype("malgun.ttf", 80)
+        font_medium = ImageFont.truetype("malgun.ttf", 50)
+        font_small = ImageFont.truetype("malgun.ttf", 30)
+    except:
+        try:
+            # Fallback for linux/other
+            font_large = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 80)
+            font_medium = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 50)
+            font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
+        except:
+             font_large = ImageFont.load_default()
+             font_medium = ImageFont.load_default()
+             font_small = ImageFont.load_default()
+
+    # 4. Draw Text
+    # Ticker
+    draw.text((100, 100), ticker, font=font_large, fill='#ffffff')
+    
+    # Price
+    price_text = f"{price} ({change} / {pct})"
+    draw.text((100, 220), price_text, font=font_medium, fill='#e2e8f0')
+    
+    # Verdict Box
+    # Calculate text size to center or draw box
+    # Simple draw:
+    draw.text((100, 350), "AI 분석 의견:", font=font_small, fill='#94a3b8')
+    draw.text((100, 400), verdict, font=font_large, fill=color)
+    
+    # Footer branding
+    draw.text((100, 550), "Stock Insight AI", font=font_small, fill='#64748b')
+    
+    # 5. Save to Buffer
+    buf = io.BytesIO()
+    img.save(buf, format='PNG')
+    buf.seek(0)
+    
+    return Response(content=buf.getvalue(), media_type="image/png")
 
 @app.get("/sitemap.xml")
 async def sitemap():

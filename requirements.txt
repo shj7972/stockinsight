@@ -12,3 +12,4 @@ deep-translator
 gunicorn
 requests
 beautifulsoup4
+Pillow

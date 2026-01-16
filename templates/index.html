@@ -37,6 +37,9 @@
             style="background: {{ stock_data.verdict_color }}22; color: {{ stock_data.verdict_color }}; border-color: {{ stock_data.verdict_color }}44;">
             {{ stock_data.verdict }}
         </div>
+        <button class="share-btn" onclick="shareResult()">
+            🔗 결과 공유
+        </button>
     </div>
     <div class="stock-price-section">
         <div class="price-label">현재가</div>
@@ -207,6 +210,30 @@
         // Show selected tab
         document.getElementById(tabName + '-tab').classList.add('active');
         element.classList.add('active');
+    }
+
+    // Share Functionality
+    function shareResult() {
+        // Force HTTPS and Production Domain
+        // This ensures shared links always point to the live site with correct OG tags.
+        // Even if testing on localhost, the shared link will lead to the real site.
+        const baseUrl = "https://stock-insight.app";
+        const currentParams = window.location.search; // keeps ?ticker=XYZ
+        const shareUrl = baseUrl + currentParams;
+
+        if (navigator.share) {
+            navigator.share({
+                title: '{{ stock_data.company_name }} 분석 결과',
+                text: '{{ stock_data.verdict }} - Stock Insight AI',
+                url: shareUrl
+            }).catch(console.error);
+        } else {
+            navigator.clipboard.writeText(shareUrl).then(function () {
+                alert('링크가 복사되었습니다! 친구들에게 공유해보세요.\n(복사된 주소: ' + shareUrl + ')');
+            }, function (err) {
+                alert('복사에 실패했습니다.');
+            });
+        }
     }
 </script>
 {% else %}

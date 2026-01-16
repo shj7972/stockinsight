@@ -20,7 +20,7 @@
     <meta property="og:description" content="AI 기반 실시간 주식 분석 및 투자 조언 서비스">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://stock-insight.app">
-    <meta property="og:image" content="https://stock-insight.app/static/og-image.png">
+    <meta property="og:image" content="https://stock-insight.app{{ og_image if og_image else '/static/og-image.png' }}">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/static/favicon.png">
