@@ -370,3 +370,397 @@ def format_price_short(value, ticker):
     else:
         # USD (Standard 2 decimals)
         return f"{currency}{value:,.2f}"
+
+
+# --- Caching Logic (TTL 5 mins) ---
+import time
+from functools import wraps
+
+CACHE_TTL = 300  # 5 minutes
+_memory_cache = {}
+
+def ttl_cache(func):
+    """Simple in-memory cache with time-to-live."""
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        # Helper to make args hashable (convert lists to tuples)
+        def make_hashable(value):
+            if isinstance(value, list):
+                return tuple(make_hashable(v) for v in value)
+            if isinstance(value, dict):
+                return tuple(sorted((k, make_hashable(v)) for k, v in value.items()))
+            return value
+
+        # Create a key based on function name and hashable arguments
+        hashable_args = tuple(make_hashable(a) for a in args)
+        hashable_kwargs = tuple(sorted((k, make_hashable(v)) for k, v in kwargs.items()))
+        
+        key = (func.__name__, hashable_args, hashable_kwargs)
+        
+        current_time = time.time()
+        
+        # Check cache
+        if key in _memory_cache:
+            result, timestamp = _memory_cache[key]
+            if current_time - timestamp < CACHE_TTL:
+                return result
+        
+        # Call function
+        result = func(*args, **kwargs)
+        
+        # Save to cache
+        _memory_cache[key] = (result, current_time)
+        return result
+    return wrapper
+
+# --- New Features: Sector & Sentiment Analysis ---
+
+import praw
+
+# Reddit API Credentials (User Provided)
+REDDIT_CLIENT_ID = "RqwuvRs-4nsicsM46f86Vw"
+REDDIT_CLIENT_SECRET = "uW6yIuz0IfSS5Ht-zVL-jyDkPKGeZQ"
+REDDIT_USER_AGENT = "android:shj_app:v1.0.0 (by /u/shj)" 
+
+@ttl_cache
+def get_sector_performance():
+    """Calculates 1-month Relative Strength (RS) vs SPY."""
+    # Sector ETFs
+    sectors = {
+        "XLK": "Technology",
+        "XLF": "Financials",
+        "XLV": "Healthcare",
+        "XLE": "Energy",
+        "XLY": "Consumer Disc.",
+        "XLP": "Consumer Staples",
+        "XLI": "Industrials",
+        "XLB": "Materials",
+        "XLU": "Utilities",
+        "XLRE": "Real Estate",
+        "IYZ": "Telecom" # Proxy
+    }
+    
+    performance_data = []
+    
+    try:
+        # Fetch SPY first for baseline
+        spy = yf.Ticker("SPY")
+        spy_hist = spy.history(period="3mo")
+        if spy_hist.empty:
+            return []
+            
+        spy_close = spy_hist['Close']
+        spy_1m_return = (spy_close.iloc[-1] / spy_close.iloc[-20] - 1) * 100
+        spy_3m_return = (spy_close.iloc[-1] / spy_close.iloc[0] - 1) * 100
+        
+        # Fetch Sector Data
+        tickers = list(sectors.keys())
+        data = yf.download(" ".join(tickers), period="3mo", progress="False")['Close']
+        
+        for ticker, name in sectors.items():
+            if ticker not in data:
+                continue
+                
+            series = data[ticker]
+            if len(series) < 20: 
+                continue
+            
+            curr = series.iloc[-1]
+            prev_1m = series.iloc[-20]
+            prev_3m = series.iloc[0]
+            
+            pct_1m = (curr / prev_1m - 1) * 100
+            pct_3m = (curr / prev_3m - 1) * 100
+            
+            # Relative Strength (RS) vs SPY
+            rs_1m = pct_1m - spy_1m_return
+            
+            performance_data.append({
+                'ticker': ticker,
+                'name': name,
+                'return_1m': pct_1m,
+                'return_3m': pct_3m,
+                'rs_1m': rs_1m, # Relative Strength
+                'current_price': curr
+            })
+            
+        # Sort by 1M RS
+        performance_data.sort(key=lambda x: x['rs_1m'], reverse=True)
+            
+    except Exception as e:
+        print(f"Sector Performance Error: {e}")
+        
+    return performance_data
+
+def get_cycle_recommendation(cycle_type):
+    """Returns recommended sectors based on economic cycle."""
+    # Simple mapping logic
+    recommendations = {
+        "rate_cut": {
+            "title": "금리 인하기 (Rate Cut)",
+            "desc": "유동성이 공급되며 성장주와 소비재가 유리합니다.",
+            "bullish": ["XLK (테크)", "XLY (임의소비재)", "XLRE (부동산)"],
+            "bearish": ["XLF (금융)"]
+        },
+        "rate_hike": {
+            "title": "금리 인상기 (Rate Hike)",
+            "desc": "은행의 이자 마진이 증가하여 금융주가 유리합니다.",
+            "bullish": ["XLF (금융)", "XLI (산업재)"],
+            "bearish": ["XLK (테크)", "XLRE (부동산)"]
+        },
+        "inflation": {
+            "title": "인플레이션 (Inflation)",
+            "desc": "물가 상승을 가격에 전가할 수 있는 원자재 관련주가 유리합니다.",
+            "bullish": ["XLE (에너지)", "XLB (소재)", "GLD (금)"],
+            "bearish": ["XLY (임의소비재)"]
+        },
+        "recession": {
+            "title": "경기 침체 (Recession)",
+            "desc": "경기가 나빠져도 소비를 줄이기 힘든 필수 소비재가 방어적입니다.",
+            "bullish": ["XLP (필수소비재)", "XLV (헬스케어)", "XLU (유틸리티)"],
+            "bearish": ["XLI (산업재)", "XLE (에너지)"]
+        },
+        "recovery": {
+            "title": "경기 회복 (Recovery)",
+            "desc": "경기가 바닥을 찍고 올라올 때 민감하게 반응하는 섹터입니다.",
+            "bullish": ["IWM (중소형주)", "XLI (산업재)", "XLY (임의소비재)"],
+            "bearish": ["XLU (유틸리티)"]
+        }
+    }
+    return recommendations.get(cycle_type, recommendations['rate_cut'])
+
+def get_reddit_sentiment(ticker):
+    """Fetches Reddit posts and calculates sentiment."""
+    posts = []
+    avg_score = 0
+    
+    try:
+        reddit = praw.Reddit(
+            client_id=REDDIT_CLIENT_ID,
+            client_secret=REDDIT_CLIENT_SECRET,
+            user_agent=REDDIT_USER_AGENT
+        )
+        
+        # Search specifically in WSB and Stocks
+        query = f"{ticker}"
+        # Fetch top recent posts
+        subreddit = reddit.subreddit("wallstreetbets+stocks+investing")
+        search_results = subreddit.search(query, sort='new', time_filter='month', limit=10)
+        
+        analyzer = SentimentIntensityAnalyzer()
+        scores = []
+        
+        for post in search_results:
+            # Simple filter to ensure ticker is actually relevant (basic)
+            if ticker not in post.title.upper() and ticker not in post.selftext.upper():
+                continue
+                
+            vs = analyzer.polarity_scores(post.title)
+            
+            posts.append({
+                'title': post.title,
+                'url': post.url,
+                'score': post.score, # Upvotes
+                'sentiment': vs['compound'],
+                'created': datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d')
+            })
+            scores.append(vs['compound'])
+            
+            if len(posts) >= 5:
+                break
+                
+        if scores:
+            avg_score = sum(scores) / len(scores)
+            
+    except Exception as e:
+        print(f"Reddit API Error: {e}")
+        return 0, []
+        
+    return avg_score, posts
+
+@ttl_cache
+def get_meme_candidates():
+    """
+    Identifies meme stock candidates based on:
+    1. High Volatility (ATR/Price)
+    2. Volume Spike (Vol / AvgVol)
+    3. Reddit Sentiment & mentions
+    """
+    candidates = ["CVNA", "UPST", "GME", "AMC", "PLTR", "SOFI", "MARA", "COIN", "TSLA", "NVDA"]
+    results = []
+    
+    try:
+        data = yf.download(" ".join(candidates), period="5d", progress=False)
+        # Handle MultiIndex
+        close = data['Close']
+        volume = data['Volume']
+        
+        for ticker in candidates:
+            if ticker not in close:
+                continue
+            
+            # 1. Volatility (Range)
+            high_price = close[ticker].max()
+            low_price = close[ticker].min()
+            volatility = (high_price - low_price) / low_price * 100
+            
+            # 2. Volume Spike
+            avg_vol = volume[ticker].mean()
+            curr_vol = volume[ticker].iloc[-1]
+            vol_ratio = curr_vol / avg_vol if avg_vol > 0 else 1
+            
+            # 3. Recent Performance
+            start_price = close[ticker].iloc[0]
+            end_price = close[ticker].iloc[-1]
+            pct_change = (end_price - start_price) / start_price * 100
+            
+            sentiment_score, _ = get_reddit_sentiment(ticker)
+            
+            # Score algorithm
+            meme_score = (volatility * 0.5) + (vol_ratio * 10) + (abs(pct_change) * 0.5)
+            
+            results.append({
+                'ticker': ticker,
+                'price': end_price,
+                'change_pct': pct_change,
+                'volatility': volatility,
+                'volume_ratio': vol_ratio,
+                'meme_score': meme_score,
+                'reddit_sentiment': sentiment_score
+            })
+            
+        # Sort by Meme Score
+        results.sort(key=lambda x: x['meme_score'], reverse=True)
+            
+    except Exception as e:
+        print(f"Meme Candidate Error: {e}")
+        
+    return results
+
+@ttl_cache
+def get_sector_history_data():
+    """Fetches history for sector trend chart."""
+    sectors = ["XLK", "XLF", "XLV", "XLE", "XLY", "XLP", "XLI", "XLB", "XLU", "XLRE"]
+    data_points = {}
+    
+    try:
+        # Fetch all + SPY
+        tickers = sectors + ["SPY"]
+        hist = yf.download(" ".join(tickers), period="3mo", progress=False)['Close']
+        
+        # Calculate % Change from start based on RS
+        # RS = Sector % Change - SPY % Change
+        if 'SPY' not in hist:
+            return None
+            
+        spy_pct = (hist['SPY'] / hist['SPY'].iloc[0] - 1) * 100
+        
+        df_rs = pd.DataFrame(index=hist.index)
+        
+        for s in sectors:
+            if s in hist:
+                s_pct = (hist[s] / hist[s].iloc[0] - 1) * 100
+                df_rs[s] = s_pct - spy_pct
+                
+        # Downsample for chart (every 3rd day roughly) to reduce payload
+        df_rs = df_rs.iloc[::2] 
+        
+        # Convert to simple Dict structure for frontend: { 'XLK': [{date, val}, ...], ... }
+        for col in df_rs.columns:
+            points = []
+            for date, val in df_rs[col].items():
+                points.append({
+                    'x': date.strftime('%Y-%m-%d'),
+                    'y': val
+                })
+            data_points[col] = points
+            
+    except Exception as e:
+        print(f"Sector History Error: {e}")
+        
+    return data_points
+
+@ttl_cache
+def get_sector_top_stocks(cycle_bullish_sectors):
+    """
+    Returns top performing stocks within the recommended sectors.
+    Hardcoded constituents for major sectors.
+    """
+    constituents = {
+        "XLK": ["AAPL", "MSFT", "NVDA", "AVGO", "ADBE"],
+        "XLF": ["JPM", "V", "MA", "BAC", "WFC"],
+        "XLV": ["LLY", "UNH", "JNJ", "MRK", "ABBV"],
+        "XLE": ["XOM", "CVX", "COP", "SLB", "EOG"],
+        "XLY": ["AMZN", "TSLA", "HD", "MCD", "NKE"],
+        "XLP": ["PG", "COST", "PEP", "KO", "WMT"],
+        "XLI": ["GE", "CAT", "UNP", "HON", "BA"],
+        "XLB": ["LIN", "SHW", "FCX", "APD", "NEM"],
+        "XLU": ["NEE", "SO", "DUK", "CEG", "AEP"],
+        "XLRE": ["PLD", "AMT", "EQIX", "PSA", "O"],
+        "IWM": ["MSTR", "SMCI", "CAR", "CROX", "ELF"], # Random midcaps
+        "GLD": ["NEM", "GOLD", "RGLD", "AEM", "KGC"] # Miners as proxy
+    }
+    
+    top_picks = []
+    
+    # Identify target ETFs from the strings "XLK (Tech)" -> "XLK"
+    targets = []
+    for s_str in cycle_bullish_sectors:
+        code = s_str.split(' ')[0]
+        targets.append(code)
+        
+    # Gather candidates
+    candidates = []
+    for t in targets:
+        candidates.extend(constituents.get(t, []))
+        
+    # Fetch data
+    if not candidates:
+        return []
+        
+    try:
+        data = yf.download(" ".join(candidates), period="2d", progress=False)['Close']
+        for ticker in candidates:
+            if ticker not in data:
+                continue
+                
+            series = data[ticker]
+            if len(series) < 2:
+                continue
+                
+            change_pct = (series.iloc[-1] / series.iloc[-2] - 1) * 100
+            
+            top_picks.append({
+                'ticker': ticker,
+                'price': series.iloc[-1],
+                'change_pct': change_pct,
+                'sector': next((k for k,v in constituents.items() if ticker in v), "Unknown")
+            })
+            
+        # Sort by best performance today
+        top_picks.sort(key=lambda x: x['change_pct'], reverse=True)
+        return top_picks[:6] # Top 6
+        
+    except Exception as e:
+        print(f"Top Stocks Error: {e}")
+        return []
+
+def get_keywords(text_list):
+    """Extracts top keywords from a list of titles."""
+    from collections import Counter
+    import re
+    
+    words = []
+    stopwords = ["THE", "AND", "TO", "OF", "A", "IN", "IS", "FOR", "ON", "WITH", "IT"]
+    
+    for text in text_list:
+        # Clean
+        clean = re.sub(r'[^a-zA-Z\s]', '', text).upper()
+        tokens = clean.split()
+        for t in tokens:
+            if len(t) > 2 and t not in stopwords:
+                words.append(t)
+                
+    count = Counter(words)
+    return count.most_common(15)
+

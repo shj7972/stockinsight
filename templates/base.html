@@ -47,6 +47,47 @@
 </head>
 
 <body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(15, 23, 42, 0.85);
+        backdrop-filter: blur(5px);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    ">
+        <div class="spinner" style="
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: #38bdf8;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        "></div>
+        <div style="font-size: 1.2rem; font-weight: bold;">데이터 분석 중...</div>
+        <div style="font-size: 0.9rem; color: #94a3b8; margin-top: 0.5rem;">최대 5~10초 정도 소요될 수 있습니다.</div>
+    </div>
+
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
     <div class="app-container">
         <!-- Mobile Menu Button -->
         <button class="mobile-menu-btn" onclick="toggleSidebar()" style="display: none;">
@@ -125,6 +166,14 @@
                 </a>
                 <a href="/etf-explorer" class="nav-item {% if request.url.path == '/etf-explorer' %}active{% endif %}">
                     <span>🔭</span> ETF 탐험가
+                </a>
+                <a href="/sector-analysis"
+                    class="nav-item {% if request.url.path == '/sector-analysis' %}active{% endif %}">
+                    <span>🏗️</span> 섹터 분석
+                </a>
+                <a href="/sentiment-analysis"
+                    class="nav-item {% if request.url.path == '/sentiment-analysis' %}active{% endif %}">
+                    <span>📢</span> 소셜 센티먼트
                 </a>
             </nav>
 
@@ -226,6 +275,28 @@
     </script>
 
     {% block extra_scripts %}{% endblock %}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Links that require loading screen
+            const heavyLinks = document.querySelectorAll('a[href="/sector-analysis"], a[href="/sentiment-analysis"]');
+            const overlay = document.getElementById('loading-overlay');
+
+            heavyLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    // Show overlay
+                    overlay.style.display = 'flex';
+                });
+            });
+
+            // Also show for cycle selector form submission in sector analysis
+            const forms = document.querySelectorAll('form[action="/sector-analysis"]');
+            forms.forEach(form => {
+                form.addEventListener('submit', function () {
+                    overlay.style.display = 'flex';
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

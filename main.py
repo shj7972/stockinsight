@@ -797,6 +797,104 @@ async def etf_explorer(request: Request, ticker: str = ""):
 async def etf_explorer_post(request: Request, ticker: str = Form(...)):
     return await etf_explorer(request, ticker)
 
+@app.get("/sector-analysis", response_class=HTMLResponse)
+async def sector_analysis(request: Request, cycle: str = "rate_cut"):
+    """Sector Analysis Page"""
+    import plotly.graph_objects as go
+    import json
+    
+    # 1. Get Recommendations
+    recommendation = utils.get_cycle_recommendation(cycle)
+    
+    # 2. Get Performance Data (Bar Chart)
+    perf_data = utils.get_sector_performance()
+    
+    # 3. Get History Data (Line Chart) [NEW]
+    history_data = utils.get_sector_history_data() # Returns dict {sector: [{x,y}...]}
+    
+    # 4. Get Top Stocks for Bullish Sectors [NEW]
+    top_stocks = utils.get_sector_top_stocks(recommendation['bullish'])
+    
+    # Create Bar Chart Logic (Same as before)
+    fig = go.Figure()
+    if perf_data:
+        tickers = [item['ticker'] for item in perf_data]
+        rs_vals = [item['rs_1m'] for item in perf_data]
+        colors = ['#4CAF50' if val > 0 else '#f44336' for val in rs_vals]
+        
+        fig.add_trace(go.Bar(
+            x=tickers,
+            y=rs_vals,
+            marker_color=colors,
+            text=[f"{val:+.1f}%" for val in rs_vals],
+            textposition='auto'
+        ))
+        
+    fig.update_layout(
+        title="최근 1개월 상대 강도 (vs SPY)",
+        template="plotly_dark",
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)',
+        font=dict(color='#94a3b8', family='Inter'),
+        margin=dict(l=20, r=20, t=40, b=20),
+        xaxis_title="섹터 ETF",
+        yaxis_title="상대 수익률 (%)",
+    )
+    chart_json = fig.to_json()
+    
+    return templates.TemplateResponse("sector.html", {
+        "request": request,
+        "current_cycle": cycle,
+        "recommendation": recommendation,
+        "chart_json": chart_json,
+        "trend_json": json.dumps(history_data) if history_data else "{}",
+        "top_stocks": top_stocks,
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/sentiment-analysis", response_class=HTMLResponse)
+async def sentiment_analysis(request: Request):
+    """Sentiment Analysis Page"""
+    import json
+    
+    meme_stocks = utils.get_meme_candidates()
+    
+    # Extract keywords from Meme Stock related text/news [NEW]
+    # For now, we simulate by collecting tickers and manual keywords since we don't have deep news db here
+    # Ideally, would call utilities.get_news(ticker) for each.
+    
+    # Simplified Word Cloud Source
+    all_titles = []
+    # Add dummy/real titles - in real app, fetch news for top meme stocks
+    for stock in meme_stocks[:3]:
+        # Try to fetch real reddit titles if earlier cache existed, or re-fetch (expensive)
+        # For performance, we'll just use ticker + status
+        all_titles.append(f"{stock['ticker']} stock analysis value")
+        
+    # Let's actually use Reddit titles if possible
+    # Note: get_meme_candidates calls get_reddit_sentiment internally but doesn't return titles.
+    # We might want to optimize this later. For now, we'll run a quick keyword check on Tickers themselves + Metadata
+    keywords = utils.get_keywords([s['ticker'] + " Stock Market Analysis" for s in meme_stocks])
+    
+    # Prepare JSON for Scatter Plot
+    meme_json = json.dumps([{
+        'ticker': s['ticker'],
+        'volatility': s['volatility'],
+        'volume_ratio': s['volume_ratio'],
+        'change_pct': s['change_pct'],
+        'meme_score': s['meme_score']
+    } for s in meme_stocks])
+    
+    return templates.TemplateResponse("sentiment.html", {
+        "request": request,
+        "meme_stocks": meme_stocks,
+        "meme_json": meme_json,
+        "keywords": keywords,
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
 @app.get("/robots.txt")
 @app.head("/robots.txt")
 async def robots():
@@ -807,6 +905,17 @@ async def robots():
     with open(robots_path, "r", encoding="utf-8") as f:
         content = f.read()
     return PlainTextResponse(content=content, headers={"Cache-Control": "public, max-age=3600"})
+
+@app.get("/sitemap.xml")
+@app.head("/sitemap.xml")
+async def sitemap():
+    """Serve sitemap.xml"""
+    from fastapi.responses import Response
+    import os
+    sitemap_path = os.path.join("static", "sitemap.xml")
+    with open(sitemap_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return Response(content=content, media_type="application/xml", headers={"Cache-Control": "public, max-age=3600"})
 
 @app.get("/privacy-policy", response_class=HTMLResponse)
 async def privacy_policy(request: Request):

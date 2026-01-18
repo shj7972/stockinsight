@@ -1,0 +1,175 @@
+{% extends "base.html" %}
+
+{% block title %}Stock Insight AI - 소셜 센티멘트{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <!-- Header -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h2 style="margin: 0; font-size: 1.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <span style="font-size: 2.2rem;">📢</span> 소셜 센티멘트 & 밈 스톡
+        </h2>
+        <p style="color: #94a3b8; margin-top: 0.5rem; font-size: 1.1rem;">
+            Reddit(WallStreetBets)과 뉴스를 분석하여 급등 잠재력이 있는 종목을 포착합니다.
+        </p>
+    </div>
+
+    <!-- Chart Guide -->
+    <details class="glass-panel" style="padding: 1rem; margin-bottom: 2rem; cursor: pointer;">
+        <summary style="font-weight: bold; color: #cbd5e1; display: flex; align-items: center;">
+            <span style="margin-right: 0.5rem;">ℹ️</span> 리스크 vs 보상 차트 보는 법 (클릭하여 열기)
+        </summary>
+        <div style="margin-top: 1rem; color: #94a3b8; font-size: 0.95rem; line-height: 1.6;">
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #ffeb3b;">X축 (오른쪽 이동):</strong> <span
+                    style="color:white;">거래량 급증 (Volume Surge)</span> — 평소 대비 거래량이 얼마나 폭발적인지를 나타냅니다.</p>
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #ffeb3b;">Y축 (위쪽 이동):</strong> <span
+                    style="color:white;">변동성 (Volatility)</span> — 주가 등락폭이 얼마나 큰지를 나타냅니다.</p>
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #ffeb3b;">원 크기 (Bubble):</strong> <span
+                    style="color:white;">밈 스코어 (Attention)</span> — 커뮤니티 언급량과 화제성이 클수록 원이 커집니다.</p>
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #ffeb3b;">원 색상 (Color):</strong> <span
+                    style="color:white;">등락률 (Change %)</span> — <span style="color:#4CAF50;">초록색은 상승</span>, <span
+                    style="color:#f44336;">빨간색은 하락</span>을 의미합니다.</p>
+            <div
+                style="background: rgba(255, 64, 129, 0.1); padding: 0.8rem; border-radius: 6px; margin-top: 0.5rem; border-left: 3px solid #ff4081;">
+                <strong>💡 해석 팁:</strong> 우측 상단(↗️)에 위치하고 원이 클수록 <b>"하이 리스크, 하이 리턴"</b> 종목입니다. 거래량이 터지면서 변동성이 크고 주목받고
+                있다는 뜻입니다.
+            </div>
+        </div>
+    </details>
+
+    <!-- Visualizations: Bubble Chart & Word Cloud -->
+    <style>
+        .sentiment-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .sentiment-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="sentiment-grid">
+        <!-- Bubble Chart -->
+        <div class="glass-panel" style="padding: 1rem;">
+            <h3 style="margin: 0 0 1rem 0;">🌪️ 리스크 vs 보상 (Risk Map)</h3>
+            <div id="risk-chart" style="width: 100%; height: 350px;"></div>
+        </div>
+
+        <!-- Keywords -->
+        <div class="glass-panel" style="padding: 1rem;">
+            <h3 style="margin: 0 0 1rem 0;">🗣️ 급상승 키워드</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                {% for word, count in keywords %}
+                <span style="
+                    background: rgba(255, 255, 255, {{ 0.1 + (count * 0.05) }});
+                    padding: 0.3rem 0.8rem;
+                    border-radius: 99px;
+                    font-size: {{ 0.8 + (count * 0.1) }}rem;
+                    color: white;
+                ">
+                    #{{ word }}
+                </span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Meme Stock Radar -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h3 style="margin-top: 0; color: #ff4081;">🚀 밈 스톡 레이더 (Meme Radar)</h3>
+        <p style="color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1.5rem;">최근 변동성, 거래량 급증, 소셜 언급량을 종합한 Top Picks</p>
+
+        <div class="ticker-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
+            {% for stock in meme_stocks %}
+            <div class="glass-panel"
+                style="padding: 1rem; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2);">
+                <div style="display: flex; justify-content: space-between; align-items: start;">
+                    <h4 style="margin: 0; font-size: 1.4rem; color: #38bdf8;">{{ stock.ticker }}</h4>
+                    <span
+                        style="background: rgba(255, 64, 129, 0.2); color: #ff4081; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: bold;">Score:
+                        {{ "%.1f"|format(stock.meme_score) }}</span>
+                </div>
+
+                <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #94a3b8;">가격</span>
+                        <span>${{ "%.2f"|format(stock.price) }}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #94a3b8;">변동률</span>
+                        <span style="color: {% if stock.change_pct > 0 %}#4CAF50{% else %}#f44336{% endif %};">
+                            {{ "%+.2f"|format(stock.change_pct) }}%
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #94a3b8;">거래량 급증</span>
+                        <span style="color: {% if stock.volume_ratio > 1.5 %}#ff9800{% else %}#cbd5e1{% endif %};">
+                            x{{ "%.1f"|format(stock.volume_ratio) }}
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #94a3b8;">Reddit 감성</span>
+                        <span
+                            style="color: {% if stock.reddit_sentiment > 0.1 %}#4CAF50{% elif stock.reddit_sentiment < -0.1 %}#f44336{% else %}#cbd5e1{% endif %};">
+                            {% if stock.reddit_sentiment > 0.1 %}😊 Bullish
+                            {% elif stock.reddit_sentiment < -0.1 %}😡 Bearish {% else %}😐 Neutral{% endif %} </span>
+                    </div>
+                </div>
+
+                <a href="/?ticker={{ stock.ticker }}" class="btn-primary"
+                    style="display: block; text-align: center; margin-top: 1rem; padding: 0.5rem; font-size: 0.9rem;">분석하기</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        var stocks = {{ meme_json | safe }};
+
+        var trace = {
+            x: stocks.map(s => s.volume_ratio),
+            y: stocks.map(s => s.volatility),
+            text: stocks.map(s => s.ticker),
+            mode: 'markers+text',
+            textposition: 'top center',
+            marker: {
+                size: stocks.map(s => 10 + s.meme_score * 2), // Size by Score
+                color: stocks.map(s => s.change_pct), // Color by Performance
+                colorscale: 'RdYlGn',
+                showscale: true,
+                colorbar: { title: 'Change %' }
+            },
+            type: 'scatter'
+        };
+
+        var layout = {
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: { color: '#94a3b8', family: 'Inter' },
+            margin: { l: 40, r: 20, t: 20, b: 20 },
+            xaxis: { title: 'Volume Surge (xAvg)', gridcolor: '#333' },
+            yaxis: { title: 'Volatility (%)', gridcolor: '#333' },
+            hovermode: 'closest'
+        };
+
+        Plotly.newPlot('risk-chart', [trace], layout, { responsive: true, displayModeBar: false });
+    </script>
+
+    <!-- Sentiment Analysis Table -->
+    <div class="glass-panel" style="padding: 1.5rem;">
+        <h3 style="margin-top: 0;">📰 실시간 뉴스 & 소셜 감성</h3>
+        <p style="color: #94a3b8; font-size: 0.9rem;">주요 종목의 최근 뉴스 헤드라인과 커뮤니티 반응을 분석한 결과입니다.</p>
+
+        <!-- Note: This could be a dynamic list or user input in simpler version -->
+        <div
+            style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; text-align: center; color: #94a3b8;">
+            원하는 종목을 대시보드에서 검색하면 더 상세한 뉴스 감성 분석을 볼 수 있습니다. <br>
+            위 밈 스톡 리스트는 실시간 데이터를 기반으로 자동 업데이트됩니다.
+        </div>
+    </div>
+</div>
+{% endblock %}

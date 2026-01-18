@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block title %}Stock Insight AI - 섹터 분석{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <!-- Header -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h2 style="margin: 0; font-size: 1.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <span style="font-size: 2.2rem;">🏗️</span> 경기 사이클 & 섹터 분석
+        </h2>
+        <p style="color: #94a3b8; margin-top: 0.5rem; font-size: 1.1rem;">
+            현재 경제 상황에 맞는 유망 섹터를 찾고, 섹터별 상대 강도(RS)를 분석하세요.
+        </p>
+    </div>
+
+    <!-- Cycle Selector -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h3 style="margin-top: 0;">🔃 경기 사이클 선택</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 1rem;">현재 경제가 어느 단계라고 생각하시나요?</p>
+
+        <form method="GET" action="/sector-analysis" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <select name="cycle" onchange="this.form.submit()" style="
+                background: rgba(0, 0, 0, 0.3);
+                border: 1px solid #475569;
+                color: white;
+                padding: 0.8rem 1rem;
+                border-radius: 8px;
+                font-size: 1rem;
+                min-width: 200px;
+                cursor: pointer;
+            ">
+                <option value="rate_cut" {% if current_cycle=='rate_cut' %}selected{% endif %}>📉 금리 인하기 (Rate Cut)
+                </option>
+                <option value="rate_hike" {% if current_cycle=='rate_hike' %}selected{% endif %}>📈 금리 인상기 (Rate Hike)
+                </option>
+                <option value="inflation" {% if current_cycle=='inflation' %}selected{% endif %}>🔥 인플레이션 (Inflation)
+                </option>
+                <option value="recession" {% if current_cycle=='recession' %}selected{% endif %}>🐻 경기 침체 (Recession)
+                </option>
+                <option value="recovery" {% if current_cycle=='recovery' %}selected{% endif %}>🌱 경기 회복 (Recovery)
+                </option>
+            </select>
+            <button type="submit" class="btn-primary" style="padding: 0.8rem 1.5rem;">확인</button>
+        </form>
+
+        {% if recommendation %}
+        <div
+            style="margin-top: 1.5rem; background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; padding: 1.2rem; border-radius: 4px;">
+            <h4 style="margin: 0 0 0.5rem 0; color: #38bdf8;">{{ recommendation.title }}</h4>
+            <p style="margin: 0 0 1rem 0; color: #e2e8f0;">{{ recommendation.desc }}</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                <div>
+                    <strong style="color: #4CAF50;">✅ 강세 예상 (Bullish)</strong>
+                    <ul style="margin: 0.5rem 0 0 1.5rem; color: #cbd5e1;">
+                        {% for item in recommendation.bullish %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div>
+                    <strong style="color: #f44336;">⚠️ 약세 예상 (Bearish)</strong>
+                    <ul style="margin: 0.5rem 0 0 1.5rem; color: #cbd5e1;">
+                        {% for item in recommendation.bearish %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Sector Guide (Korean) -->
+    <details class="glass-panel" style="padding: 1rem; margin-bottom: 2rem; cursor: pointer;">
+        <summary style="font-weight: bold; color: #cbd5e1; display: flex; align-items: center;">
+            <span style="margin-right: 0.5rem;">ℹ️</span> 미국 섹터 ETF 가이드 (클릭하여 열기)
+        </summary>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; margin-top: 1rem;">
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLK</span> 기술/테크</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLF</span> 금융</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLV</span> 헬스케어</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLE</span> 에너지</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLY</span> 임의소비재</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLP</span> 필수소비재</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLI</span> 산업재</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLB</span> 소재/기초소재</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLU</span> 유틸리티</div>
+            <div style="font-size: 0.9rem;"><span style="color: #ffeb3b; font-weight: bold;">XLRE</span> 리츠/부동산</div>
+        </div>
+    </details>
+
+    <!-- Sector Performance Heatmap -->
+    <!-- Sector Performance Heatmap -->
+    <style>
+        .chart-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="chart-grid">
+        <!-- Bar Chart -->
+        <div class="glass-panel" style="padding: 1.5rem;">
+            <h3 style="margin-top: 0;">📊 섹터별 상대 강도 (Bar)</h3>
+            <span style="font-size: 0.8rem; font-weight: normal; color: #94a3b8;">SPY 대비 1개월 초과 수익률</span>
+            <div id="sector-bar-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+
+        <!-- Trend Chart -->
+        <div class="glass-panel" style="padding: 1.5rem;">
+            <h3 style="margin-top: 0;">📈 섹터 모멘텀 추이 (Trends)</h3>
+            <span style="font-size: 0.8rem; font-weight: normal; color: #94a3b8;">최근 3개월 누적 상대강도 변화</span>
+            <div id="sector-line-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+    </div>
+
+    <!-- Top Picks (New) -->
+    {% if top_stocks %}
+    <div class="glass-panel" style="padding: 1.5rem;">
+        <h3 style="margin-top: 0; color: #ffeb3b;">💎 사이클 주도주 (Top Picks)</h3>
+        <p style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 1rem;">현재 강세 예상 섹터 내에서 오늘 가장 강한 종목들입니다.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+            {% for stock in top_stocks %}
+            <div style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; text-align: center;">
+                <div style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 0.3rem;">{{ stock.sector }}</div>
+                <div style="font-size: 1.5rem; font-weight: bold; color: white;">{{ stock.ticker }}</div>
+                <div
+                    style="font-size: 1.1rem; color: {% if stock.change_pct > 0 %}#4CAF50{% else %}#f44336{% endif %};">
+                    {{ "%+.2f"|format(stock.change_pct) }}%
+                </div>
+                <div style="font-size: 0.8rem; color: #cbd5e1; margin-top: 0.2rem;">${{ "%.2f"|format(stock.price) }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+<script>
+    // Bar Chart
+    var barData = {{ chart_json | safe }};
+    Plotly.newPlot('sector-bar-chart', barData.data, barData.layout, { responsive: true, displayModeBar: false });
+
+    // Line Chart
+    var lineDataRaw = {{ trend_json | safe }};
+    var traces = [];
+
+    // Create Traces
+    for (const [sector, points] of Object.entries(lineDataRaw)) {
+        traces.push({
+            x: points.map(p => p.x),
+            y: points.map(p => p.y),
+            mode: 'lines',
+            name: sector,
+            line: { width: 2 }
+        });
+    }
+
+    var lineLayout = {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { color: '#94a3b8', family: 'Inter' },
+        margin: { l: 40, r: 20, t: 30, b: 30 },
+        xaxis: { showgrid: false, gridcolor: '#333' },
+        yaxis: { showgrid: true, gridcolor: '#333', zeroline: true, zerolinecolor: '#666' },
+        showlegend: true,
+        legend: { orientation: 'h', y: -0.2 }
+    };
+
+    Plotly.newPlot('sector-line-chart', traces, lineLayout, { responsive: true, displayModeBar: false });
+</script>
+{% endblock %}
