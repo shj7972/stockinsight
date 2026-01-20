@@ -21,6 +21,8 @@ app = FastAPI(title="Stock Insight AI")
 # Static files and templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
+templates.env.globals['get_random_banners'] = utils.get_random_banners
+
 
 # Major Indices
 MAJOR_INDICES = {

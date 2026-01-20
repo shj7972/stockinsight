@@ -4,6 +4,39 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
 import requests
 from bs4 import BeautifulSoup
+import random
+
+# Banner Configuration
+BANNERS = [
+    {
+        "url": "https://promptgenie.kr",
+        "img": "/static/promptgenie_banner_234x60.png",
+        "title": "PromptGenie - AI 프롬프트 라이브러리",
+        "alt": "PromptGenie 배너"
+    },
+    {
+        "url": "https://unsedam.kr",
+        "img": "https://unsedam.kr/static/images/banner_link_234x60.png",
+        "title": "운세담 - 2026 무료 토정비결 & AI 사주",
+        "alt": "운세담 배너"
+    },
+    {
+        "url": "https://vibecheck.page",
+        "img": "https://vibecheck.page/images/vibecheck_banner_234x60.png",
+        "title": "VibeCheck - 나를 찾는 트렌디한 심리테스트",
+        "alt": "VibeCheck 배너"
+    },
+    {
+        "url": "https://irumlab.com",
+        "img": "https://irumlab.com/banner_link_234x60.png",
+        "title": "이룸랩 - 무료 셀프 작명, 영어 닉네임, 브랜드 네이밍",
+        "alt": "이룸랩 배너"
+    }
+]
+
+def get_random_banners(count=3):
+    """Returns a random selection of banners."""
+    return random.sample(BANNERS, min(len(BANNERS), count))
 
 def translate_text(text, target_lang='ko'):
     """Translates text to target language."""
