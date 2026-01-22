@@ -1,0 +1,83 @@
+[
+  {
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국거래소 6월부터 프리·애프터마켓 운영",
+      "추진 계획 발표",
+      "시장 활성화"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.9,
+    "type": "국내"
+  },
+  {
+    "title": "환율 상승 ‘한탕’ 노리는 외국인들…‘구조적 원화 약세’ 판단에 ‘환헤지’로 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IOGNKcXo0eDBxLU5XSkxBOFpnbG1KX3Z3a29PYjlnYnhOTDM3NFd3U1dFczlJaFlYQnVnMXVEUGNJaE9pNGozVkNoSGJ3MW8xRWh5V0VtZmhjVmhNdGJXclktaEt5ZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "외국 투자자들이 환율 상승에 주목",
+      "원화 약세 판단으로 환헤지 활발",
+      "한국 경제에 환율 변동이 영향"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
+    "publisher": "포브스코리아",
+    "summary": [
+      "한국의 모바일 경제 혁신",
+      "포부스코리아 금융 관련 기사",
+      "금융 분야 관련 정보"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "미국 경제가 위험 지대에 있는 가운데 부자들이 지출을 늘리고 있습니다 - Axios",
+    "original_title": "The rich are powering spending, with the U.S. economy in a danger zone - Axios",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ITEZxazBqbUViTzdKUFdOUy04bzhxU2VOV1VyYjhlUFdPRXpTeE9wXzRvcHdXYmtJNkZuYUhxY2pKZFRPWF9YNDV1clEwQlFoc0lWMFItNU4xVzRNWDR1SnFRRVBEV3JNOTJlS214Y1lNbVU?oc=5",
+    "publisher": "Axios",
+    "summary": [
+      "부자들이 소비 촉진",
+      "미국 경제 위험",
+      "위험 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 대통령이 그린란드 관련 관세를 철회한 후 미국 증시는 전날 급락의 절반을 회복했습니다.",
+    "original_title": "U.S. stocks recover half of the prior day's plunge after Trump calls off Greenland-related tariffs - Spectrum News",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObFdqbjNtV3FEelV2dDdxeWsxMFMxWE12N01NX213Ujd1YVBXbUpaaEtULXlubzNQS1RfT3RlLUlHR2h3bG1nNXZqUEVDNUc2N1N1U1ZGQ0s5aEU5c0FBYVVDSk1uTnIyc0lwdDVJb2JJXzE3VWdhSDVtMk9iVVRTekNoekhSRlFRMW9fcTVoVTZEblVIZkx5MnFYNEZYdVRCN2ZDRlBZdWQ5T1BQZFJVS1Z1Yk5aX2JVbDhZdHl3?oc=5",
+    "publisher": "Spectrum News",
+    "summary": [
+      "주식 반토막 회복",
+      "트럼프 녹화 관세 철회",
+      "평가: 긍정적"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프는 최근 시장 매도가 '땅콩'이었고 여기에서 주식이 두 배로 늘어날 것이라고 말했습니다 - Business Insider",
+    "original_title": "Trump says the recent market sell-off was 'peanuts' and sees stocks doubling from here - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlFwVm5xbnVRaVBJczVudTZHUzQ2X05mZFZrWHA1c3JwNTg1Y29OOTFMUU15Y1p4YWs0RXk5Z283UE5pNHpIbXpZZUtGemIwaDBxTVdBa1JidWZQMV9zMmxLTkRfZl9pLUktVTZhOC15SXVWRHY5N2pMNmN6M1Z6Ykw4UVZMWkVWZlc5Y3NPQk5vMll6Q0t3Y1J4N1gxT29taXBYdTZLQQ?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "트럼프, 최근 시장 하락 '사소하다'",
+      "주가 2배 상승 전망",
+      "주가 긍정적 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.9,
+    "type": "해외"
+  }
+]

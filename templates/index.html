@@ -241,5 +241,50 @@
     <h2>주식 티커를 입력하여 분석을 시작하세요</h2>
     <p>좌측 사이드바에서 티커를 입력하거나 인기 주식을 선택하세요.</p>
 </div>
+
+{% if news_data %}
+<div class="news-section-container">
+    <div class="news-header">
+        <h3 class="gradient-text">🔥 AI 실시간 금융 뉴스 브리핑</h3>
+        <span class="update-badge">매시간 자동 업데이트</span>
+    </div>
+
+    <div class="news-grid-cards">
+        {% for news in news_data %}
+        <div class="news-card glass-panel">
+            <div class="news-card-header">
+                <span class="news-type-badge type-{{ 'domestic' if news.type == '국내' else 'global' }}">{{ news.type
+                    }}</span>
+                <span class="news-sentiment-icon">
+                    {% if news.sentiment == 'POSITIVE' %}🟢 긍정
+                    {% elif news.sentiment == 'NEGATIVE' %}🔴 부정
+                    {% else %}⚪ 중립
+                    {% endif %}
+                </span>
+                <span class="publisher">{{ news.publisher }}</span>
+            </div>
+
+            <a href="{{ news.link }}" target="_blank" class="news-title-link">
+                <h4 class="news-title">{{ news.title }}</h4>
+            </a>
+
+            <div class="news-summary-box">
+                <ul class="summary-list">
+                    {% for point in news.summary %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="news-footer">
+                <a href="{{ news.link }}" target="_blank" class="read-more-btn">
+                    기사 원문 보기 ↗
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
 {% endif %}
 {% endblock %}

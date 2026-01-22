@@ -1189,3 +1189,82 @@ a:hover {
         background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(129, 140, 248, 0.15) 100%);
     }
 }
+
+/* News Grid Section */
+.news-section-container {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    /* Separating from footer */
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+/* ... existing badges ... */
+
+.news-grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    row-gap: 3rem;
+    /* Increased vertical spacing */
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(30, 41, 59, 0.4);
+}
+
+/* ... headers and badges ... */
+
+.news-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+    color: #f1f5f9;
+    display: -webkit-box;
+    /* Critical for line clamp */
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.2s;
+    height: 2.8em;
+    /* Force fixed height for 2 lines */
+}
+
+/* ... title link and summary box ... */
+
+.news-footer {
+    margin-top: auto;
+    text-align: right;
+}
+
+.read-more-btn {
+    display: inline-block;
+    width: auto;
+    padding: 0.4rem 0.5rem;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-weight: 500;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.read-more-btn:hover {
+    color: #38bdf8;
+    background: transparent;
+    text-decoration: underline;
+    transform: translateX(2px);
+}

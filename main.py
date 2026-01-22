@@ -23,6 +23,12 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 templates.env.globals['get_random_banners'] = utils.get_random_banners
 
+import news_manager
+
+@app.on_event("startup")
+async def startup_event():
+    news_manager.start_scheduler()
+
 
 # Major Indices
 MAJOR_INDICES = {
@@ -330,6 +336,8 @@ async def home(request: Request, ticker: str = ""):
     
     # Get stock data if ticker is provided
     stock_data = None
+    news_data = []
+
     if ticker:
         stock_data = get_analysis_context(ticker)
         if stock_data:
@@ -345,11 +353,15 @@ async def home(request: Request, ticker: str = ""):
             query = urllib.parse.urlencode(params)
             import time
             og_image = f"/api/og?{query}&v={int(time.time())}"
+    else:
+        # Load news only if on main page (no ticker)
+        news_data = news_manager.get_latest_news()
     
     return templates.TemplateResponse("index.html", {
         "request": request,
         "indices_data": indices_data,
         "stock_data": stock_data,
+        "news_data": news_data,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
         "kr_tickers": kr_tickers,
