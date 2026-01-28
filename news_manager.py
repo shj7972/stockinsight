@@ -177,7 +177,22 @@ def start_scheduler():
     scheduler.add_job(fetch_and_process_news, 'interval', minutes=60)
     scheduler.start()
     
-    # Check if data exists on startup, if not/old, run once
+    # Check if data exists and is fresh on startup
+    should_run_now = False
     if not os.path.exists(NEWS_DATA_FILE):
-         # Add a one-time job to run immediately (or with slight delay)
+        should_run_now = True
+    else:
+        try:
+            file_mod_time = datetime.fromtimestamp(os.path.getmtime(NEWS_DATA_FILE))
+            time_diff = datetime.now() - file_mod_time
+            if time_diff.total_seconds() > 50 * 60:  # 50 minutes
+                should_run_now = True
+        except Exception as e:
+            print(f"Error checking file freshness: {e}")
+            should_run_now = True
+
+    if should_run_now:
+         print(f"[{datetime.now()}] News data is missing or stale. Triggering immediate update.")
          scheduler.add_job(fetch_and_process_news, 'date', run_date=datetime.now())
+    else:
+         print(f"[{datetime.now()}] News data is fresh. Waiting for next scheduled run.")
