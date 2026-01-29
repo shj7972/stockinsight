@@ -913,27 +913,18 @@ async def sentiment_analysis(request: Request):
         "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
     })
 
-@app.get("/robots.txt")
-@app.head("/robots.txt")
+@app.get("/robots.txt", response_class=PlainTextResponse)
+@app.head("/robots.txt", response_class=PlainTextResponse)
 async def robots():
     """Serve robots.txt"""
-    from fastapi.responses import PlainTextResponse
     import os
     robots_path = os.path.join("static", "robots.txt")
-    with open(robots_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    return PlainTextResponse(content=content, headers={"Cache-Control": "public, max-age=3600"})
-
-@app.get("/sitemap.xml")
-@app.head("/sitemap.xml")
-async def sitemap():
-    """Serve sitemap.xml"""
-    from fastapi.responses import Response
-    import os
-    sitemap_path = os.path.join("static", "sitemap.xml")
-    with open(sitemap_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    return Response(content=content, media_type="application/xml", headers={"Cache-Control": "public, max-age=3600"})
+    if os.path.exists(robots_path):
+        with open(robots_path, "r", encoding="utf-8") as f:
+            content = f.read()
+    else:
+        content = "User-agent: *\nAllow: /"
+    return content
 
 @app.get("/privacy-policy", response_class=HTMLResponse)
 async def privacy_policy(request: Request):
