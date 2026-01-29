@@ -16,11 +16,16 @@ from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 import time
 
+import os
+
+# Set base directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 app = FastAPI(title="Stock Insight AI")
 
-# Static files and templates
-app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="templates")
+# Static files and templates with absolute paths
+app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
+templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
 templates.env.globals['get_random_banners'] = utils.get_random_banners
 
 import news_manager
