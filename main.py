@@ -27,7 +27,8 @@ import news_manager
 
 @app.on_event("startup")
 async def startup_event():
-    news_manager.start_scheduler()
+    # News updates are handled by an external script to prevent worker conflicts
+    pass
 
 
 # Major Indices

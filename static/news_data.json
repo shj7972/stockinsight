@@ -1,15 +1,28 @@
 [
   {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "title": "국민연금 주식 비중, 국내 올리고 해외 내린다…환율·시장 안정 조처 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwYTZFNUhEUTVwTGs3cFFfczVsampVNTBSb3hNdjVMdjlpR2RhZkdmOHdJT2hUT1Z2dVBsS1FObXVSNVhyR0hvcUwwS2JGM3cxcHowaVl3VnZtbDNkLTNrd1paamg4bDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소 6월부터 프리·애프터마켓 운영",
-      "추진 계획 발표",
-      "시장 활성화"
+      "국내 주식 비중 증가",
+      "해외 비중 감소",
+      "환율 시장 안정 조치"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.9,
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - seoul.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "seoul.co.kr",
+    "summary": [
+      "한국 경제는 회복세를 보인다",
+      "환율 하락 공식이 깨졌다",
+      "경제 전망에 불확실성이 존재한다"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,67 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IOGNKcXo0eDBxLU5XSkxBOFpnbG1KX3Z3a29PYjlnYnhOTDM3NFd3U1dFczlJaFlYQnVnMXVEUGNJaE9pNGozVkNoSGJ3MW8xRWh5V0VtZmhjVmhNdGJXclktaEt5ZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국 투자자들이 환율 상승에 주목",
-      "원화 약세 판단으로 환헤지 활발",
-      "한국 경제에 환율 변동이 영향"
+      "외국인, 환율 상승 노림수",
+      "구조적 원화 약세 우려",
+      "환 헤지 전략 활용"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
-    "publisher": "포브스코리아",
+    "title": "주목해야 할 4가지 주요 시장 신호 - invesco.com",
+    "original_title": "Four key market signals to watch - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56WTFZVTd5OW1GYmJlYmJUYVlfX0tJQjhwckdsSVYyVkJZeVlZQ21lVk9mbTVRZllzQTFrcF9UTHJTYUwwbGdHcmVjLU9CVjU4bm9UeXVYQXFRZTZhaWpMVFp5OVNLWXl2cmVPa1g1aWtVSHh1RU1vMTlXci1MazA?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "한국의 모바일 경제 혁신",
-      "포부스코리아 금융 관련 기사",
-      "금융 분야 관련 정보"
+      "주요 시장 신호 네 가지 주목",
+      "시장 흐름 변화 예측",
+      "투자 전략 조정 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "미국 경제가 위험 지대에 있는 가운데 부자들이 지출을 늘리고 있습니다 - Axios",
-    "original_title": "The rich are powering spending, with the U.S. economy in a danger zone - Axios",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ITEZxazBqbUViTzdKUFdOUy04bzhxU2VOV1VyYjhlUFdPRXpTeE9wXzRvcHdXYmtJNkZuYUhxY2pKZFRPWF9YNDV1clEwQlFoc0lWMFItNU4xVzRNWDR1SnFRRVBEV3JNOTJlS214Y1lNbVU?oc=5",
-    "publisher": "Axios",
-    "summary": [
-      "부자들이 소비 촉진",
-      "미국 경제 위험",
-      "위험 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "트럼프 대통령이 그린란드 관련 관세를 철회한 후 미국 증시는 전날 급락의 절반을 회복했습니다.",
-    "original_title": "U.S. stocks recover half of the prior day's plunge after Trump calls off Greenland-related tariffs - Spectrum News",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObFdqbjNtV3FEelV2dDdxeWsxMFMxWE12N01NX213Ujd1YVBXbUpaaEtULXlubzNQS1RfT3RlLUlHR2h3bG1nNXZqUEVDNUc2N1N1U1ZGQ0s5aEU5c0FBYVVDSk1uTnIyc0lwdDVJb2JJXzE3VWdhSDVtMk9iVVRTekNoekhSRlFRMW9fcTVoVTZEblVIZkx5MnFYNEZYdVRCN2ZDRlBZdWQ5T1BQZFJVS1Z1Yk5aX2JVbDhZdHl3?oc=5",
-    "publisher": "Spectrum News",
+    "title": "투자자들은 중간 선거로 향하는 '뜨거운' 미국 경제에 베팅했습니다 - Financial Times",
+    "original_title": "Investors bet on ‘hot’ US economy heading into midterm elections - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTS1MbUhiMS15a042TzZ3OFFXc05Yc25rSDNrZEpraGtxT3FUTHVldFR3X3VmYUZhVHVsZXhPQUhHZGJhQThPcXUzOWFsT3JtTzNHYzROVTQyWm1UUVRON3FzSHNqUEN5UXAwRFdtb3g?oc=5",
+    "publisher": "Financial Times",
     "summary": [
-      "주식 반토막 회복",
-      "트럼프 녹화 관세 철회",
-      "평가: 긍정적"
+      "투자자들이 미국 경제에 베팅",
+      "중간선거 앞두고 기대감 상승",
+      "경기 과열 조짐 보임"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "트럼프는 최근 시장 매도가 '땅콩'이었고 여기에서 주식이 두 배로 늘어날 것이라고 말했습니다 - Business Insider",
-    "original_title": "Trump says the recent market sell-off was 'peanuts' and sees stocks doubling from here - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlFwVm5xbnVRaVBJczVudTZHUzQ2X05mZFZrWHA1c3JwNTg1Y29OOTFMUU15Y1p4YWs0RXk5Z283UE5pNHpIbXpZZUtGemIwaDBxTVdBa1JidWZQMV9zMmxLTkRfZl9pLUktVTZhOC15SXVWRHY5N2pMNmN6M1Z6Ykw4UVZMWkVWZlc5Y3NPQk5vMll6Q0t3Y1J4N1gxT29taXBYdTZLQQ?oc=5",
-    "publisher": "Business Insider",
+    "title": "미국 주식 시장 하이라이트: 연준은 금리를 안정적으로 유지합니다. 파월은 미국 경제가 강하지만 인플레이션 위험으로 인해 금리 경로가 불분명하다고 말했습니다 - CNBC TV18",
+    "original_title": "US Stock Market Highlights: Fed holds rates steady; Powell says US economy strong but rate path unclear amid inflation risks - CNBC TV18",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdlVkSWw1alh2ZFBnUFNBV1JiOFRRck1SS3NOWnZWUFY1SWtRQ0hFaEJ1WUtXOFQ5dC1rWmlFWWlia2FuNm1meTU5UTdrVGdmVjBsa3hYZFN0U2lIQTVHRi1tY0J0Z2xrRUhnVzJ3NUl5clFlc1N5ckI0bWdkWExMQnJyR0paeEhRU3FaZzcyb19fZGNUVjVCRzNtcGNZZlVJeUZGOTNIdEY1SERWUG5COVFsSWJLSkM1ZHdnZW9tZVBiOEpic2JkOXJzQ1B5eDhuQzFQaw?oc=5",
+    "publisher": "CNBC TV18",
     "summary": [
-      "트럼프, 최근 시장 하락 '사소하다'",
-      "주가 2배 상승 전망",
-      "주가 긍정적 전망"
+      "연준, 금리 동결 결정",
+      "파월, 경제는 강하다고 언급",
+      "인플레이션 우려로 불확실성 존재"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.9,
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]

@@ -7,7 +7,6 @@ import json
 import random
 import time
 from datetime import datetime
-from apscheduler.schedulers.background import BackgroundScheduler
 from deep_translator import GoogleTranslator
 
 # File to store cached news
@@ -171,28 +170,17 @@ def get_latest_news():
     except:
         return []
 
-def start_scheduler():
-    scheduler = BackgroundScheduler()
-    # Run every hour
-    scheduler.add_job(fetch_and_process_news, 'interval', minutes=60)
-    scheduler.start()
-    
-    # Check if data exists and is fresh on startup
-    should_run_now = False
-    if not os.path.exists(NEWS_DATA_FILE):
-        should_run_now = True
-    else:
-        try:
-            file_mod_time = datetime.fromtimestamp(os.path.getmtime(NEWS_DATA_FILE))
-            time_diff = datetime.now() - file_mod_time
-            if time_diff.total_seconds() > 50 * 60:  # 50 minutes
-                should_run_now = True
-        except Exception as e:
-            print(f"Error checking file freshness: {e}")
-            should_run_now = True
+def update_news_now(force=False):
+    """
+    Manually triggers a news update.
+    If force is True, it will bypass the 50-minute freshness check.
+    """
+    # Check if data exists and is fresh (e.g. < 50 mins old)
+    if not force and os.path.exists(NEWS_DATA_FILE):
+        file_mod_time = datetime.fromtimestamp(os.path.getmtime(NEWS_DATA_FILE))
+        time_diff = datetime.now() - file_mod_time
+        if time_diff.total_seconds() < 50 * 60:  # 50 minutes
+            print(f"[{datetime.now()}] News data is fresh (updated {int(time_diff.total_seconds() // 60)} mins ago). Skipping.")
+            return
 
-    if should_run_now:
-         print(f"[{datetime.now()}] News data is missing or stale. Triggering immediate update.")
-         scheduler.add_job(fetch_and_process_news, 'date', run_date=datetime.now())
-    else:
-         print(f"[{datetime.now()}] News data is fresh. Waiting for next scheduled run.")
+    fetch_and_process_news()
