@@ -377,7 +377,10 @@ async def search_stock(request: Request, ticker: str = Form(...)):
 @app.get("/ads.txt", response_class=PlainTextResponse)
 async def ads_txt():
     """Serve ads.txt for Google AdSense"""
-    return "google.com, pub-2947913248390883, DIRECT, f08c47fec0942fa0"
+    import os
+    with open("ads.txt", "r", encoding="utf-8") as f:
+        content = f.read()
+    return content
 
 @app.get("/yield-calculator", response_class=HTMLResponse)
 async def yield_calculator(request: Request):

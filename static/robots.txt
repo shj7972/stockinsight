@@ -1,8 +1,8 @@
 # 모든 검색로봇 허용
 User-agent: *
 Allow: /
-Disallow: /static/
 Disallow: /__pycache__/
+Allow: /ads.txt
 
 # 네이버 검색로봇 명시적 허용
 User-agent: Yeti
