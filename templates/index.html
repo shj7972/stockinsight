@@ -1,7 +1,35 @@
 {% extends "base.html" %}
 
-{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else
-%}Stock Insight AI - 스마트 투자 분석 플랫폼{% endif %}{% endblock %}
+{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endif %}{% endblock %}
+
+{% block meta_description %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) AI 주식 분석 - 현재가, 기술적 분석, 뉴스 감성 분석, 매수/매도 의견 제공{% else %}Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼{% endif %}{% endblock %}
+
+{% block og_title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) - Stock Insight AI{% else %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endif %}{% endblock %}
+
+{% block og_description %}{% if stock_data %}{{ stock_data.company_name }}의 AI 기반 실시간 주식 분석 및 투자 의견{% else %}AI 기반 실시간 주식 분석 및 투자 조언 서비스{% endif %}{% endblock %}
+
+{% block canonical_path %}{% if stock_data %}/stock/{{ stock_data.ticker }}{% else %}/{% endif %}{% endblock %}
+
+{% block og_url %}{% if stock_data %}/stock/{{ stock_data.ticker }}{% endif %}{% endblock %}
+
+{% block structured_data %}
+{% if stock_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FinancialProduct",
+    "name": "{{ stock_data.company_name }} ({{ stock_data.ticker }})",
+    "description": "{{ stock_data.company_name }} AI 기반 주식 분석 - 현재가, 기술적 분석, 뉴스 감성 분석",
+    "url": "https://stock-insight.app/stock/{{ stock_data.ticker }}",
+    "provider": {
+        "@type": "Organization",
+        "name": "Stock Insight AI"
+    },
+    "category": "Stock Analysis"
+}
+</script>
+{% endif %}
+{% endblock %}
 
 {% block content %}
 <!-- Major Indices -->

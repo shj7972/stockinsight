@@ -314,17 +314,15 @@ def get_analysis_context(ticker: str):
         ]
     }
 
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request, ticker: str = ""):
-    """Main page with stock analysis"""
-    
+def _render_dashboard(request: Request, ticker: str = ""):
+    """Internal: render the dashboard/stock analysis page"""
     # default OG
     og_image = "/static/og-image.png"
-    
+
     # Dynamic Rankings
     us_tickers = get_popular_tickers(US_CANDIDATES, 'us')
     kr_tickers = get_popular_tickers(KR_CANDIDATES, 'kr')
-    
+
     # Get major indices data
     indices_data = {}
     for region, indices in MAJOR_INDICES.items():
@@ -339,7 +337,7 @@ async def home(request: Request, ticker: str = ""):
                     'change': change,
                     'change_pct': change_pct
                 })
-    
+
     # Get stock data if ticker is provided
     stock_data = None
     news_data = []
@@ -353,16 +351,15 @@ async def home(request: Request, ticker: str = ""):
                 "price": f"{stock_data['current_price']:,.0f}",
                 "change": f"{stock_data['delta']:+,.0f}",
                 "pct": f"{(stock_data['delta']/stock_data['prev_price'])*100:+.2f}%",
-                "verdict": stock_data['verdict'].split('(')[0].strip() if '(' in stock_data['verdict'] else stock_data['verdict'], 
+                "verdict": stock_data['verdict'].split('(')[0].strip() if '(' in stock_data['verdict'] else stock_data['verdict'],
                 "color": stock_data['verdict_color']
             }
             query = urllib.parse.urlencode(params)
-            import time
             og_image = f"/api/og?{query}&v={int(time.time())}"
     else:
         # Load news only if on main page (no ticker)
         news_data = news_manager.get_latest_news()
-    
+
     return templates.TemplateResponse("index.html", {
         "request": request,
         "indices_data": indices_data,
@@ -370,15 +367,28 @@ async def home(request: Request, ticker: str = ""):
         "news_data": news_data,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
-        "kr_tickers": kr_tickers,
         "selected_ticker": ticker,
         "og_image": og_image
     })
 
+@app.get("/", response_class=HTMLResponse)
+async def home(request: Request, ticker: str = ""):
+    """Main page - redirects to /stock/<ticker> if ticker query param is present"""
+    if ticker:
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse(url=f"/stock/{ticker.strip().upper()}", status_code=301)
+    return _render_dashboard(request)
+
 @app.post("/", response_class=HTMLResponse)
 async def search_stock(request: Request, ticker: str = Form(...)):
-    """Handle stock search form submission"""
-    return await home(request, ticker=ticker.upper())
+    """Handle stock search form submission - redirect to clean URL"""
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url=f"/stock/{ticker.strip().upper()}", status_code=302)
+
+@app.get("/stock/{ticker}", response_class=HTMLResponse)
+async def stock_detail(request: Request, ticker: str):
+    """Stock analysis with clean URL"""
+    return _render_dashboard(request, ticker=ticker.upper())
 
 @app.get("/ads.txt", response_class=PlainTextResponse)
 async def ads_txt():
@@ -1055,22 +1065,34 @@ async def sitemap():
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>{base_url}/sector-analysis</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/sentiment-analysis</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
 """
-    
-    # Add popular US stocks
+
+    # Add popular US stocks with clean URLs
     for tick, name in US_TOP_TICKERS[:8]:  # Top 8
         sitemap_xml += f"""    <url>
-        <loc>{base_url}/?ticker={tick}</loc>
+        <loc>{base_url}/stock/{tick}</loc>
         <lastmod>{today}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
 """
-    
-    # Add popular Korean stocks
+
+    # Add popular Korean stocks with clean URLs
     for tick, name in KR_TOP_TICKERS[:4]:  # Top 4
         sitemap_xml += f"""    <url>
-        <loc>{base_url}/?ticker={tick}</loc>
+        <loc>{base_url}/stock/{tick}</loc>
         <lastmod>{today}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>

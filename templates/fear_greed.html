@@ -1,6 +1,26 @@
 {% extends "base.html" %}
 
 {% block title %}공포 & 탐욕 지수 - Stock Insight AI{% endblock %}
+{% block meta_description %}실시간 공포 & 탐욕 지수 (Fear & Greed Index) - S&P 500 모멘텀, VIX 변동성, RSI 분석으로 시장 심리를 한눈에 파악하세요{% endblock %}
+{% block og_title %}공포 & 탐욕 지수 - Stock Insight AI{% endblock %}
+{% block og_description %}S&P 500 모멘텀, VIX, RSI 기반 시장 심리 분석 - 지금 시장은 공포인가 탐욕인가?{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "공포 & 탐욕 지수 - Stock Insight AI",
+    "description": "S&P 500 모멘텀, VIX 변동성, RSI 분석 기반 시장 심리 지표",
+    "url": "https://stock-insight.app/fear-greed-index",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "Stock Insight AI",
+        "url": "https://stock-insight.app"
+    }
+}
+</script>
+{% endblock %}
 
 {% block content %}
 <div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">

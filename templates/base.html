@@ -24,19 +24,20 @@
     <meta name="google-adsense-account" content="ca-pub-2947913248390883">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2947913248390883"
         crossorigin="anonymous"></script>
-    <meta name="description" content="Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼">
-    <meta name="keywords" content="주식분석, AI투자, 주식차트, 투자조언, 주식뉴스, 감성분석, 실시간지수">
-    <meta property="og:title" content="Stock Insight AI - 스마트 투자 분석 플랫폼">
-    <meta property="og:description" content="AI 기반 실시간 주식 분석 및 투자 조언 서비스">
+    <meta name="description" content="{% block meta_description %}Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼{% endblock %}">
+    <meta name="keywords" content="{% block meta_keywords %}주식분석, AI투자, 주식차트, 투자조언, 주식뉴스, 감성분석, 실시간지수{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}AI 기반 실시간 주식 분석 및 투자 조언 서비스{% endblock %}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://stock-insight.app">
+    <meta property="og:url" content="https://stock-insight.app{% block og_url %}{% endblock %}">
     <meta property="og:image" content="https://stock-insight.app{{ og_image if og_image else '/static/og-image.png' }}">
+    <meta property="og:locale" content="ko_KR">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/static/favicon.png">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://stock-insight.app{% block canonical_path %}/{% endblock %}">
+    <link rel="canonical" href="https://stock-insight.app{% block canonical_path %}{{ request.url.path }}{% endblock %}">
 
     <title>{% block title %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endblock %}</title>
 
@@ -52,6 +53,33 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/static/styles.css?v=3">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Stock Insight AI",
+        "url": "https://stock-insight.app",
+        "description": "AI 기반 실시간 주식 분석 및 투자 조언 플랫폼",
+        "inLanguage": "ko",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://stock-insight.app/stock/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Stock Insight AI",
+            "url": "https://stock-insight.app",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://stock-insight.app/static/og-image.png"
+            }
+        }
+    }
+    </script>
+    {% block structured_data %}{% endblock %}
 
     {% block extra_head %}{% endblock %}
 </head>
@@ -129,7 +157,7 @@
                 <h3>🇺🇸 미국 인기 TOP 10</h3>
                 <div class="ticker-buttons">
                     {% for tick, name in us_tickers %}
-                    <a href="/?ticker={{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
+                    <a href="/stock/{{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
                     {% endfor %}
                 </div>
             </div>
@@ -140,7 +168,7 @@
                 <h3>🇰🇷 한국 인기 TOP 10</h3>
                 <div class="ticker-buttons">
                     {% for tick, name in kr_tickers %}
-                    <a href="/?ticker={{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
+                    <a href="/stock/{{ tick }}" class="ticker-btn">{{ name }} ({{ tick }})</a>
                     {% endfor %}
                 </div>
             </div>

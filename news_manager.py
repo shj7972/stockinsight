@@ -159,16 +159,52 @@ def fetch_and_process_news():
     
     print(f"[{datetime.now()}] News Updated: {len(all_news)} items.")
 
+# GitHub raw URL for latest news data (updated by GitHub Actions)
+GITHUB_NEWS_URL = "https://raw.githubusercontent.com/shj7972/stockinsight/master/static/news_data.json"
+
+# In-memory cache for remote news data
+_news_cache = {
+    "data": None,
+    "ts": 0
+}
+NEWS_CACHE_TTL = 30 * 60  # 30 minutes
+
 def get_latest_news():
-    # Check if file exists
-    if not os.path.exists(NEWS_DATA_FILE):
-        return []
-    
+    """
+    Get latest news data.
+    Priority: 1) In-memory cache  2) GitHub raw (remote)  3) Local file fallback
+    """
+    now = time.time()
+
+    # 1. Return in-memory cache if fresh
+    if _news_cache["data"] and (now - _news_cache["ts"]) < NEWS_CACHE_TTL:
+        return _news_cache["data"]
+
+    # 2. Try fetching from GitHub (always has the latest from Actions)
     try:
-        with open(NEWS_DATA_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except:
-        return []
+        resp = requests.get(GITHUB_NEWS_URL, timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            if data:  # non-empty
+                _news_cache["data"] = data
+                _news_cache["ts"] = now
+                print(f"[{datetime.now()}] News loaded from GitHub raw URL ({len(data)} items)")
+                return data
+    except Exception as e:
+        print(f"[{datetime.now()}] GitHub news fetch failed: {e}")
+
+    # 3. Fallback to local file
+    if os.path.exists(NEWS_DATA_FILE):
+        try:
+            with open(NEWS_DATA_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                _news_cache["data"] = data
+                _news_cache["ts"] = now
+                return data
+        except Exception:
+            pass
+
+    return []
 
 def update_news_now(force=False):
     """
