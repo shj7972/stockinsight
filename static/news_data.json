@@ -4,8 +4,8 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책의 방향성 제시",
-      "시장 안정화 노력 강화",
+      "국가 경제 정책 방향 제시",
+      "투자 유치 적극 추진",
       "재정 건전성 유지 강조"
     ],
     "sentiment": "POSITIVE",
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제가 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제 불확실성 커짐"
+      "한국 경제 우상향 성장 중",
+      "환율 하락 공식 변화",
+      "경제 상황 불확실성 존재"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 증가",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 전망",
+      "경제적 자산 확대 추세 주목"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "AI 혼란 우려 확산으로 다우지수 500포인트 하락, S&P 500 1% 하락: 실시간 업데이트 - CNBC",
-    "original_title": "Dow drops 500 points, S&P 500 sheds 1% as AI disruption fears spread: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "다우지수 500포인트 하락",
-      "S&P 500 1% 감소",
-      "AI 우려가 확산"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "미국인들은 2026년에 경제 성장과 주식 시장 상승을 기대합니다 - Gallup 뉴스",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
     "publisher": "Gallup News",
     "summary": [
-      "미국인들은 2026년 성장 기대",
-      "주식 시장 상승 전망",
-      "경제 회복에 대한 긍정적 관점"
+      "미국인들, 2026년 경제 성장 기대",
+      "주식 시장 상승 예상",
+      "긍정적인 경제 전망 반영"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjU1aHpycm13bEFRellsUTJBbjg5N2JjbmR0WFphd28yVGNRMVFXR0pmRmgwS2xRdEZZV2tZWnZxSG0wUGpTTThpV0FJT0FvSENqODZnRXNBNjZnWUNXSGRPT2RvRUY2X2lKem9EVXB3dzNQcVVrVXhiLXdsUTJQWjNFcVc4UjN1Z2g4N09ZSzVIcUlycm9Ca0FfZXYydzNyS0tvOVJSRmQ3T3c?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "AI로 인한 시장 걱정 필요 없음",
-      "미국 경제 성장 기대감 높음",
-      "최고 분석가의 긍정적 전망"
+      "AI가 주식시장에 미칠 영향 없음",
+      "미국 경제 성장이 다가온다",
+      "낙관적 전망 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
+    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "경기 호조가 시장에 부정적 영향",
+      "투자자 심리 변화 관찰 필요",
+      "금리 인상 우려 지속"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
