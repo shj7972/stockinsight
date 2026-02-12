@@ -88,9 +88,9 @@ def fetch_rss_content(url):
         print(f"Fetch Error {url}: {e}")
         return None
 
-def fetch_and_process_news():
+def fetch_and_process_news(force=False):
     # Check if data exists and is fresh (e.g. < 50 mins old)
-    if os.path.exists(NEWS_DATA_FILE):
+    if not force and os.path.exists(NEWS_DATA_FILE):
         file_mod_time = datetime.fromtimestamp(os.path.getmtime(NEWS_DATA_FILE))
         time_diff = datetime.now() - file_mod_time
         if time_diff.total_seconds() < 50 * 60:  # 50 minutes
@@ -219,4 +219,4 @@ def update_news_now(force=False):
             print(f"[{datetime.now()}] News data is fresh (updated {int(time_diff.total_seconds() // 60)} mins ago). Skipping.")
             return
 
-    fetch_and_process_news()
+    fetch_and_process_news(force=force)

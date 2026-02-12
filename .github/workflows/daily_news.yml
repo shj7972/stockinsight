@@ -5,17 +5,20 @@ on:
     - cron: '0 * * * *' # Every hour
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -28,11 +31,36 @@ jobs:
       - name: Run news update
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python update_news.py
+        run: |
+          # Save hash before update
+          OLD_HASH=""
+          if [ -f static/news_data.json ]; then
+            OLD_HASH=$(md5sum static/news_data.json | cut -d' ' -f1)
+            echo "Before: hash=$OLD_HASH, size=$(wc -c < static/news_data.json) bytes"
+          fi
+
+          # Run the update
+          python update_news.py
+
+          # Verify result
+          echo "=== news_data.json check ==="
+          if [ -f static/news_data.json ]; then
+            NEW_HASH=$(md5sum static/news_data.json | cut -d' ' -f1)
+            echo "After: hash=$NEW_HASH, size=$(wc -c < static/news_data.json) bytes"
+            python -c "import json; d=json.load(open('static/news_data.json')); print(f'News items: {len(d)}')"
+            if [ "$OLD_HASH" = "$NEW_HASH" ]; then
+              echo "WARNING: news_data.json content unchanged!"
+            else
+              echo "SUCCESS: news_data.json was updated!"
+            fi
+          else
+            echo "ERROR: news_data.json was not created!"
+            exit 1
+          fi
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add static/news_data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update news data" && git push)
+          git add -f static/news_data.json
+          git diff --staged --quiet || (git commit -m "Auto-update news data [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git push)
