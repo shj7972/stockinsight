@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복에 대한 자신감",
-      "재정 정책 강화",
-      "지속 가능한 성장 목표"
+      "경제 성장 전략 설명",
+      "재정 정책 강조",
+      "투자 촉진 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 중",
-      "환율 하락 공식 무너지다",
-      "경제 전망 복잡해짐"
+      "한국 경제, 우상향 성장 중",
+      "환율 하락 공식 깨짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "한국 금융자산 성장세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "투자자들이 기술 분야에서 벗어나면서 S&P 500은 1% 하락하며 3일 연속 손실을 기록했습니다. 실시간 업데이트 - CNBC",
-    "original_title": "S&P 500 slides 1%, tracking for a third day of losses, as investors rotate out of tech: Live updates - CNBC",
+    "title": "AI 혼란 우려 확산으로 다우지수 500포인트 하락, S&P 500 1% 하락: 실시간 업데이트 - CNBC",
+    "original_title": "Dow drops 500 points, S&P 500 sheds 1% as AI disruption fears spread: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "S&P 500, 1% 하락",
-      "3일 연속 손실 중",
-      "투자자, 기술주 매도"
+      "다우지수 500포인트 하락",
+      "S&P 500 1% 감소",
+      "AI 영향 우려 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTnRJRmlReTVqYXNoM1o4ZUVpSHduN2tENXp2R0lWUnhxaFFpM3JKR3VVX0RNWnRVYVM0TXN2Vl9tVGFDdDlacmFSSXYyZXNSLXJKV3RLT1ppb0g3U0N5VGNDV3d6R3BCVjJjNkNiQkpMUy1lVmc0amJUVEtONXZ2Ny1CNDd6cnRseGIzMVBmMm5CeVhzd0tqaHpqbU1UWDNuX2h1eQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "S&P 500, 다우 지수 상승",
-      "경기 회복에 시장 반응",
-      "수익 발표에 집중 전환"
+      "S&P 500, Dow 상승",
+      "강한 경제에 대한 긍정적 반응",
+      "주목은 기업 실적으로 이동"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -73,8 +73,8 @@
     "publisher": "Gallup News",
     "summary": [
       "미국인들은 2026년 경제 성장 기대",
-      "주식 시장 상승 예상",
-      "긍정적인 경제 전망이 우세"
+      "주식 시장 상승 기대감",
+      "낙관적인 경제 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
