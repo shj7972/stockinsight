@@ -1,12 +1,25 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 전략 강조",
+      "재정 정책 개선 계획",
+      "투자 활성화 추진"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10억 이상 부자 47.6만명",
-      "주식 투자 유망",
-      "부동산보다 주식 선호"
+      "한국 부자, 금융자산 47.6만명",
+      "주식, 부동산보다 유망",
+      "부자 증가 추세 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세 미약하다는 경고",
-      "금융연의 전망 발표"
+      "한국 경제 내년 성장 2.1% 전망",
+      "회복세는 미약하다는 분석",
+      "전반적인 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 회복세에 대한 기대감",
-      "재정 정책의 중요성 강조",
-      "투자 촉진을 위한 계획 발표"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장 손실 마감",
-      "AI 우려가 계속됨",
-      "투자 심리 누그러짐"
+      "미국 주식시장, 손실 마감",
+      "AI 문제 지속 우려",
+      "투자자들 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "주식 시장의 반응 지속적 관찰 필요",
-      "경제 지표와 주식의 관계 복잡함",
-      "긍정적 뉴스가 부정적 결과 초래 가능"
+      "주식 시장 반등이 부정적 요인",
+      "경제 지표 개선에도 우려",
+      "인플레이션 지속 가능성 문제"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "Dow는 강력한 일자리 보고서에 대한 흥분이 사라지면서 3일 연속 승리를 거두었습니다: 라이브 업데이트 - CNBC",
+    "original_title": "Dow snaps three-day win streak as excitement over strong jobs report fizzles out: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHRlJZNmxmYTJJQUxDOXZ2eHdvZjFEWWFPSGY1RWhqTkNzSm1yX3V0QW9JT3dieXNLbHBraklFa1Zoekh5dkdGY2Jpa0lOd0NEQl9rMUZ3TEJXYkhsMGRQNi0tV3lJUGtRTm8yUFlqNmFDYVEwTnE40gF8QVVfeXFMT3ZaTnYtOWxoWExNM2Y5RnNFZTNPQWl6em5VOW4zVTY0dTFSQWY2V0Y1SVFXRWdXdmtDa2g2S1hjdEc1czNfZUI4YUtyMVhaS2czZ1cxei1xRFVHS05NT2tEdEgzYklwSjhlQXJRUThzbG1NdUpjUkgtcXQ0Tg?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "트럼프 행정부 하 주식시장 상승",
-      "세금 인하 효과 보기",
-      "경제 성장률 증가"
+      "다우, 3일 연속 상승 중단",
+      "강력한 고용 보고서 효과 감소",
+      "시장 반응이 부정적임"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
