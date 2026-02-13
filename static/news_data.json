@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 정책 강조",
-      "재정 건전성 유지",
-      "청년 일자리 창출 계획"
+      "경제 안정성 강조",
+      "정책 방향 조정 필요성",
+      "투자 유치 전략 제시"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부유층 47.6만명 확인",
+      "주식이 투자 유망 자산",
+      "부동산 투자 감소 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약할 것으로 보임",
-      "전반적 경제 불확실성 지속"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세 여전한 미약",
+      "금융연의 경제 분석 제공"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.5,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 증시, AI 우려 속 하락",
-      "투자자들 매도 심리 강화",
-      "AI 관련 주식 압박 지속"
+      "미국 주식시장 손실 마감",
+      "AI 관련 우려 지속",
+      "투자자 신뢰 약화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 대선 성과 주가 상승",
-      "세금 정책 긍정적 영향",
-      "투자 신뢰도 향상"
+      "트럼프 정부 하 주식 시장 상승",
+      "감세 정책 효과 분석",
+      "투자자 신뢰도 향상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOHdHN3FQSTFMRHYwOTFyZDBFUEFDVndWLWcwbHZpTEt0WTdnUjkxMUtxcWVmczFyaEhlUTlha0RnWXV4RGRuTVFnVlJ5Wm5RX1NEak12aUxMXzlpSUtfV0RGUFZ5M3R2TTZ5U3RTcDVEX3dDcjNmbDFZbnoySnNmbFVfWGpMa25aaUtVcTFfWQ?oc=5",
     "publisher": "Advisor Perspectives",
     "summary": [
-      "경제 성장 둔화 경고",
-      "금리 인상 우려",
-      "무역 전쟁의 영향"
+      "미국 주식시장에 위협 요소 다수",
+      "경제 불확실성 증가",
+      "금리 및 인플레이션 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
