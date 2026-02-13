@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 10억 이상 부자 47.6만명",
+      "부동산보다 주식이 유망",
+      "투자자들 주식 선호 상승"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다는 평가",
-      "국내 경제 상황 불확실성 증가"
+      "회복세는 미약",
+      "금융연의 신뢰도 있는 분석"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 부총리의 경제 정책 소개",
-      "K-경제 발전 방향 언급",
-      "재정 강화 노력 강조"
+      "경제 전망 밝음",
+      "정책 변화 기대",
+      "시장 안정성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장, 손실로 마감",
-      "인공지능 우려 지속",
-      "투자자 경계심 증가"
+      "미국 주식시장 손실 마감",
+      "AI 우려 계속되고 있어",
+      "투자자 심리 저하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
-    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
-    "publisher": "tastylive",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "주식 시장, 긍정적 신호부각",
-      "경기 회복 우려 심화",
-      "투자자 불안감 증가"
+      "트럼프 행정부의 주식 시장 영향",
+      "경제 성장에 대한 긍정적 기대",
+      "세금 개혁과 기업 투자 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
-    "title": "Dow는 강력한 일자리 보고서에 대한 흥분이 사라지면서 3일 연속 승리를 거두었습니다: 라이브 업데이트 - CNBC",
-    "original_title": "Dow snaps three-day win streak as excitement over strong jobs report fizzles out: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHRlJZNmxmYTJJQUxDOXZ2eHdvZjFEWWFPSGY1RWhqTkNzSm1yX3V0QW9JT3dieXNLbHBraklFa1Zoekh5dkdGY2Jpa0lOd0NEQl9rMUZ3TEJXYkhsMGRQNi0tV3lJUGtRTm8yUFlqNmFDYVEwTnE40gF8QVVfeXFMT3ZaTnYtOWxoWExNM2Y5RnNFZTNPQWl6em5VOW4zVTY0dTFSQWY2V0Y1SVFXRWdXdmtDa2g2S1hjdEc1czNfZUI4YUtyMVhaS2czZ1cxei1xRFVHS05NT2tEdEgzYklwSjhlQXJRUThzbG1NdUpjUkgtcXQ0Tg?oc=5",
-    "publisher": "CNBC",
+    "title": "경고: 미국 주식 시장 및 경제에 대한 7가지 위협 - Advisor Perspectives",
+    "original_title": "Warnings: 7 Threats to the U.S. Stock Market & Economy - Advisor Perspectives",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOHdHN3FQSTFMRHYwOTFyZDBFUEFDVndWLWcwbHZpTEt0WTdnUjkxMUtxcWVmczFyaEhlUTlha0RnWXV4RGRuTVFnVlJ5Wm5RX1NEak12aUxMXzlpSUtfV0RGUFZ5M3R2TTZ5U3RTcDVEX3dDcjNmbDFZbnoySnNmbFVfWGpMa25aaUtVcTFfWQ?oc=5",
+    "publisher": "Advisor Perspectives",
     "summary": [
-      "다우, 3일 연속 상승 중단",
-      "강력한 고용 보고서 흥분 사라짐",
-      "시장 반응 약세 보임"
+      "주식 시장에 대한 위협.",
+      "경기 둔화 우려 증가.",
+      "금리 인상 지속 가능성."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
