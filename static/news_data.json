@@ -1,15 +1,28 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 정책 강조",
+      "국민 생활 안정 방침",
+      "외국인 투자 유치 계획"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 유망",
-      "한국 부자 증가 추세"
+      "10억 이상 한국 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "재테크 트렌드 변화"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -18,25 +31,26 @@
     "publisher": "한겨레",
     "summary": [
       "내년 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "경제 상황에 대한 우려 존재"
+      "회복세는 미약함",
+      "장기적 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "S&P 500이 하락주를 앞두고 있기 때문에 CPI 데이터 이후 주식은 거의 변하지 않았습니다: 실시간 업데이트 - CNBC",
+    "original_title": "Stocks are little changed after CPI data as S&P 500 heads for losing week: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rMzAwSXVIelF1VVJ2WU1YbzFiLWtfa0xMRDFVLTZpVE1WcGlrM3hPZnJScFV1b1A2WTNXX3JQeHFEcWRaTU5HdDlYMF83czJndGZqZUY0Y3piUTkzME5LaWFoVlFQQ0xCSXAyaGtlNUlMMU1JMTBJ0gF8QVVfeXFMUG1WcWJDeUpjZVd1ZDdzSWxFaEQ1VUlWX0NnWnFBZTQ1dFBmVlF1dWY1TzRjS2hUbjItWGxzWjFjczZ4QnU4RWVsQ2thWFMyZ0I4T2lfM0p0U3VaUFc4S0t5RXZVTTUyQS1sMzBQYWhOWlhWZ0lncmpnczY1Mw?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "경제 성장 목표 강조",
-      "재정 건전성 유지 의지",
-      "투자 지원 방안 발표"
+      "주가, CPI 데이터 반응 미미",
+      "S&P 500, 하락 주간 전망",
+      "시장 안정세 보임"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "미국 주식시장은 지속적인 AI 우려로 손실로 장 마감 - Anadolu Ajansı",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장, 손실로 마감",
-      "AI 관련 우려 지속",
-      "투자자들의 불안감 고조"
+      "미국 주식, 손실 마감",
+      "AI 우려 지속",
+      "투자자들 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 정부의 주식 시장 영향",
-      "경제 성장은 긍정적",
-      "정책 변화가 투자에 미침 영향"
+      "트럼프 행정부의 시장 성장",
+      "세금 삭감 효과",
+      "불확실성 증가 우려"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "경고: 미국 주식 시장 및 경제에 대한 7가지 위협 - Advisor Perspectives",
-    "original_title": "Warnings: 7 Threats to the U.S. Stock Market & Economy - Advisor Perspectives",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOHdHN3FQSTFMRHYwOTFyZDBFUEFDVndWLWcwbHZpTEt0WTdnUjkxMUtxcWVmczFyaEhlUTlha0RnWXV4RGRuTVFnVlJ5Wm5RX1NEak12aUxMXzlpSUtfV0RGUFZ5M3R2TTZ5U3RTcDVEX3dDcjNmbDFZbnoySnNmbFVfWGpMa25aaUtVcTFfWQ?oc=5",
-    "publisher": "Advisor Perspectives",
-    "summary": [
-      "주식시장에 대한 7가지 위협",
-      "경제 불확실성 증가",
-      "투자자 경계 필요"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
