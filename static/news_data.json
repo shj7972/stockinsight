@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 발표",
-      "재정 지원 강화 계획",
-      "국제 협력 강조"
+      "경제 정책 방향성 제시",
+      "재정 건전성 강화",
+      "사회적 안전망 확충"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 유망하다는 분석",
-      "부동산 투자 감소 추세"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 더 유망",
+      "주식 투자에 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1%",
-      "회복세 미약",
-      "경기 전망 암울"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약할 것으로 예상",
+      "전반적인 경제 상황 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장 하락",
-      "AI 우려 지속",
-      "경제 불확실성 큰 상황"
+      "미국 증시 손실로 마감",
+      "AI에 대한 우려 지속",
+      "투자자 신뢰 약화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -59,25 +59,25 @@
     "publisher": "Gallup News",
     "summary": [
       "미국인, 2026년 경제 성장 기대",
-      "주식 시장 상승 전망",
-      "긍정적인 경제 심리 반영"
+      "주식 시장 상승 예상",
+      "긍정적인 경제 전망 공유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "Dow는 강력한 일자리 보고서에 대한 흥분이 사라지면서 3일 연속 승리를 거두었습니다: 라이브 업데이트 - CNBC",
-    "original_title": "Dow snaps three-day win streak as excitement over strong jobs report fizzles out: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHRlJZNmxmYTJJQUxDOXZ2eHdvZjFEWWFPSGY1RWhqTkNzSm1yX3V0QW9JT3dieXNLbHBraklFa1Zoekh5dkdGY2Jpa0lOd0NEQl9rMUZ3TEJXYkhsMGRQNi0tV3lJUGtRTm8yUFlqNmFDYVEwTnE40gF8QVVfeXFMT3ZaTnYtOWxoWExNM2Y5RnNFZTNPQWl6em5VOW4zVTY0dTFSQWY2V0Y1SVFXRWdXdmtDa2g2S1hjdEc1czNfZUI4YUtyMVhaS2czZ1cxei1xRFVHS05NT2tEdEgzYklwSjhlQXJRUThzbG1NdUpjUkgtcXQ0Tg?oc=5",
-    "publisher": "CNBC",
+    "title": "AI 불안으로 기술 대패 심화로 월스트리트 침몰 - Reuters",
+    "original_title": "Wall Street sinks as tech rout deepens on AI angst - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTnRJRmlReTVqYXNoM1o4ZUVpSHduN2tENXp2R0lWUnhxaFFpM3JKR3VVX0RNWnRVYVM0TXN2Vl9tVGFDdDlacmFSSXYyZXNSLXJKV3RLT1ppb0g3U0N5VGNDV3d6R3BCVjJjNkNiQkpMUy1lVmc0amJUVEtONXZ2Ny1CNDd6cnRseGIzMVBmMm5CeVhzd0tqaHpqbU1UWDNuX2h1eQ?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "다우, 3일 연속 상승 중단",
-      "고용보고서 기대감 사라져",
-      "시장 분위기 위축"
+      "월가, 기술주 하락으로 급락",
+      "AI 불안 감지",
+      "투자자 신뢰 저하"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
