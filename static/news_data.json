@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복에 대한 긍정적 시각",
-      "민간 투자 촉진 전략",
-      "글로벌 경제 협력 강조"
+      "경제 회복 기대감 증가",
+      "투자 활성화 정책 추진",
+      "전략적 산업 육성 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
+      "한국 부자 47.6만명 집계",
       "부동산보다 주식 유망",
-      "주식 투자 증가 추세"
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약할 것으로 보임",
-      "경제 불확실성 여전"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약하다고 지적",
+      "경제 불확실성 지속 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.5,
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "주식 시장에 위험 증가",
-      "K형 경제 설명",
-      "투자자 주의 요구"
+      "K형 경제가 더 많은 위험을 의미",
+      "주식 투자자에게 부정적 영향",
+      "소득 격차가 커지고 있다"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
-    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
-    "publisher": "tastylive",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "좋은 소식이 나쁜 영향을 미칠 수 있음",
-      "주식 시장의 반응 불확실",
-      "경제 성장과 주가 관계 재조명"
+      "트럼프 행정부 동안 주식 상승",
+      "세금 개혁 영향 긍정적",
+      "경제 성장 기대감 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWnJ3WTVRTlBmaW43Rl9rR1dmR3lRajVTUzRobUVzVHFtTW1hdVM5Z1owS29SZVN4VGhXYm11dTNQUXZQWTQ5SVBEVE41Yy03M2FFWkRPYUYtaUI0d3VJYU1hR0tVV3lDNFBoZUdEYmFzcmtTTVE3dlRTa3NUTTZjQlVJZjhKNnQxUXp0U1NDSVg0aU9MbnZXeUctWGFWLTBMSTdFMmNINkV3QnRmTEE?oc=5",
     "publisher": "Business Insider",
     "summary": [
-      "미국, 10년간 침체 회피 전망",
-      "경제 성장 요인 설명",
-      "안정성 강조하는 전문가 발언"
+      "미국, 10년간 경기침체 피할 것",
+      "주요 경제학자의 긍정적 전망",
+      "경제 성장 지속 가능성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
