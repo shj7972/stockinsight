@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 전략 강조",
-      "투자 및 성장 촉진",
-      "재정 정책 개선 방안"
+      "구윤철, 경제부 장관 소개",
+      "국가 재정 정책 강조",
+      "경제 성장 전망 밝음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부유층 47.6만명 증가",
-      "주식 시장에 대한 긍정적인 전망",
-      "부동산 투자 감소 추세"
+      "부자 수 47.6만명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 분석",
-      "전반적 불안감 지속"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약하다",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장, 손실로 마감",
-      "AI 우려가 원인",
-      "경제 불안감 지속"
+      "미국 주식시장 손실 마감",
+      "AI 관련 우려 지속",
+      "투자 심리 약화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "주식시장이 불확실한 모습",
-      "경제 데이터에 대한 반응 혼재",
-      "좋은 뉴스가 나쁜 결과 초래할 수도"
+      "미국 경제의 악화 우려",
+      "주식 시장의 불안정성",
+      "좋은 뉴스가 부정적 영향"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "Dow는 강력한 일자리 보고서에 대한 흥분이 사라지면서 3일 연속 승리를 거두었습니다: 라이브 업데이트 - CNBC",
-    "original_title": "Dow snaps three-day win streak as excitement over strong jobs report fizzles out: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHRlJZNmxmYTJJQUxDOXZ2eHdvZjFEWWFPSGY1RWhqTkNzSm1yX3V0QW9JT3dieXNLbHBraklFa1Zoekh5dkdGY2Jpa0lOd0NEQl9rMUZ3TEJXYkhsMGRQNi0tV3lJUGtRTm8yUFlqNmFDYVEwTnE40gF8QVVfeXFMT3ZaTnYtOWxoWExNM2Y5RnNFZTNPQWl6em5VOW4zVTY0dTFSQWY2V0Y1SVFXRWdXdmtDa2g2S1hjdEc1czNfZUI4YUtyMVhaS2czZ1cxei1xRFVHS05NT2tEdEgzYklwSjhlQXJRUThzbG1NdUpjUkgtcXQ0Tg?oc=5",
-    "publisher": "CNBC",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "다우지수 3일 연속 상승 마감",
-      "강한 고용보고서 열기 사그라듬",
-      "시장 반응 약세로 전환"
+      "주가 상승세 지속",
+      "경제 지표 긍정적",
+      "투자 심리 개선"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.3,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
