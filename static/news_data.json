@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "10억 이상 부자 47.6만명",
+      "주식 투자 유망",
+      "부동산보다 주식 선호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세는 미약",
-      "경제 불안 요소 존재"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세 미약하다는 경고",
+      "금융연의 전망 발표"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장을 위한 정책 추진",
-      "재정 안정성 강조",
-      "국제 협력 강화 의지"
+      "경제 회복세에 대한 기대감",
+      "재정 정책의 중요성 강조",
+      "투자 촉진을 위한 계획 발표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 증시, 하락 마감",
-      "AI 우려 지속",
-      "투자 심리 악화"
+      "미국 주식 시장 손실 마감",
+      "AI 우려가 계속됨",
+      "투자 심리 누그러짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "AI가 주식 시장을 잠식하는 것에 대해 걱정할 필요가 없는 이유는 최고 분석가가 말합니다. 미국 경제는 '도약'을 앞두고 있다 - Fortune",
-    "original_title": "Why you shouldn’t worry about AI eating the stock market, top analyst says. The U.S. economy is ‘about to take off’ - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjU1aHpycm13bEFRellsUTJBbjg5N2JjbmR0WFphd28yVGNRMVFXR0pmRmgwS2xRdEZZV2tZWnZxSG0wUGpTTThpV0FJT0FvSENqODZnRXNBNjZnWUNXSGRPT2RvRUY2X2lKem9EVXB3dzNQcVVrVXhiLXdsUTJQWjNFcVc4UjN1Z2g4N09ZSzVIcUlycm9Ca0FfZXYydzNyS0tvOVJSRmQ3T3c?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "AI가 시장에 위협되지 않음",
-      "미국 경제 성장 전망 긍정적",
-      "투자에 대한 낙관적 시각"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "주식시장과 경제간의 관계",
-      "좋은 뉴스가 나쁜 결과",
-      "투자자 심리에 미치는 영향"
+      "주식 시장의 반응 지속적 관찰 필요",
+      "경제 지표와 주식의 관계 복잡함",
+      "긍정적 뉴스가 부정적 결과 초래 가능"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부 하 주식시장 상승",
+      "세금 인하 효과 보기",
+      "경제 성장률 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
