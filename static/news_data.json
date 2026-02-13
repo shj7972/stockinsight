@@ -1,25 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 회복에 대한 긍정적 전망",
-      "재정 정책 강화 계획",
-      "산업 성장 촉진 의지"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식, 부동산보다 유망하다는 의견",
-      "부자 증가 추세 확인"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세 미약하다는 지적",
-      "전반적 경제 상황 우려"
+      "내년 성장률 2.1% 전망",
+      "회복세는 미약",
+      "경제 불안 요소 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장을 위한 정책 추진",
+      "재정 안정성 강조",
+      "국제 협력 강화 의지"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 증시, AI 우려로 하락",
-      "투자자들 불안감 지속",
-      "기술주 특히 타격"
+      "미국 증시, 하락 마감",
+      "AI 우려 지속",
+      "투자 심리 악화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국인들은 2026년에 경제 성장과 주식 시장 상승을 기대합니다 - Gallup 뉴스",
-    "original_title": "Americans Expect Economic Growth, Stock Market Gains in 2026 - Gallup News",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
-    "publisher": "Gallup News",
-    "summary": [
-      "미국인, 2026년 경제 성장 기대",
-      "주식시장 상승 예상",
-      "긍정적인 경제 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjU1aHpycm13bEFRellsUTJBbjg5N2JjbmR0WFphd28yVGNRMVFXR0pmRmgwS2xRdEZZV2tZWnZxSG0wUGpTTThpV0FJT0FvSENqODZnRXNBNjZnWUNXSGRPT2RvRUY2X2lKem9EVXB3dzNQcVVrVXhiLXdsUTJQWjNFcVc4UjN1Z2g4N09ZSzVIcUlycm9Ca0FfZXYydzNyS0tvOVJSRmQ3T3c?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "AI, 주식 시장 영향 우려 없음",
-      "미국 경제, 곧 성장할 것",
-      "전문가의 낙관적인 전망"
+      "AI가 시장에 위협되지 않음",
+      "미국 경제 성장 전망 긍정적",
+      "투자에 대한 낙관적 시각"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
+    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "주식시장과 경제간의 관계",
+      "좋은 뉴스가 나쁜 결과",
+      "투자자 심리에 미치는 영향"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
