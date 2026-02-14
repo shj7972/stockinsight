@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 전략 강조",
-      "투자 유치 계획 발표",
-      "지속 성장 목표 설정"
+      "부총리, 경제 정책 방향 제시",
+      "신성장 산업 지원 강조",
+      "국민경제 안정성 주장"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 더 유망",
-      "부동산 대비 투자 변화"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "부의 집중 현상 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,26 +31,12 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약",
-      "금융연 분석 결과"
+      "회복세는 미약하다고 평가",
+      "경제 회복에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "S&P 500은 인플레이션 보고서 이후 거의 변동 없이 마감하고, 지수는 한 주 하락세를 기록했습니다: 실시간 업데이트 - CNBC",
-    "original_title": "S&P 500 closes little changed after soft inflation report, index notches losing week: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rMzAwSXVIelF1VVJ2WU1YbzFiLWtfa0xMRDFVLTZpVE1WcGlrM3hPZnJScFV1b1A2WTNXX3JQeHFEcWRaTU5HdDlYMF83czJndGZqZUY0Y3piUTkzME5LaWFoVlFQQ0xCSXAyaGtlNUlMMU1JMTBJ0gF8QVVfeXFMUG1WcWJDeUpjZVd1ZDdzSWxFaEQ1VUlWX0NnWnFBZTQ1dFBmVlF1dWY1TzRjS2hUbjItWGxzWjFjczZ4QnU4RWVsQ2thWFMyZ0I4T2lfM0p0U3VaUFc4S0t5RXZVTTUyQS1sMzBQYWhOWlhWZ0lncmpnczY1Mw?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "S&P 500 거의 변동 없음",
-      "소프트 인플레이션 리포트",
-      "지수, 주간 손실 기록"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
   },
   {
     "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
@@ -58,23 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K자형 경제가 주식에 위험 증가",
-      "소득 불평등 심화가 문제",
-      "투자자 경고 신호 필요"
+      "K자 경제는 투자에 위험 증대",
+      "소득 격차 심화 우려",
+      "주식 시장 변동성 증가 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
     "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
     "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNSXV6MW92OHdOTGVUcnE0R1BXZ29iQlJJdGNwR3dGYkotbUdvTDNfOVJtVHI4QzdrRmUtSjRHaEItNXp0Y1hYVmRTLWdOWG5GZEFiTzhFSVJDOFFibG1kWnM1M1gwRy1YY3hmeDU3RDZHanpieVNhcXNtaUIzeEdvMG1xZnRaUUh5aEU5T1YwX09GN18ybTZESmpLT3dqQm02emsxd1JlemotbTFSR0htUUxyRjY3VU5oNUwwbk5GMkJuNW41RFdMUzB2TDdOZGFPX2ZobGs2eGNydWVHYjk3Y3lDdEF6X2FTY3FHR19pTjVxdmV1YmlweXRxUkFuak9LdkFwWDJXd2VpNHlxWXhCaVRxS0cwc1F6YmV5ZWpwcDRBcXh3Zlpfb25KSmE4ckFONHcxaTBPc1RvX2xIVEhtdVpLa2d5TlE3SWlNSXF2UFJBeGFsOFZkOEZJeDBpcDZFeWs3N1c3NGlmdGFhdF95SDJIdXExaTJDZzZUS0twcDJYQU96WGR2MUdySThUeVVMbHE2T3hDRzZuV0dMZTNGcHo1a2Z3RW1jcWNjdV93bV92U3Rod2VsUHVGem1qWkxiNF92TWV3Q0pHWWFlV0hnRw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNRUpCNWdVRXZYeXZfcFozYWlwdkZyRGRYV0Q2RkFKRVFkZUs3bGhJVm9qdVM2SS1VUkVTOThRVXRFcERtRHhhcmNQbnZPWXZNa1dwQ0hTUFZxZzV5QXFOQ0t1ZXNWQmlhSThzZm5HV1Uwcm5mbkZTT3JlcVBDQld3cUlfWkpubnpUMGRYd0R2NjdLUlpHY0x6STFHQ2tJWHVDME82cjhrVExzd2xXV0xSOXJ2Tk5IS0h2cDRqdUgwaHBMN3JpbkdGNGxrV21FSDVyOUd0cENxck9yOGRxbGpZblhfYm1wRnZJem1kU2ZHNzRMRnpHMnVEZWQ4TTU0emI3Yzg4U0RXZ2lzSGZMX1EzSDE2SUpVNDUtSzJseWR5R0hkREFmUUUwbXdRWmdmelJndkFKN3ZqdWtDdFJ5TkdOZGJPTV9HYlVQQ0FyTGZnOVFYWjFKTDFVUUVxS0xib1dJTk1kNGt3RzVXaXV2VnBuQUljMXhNSmVWZzJJUVZ0dlVzcXVSX3FUWlNBQXd1dV9WNGs1S0Z0eHEwZWVjMldxdGpBTFZiVUNKaFVDVE1rV1B6M3NMOWtIaU9tOHlTRkNPa1ZfM2hRbURvSVM3WXdHRg?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "투자자들, 경제에 희망을 봄",
-      "AI 우려로 시장 혼란 발생",
-      "긍정적 전망 지속"
+      "투자자, 경제에 대한 희망을 봄",
+      "AI 우려로 시장은 변동성 겪어",
+      "경제 성장 전망에 대한 긍정적 시각"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
+    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "주식시장 반등 예상",
+      "경제 긍정적 신호",
+      "투자자 신뢰 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
