@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리, 경제 정책 방향 제시",
-      "신성장 산업 지원 강조",
-      "국민경제 안정성 주장"
+      "부총리, 경제 안정화 강조",
+      "재정정책 지속 가능성 언급",
+      "혁신과 성장 필요성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "부의 집중 현상 지속"
+      "한국의 부자는 47.6만명",
+      "금융자산 10억 이상",
+      "주식이 부동산보다 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,8 +31,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다고 평가",
-      "경제 회복에 대한 우려 존재"
+      "회복세는 미약하다고 분석",
+      "전반적인 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K자 경제는 투자에 위험 증대",
-      "소득 격차 심화 우려",
-      "주식 시장 변동성 증가 가능성"
+      "K자 경제는 불균형을 초래함",
+      "주식에 더 큰 리스크 존재",
+      "투자자 전략 재조정 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -55,29 +55,29 @@
   {
     "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
     "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNRUpCNWdVRXZYeXZfcFozYWlwdkZyRGRYV0Q2RkFKRVFkZUs3bGhJVm9qdVM2SS1VUkVTOThRVXRFcERtRHhhcmNQbnZPWXZNa1dwQ0hTUFZxZzV5QXFOQ0t1ZXNWQmlhSThzZm5HV1Uwcm5mbkZTT3JlcVBDQld3cUlfWkpubnpUMGRYd0R2NjdLUlpHY0x6STFHQ2tJWHVDME82cjhrVExzd2xXV0xSOXJ2Tk5IS0h2cDRqdUgwaHBMN3JpbkdGNGxrV21FSDVyOUd0cENxck9yOGRxbGpZblhfYm1wRnZJem1kU2ZHNzRMRnpHMnVEZWQ4TTU0emI3Yzg4U0RXZ2lzSGZMX1EzSDE2SUpVNDUtSzJseWR5R0hkREFmUUUwbXdRWmdmelJndkFKN3ZqdWtDdFJ5TkdOZGJPTV9HYlVQQ0FyTGZnOVFYWjFKTDFVUUVxS0xib1dJTk1kNGt3RzVXaXV2VnBuQUljMXhNSmVWZzJJUVZ0dlVzcXVSX3FUWlNBQXd1dV9WNGs1S0Z0eHEwZWVjMldxdGpBTFZiVUNKaFVDVE1rV1B6M3NMOWtIaU9tOHlTRkNPa1ZfM2hRbURvSVM3WXdHRg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQMGtHRUZjTEJrajBZbGtVQWZuUW9jNFVZVXo0QkxtcjlnMFRxampsZWxaTGpqOGlMc2w0ajNzTEpCZlNGcWhQam5VX1g2NVo4ZWIyTUdyMUxIeFBsWUVEaG94WjZVekdLRGoxSUw2WXpRbUJXVWlaVXdJbktxbnVxaElBRkhRMHVON0paNzZ1TjREZktXSHZzb1VEWEZFR3dTa001SktPd1JCZFhMUW1ic2F3akdvME1lVy1jZmEyNkZfWXJ5RF9mbzZPVVc1eEpfeVg4dExMVkQ5VXBkakVGVHY2R2l4ekxNMmN3Y2MwZWtYVkROTTFDTG1xOHBoUDA3UU1hMV9zT2NtcEZGNGV4eGswaWg0TDZWcG1MWUpTT1JobllzZmJQR3J1NUNJWjBQU0lTQ0x5MTdKWkExNUtsZVRXV3FuNzc1c1NTU0VDWnBLUmVfT2k2QmcxYXBaUVIwVF9RazJLbFo1LVBvRjNBa0VuUGNfbVlxTUhuLXdOVzByelA4cEgtWFJ4eGtfOEhfLW1LYzFVVEVTUnc2SVlsRW05VTl2WU94bkNuWl9tVEpxbnBrN3k4NGJtYi1pLWtLUFpZOHNWZlU1QlBuWG1sYg?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "투자자, 경제에 대한 희망을 봄",
-      "AI 우려로 시장은 변동성 겪어",
-      "경제 성장 전망에 대한 긍정적 시각"
+      "투자자, 경제에 희망을 봄",
+      "AI 우려로 시장 불안정",
+      "경제 회복 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
-    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
-    "publisher": "tastylive",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "주식시장 반등 예상",
-      "경제 긍정적 신호",
-      "투자자 신뢰 상승"
+      "트럼프 행정부의 주가 상승",
+      "규제 완화 효과",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
