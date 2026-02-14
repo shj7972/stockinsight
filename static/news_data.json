@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 목표 발표",
-      "재정 정책 변동 예고",
-      "시장 안정 노력 강조"
+      "경제 성장에 대한 긍정적 전망",
+      "개혁 정책 추진",
+      "재정 건전성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금융자산 10억 이상 부자는 47.6만명",
-      "부동산보다 주식이 유망하다고 분석",
-      "한국 경제의 부유층 증가 추세"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 분석",
+      "한국 부자 증가 추세 확인"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약",
-      "전반적 경제 상황 우려"
+      "내년 한국 성장률 2.1% 전망",
+      "회복세는 미약함",
+      "경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
+    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제, 투자 위험 증가",
-      "양극화가 주식 시장에 영향",
-      "투자는 더욱 신중해야"
+      "K-형 경제로 인한 투자 위험 증가",
+      "경제 회복이 불균형하게 진행됨",
+      "주식 투자자에게 불리한 전망"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
-    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
-    "publisher": "tastylive",
+    "title": "다우지수는 600포인트 하락하고, S&P 500은 AI 파괴로 인해 시장이 흔들릴 것이라는 우려로 사흘 연속 하락했다: 실시간 업데이트 - CNBC",
+    "original_title": "Dow slides 600 points, S&P 500 falls for a third day as AI disruption fears rattle markets: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "주식시장과 경제 동향",
-      "좋은 소식이 안 좋은 효과",
-      "시장 반응에 대한 우려"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장은 지속적인 AI 우려로 손실로 장 마감 - Anadolu Ajansı",
-    "original_title": "US stock markets close day with losses amid ongoing AI concerns - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
-    "publisher": "Anadolu Ajansı",
-    "summary": [
-      "미국 주식시장 손실 마감",
-      "AI 우려 지속",
-      "투자자 심리 위축"
+      "다우지수 600포인트 하락",
+      "S&P 500 3일 연속 하락",
+      "AI 불안 우려로 시장 동요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
+    "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQSVptSDFzelNWLTRUUUVTanFoc21WSGVfdzhUOUU3dThSRlU1NnQxLVRnZnY2ZHp4cmpPZnNoQnNxQXdxU3ZDWEY3bjM5TEJVeE5OU1lpcUJpWFNTM19hanFsZ1d4OElwVUJ0SXhOYS1uZGtiNGhPMDdCam9sLURCNFgtMTBCRENsMnpuSGcyWTdYMnNJbE03XzRVQS1YREhYSkd6N0ZxbGRoaUwyWEFrQ1NiNUx1MUxDM005X0d6TUp5S2VOYnlSNUUyZFk1U3NXbWVUMTJzSk1TNC1LajJGc1pCbFhkcldPMDVkRF80VFZvN0k5X2o2dGxYenR5Tkd3MDdyLXZxNnFtdDllRHQ1SkJpa2ZVbnh4U1hFUmliTjV5UzRCd1BlamZEWmdOYTFNdjRkNE1OQUo0ek5JblM5V003eWVmUzFFNjZXeVdnSjZMQnNLUjVHRFQwaktWc21hV3ZoczEzYXFWZkZPbjlrcF9tdWNfVzVKb2ppQktEN1NCdnBLMkFvMy1XcDhPOXNzS0dFZ2Q3Q09PS2x0Sk5CT0UxSmdZVmdYQW9xMEh3czVIdlI2OVVUbkNVU2hkMDlWZEVhbUcwTFNqUE9XWnpiMw?oc=5",
+    "publisher": "MarketWatch",
+    "summary": [
+      "투자자, 경제에 희망을 봄",
+      "AI 우려로 시장 혼란",
+      "시장에 대한 긍정적 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
