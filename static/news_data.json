@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책의 새로운 방향 제시",
-      "시장 안정성 강조",
-      "국민 신뢰 회복 노력"
+      "경제 회복 전략 강조",
+      "투자 유치 계획 발표",
+      "지속 성장 목표 설정"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 기록",
-      "주식, 부동산보다 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명",
+      "주식이 더 유망",
+      "부동산 대비 투자 변화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,50 +31,50 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것으로 판단",
-      "경제 전망에 대한 우려 표명"
+      "회복세 미약",
+      "금융연 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
+    "title": "S&P 500은 인플레이션 보고서 이후 거의 변동 없이 마감하고, 지수는 한 주 하락세를 기록했습니다: 실시간 업데이트 - CNBC",
+    "original_title": "S&P 500 closes little changed after soft inflation report, index notches losing week: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rMzAwSXVIelF1VVJ2WU1YbzFiLWtfa0xMRDFVLTZpVE1WcGlrM3hPZnJScFV1b1A2WTNXX3JQeHFEcWRaTU5HdDlYMF83czJndGZqZUY0Y3piUTkzME5LaWFoVlFQQ0xCSXAyaGtlNUlMMU1JMTBJ0gF8QVVfeXFMUG1WcWJDeUpjZVd1ZDdzSWxFaEQ1VUlWX0NnWnFBZTQ1dFBmVlF1dWY1TzRjS2hUbjItWGxzWjFjczZ4QnU4RWVsQ2thWFMyZ0I4T2lfM0p0U3VaUFc4S0t5RXZVTTUyQS1sMzBQYWhOWlhWZ0lncmpnczY1Mw?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "S&P 500 거의 변동 없음",
+      "소프트 인플레이션 리포트",
+      "지수, 주간 손실 기록"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K자 경제, 투자자에게 리스크 증가",
-      "소득 불균형 심화 우려",
-      "주식 시장 변동성 확대 가능성"
+      "K자형 경제가 주식에 위험 증가",
+      "소득 불평등 심화가 문제",
+      "투자자 경고 신호 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
     "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
     "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNOFB3bXRhUWtkVmRSYWxMSmxyVGM2WWdpQ2hqOU9oWlF3Y3FVakFMS3ZteFVfVFRPa2lqc2dSQkFNMjlwM3hiUkdPWUNTRkNDc0lGdjRlNS1DVHRCemZtelZPNTNWZHgyaHpuZnpsM1RGNzdETF85V2prbmJnSl9DUVNldldMX1FkbFA4Q0lWR2NjZXhlbnJrTERIR3hUak1tSDJIRm5ybGUzTVRXUXpNX0RqVUF6OXZuOUdWc1UxNk5uZHhKaHdRQjNMWUtqcXU4dVJRcU00MHRiT2NyT19aaU8wQmdjb1pfTnBBZGxjYkN3Z2FZOXVpcWVQdDVEMU9zZHE1akktaVZTdzFLdW9KeHg2LVIzSEtxWWRVamZyY0NuSHVZZ2RsbF9raVB2RGJTd2NlRHNSQnpDeWhmbV92T3MtV1RPZDl0bmMzOVdvOWEwZlN3TDloMjI5bG9iMHhtamxBdFFoQ3BWTElDemZOOW1oYVdwY2p0M0pOUTR1cXFmN01Tdm8yT2c1czk0T3dQc0hJR1FpRWpTVUgwMlRoemliZXdtU2tvTjl1NHNUb1U5OFN6VXVIdE03TGVtTEZlTGpzeE1fNDBPeWxnbXZ0dw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNSXV6MW92OHdOTGVUcnE0R1BXZ29iQlJJdGNwR3dGYkotbUdvTDNfOVJtVHI4QzdrRmUtSjRHaEItNXp0Y1hYVmRTLWdOWG5GZEFiTzhFSVJDOFFibG1kWnM1M1gwRy1YY3hmeDU3RDZHanpieVNhcXNtaUIzeEdvMG1xZnRaUUh5aEU5T1YwX09GN18ybTZESmpLT3dqQm02emsxd1JlemotbTFSR0htUUxyRjY3VU5oNUwwbk5GMkJuNW41RFdMUzB2TDdOZGFPX2ZobGs2eGNydWVHYjk3Y3lDdEF6X2FTY3FHR19pTjVxdmV1YmlweXRxUkFuak9LdkFwWDJXd2VpNHlxWXhCaVRxS0cwc1F6YmV5ZWpwcDRBcXh3Zlpfb25KSmE4ckFONHcxaTBPc1RvX2xIVEhtdVpLa2d5TlE3SWlNSXF2UFJBeGFsOFZkOEZJeDBpcDZFeWs3N1c3NGlmdGFhdF95SDJIdXExaTJDZzZUS0twcDJYQU96WGR2MUdySThUeVVMbHE2T3hDRzZuV0dMZTNGcHo1a2Z3RW1jcWNjdV93bV92U3Rod2VsUHVGem1qWkxiNF92TWV3Q0pHWWFlV0hnRw?oc=5",
     "publisher": "MarketWatch",
     "summary": [
       "투자자들, 경제에 희망을 봄",
-      "AI 두려움으로 시장 혼란",
-      "긍정적 전망이 여전함"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "세금 감면으로 주가 상승",
-      "높은 변동성 지속"
+      "AI 우려로 시장 혼란 발생",
+      "긍정적 전망 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
