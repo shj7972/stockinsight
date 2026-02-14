@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 기대감 증가",
-      "투자 활성화 정책 추진",
-      "전략적 산업 육성 계획"
+      "경제 정책의 새로운 방향 제시",
+      "시장 안정성 강조",
+      "국민 신뢰 회복 노력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 집계",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명 기록",
+      "주식, 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,11 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다고 지적",
-      "경제 불확실성 지속 우려"
+      "회복세는 미약할 것으로 판단",
+      "경제 전망에 대한 우려 표명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K형 경제가 더 많은 위험을 의미",
-      "주식 투자자에게 부정적 영향",
-      "소득 격차가 커지고 있다"
+      "K자 경제, 투자자에게 리스크 증가",
+      "소득 불균형 심화 우려",
+      "주식 시장 변동성 확대 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
+    "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNOFB3bXRhUWtkVmRSYWxMSmxyVGM2WWdpQ2hqOU9oWlF3Y3FVakFMS3ZteFVfVFRPa2lqc2dSQkFNMjlwM3hiUkdPWUNTRkNDc0lGdjRlNS1DVHRCemZtelZPNTNWZHgyaHpuZnpsM1RGNzdETF85V2prbmJnSl9DUVNldldMX1FkbFA4Q0lWR2NjZXhlbnJrTERIR3hUak1tSDJIRm5ybGUzTVRXUXpNX0RqVUF6OXZuOUdWc1UxNk5uZHhKaHdRQjNMWUtqcXU4dVJRcU00MHRiT2NyT19aaU8wQmdjb1pfTnBBZGxjYkN3Z2FZOXVpcWVQdDVEMU9zZHE1akktaVZTdzFLdW9KeHg2LVIzSEtxWWRVamZyY0NuSHVZZ2RsbF9raVB2RGJTd2NlRHNSQnpDeWhmbV92T3MtV1RPZDl0bmMzOVdvOWEwZlN3TDloMjI5bG9iMHhtamxBdFFoQ3BWTElDemZOOW1oYVdwY2p0M0pOUTR1cXFmN01Tdm8yT2c1czk0T3dQc0hJR1FpRWpTVUgwMlRoemliZXdtU2tvTjl1NHNUb1U5OFN6VXVIdE03TGVtTEZlTGpzeE1fNDBPeWxnbXZ0dw?oc=5",
+    "publisher": "MarketWatch",
+    "summary": [
+      "투자자들, 경제에 희망을 봄",
+      "AI 두려움으로 시장 혼란",
+      "긍정적 전망이 여전함"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 동안 주식 상승",
-      "세금 개혁 영향 긍정적",
-      "경제 성장 기대감 증가"
+      "트럼프 행정부의 주식 시장 분석",
+      "세금 감면으로 주가 상승",
+      "높은 변동성 지속"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "최고의 경제학자가 미국이 2010년 말까지 경기침체를 계속해서 피할 것이라고 말하는 이유 - Business Insider",
-    "original_title": "Why top economist says the US will continue to dodge a recession through the end of the decade - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWnJ3WTVRTlBmaW43Rl9rR1dmR3lRajVTUzRobUVzVHFtTW1hdVM5Z1owS29SZVN4VGhXYm11dTNQUXZQWTQ5SVBEVE41Yy03M2FFWkRPYUYtaUI0d3VJYU1hR0tVV3lDNFBoZUdEYmFzcmtTTVE3dlRTa3NUTTZjQlVJZjhKNnQxUXp0U1NDSVg0aU9MbnZXeUctWGFWLTBMSTdFMmNINkV3QnRmTEE?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "미국, 10년간 경기침체 피할 것",
-      "주요 경제학자의 긍정적 전망",
-      "경제 성장 지속 가능성 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
