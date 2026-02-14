@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 목표 설정",
-      "재정 정책 강화",
-      "일자리 창출 계획"
+      "경제 성장 목표 발표",
+      "재정 정책 변동 예고",
+      "시장 안정 노력 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 10억 이상 부자는 47.6만명",
+      "부동산보다 주식이 유망하다고 분석",
+      "한국 경제의 부유층 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 매우 미약",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약",
+      "전반적 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
+    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K자형 경제는 불균형을 초래함",
-      "주식 투자에 더 많은 위험 존재",
-      "투자자 신중함 요구됨"
+      "K-형 경제, 투자 위험 증가",
+      "양극화가 주식 시장에 영향",
+      "투자는 더욱 신중해야"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "좋은 경제 지표가 부정적 반응 초래",
-      "주식 시장 변동성 증가",
-      "투자자 불안감 심화"
+      "주식시장과 경제 동향",
+      "좋은 소식이 안 좋은 효과",
+      "시장 반응에 대한 우려"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "시장에 격동의 한 주를 촉발하는 AI 우려에도 불구하고 투자자들은 경제에서 희망을 봅니다 - MarketWatch",
-    "original_title": "Investors see hope in the economy despite AI fears igniting a turbulent week for markets - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxPSm9LRkFQT2drT3ZqM1lxbllfdUUtdTRQSW5Xai1lSnIwWGk1c1BXa1RYMVhkeVo2ZGVFOVJHSG9KOVJEdk9QYloxcVR2Qk03elBwVTc5QUxkdXp6bFczSjRUenVZYUVvSkpibUJVdW00N2V6bUJRdmtyT01lSjRPUzJJTlk2WnJYQmxyNFhtMkY0V2t5bEZHNEVxaEdtMjlPd3BsU2RWZmVCWXJSR3RBc0JWN05OSGpCQVRMbWU4LVJVM1FsXzllVDVWc0MtMDZiQ0swdE1SVlFIcUxYOHNEbnFLajNiWTRjaXZIQmZ3dlVudlByUmlMYXIxZnRRTlptMzhYNGdWZGhPRzlGZmRaTjNuU0FVdWFUanpKMTdHZlJSckN1VUc0Q28wdFZWVEVzR1pYSWZLc3VMclROMTlDT1J2QnRzSVQ0a2tENjU3LUxnQXVFSmU0UFBZdzRLSmFhanFPSmVpMTVXN2RpOFVOc1lvZDJMc3ZWLXpTVWZCbjNlZlFFUUFYQlhwTktKSFZSTGczb0FoVDk2U2NKUGRuTU1IdzZULVVJRWo5MktENjc5RTh2VXU2YUFFLWxPeTBPQ3otX01UVFlyZ0hfLTRrUw?oc=5",
-    "publisher": "MarketWatch",
+    "title": "미국 주식시장은 지속적인 AI 우려로 손실로 장 마감 - Anadolu Ajansı",
+    "original_title": "US stock markets close day with losses amid ongoing AI concerns - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM25rWVljMURxc1dFLVNFV3VQVkZNMHJtV1NFVFlDdGxjMHRzS25icmxXV3I2V3pIQUhKNkNLdm1zMWw0czZWRlVyWkUtRFRQNHpwdnJiR0h6LWdYcl9rTFY0cDl0OG5KMHlxZk9EMEs5QzAtY291VjFLeElwUzVSbnkzdWkzNjAwWjlabmlVZW9zZjRhdENBSV8zWGJUUklxSWhBX2FkVQ?oc=5",
+    "publisher": "Anadolu Ajansı",
     "summary": [
-      "투자자들, 경제에 희망을 봄",
-      "AI 우려로 시장 불안정",
-      "악재 속에서도 긍정적 전망"
+      "미국 주식시장 손실 마감",
+      "AI 우려 지속",
+      "투자자 심리 위축"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
