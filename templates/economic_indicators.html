@@ -135,13 +135,47 @@
 <!-- 상관관계 히트맵 -->
 {% if heatmap_json %}
 <div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
-    <h4 style="margin: 0 0 0.5rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
-        🔥 지표 간 상관관계 히트맵
+    <h4 style="margin: 0 0 0.3rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
+        🔥 경제지표 × 주가지수 상관관계 히트맵
     </h4>
-    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 0.75rem 0;">
-        1에 가까울수록 강한 양의 상관, -1에 가까울수록 강한 음의 상관 관계
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 0.6rem 0;">
+        1에 가까울수록 강한 양의 상관 (함께 오름), -1에 가까울수록 강한 음의 상관 (반대로 움직임).
+        <span style="color: rgba(251,191,36,0.85);">┄┄</span> 점선 오른쪽/아래가 주가 지수(NASDAQ·S&P500·KOSPI) 영역
     </p>
-    <div id="heatmap-chart" style="width: 100%; height: 550px;"></div>
+    <div id="heatmap-chart" style="width: 100%;"></div>
+
+    <!-- 주가-경제지표 핵심 상관관계 Top 3 테이블 -->
+    {% if corr_top_rows %}
+    <div style="margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 1rem;">
+        <div style="font-size: 0.82rem; font-weight: 600; color: #e2e8f0; margin-bottom: 0.75rem;">
+            📌 주가지수별 상관관계 상위 지표 Top 3
+            <span style="font-size: 0.72rem; font-weight: 400; color: #475569; margin-left: 0.5rem;">
+                — 절댓값이 클수록 예측 모델에 더 큰 영향
+            </span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem;">
+            {% set ns = namespace(last_stock='') %}
+            {% for row in corr_top_rows %}
+            {% if row.stock != ns.last_stock %}
+            {% if ns.last_stock != '' %}</div>{% endif %}
+            <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 0.75rem;">
+                <div style="font-size: 0.78rem; font-weight: 700; color: #38bdf8; margin-bottom: 0.5rem;">{{ row.stock }}</div>
+            {% set ns.last_stock = row.stock %}
+            {% endif %}
+                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
+                    <span style="font-size: 0.72rem; color: #94a3b8; width: 120px; flex-shrink: 0;">{{ row.indicator }}</span>
+                    <div style="flex: 1; background: rgba(255,255,255,0.05); border-radius: 4px; height: 6px; overflow: hidden;">
+                        <div style="width: {{ row.bar_width }}%; background: {{ row.color }}; height: 100%; border-radius: 4px; opacity: 0.8;"></div>
+                    </div>
+                    <span style="font-size: 0.72rem; font-weight: 700; color: {{ row.color }}; width: 40px; text-align: right;">
+                        {{ row.sign }}{{ "%.2f"|format(row.corr) }}
+                    </span>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
 </div>
 {% endif %}
 

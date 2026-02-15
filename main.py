@@ -1126,28 +1126,98 @@ async def economic_indicators_page(request: Request):
                 'change_pct': chg_pct,
             })
 
-        # 상관관계 히트맵
-        corr_df = df[indicator_cols].dropna().corr().round(2)
-        labels = [indicator_meta[c]['label'] for c in corr_df.columns]
+        # 상관관계 히트맵 — NASDAQ / S&P500 / KOSPI 포함
+        # yfinance로 주가 지수 월별 데이터 병합
+        index_price_meta = {
+            'nasdaq': {'label': '📈 NASDAQ',  'ticker': '^IXIC'},
+            'sp500':  {'label': '📈 S&P 500', 'ticker': '^GSPC'},
+            'kospi':  {'label': '📈 KOSPI',   'ticker': '^KS11'},
+        }
+        corr_df_base = df[['date'] + indicator_cols].copy()
+        try:
+            import yfinance as yf
+            for col_key, meta in index_price_meta.items():
+                hist = yf.download(meta['ticker'], start='1995-01-01', interval='1mo',
+                                   progress=False, auto_adjust=True)
+                if hist.empty:
+                    continue
+                close = hist['Close'].squeeze()
+                idx_tmp = pd.DataFrame({
+                    'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
+                    col_key: close.values.astype(float)
+                }).dropna()
+                idx_tmp['date'] = idx_tmp['date'].dt.normalize()
+                corr_df_base = pd.merge(corr_df_base, idx_tmp, on='date', how='left')
+        except Exception:
+            pass
+
+        # 전체 컬럼 리스트 (경제지표 + 주가)
+        all_corr_cols = indicator_cols + [k for k in index_price_meta if k in corr_df_base.columns]
+        corr_matrix = corr_df_base[all_corr_cols].dropna().corr().round(2)
+
+        # 라벨 생성 (주가 지수는 bold 느낌으로 별도 표시)
+        all_labels = []
+        for c in corr_matrix.columns:
+            if c in index_price_meta:
+                all_labels.append(index_price_meta[c]['label'])
+            else:
+                all_labels.append(indicator_meta[c]['label'])
+
+        # 셀 색상 강조: 주가 행/열은 별도 annotation으로 표시
+        z_vals = corr_matrix.values.tolist()
+        text_vals = corr_matrix.values.round(2).tolist()
+
         heatmap_fig = go.Figure(go.Heatmap(
-            z=corr_df.values.tolist(),
-            x=labels, y=labels,
+            z=z_vals,
+            x=all_labels, y=all_labels,
             colorscale='RdBu', zmid=0, zmin=-1, zmax=1,
-            text=corr_df.values.round(2).tolist(),
+            text=text_vals,
             texttemplate='%{text}',
-            textfont=dict(size=9),
+            textfont=dict(size=8),
             hoverongaps=False,
+            colorbar=dict(len=0.8, thickness=12, title=dict(text='상관계수', side='right')),
         ))
+
+        # 주가 지수 행/열 구분선 (세로/가로 점선)
+        n_econ = len(indicator_cols)
+        n_total = len(all_corr_cols)
+        if n_total > n_econ:
+            heatmap_fig.add_shape(
+                type='line', x0=n_econ - 0.5, x1=n_econ - 0.5, y0=-0.5, y1=n_total - 0.5,
+                line=dict(color='rgba(251,191,36,0.7)', width=1.5, dash='dot')
+            )
+            heatmap_fig.add_shape(
+                type='line', x0=-0.5, x1=n_total - 0.5, y0=n_econ - 0.5, y1=n_econ - 0.5,
+                line=dict(color='rgba(251,191,36,0.7)', width=1.5, dash='dot')
+            )
+
+        n_idx = len(all_corr_cols)
         heatmap_fig.update_layout(
             template='plotly_dark',
             paper_bgcolor='rgba(0,0,0,0)',
             plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color='#94a3b8', family='Inter', size=10),
-            height=550,
-            margin=dict(l=140, r=20, t=30, b=140),
-            xaxis=dict(tickangle=-45),
+            font=dict(color='#94a3b8', family='Inter', size=9),
+            height=max(600, n_idx * 42),
+            margin=dict(l=155, r=20, t=30, b=155),
+            xaxis=dict(tickangle=-45, tickfont=dict(size=9)),
+            yaxis=dict(tickfont=dict(size=9)),
         )
         heatmap_json = heatmap_fig.to_json()
+
+        # 주가-경제지표 핵심 상관관계 Top 테이블 (템플릿에 전달)
+        corr_top_rows = []
+        stock_cols = [k for k in index_price_meta if k in corr_matrix.columns]
+        for sc in stock_cols:
+            econ_corrs = corr_matrix.loc[indicator_cols, sc].dropna().sort_values(key=abs, ascending=False)
+            for ec, val in econ_corrs.head(3).items():
+                corr_top_rows.append({
+                    'stock': index_price_meta[sc]['label'],
+                    'indicator': indicator_meta[ec]['label'],
+                    'corr': float(val),
+                    'bar_width': int(abs(val) * 100),
+                    'color': '#4ade80' if val > 0 else '#f87171',
+                    'sign': '+' if val > 0 else '',
+                })
 
         # 트렌드 차트 (선택 지표 추이, 최근 5년)
         recent = df[df['date'] >= df['date'].max() - pd.DateOffset(years=5)].copy()
@@ -1273,6 +1343,7 @@ async def economic_indicators_page(request: Request):
             "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
             "indicators_display": indicators_display,
             "heatmap_json": heatmap_json,
+            "corr_top_rows": corr_top_rows,
             "trend_json": trend_json,
             "feature_importance_json": feature_importance_json,
             "index_predictions": index_predictions,
