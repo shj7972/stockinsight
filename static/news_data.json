@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책에 대한 비전 제시",
-      "대외 협력 강화 의지",
-      "포스트 코로나 대응 전략 강조"
+      "경제 회복을 위한 정책 추진",
+      "투자 유치 확대 방안 모색",
+      "물가 안정화 노력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 우상향 성장 중",
-      "환율 하락 공식이 깨졌다",
-      "시장에 불확실성 증가"
+      "한국 경제는 성장세 지속",
+      "환율 하락 공식 변화",
+      "시장 반응 주목 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6명 증가",
-      "부동산보다 주식 선호",
-      "금융자산 증가 추세"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 유망",
+      "재산 증가 추세에 긍정적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "다우지수는 600포인트 하락하고, S&P 500은 AI 파괴로 인해 시장이 흔들리는 것에 대한 우려로 3일 연속 하락했다: 실시간 업데이트 - CNBC",
-    "original_title": "Dow slides 600 points, S&P 500 falls for a third day as AI disruption fears rattle markets: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "다우 600포인트 하락",
-      "S&P 500 연속 3일 하락",
-      "AI 우려로 시장 동요"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
@@ -58,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "시장, 위기에도 불구하고 안정적",
-      "투자자 신뢰 높아져",
-      "경제 회복 징후 발견"
+      "시장, 위기에도 강세 유지",
+      "투자자들 낙관적",
+      "경제 불안한 상황 지속"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제는 투자 리스크 증가",
-      "기업 간 격차 확대",
-      "소비자 신뢰도 하락"
+      "K-형 경제는 투자 위험 증가",
+      "재정적 불평등 심화",
+      "주식 시장 변동성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
+    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "주식시장과 경제의 역습",
+      "좋은 소식이 나쁜 영향",
+      "시장 반응의 복잡성 강조"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
