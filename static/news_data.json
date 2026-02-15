@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "정부 재정 정책 강조",
-      "경제 성장 전망 밝음",
-      "혁신 산업 지원 예정"
+      "경제 정책 방향성 제시",
+      "내년 성장 전망 밝음",
+      "대외 경제 관계 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 지속",
+      "한국 경제 우상향 성장 중",
       "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "시장 변화 예상 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 존재",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명 기록",
+      "부동산보다 주식 선호",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "시장 변동성 증가",
-      "금리 인상 우려",
-      "전문가 조언 중요성"
+      "주식 시장 안정세 유지",
+      "경제 회복 조짐",
+      "투자자 신뢰 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "경제 성장 강세 지속",
-      "주식 투자 기회 증가"
+      "트럼프 행정부의 시장 성과",
+      "투자자 신뢰 증가",
+      "경제 성장 기대치 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
-    "original_title": "Crises Everywhere, but the Markets Don’t Seem to Mind - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
-    "publisher": "The New York Times",
+    "title": "다우지수는 600포인트 하락하고, S&P 500은 AI 파괴로 인해 시장이 흔들릴 것이라는 우려로 사흘 연속 하락했다: 실시간 업데이트 - CNBC",
+    "original_title": "Dow slides 600 points, S&P 500 falls for a third day as AI disruption fears rattle markets: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "경제 위기에도 시장은 강세",
-      "투자자들 불안함 크게 느끼지 않아",
-      "상승세 지속 예상됨"
+      "다우 600포인트 하락",
+      "S&P 500, 3일 연속 하락",
+      "AI 관련 우려로 시장 불안"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
