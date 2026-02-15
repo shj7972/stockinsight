@@ -4,22 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 존재",
+      "한국 부자 47.6만명",
       "부동산보다 주식 유망",
-      "금융자산 기준 10억 이상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 전략 발표",
-      "투자 유치 방안 마련",
-      "혁신 산업 지원 강화"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 유지",
-      "환율 하락 공식 무너지다",
-      "경제 전망 우려 커져"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 붕괴",
+      "시장 불확실성 증가"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약함",
+      "전반적 성장 둔화 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "시장 성장은 정책 영향",
-      "투자자 신뢰에 긍정적"
+      "트럼프 행정부의 시장 전망",
+      "주식 시장 상승세",
+      "경제 성장 기대감"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
+    "original_title": "Crises Everywhere, but the Markets Don’t Seem to Mind - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "시장 안정성 유지",
+      "위기에도 불구하고 상승",
+      "투자자 신뢰 높아짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "‘K-형’ 경제로 인한 위험 증가",
-      "주식 투자자에 부담",
-      "경제 분열 심화"
+      "K자 경제의 특징 강조",
+      "주식 투자 위험 증가",
+      "빈부격차 심화 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
-    "original_title": "Crises Everywhere, but the Markets Don’t Seem to Mind - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "시장, 여러 위기에도 불구하고 안정적",
-      "투자자들, 미래에 대한 긍정적 전망",
-      "경제 불안정성에도 금융 시장 호조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
