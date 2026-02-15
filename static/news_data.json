@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장에 대한 자신감",
-      "재정 정책 강화",
-      "국제 협력 강화 의지"
+      "경제 성장 전략 강조",
+      "민간 투자 유도 방안",
+      "재정 건전성 유지 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세 계속",
+      "한국 경제 성장세 지속",
       "환율 하락 공식 깨짐",
-      "경제 회복 기대감 증가"
+      "시장 불확실성 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -31,11 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망하다는 의견",
-      "경제 투자에 대한 긍정적 시각"
+      "부동산보다 주식이 유망",
+      "주식 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 하 주식시장 성장",
-      "세금 감면 효과",
-      "경제 자신감 상승"
+      "트럼프 행정부의 주식 시장 동향",
+      "U.S. 은행의 분석 포함",
+      "시장에 미친 긍정적 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "시장, 위기에도 강세 유지",
-      "투자자 심리 긍정적",
-      "경제 전망에 대한 불안감 여전"
+      "시장, 위기에도 불구하고 견조함",
+      "투자자 신뢰 높아지는 추세",
+      "경제지표 안정세 나타남"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제가 주식 위험 증가",
-      "소득 불평등 심화",
-      "투자 전략 재조정 필요"
+      "경제가 'K'형으로 나뉘고 있다",
+      "주식 투자에 더 많은 위험 존재",
+      "소득 격차 확대 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
