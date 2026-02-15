@@ -213,6 +213,10 @@
                     class="nav-item {% if request.url.path == '/sentiment-analysis' %}active{% endif %}">
                     <span>📢</span> 소셜 센티먼트
                 </a>
+                <a href="/economic-indicators"
+                    class="nav-item {% if request.url.path == '/economic-indicators' %}active{% endif %}">
+                    <span>📈</span> 경제지표
+                </a>
             </nav>
 
             {% block content %}{% endblock %}

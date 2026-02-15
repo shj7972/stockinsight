@@ -314,6 +314,94 @@ def get_analysis_context(ticker: str):
         ]
     }
 
+# ── 메인 페이지용 ML 예측 캐시 (6시간) ──────────────────────────────────
+_main_predictions_cache: dict = {"data": None, "ts": 0}
+_PRED_CACHE_SEC = 21600  # 6 hours
+
+def _get_main_index_predictions() -> list:
+    """경제지표 기반 다음 달 NASDAQ/S&P500/KOSPI 방향 예측. 결과 6시간 캐시."""
+    global _main_predictions_cache
+    now = time.time()
+    if _main_predictions_cache["data"] is not None and now - _main_predictions_cache["ts"] < _PRED_CACHE_SEC:
+        return _main_predictions_cache["data"]
+
+    results = []
+    try:
+        import numpy as np
+        from sklearn.ensemble import RandomForestClassifier
+        from sklearn.model_selection import train_test_split
+        from sklearn.preprocessing import StandardScaler
+        import yfinance as yf
+
+        csv_path = os.path.join(BASE_DIR, "static", "economic_indicators.csv")
+        if not os.path.exists(csv_path):
+            return []
+
+        df = pd.read_csv(csv_path)
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values('date').reset_index(drop=True)
+
+        feat_cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
+        target_indices = [
+            ('^IXIC', 'NASDAQ',  '#38bdf8'),
+            ('^GSPC', 'S&P 500', '#818cf8'),
+            ('^KS11', 'KOSPI',   '#4ade80'),
+        ]
+
+        for ticker_sym, name, color in target_indices:
+            try:
+                hist = yf.download(ticker_sym, start='1995-01-01', interval='1mo',
+                                   progress=False, auto_adjust=True)
+                if hist.empty:
+                    continue
+                close = hist['Close'].squeeze()
+                idx_df = pd.DataFrame({
+                    'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
+                    'price': close.values.astype(float)
+                }).dropna()
+                idx_df['date'] = idx_df['date'].dt.normalize()
+
+                merged = pd.merge(
+                    df[['date'] + feat_cols].dropna(subset=feat_cols),
+                    idx_df, on='date', how='inner'
+                ).sort_values('date').reset_index(drop=True)
+                merged['target'] = (merged['price'].shift(-1) > merged['price']).astype(int)
+                merged = merged.dropna()
+                if len(merged) < 30:
+                    continue
+
+                X, y = merged[feat_cols].values, merged['target'].values
+                sc = StandardScaler()
+                Xs = sc.fit_transform(X)
+                X_tr, X_te, y_tr, y_te = train_test_split(Xs[:-12], y[:-12], test_size=0.2, random_state=42)
+                clf = RandomForestClassifier(200, max_depth=5, random_state=42)
+                clf.fit(X_tr, y_tr)
+                acc = float(np.round(clf.score(X_te, y_te) * 100, 1))
+
+                latest_feat = np.array([float(df[c].dropna().iloc[-1]) for c in feat_cols]).reshape(1, -1)
+                pred = int(clf.predict(sc.transform(latest_feat))[0])
+                proba = float(np.round(clf.predict_proba(sc.transform(latest_feat))[0][pred] * 100, 1))
+
+                results.append({
+                    'ticker': ticker_sym,
+                    'name': name,
+                    'color': color,
+                    'direction': '상승' if pred == 1 else '하락',
+                    'direction_icon': '📈' if pred == 1 else '📉',
+                    'direction_color': '#4ade80' if pred == 1 else '#f87171',
+                    'confidence': proba,
+                    'accuracy': acc,
+                    'data_months': len(merged),
+                })
+            except Exception:
+                continue
+
+        _main_predictions_cache = {"data": results, "ts": now}
+    except Exception:
+        pass
+    return results
+
+
 def _render_dashboard(request: Request, ticker: str = ""):
     """Internal: render the dashboard/stock analysis page"""
     # default OG
@@ -341,6 +429,7 @@ def _render_dashboard(request: Request, ticker: str = ""):
     # Get stock data if ticker is provided
     stock_data = None
     news_data = []
+    index_predictions = []
 
     if ticker:
         stock_data = get_analysis_context(ticker)
@@ -359,12 +448,18 @@ def _render_dashboard(request: Request, ticker: str = ""):
     else:
         # Load news only if on main page (no ticker)
         news_data = news_manager.get_latest_news()
+        # ML predictions for main page (cached)
+        try:
+            index_predictions = _get_main_index_predictions()
+        except Exception:
+            index_predictions = []
 
     return templates.TemplateResponse("index.html", {
         "request": request,
         "indices_data": indices_data,
         "stock_data": stock_data,
         "news_data": news_data,
+        "index_predictions": index_predictions,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
         "selected_ticker": ticker,
@@ -928,6 +1023,276 @@ async def sentiment_analysis(request: Request):
         "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
     })
 
+@app.get("/economic-indicators", response_class=HTMLResponse)
+async def economic_indicators_page(request: Request):
+    """Economic Indicators Dashboard"""
+    try:
+        import numpy as np
+        df = pd.read_csv(os.path.join(BASE_DIR, "static", "economic_indicators.csv"))
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values('date').reset_index(drop=True)
+
+        # yfinance로 최신 데이터 보완 (SMH, XLI, EWY, SOX)
+        try:
+            import yfinance as yf
+            latest_date = df['date'].max()
+            end_dt = datetime.now()
+            if end_dt > latest_date:
+                yf_map = {'smh': 'SMH', 'xli': 'XLI', 'ewy': 'EWY', 'sox': '^SOX'}
+                for col, ticker in yf_map.items():
+                    hist = yf.download(ticker, start=latest_date.strftime('%Y-%m-%d'),
+                                       end=end_dt.strftime('%Y-%m-%d'), interval='1mo', progress=False, auto_adjust=True)
+                    if not hist.empty:
+                        for idx, row in hist.iterrows():
+                            month_start = pd.Timestamp(idx).replace(day=1)
+                            if month_start > latest_date:
+                                mask = df['date'] == month_start
+                                if mask.any():
+                                    df.loc[mask, col] = float(row['Close'])
+                                else:
+                                    new_row = pd.DataFrame({'date': [month_start], col: [float(row['Close'])]})
+                                    df = pd.concat([df, new_row], ignore_index=True)
+                df = df.sort_values('date').reset_index(drop=True)
+        except Exception:
+            pass
+
+        # 지표 메타 정보
+        indicator_meta = {
+            'fed_rate':      {'label': 'Fed 기준금리', 'unit': '%',  'icon': '🏦', 'desc': '미국 연방준비제도 기준금리. 높을수록 시장 유동성 감소'},
+            'cpi':           {'label': 'CPI (소비자물가)', 'unit': '',  'icon': '🛒', 'desc': '미국 소비자물가지수. 인플레이션 측정 핵심 지표'},
+            'treasury_10y':  {'label': '미국 10년 국채', 'unit': '%',  'icon': '📜', 'desc': '10년 만기 미국 국채 수익률. 장기 금리 기대 반영'},
+            'usd_krw':       {'label': 'USD/KRW 환율', 'unit': '원', 'icon': '💱', 'desc': '달러-원 환율. 높을수록 원화 약세'},
+            'ind_prod':      {'label': '산업생산지수', 'unit': '',   'icon': '🏭', 'desc': '미국 산업생산 활동 수준 지수'},
+            'wti':           {'label': 'WTI 유가', 'unit': '$',  'icon': '🛢️', 'desc': '서부 텍사스산 원유 가격(달러/배럴)'},
+            'vix':           {'label': 'VIX 공포지수', 'unit': '',   'icon': '😱', 'desc': 'S&P 500 변동성 지수. 높을수록 시장 불안'},
+            'sox':           {'label': 'SOX 반도체지수', 'unit': '',  'icon': '💾', 'desc': 'PHLX 반도체 지수. 글로벌 반도체 업황 대표 지표'},
+            'xli':           {'label': 'XLI 산업ETF', 'unit': '$',  'icon': '⚙️', 'desc': '미국 산업재 섹터 ETF'},
+            'ewy':           {'label': 'EWY 한국ETF', 'unit': '$',  'icon': '🇰🇷', 'desc': 'iShares MSCI South Korea ETF'},
+            'smh':           {'label': 'SMH 반도체ETF', 'unit': '$', 'icon': '🔬', 'desc': 'VanEck 반도체 ETF. NVDA, TSMC 등 포함'},
+        }
+
+        # 현재값 및 변화율 계산 (각 컬럼별 마지막 유효값 사용)
+        indicator_cols = list(indicator_meta.keys())
+
+        indicators_display = []
+        for col in indicator_cols:
+            col_series = df[col].dropna()
+            cur = float(col_series.iloc[-1]) if len(col_series) >= 1 else None
+            prv = float(col_series.iloc[-2]) if len(col_series) >= 2 else None
+            if cur is not None and prv is not None and prv != 0:
+                chg = cur - prv
+                chg_pct = chg / abs(prv) * 100
+            else:
+                chg = None
+                chg_pct = None
+            meta = indicator_meta[col]
+            indicators_display.append({
+                'col': col,
+                'label': meta['label'],
+                'unit': meta['unit'],
+                'icon': meta['icon'],
+                'desc': meta['desc'],
+                'current': cur,
+                'change': chg,
+                'change_pct': chg_pct,
+            })
+
+        # 상관관계 히트맵
+        corr_df = df[indicator_cols].dropna().corr().round(2)
+        labels = [indicator_meta[c]['label'] for c in corr_df.columns]
+        heatmap_fig = go.Figure(go.Heatmap(
+            z=corr_df.values.tolist(),
+            x=labels, y=labels,
+            colorscale='RdBu', zmid=0, zmin=-1, zmax=1,
+            text=corr_df.values.round(2).tolist(),
+            texttemplate='%{text}',
+            textfont=dict(size=9),
+            hoverongaps=False,
+        ))
+        heatmap_fig.update_layout(
+            template='plotly_dark',
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            font=dict(color='#94a3b8', family='Inter', size=10),
+            height=550,
+            margin=dict(l=140, r=20, t=30, b=140),
+            xaxis=dict(tickangle=-45),
+        )
+        heatmap_json = heatmap_fig.to_json()
+
+        # 트렌드 차트 (선택 지표 추이, 최근 5년)
+        recent = df[df['date'] >= df['date'].max() - pd.DateOffset(years=5)].copy()
+        trend_fig = go.Figure()
+        trend_cols = ['fed_rate', 'treasury_10y', 'vix']
+        trend_colors = ['#38bdf8', '#c084fc', '#f87171']
+        for tc, color in zip(trend_cols, trend_colors):
+            mask = recent[tc].notna()
+            trend_fig.add_trace(go.Scatter(
+                x=recent.loc[mask, 'date'].dt.strftime('%Y-%m').tolist(),
+                y=recent.loc[mask, tc].tolist(),
+                name=indicator_meta[tc]['label'],
+                line=dict(color=color, width=2),
+                mode='lines',
+            ))
+        trend_fig.update_layout(
+            template='plotly_dark',
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            font=dict(color='#94a3b8', family='Inter'),
+            height=300,
+            margin=dict(l=40, r=20, t=20, b=40),
+            legend=dict(orientation='h', y=1.1),
+            hovermode='x unified',
+        )
+        trend_json = trend_fig.to_json()
+
+        # ML 예측 모델 — NASDAQ / S&P 500 / KOSPI 다음 달 등락 예측
+        # 먼저 yfinance로 주요 지수 월별 데이터 확보
+        index_predictions = []       # 지수별 예측 결과 리스트
+        feature_importance_json = None
+        try:
+            from sklearn.ensemble import RandomForestClassifier
+            from sklearn.model_selection import train_test_split
+            from sklearn.preprocessing import StandardScaler
+            import yfinance as yf
+
+            feat_cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
+            fi_labels = [indicator_meta[c]['label'] for c in feat_cols]
+
+            # 예측 대상 지수 정의 (ticker, 한글명, 색상)
+            target_indices = [
+                ('^IXIC', 'NASDAQ',  '#38bdf8'),
+                ('^GSPC', 'S&P 500', '#818cf8'),
+                ('^KS11', 'KOSPI',   '#4ade80'),
+            ]
+
+            all_fi = []  # feature importance 평균용
+
+            for ticker, name, color in target_indices:
+                try:
+                    # 월별 종가 다운로드 (1995 ~)
+                    hist = yf.download(ticker, start='1995-01-01', interval='1mo',
+                                       progress=False, auto_adjust=True)
+                    if hist.empty:
+                        continue
+
+                    # Close 컬럼 추출
+                    close = hist['Close']
+                    if hasattr(close, 'squeeze'):
+                        close = close.squeeze()
+                    idx_df = pd.DataFrame({
+                        'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
+                        'price': close.values.astype(float)
+                    }).dropna()
+                    idx_df['date'] = idx_df['date'].dt.normalize()
+
+                    # 경제지표와 병합
+                    merged = pd.merge(
+                        df[['date'] + feat_cols].dropna(subset=feat_cols),
+                        idx_df,
+                        on='date', how='inner'
+                    ).sort_values('date').reset_index(drop=True)
+
+                    if len(merged) < 30:
+                        continue
+
+                    merged['price_next'] = merged['price'].shift(-1)
+                    merged['target'] = (merged['price_next'] > merged['price']).astype(int)
+                    merged = merged.dropna()
+
+                    X = merged[feat_cols].values
+                    y = merged['target'].values
+
+                    scaler = StandardScaler()
+                    X_scaled = scaler.fit_transform(X)
+                    X_train, X_test, y_train, y_test = train_test_split(
+                        X_scaled[:-12], y[:-12], test_size=0.2, random_state=42
+                    )
+                    clf = RandomForestClassifier(n_estimators=200, max_depth=5, random_state=42)
+                    clf.fit(X_train, y_train)
+                    accuracy = float(np.round(clf.score(X_test, y_test) * 100, 1))
+
+                    # 최신 경제지표로 예측
+                    latest_feat_vals = []
+                    for fc in feat_cols:
+                        s = df[fc].dropna()
+                        latest_feat_vals.append(float(s.iloc[-1]) if len(s) > 0 else 0.0)
+                    latest_feat = np.array(latest_feat_vals).reshape(1, -1)
+                    latest_scaled = scaler.transform(latest_feat)
+                    pred = int(clf.predict(latest_scaled)[0])
+                    proba = float(np.round(clf.predict_proba(latest_scaled)[0][pred] * 100, 1))
+
+                    all_fi.append(clf.feature_importances_)
+
+                    index_predictions.append({
+                        'ticker': ticker,
+                        'name': name,
+                        'color': color,
+                        'direction': '상승' if pred == 1 else '하락',
+                        'direction_icon': '📈' if pred == 1 else '📉',
+                        'direction_color': '#4ade80' if pred == 1 else '#f87171',
+                        'confidence': proba,
+                        'accuracy': accuracy,
+                        'data_months': len(merged),
+                    })
+                except Exception:
+                    continue
+
+            # Feature Importance 차트 (평균)
+            if all_fi:
+                avg_fi = np.mean(all_fi, axis=0)
+                fi_sorted = sorted(zip(fi_labels, avg_fi.tolist()), key=lambda x: x[1], reverse=True)
+                fi_fig = go.Figure(go.Bar(
+                    x=[v for _, v in fi_sorted],
+                    y=[l for l, _ in fi_sorted],
+                    orientation='h',
+                    marker=dict(
+                        color=[f'rgba(56,189,248,{min(1.0, 0.35 + v * 2.5):.2f})' for _, v in fi_sorted]
+                    ),
+                    text=[f'{v:.3f}' for _, v in fi_sorted],
+                    textposition='outside',
+                ))
+                fi_fig.update_layout(
+                    template='plotly_dark',
+                    paper_bgcolor='rgba(0,0,0,0)',
+                    plot_bgcolor='rgba(0,0,0,0)',
+                    font=dict(color='#94a3b8', family='Inter', size=11),
+                    height=280,
+                    margin=dict(l=150, r=60, t=20, b=20),
+                    xaxis_title='평균 중요도',
+                )
+                feature_importance_json = fi_fig.to_json()
+
+        except Exception:
+            pass
+
+        data_start = df['date'].min().strftime('%Y-%m')
+        data_end = df['date'].max().strftime('%Y-%m')
+
+        return templates.TemplateResponse("economic_indicators.html", {
+            "request": request,
+            "selected_ticker": "",
+            "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+            "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+            "indicators_display": indicators_display,
+            "heatmap_json": heatmap_json,
+            "trend_json": trend_json,
+            "feature_importance_json": feature_importance_json,
+            "index_predictions": index_predictions,
+            "data_start": data_start,
+            "data_end": data_end,
+            "error": None,
+        })
+    except Exception as e:
+        return templates.TemplateResponse("economic_indicators.html", {
+            "request": request,
+            "selected_ticker": "",
+            "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+            "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+            "error": str(e),
+        })
+
+
 @app.get("/robots.txt", response_class=PlainTextResponse)
 @app.head("/robots.txt", response_class=PlainTextResponse)
 async def robots():
@@ -1075,6 +1440,12 @@ async def sitemap():
         <loc>{base_url}/sentiment-analysis</loc>
         <lastmod>{today}</lastmod>
         <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/economic-indicators</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 """

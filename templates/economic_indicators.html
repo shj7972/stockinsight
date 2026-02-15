@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %}경제지표 대시보드 - Stock Insight AI{% endblock %}
+{% block meta_description %}미국 주요 경제지표(Fed 금리, CPI, 국채, VIX, SOX 등) 상관관계 분석 및 AI 예측 모델 대시보드{% endblock %}
+{% block og_title %}경제지표 대시보드 - Stock Insight AI{% endblock %}
+{% block og_description %}Fed 금리, CPI, 10년 국채, VIX, SOX 반도체지수 등 11개 경제지표 상관관계 분석 및 다음 달 시장 방향 AI 예측{% endblock %}
+{% block canonical_path %}/economic-indicators{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "경제지표 대시보드 - Stock Insight AI",
+    "description": "미국 주요 경제지표 상관관계 분석 및 AI 기반 시장 방향 예측",
+    "url": "https://stock-insight.app/economic-indicators",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "Stock Insight AI",
+        "url": "https://stock-insight.app"
+    }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- 헤더 -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">📈</span>
+        <span class="gradient-text">경제지표 대시보드</span>
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem; margin-bottom: 0;">
+        Fed 금리, CPI, 국채 수익률, VIX, SOX 반도체지수 등 11개 핵심 경제지표의 상관관계를 분석하고,
+        RandomForest 모델로 다음 달 시장 방향을 예측합니다.
+        {% if data_start and data_end %}
+        <span style="color: #64748b; font-size: 0.85rem; margin-left: 0.5rem;">
+            데이터 기간: {{ data_start }} ~ {{ data_end }}
+        </span>
+        {% endif %}
+    </p>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="border-color: #fca5a5; color: #fca5a5; padding: 1.5rem;">
+    ⚠️ 데이터를 불러오는 중 오류가 발생했습니다: {{ error }}
+</div>
+{% else %}
+
+<!-- 지표 카드 그리드 -->
+{% if indicators_display %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+    <h4 style="margin: 0 0 1rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
+        📊 주요 경제지표 현황
+    </h4>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
+        {% for ind in indicators_display %}
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 0.9rem 1rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.35rem;">
+                <span style="font-size: 1.1rem;">{{ ind.icon }}</span>
+                <span style="color: #94a3b8; font-size: 0.78rem; font-weight: 500;">{{ ind.label }}</span>
+            </div>
+            {% if ind.current is not none %}
+            <div style="font-size: 1.25rem; font-weight: 700; color: #f1f5f9;">
+                {% if ind.unit == '$' %}${% endif %}
+                {{ "%.2f"|format(ind.current) }}
+                {% if ind.unit and ind.unit != '$' %}<span style="font-size: 0.8rem; color: #64748b; margin-left: 2px;">{{ ind.unit }}</span>{% endif %}
+            </div>
+            {% if ind.change is not none %}
+            <div style="font-size: 0.8rem; margin-top: 0.2rem; color: {% if ind.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                {{ "%+.2f"|format(ind.change) }}
+                {% if ind.change_pct is not none %}({{ "%+.1f"|format(ind.change_pct) }}%){% endif %}
+            </div>
+            {% endif %}
+            {% else %}
+            <div style="color: #475569; font-size: 0.9rem;">데이터 없음</div>
+            {% endif %}
+            <div style="color: #475569; font-size: 0.72rem; margin-top: 0.4rem; line-height: 1.3;">{{ ind.desc }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- ML 예측 결과 -->
+{% if index_predictions %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+    <h4 style="margin: 0 0 0.25rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
+        🤖 AI 예측 모델 — 다음 달 주요 지수 방향
+    </h4>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 1rem 0;">
+        과거 경제지표(Fed 금리·CPI·국채·환율·산업생산·유가·VIX) 기반 RandomForest 200 trees
+    </p>
+
+    <!-- 지수별 예측 카드 -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+        {% for pred in index_predictions %}
+        <div style="text-align: center;
+                    background: rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.07);
+                    border: 1px solid {{ pred.direction_color }}44;
+                    border-radius: 14px; padding: 1.2rem 0.8rem;">
+            <div style="font-size: 0.8rem; font-weight: 600; color: {{ pred.color }}; margin-bottom: 0.4rem; letter-spacing: 0.03em;">
+                {{ pred.name }}
+            </div>
+            <div style="font-size: 2.2rem; margin-bottom: 0.3rem;">{{ pred.direction_icon }}</div>
+            <div style="font-size: 1.5rem; font-weight: 800; color: {{ pred.direction_color }};">
+                {{ pred.direction }}
+            </div>
+            <div style="color: #94a3b8; font-size: 0.78rem; margin-top: 0.45rem;">
+                신뢰도 <strong style="color: #e2e8f0;">{{ pred.confidence }}%</strong>
+            </div>
+            <div style="color: #475569; font-size: 0.7rem; margin-top: 0.25rem;">
+                정확도 {{ pred.accuracy }}% · {{ pred.data_months }}개월
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Feature Importance 차트 -->
+    {% if feature_importance_json %}
+    <div>
+        <div style="color: #64748b; font-size: 0.8rem; margin-bottom: 0.4rem;">
+            📌 예측에 가장 중요한 지표 (3개 지수 평균 Feature Importance)
+        </div>
+        <div id="fi-chart" style="width: 100%; height: 280px;"></div>
+    </div>
+    {% endif %}
+
+    <div style="color: #475569; font-size: 0.75rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.05);">
+        ⚠️ 이 예측은 과거 데이터 기반 통계 모델로, 실제 투자 결정에 직접 활용하지 마세요. 참고용으로만 사용하십시오.
+    </div>
+</div>
+{% endif %}
+
+<!-- 상관관계 히트맵 -->
+{% if heatmap_json %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
+        🔥 지표 간 상관관계 히트맵
+    </h4>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 0.75rem 0;">
+        1에 가까울수록 강한 양의 상관, -1에 가까울수록 강한 음의 상관 관계
+    </p>
+    <div id="heatmap-chart" style="width: 100%; height: 550px;"></div>
+</div>
+{% endif %}
+
+<!-- 주요 지표 트렌드 차트 (최근 5년) -->
+{% if trend_json %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+    <h4 style="margin: 0 0 0.5rem 0; color: #e2e8f0; font-size: 1rem; font-weight: 600;">
+        📉 주요 금리/위험 지표 추이 (최근 5년)
+    </h4>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 0.75rem 0;">
+        Fed 기준금리, 10년 국채 수익률, VIX 공포지수 비교
+    </p>
+    <div id="trend-chart" style="width: 100%; height: 300px;"></div>
+</div>
+{% endif %}
+
+{% endif %}{# end if not error #}
+
+<script>
+{% if heatmap_json %}
+(function() {
+    var heatmapData = {{ heatmap_json | safe }};
+    Plotly.newPlot('heatmap-chart', heatmapData.data, heatmapData.layout, {
+        responsive: true, displayModeBar: false
+    });
+})();
+{% endif %}
+
+{% if trend_json %}
+(function() {
+    var trendData = {{ trend_json | safe }};
+    Plotly.newPlot('trend-chart', trendData.data, trendData.layout, {
+        responsive: true, displayModeBar: false
+    });
+})();
+{% endif %}
+
+{% if feature_importance_json %}
+(function() {
+    var fiData = {{ feature_importance_json | safe }};
+    Plotly.newPlot('fi-chart', fiData.data, fiData.layout, {
+        responsive: true, displayModeBar: false
+    });
+})();
+{% endif %}
+</script>
+{% endblock %}

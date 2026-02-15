@@ -32,25 +32,31 @@
 {% endblock %}
 
 {% block content %}
-<!-- Major Indices -->
-<div class="glass-panel indices-section">
-    <h3>📊 실시간 글로벌 지수</h3>
-    <div class="indices-grid">
+<!-- Major Indices (콤팩트 버전) -->
+<div class="glass-panel" style="padding: 0.85rem 1rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.65rem;">
+        <span style="font-size: 1rem;">📊</span>
+        <span style="font-size: 0.85rem; font-weight: 600; color: #94a3b8; letter-spacing: 0.04em;">실시간 글로벌 지수</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
         {% for region, indices in indices_data.items() %}
         {% for index in indices %}
-        <div class="index-card">
-            <div class="index-name">{{ index.name }}</div>
-            <div class="index-value">
-                {% if region == "한국" %}
-                {{ "{:,.0f}".format(index.current) }}
-                {% else %}
-                {{ "{:,.2f}".format(index.current) }}
-                {% endif %}
-            </div>
-            <div class="index-change {% if index.change >= 0 %}positive{% else %}negative{% endif %}">
-                {{ "{:+.2f}".format(index.change) }} ({{ "{:+.2f}".format(index.change_pct) }}%)
-            </div>
-        </div>
+        <a href="/stock/{{ index.ticker }}"
+           style="text-decoration:none; display:flex; flex-direction:column; align-items:flex-start;
+                  background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
+                  border-radius: 10px; padding: 0.5rem 0.75rem; min-width: 110px; flex: 1;
+                  transition: border-color 0.2s;"
+           onmouseover="this.style.borderColor='rgba(56,189,248,0.35)'"
+           onmouseout="this.style.borderColor='rgba(255,255,255,0.06)'">
+            <span style="font-size: 0.7rem; color: #64748b; margin-bottom: 0.15rem;">{{ index.name }}</span>
+            <span style="font-size: 0.95rem; font-weight: 700; color: #f1f5f9;">
+                {% if region == "한국" %}{{ "{:,.0f}".format(index.current) }}
+                {% else %}{{ "{:,.2f}".format(index.current) }}{% endif %}
+            </span>
+            <span style="font-size: 0.72rem; color: {% if index.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                {{ "{:+.2f}".format(index.change_pct) }}%
+            </span>
+        </a>
         {% endfor %}
         {% endfor %}
     </div>
@@ -265,50 +271,102 @@
     }
 </script>
 {% else %}
-<div class="glass-panel welcome-section">
-    <h2>주식 티커를 입력하여 분석을 시작하세요</h2>
-    <p>좌측 사이드바에서 티커를 입력하거나 인기 주식을 선택하세요.</p>
+<div class="glass-panel welcome-section" style="padding: 1rem 1.25rem; margin-bottom: 1.25rem;">
+    <h2 style="font-size: 1.1rem; margin: 0 0 0.25rem 0;">주식 티커를 입력하여 분석을 시작하세요</h2>
+    <p style="color: #64748b; font-size: 0.85rem; margin: 0;">좌측 사이드바에서 티커를 입력하거나 인기 주식을 선택하세요.</p>
 </div>
 
+<!-- AI 지수 예측 섹션 -->
+{% if index_predictions %}
+<div class="glass-panel" style="padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
+        <div style="display: flex; align-items: center; gap: 0.4rem;">
+            <span>🤖</span>
+            <span style="font-size: 0.9rem; font-weight: 700; color: #e2e8f0;">AI 예측 — 다음 달 주요 지수 방향</span>
+        </div>
+        <a href="/economic-indicators" style="font-size: 0.75rem; color: #38bdf8; text-decoration: none;
+           background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25);
+           border-radius: 20px; padding: 0.2rem 0.65rem;">
+            상세 분석 보기 →
+        </a>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 0.75rem;">
+        {% for pred in index_predictions %}
+        <div style="flex: 1; min-width: 130px;
+                    background: rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.06);
+                    border: 1px solid {{ pred.direction_color }}33;
+                    border-radius: 12px; padding: 0.85rem 0.75rem; text-align: center;">
+            <div style="font-size: 0.75rem; font-weight: 600; color: {{ pred.color }}; margin-bottom: 0.3rem;">
+                {{ pred.name }}
+            </div>
+            <div style="font-size: 1.7rem; line-height: 1;">{{ pred.direction_icon }}</div>
+            <div style="font-size: 1.15rem; font-weight: 800; color: {{ pred.direction_color }}; margin-top: 0.2rem;">
+                {{ pred.direction }}
+            </div>
+            <div style="font-size: 0.7rem; color: #94a3b8; margin-top: 0.3rem;">
+                신뢰도 <strong style="color: #e2e8f0;">{{ pred.confidence }}%</strong>
+            </div>
+            <div style="font-size: 0.65rem; color: #475569; margin-top: 0.15rem;">
+                모델 정확도 {{ pred.accuracy }}%
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <p style="color: #475569; font-size: 0.7rem; margin: 0; padding-top: 0.6rem; border-top: 1px solid rgba(255,255,255,0.05);">
+        ⚠️ 과거 데이터 기반 통계 모델 (RandomForest). 투자 결정에 직접 활용하지 마세요.
+        경제지표: Fed 금리 · CPI · 국채 · 환율 · 산업생산 · 유가 · VIX
+    </p>
+</div>
+{% endif %}
+
+<!-- AI 금융 뉴스 브리핑 (콤팩트) -->
 {% if news_data %}
-<div class="news-section-container">
-    <div class="news-header">
-        <h3 class="gradient-text">🔥 AI 실시간 금융 뉴스 브리핑</h3>
-        <span class="update-badge">매시간 자동 업데이트</span>
+<div style="margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.65rem; flex-wrap: wrap; gap: 0.4rem;">
+        <div style="display: flex; align-items: center; gap: 0.4rem;">
+            <span>🔥</span>
+            <span class="gradient-text" style="font-size: 0.9rem; font-weight: 700;">AI 실시간 금융 뉴스 브리핑</span>
+        </div>
+        <span style="font-size: 0.7rem; color: #475569; background: rgba(255,255,255,0.04);
+               border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 0.15rem 0.55rem;">
+            매시간 자동 업데이트
+        </span>
     </div>
 
-    <div class="news-grid-cards">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.65rem;">
         {% for news in news_data %}
-        <div class="news-card glass-panel">
-            <div class="news-card-header">
-                <span class="news-type-badge type-{{ 'domestic' if news.type == '국내' else 'global' }}">{{ news.type
-                    }}</span>
-                <span class="news-sentiment-icon">
-                    {% if news.sentiment == 'POSITIVE' %}🟢 긍정
-                    {% elif news.sentiment == 'NEGATIVE' %}🔴 부정
-                    {% else %}⚪ 중립
-                    {% endif %}
+        <div class="glass-panel" style="padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+            <!-- 헤더 -->
+            <div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;">
+                <span style="font-size: 0.68rem; font-weight: 600; padding: 0.15rem 0.45rem; border-radius: 4px;
+                      background: {% if news.type == '국내' %}rgba(74,222,128,0.15){% else %}rgba(56,189,248,0.15){% endif %};
+                      color: {% if news.type == '국내' %}#4ade80{% else %}#38bdf8{% endif %};">
+                    {{ news.type }}
                 </span>
-                <span class="publisher">{{ news.publisher }}</span>
+                <span style="font-size: 0.68rem; color: {% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
+                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif %}
+                </span>
+                <span style="font-size: 0.68rem; color: #475569; margin-left: auto;">{{ news.publisher }}</span>
             </div>
-
-            <a href="{{ news.link }}" target="_blank" class="news-title-link">
-                <h4 class="news-title">{{ news.title }}</h4>
+            <!-- 제목 -->
+            <a href="{{ news.link }}" target="_blank"
+               style="text-decoration: none; color: #e2e8f0; font-size: 0.82rem; font-weight: 600;
+                      line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2;
+                      -webkit-box-orient: vertical; overflow: hidden;">
+                {{ news.title }}
             </a>
-
-            <div class="news-summary-box">
-                <ul class="summary-list">
-                    {% for point in news.summary %}
-                    <li>{{ point }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <div class="news-footer">
-                <a href="{{ news.link }}" target="_blank" class="read-more-btn">
-                    기사 원문 보기 ↗
-                </a>
-            </div>
+            <!-- 요약 불렛 -->
+            <ul style="margin: 0; padding-left: 1.1rem; color: #94a3b8; font-size: 0.75rem; line-height: 1.5;">
+                {% for point in news.summary[:2] %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+            <!-- 원문 링크 -->
+            <a href="{{ news.link }}" target="_blank"
+               style="font-size: 0.72rem; color: #38bdf8; text-decoration: none; margin-top: auto;
+                      align-self: flex-start;">
+                원문 보기 ↗
+            </a>
         </div>
         {% endfor %}
     </div>
