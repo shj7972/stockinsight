@@ -1175,125 +1175,93 @@ async def economic_indicators_page(request: Request):
         )
         trend_json = trend_fig.to_json()
 
-        # ML 예측 모델 — NASDAQ / S&P 500 / KOSPI 다음 달 등락 예측
-        # 먼저 yfinance로 주요 지수 월별 데이터 확보
-        index_predictions = []       # 지수별 예측 결과 리스트
+        # ML 예측 — 캐시 공유 함수 재사용 (6시간 캐시)
+        index_predictions = _get_main_index_predictions()
         feature_importance_json = None
+
+        # Feature Importance 차트 — 캐시된 예측이 있을 때만 생성
         try:
-            from sklearn.ensemble import RandomForestClassifier
-            from sklearn.model_selection import train_test_split
-            from sklearn.preprocessing import StandardScaler
-            import yfinance as yf
+            if index_predictions:
+                import yfinance as yf
+                from sklearn.ensemble import RandomForestClassifier
+                from sklearn.model_selection import train_test_split
+                from sklearn.preprocessing import StandardScaler
 
-            feat_cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
-            fi_labels = [indicator_meta[c]['label'] for c in feat_cols]
+                feat_cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
+                fi_labels = [indicator_meta[c]['label'] for c in feat_cols]
 
-            # 예측 대상 지수 정의 (ticker, 한글명, 색상)
-            target_indices = [
-                ('^IXIC', 'NASDAQ',  '#38bdf8'),
-                ('^GSPC', 'S&P 500', '#818cf8'),
-                ('^KS11', 'KOSPI',   '#4ade80'),
-            ]
+                # fi 차트도 캐싱
+                _fi_cache_key = "fi_json"
+                _fi_ts_key = "fi_ts"
+                if (
+                    _fi_cache_key in _main_predictions_cache
+                    and _main_predictions_cache[_fi_ts_key] == _main_predictions_cache["ts"]
+                ):
+                    feature_importance_json = _main_predictions_cache[_fi_cache_key]
+                else:
+                    all_fi = []
+                    target_indices = [
+                        ('^IXIC', '#38bdf8'),
+                        ('^GSPC', '#818cf8'),
+                        ('^KS11', '#4ade80'),
+                    ]
+                    for ticker_sym, _ in target_indices:
+                        try:
+                            hist = yf.download(ticker_sym, start='1995-01-01', interval='1mo',
+                                               progress=False, auto_adjust=True)
+                            if hist.empty:
+                                continue
+                            close = hist['Close'].squeeze()
+                            idx_df = pd.DataFrame({
+                                'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
+                                'price': close.values.astype(float)
+                            }).dropna()
+                            idx_df['date'] = idx_df['date'].dt.normalize()
+                            merged = pd.merge(
+                                df[['date'] + feat_cols].dropna(subset=feat_cols),
+                                idx_df, on='date', how='inner'
+                            ).sort_values('date').reset_index(drop=True)
+                            merged['target'] = (merged['price'].shift(-1) > merged['price']).astype(int)
+                            merged = merged.dropna()
+                            if len(merged) < 30:
+                                continue
+                            X, y = merged[feat_cols].values, merged['target'].values
+                            sc = StandardScaler()
+                            Xs = sc.fit_transform(X)
+                            X_tr, X_te, y_tr, y_te = train_test_split(Xs[:-12], y[:-12], test_size=0.2, random_state=42)
+                            clf = RandomForestClassifier(200, max_depth=5, random_state=42)
+                            clf.fit(X_tr, y_tr)
+                            all_fi.append(clf.feature_importances_)
+                        except Exception:
+                            continue
 
-            all_fi = []  # feature importance 평균용
-
-            for ticker, name, color in target_indices:
-                try:
-                    # 월별 종가 다운로드 (1995 ~)
-                    hist = yf.download(ticker, start='1995-01-01', interval='1mo',
-                                       progress=False, auto_adjust=True)
-                    if hist.empty:
-                        continue
-
-                    # Close 컬럼 추출
-                    close = hist['Close']
-                    if hasattr(close, 'squeeze'):
-                        close = close.squeeze()
-                    idx_df = pd.DataFrame({
-                        'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
-                        'price': close.values.astype(float)
-                    }).dropna()
-                    idx_df['date'] = idx_df['date'].dt.normalize()
-
-                    # 경제지표와 병합
-                    merged = pd.merge(
-                        df[['date'] + feat_cols].dropna(subset=feat_cols),
-                        idx_df,
-                        on='date', how='inner'
-                    ).sort_values('date').reset_index(drop=True)
-
-                    if len(merged) < 30:
-                        continue
-
-                    merged['price_next'] = merged['price'].shift(-1)
-                    merged['target'] = (merged['price_next'] > merged['price']).astype(int)
-                    merged = merged.dropna()
-
-                    X = merged[feat_cols].values
-                    y = merged['target'].values
-
-                    scaler = StandardScaler()
-                    X_scaled = scaler.fit_transform(X)
-                    X_train, X_test, y_train, y_test = train_test_split(
-                        X_scaled[:-12], y[:-12], test_size=0.2, random_state=42
-                    )
-                    clf = RandomForestClassifier(n_estimators=200, max_depth=5, random_state=42)
-                    clf.fit(X_train, y_train)
-                    accuracy = float(np.round(clf.score(X_test, y_test) * 100, 1))
-
-                    # 최신 경제지표로 예측
-                    latest_feat_vals = []
-                    for fc in feat_cols:
-                        s = df[fc].dropna()
-                        latest_feat_vals.append(float(s.iloc[-1]) if len(s) > 0 else 0.0)
-                    latest_feat = np.array(latest_feat_vals).reshape(1, -1)
-                    latest_scaled = scaler.transform(latest_feat)
-                    pred = int(clf.predict(latest_scaled)[0])
-                    proba = float(np.round(clf.predict_proba(latest_scaled)[0][pred] * 100, 1))
-
-                    all_fi.append(clf.feature_importances_)
-
-                    index_predictions.append({
-                        'ticker': ticker,
-                        'name': name,
-                        'color': color,
-                        'direction': '상승' if pred == 1 else '하락',
-                        'direction_icon': '📈' if pred == 1 else '📉',
-                        'direction_color': '#4ade80' if pred == 1 else '#f87171',
-                        'confidence': proba,
-                        'accuracy': accuracy,
-                        'data_months': len(merged),
-                    })
-                except Exception:
-                    continue
-
-            # Feature Importance 차트 (평균)
-            if all_fi:
-                avg_fi = np.mean(all_fi, axis=0)
-                fi_sorted = sorted(zip(fi_labels, avg_fi.tolist()), key=lambda x: x[1], reverse=True)
-                fi_fig = go.Figure(go.Bar(
-                    x=[v for _, v in fi_sorted],
-                    y=[l for l, _ in fi_sorted],
-                    orientation='h',
-                    marker=dict(
-                        color=[f'rgba(56,189,248,{min(1.0, 0.35 + v * 2.5):.2f})' for _, v in fi_sorted]
-                    ),
-                    text=[f'{v:.3f}' for _, v in fi_sorted],
-                    textposition='outside',
-                ))
-                fi_fig.update_layout(
-                    template='plotly_dark',
-                    paper_bgcolor='rgba(0,0,0,0)',
-                    plot_bgcolor='rgba(0,0,0,0)',
-                    font=dict(color='#94a3b8', family='Inter', size=11),
-                    height=280,
-                    margin=dict(l=150, r=60, t=20, b=20),
-                    xaxis_title='평균 중요도',
-                )
-                feature_importance_json = fi_fig.to_json()
-
-        except Exception:
-            pass
+                    if all_fi:
+                        avg_fi = np.mean(all_fi, axis=0)
+                        fi_sorted = sorted(zip(fi_labels, avg_fi.tolist()), key=lambda x: x[1], reverse=True)
+                        fi_fig = go.Figure(go.Bar(
+                            x=[v for _, v in fi_sorted],
+                            y=[l for l, _ in fi_sorted],
+                            orientation='h',
+                            marker=dict(
+                                color=[f'rgba(56,189,248,{min(1.0, 0.35 + v * 2.5):.2f})' for _, v in fi_sorted]
+                            ),
+                            text=[f'{v:.3f}' for _, v in fi_sorted],
+                            textposition='outside',
+                        ))
+                        fi_fig.update_layout(
+                            template='plotly_dark',
+                            paper_bgcolor='rgba(0,0,0,0)',
+                            plot_bgcolor='rgba(0,0,0,0)',
+                            font=dict(color='#94a3b8', family='Inter', size=11),
+                            height=280,
+                            margin=dict(l=150, r=60, t=20, b=20),
+                            xaxis_title='평균 중요도',
+                        )
+                        feature_importance_json = fi_fig.to_json()
+                        _main_predictions_cache[_fi_cache_key] = feature_importance_json
+                        _main_predictions_cache[_fi_ts_key] = _main_predictions_cache["ts"]
+        except Exception as e:
+            print(f"[eco-indicators] FI chart error: {e}")
 
         data_start = df['date'].min().strftime('%Y-%m')
         data_end = df['date'].max().strftime('%Y-%m')
