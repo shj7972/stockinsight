@@ -18,5 +18,3 @@ feedparser
 apscheduler
 openai
 python-dotenv
-scikit-learn
-numpy
