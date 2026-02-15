@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 방향성 제시",
-      "내년 성장 전망 밝음",
-      "대외 경제 관계 강조"
+      "경제 정책 방향 설명",
+      "마켓 안정 강조",
+      "미래 성장 전망 어필"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
+      "한국 경제 성장 중",
       "환율 하락 공식 깨짐",
-      "시장 변화 예상 필요"
+      "현 경제 상황 불안정"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,8 +30,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식 선호",
+      "10억 이상 부자는 47.6만명",
+      "부동산보다 주식이 유망",
       "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
@@ -39,45 +39,45 @@
     "type": "국내"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
+    "original_title": "Crises Everywhere, but the Markets Don’t Seem to Mind - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "주식 시장 안정세 유지",
-      "경제 회복 조짐",
-      "투자자 신뢰 증가"
+      "시장, 위기에도 반응 미미",
+      "경제 불안에도 상승세 지속",
+      "투자자들 긍정적 전망 유지"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
+    "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "트럼프 행정부의 시장 성과",
-      "투자자 신뢰 증가",
-      "경제 성장 기대치 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "다우지수는 600포인트 하락하고, S&P 500은 AI 파괴로 인해 시장이 흔들릴 것이라는 우려로 사흘 연속 하락했다: 실시간 업데이트 - CNBC",
-    "original_title": "Dow slides 600 points, S&P 500 falls for a third day as AI disruption fears rattle markets: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN2VlMkQwUUxVWHdDU0E4SU41bmdRTXliZFdLc2RTZVJGeU93RVd0WVJtcmJQcWFuUXZIcXJCU2RyaEFmOUJvTGF4ck5IXzJEMTBqMWdNSGZybDAzdnQyZlpIZVRoVVJIVXB4ZkdvTjVGX3VLYnM00gF8QVVfeXFMTUJFYjdqZHI4dXI5WUdRVWpOWVlYcUc0WWRQVUF3RVlBWVBKS3ZYZjJpMktKbE9pZWV4X3BLT180ZFBsanpaWF9vTTI2QV9xcTk5VC1fR0dpb3hXbVdoNWJkZXNQT1ZnZ0hnN3pBaHdwQTVnazFXZjJWY1BkSQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "다우 600포인트 하락",
-      "S&P 500, 3일 연속 하락",
-      "AI 관련 우려로 시장 불안"
+      "K-형 경제의 리스크 증가",
+      "주식 투자자에게 경고",
+      "소득 격차 확대 문제"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
+    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "주가 상승이 경제에 부정적일 수 있다",
+      "좋은 소식이 나쁜 결과로 이어진다",
+      "투자자 심리가 불안정해진 상황"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
