@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 밝혀",
-      "재정 정책 안정화 강조",
-      "일자리 창출 계획 소개"
+      "신임 장관 약력 소개",
+      "경제 정책 방향 제시",
+      "국가 성장 목표 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -18,11 +18,11 @@
     "publisher": "서울신문",
     "summary": [
       "한국 경제 성장세 지속",
-      "환율 하락 공식 무너짐",
-      "금융 시장 불안 요소 존재"
+      "환율 하락 공식 붕괴",
+      "시장 혼란 우려"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 데이터",
+      "한국 부자 47.6만명 증가",
       "주식이 부동산보다 유망",
-      "금융자산 10억 이상 보유"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주가 상승",
-      "세금 인하 효과",
-      "경제 성장 기대감"
+      "트럼프 행정부의 주식 시장 분석",
+      "경제 성장 보폭 확대",
+      "시장에서 긍정적 반응 관찰"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
+    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제가 불확실성 확대",
-      "주식 투자에 더 많은 위험",
-      "부유층과 저소득층 간 격차 증가"
+      "K자 경제가 투자 리스크 증가",
+      "소득 불평등 심화",
+      "특정 산업 주식 선호"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "경제 성장 긍정 신호가 우울할 수",
-      "시장은 좋은 소식에 반응 낮음",
-      "금리 인상 우려가 지속됨"
+      "경제 성장, 주가 하락 불안",
+      "좋은 뉴스가 악재로 작용",
+      "투자자 심리 변화 중"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
