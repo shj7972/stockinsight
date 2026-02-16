@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "10억 이상 금융자산 보유",
-      "부동산보다 주식 유망"
+      "10억 이상 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "부자의 투자 경향 변화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 경제부총리 인터뷰",
-      "경제 정책 방향 제시",
-      "소통 강화 의지 표명"
+      "경제 정책 변화 예정",
+      "투자 유치 전략 강화",
+      "소상공인 지원 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제, 지속적인 성장 중",
-      "환율 하락 공식이 무너지다",
-      "경제에 대한 우려 증가"
+      "한국 경제 성장세 유지",
+      "환율 하락 공식 무너져",
+      "시장 불안 요소 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
+  },
+  {
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "주가 상승세가 이어졌다",
+      "투자자 신뢰 회복",
+      "경제 지표 긍정적 변동"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "고용 시장이 경제에 미치는 영향 - US Bank",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "구직 시장이 경제에 긍정적 영향",
-      "고용 증가가 소비 촉진",
-      "실업률 감소로 안정성 증가"
+      "고용 시장 안정세 유지",
+      "경제 성장에 기여",
+      "소비자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K자형 경제는 불균형 확대",
-      "주식 투자 위험 증가",
-      "소득 격차 심화"
+      "K형 경제가 주식 투자 위험 증가",
+      "경제 불균형 심화",
+      "투자자 신중한 접근 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "곳곳에 위기가 있지만 시장은 개의치 않는 것 같습니다 - The New York Times",
-    "original_title": "Crises Everywhere, but the Markets Don’t Seem to Mind - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IcUpWaXZFWkhsSkpvb3diVGdsclctYjdlNzNIYVpfRWR2a1JFZmFYZDRudDNNLVhrdms1V2VSNlM5T255OXlvREFSRDZjcnRFbElkMzVJMDhLb1FDY1JIY3lyVnVHOHN3QTFKLWVmS1otZ0lmb2FFTA?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "시장은 위기를 무시하고 있다",
-      "위기 속에서도 안정세 유지",
-      "투자자들 긍정적 반응"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
