@@ -1,12 +1,25 @@
 [
   {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 정책 강조",
-      "미래 성장 전략 공유",
-      "국제 협력 강화 의지"
+      "경제 성장 촉진 계획 발표",
+      "지속 가능한 정책 강조",
+      "통화 안정 유지 노력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 중",
-      "환율 하락 공식 변화",
-      "전망 불확실성 확대"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 무너지다",
+      "경제 전망에 대한 우려"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
-  },
-  {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "부자 수 47.6만명 증가",
-      "주식 투자 유망",
-      "부동산 투자 감소"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 정부下 주식시장 변화",
-      "경제 성장률 증가",
-      "세금 인하의 긍정적 효과"
+      "트럼프 행정부의 시장 성과",
+      "세금 감면의 영향",
+      "경제 성장 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
+    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제의 위험 증가",
-      "주식 투자에 더 큰 불확실성",
-      "소득 차이가 투자의 영향 미침"
+      "K-형 경제가 주식 투자에 리스크 증가",
+      "소득 불균형 심화",
+      "주식 시장 변동성 확대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "경제 지표가 좋지만 시장 영향 미비",
-      "투자자들 불안감 증가",
-      "금리 인상 우려 여전"
+      "주식 시장 전망에 혼란이 있음",
+      "경기 호조의 의미 재검토",
+      "투자자들의 우려 심화"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
