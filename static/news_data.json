@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "금융자산 10억 이상",
-      "주식이 더 유망하다고 판단"
+      "부자 47.6만명 보유 자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제성장 전략 강조",
-      "정책 안정성 강화",
-      "기업 지원 방안 논의"
+      "경제 정책 방향 설명",
+      "혁신 성장 강조",
+      "재정 건전성 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 계속 성장 중",
-      "환율 하락 공식이 무너짐",
-      "변화에 대한 우려 존재"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 불일치",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "노동 시장의 성장 추세",
-      "고용률 상승 효과",
-      "경제 성장 기여"
+      "고용 시장은 경제에 중요하다",
+      "실업률 변화 영향",
+      "고용 증가 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3Qk5PVmRBbGNsM2lIQWNGTXZnWkNBSkVCY3lBWnFEY3B2aElYNHo2cFRfYkF1VGE1VzN0NGZvRmF1cUFKRUJ2VzEyTFNFajNwbnFndTc0OWs0Rm9WWE9RenByNm1ZM3hMTVJR?oc=5",
     "publisher": "Britannica",
     "summary": [
-      "1929년 주식 시장 붕괴 발생",
-      "경제 대공황의 시작",
-      "투자 신뢰 크게 하락"
+      "1929년 주식 시장 대폭락 발생",
+      "경제 불황으로 이어짐",
+      "대규모 실업 사태 발생"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K형 경제가 주식 투자 리스크 증가",
-      "소득 차별화로 투자 방안 필요",
-      "시장 불확실성 확대"
+      "K자 경제, 주식 위험 증가",
+      "부유층과 저소득층 양극화",
+      "투자 전략 재조정 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
