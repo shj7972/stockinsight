@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명에 달함",
+      "부자 47.6만명 증가",
       "주식이 부동산보다 유망",
-      "금융자산 10억 이상 기준"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 정책 강조",
-      "안정성 있는 재정 관리",
-      "디지털 전환 지원 계획"
+      "부총리의 경제 정책 방향",
+      "재정 관리 중요성 강조",
+      "경제 성장 전망 낙관적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세에 있다",
-      "환율 하락 공식이 깨졌다",
-      "시장 혼란 우려가 있다"
+      "한국 경제는 성장 중",
+      "환율 하락 공식 무너짐",
+      "시장 상황 복잡해짐"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제는 주식 위험 증가",
+      "K자형 경제로 투자 리스크 증가",
       "소득 격차 심화",
-      "투자 전략 필요"
+      "시장 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제의 회복력 강조",
-      "신뢰 부족 이유 탐구",
-      "높은 평가가 부족한 현실"
+      "트럼프 경제, 회복력 보여",
+      "믿음 부족 문제 지적",
+      "성과에 대한 평가 저조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZ3hEeVZVdFdHTWhGQWU3c0JuaWUtakFQR1gzVnhSdVVNdGR3SnRfcDY5elp1bjk5TmZOTmFNck9VMjdmVHJ1VHFTandJSWFzSWFEMGxWTlNiY25aMWpXbUt1c3FrRzJodDEtcjlNQ0E?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 시장은 불확실한 상황에 직면",
-      "경제는 예상치 못한 변화 가능성",
-      "투자자들의 우려가 커지고 있음"
+      "시장과 경제가 불확실한 상황",
+      "새로운 도전과 기회",
+      "투자자 신뢰에 영향"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
