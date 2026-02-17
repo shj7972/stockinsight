@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "한국 부자 47.6만명",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 촉진 계획 발표",
-      "지속 가능한 정책 강조",
-      "통화 안정 유지 노력"
+      "경제 회복에 대한 신뢰 증가",
+      "재정 정책의 적극적 추진",
+      "투자 환경 개선 방향 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -31,11 +31,11 @@
     "publisher": "서울신문",
     "summary": [
       "한국 경제 성장세 지속",
-      "환율 하락 공식 무너지다",
-      "경제 전망에 대한 우려"
+      "환율 하락 공식 무효",
+      "경제 불확실성 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 성과",
-      "세금 감면의 영향",
-      "경제 성장 전망"
+      "트럼프 행정부 아래 주식 상승",
+      "정책 효과 긍정적 평가",
+      "투자자 신뢰도 향상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K-형 경제가 주식 투자에 리스크 증가",
-      "소득 불균형 심화",
-      "주식 시장 변동성 확대"
+      "K형 경제가 주식 투자에 위험을 증가",
+      "불균형 성장이 주요 요인",
+      "투자자들은 신중해야 함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "주식시장과 미국 경제: 좋은 것이 또 나쁜 것인가? - 맛있는 라이브",
-    "original_title": "The Stock Market and the US Economy: Good is Bad Again? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazhOV2xCRmg5VkpQdEJLVHUwaUtjczRQUlRkbjUtdmM0ZW5MallHQ0t1c1Q1aFpOTmVTYUs5ZENRU0FfR2gzckhvWlp3d0l4Tk80UndaQS1JNkFSb2JNMnRySG9hVUw0Qnhmakl6TG5fYjlwbjVHRVM5SDF4S3RmWmNuZ0JVNS05QVRuT0xpMzV3N0U1OTh3Q0J3?oc=5",
-    "publisher": "tastylive",
+    "title": "미국인들은 2026년 경제 성장과 주식 시장 상승을 기대합니다 - Gallup",
+    "original_title": "Americans Expect Economic Growth, Stock Market Gains in 2026 - Gallup",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
+    "publisher": "Gallup",
     "summary": [
-      "주식 시장 전망에 혼란이 있음",
-      "경기 호조의 의미 재검토",
-      "투자자들의 우려 심화"
+      "미국인, 2026년 성장 기대",
+      "주식시장 상승 예상",
+      "긍정적인 경제 전망"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
