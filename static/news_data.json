@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 더 유망",
-      "한국 경제 가능성 시사"
+      "한국 부자 47.6만명",
+      "주식 투자 유망",
+      "부동산 시장 약세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제정책 개선 방향 제시",
-      "혁신 성장 강조",
-      "국제 협력 확대 필요"
+      "부총리, 경제정책 강화 의지 전함",
+      "시장 불안 해소 위한 노력 지속",
+      "성장 동력 확보 방안 모색 중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세 유지",
+      "한국 경제 우상향 성장 중",
       "환율 하락 공식 깨짐",
-      "경제 회복세 불확실성 증가"
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZ3hEeVZVdFdHTWhGQWU3c0JuaWUtakFQR1gzVnhSdVVNdGR3SnRfcDY5elp1bjk5TmZOTmFNck9VMjdmVHJ1VHFTandJSWFzSWFEMGxWTlNiY25aMWpXbUt1c3FrRzJodDEtcjlNQ0E?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 시장의 불확실한 경로",
-      "경제에 대한 우려 증가",
-      "예측 불가능한 상황 발생"
+      "미국 시장, 경제 불확실성 증가",
+      "예측 불가능한 상황이 지속",
+      "투자자 우려 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "고용시장 성장 가능성 증가",
-      "경제 회복세에 긍정적 영향",
-      "소비자 신뢰도 향상"
+      "취업 시장이 경제에 미치는 영향",
+      "고용 증가가 소비자 신뢰 높임",
+      "실업률 감소 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "1929년 주식시장 붕괴 - 브리태니커",
-    "original_title": "stock market crash of 1929 - Britannica",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3Qk5PVmRBbGNsM2lIQWNGTXZnWkNBSkVCY3lBWnFEY3B2aElYNHo2cFRfYkF1VGE1VzN0NGZvRmF1cUFKRUJ2VzEyTFNFajNwbnFndTc0OWs0Rm9WWE9RenByNm1ZM3hMTVJR?oc=5",
-    "publisher": "Britannica",
+    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
+    "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "1929년 주식 시장 대폭락 발생",
-      "경제 불황의 시작",
-      "세계적 위기 촉발"
+      "K-형 경제의 불균형 위험 증가",
+      "주식 투자 환경 악화",
+      "사회 불평등 확대 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
