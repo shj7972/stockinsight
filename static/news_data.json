@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
-      "금융자산 기준 10억 이상"
+      "한국 부자는 47.6만명에 달함",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 기준"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 부총리 역할 강조",
-      "경제 안정성에 집중",
-      "정책 방향성 명확히 제시"
+      "경제 성장 정책 강조",
+      "안정성 있는 재정 관리",
+      "디지털 전환 지원 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 변화",
-      "시장 불확실성 증가"
+      "한국 경제는 성장세에 있다",
+      "환율 하락 공식이 깨졌다",
+      "시장 혼란 우려가 있다"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-형 경제는 불균형이 심화됨",
-      "주식 투자자에 위험 증가",
-      "부유층과 저소득층 격차 확대"
+      "K형 경제는 주식 위험 증가",
+      "소득 격차 심화",
+      "투자 전략 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 경제는 탄력적이다. 그렇다면 그는 왜 더 많은 신용을 얻지 못하는 걸까요? | 의견-USA 투데이",
+    "original_title": "Trump's economy is resilient. So why doesn't he get more credit? | Opinion - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
+    "publisher": "USA Today",
+    "summary": [
+      "트럼프 경제의 회복력 강조",
+      "신뢰 부족 이유 탐구",
+      "높은 평가가 부족한 현실"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZ3hEeVZVdFdHTWhGQWU3c0JuaWUtakFQR1gzVnhSdVVNdGR3SnRfcDY5elp1bjk5TmZOTmFNck9VMjdmVHJ1VHFTandJSWFzSWFEMGxWTlNiY25aMWpXbUt1c3FrRzJodDEtcjlNQ0E?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 시장, 예측 불허 상황",
-      "경제 불확실성 증가",
-      "투자자 우려 확대"
+      "미국 시장은 불확실한 상황에 직면",
+      "경제는 예상치 못한 변화 가능성",
+      "투자자들의 우려가 커지고 있음"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국인들은 2026년에 경제 성장과 주식 시장 상승을 기대합니다 - Gallup 뉴스",
-    "original_title": "Americans Expect Economic Growth, Stock Market Gains in 2026 - Gallup News",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
-    "publisher": "Gallup News",
-    "summary": [
-      "미국인들, 2026년 경제 성장 기대",
-      "주식 시장 상승 예상",
-      "긍정적인 경제 전망 반영"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
