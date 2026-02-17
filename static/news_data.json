@@ -4,12 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 상승",
-      "주식, 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 유망",
+      "금융자산 기준 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "구윤철 부총리 역할 강조",
+      "경제 안정성에 집중",
+      "정책 방향성 명확히 제시"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,36 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제가 지속적으로 성장 중",
-      "환율 하락 공식이 무너지다",
-      "시장 불확실성 증가 우려"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 변화",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "경제 회복에 대한 우려 존재"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-형 경제는 투자 위험 증가",
-      "재산 격차 심화",
-      "주식 시장 불확실성 증가"
+      "K-형 경제는 불균형이 심화됨",
+      "주식 투자자에 위험 증가",
+      "부유층과 저소득층 격차 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZ3hEeVZVdFdHTWhGQWU3c0JuaWUtakFQR1gzVnhSdVVNdGR3SnRfcDY5elp1bjk5TmZOTmFNck9VMjdmVHJ1VHFTandJSWFzSWFEMGxWTlNiY25aMWpXbUt1c3FrRzJodDEtcjlNQ0E?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 시장은 불확실한 방향으로 가고 있다",
-      "경제 지표가 불안정하게 변동 중",
-      "투자자들이 신중해지고 있다"
+      "미국 시장, 예측 불허 상황",
+      "경제 불확실성 증가",
+      "투자자 우려 확대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Dow는 강력한 고용 보고서에 대한 흥분이 사라지면서 3일 연속 승리를 거두었습니다. 라이브 업데이트 - CNBC",
-    "original_title": "Dow snaps three-day win streak as excitement over strong jobs report fizzles out: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHRlJZNmxmYTJJQUxDOXZ2eHdvZjFEWWFPSGY1RWhqTkNzSm1yX3V0QW9JT3dieXNLbHBraklFa1Zoekh5dkdGY2Jpa0lOd0NEQl9rMUZ3TEJXYkhsMGRQNi0tV3lJUGtRTm8yUFlqNmFDYVEwTnE40gF8QVVfeXFMT3ZaTnYtOWxoWExNM2Y5RnNFZTNPQWl6em5VOW4zVTY0dTFSQWY2V0Y1SVFXRWdXdmtDa2g2S1hjdEc1czNfZUI4YUtyMVhaS2czZ1cxei1xRFVHS05NT2tEdEgzYklwSjhlQXJRUThzbG1NdUpjUkgtcXQ0Tg?oc=5",
-    "publisher": "CNBC",
+    "title": "미국인들은 2026년에 경제 성장과 주식 시장 상승을 기대합니다 - Gallup 뉴스",
+    "original_title": "Americans Expect Economic Growth, Stock Market Gains in 2026 - Gallup News",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
+    "publisher": "Gallup News",
     "summary": [
-      "다우, 3일 상승세 중단",
-      "강한 일자리 보고서 반응 감소",
-      "시장 분위기 약화"
+      "미국인들, 2026년 경제 성장 기대",
+      "주식 시장 상승 예상",
+      "긍정적인 경제 전망 반영"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
