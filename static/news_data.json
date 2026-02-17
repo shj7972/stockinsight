@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "한국의 부자는 47.6만명이다.",
+      "금융자산 10억 이상 보유.",
+      "부동산보다 주식이 더 유망."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복에 대한 신뢰 증가",
-      "재정 정책의 적극적 추진",
-      "투자 환경 개선 방향 제시"
+      "경제 회복을 위한 정책 발표",
+      "투자 유치 계획 소개",
+      "복지 확대 의지 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 무효",
-      "경제 불확실성 증가"
+      "한국 경제 우상향 성장",
+      "환율 하락 공식 깨짐",
+      "시장 변동성 우려"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
+    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 아래 주식 상승",
-      "정책 효과 긍정적 평가",
-      "투자자 신뢰도 향상"
+      "고용 시장은 경제 성장에 기여",
+      "실업률 감소가 소비 증가로 이어짐",
+      "노동 시장의 회복세가 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "'K형' 경제가 주식 투자자에게 더 큰 위험을 의미하는 이유 - Morningstar",
+    "title": "1929년 주식시장 붕괴 - 브리태니커",
+    "original_title": "stock market crash of 1929 - Britannica",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3Qk5PVmRBbGNsM2lIQWNGTXZnWkNBSkVCY3lBWnFEY3B2aElYNHo2cFRfYkF1VGE1VzN0NGZvRmF1cUFKRUJ2VzEyTFNFajNwbnFndTc0OWs0Rm9WWE9RenByNm1ZM3hMTVJR?oc=5",
+    "publisher": "Britannica",
+    "summary": [
+      "1929년 주식 시장 붕괴 발생",
+      "경제 대공항의 시작",
+      "전 세계에 미친 영향"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.9,
+    "type": "해외"
+  },
+  {
+    "title": "'K형' 경제가 주식 투자자에게 더 많은 위험을 의미하는 이유 - Morningstar",
     "original_title": "Why a ‘K-Shaped’ Economy Means More Risk for Stock Investors - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNak1CSi11MVJaLWVXa1BNY2JTU2EzR3d0NjVOZTBHSEdXTlhuVjBuT250Q3JRQ2xTWjd6M1FCZXhzQkpzdm9Ya0d3ZzFLNkJFdnN2ODVFZUhVeVJUZnN3VHVzT3JQd0VycDlsZENEcW9TblhFVXQ3THF0d2RjZ25ydVZkUHlEUG5KLXU1bV9CQkhidw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "K형 경제가 주식 투자에 위험을 증가",
-      "불균형 성장이 주요 요인",
-      "투자자들은 신중해야 함"
+      "K-형 경제가 주식 위험 증가",
+      "부익부 빈익빈 현상 심화",
+      "투자자들 신중해야 함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국인들은 2026년 경제 성장과 주식 시장 상승을 기대합니다 - Gallup",
-    "original_title": "Americans Expect Economic Growth, Stock Market Gains in 2026 - Gallup",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEgtdFA2bkphQmlUUU1GNUFEbGRGbzQzZTR1MHMxSmNvdTgxM2NpTFJFcVpDNTdMUVlTUWV6RXJzUkhZQVhCQ0MzSEhLQnBHbHJ0bjhqSjVESEdmSzJyblJ3ZWc5Y0lDY3RNbnZPU3ViTTh3d3VRQ3B5SkJlN2pKdnhtY1dZUTFYYlJNay1VLUFNcGRoZWxiTG02WGpqQQ?oc=5",
-    "publisher": "Gallup",
-    "summary": [
-      "미국인, 2026년 성장 기대",
-      "주식시장 상승 예상",
-      "긍정적인 경제 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
