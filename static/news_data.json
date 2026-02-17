@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 도달",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 유망",
+      "한국 경제 안정세 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 계획 발표",
-      "재정 정책 강화 의지",
-      "투자 유치 목표 설정"
+      "경제 성장 계획 소개",
+      "금융 안정성 강조",
+      "정책 효과성 논의"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 변동",
+      "한국 경제, 우상향 성장 중",
+      "환율 하락 공식 깨짐",
       "시장 불확실성 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 회복력 강조",
-      "신뢰도 부족한 평가",
-      "정치적 요인 작용 중"
+      "트럼프 경제, 회복력 있는 모습",
+      "보다 많은 인정 필요해",
+      "여론과 경제 결과 차이 존재"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제의 위험성 증가",
-      "주식 투자자에게 경고",
-      "불균형 성장 우려"
+      "미국 경제는 K자 형태를 보임",
+      "주식 투자에 더 많은 위험 존재",
+      "소득 격차 확대 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "AI와 경제에 대한 우려로 인해 미국 주식이 상승했습니다 - Pittsburgh Post-Gazette",
-    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - Pittsburgh Post-Gazette",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb2hRSHNlVHJRLVcydTBZekQ4NXJJcjZEYUkwZExzcDhzd2dtdmJwNmUtdnJ6eGU5clFRbERrcFhIYmwwYWxwWjVCVmZhNTFFd3hXX0l4TmFjT3FnNEg0SmpNTEMzX2FMdlBLR2tvd1RsYTNJV255Qm5SOXBqRTVBOFpQclQwZ3ZDR05QUFg3cUFhc3NZYW9OdGFGWG41OEJEY1RGbWVQSElqUQ?oc=5",
-    "publisher": "Pittsburgh Post-Gazette",
+    "title": "AI와 경제에 대한 우려를 겪은 후 미국 주식이 상승했습니다 - Boston Herald",
+    "original_title": "US stocks edge higher after swinging through worries about AI and the economy - Boston Herald",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51b3dJWXRBMjVIeVhRQVc4U2dJSGZHalhoUVhqd0J1MVZDTmFxNlZfV0QyUkc1bHlQT0NOTU1Hbm5DbzdSNlU5dUlHU3pIcl9KSXcySzF6T2lUeXVXM01oWnpsZmNKRkZ6ajBfbHRSNU1SUHhLZkVpSGRR?oc=5",
+    "publisher": "Boston Herald",
     "summary": [
-      "미국 주가 소폭 상승",
-      "AI와 경제 우려 지속",
-      "시장 변동성 해결 조짐"
+      "미국 주식 소폭 상승",
+      "AI와 경제 우려 속 등락",
+      "시장 회복 조짐 보여"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
