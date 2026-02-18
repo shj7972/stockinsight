@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제정책에 대한 장기 계획 강조",
-      "혁신과 성장 중시",
-      "소득 불평등 해소 노력"
+      "경제 성장 정책 강조",
+      "투자 촉진 방안 제시",
+      "무역 확대 목표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제는 성장 중이다",
-      "환율 하락 공식이 깨졌다",
-      "새로운 경제 동향이 필요하다"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 유망하다는 분석",
-      "주식 투자 증가 기대감 상승"
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 투자 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
+    "summary": [
+      "한국 경제는 상승세 유지",
+      "환율 하락 공식 실종",
+      "시장 불안 요소 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 강한 회복력 보여",
-      "신뢰도 저조한 이유는 무엇인가?",
-      "정치적 이유로 평가가 낮아"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "AI와 경제에 대한 우려를 겪은 후 미국 주식이 상승했습니다-TelegraphHerald.com",
-    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - TelegraphHerald.com",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOTA0U3ZWdGEyZGF1SFc1c3lIRUpsWGVPcXdwdFRyWmFXb0NuREpBTm9GZERLVV9tV2QyczNKQVhrNHlGN1FJTC14aXhtVkp3SmtqN1JZV2hNdVQ5U3JaMU03a0RiRkpxVDJoa1k5VktCNGtKbDFnNV9CbTZBemRiVnBoU2NWNm16Z3o2SG0yLUtnUTdlUkxDQg?oc=5",
-    "publisher": "TelegraphHerald.com",
-    "summary": [
-      "미국 주식이 소폭 상승",
-      "AI와 경제 우려 속 변동",
-      "투자자 신뢰 신호 나타남"
+      "트럼프 경제, 회복력 보여주는 중",
+      "신뢰도 부족, 여전히 비판받음",
+      "시장 긍정적 반응은 있음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-형 경제는 불균형 성장",
-      "주식 투자에 리스크 증가",
-      "부유층과 저소득층 격차 확대"
+      "미국 경제는 K자형 회복 중",
+      "주식 투자 위험 증가",
+      "경제 불균형 심화 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "AI와 경제에 대한 우려로 미국 증시 상승 - Toledo Blade",
+    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - Toledo Blade",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhGd1FHSnFyWXRTQXc1YkxnTGZneTFOSHp4eThmalZSSHZLQnBRdTFHV3JWQjRlUWRIb3VBTU5XX2w5X1hGdG9YMGMwTHlGWVNxcndlLWMzMnFXWDMxdFgzLXVGNTNSUkY0N1RrcjZfMXZSWUlWOUpZWVNVR28wbVRMdDB3elpNRkpRSGtnb0ZaWXZ0SGVUaWR4NzlmR2hkRlViVFhmaHBJMmtLX3QyazNoSHExRlBySjQyY1hzTGlkT2V4RkE?oc=5",
+    "publisher": "Toledo Blade",
+    "summary": [
+      "미국 주식 상승세 지속",
+      "AI와 경제 우려 감지",
+      "시장 변동성 유지"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
