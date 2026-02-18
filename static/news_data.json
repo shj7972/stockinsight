@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
+      "한국 부자 47.6만명 확인",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 건전성 유지 필요",
-      "투자 활성화 촉구"
+      "부총리, 경제 정책 방향 제시",
+      "재정 건전성 강조",
+      "지속 가능성 확보 방안 모색"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
+      "한국 경제는 성장 중",
       "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "경제 흐름 주목 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 회복력 보여줌",
-      "신뢰 부족한 평가",
-      "정책 효과에 주목 필요"
+      "트럼프 경제, 강한 회복력",
+      "신뢰 부족, 공적이 적음",
+      "고용과 성장 개선 중"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "경제가 K자 형태로 나뉘고 있다",
-      "주식 투자자에게 더 많은 위험",
-      "소득 격차 확대 문제 제기"
+      "K-형 경제로 인한 투자 위험 증가",
+      "경제 양극화 심화",
+      "주식 시장에 미치는 부정적 영향"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhGd1FHSnFyWXRTQXc1YkxnTGZneTFOSHp4eThmalZSSHZLQnBRdTFHV3JWQjRlUWRIb3VBTU5XX2w5X1hGdG9YMGMwTHlGWVNxcndlLWMzMnFXWDMxdFgzLXVGNTNSUkY0N1RrcjZfMXZSWUlWOUpZWVNVR28wbVRMdDB3elpNRkpRSGtnb0ZaWXZ0SGVUaWR4NzlmR2hkRlViVFhmaHBJMmtLX3QyazNoSHExRlBySjQyY1hzTGlkT2V4RkE?oc=5",
     "publisher": "Toledo Blade",
     "summary": [
-      "미국 주식 시장 소폭 상승",
-      "AI와 경제에 대한 우려 존재",
-      "투자 심리 긍정적 반응"
+      "미국 주식 소폭 상승",
+      "AI 불안요소 존재",
+      "경제 우려 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
