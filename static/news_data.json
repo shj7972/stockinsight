@@ -1,25 +1,12 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국 부자 47.6만명 확인",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
     "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리, 경제 정책 방향 제시",
-      "재정 건전성 강조",
-      "지속 가능성 확보 방안 모색"
+      "정책 방향성 강화",
+      "경제 성장 전망 밝음",
+      "재정 건전성 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,13 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제 흐름 주목 필요"
+      "한국 경제는 성장세 지속 중",
+      "환율 하락 공식 위배",
+      "시장 불확실성 확대 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
+  },
+  {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 전망 밝아",
+      "경제 성장 가능성 시사"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "AI와 경제에 대한 우려를 겪은 후 미국 주식이 상승했습니다-TelegraphHerald.com",
+    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - TelegraphHerald.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOTA0U3ZWdGEyZGF1SFc1c3lIRUpsWGVPcXdwdFRyWmFXb0NuREpBTm9GZERLVV9tV2QyczNKQVhrNHlGN1FJTC14aXhtVkp3SmtqN1JZV2hNdVQ5U3JaMU03a0RiRkpxVDJoa1k5VktCNGtKbDFnNV9CbTZBemRiVnBoU2NWNm16Z3o2SG0yLUtnUTdlUkxDQg?oc=5",
+    "publisher": "TelegraphHerald.com",
+    "summary": [
+      "AI와 경제 우려 속 상승",
+      "미국 주식 소폭 상승",
+      "시장 변동성 지속"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
   },
   {
     "title": "트럼프 경제는 탄력적이다. 그렇다면 그는 왜 더 많은 신용을 얻지 못하는 걸까요? | 의견-USA 투데이",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 강한 회복력",
-      "신뢰 부족, 공적이 적음",
-      "고용과 성장 개선 중"
+      "트럼프의 경제가 강함을 강조",
+      "신뢰 부족의 이유 분석",
+      "정치적 비판에도 불구 세력 유지"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-형 경제로 인한 투자 위험 증가",
-      "경제 양극화 심화",
-      "주식 시장에 미치는 부정적 영향"
+      "K형 경제에 따른 투자 위험 증가",
+      "주식 시장의 불균형 심화",
+      "상위와 하위로 갈리는 경제 성장"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "AI와 경제에 대한 우려로 미국 증시 상승 - Toledo Blade",
-    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - Toledo Blade",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhGd1FHSnFyWXRTQXc1YkxnTGZneTFOSHp4eThmalZSSHZLQnBRdTFHV3JWQjRlUWRIb3VBTU5XX2w5X1hGdG9YMGMwTHlGWVNxcndlLWMzMnFXWDMxdFgzLXVGNTNSUkY0N1RrcjZfMXZSWUlWOUpZWVNVR28wbVRMdDB3elpNRkpRSGtnb0ZaWXZ0SGVUaWR4NzlmR2hkRlViVFhmaHBJMmtLX3QyazNoSHExRlBySjQyY1hzTGlkT2V4RkE?oc=5",
-    "publisher": "Toledo Blade",
-    "summary": [
-      "미국 주식 소폭 상승",
-      "AI 불안요소 존재",
-      "경제 우려 지속"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
