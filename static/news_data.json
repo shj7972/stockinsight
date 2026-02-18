@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리, 경제 정책 강조",
-      "시장 안정성 유지 노력",
-      "경제 성장 전망 긍정적"
+      "구윤철 부총리 소개",
+      "경제 정책 방향",
+      "재정 안정성 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산 대신 주식 유망",
-      "금융자산 10억 이상 증가"
+      "한국 부자 47.6만명 역대 최대",
+      "부동산보다 주식 투자 선호",
+      "금융 자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
+      "한국 경제는 성장 중",
       "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "변동성 증가 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
+  },
+  {
+    "title": "미국 주식은 1995년 이후 글로벌 시장 대비 최악의 출발을 보였습니다. - Yahoo Finance",
+    "original_title": "US stocks are off to their worst start versus the global market since 1995 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "미국 주식, 1995년 이후 최저 시작",
+      "글로벌 시장 대비 부진 지속",
+      "경제 불확실성 반영"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제가 주식 투자 위험 증가.",
-      "부익부 빈익빈 현상 심화.",
-      "투자자들, 더 많은 변동성 직면."
+      "K형 경제로 투자 리스크 증가",
+      "주식 시장 불균형 심화",
+      "소득 격차 확대 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 회복력 보여줌",
-      "더 많은 인정 필요 무시되고 있음",
-      "경제 성장은 계속되고 있음"
+      "트럼프 경제는 회복력이 강하다.",
+      "그는 충분한 인정을 받지 못한다.",
+      "정치적 요인이 영향을 미친다."
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 증시 변화",
-      "주가 상승 동향 분석",
-      "경제 정책 영향 평가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
