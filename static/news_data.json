@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 유망",
-      "한국 경제 안정세 전망"
+      "부자가 47.6만명에 달함",
+      "부동산보다 주식 선호 증가",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 계획 소개",
-      "금융 안정성 강조",
-      "정책 효과성 논의"
+      "경제 성장 전략 강조",
+      "정책 안정성 언급",
+      "혁신 투자 지원 예고"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,41 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제, 우상향 성장 중",
+      "한국 경제는 성장 중",
       "환율 하락 공식 깨짐",
       "시장 불확실성 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
-  },
-  {
-    "title": "트럼프 경제는 탄력적이다. 그렇다면 그는 왜 더 많은 신용을 얻지 못하는 걸까요? | 의견-USA 투데이",
-    "original_title": "Trump's economy is resilient. So why doesn't he get more credit? | Opinion - USA Today",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
-    "publisher": "USA Today",
-    "summary": [
-      "트럼프 경제, 회복력 있는 모습",
-      "보다 많은 인정 필요해",
-      "여론과 경제 결과 차이 존재"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
-    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
-    "publisher": "Morningstar Canada",
-    "summary": [
-      "미국 경제는 K자 형태를 보임",
-      "주식 투자에 더 많은 위험 존재",
-      "소득 격차 확대 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
   },
   {
     "title": "AI와 경제에 대한 우려를 겪은 후 미국 주식이 상승했습니다 - Boston Herald",
@@ -74,10 +46,38 @@
     "summary": [
       "미국 주식 소폭 상승",
       "AI와 경제 우려 속 등락",
-      "시장 회복 조짐 보여"
+      "시장 회복세 조짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "AI와 경제에 대한 우려로 미국 증시 상승 - Toledo Blade",
+    "original_title": "U.S. stocks edge higher after swinging through worries about AI and the economy - Toledo Blade",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhGd1FHSnFyWXRTQXc1YkxnTGZneTFOSHp4eThmalZSSHZLQnBRdTFHV3JWQjRlUWRIb3VBTU5XX2w5X1hGdG9YMGMwTHlGWVNxcndlLWMzMnFXWDMxdFgzLXVGNTNSUkY0N1RrcjZfMXZSWUlWOUpZWVNVR28wbVRMdDB3elpNRkpRSGtnb0ZaWXZ0SGVUaWR4NzlmR2hkRlViVFhmaHBJMmtLX3QyazNoSHExRlBySjQyY1hzTGlkT2V4RkE?oc=5",
+    "publisher": "Toledo Blade",
+    "summary": [
+      "미국 주식 소폭 상승",
+      "AI와 경제 불안 영향",
+      "변동성 속 회복세"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "미국 시장과 경제가 미지의 영역으로 향하고 있다 - Financial Times",
+    "original_title": "US markets and the economy are heading into uncharted territory - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZ3hEeVZVdFdHTWhGQWU3c0JuaWUtakFQR1gzVnhSdVVNdGR3SnRfcDY5elp1bjk5TmZOTmFNck9VMjdmVHJ1VHFTandJSWFzSWFEMGxWTlNiY25aMWpXbUt1c3FrRzJodDEtcjlNQ0E?oc=5",
+    "publisher": "Financial Times",
+    "summary": [
+      "미국 시장이 불확실성에 직면",
+      "경제의 새로운 국면 예고",
+      "예측 불가능성 증가"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
