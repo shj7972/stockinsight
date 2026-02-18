@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책의 방향성과 목표",
-      "재정 안정성 강화 방안",
-      "국내외 투자 유치 전략"
+      "경제 안정성 강조",
+      "혁신 정책 발표",
+      "투자 유치 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명",
-      "주식이 유망하다는 분석",
-      "부동산 수익성 감소"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "주식시장에 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -31,8 +31,8 @@
     "publisher": "서울신문",
     "summary": [
       "한국 경제 성장세 지속",
-      "환율 하락 공식 변화",
-      "시장 불확실성 증가"
+      "환율 하락 공식 변동",
+      "시장 반응 주목 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWnBZdm8yaFdMLVNRQXNyakRzbUNxRFNmbFBFWTEwb2s3YTJGWGZMLTJlbl9ZSGpiaVlFanE4YmwwMzhqSGFYeDU5N1hmRElaY05JUHJlVVlBaExKVFNEQmhQTFMwNlAyUGF3bW1EWDJWUGI5V2dqSEQ1Sy1NMmR6X1pyUmVSM3k1cDhNZTVMTzVVTDJCWUE?oc=5",
     "publisher": "Bloomberg.com",
     "summary": [
-      "기술주 강세로 주식 상승",
-      "강력한 경제 보고서 발표",
-      "시장 전체적으로 긍정적 반응"
+      "주식시장, 기술주 상승",
+      "경제 보고서 우수",
+      "투자 심리 개선"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "미국 주식, 1995년 이후 최악의 출발",
-      "글로벌 시장 대비 부진 지속",
-      "경제 전망 불안정성 증가"
+      "미국 주식, 최악의 출발 기록",
+      "1995년 이후 글로벌 시장 대비 저조",
+      "시장 불확실성 증가 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
-    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
-    "publisher": "Morningstar Canada",
+    "title": "트럼프 경제는 탄력적이다. 그렇다면 그는 왜 더 많은 신용을 얻지 못하는 걸까요? | 의견-USA 투데이",
+    "original_title": "Trump's economy is resilient. So why doesn't he get more credit? | Opinion - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
+    "publisher": "USA Today",
     "summary": [
-      "K자형 경제가 투자자에게 위험 증가",
-      "소득 불균형 심화",
-      "주식 시장의 변동성 우려"
+      "트럼프 경제, 강한 회복력",
+      "신용 부족에 대한 이유",
+      "정치적 요인이 영향 미침"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
