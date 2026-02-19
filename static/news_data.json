@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 유망하다는 의견",
-      "부동산 선호도 감소"
+      "10억 이상 금융자산 보유자 47.6만명",
+      "부동산보다 주식 투자 유망",
+      "한국 부자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장 중",
-      "환율 하락 공식 변동",
-      "앞으로의 변화를 주목해야"
+      "한국 경제는 지속적인 성장 중",
+      "환율 하락 공식이 무너짐",
+      "미래 경제 전망에 대한 우려"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 6월부터 프리·애프터마켓 운영",
-      "시장 접근성 향상 기대",
-      "투자자 편의성 증가 전망"
+      "한국거래소, 6월 프리·애프터마켓 도입",
+      "투자자 선택 폭 확대 기대",
+      "장려책으로 거래 활성화 목표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제, 주식 투자 위험 증가",
-      "소득 격차 확산 우려",
-      "시장 불확실성 확대"
+      "K자형 경제가 투자 위험 증가",
+      "소득 격차 확대 우려",
+      "주식 시장의 불확실성 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -59,8 +59,8 @@
     "publisher": "Yahoo Finance",
     "summary": [
       "미국 주식, 1995년 이후 최악의 시작",
-      "글로벌 시장 대비 성적 부진",
-      "투자자들 우려 증대"
+      "글로벌 시장에 비해 부진",
+      "경제 불안정성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 회복력 있음",
-      "신뢰도 낮아 아쉬움",
-      "데이터가 긍정적인데 인정 부족"
+      "트럼프 경제 탄탄함 강조",
+      "긍정적인 평가 부족 지적",
+      "정치적 요인 영향 분석"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
