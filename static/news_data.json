@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 이상",
-      "부동산보다 주식 투자 유망",
-      "금융자산 10억 이상 기준"
+      "부자 47.6만명, 자산 10억 이상",
+      "주식 유망, 부동산보다 선호",
+      "시장 투자 성향 변화 드러남"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
-      "환율 하락 공식 무너짐",
-      "시장 변수 불확실성 증가"
+      "한국 경제는 성장세를 보이고 있다.",
+      "환율 하락 공식이 깨졌다.",
+      "경제 상황의 변동성이 크다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 6월부터 프리마켓 시행",
-      "애프터마켓도 함께 운영 예정",
-      "시장 활성화 기대감 고조"
+      "6월부터 프리·애프터마켓 운영",
+      "투자자 접근성 향상",
+      "시장 유동성 증가 예상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "경제가 K자 형태로 분리됨",
-      "주식 투자 리스크 증가",
-      "소득 격차 확대 우려"
+      "K형 경제가 투자자에게 위험 증가",
+      "주식 시장에 불평등 심화",
+      "소득 차별로 영향 분화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제는 회복력이 있다",
-      "정보 공유 부족이 문제",
-      "정치적 요인에 따른 평가 왜곡"
+      "트럼프 경제, 회복력 있음",
+      "신뢰도 낮은 이유는?",
+      "정치적 편견의 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "트럼프 행정부 주식시장 분석",
-      "경제 성장은 긍정적 징후",
-      "정책이 주식에 미친 영향"
+      "주식 시장 안정세 유지",
+      "금리 동결 뉴스 긍정적",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
