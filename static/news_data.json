@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식이 유망",
-      "금융자산 증가 추세"
+      "한국 부자 47.6만명 등록",
+      "금융자산 10억 이상",
+      "주식이 더 유망하다는 의견"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "윤총리, 경제 정책 방향 제시",
-      "재정 투자 확대 계획",
-      "위기 극복 의지 강하게 표명"
+      "경제 회복을 위한 정책 강조",
+      "국제 협력 필요성 언급",
+      "재정 안전성 강화 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
-    "publisher": "한겨레",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "6월부터 프리·애프터마켓 도입",
-      "거래소 운영 확대 기대",
-      "시장 활성화 가능성 증가"
+      "한국 경제 우상향 성장 중",
+      "환율 하락 공식 파괴",
+      "경제 전망 불확실성 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.5,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제가 나타났다",
-      "주식 투자 리스크 증가",
-      "경제 불균형 심화"
+      "경제 양극화 현상 강조",
+      "주식 투자 위험 증가",
+      "시장 전망 불확실성 커짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "미국 주식, 글로벌 대비 최악 시작",
-      "1995년 이후 최악의 성적",
-      "시장 불안, 투자자 우려 증가"
+      "미국 주식, 1995년 이후 최악 시작",
+      "글로벌 시장에 비해 저조한 성과",
+      "투자자 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdU52bjFDSDI0MWxhbnZUaTNoVjNzYUlLM1Q3MElfTDNNUUdVaURQSUZmQVhCNE1hVEJMNFNUdTZtOGsxMVdKZTBxYkVldFB3bTkwc3RNbGVSV3ZRUEI4bFZOTmdyREk1UC1adWtiMHpaZGR2X0NsbDNDNlVrUWhFWWdwUQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "월가, 혼조 경제 데이터로 하락",
-      "미-이란 긴장으로 원유 상승",
-      "투자자들 불확실성 증가"
+      "월가, 혼조세 속 하락",
+      "경제 지표 엇갈림",
+      "미국-이란 긴장으로 유가 상승"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
