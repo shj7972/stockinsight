@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 안정화 정책 강조",
-      "국제 경제 협력 강화",
-      "혁신 및 성장 촉진"
+      "경제 성장 전진 계획",
+      "인플레이션 통제 전략",
+      "세제 개혁 추진"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "경제 전망 긍정적 시사"
+      "금융자산 10억 넘는 부자는 47.6만명",
+      "부동산보다 주식이 유망하다는 분석",
+      "한국 부자 증가 추세 임박"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,8 +31,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 성장률 2.1% 전망",
-      "경제 회복세는 미약하다고 평가",
-      "금융연의 비관적인 의견 포함"
+      "회복세는 미약하다는 분석",
+      "경제 전반에 불확실성 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDd4UVZHNUNjRXNxRjJ3d0NrcDRvbUszVlpwTTBkNmZpMENWVVhqMDBWZ2IxcmlpWWhfaXhZWDZKcTVSX0xfYnVzUWF0LWdSY0czR1NkaDAtLU9Ud0ZaZGZBNGdnbF9yT1ZKNXkydm9pek1JRkQtdHVsRkRPMXBTaks2ZVlIWmd5MU1wQjBNSW9jRWwwVUx4Z04zYXBidDJmMXc?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-모양 경제, 불균형 심화",
-      "주식 투자 위험 증가",
-      "경제 회복 격차 확대"
+      "K형 경제 구조의 위험 증가",
+      "주식 투자자에 대한 영향",
+      "경제 양극화 심화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "트럼프 경제, 회복력 강함",
-      "신뢰도 부족한 이유",
-      "공과 금이 혼재함"
+      "트럼프 경제는 회복력이 있다",
+      "신뢰 부족, 인지도 낮음",
+      "정책의 긍정적 효과 존재"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 주식은 1995년 이후 글로벌 시장 대비 최악의 출발을 보였습니다. - Yahoo Finance",
-    "original_title": "US stocks are off to their worst start versus the global market since 1995 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
-    "publisher": "Yahoo Finance",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "미국 주식, 1995년 이후 최악의 시작",
-      "글로벌 시장에 비해 저조한 성과",
-      "투자자 우려가 커짐"
+      "트럼프 행정부 기간 주식 상승",
+      "금리 인상 우려 불구",
+      "세금 감면의 긍정적 영향"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
