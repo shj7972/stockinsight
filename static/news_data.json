@@ -1,15 +1,28 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 계획 발표",
+      "재정 건전성 유지",
+      "투자 유치 방안 마련"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명의 금융자산 소개",
-      "주식이 부동산보다 유망",
-      "부자 증가 추세 나타남"
+      "한국의 금융자산 부자는 47.6만명",
+      "부동산보다 주식이 유망하다",
+      "재산 형성에 대한 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -18,39 +31,12 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "기대에 비해 낮은 성장率"
+      "회복세는 미약하다고 평가",
+      "지속적인 경기 둔화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 안정성 강조",
-      "혁신 투자 촉구",
-      "소득 불균형 해소"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "대법원이 트럼프의 관세 대부분을 파기한 후 미국 주식은 시소 - NBC News",
-    "original_title": "U.S. stocks seesaw after Supreme Court strikes down most of Trump's tariffs - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbktzSG85RzVzMHY4MGRwU1Y1cFZLR1B6Q3dHd3Rsd3JONkFyNkdQUGpIcmU1ZEJiSUhfbE9adV81c2NPWTRaMUdPTGNhSFgzZVlPajJlc2ItMXlFT1JpQ0g0UFNYSS1aRm5ZNEhvcm5Yc3RaT1BlbjBOcHc1R01uQU9YNEJrMUM3M2JQcFF3enY1dnZDWWFmc3k4dw?oc=5",
-    "publisher": "NBC News",
-    "summary": [
-      "대법원, 대부분의 관세 폐기",
-      "미국 주식 시장 등락",
-      "경제에 긍정적 영향 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "VIEW 미 대법원이 트럼프 관세를 기각하자 주가가 급등 - Reuters",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWI1bm1fQUZqWDE3S1lPNU5xanR0aUZiWEgtUEVmRlVxdGVrc0hFMGxTUlBmdXZMQ0VNZk00RVlWU1NUVFBWY0gxR1dDVmZRb2xzWG5UYWU2UjhadTVVbG84YXlqcU9EeW8tbnRlZUJ4eERhRUxkLXJacjFwejB5ekdnODFyR3lXZmN1MXVjRFVSYjZnaklDRGxoWnYwQkpXQ2lJdHhiTk9lZHM?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "주식시장 상승",
-      "미 대법원 판결",
-      "트럼프 관세 철회"
+      "주식시장 상승세",
+      "대법원, 트럼프 관세 기각",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "경제 히트 시 주식 시장 전망",
-      "인플레이션 우려 증가",
-      "투자자 반응 혼조세"
+      "미국 경제 과열 우려",
+      "주식 시장 강세 지속",
+      "투자 심리 변화 예측"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "K자형 경제 구조는 투자 위험 증가",
+      "소득 불균형 심화, 주식 시장 영향",
+      "불확실성 속 투자 전략 재조정 필요"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
