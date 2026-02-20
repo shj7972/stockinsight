@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 계획 발표",
-      "재정 건전성 유지",
-      "투자 유치 방안 마련"
+      "경제 회복 정책 강조",
+      "민간 투자 활성화 추진",
+      "재정 건전성 유지 중요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 금융자산 부자는 47.6만명",
-      "부동산보다 주식이 유망하다",
-      "재산 형성에 대한 긍정적 신호"
+      "부자 47.6만명 보유 10억 이상",
+      "주식이 부동산보다 유망",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다고 평가",
-      "지속적인 경기 둔화 우려"
+      "내년 성장률 2.1% 전망",
+      "경제 회복세 미약",
+      "전반적인 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "VIEW 미 대법원이 트럼프 관세를 기각하자 주가가 급등 - Reuters",
-    "original_title": "VIEW Stocks jump after US Supreme Court rejects Trump's tariffs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWI1bm1fQUZqWDE3S1lPNU5xanR0aUZiWEgtUEVmRlVxdGVrc0hFMGxTUlBmdXZMQ0VNZk00RVlWU1NUVFBWY0gxR1dDVmZRb2xzWG5UYWU2UjhadTVVbG84YXlqcU9EeW8tbnRlZUJ4eERhRUxkLXJacjFwejB5ekdnODFyR3lXZmN1MXVjRFVSYjZnaklDRGxoWnYwQkpXQ2lJdHhiTk9lZHM?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "주식시장 상승세",
-      "대법원, 트럼프 관세 기각",
-      "투자자 신뢰 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
@@ -58,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "미국 경제 과열 우려",
-      "주식 시장 강세 지속",
-      "투자 심리 변화 예측"
+      "미국 경제 성장 우려",
+      "주식 시장 하락 가능성",
+      "인플레이션 우려 지속"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K자형 경제 구조는 투자 위험 증가",
-      "소득 불균형 심화, 주식 시장 영향",
-      "불확실성 속 투자 전략 재조정 필요"
+      "K자형 경제의 위험성 증가",
+      "주식 투자에 불안 요소",
+      "경제 성장 양극화 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "VIEW 미 대법원이 트럼프 관세를 기각하자 주가가 급등 - Reuters",
+    "original_title": "VIEW Stocks jump after US Supreme Court rejects Trump's tariffs - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWI1bm1fQUZqWDE3S1lPNU5xanR0aUZiWEgtUEVmRlVxdGVrc0hFMGxTUlBmdXZMQ0VNZk00RVlWU1NUVFBWY0gxR1dDVmZRb2xzWG5UYWU2UjhadTVVbG84YXlqcU9EeW8tbnRlZUJ4eERhRUxkLXJacjFwejB5ekdnODFyR3lXZmN1MXVjRFVSYjZnaklDRGxoWnYwQkpXQ2lJdHhiTk9lZHM?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "미국 대법원, 트럼프 관세 기각",
+      "주식 시장 급등",
+      "경제 안정 기대감 상승"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
