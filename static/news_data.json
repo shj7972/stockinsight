@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
+      "한국 부자 47.6만명 존재",
+      "주식이 부동산보다 유망",
       "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 방향 제시",
-      "시장 성장 기대감",
-      "재정 안정성 강조"
+      "경제 회복에 대한 긍정적 전망",
+      "재정 정책 강화 필요성 언급",
+      "기업 지원 확대 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,22 +31,36 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다",
-      "경제 불확실성 지속"
+      "회복세는 미약함",
+      "전반적 경제 상황 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 경제의 K형 회복세",
-      "주식 투자자에게 더 큰 위험",
-      "경제 불균형 문제 심화"
+      "K형 경제 구조가 나타나고 있다",
+      "주식 투자에 더 큰 리스크가 존재",
+      "경제 불균형 우려가 커지고 있다"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
+    "original_title": "Will the Stock Market Melt Down if the US Economy Heats Up? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "미국 경제가 과열될 가능성",
+      "주식 시장의 불안정성 우려",
+      "투자자들의 경계 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "미국 주식, 1995년 이후 최악의 시작",
-      "글로벌 시장 대비 부진",
-      "경제 불안감 확산 중"
+      "미국 주식, 글로벌 시장 대비 최악의 출발",
+      "1995년 이후 최악의 성적 기록",
+      "시장 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 경제는 탄력적이다. 그렇다면 그는 왜 더 많은 신용을 얻지 못하는 걸까요? | 의견-USA 투데이",
-    "original_title": "Trump's economy is resilient. So why doesn't he get more credit? | Opinion - USA Today",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLUJldG1TVFlTcVF2S2ZpUXJEUDN3a1RBUXdoZzlEaUZYQ1diNWNGXzVHc1Q0WjV2djdTRVNRUTdKNzM2LWNSZjdpaGZIMUNBTjRuNUNFMXZFZkJrdjV3NWd2Smg4a1lqaERrV3RHWjJ2NmN4czAzR2RDUWVfQUJwVDEzZDZRNjQ0ZUIxVzluODNhYUc2eUkwdWNBVEtPNHNCYWJfanNrYmJ4Vi1tc1ZxUA?oc=5",
-    "publisher": "USA Today",
-    "summary": [
-      "트럼프 경제, 회복력 보여주다",
-      "더 많은 인정 필요",
-      "경제 성과에 대한 논란"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
