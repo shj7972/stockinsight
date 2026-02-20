@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 정책 조정 계획",
-      "투자유치 필요성 언급"
+      "경제 회복을 위한 정책 강조",
+      "금융 안정성 확보 방안 제시",
+      "국제 협력 필요성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "한국 부자 47.6만명",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다는 지적",
-      "비관적 경제 전망 지속"
+      "내년 한국 경제 성장률 2.1%",
+      "회복세 미약할 전망",
+      "경제 상황 개선 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "예상보다 부진한 GDP 보고서 이후 주식 선물 하락: 실시간 업데이트 - CNBC",
-    "original_title": "Stock futures decline after weaker-than-expected GDP report: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "주식 선물 하락",
-      "GDP 보고서 부진",
-      "시장 반응 부정적"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
   },
   {
     "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "미국 경제가 과열될 가능성 언급",
-      "주식 시장의 하락 가능성 고려",
-      "투자자들의 우려가 커질 수 있음"
+      "미국 경제 과열 우려",
+      "주식 시장 붕괴 가능성",
+      "투자자 심리 분석 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
     "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제, 불균형 심화",
-      "주식 투자 위험 증가",
-      "특정 산업, 더 큰 수익 가능성"
+      "K-형 경제가 주식 투자에 위험요인",
+      "경제 불균형이 증시 불확실성 증가",
+      "양극화 심화, 투자 전략 변화 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "좋든 싫든 트럼프의 경제는 탄탄하다 | 의견-USA 투데이",
+    "original_title": "Trump's economy is strong, whether you like it or not | Opinion - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQkpWRE1KRkR1ajJYbF93NWtxWWo4blB1akllNFAzYWFrVzVZd2NjS2FtRUxjMi1oY3hwUHFIeWlCVnBCMFMyMmQ5ekhCRzZuNmlHWDhPdW9rSFBFZHFyVURSRU4tNHdaSVhLU0g2dkhfc3JycHVlX056bnJ3VDhWOWJiUXV4eVJMd25LVkVCSE1ILUhqSEh0UTlHTzNHZlVFVS1BSERDazRHMmpTNGVxQ3IybDl5WXdUVk5YanZ5RTloLVctdjhydVBDZl9EQnBtTUhr?oc=5",
+    "publisher": "USA Today",
+    "summary": [
+      "트럼프 경제의 강점 강조",
+      "비판에도 불구하고 긍정적 평가",
+      "경제 성장이 지속된다고 주장"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
