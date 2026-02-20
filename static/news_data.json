@@ -1,25 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "Koo Yoon-Cheol의 정책 방향 강조",
-      "경제 성장 전략 논의",
-      "재정 정책의 투명성 강화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 유망하다는 전망",
-      "부동산 수익성 낮아짐"
+      "부자 47.6만명의 금융자산 소개",
+      "주식이 부동산보다 유망",
+      "부자 증가 추세 나타남"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,36 +18,49 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약",
-      "부정적 여건 지속"
+      "회복세는 미약할 것",
+      "기대에 비해 낮은 성장率"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "대법원이 트럼프의 긴급 관세를 무너뜨린 후 S&P 500의 변동성이 큰 거래가 증가했습니다: 실시간 업데이트-CNBC",
-    "original_title": "S&P 500 rises in volatile trading after Supreme Court knocks down Trump’s emergency tariffs: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
-    "publisher": "CNBC",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "S&P 500 상승",
-      "변동성 있는 거래",
-      "대법원 판결 영향"
+      "경제 안정성 강조",
+      "혁신 투자 촉구",
+      "소득 불균형 해소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "대법원이 트럼프의 관세 대부분을 파기한 후 미국 주식은 시소 - NBC News",
+    "original_title": "U.S. stocks seesaw after Supreme Court strikes down most of Trump's tariffs - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbktzSG85RzVzMHY4MGRwU1Y1cFZLR1B6Q3dHd3Rsd3JONkFyNkdQUGpIcmU1ZEJiSUhfbE9adV81c2NPWTRaMUdPTGNhSFgzZVlPajJlc2ItMXlFT1JpQ0g0UFNYSS1aRm5ZNEhvcm5Yc3RaT1BlbjBOcHc1R01uQU9YNEJrMUM3M2JQcFF3enY1dnZDWWFmc3k4dw?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "대법원, 대부분의 관세 폐기",
+      "미국 주식 시장 등락",
+      "경제에 긍정적 영향 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "오늘 주식 시장: 대법원이 트럼프 관세를 철폐한 후 다우, S&P 500, 나스닥 상승 - Yahoo Finance",
-    "original_title": "Stock market today: Dow, S&P 500, Nasdaq rise after Supreme Court strikes down Trump tariffs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNVM4R2puMzl2dzhFcUZ1S1B2WnlKYjNUZlpSWGlMRFFMNFFxYVN6MVcwRERvVVF1cUhERlZfaTlFSmVRWF9VZ180YmF6SVhjeVA1R2VZRjRtMGJPeUpaWUtQeWlCd0lfV1ZFd19lN01WSEx3ZThQRmhieE5nUTltMDhPLUh6c0RwaDZQRjFWSWpjUjNlSnIwYlVka3YzLXRvN1BzZ2p5WEV1X04xbElKMExBZU0xdy16X2lvUTctTF9JLTc5bEtXVzMxTTJQZmdkbWt1aWdyelkwQVZ1X3c?oc=5",
-    "publisher": "Yahoo Finance",
+    "title": "VIEW 미 대법원이 트럼프 관세를 기각하자 주가가 급등 - Reuters",
+    "original_title": "VIEW Stocks jump after US Supreme Court rejects Trump's tariffs - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWI1bm1fQUZqWDE3S1lPNU5xanR0aUZiWEgtUEVmRlVxdGVrc0hFMGxTUlBmdXZMQ0VNZk00RVlWU1NUVFBWY0gxR1dDVmZRb2xzWG5UYWU2UjhadTVVbG84YXlqcU9EeW8tbnRlZUJ4eERhRUxkLXJacjFwejB5ekdnODFyR3lXZmN1MXVjRFVSYjZnaklDRGxoWnYwQkpXQ2lJdHhiTk9lZHM?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "대법원, 트럼프 관세 폐지",
       "주식시장 상승",
-      "다우, S&P 500, 나스닥 상승"
+      "미 대법원 판결",
+      "트럼프 관세 철회"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "미국 경제 재개 가능성",
-      "주식 시장 영향 우려",
-      "투자자 심리 분석 필요"
+      "경제 히트 시 주식 시장 전망",
+      "인플레이션 우려 증가",
+      "투자자 반응 혼조세"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
