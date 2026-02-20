@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 계획 발표",
-      "세제 개편 추진",
-      "경기 회복 자신감 표명"
+      "경제 성장 전략 강조",
+      "투자 유치 목표 설정",
+      "국제 협력 강화 방안 논의"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 유망하다고 평가"
+      "한국 부자 47.6만명 보유",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,41 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세는 미약함",
-      "경제 불확실성 여전"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약하다고 평가",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.5,
     "type": "국내"
-  },
-  {
-    "title": "오늘 주식 시장: 대법원이 트럼프 관세를 철폐한 후 다우, S&P 500, 나스닥 상승 - Yahoo Finance",
-    "original_title": "Stock market today: Dow, S&P 500, Nasdaq rise after Supreme Court strikes down Trump tariffs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNVM4R2puMzl2dzhFcUZ1S1B2WnlKYjNUZlpSWGlMRFFMNFFxYVN6MVcwRERvVVF1cUhERlZfaTlFSmVRWF9VZ180YmF6SVhjeVA1R2VZRjRtMGJPeUpaWUtQeWlCd0lfV1ZFd19lN01WSEx3ZThQRmhieE5nUTltMDhPLUh6c0RwaDZQRjFWSWpjUjNlSnIwYlVka3YzLXRvN1BzZ2p5WEV1X04xbElKMExBZU0xdy16X2lvUTctTF9JLTc5bEtXVzMxTTJQZmdkbWt1aWdyelkwQVZ1X3c?oc=5",
-    "publisher": "Yahoo Finance",
-    "summary": [
-      "대법원, 트럼프 관세 폐지",
-      "다우, S&P 500, 나스닥 상승",
-      "시장 반응 긍정적"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "대법원이 트럼프의 긴급 관세를 무너뜨린 후 주식은 이전 손실에서 반등했습니다: 실시간 업데이트-CNBC",
-    "original_title": "Stocks rebound from earlier losses after Supreme Court knocks down Trump's emergency tariffs: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "대법원, 트럼프 관세 철회",
-      "주식 시장 반등",
-      "투자자 신뢰 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
@@ -72,12 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "주식시장 붕괴 가능성 논의",
-      "미국 경제 과열 우려",
-      "투자 전략의 재구성이 필요"
+      "미국 경제의 과열 우려",
+      "주식 시장의 잠재적 하락",
+      "경제 지표의 중요성 강조"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
+    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "K-형 경제가 주식 투자에 위험 증가",
+      "경제의 불균형 성장 확인",
+      "투자자 주의 필요성 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식은 실망스러운 경제 보고서 이후 표류합니다 - The Well News",
+    "original_title": "US Stocks Drift After Discouraging Economic Reports - The Well News",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUm4xM0xTeUlqbVNYTXprS041TjBncVFNWFh3T2NhS2ZiQ2NLb2RrQXgwelhJYUxxeDR4VFJrRGhDVUFGVktnRXpqdURuejBvV3lRVVlmYVZnMl9CaU5vMEh5Y0w3Z0pzNTVWYjl6ZnduUnVFSmdKdlNRVF9XdTEwUU9Hakh2Z1VUTnc3cWJpZldYUQ?oc=5",
+    "publisher": "The Well News",
+    "summary": [
+      "미국 주식, 경제 보고서에 불안함",
+      "주식 시장, 하락세 지속",
+      "투자자들, 지켜보는 중"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
