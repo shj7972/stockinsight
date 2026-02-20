@@ -1,25 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 계획 발표",
-      "금융 안정성 유지",
-      "투자 유치 촉진"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명 한국에 존재",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,27 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세 미약",
-      "경제 불확실성 지속"
+      "내년 경제 성장률 2.1% 전망",
+      "회복세는 미약하다",
+      "금융연의 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "주요 경제 데이터보다 주식 선물 상승, 관세 법원 판결 가능성: 실시간 업데이트-CNBC",
-    "original_title": "Stock futures climb ahead of key economic data, possible tariff court ruling: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
-    "publisher": "CNBC",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "주식 선물 상승",
-      "중요 경제 데이터 대기",
-      "관세 법원 판결 예상"
+      "구윤철 장관의 경제 정책",
+      "재정 건전성 강조",
+      "미래 성장 전략 발표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "해외"
+    "sentiment_score": 0.8,
+    "type": "국내"
   },
   {
     "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
@@ -59,8 +45,8 @@
     "publisher": "tastylive",
     "summary": [
       "미국 경제 과열 우려",
-      "주식 시장 붕괴 가능성",
-      "투자자 불확실성 증가"
+      "주식시장 하락 가능성",
+      "투자자 심리 변화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 경제 K자형 구조",
+      "미국 경제 'K자형' 회복 발생",
       "주식 투자 위험 증가",
-      "소득 불균형 심화"
+      "불균형한 경제 성장 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식은 1995년 이후 글로벌 시장 대비 최악의 출발을 보였습니다. - Yahoo Finance",
+    "original_title": "US stocks are off to their worst start versus the global market since 1995 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWQyeThNdnUxVVMzN0o0MFNfMjBXeHFrR3JaR3ZqWkJwTXZpN05fZFBMYkFoS1NRMzJySE9RRG1yU2t1UXRvczRkS2NaSmtNTWk1S0E5dHIwTDlJNzF1QTBoSmU3cFU1UFcwVWU0dURwb0VoY2h4ekNlT2Juc2RHZWRPbnFRb2VwOEhueHRZbUpYN3pNX1JjSS1vLUt0SmJSaGg0NnQ4dld5dEQ5dDNsRThpNC1BTF8tV1V3Vw?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "미국 주식, 1995년 이래 최악 시작",
+      "글로벌 시장보다 저조한 성과",
+      "투자자 신뢰도 하락 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
