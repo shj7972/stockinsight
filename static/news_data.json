@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 방향 제시",
-      "혁신과 성장 강조",
-      "재정 안정성 확보 중요성"
+      "구윤철 경제부총리 소개",
+      "경제 정책 방향 설명",
+      "미래 계획 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,67 +17,67 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "부동산보다 주식 유망"
+      "한국 부자는 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약",
+      "금융연 예측 발표"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.5,
+    "type": "국내"
+  },
+  {
+    "title": "대법원이 트럼프 긴급 관세를 파기 한 후 S & P 500 상승, Dow는 200 포인트 상승 : 실시간 업데이트-CNBC",
+    "original_title": "S&P 500 rises, Dow gains 200 points after Supreme Court strikes down Trump emergency tariffs: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "S&P 500 상승",
+      "다우 200 포인트 상승",
+      "대법원, 트럼프 관세 폐지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
+    "type": "해외"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "오늘 주식 시장: 대법원이 트럼프 관세를 철폐함에 따라 Dow, S&P 500, Nasdaq이 주간 상승세를 기록했습니다. - Yahoo Finance",
+    "original_title": "Stock market today: Dow, S&P 500, Nasdaq jump to post weekly gains as Supreme Court strikes down Trump tariffs - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 변화",
-      "시장 불확실성 증가"
+      "다우, S&P 500, 나스닥 상승",
+      "주간 성과 기록",
+      "대법원, 트럼프 관세 철폐"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
-    "title": "지정학에 초점을 맞춘 주식 하락, 석유 상승: 시장 포장 - Bloomberg",
-    "original_title": "Stocks Fall, Oil Climbs with Geopolitics in Focus: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXkyWDJESk9JX0tNNVhBX2hHNWZ1TmhzQlR3UG1FZHdkQjl2M0hUODdHcGhVeDVweXRWa1EtYVFGUzdxbmxKUEpRbzB1ZEl4ZGVyUmlXdjhsNjJvQi1iZ1k1U3BVd1otX3JCS3ZMZExOalQ0cTFkM3NrWUJ5V1dqcS16Q3lIQzhEZDN2U2hyajlleEFx?oc=5",
-    "publisher": "Bloomberg",
+    "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
+    "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
+    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxQTUhUcmRLZEx4LThzYndTdG9rMXlCbWRyMVdsQmpkMnhheFFKc3hGejhXTGRmYko4ZUZDMDN3bE5vVG5XeWR5RlBQcXRrLW1lVXB1TXVURF85TWV0N0VNYmVSY2wySUV6TUsxTktOTVFRNi1JLXlRcGdScGdQWmxjbUl4QUlUSk9VNVNFWmR5Yk9vWEdoMGdsX2F5QVhDRUQzZWM5WDlPcWpwS0F0Ql9JT01ycll4cy1aakRJblNQVl91NlhHc19aT0NEY3BmT3YyQUhqNWJMMi1Pd2Uxal9BTzJ3ZDhLaFo2ZjBlNEhYZ0laTEVtM2tpckd0LWEzZjhzN211VVVEdk9jVC16NDlBdXQwSTRrR0NkMUhIeVd5Mll3YkViVWxwX0RNWVpLRDY3X2pxRmpFWDliT0FfNUlzVDNpMFFhVW5LVmNMZHYzRmxIbmJYeE1HbGVIaFpVWGpLMkgzbUJhX3YzQlctLUVoYnJNVlM2VWRNOFFqbER5U3RGTlRV?oc=5",
+    "publisher": "The Wall Street Journal",
     "summary": [
-      "주식 하락",
-      "유가 상승",
-      "지정학적 긴장 부각"
+      "트럼프, 10% 관세명령 서명",
+      "다른 권한으로 시행",
+      "시장 반응 주목"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "대법원이 트럼프의 관세 대부분을 파기한 후 미국 주식은 시소 - NBC News",
-    "original_title": "U.S. stocks seesaw after Supreme Court strikes down most of Trump's tariffs - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbktzSG85RzVzMHY4MGRwU1Y1cFZLR1B6Q3dHd3Rsd3JONkFyNkdQUGpIcmU1ZEJiSUhfbE9adV81c2NPWTRaMUdPTGNhSFgzZVlPajJlc2ItMXlFT1JpQ0g0UFNYSS1aRm5ZNEhvcm5Yc3RaT1BlbjBOcHc1R01uQU9YNEJrMUM3M2JQcFF3enY1dnZDWWFmc3k4dw?oc=5",
-    "publisher": "NBC News",
-    "summary": [
-      "미국 주식 변동성이 커짐",
-      "대법원, 트럼프 세금 조치 폐지",
-      "시장 반응에 혼재된 신호"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "대법원, 트럼프 관세 철폐 - 시장에 미치는 영향 - 모닝스타",
-    "original_title": "Supreme Court Strikes Down Trump Tariffs—What It Means for Markets - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXFrOEdYQ0h3Unh1eUxnRFpVa2hJQ1RaZTVoU2EyaDFGNExPeXJZdjRkMndXYjY4ZFhaYURISmhRZUptVnF6QS12M3Yyc1FmSW5POFBrOVYzTTVMR2JHUkRmRVBaVGtEczFPbTBKdmRWUnpxSlc2RXhBRDZZeUVTNmZhQjZ0SnVJV3NyZHI2cXdXanJ5T1NjaUR0bXBHZw?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "대법원, 트럼프 관세 무효화",
-      "시장에 긍정적 신호",
-      "무역 긴장 완화 예상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
