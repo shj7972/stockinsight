@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 정책 안정화",
-      "글로벌 투자 유치 추진"
+      "경제 회복 목표 강조",
+      "재정 정책 방향 제시",
+      "투자 촉진 계획 발표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 확인"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식, 부동산보다 유망",
+      "재테크 관심 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 추세 유지",
-      "환율 하락 공식 변화",
-      "무역과 경제 환경 불확실"
+      "한국 경제, 지속적으로 성장 중",
+      "환율 하락 공식 깨져",
+      "경제 흐름에 대한 우려 존재"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우 200포인트 상승",
-      "대법원, 긴급 관세 무효"
+      "다우지수 200포인트 상승",
+      "대법원, 트럼프 관세 철폐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제, 투자 리스크 증가",
-      "소득 격차 확대",
-      "주식 시장 변동성 우려"
+      "미국 경제의 K-형 회복 현상",
+      "주식 투자 리스크 증가",
+      "투자자 주의 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNVM4R2puMzl2dzhFcUZ1S1B2WnlKYjNUZlpSWGlMRFFMNFFxYVN6MVcwRERvVVF1cUhERlZfaTlFSmVRWF9VZ180YmF6SVhjeVA1R2VZRjRtMGJPeUpaWUtQeWlCd0lfV1ZFd19lN01WSEx3ZThQRmhieE5nUTltMDhPLUh6c0RwaDZQRjFWSWpjUjNlSnIwYlVka3YzLXRvN1BzZ2p5WEV1X04xbElKMExBZU0xdy16X2lvUTctTF9JLTc5bEtXVzMxTTJQZmdkbWt1aWdyelkwQVZ1X3c?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "대형주 상승",
+      "다우, S&P 500, 나스닥 상승",
       "대법원, 트럼프 관세 폐지",
-      "투자 심리 개선"
+      "시장에 긍정적 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
