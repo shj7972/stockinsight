@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "주식, 부동산보다 더 유망으로 평가",
-      "부자 증가로 경제 성장 기대"
+      "한국의 부자는 47.6만명",
+      "금융자산 10억 이상",
+      "주식이 부동산보다 유망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제, 내년 2.1% 성장 전망",
-      "회복세 미약하다는 평가",
-      "경제 영향력 지속 우려"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약할 것",
+      "전망이 부정적임"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "국경제 성장 전략 발표",
-      "재정 정책 강조",
-      "글로벌 협력 필요성 언급"
+      "경제 안정화 정책 강조",
+      "활성화된 투자 유도",
+      "재정 건전성 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우지수 200포인트 상승",
-      "대법원, 트럼프 관세 폐기"
+      "다우 200포인트 상승",
+      "대법원, 트럼프 관세 철폐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "주식시장 급등",
-      "다우와 S&P500 주간 상승",
-      "대법원, 트럼프 관세 폐지"
+      "다우, S&P 500, 나스닥 상승",
+      "주간 이익 기록",
+      "대법원, 트럼프 관세 폐기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -69,15 +69,15 @@
   {
     "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
     "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPa3VJSXRSWXIyRG5FSTZJVHJZcDdWcGxTM2JkYXdyMlZPUHRWTFRJb05Tc0g2TUVRZEdqQnMwbFl1aTI1WGQwYjBnZmg4eFZzY3ZQWGZSVHNKYVNieVFCVDJSM0YyLXBQQmlKOU5hOEs5TFZtWjQ1emQ2X2RYLVpwYlpGWHlJVWgtdVVnWkc0QzBSRGVFdTltQ0t4ZEZUZnNwTlBQejgxNnZLOXdYaE9BZ2oyRVJaRFg0eHJaNW82aWc5VHphcmI0emtDaF9qSFlBZDZyNVR1aW14YkpHOFNPdnBMZ0xfcE9tdFQ4T295bDZnZnlCd1NUeURRa2xCQjF1V243bUszVDNNWThiVEFiSTdUcXloQVg5eGd2ZHl2dEtfNmYtQktwRk5zYkZINW9adzVicTBlMzJuOXRINTlkNGhOc2puOFF0ak1MczZvRVVydks1NDJjRGY2RVFzRkRIbEZzUzBTUTlGT2sxeUVua3NaRWt4WEc4bU9Odk1nZEM1S1Nq?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPVFNtTGZla1R3c1JSaG1yRU1KRlZqNnNIMEJHX08xVk5HUk1EalhSSHU1NzRkV2x0X1E2ZmpLYWRfTVUtWGNzUFdEcy1aU29aSjEzOGNNdlk4NGlncGhoN2RmZ201eG53RkdTTXVsd1BzeGViRmRhcEhCNTNqVzlZZ2RlYi1zalI5NEMzck1RTl9XRnpRT3kyc1k2Z1JzWXBpdnhIZW14c3ItMmc3bGIzanUxdUpjY2pHWmdPZU51emIzRlJpOHRsWExNQVdlZWFTcGh0X2Q5aXFTdHI4MllkVXQ2X004RXRsVWZVT2kwSDJYRlVTWDlnRkNjMEF5ZTBKUlRWN2VoTV9yVThNRjJqTE9LZW1mVXE1cGFKTnNONGJZREVBTWlScUxxLXhrNTVqLVJyQ2tUVWNVWElGM3ZVY21hTlV0OGRNTlhWWjl6aVUzTWhHRWlUdzc3U2ZwSFE4OG1iOHVUVjRxVmZ6b2hlZm95b1VpWkk3VHNZLU8zelZEOEN2?oc=5",
     "publisher": "The Wall Street Journal",
     "summary": [
       "트럼프, 10% 관세 부과 서명",
       "다른 권한 아래 시행",
-      "시장에 미치는 영향 우려"
+      "주식 시장에 영향 미칠 듯"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.5,
     "type": "해외"
   }
 ]
