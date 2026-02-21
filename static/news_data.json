@@ -1,83 +1,83 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "금융자산 10억 이상 47.6만명",
-      "부동산보다 주식이 유망",
-      "한국 부자의 증가 추세"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약 지적",
-      "경제 불확실성 지속"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
     "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복을 위한 정책 추진",
-      "투자 유치 노력 강화",
-      "부자세제 개편 필요성 언급"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "VIEW 미 대법원이 트럼프 관세를 기각하자 주가가 급등 - Reuters",
-    "original_title": "VIEW Stocks jump after US Supreme Court rejects Trump's tariffs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWI1bm1fQUZqWDE3S1lPNU5xanR0aUZiWEgtUEVmRlVxdGVrc0hFMGxTUlBmdXZMQ0VNZk00RVlWU1NUVFBWY0gxR1dDVmZRb2xzWG5UYWU2UjhadTVVbG84YXlqcU9EeW8tbnRlZUJ4eERhRUxkLXJacjFwejB5ekdnODFyR3lXZmN1MXVjRFVSYjZnaklDRGxoWnYwQkpXQ2lJdHhiTk9lZHM?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "주가 상승, 나쁜 세금 정책 해제",
-      "미국 대법원 판결로 투자 신뢰 증가",
-      "시장 긍정적 반응 나타남"
+      "경제 정책 방향 제시",
+      "혁신과 성장 강조",
+      "재정 안정성 확보 중요성"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
+    "type": "국내"
   },
   {
-    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
-    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
-    "publisher": "Morningstar Canada",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "K-형 경제는 더 많은 위험을 의미",
-      "주식 투자자들에게 우려가 큼",
-      "경제의 극단적 격차 나타남"
+      "한국 부자 47.6만명",
+      "금융자산 10억 이상",
+      "부동산보다 주식 유망"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
   },
   {
-    "title": "미국 경제가 과열되면 주식 시장이 녹을 것인가? - 맛있는 라이브",
-    "original_title": "Will the Stock Market Melt Down if the US Economy Heats Up? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
-    "publisher": "tastylive",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "미국 경제 과열 가능성",
-      "주식 시장 반응 우려",
-      "불확실성 증가"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 변화",
+      "시장 불확실성 증가"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "지정학에 초점을 맞춘 주식 하락, 석유 상승: 시장 포장 - Bloomberg",
+    "original_title": "Stocks Fall, Oil Climbs with Geopolitics in Focus: Markets Wrap - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXkyWDJESk9JX0tNNVhBX2hHNWZ1TmhzQlR3UG1FZHdkQjl2M0hUODdHcGhVeDVweXRWa1EtYVFGUzdxbmxKUEpRbzB1ZEl4ZGVyUmlXdjhsNjJvQi1iZ1k1U3BVd1otX3JCS3ZMZExOalQ0cTFkM3NrWUJ5V1dqcS16Q3lIQzhEZDN2U2hyajlleEFx?oc=5",
+    "publisher": "Bloomberg",
+    "summary": [
+      "주식 하락",
+      "유가 상승",
+      "지정학적 긴장 부각"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "대법원이 트럼프의 관세 대부분을 파기한 후 미국 주식은 시소 - NBC News",
+    "original_title": "U.S. stocks seesaw after Supreme Court strikes down most of Trump's tariffs - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbktzSG85RzVzMHY4MGRwU1Y1cFZLR1B6Q3dHd3Rsd3JONkFyNkdQUGpIcmU1ZEJiSUhfbE9adV81c2NPWTRaMUdPTGNhSFgzZVlPajJlc2ItMXlFT1JpQ0g0UFNYSS1aRm5ZNEhvcm5Yc3RaT1BlbjBOcHc1R01uQU9YNEJrMUM3M2JQcFF3enY1dnZDWWFmc3k4dw?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "미국 주식 변동성이 커짐",
+      "대법원, 트럼프 세금 조치 폐지",
+      "시장 반응에 혼재된 신호"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "대법원, 트럼프 관세 철폐 - 시장에 미치는 영향 - 모닝스타",
+    "original_title": "Supreme Court Strikes Down Trump Tariffs—What It Means for Markets - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXFrOEdYQ0h3Unh1eUxnRFpVa2hJQ1RaZTVoU2EyaDFGNExPeXJZdjRkMndXYjY4ZFhaYURISmhRZUptVnF6QS12M3Yyc1FmSW5POFBrOVYzTTVMR2JHUkRmRVBaVGtEczFPbTBKdmRWUnpxSlc2RXhBRDZZeUVTNmZhQjZ0SnVJV3NyZHI2cXdXanJ5T1NjaUR0bXBHZw?oc=5",
+    "publisher": "Morningstar",
+    "summary": [
+      "대법원, 트럼프 관세 무효화",
+      "시장에 긍정적 신호",
+      "무역 긴장 완화 예상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
