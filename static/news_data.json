@@ -1,25 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "구윤철 부총리 인터뷰",
-      "경제 정책 방향 설명",
-      "혁신 및 성장 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "부동산보다 주식 유망"
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
+      "내년 성장률 2.1%로 전망",
+      "회복세 미약하다고 평가",
       "경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
@@ -39,45 +26,58 @@
     "type": "국내"
   },
   {
-    "title": "대법원이 트럼프 긴급 관세를 파기 한 후 S & P 500 상승, Dow는 200 포인트 상승 : 실시간 업데이트-CNBC",
-    "original_title": "S&P 500 rises, Dow gains 200 points after Supreme Court strikes down Trump emergency tariffs: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
-    "publisher": "CNBC",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "S&P 500 상승",
-      "다우 지수 200 포인트 상승",
-      "대법원, 트럼프 관세 취소"
+      "경제 성장 촉진 정책 발표",
+      "일자리 창출 계획 강조",
+      "혁신 지원 확대 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
+    "type": "국내"
   },
   {
-    "title": "오늘 주식 시장: 대법원이 트럼프 관세를 철폐함에 따라 Dow, S&P 500, Nasdaq이 주간 상승세를 기록했습니다. - Yahoo Finance",
-    "original_title": "Stock market today: Dow, S&P 500, Nasdaq jump to post weekly gains as Supreme Court strikes down Trump tariffs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
-    "publisher": "Yahoo Finance",
+    "title": "지정학에 초점을 맞춘 주식 하락, 유가 상승: 시장 랩 - Bloomberg.com",
+    "original_title": "Stocks Fall, Oil Climbs with Geopolitics in Focus: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXkyWDJESk9JX0tNNVhBX2hHNWZ1TmhzQlR3UG1FZHdkQjl2M0hUODdHcGhVeDVweXRWa1EtYVFGUzdxbmxKUEpRbzB1ZEl4ZGVyUmlXdjhsNjJvQi1iZ1k1U3BVd1otX3JCS3ZMZExOalQ0cTFkM3NrWUJ5V1dqcS16Q3lIQzhEZDN2U2hyajlleEFx?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "주식 시장 상승세",
-      "다우, S&P 500, 나스닥 주간 상승",
-      "대법원, 트럼프 관세 폐기"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
-    "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPN3BxeW9Qa2FRY0UyNzJHM2NURkVDaGFIemY5bTRLQXV6VEh5aEY0QlFXXzJ0emJQN3AxaG4zTnI1b0NIU0xoVXBNWkpMakZVTTBQTHN3dEVXb25yd295Wkp4MHJsamFHb3p6RlNWaTE1WGdfTFdEN2lRVlE4MDVva0dXS2ZOSHZKaDhxdEkwSmxMejVJY0xybmM3Z2l1eTBNeFVYZWtCSU5YTUdCRWs4SmplNFNidF9wUWRQQ19UTFhUYVNVb3g1cXgwUXREMVhWNkxJcmpESjkyRTNwSHpHdmp4SWE4SEg4X2lsN2k3MVNneWc0b2xSdm1kdF9tRDJGM0UzVmdTM1N4VmRWdXVScXBOVDJEVzh4eFM0dGhjS2dQamFUdjZMbzdBX0NZaVJEVjRGRFJVbjVoSUJSZ1d6ZkpRRGhSY0E3N2gxdFlXVVRReWJkM2ItaFV2ZkpraW51RDlNOTZSM1Q4UmZobHNBR0ZYM0UxdjZDbERDY2oxWVlOR01Y?oc=5",
-    "publisher": "The Wall Street Journal",
-    "summary": [
-      "트럼프, 10% 관세 행정명령 서명",
-      "관세 부과의 새로운 권한 사용",
-      "시장 반응은 변동성이 클 듯"
+      "주식 시장 하락",
+      "유가 상승",
+      "지정학적 긴장 주목"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "대법원이 트럼프의 관세 대부분을 파기한 후 미국 주식은 시소 - NBC News",
+    "original_title": "U.S. stocks seesaw after Supreme Court strikes down most of Trump's tariffs - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbktzSG85RzVzMHY4MGRwU1Y1cFZLR1B6Q3dHd3Rsd3JONkFyNkdQUGpIcmU1ZEJiSUhfbE9adV81c2NPWTRaMUdPTGNhSFgzZVlPajJlc2ItMXlFT1JpQ0g0UFNYSS1aRm5ZNEhvcm5Yc3RaT1BlbjBOcHc1R01uQU9YNEJrMUM3M2JQcFF3enY1dnZDWWFmc3k4dw?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "대법원, 트럼프의 대부분 관세 철회",
+      "미국 주식 시장 변동성 증가",
+      "투자자 반응 엇갈림"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 많은 위험을 의미하는가 - Morningstar Canada",
+    "original_title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "K-형 경제는 투자 위험 증가",
+      "소득 격차 확대",
+      "주식 시장 변동성 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
