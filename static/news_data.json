@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "국가 경제 불황 극복 노력",
-      "재정 정책 강화 의지",
-      "내수 활성화 및 투자 유치 계획"
+      "경제 성장 전략 강화",
+      "정책 안정성 강조",
+      "투자 유치 확대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
+      "부자는 47.6만명으로 증가",
       "주식이 부동산보다 유망",
-      "한국 재벌 상승세 지속"
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제, 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "시장 불안 요소 존재"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세는 미약할 것",
+      "경제 전망에 대한 우려 존재"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우 200포인트 상승",
-      "대법원, 트럼프 관세 철회"
+      "다우 200 포인트 상승",
+      "대법원, 트럼프 관세 폐기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "다우, S&P 500, 나스닥 급등",
-      "주간 이익 달성",
-      "대법원, 트럼프 관세 철폐"
+      "다우, S&P 500, 나스닥 상승",
+      "대법원, 트럼프 관세 폐지",
+      "주간 수익률 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -69,12 +69,12 @@
   {
     "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
     "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxQQ09WQUZyQ0VJVmx4MjRvbUNCSlFJalJOeGMyTklsTHcwaDBlQzJMRkgwVDRVa2xiLXMzelUyNVlKaEZPM0FSNmo0RmlyZEJfZjJ3dmY4dURZUENVY1ZOc0pHS1hPMHRoakdoQkJvc2hIY21TQ2pWOHNwSnZZZ0hQcG5WcEZpVUItOXVGWTZlVnp1S2ZYZm9lRlJyZ0pycktadkJ2dnlnY2dCT2RQR0hVMm1mblFKN3RNUVJqZFFCZVlFOWY3UTVLQnpZSmxpRVgzWkI0Nm5NWlkxSl9BVnFGQnMzMzFJVWtXTVU3NGxoQ3Bhdmo5UHY2aWp1cl92OFc5dmlHamNXS0s1SkhmS2RDbmZsQWtLR21wRXk4TWRDQ2JoSGM3R2Q3QmpzZU5qNzJ0dVVDdFAtOU55S1NxQjVSMi1qbV9OZXVqSUZBVk5sMVY1WW53ekxmbjNKVE9sRnJDU2NGVFN4b1dQejZWSUFjZTQ0TFM0RG1tcnlsT0RXWHVZbkM2?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxOdVJUNjhla1g5VXJCaXhiLXJvMEVwSHRzSjZ4SWFBSmxmeENZQUpOemFGZVR6Z0dwSndUMmJTcmFhSHVTTmprbUlKUDdjU1dXRms0a2NVTG9kWWl3ZnFCU1NxVmRLY2tpWFBhcWZ2NHNUQjRJTjRmS2g4OVFtMzktVUtlWVJFVmJTU29pWElYWXdIQTFIMkh1cENBSVhmYnFIdlhMc2NHb0lObFdiUl9samV6UDBUaDRHd0JUNjluS28xSE1JeG1nb0gzU0VLWmxLU3lvRXYtcWxmZTA2c296b0JudlFzdDZiVjNnUV9oenRnc2lVUVRoM00ycVRRM291QVRkcjZwQ1RWc3pLM2RwYTdnOFcwMFJwNU5Bc0RQaWhVRjNiT1FjcUtjZ1cyM1MyTVplUkZkX19zeF9ReVRVZWI1NEwxckNSdFdfcjBRMHRhT2xWWU1zTUlOTzQyQzFDVDVQeXNCTWVySU8tamtucXNidnpFR1VKWlJDUldjUTc0bDZE?oc=5",
     "publisher": "The Wall Street Journal",
     "summary": [
-      "트럼프, 10% 관세 서명 발표",
-      "새로운 권한으로 시행",
-      "시장 불확실성 우려"
+      "트럼프, 10% 관세명령 서명 발표",
+      "다른 권한 활용하여 시행",
+      "시장 반응 주목"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
