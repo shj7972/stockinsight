@@ -1,41 +1,41 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "한국의 부자는 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 부동산보다 유망"
+      "국가 경제 불황 극복 노력",
+      "재정 정책 강화 의지",
+      "내수 활성화 및 투자 유치 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것",
-      "전망이 부정적임"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "한국 재벌 상승세 지속"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "경제 안정화 정책 강조",
-      "활성화된 투자 유도",
-      "재정 건전성 유지"
+      "한국 경제, 우상향 성장 중",
+      "환율 하락 공식 깨짐",
+      "시장 불안 요소 존재"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -46,7 +46,7 @@
     "summary": [
       "S&P 500 상승",
       "다우 200포인트 상승",
-      "대법원, 트럼프 관세 철폐"
+      "대법원, 트럼프 관세 철회"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "다우, S&P 500, 나스닥 상승",
-      "주간 이익 기록",
-      "대법원, 트럼프 관세 폐기"
+      "다우, S&P 500, 나스닥 급등",
+      "주간 이익 달성",
+      "대법원, 트럼프 관세 철폐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -69,15 +69,15 @@
   {
     "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
     "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPVFNtTGZla1R3c1JSaG1yRU1KRlZqNnNIMEJHX08xVk5HUk1EalhSSHU1NzRkV2x0X1E2ZmpLYWRfTVUtWGNzUFdEcy1aU29aSjEzOGNNdlk4NGlncGhoN2RmZ201eG53RkdTTXVsd1BzeGViRmRhcEhCNTNqVzlZZ2RlYi1zalI5NEMzck1RTl9XRnpRT3kyc1k2Z1JzWXBpdnhIZW14c3ItMmc3bGIzanUxdUpjY2pHWmdPZU51emIzRlJpOHRsWExNQVdlZWFTcGh0X2Q5aXFTdHI4MllkVXQ2X004RXRsVWZVT2kwSDJYRlVTWDlnRkNjMEF5ZTBKUlRWN2VoTV9yVThNRjJqTE9LZW1mVXE1cGFKTnNONGJZREVBTWlScUxxLXhrNTVqLVJyQ2tUVWNVWElGM3ZVY21hTlV0OGRNTlhWWjl6aVUzTWhHRWlUdzc3U2ZwSFE4OG1iOHVUVjRxVmZ6b2hlZm95b1VpWkk3VHNZLU8zelZEOEN2?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxQQ09WQUZyQ0VJVmx4MjRvbUNCSlFJalJOeGMyTklsTHcwaDBlQzJMRkgwVDRVa2xiLXMzelUyNVlKaEZPM0FSNmo0RmlyZEJfZjJ3dmY4dURZUENVY1ZOc0pHS1hPMHRoakdoQkJvc2hIY21TQ2pWOHNwSnZZZ0hQcG5WcEZpVUItOXVGWTZlVnp1S2ZYZm9lRlJyZ0pycktadkJ2dnlnY2dCT2RQR0hVMm1mblFKN3RNUVJqZFFCZVlFOWY3UTVLQnpZSmxpRVgzWkI0Nm5NWlkxSl9BVnFGQnMzMzFJVWtXTVU3NGxoQ3Bhdmo5UHY2aWp1cl92OFc5dmlHamNXS0s1SkhmS2RDbmZsQWtLR21wRXk4TWRDQ2JoSGM3R2Q3QmpzZU5qNzJ0dVVDdFAtOU55S1NxQjVSMi1qbV9OZXVqSUZBVk5sMVY1WW53ekxmbjNKVE9sRnJDU2NGVFN4b1dQejZWSUFjZTQ0TFM0RG1tcnlsT0RXWHVZbkM2?oc=5",
     "publisher": "The Wall Street Journal",
     "summary": [
-      "트럼프, 10% 관세 부과 서명",
-      "다른 권한 아래 시행",
-      "주식 시장에 영향 미칠 듯"
+      "트럼프, 10% 관세 서명 발표",
+      "새로운 권한으로 시행",
+      "시장 불확실성 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
