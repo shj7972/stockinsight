@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "일자리 창출 계획 발표",
-      "기업 지원 정책 강화"
+      "경제 정책 방향성 제시",
+      "시장 안정성 강조",
+      "소통 강화 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 더 유망하다고 분석",
-      "부동산 시장은 상대적 약세"
+      "부자 47.6만 명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 집중"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,41 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 계속 성장 중",
+      "한국 경제, 우상향 성장 중",
       "환율 하락 공식 깨짐",
-      "예상과 다른 현상 발생"
+      "변화하는 경제 동향 주목 필요"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
     "type": "국내"
-  },
-  {
-    "title": "대법원이 트럼프 긴급 관세를 파기 한 후 S & P 500 상승, Dow는 200 포인트 상승 : 실시간 업데이트-CNBC",
-    "original_title": "S&P 500 rises, Dow gains 200 points after Supreme Court strikes down Trump emergency tariffs: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "S&P 500 상승",
-      "다우 200 포인트 상승",
-      "대법원, 긴급 관세 철폐"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
-    "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPUTVhdFpaa19uZm41Rk9IRHlVVU9LSk9sR1M4MWxKeWhySVlqTDFXdDJ4M1p3Sk1LVnZZVkszQ0Z3NFVjSmdnTmlXeHZfN1Z4d1QzMUhwV1VhWVAzbU5NQW0zbERlNW1fanVybnBDZERaZlZ0TElncjd0NjhQNGxZbXZQdlQ0WmxiWlJEMGNjbzljc2N2TFVDNVRGalVUbXpVWnp6TG11NVJpalBmN2RBWFVTcU9EVU1mRmRGTFNUNFFGWFBiLXNaeDZXdGQ4VTNxU1k4em5TOWU3ZzF3R0dmNGZyZXdabDAxUUVyT1BXeXhCRGNVZVpzVlZPejJ6SXJBRm40U2EwMWtqRHFHSWdMZWtuY0I3a0ZYbXhiNEc1aEZQelFDUnVQZGpYNnl1eDNhc2VPTElJaVdfUmR6TlNyaURwV2tVc0gza3puSFNuVnpaUjhDSTBuYmFLY0lGQXJvcTQwODAwT2VFTDZ4N3BtbHJNMFVPUGVPRkJ5Q0JfamtpRWpW?oc=5",
-    "publisher": "The Wall Street Journal",
-    "summary": [
-      "트럼프, 10% 관세 서명",
-      "다른 권한 사용",
-      "시장 반응 주목"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
   },
   {
     "title": "왜 'K자형' 미국 경제가 주식 투자자들에게 더 큰 위험을 의미하는가 - Morningstar Canada",
@@ -72,9 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "경제 성장 차별화",
-      "주식 투자 위험 증가",
-      "K자형 회복세 보임"
+      "K-형 경제로 인한 리스크 증가",
+      "주식 투자에 부정적 영향",
+      "소득 격차 확대 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 관세 논의로 주식은 다시 상승하고 채권은 하락: 시장은 마감 - Bloomberg.com",
+    "original_title": "Stocks Rise Anew, Bonds Fall on Trump Tariff Talk: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXkyWDJESk9JX0tNNVhBX2hHNWZ1TmhzQlR3UG1FZHdkQjl2M0hUODdHcGhVeDVweXRWa1EtYVFGUzdxbmxKUEpRbzB1ZEl4ZGVyUmlXdjhsNjJvQi1iZ1k1U3BVd1otX3JCS3ZMZExOalQ0cTFkM3NrWUJ5V1dqcS16Q3lIQzhEZDN2U2hyajlleEFx?oc=5",
+    "publisher": "Bloomberg.com",
+    "summary": [
+      "주식 다시 상승",
+      "채권 가치 하락",
+      "트럼프 관세 논의 영향"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식 시장 붕괴 경고가 울리고 있습니까? 삼중 신호는 미국 경제가 얼마나 위험한지를 보여줍니다 - NAI500",
+    "original_title": "Is a U.S. Stock Market Crash Warning Sounding? Triple Signals Reveal How Dangerous the U.S. Economy Is - NAI500",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHIzOXRDOHBIS1JvaW1URHNqa2EzaFp0ZkxvMWhOUEVFbkZMc0Ywc2ppalBzYTg1ZkZuRFlDd2JTbWhhbV9lMklGcUJxT19idy1KX1dkODI0Y2JZRFFmSHdxQ3BMakgwQXpWRkhNTGNucEpHeVZ1TDdZUDlUTi1BNGJnaXotQjE2eDNXdEp4MUo0a3V5OGNiWGFiYW1uUFRVU3c2ckpVR3B4b2VjaGZjRjBFUExJaXpCS2liSjRZd2FGb0tVdHktSUtNUHY?oc=5",
+    "publisher": "NAI500",
+    "summary": [
+      "주식 시장 붕괴 경고 신호",
+      "미국 경제 위험 증가",
+      "세 가지 신호 분석"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
