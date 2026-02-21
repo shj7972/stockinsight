@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 계획에 대한 비전 제시",
-      "재정 정책 강화",
-      "시장 안정성 강조"
+      "경제 성장 전략 강조",
+      "금리 정책 조정 예고",
+      "일자리 창출 우선시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,23 +17,36 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
+      "한국 경제는 성장세 지속",
       "환율 하락 공식 무너짐",
-      "시장 불확실성 증가"
+      "시장 불안 요소 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
+    "type": "국내"
+  },
+  {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국 부자 47.6만명 보유",
+      "주식이 부동산보다 유망",
+      "금융 자산 10억 이상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
     "title": "대법원이 트럼프 긴급 관세를 파기 한 후 S & P 500 상승, Dow는 200 포인트 상승 : 실시간 업데이트-CNBC",
     "original_title": "S&P 500 rises, Dow gains 200 points after Supreme Court strikes down Trump emergency tariffs: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj0gF8QVVfeXFMTnNsVGxFUEhYSjFIVXNFeGh1NGJ4WTNnYTRORVVEcUJ6LVNfXzBzc2tlY3ZsQW9zdWx5cTdndFlqdGY3bm1Lb05FcTNHRjFnTF92MWx0WWZNd0E0Wm5Td3FqUjhGT1lfMEU0NVVkNjI4bGhRRWEySmZhYzZFMg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acVpDR0ItM0pKdjlWbnY4SkpTUm04cGxjU1NlR1dzTHYydW1seE5zeEhTbVkzN19ZMF9EOWJ4OG5vMzdZS1MtZkQtbmk0bFNua2E5aVlpLUtsXzZ3aUVGYnZfbE1vOFJVSjZCY0pnaU1nQm5LMjBj?oc=5",
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우 지수 200포인트 상승",
-      "대법원, 트럼프 관세 철회"
+      "다우 200 포인트 상승",
+      "대법원, 트럼프 관세 철폐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K-형 경제가 주식시장 위험 증가",
-      "부유층과 빈곤층 격차 확대",
-      "시장 투자에 신중 필요"
+      "K자 경제, 투자 리스크 증가",
+      "소득 격차 확대 우려",
+      "특정 주식에 집중된 시장"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -73,8 +73,8 @@
     "publisher": "U.S. Bank",
     "summary": [
       "시장 조정 가능성 언급",
-      "경제 지표에 대한 우려",
-      "투자자 신중함 필요"
+      "투자자 우려 증가",
+      "경제 동향 주의 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
