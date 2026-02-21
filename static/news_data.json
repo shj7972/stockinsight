@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 경제부총리 소개",
+      "구윤철 부총리 인터뷰",
       "경제 정책 방향 설명",
-      "미래 계획 강조"
+      "혁신 및 성장 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명",
+      "금융자산 10억 이상",
+      "부동산보다 주식 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약",
-      "금융연 예측 발표"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 평가",
+      "경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우 200 포인트 상승",
-      "대법원, 트럼프 관세 폐지"
+      "다우 지수 200 포인트 상승",
+      "대법원, 트럼프 관세 취소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMElFRG9GQ29mSmZnSXBWd3FXQXlXSWJDTWZsZHBwd0F0Qnd2YUx1eGZCaUdVQnZobVY4NGt3NTA3Wk5yX1FVTlZTLUFQN0hBZnpBWi1wckRTVWlxSkJBS05ubTNRMTNvRU0yMHpzZ0RlVXVweElxYl9wUEJsUW0tblhqMWdBVEs0emN6eTB6alZZMGdnTVZiZTVhMTFJaGc3MjdlMnJEeWRZUDJrNGNzbmZxYmVSak4tTVh4REt3VHo4SnhoVk15S2FoV0ZLeFdoamlZM2tPaDUteTBVOHdiYkdZeTlrc1VLb3NJTlFB?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "다우, S&P 500, 나스닥 상승",
-      "주간 성과 기록",
-      "대법원, 트럼프 관세 철폐"
+      "주식 시장 상승세",
+      "다우, S&P 500, 나스닥 주간 상승",
+      "대법원, 트럼프 관세 폐기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -69,12 +69,12 @@
   {
     "title": "Stock Market News, 2026년 2월 20일: 트럼프는 다른 권한 하에 10% 관세를 부과하는 명령에 서명했다고 밝혔습니다 - The Wall Street Journal",
     "original_title": "Stock Market News, Feb. 20, 2026: Trump Says He Signed Order Imposing 10% Tariff Under Different Authority - The Wall Street Journal",
-    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxQTUhUcmRLZEx4LThzYndTdG9rMXlCbWRyMVdsQmpkMnhheFFKc3hGejhXTGRmYko4ZUZDMDN3bE5vVG5XeWR5RlBQcXRrLW1lVXB1TXVURF85TWV0N0VNYmVSY2wySUV6TUsxTktOTVFRNi1JLXlRcGdScGdQWmxjbUl4QUlUSk9VNVNFWmR5Yk9vWEdoMGdsX2F5QVhDRUQzZWM5WDlPcWpwS0F0Ql9JT01ycll4cy1aakRJblNQVl91NlhHc19aT0NEY3BmT3YyQUhqNWJMMi1Pd2Uxal9BTzJ3ZDhLaFo2ZjBlNEhYZ0laTEVtM2tpckd0LWEzZjhzN211VVVEdk9jVC16NDlBdXQwSTRrR0NkMUhIeVd5Mll3YkViVWxwX0RNWVpLRDY3X2pxRmpFWDliT0FfNUlzVDNpMFFhVW5LVmNMZHYzRmxIbmJYeE1HbGVIaFpVWGpLMkgzbUJhX3YzQlctLUVoYnJNVlM2VWRNOFFqbER5U3RGTlRV?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPN3BxeW9Qa2FRY0UyNzJHM2NURkVDaGFIemY5bTRLQXV6VEh5aEY0QlFXXzJ0emJQN3AxaG4zTnI1b0NIU0xoVXBNWkpMakZVTTBQTHN3dEVXb25yd295Wkp4MHJsamFHb3p6RlNWaTE1WGdfTFdEN2lRVlE4MDVva0dXS2ZOSHZKaDhxdEkwSmxMejVJY0xybmM3Z2l1eTBNeFVYZWtCSU5YTUdCRWs4SmplNFNidF9wUWRQQ19UTFhUYVNVb3g1cXgwUXREMVhWNkxJcmpESjkyRTNwSHpHdmp4SWE4SEg4X2lsN2k3MVNneWc0b2xSdm1kdF9tRDJGM0UzVmdTM1N4VmRWdXVScXBOVDJEVzh4eFM0dGhjS2dQamFUdjZMbzdBX0NZaVJEVjRGRFJVbjVoSUJSZ1d6ZkpRRGhSY0E3N2gxdFlXVVRReWJkM2ItaFV2ZkpraW51RDlNOTZSM1Q4UmZobHNBR0ZYM0UxdjZDbERDY2oxWVlOR01Y?oc=5",
     "publisher": "The Wall Street Journal",
     "summary": [
-      "트럼프, 10% 관세명령 서명",
-      "다른 권한으로 시행",
-      "시장 반응 주목"
+      "트럼프, 10% 관세 행정명령 서명",
+      "관세 부과의 새로운 권한 사용",
+      "시장 반응은 변동성이 클 듯"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
