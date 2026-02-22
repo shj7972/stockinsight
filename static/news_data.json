@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 변동",
-      "시장 안정성 우려"
+      "한국 경제 우상향 성장 중",
+      "환율 하락 공식 깨짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자의 수 47.6만명",
-      "주식이 유망하다는 전망",
-      "부동산 선호 감소"
+      "한국 부자 47.6만명 존재",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제, 내년 2.1% 성장 예상",
-      "회복세는 미약할 것으로 보임",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 성장률 2.1% 예상",
+      "회복세는 미약하다고 판단",
+      "경제 전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제로 투자 위험 증가",
-      "주식 시장 불균형 심화",
-      "소득 차별화 심각해짐"
+      "미국 경제 'K자형' 불균형",
+      "주식 투자 리스크 증가",
+      "재정 정책 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 가능성에 대한 논의",
-      "투자자들 불안감 증가",
-      "장기 전망은 긍정적"
+      "시장 조정 가능성 언급",
+      "경제 지표 변화 관찰",
+      "투자자 심리 분석 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "미국 경제가 과열될 가능성",
-      "주식 시장의 위험 요소들",
-      "포지티브 또는 부정적인 결과"
+      "미국 경제 성장 가능성 언급",
+      "주식 시장 빠른 하락 우려",
+      "금리 인상 영향 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
