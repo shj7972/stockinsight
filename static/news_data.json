@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리의 경제 정책 방향",
-      "재정 안정성 강조",
-      "국내 경제 성장 전망"
+      "경제 성장 전략 발표",
+      "금리 정책 조정 예고",
+      "부산 투자 촉진 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 지속 중",
+      "한국 경제는 성장 중",
       "환율 하락 공식 깨짐",
-      "변화의 필요성 대두"
+      "경제 전망 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식이 유망하다는 경향",
-      "한국 시장 투자전망 긍정적"
+      "부자 수 47.6만명 달성",
+      "주식 투자 유망성 강조",
+      "부동산 시장 불안 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K형 경제가 주식 투자 위험 증가",
-      "부유층과 저소득층 차별화",
-      "경제 회복에 불확실성 존재"
+      "K-형 경제는 불균형을 초래함",
+      "주식 투자 위험 증가",
+      "소득 격차 확대 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
+    "original_title": "Is a Market Correction Coming? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "시장 조정 가능성 언급",
+      "경제 지표 분석 필요",
+      "투자자 주의 필요"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWJ1SEJwNzlhenczblNyX2h2c0JPRmFhNnJnSGlsUms3T2RJdHRJTS12MEhzRXpDeHdsUlRjTFg3Nk9KWEgtUTRaeHVoS1RDWkxoc2RWVzRfUVd0VmN2d2lXbUNtRGZxR19QRUdDR3NESmhuYmZJYWdjOWdrUnJMQjkyRjh0TTlGbFNTbjI0anhPMkpRbDlRY3RWMHBnN28?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "미국 경제가 과열될 가능성",
-      "주식 시장의 반응 우려",
-      "강한 경제의 부정적 영향"
+      "미국 경제가 뜨거워질 가능성",
+      "주식 시장의 점검 필요성",
+      "경제 성장과 주가의 관계"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식 시장 붕괴 경고가 울리고 있습니까? 삼중 신호는 미국 경제가 얼마나 위험한지를 보여줍니다 - NAI500",
-    "original_title": "Is a U.S. Stock Market Crash Warning Sounding? Triple Signals Reveal How Dangerous the U.S. Economy Is - NAI500",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHIzOXRDOHBIS1JvaW1URHNqa2EzaFp0ZkxvMWhOUEVFbkZMc0Ywc2ppalBzYTg1ZkZuRFlDd2JTbWhhbV9lMklGcUJxT19idy1KX1dkODI0Y2JZRFFmSHdxQ3BMakgwQXpWRkhNTGNucEpHeVZ1TDdZUDlUTi1BNGJnaXotQjE2eDNXdEp4MUo0a3V5OGNiWGFiYW1uUFRVU3c2ckpVR3B4b2VjaGZjRjBFUExJaXpCS2liSjRZd2FGb0tVdHktSUtNUHY?oc=5",
-    "publisher": "NAI500",
-    "summary": [
-      "미국 주식 시장 crash 신호?",
-      "경제 위험 신호 3가지",
-      "시장 전망에 대한 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.5,
     "type": "해외"
   }
 ]
