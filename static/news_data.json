@@ -1,41 +1,41 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "경제 부총리 인터뷰",
-      "정책 방향 제시",
-      "시장 안정 강조"
+      "한국 경제 성장 지속 중",
+      "환율 하락 공식 불일치",
+      "경제 불확실성 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "“가장 유리한 재테크 1위는 주식”…25년 만에 처음 부동산 제쳤다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5odTR1MENzRkxUd3pfNFlXUHRxSnlwNFQ0a2FmWFdIUzFQWWlGemRkS21lcUhlOVByZ0pseWRYbVd4aUIzbnVfb1JrVWc3ZnJZbzd2REdCb25JLXhzeElybFpNVnF2cDQ?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주식이 재테크 1위로 선정",
-      "부동산 제치고 첫 사례",
-      "25년 만의 변화"
+      "금융자산 10억 이상 47.6만명",
+      "부동산보다 주식 투자 유망",
+      "부자 증가 추세 나타남"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
-    "publisher": "포브스코리아",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "모바일 금융 서비스 성장 중",
-      "혁신적 기술 도입 활발",
-      "투자 증가 추세"
+      "내년 한국 경제 2.1% 성장 전망",
+      "경제 회복세 미약",
+      "금융연 분석 결과 발표"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "S&P 500 상승",
-      "다우 지수 200 포인트 증가",
-      "대법원, 트럼프 긴급 관세 철회"
+      "다우지수 200포인트 상승",
+      "대법원, 트럼프 긴급관세 철회"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "K자형 경제로 투자 리스크 증가",
-      "소득 차별 심화",
-      "주식 시장 변동성 확대"
+      "K형 경제, 주식 투자 위험 증가",
+      "소득 격차가 확대되고 있음",
+      "저소득층에 불리한 환경 조성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,11 +73,11 @@
     "publisher": "U.S. Bank",
     "summary": [
       "시장 조정 가능성 언급",
-      "투자자 우려 심화",
-      "전망 조정 요구"
+      "경제 지표 분석 중",
+      "투자자 경계 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
