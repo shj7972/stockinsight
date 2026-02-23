@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책에 대한 강한 믿음",
-      "시장 안정성 강조",
-      "투자 유치에 중점 두기"
+      "부총리 구윤철 소개",
+      "경제 운영 계획 발표",
+      "한국 경제 전망 밝음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -18,11 +18,11 @@
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 유망",
-      "주식 투자 증가 추세"
+      "주식에 대한 긍정적 전망",
+      "부동산보다 주식이 유망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "전반적 불확실성 지속"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세는 미약할 것으로 보임",
+      "전반적 경기 회복 기대 낮음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 회전 분석",
-      "중요한 6개 주식 소개",
-      "시장 전망에 긍정적 신호"
+      "2026년 주식시장 변화 주도 주식",
+      "6개 주요 종목 소개",
+      "금융 전문가 분석 포함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식시장 작은 상승세",
-      "취업 데이터 긍정적",
-      "경제 전망 안정적"
+      "주식시장이 안정세를 보임",
+      "경제지표 개선 소식",
+      "투자 심리 회복 조짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -73,11 +73,11 @@
     "publisher": "U.S. Bank",
     "summary": [
       "시장 조정 가능성 언급",
-      "투자자들 우려 증가",
-      "경제 지표 혼조세"
+      "경제 지표 분석 필요",
+      "투자자 경각심 요구"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
     "type": "해외"
   }
 ]
