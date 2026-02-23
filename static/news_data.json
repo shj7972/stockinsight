@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복에 힘쓰는 정책 강조",
-      "혁신과 성장 중심 제안",
-      "국민 신뢰 구축 노력"
+      "경제 성장 전략 강조",
+      "민간 투자 유도 계획",
+      "사회적 안전망 강화 추진"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 확인",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 유망",
+      "주식 시장 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세를 보임",
-      "환율 하락 공식이 무너짐",
-      "경제 개선에도 불확실성 존재"
+      "한국 경제 성장세 유지",
+      "환율 하락 공식 변동",
+      "시장 상황 불확실"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
-  },
-  {
-    "title": "다우지수, AI 중단과 관세 인상에 대한 우려 증가로 800포인트 하락: 실시간 업데이트 - CNBC",
-    "original_title": "Dow tumbles 800 points on growing fears about AI disruption, tariff drag: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "다우지수 800점 하락",
-      "AI disrupt 우려 증가",
-      "관세 문제 영향"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 증시 회전 주식 6종목",
-      "투자자 관심 집중",
-      "강한 성장 예상"
+      "2026년 주식시장 변화의 주도주",
+      "주목받는 6개 주요 종목",
+      "투자자들의 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 교정 가능성 제기",
-      "경제 불확실성 증가",
+      "시장 조정 가능성 언급",
+      "경제 지표 불안정",
       "투자자 주의 필요"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "美대법원 관세 판결에 닛케이 하락 촉발로 글로벌 증시 흔들리 - 중앙일보",
+    "original_title": "Global stock markets shaken as U.S. Supreme Court tariff ruling triggers Nikkei fall - Economy Middle East",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPd1JDMFFCNnl2b0lNTFB0YWxwVVVVejE0aVhEcW02bS01SE1sNjRWVFhJUDM1RFlwaDFCMXVXbm5MQmVqelFmOHAzTXZMUV9nVXF1MmEwOXd2MUUxa2NjZy00UDlyd1dsWjBpb3lPWE05bXhjRm1udmNuVGlkd1Z2M0JGM2JrNDRuRDhkTURkTmFETWlr?oc=5",
+    "publisher": "Economy Middle East",
+    "summary": [
+      "미국 대법원, 관세 판결 발표",
+      "니케이지수 하락",
+      "글로벌 시장 불안정성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
