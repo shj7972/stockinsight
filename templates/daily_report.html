@@ -1,0 +1,311 @@
+{% extends "base.html" %}
+
+{% block title %}{{ report_date }} 일일 시장 리포트 - Stock Insight AI{% endblock %}
+
+{% block meta_description %}{{ report_date }} AI 일일 시장 요약 리포트 - 주요 지수, 섹터 동향, 시장 심리, AI 투자 인사이트를 한눈에 확인하세요{% endblock %}
+
+{% block meta_keywords %}일일시장리포트, 주식시장요약, AI시장분석, 오늘시장동향, {{ report_date }}{% endblock %}
+
+{% block og_title %}{{ report_date }} AI 일일 시장 리포트 - Stock Insight AI{% endblock %}
+
+{% block og_description %}{{ report_date }} 주요 지수, 섹터 동향, 시장 심리를 AI가 분석한 일일 리포트{% endblock %}
+
+{% block canonical_path %}/daily-report{% endblock %}
+
+{% block og_url %}/daily-report{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ report_date }} AI 일일 시장 리포트",
+    "description": "{{ report_date }} 주요 지수, 섹터 동향, 시장 심리를 AI가 분석한 일일 리포트",
+    "datePublished": "{{ report_date_iso }}",
+    "dateModified": "{{ report_date_iso }}",
+    "author": {
+        "@type": "Organization",
+        "name": "Stock Insight AI"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Stock Insight AI",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://stock-insight.app/static/og-image.png"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://stock-insight.app/daily-report"
+    }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- Report Header -->
+<div class="glass-panel" style="padding: 1.25rem 1.5rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+        <div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
+                <span style="font-size: 1.3rem;">📋</span>
+                <h1 style="font-size: 1.3rem; margin: 0; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+                    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                    AI 일일 시장 리포트
+                </h1>
+            </div>
+            <p style="color: #94a3b8; font-size: 0.8rem; margin: 0;">{{ report_date }} 기준 | 매일 자동 업데이트</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+            <button onclick="shareDailyReport()" class="share-btn" style="margin: 0; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                🔗 공유하기
+            </button>
+        </div>
+    </div>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="padding: 1.5rem; border-left: 4px solid #f87171;">
+    <p style="color: #f87171; margin: 0;">데이터를 불러오는 중 오류가 발생했습니다: {{ error }}</p>
+</div>
+{% else %}
+
+<!-- 1. Market Summary (주요 지수) -->
+<div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 1rem;">
+    <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.75rem;">
+        <span>📊</span>
+        <span style="font-size: 0.9rem; font-weight: 700; color: #e2e8f0;">주요 지수 현황</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        {% for idx in indices %}
+        <a href="/stock/{{ idx.ticker }}"
+           style="text-decoration:none; display:flex; flex-direction:column; align-items:center;
+                  background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
+                  border-radius: 12px; padding: 0.65rem 0.85rem; min-width: 130px; flex: 1;
+                  transition: border-color 0.2s;"
+           onmouseover="this.style.borderColor='rgba(56,189,248,0.35)'"
+           onmouseout="this.style.borderColor='rgba(255,255,255,0.06)'">
+            <span style="font-size: 0.72rem; color: #64748b; margin-bottom: 0.2rem;">{{ idx.name }}</span>
+            <span style="font-size: 1.05rem; font-weight: 700; color: #f1f5f9;">
+                {{ "{:,.2f}".format(idx.current) if idx.current < 10000 else "{:,.0f}".format(idx.current) }}
+            </span>
+            <span style="font-size: 0.75rem; font-weight: 600; color: {% if idx.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                {{ "{:+.2f}".format(idx.change_pct) }}%
+            </span>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- 2. Market Mood (시장 심리) -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+    <!-- Fear & Greed -->
+    <div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 0;">
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem;">
+            <span>😨</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #e2e8f0;">공포 & 탐욕 지수</span>
+        </div>
+        <div style="text-align: center; padding: 0.5rem 0;">
+            <div style="font-size: 2.5rem; font-weight: 800; color: {{ fear_greed.color }};">
+                {{ fear_greed.score }}
+            </div>
+            <div style="font-size: 1rem; font-weight: 700; color: {{ fear_greed.color }}; margin-top: 0.2rem;">
+                {{ fear_greed.label }}
+            </div>
+            <p style="color: #64748b; font-size: 0.72rem; margin-top: 0.5rem;">
+                모멘텀 {{ fear_greed.momentum }} | 변동성 {{ fear_greed.volatility }} | 강도 {{ fear_greed.strength }}
+            </p>
+        </div>
+        <a href="/fear-greed-index" style="display: block; text-align: center; font-size: 0.75rem; color: #38bdf8; margin-top: 0.3rem;">
+            상세 보기 →
+        </a>
+    </div>
+
+    <!-- VIX & Key Metrics -->
+    <div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 0;">
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem;">
+            <span>📈</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #e2e8f0;">핵심 지표</span>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+            {% for metric in key_metrics %}
+            <div style="background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.75rem; text-align: center;">
+                <div style="font-size: 0.68rem; color: #64748b;">{{ metric.label }}</div>
+                <div style="font-size: 1.05rem; font-weight: 700; color: #f1f5f9; margin-top: 0.15rem;">
+                    {{ metric.value }}
+                </div>
+                <div style="font-size: 0.68rem; font-weight: 600; color: {% if metric.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                    {{ "{:+.2f}".format(metric.change_pct) }}%
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- 3. Sector Performance (섹터 동향) -->
+<div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 1rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+        <div style="display: flex; align-items: center; gap: 0.4rem;">
+            <span>🏗️</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #e2e8f0;">섹터별 수익률 (1개월 상대강도 vs SPY)</span>
+        </div>
+        <a href="/sector-analysis" style="font-size: 0.72rem; color: #38bdf8; text-decoration: none;
+           background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25);
+           border-radius: 20px; padding: 0.15rem 0.55rem;">
+            상세 분석 →
+        </a>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        {% for sector in sectors %}
+        <div style="flex: 1; min-width: 85px; background: rgba({% if sector.rs >= 0 %}74,222,128{% else %}248,113,113{% endif %},0.06);
+                    border: 1px solid rgba({% if sector.rs >= 0 %}74,222,128{% else %}248,113,113{% endif %},0.15);
+                    border-radius: 10px; padding: 0.5rem 0.4rem; text-align: center;">
+            <div style="font-size: 0.68rem; color: #94a3b8; font-weight: 600;">{{ sector.ticker }}</div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: {% if sector.rs >= 0 %}#4ade80{% else %}#f87171{% endif %}; margin-top: 0.1rem;">
+                {{ "{:+.1f}".format(sector.rs) }}%
+            </div>
+            <div style="font-size: 0.6rem; color: #475569;">{{ sector.name }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- 4. Top Movers (급등/급락 종목) -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+    <!-- 상승 TOP 5 -->
+    <div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 0;">
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.65rem;">
+            <span>🚀</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #4ade80;">상승 TOP 5</span>
+        </div>
+        {% for stock in top_gainers %}
+        <a href="/stock/{{ stock.ticker }}" style="text-decoration: none; display: flex; justify-content: space-between; align-items: center;
+                  padding: 0.45rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">
+            <div>
+                <span style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0;">{{ stock.ticker }}</span>
+                <span style="font-size: 0.72rem; color: #64748b; margin-left: 0.3rem;">{{ stock.name }}</span>
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #4ade80;">{{ "{:+.2f}".format(stock.change_pct) }}%</span>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- 하락 TOP 5 -->
+    <div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 0;">
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.65rem;">
+            <span>📉</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #f87171;">하락 TOP 5</span>
+        </div>
+        {% for stock in top_losers %}
+        <a href="/stock/{{ stock.ticker }}" style="text-decoration: none; display: flex; justify-content: space-between; align-items: center;
+                  padding: 0.45rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">
+            <div>
+                <span style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0;">{{ stock.ticker }}</span>
+                <span style="font-size: 0.72rem; color: #64748b; margin-left: 0.3rem;">{{ stock.name }}</span>
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #f87171;">{{ "{:+.2f}".format(stock.change_pct) }}%</span>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- 5. AI 예측 -->
+{% if predictions %}
+<div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 1rem;">
+    <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.75rem;">
+        <span>🤖</span>
+        <span style="font-size: 0.85rem; font-weight: 700; color: #e2e8f0;">AI 다음 달 방향 예측</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
+        {% for pred in predictions %}
+        <div style="flex: 1; min-width: 130px;
+                    background: rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.06);
+                    border: 1px solid {{ pred.direction_color }}33;
+                    border-radius: 12px; padding: 0.75rem; text-align: center;">
+            <div style="font-size: 0.72rem; font-weight: 600; color: {{ pred.color }};">{{ pred.name }}</div>
+            <div style="font-size: 1.5rem; line-height: 1; margin-top: 0.2rem;">{{ pred.direction_icon }}</div>
+            <div style="font-size: 1rem; font-weight: 800; color: {{ pred.direction_color }}; margin-top: 0.15rem;">
+                {{ pred.direction }}
+            </div>
+            <div style="font-size: 0.68rem; color: #94a3b8; margin-top: 0.2rem;">
+                신뢰도 <strong style="color: #e2e8f0;">{{ pred.confidence }}%</strong>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <p style="color: #475569; font-size: 0.68rem; margin: 0.6rem 0 0 0;">
+        ⚠️ 과거 데이터 기반 통계 모델. 투자 결정에 직접 활용하지 마세요.
+    </p>
+</div>
+{% endif %}
+
+<!-- 6. 뉴스 브리핑 -->
+{% if news_data %}
+<div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 1rem;">
+    <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.75rem;">
+        <span>🔥</span>
+        <span style="font-size: 0.85rem; font-weight: 700; color: #e2e8f0;">AI 금융 뉴스 브리핑</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.65rem;">
+        {% for news in news_data %}
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05);
+                    border-radius: 12px; padding: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem;">
+            <div style="display: flex; align-items: center; gap: 0.3rem;">
+                <span style="font-size: 0.65rem; font-weight: 600; padding: 0.1rem 0.4rem; border-radius: 4px;
+                      background: {% if news.type == '국내' %}rgba(74,222,128,0.15){% else %}rgba(56,189,248,0.15){% endif %};
+                      color: {% if news.type == '국내' %}#4ade80{% else %}#38bdf8{% endif %};">
+                    {{ news.type }}
+                </span>
+                <span style="font-size: 0.65rem; color: {% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
+                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif %}
+                </span>
+                <span style="font-size: 0.65rem; color: #475569; margin-left: auto;">{{ news.publisher }}</span>
+            </div>
+            <a href="{{ news.link }}" target="_blank"
+               style="text-decoration: none; color: #e2e8f0; font-size: 0.8rem; font-weight: 600;
+                      line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2;
+                      -webkit-box-orient: vertical; overflow: hidden;">
+                {{ news.title }}
+            </a>
+            <ul style="margin: 0; padding-left: 1rem; color: #94a3b8; font-size: 0.72rem; line-height: 1.5;">
+                {% for point in news.summary[:2] %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- Report Footer -->
+<div style="text-align: center; padding: 0.75rem; color: #475569; font-size: 0.7rem;">
+    <p style="margin: 0;">본 리포트는 AI가 자동으로 생성한 것이며, 투자 권유가 아닙니다.</p>
+    <p style="margin: 0.25rem 0 0 0;">과거의 성과가 미래의 수익을 보장하지 않습니다. 투자의 책임은 본인에게 있습니다.</p>
+</div>
+
+{% endif %}
+
+<script>
+function shareDailyReport() {
+    const shareUrl = "https://stock-insight.app/daily-report";
+    const shareText = "{{ report_date }} AI 일일 시장 리포트 - Stock Insight AI";
+
+    if (navigator.share) {
+        navigator.share({
+            title: shareText,
+            text: '오늘의 시장 동향을 AI가 분석했습니다!',
+            url: shareUrl
+        }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(shareUrl).then(function() {
+            alert('링크가 복사되었습니다! 공유해보세요.');
+        }, function() {
+            alert('복사에 실패했습니다.');
+        });
+    }
+}
+</script>
+{% endblock %}

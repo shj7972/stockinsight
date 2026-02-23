@@ -483,12 +483,16 @@ def _render_dashboard(request: Request, ticker: str = ""):
         except Exception:
             index_predictions = []
 
+    # Blog posts for dashboard
+    blog_posts = get_blog_posts()[:3] if not ticker else []
+
     return templates.TemplateResponse("index.html", {
         "request": request,
         "indices_data": indices_data,
         "stock_data": stock_data,
         "news_data": news_data,
         "index_predictions": index_predictions,
+        "blog_posts": blog_posts,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
         "selected_ticker": ticker,
@@ -1361,6 +1365,243 @@ async def economic_indicators_page(request: Request):
         })
 
 
+# ── Blog Helper Functions ──────────────────────────────────────────
+BLOG_DATA_FILE = os.path.join(BASE_DIR, "static", "blog_posts.json")
+_blog_cache: dict = {"data": None, "ts": 0}
+_BLOG_CACHE_TTL = 3600  # 1 hour
+
+def get_blog_posts():
+    """Load all blog posts from JSON, sorted by date desc."""
+    now = time.time()
+    if _blog_cache["data"] is not None and now - _blog_cache["ts"] < _BLOG_CACHE_TTL:
+        return _blog_cache["data"]
+    try:
+        with open(BLOG_DATA_FILE, 'r', encoding='utf-8') as f:
+            posts = json.load(f)
+        posts.sort(key=lambda p: p.get('date_published', ''), reverse=True)
+        _blog_cache["data"] = posts
+        _blog_cache["ts"] = now
+        return posts
+    except Exception as e:
+        print(f"Blog load error: {e}")
+        return []
+
+def get_blog_post(slug: str):
+    """Get a single blog post by slug."""
+    posts = get_blog_posts()
+    return next((p for p in posts if p.get('slug') == slug), None)
+
+
+@app.get("/blog", response_class=HTMLResponse)
+async def blog_list(request: Request):
+    """Blog listing page"""
+    posts = get_blog_posts()
+    return templates.TemplateResponse("blog_list.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "posts": posts
+    })
+
+@app.get("/blog/{slug}", response_class=HTMLResponse)
+async def blog_detail(request: Request, slug: str):
+    """Individual blog post page"""
+    post = get_blog_post(slug)
+    if not post:
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse(url="/blog", status_code=302)
+
+    # Get other posts for "related" section
+    all_posts = get_blog_posts()
+    related = [p for p in all_posts if p['slug'] != slug][:3]
+
+    return templates.TemplateResponse("blog_post.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "post": post,
+        "related_posts": related
+    })
+
+
+@app.get("/daily-report", response_class=HTMLResponse)
+async def daily_report(request: Request):
+    """AI Daily Market Report - SEO-optimized daily content page"""
+    import yfinance as yf
+    import numpy as np
+    from datetime import datetime
+
+    report_date = datetime.now().strftime("%Y년 %m월 %d일")
+    report_date_iso = datetime.now().strftime("%Y-%m-%d")
+    error = None
+
+    try:
+        # 1. Major Indices
+        index_list = [
+            ("^GSPC", "S&P 500"), ("^IXIC", "NASDAQ"), ("^DJI", "Dow Jones"),
+            ("^KS11", "KOSPI"), ("^KQ11", "KOSDAQ")
+        ]
+        indices = []
+        for tick, name in index_list:
+            current, change, change_pct = utils.get_index_data(tick)
+            if current is not None:
+                indices.append({
+                    'ticker': tick, 'name': name,
+                    'current': current, 'change': change, 'change_pct': change_pct
+                })
+
+        # 2. Fear & Greed Score (simplified)
+        fear_greed = {'score': 50, 'label': 'Neutral', 'color': '#eab308',
+                      'momentum': 50, 'volatility': 50, 'strength': 50}
+        try:
+            sp500 = yf.Ticker("^GSPC")
+            vix_ticker = yf.Ticker("^VIX")
+            sp500_hist = sp500.history(period="2y")
+            vix_hist = vix_ticker.history(period="1d")
+
+            if not sp500_hist.empty and not vix_hist.empty:
+                sp_close = sp500_hist['Close']
+                sma_125 = sp_close.rolling(window=125).mean()
+                mom_pct = (sp_close.iloc[-1] - sma_125.iloc[-1]) / sma_125.iloc[-1]
+                mom_score = max(0, min(100, ((mom_pct + 0.1) / 0.2 * 100)))
+
+                vix_val = vix_hist['Close'].iloc[-1]
+                vix_score = max(0, min(100, 100 - (vix_val - 12) / (35 - 12) * 100))
+
+                delta = sp_close.diff()
+                gain = (delta.where(delta > 0, 0)).ewm(alpha=1/14, adjust=False).mean()
+                loss = (-delta.where(delta < 0, 0)).ewm(alpha=1/14, adjust=False).mean()
+                rs = gain / loss
+                rsi = 100 - (100 / (1 + rs))
+                rsi_val = rsi.iloc[-1]
+                rsi_score = max(0, min(100, (rsi_val - 30) / 40 * 100))
+
+                final_score = int(mom_score * 0.4 + vix_score * 0.4 + rsi_score * 0.2)
+
+                if final_score < 25:
+                    label, color = "Extreme Fear", "#ef4444"
+                elif final_score < 45:
+                    label, color = "Fear", "#f97316"
+                elif final_score < 55:
+                    label, color = "Neutral", "#eab308"
+                elif final_score < 75:
+                    label, color = "Greed", "#84cc16"
+                else:
+                    label, color = "Extreme Greed", "#22c55e"
+
+                fear_greed = {
+                    'score': final_score, 'label': label, 'color': color,
+                    'momentum': int(mom_score), 'volatility': int(vix_score), 'strength': int(rsi_score)
+                }
+        except Exception:
+            pass
+
+        # 3. Key Metrics (VIX, USD/KRW, WTI, Gold)
+        key_metrics = []
+        metric_tickers = [
+            ("^VIX", "VIX 공포지수"), ("KRW=X", "USD/KRW"),
+            ("CL=F", "WTI 유가"), ("GC=F", "금 (Gold)")
+        ]
+        for tick, label in metric_tickers:
+            try:
+                t = yf.Ticker(tick)
+                hist = t.history(period="5d")
+                if not hist.empty and len(hist) >= 2:
+                    cur = hist['Close'].iloc[-1]
+                    prev = hist['Close'].iloc[-2]
+                    chg_pct = (cur - prev) / prev * 100 if prev != 0 else 0
+                    key_metrics.append({
+                        'label': label,
+                        'value': "{:,.2f}".format(cur) if cur < 10000 else "{:,.0f}".format(cur),
+                        'change_pct': chg_pct
+                    })
+            except Exception:
+                pass
+
+        # 4. Sector Performance
+        sectors = []
+        try:
+            perf_data = utils.get_sector_performance()
+            for item in perf_data:
+                sectors.append({
+                    'ticker': item['ticker'],
+                    'name': item['name'],
+                    'rs': item['rs_1m']
+                })
+        except Exception:
+            pass
+
+        # 5. Top Gainers/Losers from tracked stocks
+        top_gainers = []
+        top_losers = []
+        try:
+            all_candidates = US_CANDIDATES + KR_CANDIDATES
+            tickers_str = " ".join([t[0] for t in all_candidates])
+            data = yf.download(tickers_str, period="2d", progress=False)
+
+            if not data.empty and 'Close' in data:
+                close_data = data['Close']
+                name_map = {t[0]: t[1] for t in all_candidates}
+                changes = []
+
+                for ticker in close_data.columns:
+                    series = close_data[ticker].dropna()
+                    if len(series) >= 2:
+                        cur = series.iloc[-1]
+                        prev = series.iloc[-2]
+                        pct = (cur - prev) / prev * 100 if prev != 0 else 0
+                        changes.append({
+                            'ticker': ticker,
+                            'name': name_map.get(ticker, ticker),
+                            'change_pct': pct
+                        })
+
+                changes.sort(key=lambda x: x['change_pct'], reverse=True)
+                top_gainers = changes[:5]
+                top_losers = sorted(changes, key=lambda x: x['change_pct'])[:5]
+        except Exception:
+            pass
+
+        # 6. AI Predictions (cached)
+        predictions = _get_main_index_predictions()
+
+        # 7. News
+        news_data = news_manager.get_latest_news()
+
+        return templates.TemplateResponse("daily_report.html", {
+            "request": request,
+            "selected_ticker": "",
+            "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+            "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+            "report_date": report_date,
+            "report_date_iso": report_date_iso,
+            "indices": indices,
+            "fear_greed": fear_greed,
+            "key_metrics": key_metrics,
+            "sectors": sectors,
+            "top_gainers": top_gainers,
+            "top_losers": top_losers,
+            "predictions": predictions,
+            "news_data": news_data,
+            "error": None
+        })
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return templates.TemplateResponse("daily_report.html", {
+            "request": request,
+            "selected_ticker": "",
+            "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+            "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+            "report_date": report_date,
+            "report_date_iso": report_date_iso,
+            "error": str(e)
+        })
+
+
 @app.get("/robots.txt", response_class=PlainTextResponse)
 @app.head("/robots.txt", response_class=PlainTextResponse)
 async def robots():
@@ -1463,6 +1704,12 @@ async def sitemap():
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>{base_url}/daily-report</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>{base_url}/yield-calculator</loc>
         <lastmod>{today}</lastmod>
         <changefreq>weekly</changefreq>
@@ -1518,8 +1765,8 @@ async def sitemap():
     </url>
 """
 
-    # Add popular US stocks with clean URLs
-    for tick, name in US_TOP_TICKERS[:8]:  # Top 8
+    # Add ALL tracked US stocks with clean URLs
+    for tick, name in US_CANDIDATES:
         sitemap_xml += f"""    <url>
         <loc>{base_url}/stock/{tick}</loc>
         <lastmod>{today}</lastmod>
@@ -1528,8 +1775,8 @@ async def sitemap():
     </url>
 """
 
-    # Add popular Korean stocks with clean URLs
-    for tick, name in KR_TOP_TICKERS[:4]:  # Top 4
+    # Add ALL tracked Korean stocks with clean URLs
+    for tick, name in KR_CANDIDATES:
         sitemap_xml += f"""    <url>
         <loc>{base_url}/stock/{tick}</loc>
         <lastmod>{today}</lastmod>
@@ -1538,8 +1785,29 @@ async def sitemap():
     </url>
 """
     
+    # Add blog listing page
+    sitemap_xml += f"""    <url>
+        <loc>{base_url}/blog</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+"""
+
+    # Add individual blog posts
+    for post in get_blog_posts():
+        slug = post.get('slug', '')
+        post_date = post.get('date_modified', today)
+        sitemap_xml += f"""    <url>
+        <loc>{base_url}/blog/{slug}</loc>
+        <lastmod>{post_date}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+"""
+
     sitemap_xml += "</urlset>"
-    
+
     return Response(content=sitemap_xml, media_type="application/xml")
 
 if __name__ == "__main__":

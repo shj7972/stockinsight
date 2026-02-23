@@ -177,6 +177,20 @@
 
 
 
+            <!-- Watchlist Section -->
+            <div id="watchlist-section" class="ticker-section" style="display: none;">
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h3>⭐ 관심 종목</h3>
+                    <button onclick="clearWatchlist()" title="전체 삭제"
+                        style="background: none; border: none; color: #64748b; cursor: pointer; font-size: 0.75rem; padding: 0.2rem 0.4rem;">
+                        전체 삭제
+                    </button>
+                </div>
+                <div id="watchlist-items" class="ticker-buttons"></div>
+            </div>
+
+            <hr id="watchlist-hr" style="display: none;">
+
             <details class="tips-expander">
                 <summary>💡 사용 팁</summary>
                 <p>미국 주식 티커 (예: AAPL, TSLA) 또는 한국 주식 코드 (예: 005930.KS)를 입력하세요.</p>
@@ -189,6 +203,10 @@
             <nav class="content-nav">
                 <a href="/" class="nav-item {% if request.url.path == '/' %}active{% endif %}">
                     <span>📊</span> 대시보드
+                </a>
+                <a href="/daily-report"
+                    class="nav-item {% if request.url.path == '/daily-report' %}active{% endif %}">
+                    <span>📋</span> 일일리포트
                 </a>
                 <a href="/yield-calculator"
                     class="nav-item {% if request.url.path == '/yield-calculator' %}active{% endif %}">
@@ -216,6 +234,10 @@
                 <a href="/economic-indicators"
                     class="nav-item {% if request.url.path == '/economic-indicators' %}active{% endif %}">
                     <span>📈</span> 경제지표
+                </a>
+                <a href="/blog"
+                    class="nav-item {% if '/blog' in request.url.path %}active{% endif %}">
+                    <span>📝</span> 블로그
                 </a>
             </nav>
 
@@ -312,6 +334,108 @@
             sidebar.classList.toggle('active');
             overlay.classList.toggle('active');
         }
+    </script>
+
+    <!-- Watchlist Logic (localStorage) -->
+    <script>
+        const WATCHLIST_KEY = 'stock_insight_watchlist';
+
+        function getWatchlist() {
+            try {
+                return JSON.parse(localStorage.getItem(WATCHLIST_KEY)) || [];
+            } catch { return []; }
+        }
+
+        function saveWatchlist(list) {
+            localStorage.setItem(WATCHLIST_KEY, JSON.stringify(list));
+        }
+
+        function addToWatchlist(ticker, name) {
+            const list = getWatchlist();
+            if (!list.find(item => item.ticker === ticker)) {
+                list.unshift({ ticker, name });
+                if (list.length > 20) list.pop();
+                saveWatchlist(list);
+                renderWatchlist();
+            }
+        }
+
+        function removeFromWatchlist(ticker) {
+            const list = getWatchlist().filter(item => item.ticker !== ticker);
+            saveWatchlist(list);
+            renderWatchlist();
+        }
+
+        function clearWatchlist() {
+            saveWatchlist([]);
+            renderWatchlist();
+        }
+
+        function isInWatchlist(ticker) {
+            return getWatchlist().some(item => item.ticker === ticker);
+        }
+
+        function renderWatchlist() {
+            const list = getWatchlist();
+            const section = document.getElementById('watchlist-section');
+            const hr = document.getElementById('watchlist-hr');
+            const container = document.getElementById('watchlist-items');
+
+            if (!section || !container) return;
+
+            if (list.length === 0) {
+                section.style.display = 'none';
+                if (hr) hr.style.display = 'none';
+                return;
+            }
+
+            section.style.display = 'block';
+            if (hr) hr.style.display = 'block';
+
+            container.innerHTML = list.map(item => `
+                <div style="display: flex; align-items: center; gap: 0.25rem;">
+                    <a href="/stock/${item.ticker}" class="ticker-btn" style="flex: 1;">
+                        ${item.name} (${item.ticker})
+                    </a>
+                    <button onclick="removeFromWatchlist('${item.ticker}')" title="삭제"
+                        style="background: none; border: none; color: #64748b; cursor: pointer;
+                               font-size: 0.75rem; padding: 0.2rem; flex-shrink: 0; line-height: 1;">
+                        ✕
+                    </button>
+                </div>
+            `).join('');
+
+            // Update star buttons on stock pages
+            updateWatchlistButtons();
+        }
+
+        function updateWatchlistButtons() {
+            document.querySelectorAll('.watchlist-toggle-btn').forEach(btn => {
+                const ticker = btn.dataset.ticker;
+                if (isInWatchlist(ticker)) {
+                    btn.innerHTML = '⭐ 관심 종목';
+                    btn.style.background = 'linear-gradient(135deg, rgba(251,191,36,0.15) 0%, rgba(245,158,11,0.15) 100%)';
+                    btn.style.borderColor = 'rgba(251,191,36,0.4)';
+                    btn.style.color = '#fbbf24';
+                } else {
+                    btn.innerHTML = '☆ 관심 종목 추가';
+                    btn.style.background = 'linear-gradient(135deg, rgba(56,189,248,0.1) 0%, rgba(129,140,248,0.1) 100%)';
+                    btn.style.borderColor = 'rgba(56,189,248,0.3)';
+                    btn.style.color = '#38bdf8';
+                }
+            });
+        }
+
+        function toggleWatchlist(ticker, name) {
+            if (isInWatchlist(ticker)) {
+                removeFromWatchlist(ticker);
+            } else {
+                addToWatchlist(ticker, name);
+            }
+        }
+
+        // Init watchlist on page load
+        document.addEventListener('DOMContentLoaded', renderWatchlist);
     </script>
 
     {% block extra_scripts %}{% endblock %}

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}투자 블로그 - Stock Insight AI{% endblock %}
+
+{% block meta_description %}주식 투자, ETF, 기술적 분석, 시장 전략 등 투자자를 위한 유용한 블로그 콘텐츠를 제공합니다.{% endblock %}
+
+{% block meta_keywords %}주식블로그, 투자전략, ETF가이드, 기술적분석, 주식교육, 투자팁{% endblock %}
+
+{% block og_title %}투자 블로그 - Stock Insight AI{% endblock %}
+
+{% block og_description %}주식 투자, ETF, 기술적 분석, 시장 전략 등 투자자를 위한 유용한 블로그 콘텐츠{% endblock %}
+
+{% block canonical_path %}/blog{% endblock %}
+
+{% block og_url %}/blog{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Stock Insight AI 블로그",
+    "description": "주식 투자, ETF, 기술적 분석, 시장 전략 등 투자자를 위한 유용한 콘텐츠",
+    "url": "https://stock-insight.app/blog",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Stock Insight AI",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://stock-insight.app/static/og-image.png"
+        }
+    }{% if posts %},
+    "blogPost": [
+        {% for post in posts %}
+        {
+            "@type": "BlogPosting",
+            "headline": "{{ post.title }}",
+            "description": "{{ post.seo_description }}",
+            "datePublished": "{{ post.date_published }}",
+            "url": "https://stock-insight.app/blog/{{ post.slug }}",
+            "author": {"@type": "Organization", "name": "{{ post.author }}"}
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ]{% endif %}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- Blog Header -->
+<div class="glass-panel" style="padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
+        <span style="font-size: 1.3rem;">📝</span>
+        <h1 style="font-size: 1.3rem; margin: 0; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+            투자 블로그
+        </h1>
+    </div>
+    <p style="color: #94a3b8; font-size: 0.82rem; margin: 0;">
+        주식 투자, ETF, 기술적 분석, 시장 전략 등 투자자를 위한 유용한 콘텐츠를 제공합니다.
+    </p>
+</div>
+
+{% if posts %}
+<!-- Blog Grid -->
+<div class="blog-grid">
+    {% for post in posts %}
+    <a href="/blog/{{ post.slug }}" class="blog-card">
+        <!-- Category Badge -->
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.75rem;">
+            <span class="blog-category-badge">{{ post.category }}</span>
+            <span style="font-size: 0.72rem; color: #475569; margin-left: auto;">{{ post.date_published }}</span>
+        </div>
+
+        <!-- Title -->
+        <h2 class="blog-card-title">{{ post.title }}</h2>
+
+        <!-- Excerpt -->
+        <p class="blog-card-excerpt">{{ post.excerpt }}</p>
+
+        <!-- Tags -->
+        <div style="display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: auto; padding-top: 0.75rem;">
+            {% for tag in post.tags[:4] %}
+            <span class="blog-tag">#{{ tag }}</span>
+            {% endfor %}
+        </div>
+
+        <!-- Read More -->
+        <div style="margin-top: 0.75rem; font-size: 0.8rem; color: #38bdf8; font-weight: 600;">
+            읽어보기 →
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% else %}
+<div class="glass-panel" style="text-align: center; padding: 3rem;">
+    <p style="color: #94a3b8;">아직 블로그 포스팅이 없습니다. 곧 업데이트 예정입니다!</p>
+</div>
+{% endif %}
+{% endblock %}
