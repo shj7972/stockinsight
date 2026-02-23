@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리 구윤철 소개",
-      "경제 운영 계획 발표",
-      "한국 경제 전망 밝음"
+      "경제 정책에 대한 전략 논의",
+      "코로나 이후 회복 방향 제시",
+      "국제 협력 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식에 대한 긍정적 전망",
-      "부동산보다 주식이 유망"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장 2.1% 전망",
-      "회복세는 미약할 것으로 보임",
-      "전반적 경기 회복 기대 낮음"
+      "내년 경제 성장률 2.1% 전망",
+      "회복세 미약하다고 분석",
+      "금융연의 비관적 시각"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,23 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식시장 변화 주도 주식",
-      "6개 주요 종목 소개",
-      "금융 전문가 분석 포함"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "주식시장이 안정세를 보임",
-      "경제지표 개선 소식",
-      "투자 심리 회복 조짐"
+      "2026년 시장 회전 주도 주식 소개",
+      "주요 산업 변화 강조",
+      "투자 전략 필요성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -74,10 +60,24 @@
     "summary": [
       "시장 조정 가능성 언급",
       "경제 지표 분석 필요",
-      "투자자 경각심 요구"
+      "투자자 경계 강조"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식 시장 붕괴 경고가 울리고 있습니까? 삼중 신호는 미국 경제가 얼마나 위험한지를 보여줍니다 - NAI500",
+    "original_title": "Is a U.S. Stock Market Crash Warning Sounding? Triple Signals Reveal How Dangerous the U.S. Economy Is - NAI500",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHIzOXRDOHBIS1JvaW1URHNqa2EzaFp0ZkxvMWhOUEVFbkZMc0Ywc2ppalBzYTg1ZkZuRFlDd2JTbWhhbV9lMklGcUJxT19idy1KX1dkODI0Y2JZRFFmSHdxQ3BMakgwQXpWRkhNTGNucEpHeVZ1TDdZUDlUTi1BNGJnaXotQjE2eDNXdEp4MUo0a3V5OGNiWGFiYW1uUFRVU3c2ckpVR3B4b2VjaGZjRjBFUExJaXpCS2liSjRZd2FGb0tVdHktSUtNUHY?oc=5",
+    "publisher": "NAI500",
+    "summary": [
+      "미국 증시 폭락 징후 감지",
+      "경제 위험 신호 세 가지",
+      "투자자 경계 필요성 언급"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
