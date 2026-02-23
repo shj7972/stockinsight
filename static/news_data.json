@@ -1,28 +1,15 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "Koo Yoon-Cheol의 경제 정책 소개",
-      "금융 안정성 확보 방안 논의",
-      "스마트 혁신 강조 및 발전 계획"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "시장에 긍정적 전망"
+      "부자 47.6만명 기록",
+      "부동산보다 주식 유망",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 예측",
-      "회복세는 미약함",
-      "경제 전망에 비관적"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다고 평가",
+      "전반적 경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제성장 전략 강조",
+      "재정 정책 변화 예고",
+      "투자 활성화 방안 제시"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "다우지수 800포인트 하락",
-      "AI 위험 우려 증가",
-      "관세 문제로 시장 불안"
+      "다우, 800 포인트 하락",
+      "AI 파괴 우려 확산",
+      "관세 문제로 시장 위축"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변화에 영향",
-      "주요 6개 주식 소개",
-      "미래 성장 가능성 강조"
+      "2026년 주식 시장 회전 주도 주식",
+      "모닝스타 캐나다의 분석 기여",
+      "주식 선택에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "의견: Big Tech의 'Lag 7'은 S&P 500과 인덱스 펀드를 위험에 빠뜨리고 있습니다 - MarketWatch",
-    "original_title": "Opinion: Big Tech’s ‘Lag 7’ is putting the S&P 500 — and your index fund — at risk - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMizwNBVV95cUxQX1FheUJ5OGRzQkxhTjkzeTF1dnZvb3hwbzdEQ0ZtVzBpcFI0OENlbFd1QkJ2SE4zT2dmRWR6S204ME9oVjNlTmRhYUpFbWhXSkVGV00zZW40Y0lTdm1tTzVRbjN5U2dPcDFqTDQzYnJqVzY5RTdwUXNITG94a2N3RzV3djdrZV96NTdFSTlmTXYxMkpqMG04N0NoOFZjZWhIZVMxRFE2YU5YeWtmdVBpc3pkY1MyT0dneFBlTkZkbHY2RGRUM3JlcmJZdFcxbjYzckxqblNvbzBNSzlCSFB0c3V5ZE12UHVKNzR5WGxEaU03WGdjY21VX2lPMFRWMWhVc1lQSHMwbmk0M0J4S1JydmhmOWVnbDFhaVpITDlxODZKRll3T2k5SmE3ejFHTHF3TDlzTURGRzBoampITHJxTl9pdFR0dWtuU09GXzJTOEdzbmhud0NoS2FsMHkxRThSMjY5aS02UnJDNHB0WS1RZk5xakdfRUpabDFocjdpTW1UOXJEYWpYaVBxUk02WnNxeS12OFFPMHd6bWhhQWdIRHhLREQ4MzRhZk43U2tGUXZBWWkyVm8tTkh6QzNrS3FlN1E0Z3dKUWZ2MmJ3NklR?oc=5",
-    "publisher": "MarketWatch",
+    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
+    "original_title": "Is a Market Correction Coming? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "빅테크의 'Lag 7' 우려",
-      "S&P 500의 위험 증가",
-      "지수펀드에 악영향 예상"
+      "시장 조정 가능성 논의",
+      "U.S. Bank 의견 제시",
+      "투자자 우려 고조"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
