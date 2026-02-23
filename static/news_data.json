@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책에 대한 전략 논의",
-      "코로나 이후 회복 방향 제시",
-      "국제 협력 강조"
+      "경제 성장 전략 강조",
+      "재정 정책 방향 모색",
+      "국제 협력 중요성 언급"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
+      "한국 부자 47.6만명 보유",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세 미약하다고 분석",
-      "금융연의 비관적 시각"
+      "한국 경제 우상향 성장",
+      "환율 하락 공식 깨짐",
+      "시장 불확실성 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 시장 회전 주도 주식 소개",
-      "주요 산업 변화 강조",
-      "투자 전략 필요성 언급"
+      "2026년 주식 시장 변화 주도 주식",
+      "6개 주식 정보 제공",
+      "시장 전망에 긍정적 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 가능성 언급",
-      "경제 지표 분석 필요",
-      "투자자 경계 강조"
+      "시장 조정 가능성 논의",
+      "경제 지표가 영향",
+      "투자자 반응 중요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "미국 주식 시장 붕괴 경고가 울리고 있습니까? 삼중 신호는 미국 경제가 얼마나 위험한지를 보여줍니다 - NAI500",
-    "original_title": "Is a U.S. Stock Market Crash Warning Sounding? Triple Signals Reveal How Dangerous the U.S. Economy Is - NAI500",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONHIzOXRDOHBIS1JvaW1URHNqa2EzaFp0ZkxvMWhOUEVFbkZMc0Ywc2ppalBzYTg1ZkZuRFlDd2JTbWhhbV9lMklGcUJxT19idy1KX1dkODI0Y2JZRFFmSHdxQ3BMakgwQXpWRkhNTGNucEpHeVZ1TDdZUDlUTi1BNGJnaXotQjE2eDNXdEp4MUo0a3V5OGNiWGFiYW1uUFRVU3c2ckpVR3B4b2VjaGZjRjBFUExJaXpCS2liSjRZd2FGb0tVdHktSUtNUHY?oc=5",
-    "publisher": "NAI500",
+    "title": "트럼프는 영국과 EU의 혼란 속에서 '더 강력하고 불쾌한' 관세를 위협했다. 월스트리트 하락 – 비즈니스 라이브 - The Guardian",
+    "original_title": "Trump threatens ‘more powerful and obnoxious’ tariffs, amid confusion in UK and EU; Wall Street drops – business live - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOYWc2R0FQZFlXSVdOZVhKOFk4Rng4TEJkcGdnYnFTM3ZUeUx4N2xWSUl6QURtZG5JemY5dTVfRlUyRWZUX1ZIdXFNLWx4cHNTaVdBS2FiaVJwYmF5MXU4dE1VZDNFZS0wVEZWc1d2Nk51RENkUlBvd0JUdkRyd1RDZ1kyYmFvc0FtVlE3MVZSa2ZHVURlLTJsbjBNRU9tcmRVbmFISXhxUzg1OTJOamtDNG9JcmJxX1lZcVFoeUF1LXh6ZTl4cGhLWUlRbGxPVUItTTFNRUFOZHB6alFIOXoxZzZ4WWR0ZTUxbTR0WDhXQzJkbVVxOEVhSkdRRnpTdlYzY3JxZEdVeU50dGdPQkt4VDVkLWI0LWpHb242eU5jdVpJQQ?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "미국 증시 폭락 징후 감지",
-      "경제 위험 신호 세 가지",
-      "투자자 경계 필요성 언급"
+      "트럼프, 강력한 관세 위협",
+      "영국과 EU 혼란",
+      "월스트리트 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
