@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 유망하다는 의견",
-      "부동산보다 주식 선호"
+      "부유층 47.6만명 확인",
+      "주식 유망성 강조",
+      "부동산 기피 경향"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약한 상황",
-      "경제 회복에 대한 우려 지적"
+      "내년 한국 경제 성장률 2.1% 예상",
+      "회복세는 미약한 상태",
+      "다소 비관적인 전망"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 강화 필요성 강조",
-      "지속 가능한 성장 목표",
-      "국제 협력 확대 의지"
+      "경제 성장 전략 발표",
+      "재정 정책 강화",
+      "혁신 촉진 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "AMD, 소프트웨어 주식이 주도하는 월요일의 대패에서 주식 반등: 라이브 업데이트 - CNBC",
-    "original_title": "Stocks bounce from Monday's rout, led by AMD, software stocks: Live updates - CNBC",
+    "title": "AI 중단 우려에서 소프트웨어 주가 반등하면서 다우지수는 400포인트 상승, S&P 500은 급등: 실시간 업데이트-CNBC",
+    "original_title": "Dow gains 400 points, S&P 500 jumps as software stocks rebound from AI disruption fears: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF0gF8QVVfeXFMTXAxaHYtYjFScmJCR2p1TmJZZDhaTTdibDJLS2pvX0xZeWJwejZBOHMwSWZQRjdpN042MmRrSHlzeVN3THBzRXYxN1hiNGVJQm9HaXJyMlFrMUlqa3V4aEI0MkZCUlY1ZWY1aDF6dGs2elZ4Y29wVXBuZUpsSw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식이 월요일 하락에서 반등",
-      "AMD와 소프트웨어 주도",
-      "시장 회복 기대감 증가"
+      "다우 400포인트 상승",
+      "S&P 500 급등",
+      "소프트웨어 주식 반등"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOEx0TE1zZEpRTTEtaTFSQTc0eVVrRllIQjVXQ3llUGZheW1qOVF3amZES1JPWkoxaU9FZVM2QWt4R1NpbFluaVRwdnB6VldNMWZFdkVxVzVCUFpmbmRPOE1zdENfOXdPS0M0U0NkQnpNQQ?oc=5",
     "publisher": "CNN",
     "summary": [
-      "경제 성장세 지속",
-      "실업률 감소",
-      "인플레이션 안정세"
+      "경제 전반적 전망 제시",
+      "국가연설 앞두고 분석",
+      "시장 변화에 주목"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "트럼프가 새로운 관세를 인상하고 투자자들이 잠재적인 AI 패자를 내보낸 후 주가가 하락 - PBS",
-    "original_title": "Stocks drop after Trump ramps up new tariffs and investors dump potential AI losers - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
-    "publisher": "PBS",
+    "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
+    "original_title": "Markets and the economy are 'increasingly disconnected,' top economist warns - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "트럼프, 새로운 관세 인상",
-      "주식 시장 하락",
-      "AI 관련 주식 매도"
+      "시장과 경제 간 괴리 심화",
+      "전문가의 경고가 나옴",
+      "투자자들, 불안감 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
