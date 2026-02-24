@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "한국 부자 47.6만명",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "전망에 대한 우려 지속"
+      "회복세는 미약한 상황",
+      "위험 요소가 여전히 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 부총리 소개",
-      "경제 정책 방향 설명",
-      "한국 경제 현황 진단"
+      "부총리 경제정책 방향 제시",
+      "성장 촉진 계획 발표",
+      "재정 건전성 유지 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "다우(Dow)는 AI 파괴 매도에서 소프트웨어 주가 반등하면서 350포인트 이상 상승 마감: 실시간 업데이트 - CNBC",
-    "original_title": "Dow closes more than 350 points higher as software stocks bounce back from AI disruption sell-off: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF0gF8QVVfeXFMTXAxaHYtYjFScmJCR2p1TmJZZDhaTTdibDJLS2pvX0xZeWJwejZBOHMwSWZQRjdpN042MmRrSHlzeVN3THBzRXYxN1hiNGVJQm9HaXJyMlFrMUlqa3V4aEI0MkZCUlY1ZWY1aDF6dGs2elZ4Y29wVXBuZUpsSw?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "다우지수 350포인트 상승",
-      "소프트웨어 주식 반등",
-      "AI 관련 매도세 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "경제 지표 발표 일정",
-      "시장 동향 분석",
-      "정책 변화 가능성"
+      "이번 주 경제 동향",
+      "주요 지표 발표 예정",
+      "시장 반응 분석 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
-    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
+    "title": "경제현황은 이렇습니다(국정감사를 앞두고) - CNN",
+    "original_title": "This is the state of the economy (ahead of the State of the Union) - CNN",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOEx0TE1zZEpRTTEtaTFSQTc0eVVrRllIQjVXQ3llUGZheW1qOVF3amZES1JPWkoxaU9FZVM2QWt4R1NpbFluaVRwdnB6VldNMWZFdkVxVzVCUFpmbmRPOE1zdENfOXdPS0M0U0NkQnpNQQ?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "주식시장이 경제와 단절되고 있다",
-      "전문가의 경고가 더욱 커지고 있다",
-      "경제 현실과 주식가격 차이 확대"
+      "경제 전반의 현황 점검",
+      "정책 변화에 대한 예측",
+      "시민 생활에 미치는 영향"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "오늘, 2월 24일 주식 시장: 경제 불확실성이 대형 은행을 압박함에 따라 Bank of America가 하락했습니다 - The Motley Fool",
+    "original_title": "Stock Market Today, Feb. 24: Bank of America Slips as Economic Uncertainty Pressures Big Banks - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcHJtWHJtc01ORUFRV2FCczdZNlVQSm0tRnk3MmRxekRHeGx2T0c5c2lXYnZPV1F5QVhrYUJXck4wQ1hIQm80STJMb0Y0WERLMk42cnROZGoyNE9oUDVjTU5jVHpRMnNTaUZIb0FWYktCMHJIM0R0eVY0cXd3OWpJWEFBdVQyNU5TWno4NWMtMGF2TUIyRVdYX3A1d3JUX3Jsbnh0MVY0UTN0TlpZV3FXSWZqODNMN3BrVTVHVG5VTUdxZnQ0QTQ1T0tYSUIzM2pySHlJejY0RlJ5VW5razg1Uko4ZUkxRUE?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "뱅크오브아메리카 주가 하락",
+      "경제 불확실성이 큰 은행 압박",
+      "대형은행에 대한 우려 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
