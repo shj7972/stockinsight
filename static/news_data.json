@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "국가 재정 정책에 대한 강조",
-      "경제 성장 촉진 방안 모색",
-      "기업 지원 방안 발표"
+      "경제 성장 정책 강조",
+      "재정 건전성 유지",
+      "시장을 위한 혁신 촉구"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식, 부동산보다 유망",
-      "부자의 금융자산 10억 이상"
+      "한국 부자 47.6만명 기록",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약하다",
-      "경제 전망 불투명하다"
+      "한국 경제 내년 2.1% 성장 전망",
+      "회복세는 미약한 상황",
+      "불확실성 지속 예상"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "다우(Dow)는 AI 파괴 매도에서 소프트웨어 주가 반등하면서 350포인트 이상 상승 마감: 실시간 업데이트 - CNBC",
+    "original_title": "Dow closes more than 350 points higher as software stocks bounce back from AI disruption sell-off: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF0gF8QVVfeXFMTXAxaHYtYjFScmJCR2p1TmJZZDhaTTdibDJLS2pvX0xZeWJwejZBOHMwSWZQRjdpN042MmRrSHlzeVN3THBzRXYxN1hiNGVJQm9HaXJyMlFrMUlqa3V4aEI0MkZCUlY1ZWY1aDF6dGs2elZ4Y29wVXBuZUpsSw?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "다우지수 350포인트 상승",
+      "소프트웨어 주식 반등",
+      "AI 판매 감소에서 회복"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "이번 주 경제 지표 발표 예정",
-      "금리 변화 전망",
-      "소비자 신뢰도 조사 결과"
+      "경제 지표 발표 예정",
+      "금리 변화 주목",
+      "소비자 신뢰 지수 발표"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장, 경제와 단절 증가",
-      "전문가의 우려 표명",
-      "경제 지표와 괴리 발생"
+      "주식 시장이 경제와 단절됨",
+      "전문가의 우려 증가",
+      "경제 전망에 대한 의구심"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "경제 상황은 이렇습니다(국정감사를 앞두고) - CNN",
-    "original_title": "This is the state of the economy (ahead of the State of the Union) - CNN",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOEx0TE1zZEpRTTEtaTFSQTc0eVVrRllIQjVXQ3llUGZheW1qOVF3amZES1JPWkoxaU9FZVM2QWt4R1NpbFluaVRwdnB6VldNMWZFdkVxVzVCUFpmbmRPOE1zdENfOXdPS0M0U0NkQnpNQQ?oc=5",
-    "publisher": "CNN",
-    "summary": [
-      "경제 성장세 지속",
-      "실업률 감소",
-      "인플레이션 안정화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
