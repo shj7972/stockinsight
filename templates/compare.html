@@ -1,0 +1,251 @@
+{% extends "base.html" %}
+
+{% block title %}종목 비교 분석 - Stock Insight AI{% endblock %}
+{% block meta_description %}최대 4개 종목을 동시에 비교 분석 - 주가 차트, 재무지표, AI 투자 의견을 한눈에 비교하세요{% endblock %}
+{% block og_title %}종목 비교 분석 - Stock Insight AI{% endblock %}
+{% block og_description %}여러 주식을 한눈에 비교 분석하여 최적의 투자 결정을 내리세요{% endblock %}
+{% block canonical_path %}/compare{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Stock Insight AI 종목 비교",
+    "description": "최대 4개 종목을 동시에 비교 분석하는 도구",
+    "url": "https://stock-insight.app/compare",
+    "applicationCategory": "FinanceApplication",
+    "provider": {"@type": "Organization", "name": "Stock Insight AI"}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.2rem;">⚖️</span>
+        <h2 style="margin: 0; font-size: 1.15rem; font-weight: 700;">종목 비교 분석</h2>
+        <span style="font-size: 0.75rem; color: #64748b; margin-left: auto;">최대 4개 종목</span>
+    </div>
+
+    <form id="compare-form" onsubmit="startCompare(event)" style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: flex-end;">
+        <div style="flex: 1; min-width: 150px;">
+            <label style="display: block; font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">종목 1 *</label>
+            <input type="text" id="t1" name="t1" value="{{ tickers[0] if tickers|length > 0 else '' }}" placeholder="예: AAPL"
+                required style="width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.9rem; box-sizing: border-box;">
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+            <label style="display: block; font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">종목 2 *</label>
+            <input type="text" id="t2" name="t2" value="{{ tickers[1] if tickers|length > 1 else '' }}" placeholder="예: MSFT"
+                required style="width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.9rem; box-sizing: border-box;">
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+            <label style="display: block; font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">종목 3</label>
+            <input type="text" id="t3" name="t3" value="{{ tickers[2] if tickers|length > 2 else '' }}" placeholder="선택"
+                style="width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.9rem; box-sizing: border-box;">
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+            <label style="display: block; font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">종목 4</label>
+            <input type="text" id="t4" name="t4" value="{{ tickers[3] if tickers|length > 3 else '' }}" placeholder="선택"
+                style="width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.9rem; box-sizing: border-box;">
+        </div>
+        <button type="submit"
+            style="padding: 0.5rem 1.5rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer;
+            transition: all 0.3s; font-size: 0.9rem; height: fit-content;">
+            비교 분석
+        </button>
+    </form>
+
+    <!-- Quick Compare Presets -->
+    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem;">
+        <span style="font-size: 0.72rem; color: #64748b; padding: 0.3rem 0;">빠른 비교:</span>
+        <a href="/compare?t1=AAPL&t2=MSFT&t3=GOOGL&t4=AMZN" class="compare-preset-btn">빅테크 4</a>
+        <a href="/compare?t1=NVDA&t2=AMD&t3=INTC&t4=AVGO" class="compare-preset-btn">반도체</a>
+        <a href="/compare?t1=TSLA&t2=F&t3=GM&t4=RIVN" class="compare-preset-btn">전기차</a>
+        <a href="/compare?t1=005930.KS&t2=000660.KS&t3=035420.KS&t4=035720.KS" class="compare-preset-btn">한국 대표</a>
+        <a href="/compare?t1=SPY&t2=QQQ&t3=SCHD&t4=TLT" class="compare-preset-btn">ETF 비교</a>
+        <a href="/compare?t1=META&t2=NFLX&t3=DIS&t4=SNAP" class="compare-preset-btn">미디어</a>
+    </div>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="padding: 1rem; border-left: 3px solid #f87171;">
+    <p style="color: #f87171; margin: 0;">⚠️ {{ error }}</p>
+</div>
+{% endif %}
+
+{% if stocks %}
+<!-- Normalized Price Chart -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem;">
+    <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+        📈 정규화 주가 비교 (3개월, 기준 = 100%)
+    </h3>
+    <div id="compare-chart" style="width: 100%; height: 400px;"></div>
+</div>
+
+<!-- Key Metrics Comparison Table -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem; overflow-x: auto;">
+    <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+        📊 핵심 지표 비교
+    </h3>
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th>지표</th>
+                {% for s in stocks %}
+                <th>
+                    <a href="/stock/{{ s.ticker }}" style="color: {{ s.color }}; text-decoration: none; font-weight: 700;">
+                        {{ s.ticker }}
+                    </a>
+                    <div style="font-size: 0.7rem; color: #94a3b8; font-weight: 400;">{{ s.company_name }}</div>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>현재가</td>
+                {% for s in stocks %}
+                <td>{{ s.currency_symbol }}{{ "{:,.2f}".format(s.current_price) }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>등락률</td>
+                {% for s in stocks %}
+                <td style="color: {% if s.delta >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                    {{ "{:+.2f}".format(s.delta / s.prev_price * 100 if s.prev_price else 0) }}%
+                </td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>시가총액</td>
+                {% for s in stocks %}
+                <td>{{ s.market_cap }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>PER</td>
+                {% for s in stocks %}
+                <td>{{ s.pe_ratio }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>PBR</td>
+                {% for s in stocks %}
+                <td>{{ s.pbr }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>ROE</td>
+                {% for s in stocks %}
+                <td>{{ s.roe }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>EPS</td>
+                {% for s in stocks %}
+                <td>{{ s.eps }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>배당수익률</td>
+                {% for s in stocks %}
+                <td>{% if s.dividend_yield %}{{ "{:.2f}".format(s.dividend_yield) }}%{% else %}N/A{% endif %}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>52주 범위</td>
+                {% for s in stocks %}
+                <td style="font-size: 0.78rem;">{{ s.week52_low }} ~ {{ s.week52_high }}</td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>감성 점수</td>
+                {% for s in stocks %}
+                <td style="color: {% if s.sentiment_score > 0.05 %}#4ade80{% elif s.sentiment_score < -0.05 %}#f87171{% else %}#94a3b8{% endif %};">
+                    {{ "{:+.3f}".format(s.sentiment_score) }}
+                </td>
+                {% endfor %}
+            </tr>
+            <tr class="verdict-row">
+                <td>AI 의견</td>
+                {% for s in stocks %}
+                <td>
+                    <span style="color: {{ s.verdict_color }}; font-weight: 700; font-size: 0.82rem;">
+                        {{ s.verdict.split('(')[0].strip() if '(' in s.verdict else s.verdict }}
+                    </span>
+                </td>
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Individual AI Analysis Cards -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+    {% for s in stocks %}
+    <div class="glass-panel" style="padding: 1rem; border-top: 3px solid {{ s.color }};">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+            <a href="/stock/{{ s.ticker }}" style="text-decoration: none;">
+                <h4 style="margin: 0; font-size: 1rem; color: {{ s.color }};">{{ s.ticker }}</h4>
+                <div style="font-size: 0.75rem; color: #94a3b8;">{{ s.company_name }}</div>
+            </a>
+            <span style="padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700;
+                background: {{ s.verdict_color }}22; color: {{ s.verdict_color }}; border: 1px solid {{ s.verdict_color }}44;">
+                {{ s.verdict.split('(')[0].strip() if '(' in s.verdict else s.verdict }}
+            </span>
+        </div>
+        <div style="font-size: 0.82rem; color: #cbd5e1;">
+            {% for advice in s.advice_list[:3] %}
+            <div style="padding: 0.35rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);
+                 display: flex; align-items: flex-start; gap: 0.35rem;">
+                <span style="color: {{ advice.color }}; flex-shrink: 0;">●</span>
+                <span>{{ advice.text }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="/stock/{{ s.ticker }}" style="display: block; margin-top: 0.75rem; font-size: 0.75rem;
+           color: #38bdf8; text-decoration: none; text-align: right;">상세 분석 보기 →</a>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Plotly Chart Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var chartData = {{ chart_json | tojson | safe }};
+    if (chartData && chartData.data && chartData.layout) {
+        Plotly.newPlot('compare-chart', chartData.data, chartData.layout, {
+            responsive: true,
+            displayModeBar: false
+        });
+    }
+});
+</script>
+{% endif %}
+
+<script>
+function startCompare(e) {
+    e.preventDefault();
+    const t1 = document.getElementById('t1').value.trim().toUpperCase();
+    const t2 = document.getElementById('t2').value.trim().toUpperCase();
+    const t3 = document.getElementById('t3').value.trim().toUpperCase();
+    const t4 = document.getElementById('t4').value.trim().toUpperCase();
+
+    let url = `/compare?t1=${t1}&t2=${t2}`;
+    if (t3) url += `&t3=${t3}`;
+    if (t4) url += `&t4=${t4}`;
+
+    // Show loading overlay
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'flex';
+
+    window.location.href = url;
+}
+</script>
+{% endblock %}

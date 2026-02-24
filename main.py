@@ -1602,6 +1602,318 @@ async def daily_report(request: Request):
         })
 
 
+@app.get("/compare", response_class=HTMLResponse)
+async def compare_stocks(request: Request, t1: str = "", t2: str = "", t3: str = "", t4: str = ""):
+    """Stock Comparison Page - compare up to 4 stocks"""
+    import plotly.graph_objects as go
+    import yfinance as yf
+
+    tickers_raw = [t.strip().upper() for t in [t1, t2, t3, t4] if t.strip()]
+    stocks = []
+    error = None
+    chart_json = {}
+    compare_colors = ['#38bdf8', '#c084fc', '#4ade80', '#fbbf24']
+
+    if len(tickers_raw) >= 2:
+        try:
+            for i, tick in enumerate(tickers_raw[:4]):
+                ctx = get_analysis_context(tick)
+                if ctx:
+                    ctx['color'] = compare_colors[i % len(compare_colors)]
+                    stocks.append(ctx)
+
+            if len(stocks) < 2:
+                error = "비교를 위해 최소 2개 유효 종목이 필요합니다."
+            else:
+                # Normalized price chart (3 months)
+                tickers_str = " ".join([s['ticker'] for s in stocks])
+                data = yf.download(tickers_str, period="3mo", progress=False)
+
+                fig = go.Figure()
+                if not data.empty and 'Close' in data:
+                    close_data = data['Close']
+                    for idx, s in enumerate(stocks):
+                        tick = s['ticker']
+                        if tick in close_data.columns:
+                            series = close_data[tick].dropna()
+                        elif len(stocks) == 1 or (len(tickers_raw) == 2 and hasattr(close_data, 'name')):
+                            series = close_data.dropna()
+                        else:
+                            continue
+                        if len(series) > 0:
+                            normalized = (series / series.iloc[0]) * 100
+                            fig.add_trace(go.Scatter(
+                                x=[str(d) for d in normalized.index],
+                                y=normalized.tolist(),
+                                name=s['ticker'],
+                                line=dict(color=s['color'], width=2.5),
+                                mode='lines'
+                            ))
+
+                fig.update_layout(
+                    template='plotly_dark',
+                    paper_bgcolor='rgba(0,0,0,0)',
+                    plot_bgcolor='rgba(0,0,0,0)',
+                    font=dict(color='#94a3b8', family='Inter'),
+                    height=400,
+                    margin=dict(l=40, r=20, t=20, b=40),
+                    legend=dict(orientation='h', y=1.08),
+                    hovermode='x unified',
+                    yaxis_title='정규화 가격 (%)',
+                )
+                chart_json = fig.to_dict()
+
+        except Exception as e:
+            error = f"데이터를 가져오는 중 오류가 발생했습니다: {str(e)}"
+
+    return templates.TemplateResponse("compare.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "tickers": tickers_raw,
+        "stocks": stocks,
+        "chart_json": chart_json,
+        "error": error
+    })
+
+
+@app.get("/portfolio-simulator", response_class=HTMLResponse)
+async def portfolio_simulator(request: Request, tickers: str = "", weights: str = "", amount: float = 10000):
+    """Portfolio Simulator with backtest"""
+    import yfinance as yf
+    import numpy as np
+    import plotly.graph_objects as go
+
+    result = None
+    value_chart_json = {}
+    alloc_chart_json = {}
+    drawdown_chart_json = {}
+    portfolio_items = []
+    error = None
+
+    ticker_list = [t.strip().upper() for t in tickers.split(',') if t.strip()] if tickers else []
+    weight_list = []
+    if weights:
+        try:
+            weight_list = [float(w.strip()) for w in weights.split(',') if w.strip()]
+        except ValueError:
+            pass
+
+    # Build portfolio items for template
+    for i, t in enumerate(ticker_list):
+        w = weight_list[i] if i < len(weight_list) else 0
+        portfolio_items.append({'ticker': t, 'weight': int(w)})
+
+    if len(ticker_list) >= 2 and len(weight_list) == len(ticker_list):
+        try:
+            total_weight = sum(weight_list)
+            if total_weight <= 0:
+                raise ValueError("비중 합계가 0보다 커야 합니다.")
+
+            # Normalize weights
+            norm_weights = [w / total_weight for w in weight_list]
+
+            # Download 1 year data
+            tickers_str = " ".join(ticker_list)
+            data = yf.download(tickers_str, period="1y", progress=False)
+
+            if data.empty or 'Close' not in data:
+                raise ValueError("데이터를 가져올 수 없습니다.")
+
+            close_data = data['Close']
+
+            # Handle single vs multi ticker
+            if len(ticker_list) == 2 and not hasattr(close_data, 'columns'):
+                close_data = pd.DataFrame(close_data)
+
+            # Calculate daily returns for portfolio
+            returns_dict = {}
+            valid_tickers = []
+            for tick in ticker_list:
+                if tick in close_data.columns:
+                    series = close_data[tick].dropna()
+                    if len(series) > 10:
+                        returns_dict[tick] = series.pct_change().dropna()
+                        valid_tickers.append(tick)
+
+            if len(valid_tickers) < 2:
+                raise ValueError("유효한 종목이 2개 미만입니다.")
+
+            # Align dates
+            returns_df = pd.DataFrame(returns_dict).dropna()
+            if returns_df.empty:
+                raise ValueError("공통 거래일이 없습니다.")
+
+            # Portfolio daily returns
+            valid_weights = []
+            for t in valid_tickers:
+                idx = ticker_list.index(t)
+                valid_weights.append(norm_weights[idx])
+
+            vw_sum = sum(valid_weights)
+            valid_weights = [w / vw_sum for w in valid_weights]
+
+            port_returns = (returns_df[valid_tickers] * valid_weights).sum(axis=1)
+
+            # Cumulative value
+            cum_value = (1 + port_returns).cumprod() * amount
+            final_value = cum_value.iloc[-1]
+            total_return = (final_value / amount - 1) * 100
+
+            # Max drawdown
+            running_max = cum_value.cummax()
+            drawdown = (cum_value - running_max) / running_max * 100
+            mdd = drawdown.min()
+
+            # Sharpe ratio (annualized, risk-free = 4%)
+            annual_return = port_returns.mean() * 252
+            annual_vol = port_returns.std() * np.sqrt(252)
+            sharpe = (annual_return - 0.04) / annual_vol if annual_vol > 0 else 0
+
+            # Holdings performance
+            holdings = []
+            for i, tick in enumerate(valid_tickers):
+                series = close_data[tick].dropna()
+                invested = amount * valid_weights[i]
+                cur_value = invested * (series.iloc[-1] / series.iloc[0])
+                ret = (cur_value / invested - 1) * 100
+                holdings.append({
+                    'ticker': tick,
+                    'weight': round(valid_weights[i] * 100, 1),
+                    'invested': invested,
+                    'current_value': cur_value,
+                    'return_pct': ret,
+                    'pnl': cur_value - invested,
+                })
+
+            result = {
+                'initial': amount,
+                'final': final_value,
+                'total_return': total_return,
+                'mdd': mdd,
+                'sharpe': sharpe,
+                'holdings': holdings,
+            }
+
+            # Value Chart
+            fig_val = go.Figure()
+            fig_val.add_trace(go.Scatter(
+                x=[str(d) for d in cum_value.index],
+                y=cum_value.tolist(),
+                name='포트폴리오',
+                line=dict(color='#38bdf8', width=2.5),
+                fill='tozeroy',
+                fillcolor='rgba(56,189,248,0.08)',
+            ))
+            fig_val.update_layout(
+                template='plotly_dark',
+                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='#94a3b8', family='Inter'),
+                height=380, margin=dict(l=50, r=20, t=20, b=40),
+                yaxis_title='가치 ($)', hovermode='x unified', showlegend=False,
+            )
+            value_chart_json = fig_val.to_dict()
+
+            # Allocation Pie
+            fig_alloc = go.Figure(go.Pie(
+                labels=[h['ticker'] for h in holdings],
+                values=[h['weight'] for h in holdings],
+                hole=0.5,
+                textinfo='label+percent',
+                marker=dict(colors=['#38bdf8', '#c084fc', '#4ade80', '#fbbf24', '#f87171',
+                                    '#fb923c', '#a78bfa', '#34d399', '#fde047', '#94a3b8']),
+            ))
+            fig_alloc.update_layout(
+                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='#94a3b8', family='Inter', size=11),
+                height=300, margin=dict(l=20, r=20, t=20, b=20), showlegend=False,
+            )
+            alloc_chart_json = fig_alloc.to_dict()
+
+            # Drawdown Chart
+            fig_dd = go.Figure()
+            fig_dd.add_trace(go.Scatter(
+                x=[str(d) for d in drawdown.index],
+                y=drawdown.tolist(),
+                name='Drawdown',
+                line=dict(color='#f87171', width=1.5),
+                fill='tozeroy',
+                fillcolor='rgba(248,113,113,0.1)',
+            ))
+            fig_dd.update_layout(
+                template='plotly_dark',
+                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color='#94a3b8', family='Inter'),
+                height=300, margin=dict(l=50, r=20, t=20, b=40),
+                yaxis_title='낙폭 (%)', hovermode='x unified', showlegend=False,
+            )
+            drawdown_chart_json = fig_dd.to_dict()
+
+        except Exception as e:
+            error = str(e)
+
+    return templates.TemplateResponse("portfolio_sim.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "initial_amount": amount,
+        "portfolio_items": portfolio_items,
+        "result": result,
+        "value_chart_json": value_chart_json,
+        "alloc_chart_json": alloc_chart_json,
+        "drawdown_chart_json": drawdown_chart_json,
+        "error": error,
+    })
+
+
+@app.post("/api/newsletter", response_class=HTMLResponse)
+async def newsletter_subscribe(request: Request, email: str = Form(...)):
+    """Newsletter subscription - save to JSON file"""
+    import re
+    email = email.strip().lower()
+
+    # Validate email
+    if not re.match(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', email):
+        return HTMLResponse(
+            '<div style="color:#f87171;font-size:0.82rem;">❌ 유효한 이메일을 입력해주세요.</div>',
+            status_code=400
+        )
+
+    subscribers_file = os.path.join(BASE_DIR, "static", "newsletter_subscribers.json")
+    try:
+        subscribers = []
+        if os.path.exists(subscribers_file):
+            with open(subscribers_file, 'r', encoding='utf-8') as f:
+                subscribers = json.load(f)
+
+        # Check duplicate
+        if any(s.get('email') == email for s in subscribers):
+            return HTMLResponse(
+                '<div style="color:#fbbf24;font-size:0.82rem;">⚠️ 이미 구독 중인 이메일입니다.</div>'
+            )
+
+        subscribers.append({
+            'email': email,
+            'subscribed_at': datetime.now().isoformat(),
+            'active': True
+        })
+
+        with open(subscribers_file, 'w', encoding='utf-8') as f:
+            json.dump(subscribers, f, ensure_ascii=False, indent=2)
+
+        return HTMLResponse(
+            '<div style="color:#4ade80;font-size:0.82rem;">✅ 구독 완료! 매주 투자 인사이트를 보내드립니다.</div>'
+        )
+    except Exception as e:
+        print(f"Newsletter error: {e}")
+        return HTMLResponse(
+            '<div style="color:#f87171;font-size:0.82rem;">❌ 오류가 발생했습니다. 다시 시도해주세요.</div>',
+            status_code=500
+        )
+
+
 @app.get("/robots.txt", response_class=PlainTextResponse)
 @app.head("/robots.txt", response_class=PlainTextResponse)
 async def robots():
@@ -1761,6 +2073,18 @@ async def sitemap():
         <loc>{base_url}/economic-indicators</loc>
         <lastmod>{today}</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/compare</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/portfolio-simulator</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 """

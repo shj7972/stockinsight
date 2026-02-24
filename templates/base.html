@@ -52,7 +52,7 @@
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/static/styles.css?v=3">
+    <link rel="stylesheet" href="/static/styles.css?v=4">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -142,6 +142,14 @@
                     <div class="logo-subtitle">Smart Investment Intelligence</div>
                     <div class="logo-line"></div>
                 </a>
+                <!-- Dark/Light Mode Toggle -->
+                <button id="theme-toggle" onclick="toggleTheme()" title="테마 변경"
+                    style="margin-top: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+                    border-radius: 20px; padding: 0.35rem 0.75rem; cursor: pointer; color: #94a3b8;
+                    font-size: 0.78rem; display: flex; align-items: center; gap: 0.35rem; margin-left: auto; margin-right: auto;
+                    transition: all 0.3s;">
+                    <span id="theme-icon">🌙</span> <span id="theme-label">다크 모드</span>
+                </button>
             </div>
 
             <form method="POST" action="/" class="ticker-form">
@@ -235,6 +243,14 @@
                     class="nav-item {% if request.url.path == '/economic-indicators' %}active{% endif %}">
                     <span>📈</span> 경제지표
                 </a>
+                <a href="/compare"
+                    class="nav-item {% if request.url.path == '/compare' %}active{% endif %}">
+                    <span>⚖️</span> 종목비교
+                </a>
+                <a href="/portfolio-simulator"
+                    class="nav-item {% if request.url.path == '/portfolio-simulator' %}active{% endif %}">
+                    <span>💼</span> 포트폴리오
+                </a>
                 <a href="/blog"
                     class="nav-item {% if '/blog' in request.url.path %}active{% endif %}">
                     <span>📝</span> 블로그
@@ -252,6 +268,27 @@
                 </a>
                 {% endfor %}
             </div>
+            <!-- Newsletter Section -->
+            <div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.5rem; text-align: center;">
+                <h3 style="margin: 0 0 0.5rem 0; font-size: 1rem;">📩 주간 투자 인사이트 구독</h3>
+                <p style="color: #94a3b8; font-size: 0.82rem; margin: 0 0 0.75rem 0;">
+                    매주 시장 요약, AI 분석 리포트, 핵심 투자 전략을 이메일로 받아보세요.
+                </p>
+                <form id="newsletter-form" onsubmit="subscribeNewsletter(event)"
+                    style="display: flex; gap: 0.5rem; max-width: 420px; margin: 0 auto;">
+                    <input type="email" id="newsletter-email" placeholder="이메일 주소 입력" required
+                        style="flex: 1; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                        border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.85rem; box-sizing: border-box;">
+                    <button type="submit"
+                        style="padding: 0.5rem 1.2rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+                        color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer;
+                        font-size: 0.82rem; white-space: nowrap;">
+                        구독하기
+                    </button>
+                </form>
+                <div id="newsletter-result" style="margin-top: 0.5rem;"></div>
+            </div>
+
             <!-- Footer -->
             <footer class="app-footer">
                 <div class="footer-content">
@@ -334,6 +371,15 @@
             sidebar.classList.toggle('active');
             overlay.classList.toggle('active');
         }
+    </script>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    window.addEventListener('scroll', function() {
+        const btn = document.getElementById('scroll-top-btn');
+        if (btn) { btn.style.display = window.scrollY > 400 ? 'flex' : 'none'; }
+    });
     </script>
 
     <!-- Watchlist Logic (localStorage) -->
@@ -436,6 +482,61 @@
 
         // Init watchlist on page load
         document.addEventListener('DOMContentLoaded', renderWatchlist);
+    </script>
+
+    <!-- Newsletter Subscription -->
+    <script>
+    async function subscribeNewsletter(e) {
+        e.preventDefault();
+        const email = document.getElementById('newsletter-email').value;
+        const resultDiv = document.getElementById('newsletter-result');
+        const form = document.getElementById('newsletter-form');
+
+        try {
+            const formData = new FormData();
+            formData.append('email', email);
+
+            const resp = await fetch('/api/newsletter', {method: 'POST', body: formData});
+            const html = await resp.text();
+            resultDiv.innerHTML = html;
+            if (resp.ok) {
+                document.getElementById('newsletter-email').value = '';
+            }
+        } catch (err) {
+            resultDiv.innerHTML = '<div style="color:#f87171;font-size:0.82rem;">❌ 네트워크 오류가 발생했습니다.</div>';
+        }
+    }
+    </script>
+
+    <!-- Dark/Light Theme Toggle -->
+    <script>
+    function toggleTheme() {
+        const body = document.body;
+        const isLight = body.classList.toggle('light-mode');
+        localStorage.setItem('stock_insight_theme', isLight ? 'light' : 'dark');
+        updateThemeButton(isLight);
+    }
+
+    function updateThemeButton(isLight) {
+        const icon = document.getElementById('theme-icon');
+        const label = document.getElementById('theme-label');
+        if (icon && label) {
+            icon.textContent = isLight ? '☀️' : '🌙';
+            label.textContent = isLight ? '라이트 모드' : '다크 모드';
+        }
+    }
+
+    // Apply saved theme on load
+    (function() {
+        const saved = localStorage.getItem('stock_insight_theme');
+        if (saved === 'light') {
+            document.body.classList.add('light-mode');
+            // Update button after DOM is ready
+            document.addEventListener('DOMContentLoaded', function() {
+                updateThemeButton(true);
+            });
+        }
+    })();
     </script>
 
     {% block extra_scripts %}{% endblock %}

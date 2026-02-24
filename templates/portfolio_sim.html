@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+
+{% block title %}포트폴리오 시뮬레이터 - Stock Insight AI{% endblock %}
+{% block meta_description %}가상 포트폴리오로 투자 전략을 테스트하세요. 과거 수익률 백테스트, 자산 배분 최적화, 리스크 분석을 무료로 제공합니다.{% endblock %}
+{% block og_title %}포트폴리오 시뮬레이터 - Stock Insight AI{% endblock %}
+{% block og_description %}가상 포트폴리오로 투자 전략을 무료로 테스트하세요{% endblock %}
+{% block canonical_path %}/portfolio-simulator{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Stock Insight AI 포트폴리오 시뮬레이터",
+    "description": "가상 포트폴리오로 투자 전략을 백테스트하고 리스크를 분석하세요",
+    "url": "https://stock-insight.app/portfolio-simulator",
+    "applicationCategory": "FinanceApplication",
+    "provider": {"@type": "Organization", "name": "Stock Insight AI"}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.2rem;">💼</span>
+        <h2 style="margin: 0; font-size: 1.15rem; font-weight: 700;">포트폴리오 시뮬레이터</h2>
+        <span style="font-size: 0.72rem; color: #64748b; background: rgba(56,189,248,0.08);
+              border: 1px solid rgba(56,189,248,0.2); border-radius: 20px; padding: 0.1rem 0.5rem; margin-left: auto;">
+            백테스트 기간: 1년
+        </span>
+    </div>
+
+    <form id="portfolio-form" onsubmit="runSimulation(event)">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+            <label style="font-size: 0.82rem; color: #94a3b8; white-space: nowrap;">초기 투자금 ($)</label>
+            <input type="number" id="initial-amount" value="{{ initial_amount or 10000 }}" min="100" max="10000000"
+                style="width: 140px; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.9rem;">
+        </div>
+
+        <div id="portfolio-items" style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 0.75rem;">
+            <!-- Items rendered by JS or from server -->
+        </div>
+
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button type="button" onclick="addItem()"
+                style="padding: 0.4rem 1rem; background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3);
+                border-radius: 8px; color: #38bdf8; font-size: 0.82rem; cursor: pointer; transition: all 0.2s;">
+                + 종목 추가
+            </button>
+            <button type="submit"
+                style="padding: 0.4rem 1.5rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+                color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;
+                transition: all 0.3s; font-size: 0.85rem;">
+                시뮬레이션 실행
+            </button>
+        </div>
+
+        <!-- Presets -->
+        <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem;">
+            <span style="font-size: 0.72rem; color: #64748b; padding: 0.3rem 0;">추천 포트폴리오:</span>
+            <button type="button" onclick="loadPreset('balanced')" class="compare-preset-btn">균형형</button>
+            <button type="button" onclick="loadPreset('growth')" class="compare-preset-btn">성장형</button>
+            <button type="button" onclick="loadPreset('dividend')" class="compare-preset-btn">배당형</button>
+            <button type="button" onclick="loadPreset('safe')" class="compare-preset-btn">안전형</button>
+            <button type="button" onclick="loadPreset('korea')" class="compare-preset-btn">한국 대표</button>
+        </div>
+    </form>
+</div>
+
+{% if result %}
+<!-- Portfolio Summary -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
+    <div class="glass-panel" style="padding: 1rem; text-align: center;">
+        <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">초기 투자금</div>
+        <div style="font-size: 1.3rem; font-weight: 700; color: #f1f5f9;">${{ "{:,.0f}".format(result.initial) }}</div>
+    </div>
+    <div class="glass-panel" style="padding: 1rem; text-align: center;">
+        <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">최종 가치</div>
+        <div style="font-size: 1.3rem; font-weight: 700; color: {% if result.final > result.initial %}#4ade80{% else %}#f87171{% endif %};">
+            ${{ "{:,.0f}".format(result.final) }}
+        </div>
+    </div>
+    <div class="glass-panel" style="padding: 1rem; text-align: center;">
+        <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">총 수익률</div>
+        <div style="font-size: 1.3rem; font-weight: 700; color: {% if result.total_return >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+            {{ "{:+.2f}".format(result.total_return) }}%
+        </div>
+    </div>
+    <div class="glass-panel" style="padding: 1rem; text-align: center;">
+        <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">최대 낙폭 (MDD)</div>
+        <div style="font-size: 1.3rem; font-weight: 700; color: #f87171;">
+            {{ "{:.2f}".format(result.mdd) }}%
+        </div>
+    </div>
+    <div class="glass-panel" style="padding: 1rem; text-align: center;">
+        <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.25rem;">샤프 비율</div>
+        <div style="font-size: 1.3rem; font-weight: 700; color: {% if result.sharpe > 1 %}#4ade80{% elif result.sharpe > 0 %}#fbbf24{% else %}#f87171{% endif %};">
+            {{ "{:.2f}".format(result.sharpe) }}
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Value Chart -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem;">
+    <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+        📈 포트폴리오 가치 추이 (1년)
+    </h3>
+    <div id="portfolio-chart" style="width: 100%; height: 380px;"></div>
+</div>
+
+<!-- Holdings Performance Table -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem; overflow-x: auto;">
+    <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+        📊 개별 종목 성과
+    </h3>
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th>종목</th>
+                <th>비중</th>
+                <th>투자금</th>
+                <th>현재 가치</th>
+                <th>수익률</th>
+                <th>수익/손실</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for h in result.holdings %}
+            <tr>
+                <td>
+                    <a href="/stock/{{ h.ticker }}" style="color: #38bdf8; text-decoration: none; font-weight: 600;">
+                        {{ h.ticker }}
+                    </a>
+                </td>
+                <td>{{ h.weight }}%</td>
+                <td>${{ "{:,.0f}".format(h.invested) }}</td>
+                <td>${{ "{:,.0f}".format(h.current_value) }}</td>
+                <td style="color: {% if h.return_pct >= 0 %}#4ade80{% else %}#f87171{% endif %}; font-weight: 600;">
+                    {{ "{:+.2f}".format(h.return_pct) }}%
+                </td>
+                <td style="color: {% if h.pnl >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                    ${{ "{:+,.0f}".format(h.pnl) }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Allocation Pie + Drawdown Chart -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+    <div class="glass-panel" style="padding: 1.25rem;">
+        <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem;">🍩 자산 배분</h3>
+        <div id="allocation-chart" style="width: 100%; height: 300px;"></div>
+    </div>
+    <div class="glass-panel" style="padding: 1.25rem;">
+        <h3 style="margin: 0 0 0.75rem 0; font-size: 1rem;">📉 낙폭 (Drawdown) 추이</h3>
+        <div id="drawdown-chart" style="width: 100%; height: 300px;"></div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Portfolio value chart
+    var valueData = {{ value_chart_json | tojson | safe }};
+    if (valueData && valueData.data) {
+        Plotly.newPlot('portfolio-chart', valueData.data, valueData.layout, {responsive: true, displayModeBar: false});
+    }
+    // Allocation pie
+    var allocData = {{ alloc_chart_json | tojson | safe }};
+    if (allocData && allocData.data) {
+        Plotly.newPlot('allocation-chart', allocData.data, allocData.layout, {responsive: true, displayModeBar: false});
+    }
+    // Drawdown chart
+    var ddData = {{ drawdown_chart_json | tojson | safe }};
+    if (ddData && ddData.data) {
+        Plotly.newPlot('drawdown-chart', ddData.data, ddData.layout, {responsive: true, displayModeBar: false});
+    }
+});
+</script>
+{% endif %}
+
+<script>
+const PRESETS = {
+    balanced: [{t:'SPY',w:30},{t:'QQQ',w:25},{t:'SCHD',w:20},{t:'TLT',w:15},{t:'GLD',w:10}],
+    growth: [{t:'QQQ',w:30},{t:'SOXX',w:25},{t:'ARKK',w:20},{t:'NVDA',w:15},{t:'TSLA',w:10}],
+    dividend: [{t:'SCHD',w:30},{t:'JEPI',w:25},{t:'O',w:20},{t:'VNQ',w:15},{t:'DGRO',w:10}],
+    safe: [{t:'TLT',w:25},{t:'SHY',w:25},{t:'GLD',w:20},{t:'LQD',w:15},{t:'IEF',w:15}],
+    korea: [{t:'069500.KS',w:30},{t:'005930.KS',w:25},{t:'000660.KS',w:20},{t:'035420.KS',w:15},{t:'305720.KS',w:10}]
+};
+
+let itemCount = 0;
+
+function addItem(ticker='', weight='') {
+    itemCount++;
+    const container = document.getElementById('portfolio-items');
+    const div = document.createElement('div');
+    div.className = 'portfolio-row';
+    div.id = `item-${itemCount}`;
+    div.style.cssText = 'display:flex;gap:0.5rem;align-items:center;';
+    div.innerHTML = `
+        <input type="text" name="ticker" value="${ticker}" placeholder="티커 (예: AAPL)"
+            style="flex:2;min-width:100px;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);
+            border-radius:8px;color:#f8fafc;padding:0.45rem 0.6rem;font-size:0.85rem;box-sizing:border-box;">
+        <input type="number" name="weight" value="${weight}" placeholder="비중 %" min="1" max="100"
+            style="flex:1;min-width:70px;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);
+            border-radius:8px;color:#f8fafc;padding:0.45rem 0.6rem;font-size:0.85rem;box-sizing:border-box;">
+        <button type="button" onclick="this.parentElement.remove()"
+            style="background:none;border:none;color:#64748b;cursor:pointer;font-size:1rem;padding:0.2rem 0.4rem;">✕</button>
+    `;
+    container.appendChild(div);
+}
+
+function loadPreset(name) {
+    const preset = PRESETS[name];
+    if (!preset) return;
+    document.getElementById('portfolio-items').innerHTML = '';
+    itemCount = 0;
+    preset.forEach(item => addItem(item.t, item.w));
+}
+
+function runSimulation(e) {
+    e.preventDefault();
+    const rows = document.querySelectorAll('#portfolio-items .portfolio-row');
+    const initial = document.getElementById('initial-amount').value;
+    const params = new URLSearchParams();
+    params.set('amount', initial);
+
+    let tickers = [];
+    let weights = [];
+    rows.forEach(row => {
+        const t = row.querySelector('[name="ticker"]').value.trim().toUpperCase();
+        const w = row.querySelector('[name="weight"]').value.trim();
+        if (t && w) {
+            tickers.push(t);
+            weights.push(w);
+        }
+    });
+
+    if (tickers.length < 2) {
+        alert('최소 2개 종목을 입력해주세요.');
+        return;
+    }
+
+    params.set('tickers', tickers.join(','));
+    params.set('weights', weights.join(','));
+
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'flex';
+
+    window.location.href = `/portfolio-simulator?${params.toString()}`;
+}
+
+// Initialize with existing data or defaults
+document.addEventListener('DOMContentLoaded', function() {
+    {% if portfolio_items %}
+        {% for item in portfolio_items %}
+        addItem('{{ item.ticker }}', '{{ item.weight }}');
+        {% endfor %}
+    {% else %}
+        // Default: balanced preset
+        loadPreset('balanced');
+    {% endif %}
+});
+</script>
+{% endblock %}
