@@ -1,28 +1,15 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 회복에 대한 긍정적 전망",
-      "혁신 투자 확대 계획",
-      "국제 협력 강화 필요성 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 증가",
-      "주식 유망, 부동산 감소",
-      "금융자산 10억 이상 보유"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "부동산보다 주식이 더 유망",
+      "주식 투자에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 내년 2.1% 성장 전망",
-      "회복세는 미약할 것으로 예상",
-      "금융연의 발표 내용"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것",
+      "전반적 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "부총리의 경제 관점 강조",
+      "금융 정책의 방향성 제시",
+      "시장 안정화 전략 논의"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "트럼프, 새로운 관세 강화",
-      "주식 시장 하락",
-      "AI 관련 기업 매도 증가"
+      "트럼프, 신규 관세 강화",
+      "주가 하락",
+      "AI 관련 주식 매도"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUWV3WWo5eG1DQUd3MEpteHVEZDB2WnR2bmlELXNqMU94NmFLb2h6dTJYMXV3Qkp3REx4eTRBWkpWcWFZZ28wSExpU2ZoQms5ajRVMXE5S29HMlQyMkItbUZRRWVtbFhkb1FxYTVneUlxTUVjUnBBTnFBNDZldEU3SDZCWmJ3cTgxSktwaGJvYjlKbmZ4TWY3QmJDaGJKMW5OdzFuaG5n?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "대법원 관세 판결 긍정적 반응",
-      "미-이란 긴장에도 시장 안정",
-      "투자자들 신뢰 유지"
+      "대법원 세금 판결에 시장 반응",
+      "이란과의 긴장 지속",
+      "시장 안정세 유지"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
-    "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdjZFMlhDUGVaQUhXODFiSzJfeUhzUVRvdEx3Q1RPRDFSTF96cVR3Vm0xOUQ2d3RLU2dKOXNfVVpGdW1WdjNqNXRqMVZaYkM4bm9sb182TUk4UWNOUWtPOFYyQlQtTjYwQVZ2ZFowSE8takFvb1ZYUjZaV1RudmpQOHhEYWF0YW1JS0V4UjdOazhJYkoz?oc=5",
-    "publisher": "Morningstar Canada",
+    "title": "AI 중단에 대한 우려와 관세 문제가 시장에 부담을 주면서 다우지수는 800포인트 하락: 실시간 업데이트 - CNBC",
+    "original_title": "Dow drops 800 points as AI disruption fears and tariff woes weigh on markets: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "2026년 주식시장 주요 주식 소개",
-      "성장 가능성 큰 6개 주식",
-      "시장 회전 세력 변화 전망"
+      "다우 지수 800포인트 하락",
+      "AI로 인한 우려가 커짐",
+      "관세 문제도 시장에 악영향"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
