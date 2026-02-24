@@ -1,12 +1,25 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 방향 제시",
+      "재정 정책 강화",
+      "국제 협력 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부유층 47.6만명 확인",
-      "주식 유망성 강조",
-      "부동산 기피 경향"
+      "한국 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,39 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 예상",
-      "회복세는 미약한 상태",
-      "다소 비관적인 전망"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세가 미약하다고 평가",
+      "경제 상황에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 전략 발표",
-      "재정 정책 강화",
-      "혁신 촉진 계획"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "AI 중단 우려에서 소프트웨어 주가 반등하면서 다우지수는 400포인트 상승, S&P 500은 급등: 실시간 업데이트-CNBC",
     "original_title": "Dow gains 400 points, S&P 500 jumps as software stocks rebound from AI disruption fears: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF0gF8QVVfeXFMTXAxaHYtYjFScmJCR2p1TmJZZDhaTTdibDJLS2pvX0xZeWJwejZBOHMwSWZQRjdpN042MmRrSHlzeVN3THBzRXYxN1hiNGVJQm9HaXJyMlFrMUlqa3V4aEI0MkZCUlY1ZWY1aDF6dGs2elZ4Y29wVXBuZUpsSw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "다우 400포인트 상승",
-      "S&P 500 급등",
+      "다우, 400포인트 상승",
+      "S&P 500, 급등",
       "소프트웨어 주식 반등"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
+    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
+    "summary": [
+      "주식 시장과 경제의 단절 우려",
+      "경제 성장과 주가의 불일치",
+      "전문가의 경고와 시장 반응"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOEx0TE1zZEpRTTEtaTFSQTc0eVVrRllIQjVXQ3llUGZheW1qOVF3amZES1JPWkoxaU9FZVM2QWt4R1NpbFluaVRwdnB6VldNMWZFdkVxVzVCUFpmbmRPOE1zdENfOXdPS0M0U0NkQnpNQQ?oc=5",
     "publisher": "CNN",
     "summary": [
-      "경제 전반적 전망 제시",
-      "국가연설 앞두고 분석",
-      "시장 변화에 주목"
+      "경제 성장률 안정적",
+      "실업률 감소",
+      "소비자 신뢰 회복"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
-    "original_title": "Markets and the economy are 'increasingly disconnected,' top economist warns - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "시장과 경제 간 괴리 심화",
-      "전문가의 경고가 나옴",
-      "투자자들, 불안감 증대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
