@@ -1,52 +1,13 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 전략 강조",
-      "재정 정책 개혁 추진",
-      "대외 경제 협력 강화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "부자 47.6만명, 자산 10억 이상",
-      "주식 투자, 부동산보다 유망",
-      "금융자산 증가 추세"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약",
-      "금융연 경제 연구 발표"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
     "title": "트럼프가 새로운 관세를 인상하고 투자자들이 잠재적인 AI 패자를 내보낸 후 주가가 하락 - PBS",
     "original_title": "Stocks drop after Trump ramps up new tariffs and investors dump potential AI losers - PBS",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "주식 하락, 새로운 관세 영향",
-      "투자자들 AI 관련 주 매도",
-      "시장 불안정성 심화"
+      "주식시장 하락",
+      "트럼프, 새로운 관세 도입",
+      "AI 관련 주식 매도"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,23 +19,23 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변동 주도",
-      "6개 주요 주식 소개",
-      "투자자들의 관심 집중"
+      "2026년 주식 시장 회전 주식 6개",
+      "모닝스타 캐나다에서 보도",
+      "주식 시장 변화 주도하는 기업들"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "시장은 대법원 관세 판결, 미국-이란 긴장 고조 - invesco.com",
-    "original_title": "Markets take Supreme Court tariff ruling, US-Iran tensions in stride - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUWV3WWo5eG1DQUd3MEpteHVEZDB2WnR2bmlELXNqMU94NmFLb2h6dTJYMXV3Qkp3REx4eTRBWkpWcWFZZ28wSExpU2ZoQms5ajRVMXE5S29HMlQyMkItbUZRRWVtbFhkb1FxYTVneUlxTUVjUnBBTnFBNDZldEU3SDZCWmJ3cTgxSktwaGJvYjlKbmZ4TWY3QmJDaGJKMW5OdzFuaG5n?oc=5",
-    "publisher": "invesco.com",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "대법원 판결에 시장 반응",
-      "미-이란 긴장 완화",
-      "경제 안정세 지속"
+      "주식 시장 상승세",
+      "경제 지표 개선",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
