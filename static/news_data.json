@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책의 강력한 추진",
-      "재정 건전성 강조",
-      "기업 지원 확대 계획"
+      "경제 회복 전망 긍정적",
+      "재정 정책 강화 의지",
+      "투자자 신뢰 유도"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 존재",
-      "부동산보다 주식 유망",
+      "한국 부자 47.6만명 보유",
+      "주식, 부동산보다 유망",
       "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "경제 회복세 미약",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다고 평가",
+      "전망에 신중한 태도 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "이번 주 경제 지표 발표 예정",
-      "시장 반응 예상됨",
-      "정책 변화 주목 필요"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
   },
   {
     "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "시장과 경제의 분리 심화",
-      "경제 전문가 경고",
-      "새로운 위기 가능성 제기"
+      "시장과 경제의 괴리가 커지고 있다",
+      "전문가의 경고가 있었음",
+      "시장 불안정성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "주식 시장 하락",
-      "트럼프, 추가 관세 부과",
-      "AI 관련 주식 매도"
+      "주식 하락, 트럼프 새로운 관세",
+      "투자자, AI 관련 주식 매도",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "오늘, 2월 24일 주식 시장: 경제 불확실성이 대형 은행을 압박함에 따라 Bank of America가 하락했습니다 - The Motley Fool",
+    "original_title": "Stock Market Today, Feb. 24: Bank of America Slips as Economic Uncertainty Pressures Big Banks - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcHJtWHJtc01ORUFRV2FCczdZNlVQSm0tRnk3MmRxekRHeGx2T0c5c2lXYnZPV1F5QVhrYUJXck4wQ1hIQm80STJMb0Y0WERLMk42cnROZGoyNE9oUDVjTU5jVHpRMnNTaUZIb0FWYktCMHJIM0R0eVY0cXd3OWpJWEFBdVQyNU5TWno4NWMtMGF2TUIyRVdYX3A1d3JUX3Jsbnh0MVY0UTN0TlpZV3FXSWZqODNMN3BrVTVHVG5VTUdxZnQ0QTQ1T0tYSUIzM2pySHlJejY0RlJ5VW5razg1Uko4ZUkxRUE?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "뱅크 오브 아메리카 주가 하락",
+      "경제 불확실성 영향",
+      "대형 은행들 압박받음"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
