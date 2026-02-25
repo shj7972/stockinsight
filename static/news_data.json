@@ -1,28 +1,15 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "고창 경제 성장을 위한 정책 소개",
-      "혁신 기업 지원 강조",
-      "국제 협력 필요성 언급"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "부자 47.6만명, 금융자산 10억 이상",
       "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "경제 성장 가능성 시사"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,23 +17,36 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다는 평가",
-      "전반적으로 비관적 시각"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약할 것",
+      "국내 경제 전망 비관적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "현재 경제에 가장 큰 위험은? 골드만삭스는 이것이 주식시장 조정이라고 말했다 - CNBC",
-    "original_title": "Biggest risk to the economy now? Goldman says it's a stock market correction - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 정책 강조",
+      "재정 책임성 강화",
+      "국제 협력 중요성 부각"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "AI 중단에 대한 우려와 관세 문제가 시장에 부담을 주면서 다우지수는 800포인트 하락: 실시간 업데이트 - CNBC",
+    "original_title": "Dow drops 800 points as AI disruption fears and tariff woes weigh on markets: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "골드만, 주식 시장 조정 경고",
-      "경제에 큰 위험 요소로 지적",
-      "시장 불안에 대한 우려 증가"
+      "다우 지수 800포인트 하락",
+      "AI disruption 우려",
+      "관세 문제로 시장 불안"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장의 변화",
-      "주도 주식 6종 소개",
-      "투자 전략 변화 필요"
+      "2026년 주식 시장 변화 주도 주식",
+      "투자자들 관심 집중",
+      "경제 회복 기대감으로 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "트럼프 무역 정책의 종식",
-      "시장 반응 부정적",
-      "경제 회복 불투명"
+      "트럼프 무역의 종말",
+      "무역 정책 변화 예고",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
