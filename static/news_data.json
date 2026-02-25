@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 이상 보유",
-      "주식의 유망성 증가",
-      "부동산 상대적 매력 감소"
+      "한국 부자 47.6만명 존재",
+      "금융자산 10억 이상",
+      "주식이 부동산보다 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 지속적 성장 중",
+      "한국 경제 우상향 성장 중",
       "환율 하락 공식 깨짐",
-      "경기 회복 전망 불확실"
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장 2.1% 전망",
-      "회복세 미약한 상황",
-      "경제 불확실성 여전"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "트럼프 무역의 죽음 - 파이낸셜 타임즈",
-    "original_title": "The death of the Trump trade - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
-    "publisher": "Financial Times",
-    "summary": [
-      "트럼프 무역 정책의 종식",
-      "시장 변화 감지",
-      "경제 전망 불확실성 증가"
+      "한국 경제 2.1% 성장 예상",
+      "회복세 미약",
+      "전망에 부정적 시각"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
+    "type": "국내"
   },
   {
     "title": "트럼프가 새로운 관세를 인상하고 투자자들이 잠재적인 AI 패자를 내보낸 후 주가가 하락 - PBS",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "주식 시장 하락",
-      "트럼프, 새로운 관세 부과",
-      "AI 관련 주식 매도"
+      "주가 하락, 트럼프 관세 증가",
+      "AI 관련 주식 매각",
+      "투자자 불안감 증대"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "시장과 경제가 '점점 더 단절되고 있다'고 최고의 경제학자가 경고 - Fortune",
+    "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
+    "summary": [
+      "시장이 경제와 단절되고 있음.",
+      "경제에 대한 우려가 커짐.",
+      "전문가의 경고가 중요함."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
-    "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
+    "title": "트럼프 무역의 죽음 - 파이낸셜 타임즈",
+    "original_title": "The death of the Trump trade - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
+    "publisher": "Financial Times",
     "summary": [
-      "시장과 경제의 단절 우려",
-      "Top 경제학자 경고",
-      "경제지표와 주가 불일치"
+      "트럼프 무역 정책의 종료",
+      "시장 변화의 시작",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
