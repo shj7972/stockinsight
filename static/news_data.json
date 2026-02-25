@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 선호하는 경향",
+      "한국 경제에 대한 긍정적 시각"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약한 상황",
-      "위험 요소가 여전히 존재"
+      "내년 한국 경제 성장률 2.1%",
+      "회복세 미약할 것으로 예상",
+      "전반적 경기 부진 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리 경제정책 방향 제시",
-      "성장 촉진 계획 발표",
-      "재정 건전성 유지 강조"
+      "경제 성장 전략 발표",
+      "국제 무역 증가 기대",
+      "재정 정책 안정성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "이번 주 경제 동향",
-      "주요 지표 발표 예정",
-      "시장 반응 분석 필요"
+      "이번 주 경제 지표 발표",
+      "중요한 정책 변화 예상",
+      "시장 반응 주목 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "경제현황은 이렇습니다(국정감사를 앞두고) - CNN",
+    "title": "경제 상황은 이렇습니다(국정감사를 앞두고) - CNN",
     "original_title": "This is the state of the economy (ahead of the State of the Union) - CNN",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fOEx0TE1zZEpRTTEtaTFSQTc0eVVrRllIQjVXQ3llUGZheW1qOVF3amZES1JPWkoxaU9FZVM2QWt4R1NpbFluaVRwdnB6VldNMWZFdkVxVzVCUFpmbmRPOE1zdENfOXdPS0M0U0NkQnpNQQ?oc=5",
     "publisher": "CNN",
     "summary": [
-      "경제 전반의 현황 점검",
-      "정책 변화에 대한 예측",
-      "시민 생활에 미치는 영향"
+      "경제 성장세 지속",
+      "실업률 안정적",
+      "인플레이션 둔화"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "오늘, 2월 24일 주식 시장: 경제 불확실성이 대형 은행을 압박함에 따라 Bank of America가 하락했습니다 - The Motley Fool",
-    "original_title": "Stock Market Today, Feb. 24: Bank of America Slips as Economic Uncertainty Pressures Big Banks - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcHJtWHJtc01ORUFRV2FCczdZNlVQSm0tRnk3MmRxekRHeGx2T0c5c2lXYnZPV1F5QVhrYUJXck4wQ1hIQm80STJMb0Y0WERLMk42cnROZGoyNE9oUDVjTU5jVHpRMnNTaUZIb0FWYktCMHJIM0R0eVY0cXd3OWpJWEFBdVQyNU5TWno4NWMtMGF2TUIyRVdYX3A1d3JUX3Jsbnh0MVY0UTN0TlpZV3FXSWZqODNMN3BrVTVHVG5VTUdxZnQ0QTQ1T0tYSUIzM2pySHlJejY0RlJ5VW5razg1Uko4ZUkxRUE?oc=5",
-    "publisher": "The Motley Fool",
+    "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
+    "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "뱅크오브아메리카 주가 하락",
-      "경제 불확실성이 큰 은행 압박",
-      "대형은행에 대한 우려 증가"
+      "시장과 경제 간의 불일치 경고",
+      "경제 전문가의 의견 강조",
+      "저조한 시장 신뢰도 문제 지적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
