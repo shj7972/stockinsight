@@ -4,38 +4,38 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 안정성 강화",
-      "혁신 투자 유도"
+      "경제 발전 정책 강조",
+      "국제 협력 필요성 강조",
+      "재정 건전성 유지 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "한국투자·미래에셋증권, IMA 첫 지정 눈앞…제도 시행 8년 만에 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mYjBrM2R4d1ByUXlFM1pvejNQcXlrMjJjbEFTZXlwNW9SeC1CdUZJYktNOFFVVUVMNXFBeFh4UlFfQXNjQnBCSDNJYW5uNW11TmpFMzNFTW5ZWkNES3NyUEpwYzhJSlE?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국투자와 미래에셋, IMA 지정 전망",
-      "제도 시행 8년 만에 첫 사례",
-      "시장 변화 기대감 고조"
+      "47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 유망",
+      "부자 수 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "지난해 북한 국민총소득 44조원…한국의 1.7% 수준 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pXzc5QXpJN1l4LVo4SnhWdDNiVm9EZGN5Y1JJUGw0dkhhTXozTmpBNlk1OWpibjNCbnVVemRnTVRxWnlNOXdiSWVoaGI3b0xyeGZBZ1l2a0hJMTUtSGI5OWZEanQ4anM?oc=5",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "북한 국민총소득 44조원",
-      "한국의 1.7% 수준",
-      "경제 상황 열악함 드러남"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 우려",
+      "경제 회복에 대한 기대감 낮음"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "트럼프 무역 정책의 종료",
-      "경제 불확실성 증가",
-      "시장 반응 부정적"
+      "트럼프 트레이드의 종말",
+      "시장 변화가 필요함",
+      "정치적 불확실성이 증가함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장, 경제와 단절됨",
-      "전문가 경고",
-      "경제적 신뢰 감소 우려"
+      "주식시장, 경제와 괴리 감지",
+      "전문가의 우려 커짐",
+      "경제 실적과 상관 없어짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "주식 시장 하락",
       "트럼프, 새로운 관세 부과",
-      "AI 관련 주식 매도"
+      "주식 시장 하락세 지속",
+      "AI 관련 주식 매도 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
