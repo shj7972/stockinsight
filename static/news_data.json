@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 발전 정책 강조",
-      "국제 협력 필요성 강조",
-      "재정 건전성 유지 강조"
+      "경제 정책에 대한 비전 제시",
+      "시장 안정화 노력",
+      "투자 유치 전략 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,26 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 유망",
-      "부자 수 증가 추세"
+      "부자 47.6만명 증가",
+      "주식이 더 유망하다는 의견",
+      "부동산 인기도 하락"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 우려",
-      "경제 회복에 대한 기대감 낮음"
+      "한국 경제는 지속적으로 성장 중",
+      "환율 하락 공식 변동",
+      "경제적 안정성 우려 존재"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
     "type": "국내"
+  },
+  {
+    "title": "다우(Dow)는 AI 파괴 매도에서 소프트웨어 주가 반등하면서 350포인트 이상 상승 마감: 실시간 업데이트 - CNBC",
+    "original_title": "Dow closes more than 350 points higher as software stocks bounce back from AI disruption sell-off: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51eVA4NjlEaEFLbTBtWkZuR0Qyam1FSllHN2ZrYUVtQnhkbjgwamh5eTFlQ0JuTmFDbklfWFR2Qkl0akl4OWZ3c2xlQTQ4RFBwenlqdTdTcDF2c0ZqaGFzQUI2RGp2T19jN2lNcE4tUjBTaks1NnlF0gF8QVVfeXFMTXAxaHYtYjFScmJCR2p1TmJZZDhaTTdibDJLS2pvX0xZeWJwejZBOHMwSWZQRjdpN042MmRrSHlzeVN3THBzRXYxN1hiNGVJQm9HaXJyMlFrMUlqa3V4aEI0MkZCUlY1ZWY1aDF6dGs2elZ4Y29wVXBuZUpsSw?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "다우지수 350포인트 상승",
+      "소프트웨어 주식 반등",
+      "AI 영향 범위 회복"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "트럼프 무역의 죽음 - 파이낸셜 타임즈",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "트럼프 트레이드의 종말",
-      "시장 변화가 필요함",
-      "정치적 불확실성이 증가함"
+      "트럼프 무역 정책의 종말",
+      "시장 반응 약세",
+      "경제 전망 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장, 경제와 괴리 감지",
-      "전문가의 우려 커짐",
-      "경제 실적과 상관 없어짐"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프가 새로운 관세를 인상하고 투자자들이 잠재적인 AI 패자를 내보낸 후 주가가 하락 - PBS",
-    "original_title": "Stocks drop after Trump ramps up new tariffs and investors dump potential AI losers - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTl6WjNOSHZKdXFPbG5BZE5OcTRXaUpna2VCNXdpbVZwX3Y3YnFMOXBHR0tXSDcwc0xEWjVGYnR6VFBjUjRldmk4QnNpRE9TV2pYeVNOZ1BFUlB1Vi1PSDRDOThCQ21obHNMVl9VX2t5c1JMUE5oODZLWnh2VEtSZlNTX0k3UjdBb2FYX1pwSm5LNUV5QVBESUczd0dNUEtxQmRVQnEtRTJNc2oyRGlFWDZhMjVVMnNrVWxQN9IBwgFBVV95cUxPQlIwUTdGd0ZVVmw0MXg2WTY1R2lfelZKdUZlazBtM2F6T3pENDhZUnJqM2s5eFJmNXJXNG1zc1llRXhldGVQSE5aYzlGcjg0eVlGcS11YjFhaVVrcHoweUo2d0dJM19wOVJoZ0FtSVYzcDhMakVjUlhNT3FfTGNGUkphYkZtZXhrWmlFM2dMMXZJNC1TZE1CLTdobnVvQUh5RzF2SjhvcGRrazVrSEw0RkdPbUxRNjF2RWhHUVVSM3lGUQ?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "트럼프, 새로운 관세 부과",
-      "주식 시장 하락세 지속",
-      "AI 관련 주식 매도 증가"
+      "주식시장과 경제 간 괴리 증가",
+      "전문가의 경고",
+      "시장 불안정성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
