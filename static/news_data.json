@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자는 47.6만명 존재",
-      "금융자산 10억 이상",
-      "주식이 더 유망하다는 의견"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "시장에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제는 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제의 불확실성 증가"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세 미약한 상황",
-      "전망 부정적 요소 존재"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세 미약하다고 평가",
+      "전망 부정적 신호 포함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
+    "publisher": "포브스코리아",
+    "summary": [
+      "모바일 금융 서비스 성장",
+      "핀테크 혁신 활발",
+      "결제 시스템 발전"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장, 경제와 괴리 증가",
-      "전문가의 우려 표명",
-      "시장 지속성에 대한 질문"
+      "주식 시장과 경제 간의 단절 증가",
+      "경제 전반과 시장 간 불일치 우려",
+      "투자자 신뢰도에 부정적 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -59,11 +59,11 @@
     "publisher": "CNBC",
     "summary": [
       "다우지수 800포인트 하락",
-      "AI 파괴 우려가 주요 요인",
-      "관세 문제도 거론됨"
+      "AI 기술에 대한 우려",
+      "관세 문제로 시장 불안"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변화의 주요 주식",
-      "주식 6종목 분석 및 평가",
-      "투자자에게 유망한 기회 제공"
+      "2026년 주식 시장 회전 관련 주식",
+      "주목할 만한 6종목 분석",
+      "시장 변화에 대한 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
