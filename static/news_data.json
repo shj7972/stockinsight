@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제, 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제 전망에 혼란 발생"
+      "한국 경제 지속 성장 추세",
+      "환율 하락 공식 무너짐",
+      "환율 변화에 대한 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 성장률 2.1% 전망",
-      "회복세 미약하다고 지적",
-      "금융연 보고서 발표"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약하다고 평가",
+      "금융연의 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장, 경제와 격차 커짐",
-      "전문가의 경고 발언",
-      "경제 현실 반영 부족"
+      "주식시장, 경제와 괴리 심화",
+      "전문가의 우려 표명",
+      "경제 불안정성 지적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "골드만, 경제 위험 요소 지적",
-      "주식 시장 조정 우려 커져",
-      "경제 성장 둔화 가능성 언급"
+      "골드만, 경제 위험: 주식 시장 조정",
+      "주식 변동성이 경제에 영향",
+      "투자자 우려 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 시장을 주도할 6개 종목 분석",
-      "주식 회전 현상에 대한 통찰 제공",
-      "Morningstar의 전문가 의견 반영"
+      "2026년 주식시장 회전 주도 주식",
+      "주요 6개 주식 소개",
+      "경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
