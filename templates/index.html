@@ -375,14 +375,14 @@
                 신뢰도 <strong style="color: #e2e8f0;">{{ pred.confidence }}%</strong>
             </div>
             <div style="font-size: 0.65rem; color: #475569; margin-top: 0.15rem;">
-                모델 정확도 {{ pred.accuracy }}%
+                분석 데이터: {{ pred.data_months }}개월
             </div>
         </div>
         {% endfor %}
     </div>
     <p style="color: #475569; font-size: 0.7rem; margin: 0; padding-top: 0.6rem; border-top: 1px solid rgba(255,255,255,0.05);">
-        ⚠️ 과거 데이터 기반 통계 모델 (RandomForest). 투자 결정에 직접 활용하지 마세요.
-        경제지표: Fed 금리 · CPI · 국채 · 환율 · 산업생산 · 유가 · VIX
+        ⚠️ 과거 경제지표 기반 휴리스틱 모델입니다. 투자 결정에 직접 활용하지 마세요.
+        분석 지표: Fed 금리 · CPI 변화율 · 국채 · 환율 변화율 · 산업생산 · 유가 · VIX
     </p>
 </div>
 {% endif %}

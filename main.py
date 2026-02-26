@@ -319,7 +319,14 @@ _main_predictions_cache: dict = {"data": None, "ts": 0}
 _PRED_CACHE_SEC = 21600  # 6 hours
 
 def _get_main_index_predictions() -> list:
-    """경제지표 기반 다음 달 방향 예측 (Heuristic Model). 6시간 캐시."""
+    """경제지표 기반 다음 달 방향 예측 (Heuristic Model). 6시간 캐시.
+
+    주요 수정사항:
+    - CPI, USD/KRW 등 누적 지표는 YoY 변화율로 변환 (z-score 편향 제거)
+    - 지수별 개별 가중치 조정 (NASDAQ=금리민감, KOSPI=환율민감)
+    - 최근 10년 데이터만 사용하여 z-score 계산
+    - accuracy 허위 필드 제거
+    """
     global _main_predictions_cache
     now = time.time()
     if _main_predictions_cache["data"] is not None and now - _main_predictions_cache["ts"] < _PRED_CACHE_SEC:
@@ -332,60 +339,56 @@ def _get_main_index_predictions() -> list:
             return []
 
         df = pd.read_csv(csv_path)
-        # Ensure numeric
-        cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
-        for c in cols:
+
+        # Stationary columns (rates/indices): use raw z-score
+        rate_cols = ['fed_rate', 'treasury_10y', 'vix']
+        # Trending columns (cumulative): convert to YoY % change
+        trend_cols = ['cpi', 'usd_krw', 'wti', 'ind_prod']
+        all_raw = rate_cols + trend_cols
+
+        for c in all_raw:
             df[c] = pd.to_numeric(df[c], errors='coerce')
-        
-        df = df.dropna(subset=cols)
-        if df.empty:
+
+        # Calculate YoY change for trending columns (12-month lag)
+        for c in trend_cols:
+            df[f'{c}_yoy'] = df[c].pct_change(periods=12, fill_method=None) * 100
+
+        # Use last 10 years for z-score (more relevant than 30 years)
+        df_recent = df.tail(120).copy()
+
+        # Columns to z-score
+        z_cols = rate_cols + [f'{c}_yoy' for c in trend_cols]
+
+        df_valid = df_recent.dropna(subset=z_cols)
+        if len(df_valid) < 12:
             return []
 
-        # Calculate Z-Scores for the latest data point relative to history
-        latest = df.iloc[-1]
+        latest = df_valid.iloc[-1]
         z_scores = {}
-        for c in cols:
-            mean = df[c].mean()
-            std = df[c].std()
-            if std == 0:
-                z_scores[c] = 0
-            else:
-                z_scores[c] = (latest[c] - mean) / std
+        for c in z_cols:
+            mean = df_valid[c].mean()
+            std = df_valid[c].std()
+            z_scores[c] = (latest[c] - mean) / std if std > 0 else 0
 
-        # Define weights (Negative means high value is bad for stocks)
-        # Heuristic based on general economic theory
+        # Base weights (negative = bearish signal when high)
         weights = {
             'fed_rate': -1.5,
-            'cpi': -1.2,
             'treasury_10y': -1.2,
-            'usd_krw': -0.8,
-            'ind_prod': 1.0,
-            'wti': -0.5,
-            'vix': -1.0
+            'vix': -1.0,
+            'cpi_yoy': -1.0,
+            'usd_krw_yoy': -0.5,
+            'wti_yoy': -0.3,
+            'ind_prod_yoy': 1.2,
         }
 
-        # Calculate Composite Score
-        score = sum(z_scores[c] * weights.get(c, 0) for c in cols)
-        
-        # Sigmoid-like probability mapping (Score 0 -> 50%)
-        # Score typically ranges -5 to +5
+        # Base composite score
+        base_score = sum(z_scores.get(c, 0) * weights.get(c, 0) for c in z_cols)
+
         import math
         def sigmoid(x):
-            return 1 / (1 + math.exp(-x))
-        
-        # Adjust scaling factor 'k' to control sensitivity
-        k = 0.5
-        probability = sigmoid(score * k) * 100
-        
-        # Confidence is distance from 50%
-        # If prob is 60%, confidence is how "sure" we are about the direction.
-        # Let's just use the probability as the confidence of the predicted direction.
-        if probability >= 50:
-            pred_direction = 1 # UP
-            conf = probability
-        else:
-            pred_direction = 0 # DOWN
-            conf = 100 - probability
+            return 1 / (1 + math.exp(-max(-10, min(10, x))))
+
+        k = 0.6
 
         target_indices = [
             ('^IXIC', 'NASDAQ',  '#38bdf8'),
@@ -394,23 +397,26 @@ def _get_main_index_predictions() -> list:
         ]
 
         for ticker_sym, name, color in target_indices:
-            # Add some random noise or specific adjustments per index if needed
-            # For now, use the general macro score
-            
-            # Specific adjustments (Heuristic)
-            final_prob = conf
-            final_dir = pred_direction
+            adj_score = base_score
 
+            # Per-index adjustments
             if ticker_sym == '^IXIC':
-                # Tech is more sensitive to rates
-                tech_score = score - (z_scores['treasury_10y'] * 0.5) 
-                tech_prob = sigmoid(tech_score * k) * 100
-                if tech_prob >= 50:
-                    final_dir = 1
-                    final_prob = tech_prob
-                else:
-                    final_dir = 0
-                    final_prob = 100 - tech_prob
+                # NASDAQ: extra sensitive to rates and VIX
+                adj_score += (-z_scores.get('treasury_10y', 0) * 0.5
+                              - z_scores.get('vix', 0) * 0.3)
+            elif ticker_sym == '^KS11':
+                # KOSPI: extra sensitive to KRW and manufacturing
+                adj_score += (-z_scores.get('usd_krw_yoy', 0) * 0.6
+                              + z_scores.get('ind_prod_yoy', 0) * 0.4)
+            # S&P 500 uses base score
+
+            prob = sigmoid(adj_score * k) * 100
+            if prob >= 50:
+                final_dir = 1
+                final_conf = prob
+            else:
+                final_dir = 0
+                final_conf = 100 - prob
 
             results.append({
                 'ticker': ticker_sym,
@@ -419,9 +425,8 @@ def _get_main_index_predictions() -> list:
                 'direction': '상승' if final_dir == 1 else '하락',
                 'direction_icon': '📈' if final_dir == 1 else '📉',
                 'direction_color': '#4ade80' if final_dir == 1 else '#f87171',
-                'confidence': float(round(final_prob, 1)),
-                'accuracy': 75.0, # Static estimation for heuristic
-                'data_months': len(df),
+                'confidence': float(round(final_conf, 1)),
+                'data_months': len(df_valid),
             })
 
         _main_predictions_cache = {"data": results, "ts": now}

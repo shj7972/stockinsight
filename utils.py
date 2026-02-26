@@ -99,9 +99,6 @@ def get_stock_data(ticker_symbol):
     except Exception as e:
         return None, None
 
-    except Exception as e:
-        return None, None
-
 def get_naver_news(ticker_code):
     """Crawls news from Naver Finance for Korean stocks."""
     try:
@@ -313,63 +310,93 @@ def analyze_sentiment(news_items):
 
 def generate_advice(metrics_df, sentiment_score):
     """Generates investment advice based on technicals and sentiment."""
+    import math
+
     if metrics_df is None or metrics_df.empty:
-        return "데이터 부족으로 조언을 생성할 수 없습니다."
-        
+        return "데이터 부족으로 조언을 생성할 수 없습니다.", []
+
     last_row = metrics_df.iloc[-1]
     price = last_row['close']
     rsi = last_row['rsi_14']
     macd = last_row['macds']
     sma20 = last_row['sma_20']
     sma50 = last_row['sma_50']
-    
+
+    # NaN defense: if core values are NaN, return Hold
+    if any(math.isnan(v) if isinstance(v, float) else False
+           for v in [price, rsi, macd, sma20]):
+        return "보류 (Hold) ✋", ["⚠️ 일부 기술적 지표 데이터가 부족하여 정확한 분석이 어렵습니다."]
+
     advice = []
     score = 0
-    
-    # Technical Analysis
+
+    # Technical Analysis — RSI
     if rsi < 30:
         advice.append("📉 RSI가 30 미만으로 과매도 구간입니다. 반등 가능성이 있습니다.")
-        score += 1
+        score += 1.5
+    elif rsi < 40:
+        advice.append("📉 RSI가 40 미만으로 약세 구간입니다.")
+        score += 0.5
     elif rsi > 70:
         advice.append("📈 RSI가 70 초과로 과매수 구간입니다. 조정 가능성이 있습니다.")
-        score -= 1
-        
+        score -= 1.5
+    elif rsi > 60:
+        advice.append("📈 RSI가 60 이상으로 강세 구간입니다.")
+        score += 0.5
+
+    # MACD
     if macd > 0:
         advice.append("📊 MACD가 상승 추세를 보이고 있습니다.")
         score += 0.5
     else:
         advice.append("📊 MACD가 하락 추세를 보이고 있습니다.")
         score -= 0.5
-        
+
+    # Price vs SMA20
     if price > sma20:
         advice.append("💹 주가가 20일 이동평균선 위에 있습니다. 단기 상승 추세입니다.")
         score += 0.5
     else:
         advice.append("💹 주가가 20일 이동평균선 아래에 있습니다. 단기 하락 추세입니다.")
         score -= 0.5
-        
+
+    # Price vs SMA50 (장기 추세)
+    if not (isinstance(sma50, float) and math.isnan(sma50)):
+        if price > sma50:
+            advice.append("📈 주가가 50일 이동평균선 위로 장기 상승 추세입니다.")
+            score += 0.5
+        else:
+            advice.append("📉 주가가 50일 이동평균선 아래로 장기 하락 추세입니다.")
+            score -= 0.5
+
     # Sentiment Analysis
-    if sentiment_score > 0.05:
+    if sentiment_score > 0.15:
+        advice.append("📰 뉴스 감성 분석 결과 매우 긍정적입니다.")
+        score += 1.5
+    elif sentiment_score > 0.05:
         advice.append("📰 뉴스 감성 분석 결과 긍정적입니다.")
         score += 1
+    elif sentiment_score < -0.15:
+        advice.append("📰 뉴스 감성 분석 결과 매우 부정적입니다.")
+        score -= 1.5
     elif sentiment_score < -0.05:
         advice.append("📰 뉴스 감성 분석 결과 부정적입니다.")
         score -= 1
     else:
         advice.append("📰 뉴스 감성 분석 결과 중립적입니다.")
-        
-    # Final Verdict
-    if score >= 2:
+
+    # Final Verdict — symmetric boundaries
+    if score >= 2.5:
         verdict = "강력 매수 (Strong Buy) 🚀"
-    elif score >= 0.5:
+    elif score >= 1.0:
         verdict = "매수 (Buy) ✅"
-    elif score > -0.5:
+    elif score >= -1.0:
         verdict = "보류 (Hold) ✋"
-    elif score > -2:
+    elif score >= -2.5:
         verdict = "매도 (Sell) ❌"
     else:
         verdict = "강력 매도 (Strong Sell) 📉"
-        
+
     return verdict, advice
 
 def format_market_cap(value, ticker):
