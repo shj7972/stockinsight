@@ -1,15 +1,28 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 계획 발표",
+      "중소기업 지원 강화",
+      "기후 변화 대응 정책 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
       "주식이 부동산보다 유망",
-      "경제 성장 가능성 시사"
+      "주식 투자에 대한 긍정적 시각"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,26 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것",
-      "국내 경제 전망 비관적"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것으로 예상",
+      "전반적인 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
+    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "경제 성장 정책 강조",
-      "재정 책임성 강화",
-      "국제 협력 중요성 부각"
+      "주식 시장이 경제와 분리됨",
+      "경제에 대한 불안이 커짐",
+      "전문가 의견 주목 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "AI 중단에 대한 우려와 관세 문제가 시장에 부담을 주면서 다우지수는 800포인트 하락: 실시간 업데이트 - CNBC",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "다우 지수 800포인트 하락",
-      "AI disruption 우려",
-      "관세 문제로 시장 불안"
+      "다우지수 800포인트 하락",
+      "AI 불안감 영향",
+      "관세 문제 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변화 주도 주식",
-      "투자자들 관심 집중",
-      "경제 회복 기대감으로 긍정적"
+      "2026년 주식 시장 변화 주도할 6개 주식",
+      "Morningstar의 분석 및 추천",
+      "투자자들의 주목 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 무역의 죽음 - 파이낸셜 타임즈",
-    "original_title": "The death of the Trump trade - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05R3VWOGdxeXdNb3E1YjZTRHVXRzVXNzh3ZjRPY1VROUx3T0ZPWnhONXg2a20zLVp1aWtGRzM0NTRHMXM3c2dwdlNwUFJRSW94WEc2TkFRRjUyQWpkU2ZtdGJpUHhxZTVWWnJnSFJpRDA?oc=5",
-    "publisher": "Financial Times",
-    "summary": [
-      "트럼프 무역의 종말",
-      "무역 정책 변화 예고",
-      "시장 불확실성 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
