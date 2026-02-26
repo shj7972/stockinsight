@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 유망하다는 분석",
-      "주식 투자에 대한 긍정적 전망"
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 무너짐",
-      "전망에 대한 우려 증가"
+      "한국 경제, 우상향 성장 중",
+      "환율 하락 공식 깨짐",
+      "경제 전망에 혼란 발생"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 예상",
-      "경제 회복세가 미약함",
-      "전망에 부정적 시각 존재"
+      "내년 한국 성장률 2.1% 전망",
+      "회복세 미약하다고 지적",
+      "금융연 보고서 발표"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장이 경제와 동떨어짐",
-      "경제 기초와 불일치 증가",
-      "전문가의 우려 표명"
+      "주식시장, 경제와 격차 커짐",
+      "전문가의 경고 발언",
+      "경제 현실 반영 부족"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "AI 중단에 대한 우려와 관세 문제가 시장에 부담을 주면서 다우지수는 800포인트 하락: 실시간 업데이트 - CNBC",
-    "original_title": "Dow drops 800 points as AI disruption fears and tariff woes weigh on markets: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SYWhnTDBmNVdEWXc1eGRGbWw4a3B3RGJDVTM0Und0Qm55R2VockhlcFpNaVAybGVSRzRVZFp4cGFyRVYxMmZCQlZ5M3EteF9Jb2ZpQjNwX1gzOWJOQk1sX0x6SE01cmUxS3BqVUVta2VxNFJkdTNB0gF8QVVfeXFMTnotN0RrZ0szeTdEdUpwUklxdG5RdHE4Z1pEWVNRdEw4V21pQmhnYXFFZ1NtN1JRWnBrcWowLUlvV1Q5YXk1dFNIdnY4TEp6YzcwcFNDd1gxZmREWUI1b1g0X2FpaWRQR3NXMVN0NGxIbHR3ZGRzNGtjQ1lnaQ?oc=5",
+    "title": "현재 경제에 가장 큰 위험은? 골드만삭스는 이것이 주식시장 조정이라고 말했다 - CNBC",
+    "original_title": "Biggest risk to the economy now? Goldman says it's a stock market correction - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "다우지수 800포인트 하락",
-      "AI 파괴 우려 증가",
-      "관세 문제로 불안감 증대"
+      "골드만, 경제 위험 요소 지적",
+      "주식 시장 조정 우려 커져",
+      "경제 성장 둔화 가능성 언급"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
     "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
     "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식시장 주요 주식 6개",
-      "투자자들의 관심 집중",
-      "성장 가능성 높음"
+      "2026년 시장을 주도할 6개 종목 분석",
+      "주식 회전 현상에 대한 통찰 제공",
+      "Morningstar의 전문가 의견 반영"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
