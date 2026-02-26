@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 유망",
-      "주식 투자에 대한 관심 증가"
+      "한국 부자 47.6만명",
+      "금융자산 10억 이상",
+      "부동산보다 주식 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 무너짐",
-      "시장 불확실성 증가"
+      "한국 경제는 성장세를 보인다",
+      "환율 하락의 공식 깨져",
+      "추가적인 경제 불확실성 존재"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -31,11 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "전망에 대한 우려 존재"
+      "회복세 미약하다고 평가",
+      "경제 불확실성 지속 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장과 경제의 단절 경고",
-      "경제 지표와 불일치 문제",
-      "투자자들 우려 증대"
+      "주식 시장과 경제의 괴리 증가",
+      "전문가의 우려 표명",
+      "경제 지표와 무관한 주가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
-    "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
-    "publisher": "Morningstar Canada",
-    "summary": [
-      "2026년 주식시장 변화 관전",
-      "주목할 6개 주식 소개",
-      "투자자들에게 긍정적 신호"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "골드만, 경제 리스크는 주식 시장 조정",
-      "주식 시장의 변동성이 우려됨",
-      "경제 전망에 부정적 영향 가능"
+      "골드만, 시장 조정 우려",
+      "경제 최대 위험 지적",
+      "주식 시장 영향 분석"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
+    "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "2026년 주식 시장 회전 주도 주식",
+      "주식 6종목 소개",
+      "투자자 주목 필요"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
