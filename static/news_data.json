@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "부동산보다 주식 유망"
+      "한국 부자 47.6만명 보유",
+      "주식이 유망하다는 분석",
+      "부동산 대비 주식 선호 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
-      "환율 하락 공식 깨졌다",
-      "경제 전망에 불확실성 존재"
+      "한국 경제는 지속적 성장 중",
+      "환율 하락 공식이 무너짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 시작",
-      "한국거래소의 새로운 시도",
-      "시장 유동성 향상 기대"
+      "6월부터 프리·애프터마켓 운영",
+      "투자자 확대 기대",
+      "시장 유동성 향상 예상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "U.S. 뱅크의 의견",
-      "시장 방향성에 대한 전망"
+      "트럼프 행정부에서 주식 상승",
+      "세금 감면 효과",
+      "경제 성장 전망 긍정적"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장과 경제 간 괴리 증가",
-      "정상적인 경제 지표와 반대 상황",
-      "거시경제 불확실성 우려"
+      "증시, 경제와 동떨어져 있다",
+      "전문가의 우려 표명",
+      "시장과 현실의 괴리 심화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "현재 경제에 가장 큰 위험은? 골드만삭스는 이것이 주식시장 조정이라고 말했다 - CNBC",
-    "original_title": "Biggest risk to the economy now? Goldman says it's a stock market correction - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
-    "publisher": "CNBC",
+    "title": "미국 주식시장 집중도가 1930년대 정점을 넘어섰다. 투자자들이 걱정해야 할까요? - 모닝스타 캐나다",
+    "original_title": "US Stock Market Concentration Has Surpassed Its 1930s Peak. Should Investors Worry? - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
+    "publisher": "Morningstar Canada",
     "summary": [
-      "골드만, 주식시장 조정 경고",
-      "경제에 큰 위험으로 지목",
-      "시장 불안 요인으로 분석"
+      "주식 시장 집중도 1930년대 초과",
+      "투자자들이 걱정해야 할까?",
+      "시장 리스크 증가 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
