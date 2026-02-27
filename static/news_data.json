@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 선호",
-      "주식시장 전망 긍정적"
+      "한국 부자 10억 이상 47.6만명",
+      "부동산보다 주식 유망",
+      "주식 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 꾸준히 성장 중",
-      "환율 하락 공식이 깨졌다",
-      "시장 변동성 주의 필요"
+      "한국 경제 성장세 지속",
+      "환율 하락 원칙 무너져",
+      "시장 불확실성 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,8 +30,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 6월부터 운영 계획",
-      "프리·애프터마켓 도입",
+      "한국거래소, 프리·애프터마켓 도입",
+      "6월부터 운영 시작 예정",
       "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 하 주식 시장 성장",
-      "세금 감면 효과",
-      "정치적 불확실성 영향"
+      "트럼프 행정부의 주식 시장 동향",
+      "U.S. 은행의 시장 분석",
+      "경제 성장에 긍정적 영향"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장과 경제가 단절된 상태",
-      "경제 지표와 주가 불일치",
-      "전문가의 우려 표명"
+      "주식 시장과 경제 간의 차이 고착",
+      "경제 성장과 무관한 주식 상승",
+      "전문가의 우려 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
-    "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
-    "publisher": "Morningstar Canada",
+    "title": "월스트리트 주간 AI 혼란이 미국 일자리 데이터를 활용하여 시장을 뒤흔들고 있습니다 - Reuters",
+    "original_title": "Wall St Week Ahead AI disruption looms over markets with US jobs data on tap - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWUZZSW15R3BDOS12TTNwOVR1eFhlNTV0RktQSkpPMlFrNElmS3ZBY2xQMTJrLUpLRzVPcF9NTGZlaGRBaDJvQmgxdGd4Xzk2Um9MM2RPN3JrZTBIV2g1QzJxLTVoMlRrZzFHVG9yNVJlMkotbkJ0MDdGQ1NSaWRZV3pmTmN1OFVzZHBqUFR5c0xtZ05oYzFXb3UweklzYng5SWNRaENESk5yRGFpeDU5N2FaTVNvNTdTbFE?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "2026년 시장 회전 주도 주식 6개",
-      "주식 분석 기관의 평가",
-      "투자자들에게 기회 제공"
+      "AI가 시장에 미치는 영향 우려",
+      "미국 고용 데이터 발표 예정",
+      "주식 시장의 변동성 증가 예측"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
