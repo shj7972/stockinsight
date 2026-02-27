@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명으로 증가",
-      "주식이 유망하다는 전망",
-      "부동산 시장 약세"
+      "한국 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 지속",
+      "한국 경제 성장 중",
       "환율 하락 공식 깨짐",
-      "시장 변화 주의 필요"
+      "시장 불안 요소 발생"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -30,26 +30,26 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 운영 예정",
-      "운영 시작은 6월로 설정",
-      "시장 접근성 개선 기대"
+      "한국거래소, 6월부터 운영 개시",
+      "프리·애프터마켓 신설",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "미국 주식시장 집중도가 1930년대 정점을 넘어섰다. 투자자들이 걱정해야 할까요? - 모닝스타 캐나다",
-    "original_title": "US Stock Market Concentration Has Surpassed Its 1930s Peak. Should Investors Worry? - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
-    "publisher": "Morningstar Canada",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "미국 주식 시장 집중도 최고치 도달",
-      "1930년대 기록 초과",
-      "투자자들에게 경고의 목소리"
+      "트럼프 정부의 경제 정책 분석",
+      "주가 상승 요인 검토",
+      "시장 전망과 리스크 요소"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "경제와 증시의 괴리 증가",
-      "상황에 대한 우려 표명",
-      "투자자 경계 필요"
+      "주식시장이 경제와 분리됨",
+      "경제와의 괴리 증가",
+      "전문가의 우려 표명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "현재 경제에 가장 큰 위험은? 골드만삭스는 이것이 주식시장 조정이라고 말했다 - CNBC",
-    "original_title": "Biggest risk to the economy now? Goldman says it's a stock market correction - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
-    "publisher": "CNBC",
+    "title": "미국 주식시장 집중도가 1930년대 정점을 넘어섰다. 투자자들이 걱정해야 할까요? - 모닝스타 캐나다",
+    "original_title": "US Stock Market Concentration Has Surpassed Its 1930s Peak. Should Investors Worry? - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
+    "publisher": "Morningstar Canada",
     "summary": [
-      "골드만, 주식 시장 조정 경고",
-      "경제 최대 위험 요소 지목",
-      "투자자 경계 필요성 강조"
+      "시장 집중도가 1930년대 초과",
+      "투자자들이 경계해야 할 시점",
+      "거시 경제 영향을 고려해야 함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
