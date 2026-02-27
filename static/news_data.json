@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "Koo Yoon-Cheol의 경제 정책 언급",
-      "경제 성장 목표 발표",
-      "시장의 안정성 강조"
+      "국가 경제의 발전 방향 제시",
+      "정책 목표에 대한 확실한 의지",
+      "투자 유치 확대 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 기록",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명 보유",
+      "주식이 유망하다고 평가",
+      "부동산보다 금융자산 선호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
+      "한국 경제, 우상향 성장 중",
       "환율 하락 공식 깨짐",
-      "경제 전망 불확실성 증가"
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부와 주식시장 변동",
-      "U.S.은행의 시장 분석",
-      "정치적 영향력 증가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
   },
   {
     "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
@@ -58,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장과 경제 간 격차 증가",
-      "전문가의 우려 표명",
-      "시장 지표 회복 필요"
+      "주식 시장과 경제 간 괴리 증가",
+      "경제 지표와 주가 불일치",
+      "투자자 신뢰도 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "시장 집중도가 1930년대 초과",
-      "투자자들 우려할 필요 있나?",
-      "전문가 의견 수렴 중"
+      "주식 시장 집중도, 1930년대 초과",
+      "투자자들은 우려해야 할까?",
+      "과거와 비교한 현재 시장 상황"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "현재 경제에 가장 큰 위험은? 골드만삭스는 이것이 주식시장 조정이라고 말했다 - CNBC",
+    "original_title": "Biggest risk to the economy now? Goldman says it's a stock market correction - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXR0eEtTa1FseXZBMjNDUjJLTjV0VGRsN2F3cDZjWldzbHBQZFRPUGJkMmZxd1I3QTN6UEFaR3AteVV6YmV5dUxXRkpSbk1jVDd0bXZFU1VyODRwMmtEbno0YWdpaXhpbnBTaFpkSXdsSURfZzgwZE9IQXFFazVfdV9DSDI0ZFJFWjllREtYaDl1c3YzODhNZFl3RUlwQ21qNFlmY0FJZjB3QXBIakxHcA?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "골드만, 주식 시장 조정 경고",
+      "경제에 가장 큰 위험으로 지목",
+      "시장 변동성 우려 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
