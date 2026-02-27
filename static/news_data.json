@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 유망하다는 전망",
-      "부동산 비해 주식 선호"
+      "한국 부자 47.6만명으로 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 운영",
-      "한국거래소의 신규 정책",
+      "한국거래소, 6월부터 운영 계획",
+      "프리·애프터마켓 도입",
       "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
     "publisher": "포브스코리아",
     "summary": [
-      "모바일 경제 성장세 지속",
-      "핀테크 혁신 확대",
-      "투자 기회 증가"
+      "한국 모바일 금융 성장세",
+      "디지털 결제 활성화",
+      "핀테크의 혁신적 변화"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 주식 시장 분석",
+      "경제 정책의 영향",
+      "시장에서의 투자 심리"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
   },
   {
     "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장이 경제와 단절됨",
+      "주식시장이 경제와 괴리됨",
       "전문가의 우려 표명",
-      "경제와 시장의 불일치 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장 집중도가 1930년대 정점을 넘어섰다. 투자자들이 걱정해야 할까요? - 모닝스타 캐나다",
-    "original_title": "US Stock Market Concentration Has Surpassed Its 1930s Peak. Should Investors Worry? - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
-    "publisher": "Morningstar Canada",
-    "summary": [
-      "미국 주식시장 집중도 증가",
-      "1930년대 최고치 초과",
-      "투자자 우려 필요할 수 있음"
+      "경제와의 연결 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
+    "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
+    "publisher": "Morningstar Canada",
     "summary": [
-      "이번 주 경제 지표 발표",
-      "금리 동결 가능성 언급",
-      "무역 동향 분석 필요"
+      "6개 주식이 2026년 시장 주도",
+      "주식 회전 효과 분석",
+      "투자자들 주목 필요"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
