@@ -1,15 +1,28 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "부총리의 경제 정책 설명",
+      "경제 회복 전망 밝음",
+      "대외 투자 활성화 촉진"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
+      "부자 47.6만명, 금융자산 10억 이상",
       "주식이 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "투자 트렌드 변화 주목"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 중",
-      "환율 하락 공식 깨짐",
-      "시장 불안 요소 발생"
+      "한국 경제 성장 지속 중",
+      "환율 하락 공식 변화",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국거래소, 6월부터 운영 개시",
-      "프리·애프터마켓 신설",
-      "시장 활성화 기대"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 정부의 경제 정책 분석",
-      "주가 상승 요인 검토",
-      "시장 전망과 리스크 요소"
+      "트럼프 행정부 하 주식 시장 성장",
+      "규제 완화로 기업 이익 증가",
+      "투자자 신뢰 대폭 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장이 경제와 분리됨",
-      "경제와의 괴리 증가",
-      "전문가의 우려 표명"
+      "주식 시장이 경제와 불일치",
+      "경제와 단절된 주식 시장",
+      "전문가의 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkVvV21reTFsWlgxYkUwc1BZY2xMZll6d3BYTklUaFF1OVlGbG84clRoQXdBQmQwV25kQ1cxY1BvYkNXcWZHU2hVUjc1YS1vTndrWm55M3IxZmdReFlpS210b2JIRHZHcnVPNVZvMjdnRmFKdEEzWFJtUnVGemkxdHNhNjBycG9TOG50dERKSWloTTZSMVJLNDFjcXoycy1DTEZaVi1IMXk3SUZ0SWxmb1BUZmFPY2tBamhrMTlrUjJFb28?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "시장 집중도가 1930년대 초과",
-      "투자자들이 경계해야 할 시점",
-      "거시 경제 영향을 고려해야 함"
+      "미국 주식 시장 집중도 1930년대 초과",
+      "투자자들이 걱정할 필요성 논의",
+      "시장 불안 요인 증가 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
