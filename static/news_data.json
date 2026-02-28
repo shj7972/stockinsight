@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 투자 유망",
-      "주식 시장에 대한 긍정적 전망"
+      "한국 부자 47.6만명 보유",
+      "부동산 대신 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,39 +17,39 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 도입",
-      "6월부터 운영 시작",
-      "시장 활성화 기대"
+      "6월부터 프리·애프터마켓 운영",
+      "한국거래소의 새로운 시도",
+      "시장 접근성 향상 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
+    "publisher": "포브스코리아",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 리스크 경고",
-      "전반적 경제 전망 긍정적"
+      "모바일 경제 성장세 지속",
+      "핀테크 투자 증가",
+      "디지털 서비스 확대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
-    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "증권시장이 경제와 단절",
-      "전문가의 경고",
-      "경제 지표와 괴리"
+      "트럼프 행정부, 시장 성장 촉진",
+      "세금 감면과 규제 완화 효과",
+      "투자자 신뢰도 상승"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 stock market 변화 예측",
-      "주요 6개 주식 소개",
-      "투자자 관심 집중"
+      "2026년 주식 시장 회전 주도 주식",
+      "아직 구체적 정보 부족",
+      "투자자 관심 증가 중"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "경제 주요 지표 발표 예정",
-      "금리 동결 관측",
-      "소비자 신뢰 회복 시사"
+      "이번 주 경제 지표 발표",
+      "중앙은행의 결정 예고",
+      "주식 시장 동향 분석"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
