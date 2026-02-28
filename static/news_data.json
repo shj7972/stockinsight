@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 증가",
+      "부자는 47.6만명에 달함",
       "주식이 부동산보다 유망",
-      "금융자산 10억 이상 보유"
+      "금융자산이 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 운영 예정",
-      "거래소의 새로운 시장 활성화 기대",
-      "투자자에게 더 많은 거래 기회 제공"
+      "한국거래소, 6월부터 운영 시작",
+      "프리·애프터마켓 도입",
+      "시장 접근성 향상 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9% 증가 전망",
-      "AI 버블 붕괴 시 금융 리스크 경고",
-      "전반적 경제 전망 긍정적"
+      "IMF, 한국 성장률 1.9% 전망 상향",
+      "AI 버블 붕괴 위험 경고",
+      "금융 위험성 증가 우려"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "주식 시장 상승세",
-      "경제 정책의 긍정적 반응"
+      "트럼프 행정부의 시장 상승",
+      "세금 감면 효과",
+      "소비자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3N1dLcGVFNi1nYVBlVENzaGpxcHFiRVowakt0UDBkN2RtYTF2OHBlOVNfOC1pSXNoWGdpN2FxNHZDcExvZ21KZjVrZkh3aGZvaHVDeFhCeUdRdmVwWGc4SnlSOWE0OHNGbFhGRThyTko3QzFzWDNFbUZR0gF_QVVfeXFMT1g3YXdPS2hPVUlSbThFM2VxOF9OM0ZqWW5IVl8tWjM1R3JLMElJXzhpNkFCWldPWDRVaWduOF9YaWdVVndRR0FEQ2QzT0UzbWFQdDNUS2Q3QjdNV0hia3Z4Vm1tVmhVdEZMcEhSR1Bndld3aUUwcDBlaGVhVnd6bw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "이란 공격, 석유 시장에 부정적 영향",
-      "글로벌 경제 불안정성 증가 우려",
-      "유가 상승, 소비자 부담 확대"
+      "이란 공격이 유가에 영향 미칠 것",
+      "세계 경제에 불확실성 증가",
+      "정치적 긴장 고조 예상"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식시장 변화 예측",
-      "핵심 6개 주식 소개",
-      "시장 안정성에 대한 긍정적 전망"
+      "2026년 주식시장 회전 주도 주식",
+      "투자자들의 관심 증가",
+      "포트폴리오 다변화 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
