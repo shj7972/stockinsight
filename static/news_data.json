@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 재정 안정 강조",
-      "신규 정책 소개",
-      "미래 성장 동력 확립"
+      "국가 경제 강화를 위한 정책 강조",
+      "재정 건전성 유지 방안 제시",
+      "혁신과 성장 지원 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "한국 부자의 수 47.6만명",
+      "부동산보다 주식이 유망",
+      "금융자산 10억 이상 소유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 중",
+      "한국 경제 우상향 성장",
       "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "시장 불확실성 확대"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식 시장이 경제와 불일치",
-      "경제와 격차 커짐",
-      "전문가의 경고 표명"
+      "주식 시장이 경제와 단절",
+      "전문가의 우려 표명",
+      "경제 상황에 대한 불확실성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변화 주도",
+      "2026년 시장 섹터 회전 주도",
       "6개 주요 주식 소개",
-      "시장 전망 긍정적"
+      "경제 성장 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "주요 경제지표 발표 예정",
-      "금리 동결 가능성",
-      "소비자 신뢰도 증가"
+      "경제 지표 발표 예정",
+      "금리 동향 주목",
+      "고용 시장 안정 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
