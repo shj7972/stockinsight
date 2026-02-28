@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 도달",
-      "주식이 부동산보다 유망",
-      "금융자산 증가 추세"
+      "한국의 부자는 47.6만명",
+      "부동산보다 주식이 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
+      "내년 경제 성장률 2.1% 전망",
       "회복세는 미약할 것",
-      "전망에 대한 우려 존재"
+      "전반적인 경제 불확실성 여전"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
     "publisher": "포브스코리아",
     "summary": [
-      "한국 모바일 금융 성장",
-      "디지털 결제 확대",
-      "핀테크 혁신 활발"
+      "모바일 금융 서비스 증가",
+      "디지털 뱅킹 성장세",
+      "블록체인 활용 사례 확대"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부에서 주식 상승",
+      "세금 감면 정책 긍정적",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
+    "type": "해외"
   },
   {
     "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "주식시장이 경제와 불일치",
-      "경제와의 격차 증가",
-      "전문가의 우려 표명"
+      "주식 시장과 경제의 분리 증가",
+      "전문가의 우려 전달",
+      "시장 안정성 의문 제기"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 회전 주도",
+      "2026년 주식 시장의 변화 주도",
       "6개 주요 주식 소개",
-      "시장 전망 긍정적"
+      "투자자들에게 긍정적 전망 제공"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "경제 지표 발표 예정",
-      "금리 변화 분석",
-      "국제 시장 동향 주목"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
