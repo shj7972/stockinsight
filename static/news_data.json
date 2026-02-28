@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자, 47.6만명 확인",
-      "주식이 더 유망하다고 판단",
-      "부동산 투자 감소 추세"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "주식 시장에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 운영",
-      "시장 확대 기대감",
-      "투자자 편의성 증대"
+      "한국거래소, 프리·애프터마켓 도입",
+      "6월부터 운영 시작",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -32,35 +32,35 @@
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "경제 전망 긍정적이나 우려도 존재"
+      "전반적 경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
+    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "트럼프 행정부의 주식시장 분석",
-      "U.S.은행의 견해",
-      "경제 성장 전망 긍정적"
+      "증권시장이 경제와 단절",
+      "전문가의 경고",
+      "경제 지표와 괴리"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
     "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
     "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장 변화 주도",
+      "2026년 stock market 변화 예측",
       "주요 6개 주식 소개",
-      "투자자들에게 기회 전망"
+      "투자자 관심 집중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -73,11 +73,11 @@
     "publisher": "Deloitte",
     "summary": [
       "경제 주요 지표 발표 예정",
-      "금리 변화 주목",
-      "소비자 신뢰 조사 결과"
+      "금리 동결 관측",
+      "소비자 신뢰 회복 시사"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
