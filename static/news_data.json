@@ -4,38 +4,38 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금융자산 10억 이상 부자 47.6만명",
-      "부동산보다 주식이 유망",
-      "주식 시장에 긍정적인 전망"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "프리·애프터마켓 운영 시작",
+      "6월부터 시행 예정",
+      "시장 유동성 증가 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
+    "publisher": "포브스코리아",
     "summary": [
-      "한국 경제 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제 상황 복잡해짐"
+      "모바일 금융 급성장",
+      "디지털 은행 인기 상승",
+      "핀테크 혁신 지속"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
-  },
-  {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세 미약",
-      "경제 어려움 지속"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식시장 변화",
-      "경제 성장과 투자 증가",
-      "정책의 긍정적 영향"
+      "트럼프 행정부 주식시장 상승",
+      "세금 감면 정책의 영향",
+      "경제 성장률 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장의 변화 예고",
-      "주도 주식 6종 소개",
-      "경제 성장 기대감 반영"
+      "2026년 주식시장 주도 주식 6종",
+      "시장 변화에 대한 주요 기업",
+      "투자자에게 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "이번 주(3월 2~6일) 경제 데이터에서 주목해야 할 사항 - Kiplinger",
-    "original_title": "What to Look Out for in Economic Data This Week (March 2-6) - Kiplinger",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-    "publisher": "Kiplinger",
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
     "summary": [
-      "경제 데이터 발표 예정",
-      "금리 인상 우려 커짐",
-      "시장 반응 주목 필요"
+      "주요 경제 지표 발표 예정",
+      "시장 전망 분석 필요",
+      "정책 변화 주의 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
