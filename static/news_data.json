@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 부자는 47.6만명",
-      "부동산보다 주식이 유망",
-      "금융자산 10억 이상 보유"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세는 미약할 것",
-      "전반적인 경제 불확실성 여전"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것으로 예상",
+      "전반적 경제 상황 비관적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,11 +31,11 @@
     "publisher": "포브스코리아",
     "summary": [
       "모바일 금융 서비스 증가",
-      "디지털 뱅킹 성장세",
-      "블록체인 활용 사례 확대"
+      "투자 트렌드 변화",
+      "핀테크 기업 성장"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부에서 주식 상승",
-      "세금 감면 정책 긍정적",
-      "경제 성장 기대감 증가"
+      "트럼프 행정부의 주식 시장 영향",
+      "경제 성장에 긍정적 평가",
+      "투자자 신뢰도 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "최고의 이코노미스트는 주식시장이 '경제와 점점 더 단절되고 있다'고 말했습니다 - Fortune",
-    "original_title": "Top economist says stock market has gotten ‘increasingly disconnected from the economy’ - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "주식 시장과 경제의 분리 증가",
-      "전문가의 우려 전달",
-      "시장 안정성 의문 제기"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장의 변화 주도",
+      "2026년 주식시장 변동 주도하는 주식",
       "6개 주요 주식 소개",
-      "투자자들에게 긍정적 전망 제공"
+      "투자자들 관심 집중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "월스트리트 주간 AI 혼란이 미국 일자리 데이터를 활용하여 시장을 뒤흔들고 있습니다 - Reuters",
+    "original_title": "Wall St Week Ahead AI disruption looms over markets with US jobs data on tap - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWUZZSW15R3BDOS12TTNwOVR1eFhlNTV0RktQSkpPMlFrNElmS3ZBY2xQMTJrLUpLRzVPcF9NTGZlaGRBaDJvQmgxdGd4Xzk2Um9MM2RPN3JrZTBIV2g1QzJxLTVoMlRrZzFHVG9yNVJlMkotbkJ0MDdGQ1NSaWRZV3pmTmN1OFVzZHBqUFR5c0xtZ05oYzFXb3UweklzYng5SWNRaENESk5yRGFpeDU5N2FaTVNvNTdTbFE?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "AI가 시장에 미치는 영향",
+      "미국 노동 데이터 주목",
+      "월 스트리트 전망 수미정"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
