@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "부자, 47.6만명 확인",
+      "주식이 더 유망하다고 판단",
+      "부동산 투자 감소 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "프리·애프터마켓 운영 시작",
-      "6월부터 시행 예정",
-      "시장 유동성 증가 기대"
+      "6월부터 프리·애프터마켓 운영",
+      "시장 확대 기대감",
+      "투자자 편의성 증대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
-    "publisher": "포브스코리아",
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "모바일 금융 급성장",
-      "디지털 은행 인기 상승",
-      "핀테크 혁신 지속"
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "경제 전망 긍정적이나 우려도 존재"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 주식시장 상승",
-      "세금 감면 정책의 영향",
-      "경제 성장률 증가"
+      "트럼프 행정부의 주식시장 분석",
+      "U.S.은행의 견해",
+      "경제 성장 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -55,12 +55,12 @@
   {
     "title": "2026년 미국 주식 시장 로테이션을 주도하는 6가지 주식 - Morningstar Canada",
     "original_title": "6 Stocks Driving the 2026 US Stock Market Rotation - Morningstar Canada",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWVNNU0s4MnkyTjdsTllBVGJURE53QUhPSm1aWkxJV24yMTlpVXZjYTNfV2lMdFpFN0VDMU0xSmJUSktYY0FlUEtNMHRxRFF6Ul81WDRwdkZXMW90aHVNdTg2N0dUTmsyeTV2OFlpeHNJYV9Jd1ZvQWFlemhnT0loak9CZkI1UmNEc2hvcDlvcTQ0S1BS?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식시장 주도 주식 6종",
-      "시장 변화에 대한 주요 기업",
-      "투자자에게 긍정적 신호"
+      "2026년 주식 시장 변화 주도",
+      "주요 6개 주식 소개",
+      "투자자들에게 기회 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "주요 경제 지표 발표 예정",
-      "시장 전망 분석 필요",
-      "정책 변화 주의 필요"
+      "경제 주요 지표 발표 예정",
+      "금리 변화 주목",
+      "소비자 신뢰 조사 결과"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
