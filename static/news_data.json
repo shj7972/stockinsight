@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리의 경제 정책 강조",
-      "재정 안정성 확보 계획",
-      "성장 동력 강화를 위한 노력"
+      "경제 정책 방향 제시",
+      "재정 안정성 강조",
+      "성장 촉진 전략 개발"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -18,11 +18,11 @@
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 투자 유망",
-      "한국 경제 성장 가능성 주목"
+      "주식 시장, 부동산보다 유망",
+      "투자자들 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 도입",
-      "6월부터 운영 예정",
-      "투자자 편의성 증대 기대"
+      "한국거래소, 프리·애프터마켓 운영",
+      "6월부터 시행 예정",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 기간 주식 상승",
-      "감세 정책 효과 나타남",
-      "경제 성장률 개선 다짐"
+      "트럼프 행정부의 주식 시장 영향",
+      "경제 정책 변화 분석",
+      "투자자 신뢰도 증가 트렌드"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3N1dLcGVFNi1nYVBlVENzaGpxcHFiRVowakt0UDBkN2RtYTF2OHBlOVNfOC1pSXNoWGdpN2FxNHZDcExvZ21KZjVrZkh3aGZvaHVDeFhCeUdRdmVwWGc4SnlSOWE0OHNGbFhGRThyTko3QzFzWDNFbUZR0gF_QVVfeXFMT1g3YXdPS2hPVUlSbThFM2VxOF9OM0ZqWW5IVl8tWjM1R3JLMElJXzhpNkFCWldPWDRVaWduOF9YaWdVVndRR0FEQ2QzT0UzbWFQdDNUS2Q3QjdNV0hia3Z4Vm1tVmhVdEZMcEhSR1Bndld3aUUwcDBlaGVhVnd6bw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "이란 공격, 유가 불안정 초래",
-      "세계 경제에 부정적 영향",
-      "공급망 혼란 가능성"
+      "이란 공격이 유가에 영향 미칠 것",
+      "국제 경제 불확실성 증가",
+      "발생할 수 있는 공급 차질 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3ZSX09pUkVJbm05amh0VS11QXNDcUdPUWtidG5Ka3V4ZXEzZW9mWVVTUmtpSjdmN3ZKd0dBcGhCRmFUZjFvM1JTSzRPTVllVUtMSG0xdmRqR2NtT3FyTEZ4dTJxenNERjdKZzN4LU11ZkE3RVhXSEQ4Nkt5NmFWZXZhOGFGaFhUMzRGdFJDdTY3OEUy?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "2026년 주식 시장의 변화",
-      "6개 주요 주식 소개",
-      "투자자에게 기회 제공"
+      "2026년 주식시장 변화 주도할 주식",
+      "Morningstar 분석에 따른 기대감",
+      "성장 가능성 높은 6개 주식"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
