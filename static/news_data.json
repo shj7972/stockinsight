@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "주식이 부동산보다 더 유망",
-      "투자 선호 변화 감지됨"
+      "금융자산 10억 이상 47.6만명",
+      "부동산보다 주식 선호 증가",
+      "부자 증가 추세 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "프리·애프터마켓 운영 계획",
-      "6월부터 시작 예정",
-      "한국거래소의 새로운 시도"
+      "6월부터 프리·애프터마켓 운영",
+      "한국거래소의 시장 확대",
+      "더 많은 거래 기회 제공"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
     "publisher": "포브스코리아",
     "summary": [
-      "모바일 금융 서비스 증가",
-      "핀테크 혁신 사례 소개",
-      "투자 활성화 전망"
+      "모바일 금융 성장세 지속",
+      "핀테크 투자 증가",
+      "사용자 증가와 혁신 확대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3N1dLcGVFNi1nYVBlVENzaGpxcHFiRVowakt0UDBkN2RtYTF2OHBlOVNfOC1pSXNoWGdpN2FxNHZDcExvZ21KZjVrZkh3aGZvaHVDeFhCeUdRdmVwWGc4SnlSOWE0OHNGbFhGRThyTko3QzFzWDNFbUZR0gF_QVVfeXFMT1g3YXdPS2hPVUlSbThFM2VxOF9OM0ZqWW5IVl8tWjM1R3JLMElJXzhpNkFCWldPWDRVaWduOF9YaWdVVndRR0FEQ2QzT0UzbWFQdDNUS2Q3QjdNV0hia3Z4Vm1tVmhVdEZMcEhSR1Bndld3aUUwcDBlaGVhVnd6bw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "이란 공격으로 유가 상승 우려",
-      "글로벌 경제 불안정성 증가",
-      "석유 공급 차질 가능성"
+      "글로벌 유가 불안 증가",
+      "경제 성장 저해 우려",
+      "정치적 긴장 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "경제와 시장의 불일치 경고",
-      "상황 악화 가능성 제기",
-      "투자자들의 주의 필요"
+      "시장과 경제 간 괴리 증가",
+      "전문가의 경고",
+      "이에 따른 불확실성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "뉴욕 증권 거래소 | 뉴욕 증권 거래소 - 뉴욕 증권 거래소",
-    "original_title": "The New York Stock Exchange | NYSE - NYSE",
-    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-    "publisher": "NYSE",
+    "title": "경제 부문 성과 대시보드 - Yahoo Finance",
+    "original_title": "Economic Sector Performance Dashboards - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1aZHRnWXJQdlUwdmU4ZExFUzhEVXA5TXBHSFBsNS15TzJCSWtfMGRtU09HNENQMl9mTzlBenQyVmtTOFBKaFJDQ2ZB?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "뉴욕증권거래소 개요",
-      "거래소 관련 정보",
-      "시장 흐름 검토"
+      "경제 부문 성과 대시보드 소개",
+      "시장 동향 분석 제공",
+      "투자 결정 지원 기능"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
