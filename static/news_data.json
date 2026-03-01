@@ -4,22 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범",
-      "2026년 경제 비약 예고",
-      "경제 성장 기대감 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 정책 방향 명확함",
-      "시장 안정 기대",
-      "국제 협력 강조"
+      "경제부처 공식 출범",
+      "2026년 경제 도약 예정",
+      "긍정적 변화 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "경제 회복 기대감 반영"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "트럼프 행정부와 시장 변화",
-      "주식 시장의 성장 가능성",
-      "경제 정책의 영향력"
+      "한국 경제, 내년 2.1% 성장 전망",
+      "회복세는 미약할 것",
+      "시장 불확실성 지속"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
   },
   {
     "title": "이란 전쟁은 세계 경제에 어떤 영향을 미칠까? - 파이낸셜 타임즈",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ha3JROGZ5THNJeEc3ZmZLTGJlc0dESmdVUUNTd2VVcm01VHlTOGxjbTBDb3FjVFRQTUEwSXpoaEp6YW9LUjFaX2pLZHJnS0REUUMxWFhiSTIxc3NRUWk0WmtXTnpWQ1dwM3phU3RxZDg?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "전쟁, 원유 가격 상승 가능성",
-      "글로벌 공급망 불안정 심화",
-      "경제 성장률 저하 우려"
+      "이란 전쟁, 유가 상승 우려",
+      "글로벌 무역 혼란 가능성",
+      "경제 성장 둔화 위험"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "뉴욕 증권 거래소 | 뉴욕 증권 거래소 - 뉴욕 증권 거래소",
-    "original_title": "The New York Stock Exchange | NYSE - NYSE",
-    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-    "publisher": "NYSE",
+    "title": "이란 공습과 호르무즈 해협 폐쇄로 유가 급등 예상 - The Guardian",
+    "original_title": "Oil price expected to surge after Iran strikes and strait of Hormuz closure - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSWdWSng4cFZMQWNQWUFLbzlkdlItNnFIYlNCVDdwU1laeEhQdWFXeHZyS0NydzRoUEZRU1lMa29Cb2FOdE1ITnBlWkc1S2ctbHBpSVV1S1BubEtUcUpSWmg5WkF1OEZ2YnVZMEQyLXdzSENNVGxTcXVObGs0bE1FbDN5LW5ld3MtelpUWHZ4YlR0R29KOGUyT0lGZw?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "뉴욕 증권 거래소 정보",
-      "NYSE의 중요성",
-      "주식 시장 전망"
+      "Iran 공격으로 유가 급등 예상",
+      "호르무즈 해협 폐쇄",
+      "시장 불안 요소 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "미국의 소비자 지출 - U.S. Bank",
+    "original_title": "Consumer Spending in the U.S. - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUEzQllRWVp1STZrOWdtMXFiUnppQ1B2X2k2TTYwUkRuVC1ESVRMVTBNRXNadHpVZzlIOE9naTY2XzJHS2YweWtqaXpZVGMwbjZzNWhlYU82NWZaNzNidzg4NnF5T1JxTDdYZHpLQ200NkhKYmM1SGx2UEgwajI0aDFkR1pGVkUwLW9iNDdjZ2k0bXNx?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "소비자 지출 증가 추세",
+      "경제 성장 예상",
+      "소비 심리 개선"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
