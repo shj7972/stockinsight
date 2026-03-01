@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범 공식 발표",
-      "2026년 경제 도약 약속",
-      "경제 성장 기대감 고조"
+      "경제산업부 공식 출범",
+      "2026년 경제 비상 선언",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 전망",
+      "투자자들의 관심이 주식으로 이동 중"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제는 성장 중",
-      "환율 하락 공식 깨짐",
-      "시장 변동성 우려"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세는 미약하다고 평가",
+      "전반적으로 부정적 시각"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ha3JROGZ5THNJeEc3ZmZLTGJlc0dESmdVUUNTd2VVcm01VHlTOGxjbTBDb3FjVFRQTUEwSXpoaEp6YW9LUjFaX2pLZHJnS0REUUMxWFhiSTIxc3NRUWk0WmtXTnpWQ1dwM3phU3RxZDg?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "전쟁의 영향으로 유가 상승 우려",
-      "글로벌 공급망 혼잡 가능성",
-      "중동의 불안정성 증가"
+      "전쟁으로 원자재 가격 상승",
+      "거시경제 불확실성 증대",
+      "글로벌 공급망 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "시장과 경제가 '점점 더 단절되고 있다'고 최고의 경제학자가 경고 - Fortune",
+    "title": "시장과 경제는 '점점 더 단절되고 있다'고 최고 경제학자가 경고 - Fortune",
     "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "시장과 경제의 단절 증가 경고",
-      "경제와 주식市場의 괴리",
-      "인플레이션 우려 여전"
+      "시장과 경제 간 괴리 증가",
+      "전문가의 경고",
+      "경제 데이터 신뢰도 저하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
     "publisher": "NYSE",
     "summary": [
-      "뉴욕증권거래소 소개",
-      "종목 거래 정보 제공",
-      "시장 동향 분석"
+      "뉴욕 증권거래소 소개",
+      "NYSE 관련 정보",
+      "거래소 운영 소식"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
