@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "한국 부자 47.6만명 증가",
-      "주식 투자 유망성 강조",
-      "부동산 투자 비중 감소"
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소 프리마켓 운영 예정",
-      "애프터마켓 도입 계획",
-      "6월부터 시행 추진"
+      "6월부터 프리·애프터마켓 운영",
+      "한국거래소 계획 발표",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +30,41 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
     "publisher": "포브스코리아",
     "summary": [
-      "모바일 금융 혁신 확대",
-      "모바일 결제 증가 추세",
-      "핀테크 기업 성장 주목"
+      "모바일 금융 서비스 급성장",
+      "핀테크 혁신 이끌며 경쟁 심화",
+      "디지털 결제 확대 추세"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 주식시장 분석",
+      "우호적인 경제 정책들 소개",
+      "주가 상승 세 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁은 세계 경제에 어떤 영향을 미칠까? - 파이낸셜 타임즈",
+    "original_title": "What will war in Iran do to the global economy? - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ha3JROGZ5THNJeEc3ZmZLTGJlc0dESmdVUUNTd2VVcm01VHlTOGxjbTBDb3FjVFRQTUEwSXpoaEp6YW9LUjFaX2pLZHJnS0REUUMxWFhiSTIxc3NRUWk0WmtXTnpWQ1dwM3phU3RxZDg?oc=5",
+    "publisher": "Financial Times",
+    "summary": [
+      "전쟁, 원유 가격 상승 우려",
+      "글로벌 무역에 미치는 영향",
+      "투자자 불안 심화"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "이란에 대한 공격이 세계 석유 시장과 경제에 어떤 영향을 미칠 수 있는지 - CNBC",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3N1dLcGVFNi1nYVBlVENzaGpxcHFiRVowakt0UDBkN2RtYTF2OHBlOVNfOC1pSXNoWGdpN2FxNHZDcExvZ21KZjVrZkh3aGZvaHVDeFhCeUdRdmVwWGc4SnlSOWE0OHNGbFhGRThyTko3QzFzWDNFbUZR0gF_QVVfeXFMT1g3YXdPS2hPVUlSbThFM2VxOF9OM0ZqWW5IVl8tWjM1R3JLMElJXzhpNkFCWldPWDRVaWduOF9YaWdVVndRR0FEQ2QzT0UzbWFQdDNUS2Q3QjdNV0hia3Z4Vm1tVmhVdEZMcEhSR1Bndld3aUUwcDBlaGVhVnd6bw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "이란 공격, 석유 가격 상승 가능성",
-      "세계 경제 불안 요인",
-      "에너지 공급망에 영향 미침"
+      "이란 공격, 유가 상승 부작용",
+      "글로벌 공급망 불안정 초래",
+      "경제 성장 둔화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "시장과 경제가 '점점 더 단절되고 있다'고 최고의 경제학자가 경고 - Fortune",
-    "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "시장과 경제의 괴리 심화",
-      "전문가 경고",
-      "시장 반응 약세"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "뉴욕 증권 거래소 | 뉴욕 증권 거래소 - 뉴욕 증권 거래소",
-    "original_title": "The New York Stock Exchange | NYSE - NYSE",
-    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-    "publisher": "NYSE",
-    "summary": [
-      "뉴욕증권거래소 소개",
-      "NYSE 및 관련 정보",
-      "시장 동향 없음"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
