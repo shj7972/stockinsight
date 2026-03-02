@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범",
-      "2026년 경제 비상 선언",
-      "경제 성장 기대감 고조"
+      "경제부처 공식 출범",
+      "2026년 경제 도약 예고",
+      "긍정적 경제 정책 추진"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자는 47.6만명으로 증가",
-      "부동산 보다 주식 유망",
-      "금융자산 10억 이상 보유"
+      "한국 부자 47.6만명 보유",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것으로 예상",
+      "전반적인 경제 outlook 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeWpCeHoyRlV1bWxtaS1EeG1aSDdrREVNNnRWLUxMeEJETnFkTEltVy14R1ExOVdFZm9jRzAwLUlYQjh0WlNvREZUQkxxX2RaNEhVVlZpYWZyeUJFX0NDZWNobXpXc051TU5kR1VVZVdVamlpakh2Z2x3bUhKMGZ0YzE0bHQ2bmc0ck9HWlpKc3BKUjVnS1UweE1EaHBld9IBowFBVV95cUxQT1UxN1d1UnBoNmo0Rk1GakwwbDA3anpnRFhndUNBbHVGTzNrblVIT3oyMUF2WVJCMzhiR2RhczFqVmlBWnoyUWlYVWY0ZkhvZmVzS1d5WHNmbUg5bUZ6WFo1ejlabFBzY0NWaGFYU2trSW9uMFFhR0cxVHpPelRXQUdoemJBcXJkV203Zlgwb01pdlNzTEc5X3lVNVlUclY2WUU0?oc=5",
     "publisher": "ABC7 San Francisco",
     "summary": [
-      "미국 주식시장 하락",
-      "중동 전쟁으로 유가 급등",
-      "고물가 우려 증가"
+      "미국 주식 하락",
+      "유가 상승",
+      "중동 전쟁으로 인플레 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 시장 급락과 반등",
-      "미국-이스라엘 군사 공격",
-      "경제 불확실성 증대"
+      "글로벌 시장 변동성 확대",
+      "미국-이스라엘 공격 발생",
+      "여파로 투자자 불안 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3RjRFlCTFZkVVBNX2tUODVKOW9HbDdxcHFJUHRSUk14NmxOWjI1UFota1ZwT1ZyS1lOZU5XUXBINGV4blREMGxXY3czOC1zOHBVUUpkVm1WcU92RjZRYWp4bGwzU2ktdnZtbUJ0VEQwUHNIQVNBUXAyUUVlSnVkMHpZUE9lYi03Sk5MRTFCeW1jRU4xTFNRTUtCQXNKUmtHWHRCOWlGMk5aWmVDWlE?oc=5",
     "publisher": "Bloomberg.com",
     "summary": [
-      "미국-이란 전쟁으로 주가 하락",
-      "브렌트유 80달러에 근접",
-      "시장 불안정성 증가"
+      "주식 시장 감소",
+      "US-Iran 전쟁 영향",
+      "브렌트유 80달러 근접"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
