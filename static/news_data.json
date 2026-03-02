@@ -4,22 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범",
-      "2026년 경제 비상 선언",
-      "성장 목표 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 전략 제시",
-      "정책 방향성 강조",
-      "시장 안정 목표"
+      "경제부, 공식 출범",
+      "2026년 경제 비전 발표",
+      "경제 성장 기대감 고취"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,51 +17,64 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "금융자산 10억 이상 보유",
-      "주식이 부동산보다 유망"
+      "한국 부자 47.6만명 추산",
+      "주식이 더 유망하다고 분석",
+      "부동산 투자 매력 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "투자자들은 이란에 대한 미국-이스라엘의 공격에 대한 주식시장의 반응에 대비하고 있습니다 - The New York Times",
-    "original_title": "Investors Brace for Stock Market’s Reaction to U.S.-Israel Attack on Iran - The New York Times",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것",
+      "경제 상황 여전히 불확실"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "미국-이스라엘의 이란 공격 이후 글로벌 주식시장 하락 - The New York Times",
+    "original_title": "Global Stock Markets Fall After U.S.-Israel Attack on Iran - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "투자자, 이란 공격 반응 주시",
-      "주식 시장 불안정성 우려",
-      "전쟁 리스크에 대한 경계 강화"
+      "글로벌 주식시장 하락",
+      "이스라엘-미국 공격 영향",
+      "투자자 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국-이란 전쟁으로 브렌트유가 80달러로 상승하면서 주가 폭락: 시장 마감 - Bloomberg",
-    "original_title": "Stocks Slump as US-Iran War Lifts Brent Toward $80: Markets Wrap - Bloomberg",
+    "title": "미국-이란 전쟁으로 브렌트유가 80달러로 상승하면서 주가 폭락: 시장 마감 - Bloomberg.com",
+    "original_title": "Stocks Slump as US-Iran War Lifts Brent Toward $80: Markets Wrap - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3RjRFlCTFZkVVBNX2tUODVKOW9HbDdxcHFJUHRSUk14NmxOWjI1UFota1ZwT1ZyS1lOZU5XUXBINGV4blREMGxXY3czOC1zOHBVUUpkVm1WcU92RjZRYWp4bGwzU2ktdnZtbUJ0VEQwUHNIQVNBUXAyUUVlSnVkMHpZUE9lYi03Sk5MRTFCeW1jRU4xTFNRTUtCQXNKUmtHWHRCOWlGMk5aWmVDWlE?oc=5",
-    "publisher": "Bloomberg",
+    "publisher": "Bloomberg.com",
     "summary": [
       "주식 시장 하락",
-      "미국-이란 전쟁 우려",
-      "브렌트유 80달러 접近"
+      "브렌트유 80달러에 접근",
+      "미국-이란 전쟁 영향"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "UAE가 증권거래소를 폐쇄한 이유는 무엇입니까? - 알 자지라",
+    "title": "UAE가 증권거래소를 폐쇄한 이유는 무엇입니까? - 알자지라",
     "original_title": "Why has the UAE closed its stock exchanges? - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXdyejhzaExybUF4QktKNVl2TExpNU9YdHpsY0h1U01WRHBHZ3IxV0FKa2NyMzg1NzFZdzNjYW5USGNPMjNySmQzYkRscExReWR5OHhyd2N0WkNjNlMyZGJUSFA5ZmFhSzNBaGNYRXYta3FGMWVuNHAyWGUwQVg3MXkweXBDcWxMVEZFTlFn0gGTAUFVX3lxTE56UU5kbWxhTFo1MlRVNWFWWTBrMUEwWTlSZk1DVlpZWnozU3c0d3dMelRERUlrdHp2N0NybjhvcDd4LXZWOGczUEFiejBRZGxSOGJKNGRsVHhRTGNONVhiOXh3Wnpka2RJb2xTdmZLbVdWd3lvQWdhWmdxUDhVLW9wWDNMamQ2QXByeGVrQ0RJZjNxWQ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "UAE 증시 폐쇄 이유 분석",
-      "시장 불안정성 반응",
-      "경제에 미치는 영향 우려"
+      "UAE 주식 시장 일시 폐쇄",
+      "시장 안정화 위한 조치",
+      "투자자 우려 해소의 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
