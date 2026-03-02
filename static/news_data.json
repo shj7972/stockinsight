@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부처 공식 출범",
-      "2026년 경제 도약 약속",
-      "미래 성장 기대감 증대"
+      "경제부 출범",
+      "2026년 경제 비상 선언",
+      "경제 성장 기대감 고조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만 명, 금융자산 10억 이상",
-      "부동산보다 주식이 더 유망",
-      "주식 투자 증가 추세"
+      "부자는 47.6만명으로 증가",
+      "부동산 보다 주식 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,51 +30,51 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
+      "내년 한국 경제 2.1% 성장 예상",
       "회복세는 미약할 것",
-      "경제 불확실성 여전"
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "중동 전쟁으로 높은 인플레이션에 대한 우려가 높아지면서 미국 주식은 하락하고 유가는 급등했습니다. - ABC7 시카고",
-    "original_title": "US stocks slip and oil prices leap as war in the Middle East raises worries about high inflation - ABC7 Chicago",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUJMLVF2aHBPZGtJbHpWUlY3a3YyMS1Vb2pPbVBlcFVNVENvWkl0ckJISG5lOUxHLTVzdG5oclBaQ3hkVy1FN0huTUxGVjU2N0pfVVZubTFFRHJITW9JUFlkS216dEh0cUlzajVOTnZBSlhKUnRuZWxWRDFENzVlNDBWS3AzN0M1ckpUb3VjSG9xaU5LU3h3VVRxTWE0eU10dXfSAacBQVVfeXFMTmtQSy1lbFctNG1CLWFWcEpSUnpsUGRaS2FacVE4WVpON0prbUUybUthQ2tmWjNfa3JSOUFlb2FCTWdqbllKdHdvZHAyRTV0NHJtVERCUmNDUWNCa19McmtkQXBGeFRuSWpiaEt4R0xsYkNGZHcxY1NUbXliV01zakx6dXYyMWsxUVpSNzhGT2dycW9RMk1PMGFkRlB2QkxycldOaUdvZ00?oc=5",
-    "publisher": "ABC7 Chicago",
+    "title": "중동 전쟁으로 높은 인플레이션에 대한 우려가 높아지면서 미국 주식은 하락하고 유가는 급등했습니다. - ABC7 샌프란시스코",
+    "original_title": "US stocks slip and oil prices leap as war in the Middle East raises worries about high inflation - ABC7 San Francisco",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeWpCeHoyRlV1bWxtaS1EeG1aSDdrREVNNnRWLUxMeEJETnFkTEltVy14R1ExOVdFZm9jRzAwLUlYQjh0WlNvREZUQkxxX2RaNEhVVlZpYWZyeUJFX0NDZWNobXpXc051TU5kR1VVZVdVamlpakh2Z2x3bUhKMGZ0YzE0bHQ2bmc0ck9HWlpKc3BKUjVnS1UweE1EaHBld9IBowFBVV95cUxQT1UxN1d1UnBoNmo0Rk1GakwwbDA3anpnRFhndUNBbHVGTzNrblVIT3oyMUF2WVJCMzhiR2RhczFqVmlBWnoyUWlYVWY0ZkhvZmVzS1d5WHNmbUg5bUZ6WFo1ejlabFBzY0NWaGFYU2trSW9uMFFhR0cxVHpPelRXQUdoemJBcXJkV203Zlgwb01pdlNzTEc5X3lVNVlUclY2WUU0?oc=5",
+    "publisher": "ABC7 San Francisco",
     "summary": [
-      "미국 주식 하락",
-      "유가 급등",
-      "중동 전쟁 우려"
+      "미국 주식시장 하락",
+      "중동 전쟁으로 유가 급등",
+      "고물가 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국-이스라엘의 이란 공격 이후 글로벌 주식시장 하락 - The New York Times",
-    "original_title": "Global Stock Markets Fall After U.S.-Israel Attack on Iran - The New York Times",
+    "title": "미국-이스라엘의 이란 공격 이후 글로벌 시장이 휘청거렸다 - The New York Times",
+    "original_title": "Global Markets Whipsaw After U.S.-Israel Attack on Iran - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 주식시장 하락",
-      "미국-이스라엘의 이란 공격",
-      "긴장감 확대"
+      "글로벌 시장 급락과 반등",
+      "미국-이스라엘 군사 공격",
+      "경제 불확실성 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "UAE가 증권거래소를 폐쇄한 이유는 무엇입니까? - 알 자지라",
-    "original_title": "Why has the UAE closed its stock exchanges? - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXdyejhzaExybUF4QktKNVl2TExpNU9YdHpsY0h1U01WRHBHZ3IxV0FKa2NyMzg1NzFZdzNjYW5USGNPMjNySmQzYkRscExReWR5OHhyd2N0WkNjNlMyZGJUSFA5ZmFhSzNBaGNYRXYta3FGMWVuNHAyWGUwQVg3MXkweXBDcWxMVEZFTlFn0gGTAUFVX3lxTE56UU5kbWxhTFo1MlRVNWFWWTBrMUEwWTlSZk1DVlpZWnozU3c0d3dMelRERUlrdHp2N0NybjhvcDd4LXZWOGczUEFiejBRZGxSOGJKNGRsVHhRTGNONVhiOXh3Wnpka2RJb2xTdmZLbVdWd3lvQWdhWmdxUDhVLW9wWDNMamQ2QXByeGVrQ0RJZjNxWQ?oc=5",
-    "publisher": "Al Jazeera",
+    "title": "미국-이란 전쟁으로 브렌트유가 80달러로 상승하면서 주가 폭락: 시장 마감 - Bloomberg.com",
+    "original_title": "Stocks Slump as US-Iran War Lifts Brent Toward $80: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3RjRFlCTFZkVVBNX2tUODVKOW9HbDdxcHFJUHRSUk14NmxOWjI1UFota1ZwT1ZyS1lOZU5XUXBINGV4blREMGxXY3czOC1zOHBVUUpkVm1WcU92RjZRYWp4bGwzU2ktdnZtbUJ0VEQwUHNIQVNBUXAyUUVlSnVkMHpZUE9lYi03Sk5MRTFCeW1jRU4xTFNRTUtCQXNKUmtHWHRCOWlGMk5aWmVDWlE?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "UAE 증시가 왜 폐쇄되었나?",
-      "시장 안정성 우려",
-      "투자자의 불안감 증가"
+      "미국-이란 전쟁으로 주가 하락",
+      "브렌트유 80달러에 근접",
+      "시장 불안정성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
