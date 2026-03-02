@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제재정부 공식 출범",
-      "2026년 경제 비상 계획",
-      "경제 성장에 대한 기대 감지"
+      "경제금융부 공식 출범",
+      "2026년 경제 이륙 약속",
+      "긍정적인 경제 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "한국의 부자는 47.6만명",
+      "금융자산 10억원 이상",
+      "부동산보다 주식이 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세가 미약하다고 지적",
-      "금융연 발표 내용"
+      "내년 한국 성장률 2.1% 예상",
+      "경제 회복세 미약",
+      "전반적 전망 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,23 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "미국-이스라엘 이란 공격 소식",
-      "글로벌 주식시장 하락세",
-      "투자자들 우려 증대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국-이란 전쟁으로 브렌트유가 80달러로 상승하면서 주가 폭락: 시장 마감 - Bloomberg",
-    "original_title": "Stocks Slump as US-Iran War Lifts Brent Toward $80: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3RjRFlCTFZkVVBNX2tUODVKOW9HbDdxcHFJUHRSUk14NmxOWjI1UFota1ZwT1ZyS1lOZU5XUXBINGV4blREMGxXY3czOC1zOHBVUUpkVm1WcU92RjZRYWp4bGwzU2ktdnZtbUJ0VEQwUHNIQVNBUXAyUUVlSnVkMHpZUE9lYi03Sk5MRTFCeW1jRU4xTFNRTUtCQXNKUmtHWHRCOWlGMk5aWmVDWlE?oc=5",
-    "publisher": "Bloomberg",
-    "summary": [
-      "주식 시장 하락",
-      "미국-이란 전쟁 영향",
-      "브렌트유 $80 근접"
+      "글로벌 주식시장 하락",
+      "미국-이스라엘 이란 공격",
+      "투자자 불안 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXdyejhzaExybUF4QktKNVl2TExpNU9YdHpsY0h1U01WRHBHZ3IxV0FKa2NyMzg1NzFZdzNjYW5USGNPMjNySmQzYkRscExReWR5OHhyd2N0WkNjNlMyZGJUSFA5ZmFhSzNBaGNYRXYta3FGMWVuNHAyWGUwQVg3MXkweXBDcWxMVEZFTlFn0gGTAUFVX3lxTE56UU5kbWxhTFo1MlRVNWFWWTBrMUEwWTlSZk1DVlpZWnozU3c0d3dMelRERUlrdHp2N0NybjhvcDd4LXZWOGczUEFiejBRZGxSOGJKNGRsVHhRTGNONVhiOXh3Wnpka2RJb2xTdmZLbVdWd3lvQWdhWmdxUDhVLW9wWDNMamQ2QXByeGVrQ0RJZjNxWQ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "UAE 주식 시장 폐쇄 이유",
-      "경제에 미치는 영향",
-      "투자자 우려 증대"
+      "UAE 증시 폐쇄 이유",
+      "경제적 영향 분석",
+      "투자자 반응 조사"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 증시 변화",
+      "정책의 영향 분석",
+      "투자자 신뢰도 상승"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
