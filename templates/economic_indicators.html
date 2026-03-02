@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
-{% block title %}경제지표 대시보드 - Stock Insight AI{% endblock %}
-{% block meta_description %}미국 주요 경제지표(Fed 금리, CPI, 국채, VIX, SOX 등) 상관관계 분석 및 AI 예측 모델 대시보드{% endblock %}
+{% block title %}경제지표 대시보드 | Fed 금리·CPI·VIX 실시간 분석 + AI 예측{% endblock %}
+{% block meta_description %}Fed 금리, CPI, 국채, VIX 등 주요 경제지표 상관관계 분석 및 AI 주가 방향 예측! 투자 판단에 필요한 데이터를 한눈에 확인하세요{% endblock
+%}
 {% block og_title %}경제지표 대시보드 - Stock Insight AI{% endblock %}
 {% block og_description %}Fed 금리, CPI, 10년 국채, VIX, SOX 반도체지수 등 11개 경제지표 상관관계 분석 및 다음 달 시장 방향 AI 예측{% endblock %}
 {% block canonical_path %}/economic-indicators{% endblock %}
@@ -55,7 +56,8 @@
     </h4>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
         {% for ind in indicators_display %}
-        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 0.9rem 1rem;">
+        <div
+            style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 0.9rem 1rem;">
             <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.35rem;">
                 <span style="font-size: 1.1rem;">{{ ind.icon }}</span>
                 <span style="color: #94a3b8; font-size: 0.78rem; font-weight: 500;">{{ ind.label }}</span>
@@ -64,10 +66,12 @@
             <div style="font-size: 1.25rem; font-weight: 700; color: #f1f5f9;">
                 {% if ind.unit == '$' %}${% endif %}
                 {{ "%.2f"|format(ind.current) }}
-                {% if ind.unit and ind.unit != '$' %}<span style="font-size: 0.8rem; color: #64748b; margin-left: 2px;">{{ ind.unit }}</span>{% endif %}
+                {% if ind.unit and ind.unit != '$' %}<span
+                    style="font-size: 0.8rem; color: #64748b; margin-left: 2px;">{{ ind.unit }}</span>{% endif %}
             </div>
             {% if ind.change is not none %}
-            <div style="font-size: 0.8rem; margin-top: 0.2rem; color: {% if ind.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+            <div
+                style="font-size: 0.8rem; margin-top: 0.2rem; color: {% if ind.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
                 {{ "%+.2f"|format(ind.change) }}
                 {% if ind.change_pct is not none %}({{ "%+.1f"|format(ind.change_pct) }}%){% endif %}
             </div>
@@ -93,13 +97,15 @@
     </p>
 
     <!-- 지수별 예측 카드 -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+    <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
         {% for pred in index_predictions %}
         <div style="text-align: center;
                     background: rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.07);
                     border: 1px solid {{ pred.direction_color }}44;
                     border-radius: 14px; padding: 1.2rem 0.8rem;">
-            <div style="font-size: 0.8rem; font-weight: 600; color: {{ pred.color }}; margin-bottom: 0.4rem; letter-spacing: 0.03em;">
+            <div
+                style="font-size: 0.8rem; font-weight: 600; color: {{ pred.color }}; margin-bottom: 0.4rem; letter-spacing: 0.03em;">
                 {{ pred.name }}
             </div>
             <div style="font-size: 2.2rem; margin-bottom: 0.3rem;">{{ pred.direction_icon }}</div>
@@ -126,7 +132,8 @@
     </div>
     {% endif %}
 
-    <div style="color: #475569; font-size: 0.75rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.05);">
+    <div
+        style="color: #475569; font-size: 0.75rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.05);">
         ⚠️ 이 예측은 과거 데이터 기반 통계 모델로, 실제 투자 결정에 직접 활용하지 마세요. 참고용으로만 사용하십시오.
     </div>
 </div>
@@ -158,24 +165,31 @@
             {% for row in corr_top_rows %}
             {% if row.stock != ns.last_stock %}
             {% if ns.last_stock != '' %}</div>{% endif %}
-            <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 0.75rem;">
-                <div style="font-size: 0.78rem; font-weight: 700; color: #38bdf8; margin-bottom: 0.5rem;">{{ row.stock }}</div>
+        <div
+            style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 0.75rem;">
+            <div style="font-size: 0.78rem; font-weight: 700; color: #38bdf8; margin-bottom: 0.5rem;">{{ row.stock }}
+            </div>
             {% set ns.last_stock = row.stock %}
             {% endif %}
-                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-                    <span style="font-size: 0.72rem; color: #94a3b8; width: 120px; flex-shrink: 0;">{{ row.indicator }}</span>
-                    <div style="flex: 1; background: rgba(255,255,255,0.05); border-radius: 4px; height: 6px; overflow: hidden;">
-                        <div style="width: {{ row.bar_width }}%; background: {{ row.color }}; height: 100%; border-radius: 4px; opacity: 0.8;"></div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
+                <span style="font-size: 0.72rem; color: #94a3b8; width: 120px; flex-shrink: 0;">{{ row.indicator
+                    }}</span>
+                <div
+                    style="flex: 1; background: rgba(255,255,255,0.05); border-radius: 4px; height: 6px; overflow: hidden;">
+                    <div
+                        style="width: {{ row.bar_width }}%; background: {{ row.color }}; height: 100%; border-radius: 4px; opacity: 0.8;">
                     </div>
-                    <span style="font-size: 0.72rem; font-weight: 700; color: {{ row.color }}; width: 40px; text-align: right;">
-                        {{ row.sign }}{{ "%.2f"|format(row.corr) }}
-                    </span>
                 </div>
-            {% endfor %}
+                <span
+                    style="font-size: 0.72rem; font-weight: 700; color: {{ row.color }}; width: 40px; text-align: right;">
+                    {{ row.sign }}{{ "%.2f"|format(row.corr) }}
+                </span>
             </div>
+            {% endfor %}
         </div>
     </div>
-    {% endif %}
+</div>
+{% endif %}
 </div>
 {% endif %}
 
@@ -195,31 +209,34 @@
 {% endif %}{# end if not error #}
 
 <script>
-{% if heatmap_json %}
-(function() {
-    var heatmapData = {{ heatmap_json | safe }};
+    {% if heatmap_json %}
+    (function () {
+        var heatmapData = {{ heatmap_json | safe
+    }};
     Plotly.newPlot('heatmap-chart', heatmapData.data, heatmapData.layout, {
         responsive: true, displayModeBar: false
     });
-})();
-{% endif %}
+}) ();
+    {% endif %}
 
-{% if trend_json %}
-(function() {
-    var trendData = {{ trend_json | safe }};
+    {% if trend_json %}
+    (function () {
+        var trendData = {{ trend_json | safe
+    }};
     Plotly.newPlot('trend-chart', trendData.data, trendData.layout, {
         responsive: true, displayModeBar: false
     });
-})();
-{% endif %}
+}) ();
+    {% endif %}
 
-{% if feature_importance_json %}
-(function() {
-    var fiData = {{ feature_importance_json | safe }};
+    {% if feature_importance_json %}
+    (function () {
+        var fiData = {{ feature_importance_json | safe
+    }};
     Plotly.newPlot('fi-chart', fiData.data, fiData.layout, {
         responsive: true, displayModeBar: false
     });
-})();
-{% endif %}
+}) ();
+    {% endif %}
 </script>
 {% endblock %}

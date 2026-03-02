@@ -24,10 +24,13 @@
     <meta name="google-adsense-account" content="ca-pub-2947913248390883">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2947913248390883"
         crossorigin="anonymous"></script>
-    <meta name="description" content="{% block meta_description %}Stock Insight AI - 실시간 주식 분석, AI 기반 투자 조언, 글로벌 지수 및 뉴스 감성 분석 플랫폼{% endblock %}">
-    <meta name="keywords" content="{% block meta_keywords %}주식분석, AI투자, 주식차트, 투자조언, 주식뉴스, 감성분석, 실시간지수{% endblock %}">
-    <meta property="og:title" content="{% block og_title %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}AI 기반 실시간 주식 분석 및 투자 조언 서비스{% endblock %}">
+    <meta name="description"
+        content="{% block meta_description %}60개+ 인기 종목 AI 실시간 분석 | 매수·매도 신호, 차트 패턴, 뉴스 감성분석까지 무료 제공 - 지금 확인하세요{% endblock %}">
+    <meta name="keywords"
+        content="{% block meta_keywords %}주식분석, AI주식분석, 무료주식분석, 주식차트, 투자조언, 실시간주가, 매수매도신호, 뉴스감성분석, ETF비교, 수익률계산기{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}주식 AI 분석 | 매수·매도 신호 무료 확인 - Stock Insight AI{% endblock %}">
+    <meta property="og:description"
+        content="{% block og_description %}60개+ 인기 종목 AI 실시간 분석 · 차트 패턴 · 뉴스 감성분석 · 투자 전략까지 무료로 확인하세요{% endblock %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://stock-insight.app{% block og_url %}{% endblock %}">
     <meta property="og:image" content="https://stock-insight.app{{ og_image if og_image else '/static/og-image.png' }}">
@@ -37,9 +40,10 @@
     <link rel="icon" type="image/png" href="/static/favicon.png">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://stock-insight.app{% block canonical_path %}{{ request.url.path }}{% endblock %}">
+    <link rel="canonical"
+        href="https://stock-insight.app{% block canonical_path %}{{ request.url.path }}{% endblock %}">
 
-    <title>{% block title %}Stock Insight AI - 스마트 투자 분석 플랫폼{% endblock %}</title>
+    <title>{% block title %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock Insight AI{% endblock %}</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,6 +81,20 @@
                 "url": "https://stock-insight.app/static/og-image.png"
             }
         }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://stock-insight.app/"
+            }{% block breadcrumb_items %}{% endblock %}
+        ]
     }
     </script>
     {% block structured_data %}{% endblock %}
@@ -143,8 +161,7 @@
                     <div class="logo-line"></div>
                 </a>
                 <!-- Dark/Light Mode Toggle -->
-                <button id="theme-toggle" onclick="toggleTheme()" title="테마 변경"
-                    style="margin-top: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+                <button id="theme-toggle" onclick="toggleTheme()" title="테마 변경" style="margin-top: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
                     border-radius: 20px; padding: 0.35rem 0.75rem; cursor: pointer; color: #94a3b8;
                     font-size: 0.78rem; display: flex; align-items: center; gap: 0.35rem; margin-left: auto; margin-right: auto;
                     transition: all 0.3s;">
@@ -212,8 +229,7 @@
                 <a href="/" class="nav-item {% if request.url.path == '/' %}active{% endif %}">
                     <span>📊</span> 대시보드
                 </a>
-                <a href="/daily-report"
-                    class="nav-item {% if request.url.path == '/daily-report' %}active{% endif %}">
+                <a href="/daily-report" class="nav-item {% if request.url.path == '/daily-report' %}active{% endif %}">
                     <span>📋</span> 일일리포트
                 </a>
                 <a href="/yield-calculator"
@@ -243,16 +259,14 @@
                     class="nav-item {% if request.url.path == '/economic-indicators' %}active{% endif %}">
                     <span>📈</span> 경제지표
                 </a>
-                <a href="/compare"
-                    class="nav-item {% if request.url.path == '/compare' %}active{% endif %}">
+                <a href="/compare" class="nav-item {% if request.url.path == '/compare' %}active{% endif %}">
                     <span>⚖️</span> 종목비교
                 </a>
                 <a href="/portfolio-simulator"
                     class="nav-item {% if request.url.path == '/portfolio-simulator' %}active{% endif %}">
                     <span>💼</span> 포트폴리오
                 </a>
-                <a href="/blog"
-                    class="nav-item {% if '/blog' in request.url.path %}active{% endif %}">
+                <a href="/blog" class="nav-item {% if '/blog' in request.url.path %}active{% endif %}">
                     <span>📝</span> 블로그
                 </a>
             </nav>
@@ -279,8 +293,7 @@
                     <input type="email" id="newsletter-email" placeholder="이메일 주소 입력" required
                         style="flex: 1; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1);
                         border-radius: 10px; color: #f8fafc; padding: 0.5rem 0.75rem; font-size: 0.85rem; box-sizing: border-box;">
-                    <button type="submit"
-                        style="padding: 0.5rem 1.2rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+                    <button type="submit" style="padding: 0.5rem 1.2rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
                         color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer;
                         font-size: 0.82rem; white-space: nowrap;">
                         구독하기
@@ -365,8 +378,8 @@
         };
 
         // Auto-hide loading overlay after 15s to prevent blocking ads
-        window.addEventListener('load', function() {
-            setTimeout(function() {
+        window.addEventListener('load', function () {
+            setTimeout(function () {
                 const overlay = document.getElementById('loading-overlay');
                 if (overlay) overlay.style.display = 'none';
             }, 15000);
@@ -384,10 +397,10 @@
     <!-- Scroll to Top Button -->
     <button class="scroll-top-btn" id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
     <script>
-    window.addEventListener('scroll', function() {
-        const btn = document.getElementById('scroll-top-btn');
-        if (btn) { btn.style.display = window.scrollY > 400 ? 'flex' : 'none'; }
-    });
+        window.addEventListener('scroll', function () {
+            const btn = document.getElementById('scroll-top-btn');
+            if (btn) { btn.style.display = window.scrollY > 400 ? 'flex' : 'none'; }
+        });
     </script>
 
     <!-- Watchlist Logic (localStorage) -->
@@ -494,57 +507,57 @@
 
     <!-- Newsletter Subscription -->
     <script>
-    async function subscribeNewsletter(e) {
-        e.preventDefault();
-        const email = document.getElementById('newsletter-email').value;
-        const resultDiv = document.getElementById('newsletter-result');
-        const form = document.getElementById('newsletter-form');
+        async function subscribeNewsletter(e) {
+            e.preventDefault();
+            const email = document.getElementById('newsletter-email').value;
+            const resultDiv = document.getElementById('newsletter-result');
+            const form = document.getElementById('newsletter-form');
 
-        try {
-            const formData = new FormData();
-            formData.append('email', email);
+            try {
+                const formData = new FormData();
+                formData.append('email', email);
 
-            const resp = await fetch('/api/newsletter', {method: 'POST', body: formData});
-            const html = await resp.text();
-            resultDiv.innerHTML = html;
-            if (resp.ok) {
-                document.getElementById('newsletter-email').value = '';
+                const resp = await fetch('/api/newsletter', { method: 'POST', body: formData });
+                const html = await resp.text();
+                resultDiv.innerHTML = html;
+                if (resp.ok) {
+                    document.getElementById('newsletter-email').value = '';
+                }
+            } catch (err) {
+                resultDiv.innerHTML = '<div style="color:#f87171;font-size:0.82rem;">❌ 네트워크 오류가 발생했습니다.</div>';
             }
-        } catch (err) {
-            resultDiv.innerHTML = '<div style="color:#f87171;font-size:0.82rem;">❌ 네트워크 오류가 발생했습니다.</div>';
         }
-    }
     </script>
 
     <!-- Dark/Light Theme Toggle -->
     <script>
-    function toggleTheme() {
-        const body = document.body;
-        const isLight = body.classList.toggle('light-mode');
-        localStorage.setItem('stock_insight_theme', isLight ? 'light' : 'dark');
-        updateThemeButton(isLight);
-    }
-
-    function updateThemeButton(isLight) {
-        const icon = document.getElementById('theme-icon');
-        const label = document.getElementById('theme-label');
-        if (icon && label) {
-            icon.textContent = isLight ? '☀️' : '🌙';
-            label.textContent = isLight ? '라이트 모드' : '다크 모드';
+        function toggleTheme() {
+            const body = document.body;
+            const isLight = body.classList.toggle('light-mode');
+            localStorage.setItem('stock_insight_theme', isLight ? 'light' : 'dark');
+            updateThemeButton(isLight);
         }
-    }
 
-    // Apply saved theme on load
-    (function() {
-        const saved = localStorage.getItem('stock_insight_theme');
-        if (saved === 'light') {
-            document.body.classList.add('light-mode');
-            // Update button after DOM is ready
-            document.addEventListener('DOMContentLoaded', function() {
-                updateThemeButton(true);
-            });
+        function updateThemeButton(isLight) {
+            const icon = document.getElementById('theme-icon');
+            const label = document.getElementById('theme-label');
+            if (icon && label) {
+                icon.textContent = isLight ? '☀️' : '🌙';
+                label.textContent = isLight ? '라이트 모드' : '다크 모드';
+            }
         }
-    })();
+
+        // Apply saved theme on load
+        (function () {
+            const saved = localStorage.getItem('stock_insight_theme');
+            if (saved === 'light') {
+                document.body.classList.add('light-mode');
+                // Update button after DOM is ready
+                document.addEventListener('DOMContentLoaded', function () {
+                    updateThemeButton(true);
+                });
+            }
+        })();
     </script>
 
     {% block extra_scripts %}{% endblock %}

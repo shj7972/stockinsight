@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ report_date }} 일일 시장 리포트 - Stock Insight AI{% endblock %}
+{% block title %}{{ report_date }} 일일 시장 리포트 | AI 시장 요약·투자 전략 - 무료{% endblock %}
 
 {% block meta_description %}{{ report_date }} AI 일일 시장 요약 리포트 - 주요 지수, 섹터 동향, 시장 심리, AI 투자 인사이트를 한눈에 확인하세요{% endblock %}
 
@@ -58,7 +58,8 @@
             <p style="color: #94a3b8; font-size: 0.8rem; margin: 0;">{{ report_date }} 기준 | 매일 자동 업데이트</p>
         </div>
         <div style="display: flex; gap: 0.5rem;">
-            <button onclick="shareDailyReport()" class="share-btn" style="margin: 0; padding: 0.5rem 1rem; font-size: 0.85rem;">
+            <button onclick="shareDailyReport()" class="share-btn"
+                style="margin: 0; padding: 0.5rem 1rem; font-size: 0.85rem;">
                 🔗 공유하기
             </button>
         </div>
@@ -79,27 +80,26 @@
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
         {% for idx in indices %}
-        <a href="/stock/{{ idx.ticker }}"
-           style="text-decoration:none; display:flex; flex-direction:column; align-items:center;
+        <a href="/stock/{{ idx.ticker }}" style="text-decoration:none; display:flex; flex-direction:column; align-items:center;
                   background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
                   border-radius: 12px; padding: 0.65rem 0.85rem; min-width: 130px; flex: 1;
-                  transition: border-color 0.2s;"
-           onmouseover="this.style.borderColor='rgba(56,189,248,0.35)'"
-           onmouseout="this.style.borderColor='rgba(255,255,255,0.06)'">
+                  transition: border-color 0.2s;" onmouseover="this.style.borderColor='rgba(56,189,248,0.35)'"
+            onmouseout="this.style.borderColor='rgba(255,255,255,0.06)'">
             <span style="font-size: 0.72rem; color: #64748b; margin-bottom: 0.2rem;">{{ idx.name }}</span>
             <span style="font-size: 1.05rem; font-weight: 700; color: #f1f5f9;">
-                {{ "{:,.2f}".format(idx.current) if idx.current < 10000 else "{:,.0f}".format(idx.current) }}
-            </span>
-            <span style="font-size: 0.75rem; font-weight: 600; color: {% if idx.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
-                {{ "{:+.2f}".format(idx.change_pct) }}%
-            </span>
+                {{ "{:,.2f}".format(idx.current) if idx.current < 10000 else "{:,.0f}" .format(idx.current) }} </span>
+                    <span
+                        style="font-size: 0.75rem; font-weight: 600; color: {% if idx.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                        {{ "{:+.2f}".format(idx.change_pct) }}%
+                    </span>
         </a>
         {% endfor %}
     </div>
 </div>
 
 <!-- 2. Market Mood (시장 심리) -->
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+<div
+    style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
     <!-- Fear & Greed -->
     <div class="glass-panel" style="padding: 1rem 1.25rem; margin-bottom: 0;">
         <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem;">
@@ -117,7 +117,8 @@
                 모멘텀 {{ fear_greed.momentum }} | 변동성 {{ fear_greed.volatility }} | 강도 {{ fear_greed.strength }}
             </p>
         </div>
-        <a href="/fear-greed-index" style="display: block; text-align: center; font-size: 0.75rem; color: #38bdf8; margin-top: 0.3rem;">
+        <a href="/fear-greed-index"
+            style="display: block; text-align: center; font-size: 0.75rem; color: #38bdf8; margin-top: 0.3rem;">
             상세 보기 →
         </a>
     </div>
@@ -130,12 +131,14 @@
         </div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
             {% for metric in key_metrics %}
-            <div style="background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.75rem; text-align: center;">
+            <div
+                style="background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.75rem; text-align: center;">
                 <div style="font-size: 0.68rem; color: #64748b;">{{ metric.label }}</div>
                 <div style="font-size: 1.05rem; font-weight: 700; color: #f1f5f9; margin-top: 0.15rem;">
                     {{ metric.value }}
                 </div>
-                <div style="font-size: 0.68rem; font-weight: 600; color: {% if metric.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                <div
+                    style="font-size: 0.68rem; font-weight: 600; color: {% if metric.change_pct >= 0 %}#4ade80{% else %}#f87171{% endif %};">
                     {{ "{:+.2f}".format(metric.change_pct) }}%
                 </div>
             </div>
@@ -163,7 +166,8 @@
                     border: 1px solid rgba({% if sector.rs >= 0 %}74,222,128{% else %}248,113,113{% endif %},0.15);
                     border-radius: 10px; padding: 0.5rem 0.4rem; text-align: center;">
             <div style="font-size: 0.68rem; color: #94a3b8; font-weight: 600;">{{ sector.ticker }}</div>
-            <div style="font-size: 0.85rem; font-weight: 700; color: {% if sector.rs >= 0 %}#4ade80{% else %}#f87171{% endif %}; margin-top: 0.1rem;">
+            <div
+                style="font-size: 0.85rem; font-weight: 700; color: {% if sector.rs >= 0 %}#4ade80{% else %}#f87171{% endif %}; margin-top: 0.1rem;">
                 {{ "{:+.1f}".format(sector.rs) }}%
             </div>
             <div style="font-size: 0.6rem; color: #475569;">{{ sector.name }}</div>
@@ -187,7 +191,8 @@
                 <span style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0;">{{ stock.ticker }}</span>
                 <span style="font-size: 0.72rem; color: #64748b; margin-left: 0.3rem;">{{ stock.name }}</span>
             </div>
-            <span style="font-size: 0.85rem; font-weight: 700; color: #4ade80;">{{ "{:+.2f}".format(stock.change_pct) }}%</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #4ade80;">{{ "{:+.2f}".format(stock.change_pct)
+                }}%</span>
         </a>
         {% endfor %}
     </div>
@@ -205,7 +210,8 @@
                 <span style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0;">{{ stock.ticker }}</span>
                 <span style="font-size: 0.72rem; color: #64748b; margin-left: 0.3rem;">{{ stock.name }}</span>
             </div>
-            <span style="font-size: 0.85rem; font-weight: 700; color: #f87171;">{{ "{:+.2f}".format(stock.change_pct) }}%</span>
+            <span style="font-size: 0.85rem; font-weight: 700; color: #f87171;">{{ "{:+.2f}".format(stock.change_pct)
+                }}%</span>
         </a>
         {% endfor %}
     </div>
@@ -258,13 +264,14 @@
                       color: {% if news.type == '국내' %}#4ade80{% else %}#38bdf8{% endif %};">
                     {{ news.type }}
                 </span>
-                <span style="font-size: 0.65rem; color: {% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
-                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif %}
+                <span
+                    style="font-size: 0.65rem; color: {% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
+                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif
+                    %}
                 </span>
                 <span style="font-size: 0.65rem; color: #475569; margin-left: auto;">{{ news.publisher }}</span>
             </div>
-            <a href="{{ news.link }}" target="_blank"
-               style="text-decoration: none; color: #e2e8f0; font-size: 0.8rem; font-weight: 600;
+            <a href="{{ news.link }}" target="_blank" style="text-decoration: none; color: #e2e8f0; font-size: 0.8rem; font-weight: 600;
                       line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2;
                       -webkit-box-orient: vertical; overflow: hidden;">
                 {{ news.title }}
@@ -289,23 +296,23 @@
 {% endif %}
 
 <script>
-function shareDailyReport() {
-    const shareUrl = "https://stock-insight.app/daily-report";
-    const shareText = "{{ report_date }} AI 일일 시장 리포트 - Stock Insight AI";
+    function shareDailyReport() {
+        const shareUrl = "https://stock-insight.app/daily-report";
+        const shareText = "{{ report_date }} AI 일일 시장 리포트 - Stock Insight AI";
 
-    if (navigator.share) {
-        navigator.share({
-            title: shareText,
-            text: '오늘의 시장 동향을 AI가 분석했습니다!',
-            url: shareUrl
-        }).catch(console.error);
-    } else {
-        navigator.clipboard.writeText(shareUrl).then(function() {
-            alert('링크가 복사되었습니다! 공유해보세요.');
-        }, function() {
-            alert('복사에 실패했습니다.');
-        });
+        if (navigator.share) {
+            navigator.share({
+                title: shareText,
+                text: '오늘의 시장 동향을 AI가 분석했습니다!',
+                url: shareUrl
+            }).catch(console.error);
+        } else {
+            navigator.clipboard.writeText(shareUrl).then(function () {
+                alert('링크가 복사되었습니다! 공유해보세요.');
+            }, function () {
+                alert('복사에 실패했습니다.');
+            });
+        }
     }
-}
 </script>
 {% endblock %}
