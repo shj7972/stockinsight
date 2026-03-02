@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범 발표",
-      "2026년 경제 이륙 목표",
-      "경제 성장 기대감 증대"
+      "경제부 출범",
+      "2026년 경제 이륙 약속",
+      "희망적인 경제 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 존재",
+      "부자 47.6만명 정보",
       "주식이 부동산보다 유망",
       "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약하다고 지적",
-      "전망에 대한 우려 존재"
+      "한국거래소, 프리·애프터마켓 도입",
+      "6월부터 운영 시작 예정",
+      "시장 활성화 기대감"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "투자자, 이란 공격 반응 준비 중",
-      "주식 시장 불안 심화 우려",
-      "전쟁의 경제적 영향 시사"
+      "투자자, 이란 공격에 대비",
+      "주식시장 반응 예측",
+      "불확실성 증가 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "CNBC Daily Open: 충격파가 확산되기 시작하면서 시장은 미국-이란 분쟁의 영향에 대비하고 있습니다. - CNBC",
+    "original_title": "CNBC Daily Open: Markets brace for impact of U.S.-Iran conflict as shockwaves begin to spread - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN3lnSTI1SFJ5M1NPcm0wWjlQbGdlSWVNVWEzdGFqQi1Ca2NOZGllUTJuQVZXSEE0S3Baek9veThCM2ZhcjlIdndrZ0JTV09vajJEb2JBR1B2d1JEeGhaU2JWX2tBY0UxUnd5Sy1oRVhsQ05PS0ltQjFzRURld0pRems2dWNYYThqWUN5WGtDLUgwTlhseG5fazNBTXFTQzVFblY0eEhSc1FXQ2dhajN6dnRkMGPSAboBQVVfeXFMTmdUdUV0cUZoS0xqSG9iNEFYTHB1cWhacUJMeFZRNmYzVVJjc1p6MExmTDZZdmVBNWNCcmRwUlpkUVBrWXNWOU82aVpDWHloX1phTHZKdDM2dWQwTGZHN24yNUhCMFN3cTg0Z3RiYTRDWHdyRE9zM1UwZlJnckxSdzRheTJpck1zUUFmTV9LeklwRDBDNGJIMm5YVXFleFhTYXd4Qm1Ya1U4bFRNLTRKeVUyeFBoc2hlYld3?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "트럼프 정부하 주식 시장 상승",
-      "경제 정책 긍정적 영향",
-      "투자자 신뢰 증가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "시장과 경제가 '점점 더 단절되고 있다'고 최고의 경제학자가 경고 - Fortune",
-    "original_title": "Markets and the economy are ‘increasingly disconnected,’ top economist warns - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTldITElTNVJSaHE1M29lSkx0TExZaU9KcHF3VTlqeDNXYThjX3JmNnN6ZmpBcXFudGpHc01pQnMtT3VGZGlGTVJWNXZwMVVsR09XcGdJWjIxTTFCNEJOZTcyNjMxaW81RnYxZkFiVGg1WVdxNkNuX184UU52b2FYdV93NHd4b2pGcXFnRVJBN0F1X0RfWWVMR3ZEZ29sRDNnMGg4V2JSMGNKREkxU1BMbnN5Z21Jdw?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "시장과 경제 간 괴리 경고",
-      "경제 지표는 부진",
-      "시장 과열 가능성 언급"
+      "미국-이란 갈등 영향 우려",
+      "시장에 충격파 예상",
+      "투자자들의 불안 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "뉴욕 증권 거래소 | 뉴욕 증권 거래소 - 뉴욕 증권 거래소",
+    "original_title": "The New York Stock Exchange | NYSE - NYSE",
+    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+    "publisher": "NYSE",
+    "summary": [
+      "뉴욕 증권 거래소 개요",
+      "시장 정보 제공",
+      "상장 기업 목록"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
