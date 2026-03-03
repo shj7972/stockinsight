@@ -1,12 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "Ministry of Economy and Finance officially launched, pledges 2026 as a year of economic takeoff - The Korea Post",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
+    "publisher": "The Korea Post",
     "summary": [
-      "경제 성장 전략 발표",
-      "재정 건전성 강화",
-      "국제 협력 강조"
+      "경제부 출범 소식",
+      "2026년 경제 도약 목표",
+      "긍정적인 성장 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 부동산보다 유망",
-      "부유층 증가 추세 지속"
+      "한국 부자 47.6만명 발표",
+      "주식 유망성 강조",
+      "부동산 상대적 하락"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
-    "publisher": "한국방송뉴스",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 강화 논의",
-      "재무장관 참여"
+      "한국 경제 성장률 2.1% 전망",
+      "회복세는 미약함",
+      "금융연 보고서 발표"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장 긍정적 전망",
-      "강력한 투자 내러티브",
-      "경제 성장 기대감 증가"
+      "비자산 시장의 잠재력 강조",
+      "소득 증가 기대감",
+      "글로벌 시장 다각화 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMGZwN2dPeVE3elNLdWxScUI1akZ3RlRRN05hYTNHdXBDZHI2TG4yZWxXNTAxbkxLTlFSRHNGeFFTVGtTS2dBN3ZlOFUwOEFEZDVJaGhReFZ2b0phMzAwbGJxUHU4M1ZDWU5YdkNBM0hlUU1zUjdTZGR0S052a3NzODZxaFBzanpESDVBS1B3bzRTaGp1a2E3N2pYT2VXSHowSVVWalp4a254cXlHLWJiYzZKSlk5eW8?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 경제 불안정",
+      "미국 경제 불안정성 증가",
       "이란 전쟁 우려",
-      "불확실성 증가"
+      "불확실성 확대 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이란 전쟁으로 인한 인플레이션 위험 부각으로 주가 폭락 - The New York Times",
-    "original_title": "Stocks Tumble as Inflation Risk Emerges in Wake of Iran War - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeW1ORU1KbVFZYUVyQkREY3VKaFVodU1WYTJPeGJ1MlNMMGNCMTBsOWJsQmtaSUhfd19kQXlLdGlQckQ3VW03dXcxNThaWVFRbnFZb3FZa3JrbkxKTUlSSVJicGx0X1lDZjd6ZjlMVVlWWmstVEIwOG1ZVWJ1ay1Gbw?oc=5",
+    "title": "미국-이스라엘의 이란 공격 이후 글로벌 시장이 휘청거렸다 - The New York Times",
+    "original_title": "Global Markets Whipsaw After U.S.-Israel Attack on Iran - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "주식 시장이 하락세로 전환",
-      "이란 전쟁의 영향 발생",
-      "인플레이션 우려 증가"
+      "글로벌 시장 큰 변동성",
+      "미국-이스라엘 동맹 공격",
+      "이란에 대한 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
