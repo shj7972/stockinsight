@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "주식이 부동산보다 유망하다는 의견",
-      "한국 자산 분포에 대한 관심 증가"
+      "부자는 47.6만명으로 증가",
+      "주식 투자 유망하다는 분석",
+      "부동산 투자 하락세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약",
-      "경제 회복에 대한 우려"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 평가",
+      "경제 불확실성 지속 예상"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 방향성 제시",
-      "재정 건전성 강화",
-      "기대감 고조"
+      "경제 안정성 강화 방안 제시",
+      "재정 정책의 새로운 방향",
+      "미래 경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장의 긍정적 전망",
-      "경제 지표가 뒷받침",
-      "투자자 신뢰 높아짐"
+      "비미국 주식 시장에 대한 지지",
+      "경제 긍정적 신호 증가",
+      "글로벌 투자 기회 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
-    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
+    "title": "미국 경제는 이미 불안정하다. 이란 전쟁은 불확실성을 더할 수 있습니다 - PBS",
+    "original_title": "The U.S. economy is already unsteady. A war in Iran could add to that uncertainty - PBS",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMGZwN2dPeVE3elNLdWxScUI1akZ3RlRRN05hYTNHdXBDZHI2TG4yZWxXNTAxbkxLTlFSRHNGeFFTVGtTS2dBN3ZlOFUwOEFEZDVJaGhReFZ2b0phMzAwbGJxUHU4M1ZDWU5YdkNBM0hlUU1zUjdTZGR0S052a3NzODZxaFBzanpESDVBS1B3bzRTaGp1a2E3N2pYT2VXSHowSVVWalp4a254cXlHLWJiYzZKSlk5eW8?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식, 급락 후 반등",
-      "원유 가격, 이란 전쟁 우려로 상승",
-      "시장 변동성 계속 유지"
+      "미국 경제 불안정성 존재",
+      "이란 전쟁 우려 커짐",
+      "불확실성 증가 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 시장 큰 변동 발생",
-      "미국-이스라엘 공격 뉴스",
-      "이란과의 긴장 고조"
+      "글로벌 시장, 큰 변동성 보임",
+      "미-이스라엘, 이란 공격",
+      "투자자들 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
