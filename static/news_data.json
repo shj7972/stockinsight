@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제부 출범",
-      "2026년 경제 도약 목표",
-      "정책 추진 기대감"
+      "경제부 출범 발표",
+      "2026년 경제 도약 예고",
+      "한국경제 발전 의지 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 도달",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 유망",
+      "주식 투자에 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세 미약하다는 평가",
-      "금융연 발표 내용"
+      "한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다",
+      "금융연의 분석 결과"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.3,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식이 급락 후 반등",
-      "유가 급등, 이란 전쟁 우려",
-      "경제 불확실성 여전"
+      "미국 주식 반등",
+      "기름값 급등",
+      "이란 전쟁 우려"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 시장 급변동 발생",
-      "미국-이스라엘 공격 배경",
-      "투자자 불안 심화"
+      "글로벌 시장 극심한 변동성 발생",
+      "미-이스라엘, 이란 공격",
+      "투자자 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,7 +73,7 @@
     "publisher": "ABC7 San Francisco",
     "summary": [
       "미국 주식 하락",
-      "유가 급등",
+      "오일 가격 급등",
       "중동 전쟁으로 인플레이션 우려"
     ],
     "sentiment": "NEGATIVE",
