@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
     "publisher": "The Korea Post",
     "summary": [
-      "경제 및 재정부 공식 출범",
-      "2026년 경제 도약 계획",
-      "긍정적인 성장 전망"
+      "경제부 출범",
+      "2026년 경제 도약 예고",
+      "긍정적 정책 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 자산 10억 이상",
-      "부동산보다 주식 유망",
-      "주식 시장 전망 긍정적"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식, 부동산보다 더 유망하다고 평가",
+      "투자자들의 주식 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -32,10 +32,10 @@
     "summary": [
       "6월부터 프리·애프터마켓 운영",
       "한국거래소의 새로운 시도",
-      "시장 거래 활성화 기대"
+      "투자자 편의성 증가 예상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 시장 급등락",
-      "미국-이스라엘 이란 공격",
-      "투자자 불안 심화"
+      "글로벌 시장 변동성 증가",
+      "이스라엘과 미국의 공격",
+      "투자자 불안 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -59,25 +59,25 @@
     "publisher": "PBS",
     "summary": [
       "미국 주식, 급락에서 반등",
-      "석유 가격, 이란 전쟁 우려로 급등",
-      "시장 불확실성 지속"
+      "이란 전쟁 우려로 유가 급등",
+      "시장에 긍정적 신호 나타남"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "주간 시장 논평 - blackrock.com",
-    "original_title": "Weekly market commentary - blackrock.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "blackrock.com",
+    "title": "중동 전쟁으로 높은 인플레이션에 대한 우려가 높아지면서 미국 주식은 하락하고 유가는 급등했습니다. - ABC7 샌프란시스코",
+    "original_title": "US stocks slip and oil prices leap as war in the Middle East raises worries about high inflation - ABC7 San Francisco",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeWpCeHoyRlV1bWxtaS1EeG1aSDdrREVNNnRWLUxMeEJETnFkTEltVy14R1ExOVdFZm9jRzAwLUlYQjh0WlNvREZUQkxxX2RaNEhVVlZpYWZyeUJFX0NDZWNobXpXc051TU5kR1VVZVdVamlpakh2Z2x3bUhKMGZ0YzE0bHQ2bmc0ck9HWlpKc3BKUjVnS1UweE1EaHBld9IBowFBVV95cUxQT1UxN1d1UnBoNmo0Rk1GakwwbDA3anpnRFhndUNBbHVGTzNrblVIT3oyMUF2WVJCMzhiR2RhczFqVmlBWnoyUWlYVWY0ZkhvZmVzS1d5WHNmbUg5bUZ6WFo1ejlabFBzY0NWaGFYU2trSW9uMFFhR0cxVHpPelRXQUdoemJBcXJkV203Zlgwb01pdlNzTEc5X3lVNVlUclY2WUU0?oc=5",
+    "publisher": "ABC7 San Francisco",
     "summary": [
-      "시장 변동성 증가",
-      "물가 상승 우려 지속",
-      "투자자 신뢰 회복 기대"
+      "미국 주식 하락",
+      "유가 상승",
+      "중동 전쟁으로 인플레이션 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
