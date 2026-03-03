@@ -1,0 +1,48 @@
+name: Weekly Economic Indicators Update
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC (15:00 KST)
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-indicators:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas yfinance requests python-dotenv numpy
+
+      - name: Run economic indicators update
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          echo "=== Before update ==="
+          tail -5 static/economic_indicators.csv
+
+          python update_economic_indicators.py
+
+          echo ""
+          echo "=== After update ==="
+          tail -5 static/economic_indicators.csv
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f static/economic_indicators.csv
+          git diff --staged --quiet || (git commit -m "Auto-update economic indicators [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git push)
