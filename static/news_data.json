@@ -1,25 +1,12 @@
 [
   {
-    "title": "Ministry of Economy and Finance officially launched, pledges 2026 as a year of economic takeoff - The Korea Post",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
-    "publisher": "The Korea Post",
-    "summary": [
-      "경제부 발족 공식 발표",
-      "2026년 경제 비상 계획",
-      "국가 경제 성장 기대"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 투자 유망",
-      "금융자산 10억 이상 보유"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 의견",
+      "한국 자산 분포에 대한 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,12 +18,39 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것으로 예상",
-      "경제 회복 불확실성 지속"
+      "회복세 미약",
+      "경제 회복에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 정책 방향성 제시",
+      "재정 건전성 강화",
+      "기대감 고조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
+    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "비미국 주식 시장의 긍정적 전망",
+      "경제 지표가 뒷받침",
+      "투자자 신뢰 높아짐"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
@@ -45,11 +59,11 @@
     "publisher": "PBS",
     "summary": [
       "미국 주식, 급락 후 반등",
-      "유가, 이란 전쟁 우려로 상승",
-      "시장 점진적 회복 신호"
+      "원유 가격, 이란 전쟁 우려로 상승",
+      "시장 변동성 계속 유지"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "글로벌 시장, 급변동 발생",
-      "미국-이스라엘, 이란 공격",
-      "경제 불확실성 확대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "이란 전쟁으로 인해 휘발유 가격이 3년 만에 최고치로 30% 급등하면서 주식시장이 폭락했습니다 - The Guardian",
-    "original_title": "Stock markets slump amid Iran war as gas prices jump 30% to three-year high - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcnJ3cHZTM2tqVndJMW42dUY2MFVtc25mc1VOMWpEV2xxUG1YNUtxbzd4WXZvYnlGRGRENnpkbGZEdFFJY2hQLUxtTEYyZTlwR1Q4aGh0c3hwOXFNalVQYVg2VDVfVVkzZTdSUHhXYnlsT2JBSW90ZzZobFZhbzM0dVVLR242YVJrQzlvUy11Q09OZEFBcDdPc1hvSlFlZUFERnU2Nw?oc=5",
-    "publisher": "The Guardian",
-    "summary": [
-      "주식 시장 하락",
-      "가스 가격 30% 상승",
-      "3년 만에 최고치"
+      "글로벌 시장 큰 변동 발생",
+      "미국-이스라엘 공격 뉴스",
+      "이란과의 긴장 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
