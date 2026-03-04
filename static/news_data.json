@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 순매도 20조원 기록",
-      "역대 최대치이지만 시총 대비 적음",
-      "시장 반응은 비교적 안정적"
+      "외국인 순매도 20조, 최대 기록",
+      "시총 대비 크지 않은 영향",
+      "시장 안정성 지적"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 부동산보다 유망"
+      "부자 수 47.6만명",
+      "주식 투자 유망",
+      "부동산 선호 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리의 경제 정책 강조",
-      "금융 안정 방안 발표",
-      "미래 성장 전략 소개"
+      "경제 성장 전략 발표",
+      "재정 정책 강화",
+      "글로벌 경제 협력 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식 시장 역사상 최대 하락",
-      "미국-이란 전쟁의 영향",
-      "투자자 우려 심화"
+      "한국 증시 사상 최대 하락",
+      "미국-이란 전쟁 영향",
+      "경제 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장에 대한 긍정적 전망",
-      "최근 데이터 반영",
-      "투자자 신뢰 증가"
+      "비미국 주식 시장의 긍정적 전망",
+      "강한 경제적 근거와 이야기",
+      "투자자들의 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -73,11 +73,11 @@
     "publisher": "PBS",
     "summary": [
       "미국 주식, 급락 후 반등",
-      "이란 전쟁 우려로 유가 상승",
-      "시장 변동성 지속 우려"
+      "이란 전쟁으로 유가 급등",
+      "시장 불안 감지"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
