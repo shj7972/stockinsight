@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자는 47.6만명 증가",
-      "주식이 더 유망",
-      "부동산 경쟁력 하락"
+      "부자 47.6만명 확인",
+      "주식 선호 증가",
+      "부동산 매력 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세가 미약하다고 경고",
-      "전반적인 경제 상황 우울"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것",
+      "경제 회복 우려가 제기됨"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 안정성 강조",
-      "정책 방향성 제시",
-      "국제 협력 필요성 언급"
+      "구윤철 부총리 소개",
+      "경제 정책 방향 제시",
+      "미래 성장 전략 논의"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
-  },
-  {
-    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
-    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
-    "publisher": "invesco.com",
-    "summary": [
-      "비미국 주식 시장 긍정적",
-      "성장 가능성 높음",
-      "투자자들의 신뢰 증가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "미-이란 전쟁으로 한국 증시 폭락 - 알자지라",
@@ -58,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 증시, 미국-이란 전쟁 영향",
-      "투자 심리 급락",
-      "시장 불확실성 확대"
+      "한국 증시 급락 중",
+      "미-이란 전쟁 영향",
+      "투자자 우려 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
+    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "비미국 주식시장에 긍정적 전망",
+      "경제 회복 신호 확인",
+      "투자자들 관심 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTjAzTnl4LTZvRmRCUUQxbzFoTkFWSGs4ejlDRUFKc2dOZDJWTjFycWdlcXFqd3JiWnl3VG90V0FxWjBKWUNhcm1sbjZkU3l3YXNnX2JycFVKbVBYYVp0dWJFSFY0OGV6akFRTUw0VV93VGI2Rk9oX1RsVnliVlVBU3JvcVpnQlBFc2laLWVIWXBDc2lW?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "트럼프의 석유 위기 대처 실패",
-      "글로벌 주식시장 급락",
-      "투자자들 불안감 증가"
+      "트럼프, 호르무즈 해협 위기 대응 실패",
+      "글로벌 주식 시장 급락",
+      "투자자들 우려 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
