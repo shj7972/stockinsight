@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산 대신 주식이 유망",
-      "금융자산 증가 추세 확인"
+      "한국 부자는 47.6만명",
+      "금융자산 10억 이상 보유",
+      "부동산보다 주식 유망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,36 +17,36 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "전망에 부정적인 뉘앙스 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약함",
+      "경제 회복 불확실성 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
+    "publisher": "포브스코리아",
     "summary": [
-      "구윤철, 경제부총리 취임",
-      "정책 방향 밝힘",
-      "안정적 성장 강조"
+      "모바일 금융 성장세 지속",
+      "핀테크 혁신 가속화",
+      "투자 증가 전망 밝음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "미-이란 전쟁으로 한국 증시 사상 최대 폭락 - 알자지라",
+    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
     "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식시장 역사적 하락",
+      "한국 주식 시장 역사적 하락",
       "미국-이란 전쟁 여파",
-      "투자자 불안감 증대"
+      "투자자 우려 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaktraVVoQTFKYzNiZlZTZ21DVWJzazBXSDhhY3haZkJLYXQ1MXpZX2hHSE1scGU3SWxYZVBrd1c1ZlVBQ1JMYU50OW9GTjdwMEJFdEFrZG9UNVpFdlAzRUJuNldxQVJST3h5a0xmalY3MjJ3QnNfNTVrNkRNOU5MLQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "투자자 불안감이 지속되고 있음",
-      "시장 회복력에 대한 논의",
-      "경제 전망의 불확실성 여전"
+      "투자자 불안 지속",
+      "시장 회복력 강조",
+      "장기 투자 전략 필요"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 강한 경제 회복과 유가 완화로 반등했습니다 - KING5.com",
-    "original_title": "US stocks rebound after strong economic updates and an easing of oil prices - KING5.com",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMmFHRnNmemJjX3JkYWNpTUpRa3FzRi1oeUtjeXhuNlpMSjEzVHN4NklGdDVnNng3blVibkpJUnl5elBSSVNacThfZV9UNlF4bjUxckp6MEo0MXVfUC1xSUZlN3MtTVExVjdiYm9rQUZPQnJhVFdYVzMtbTFCbUtoQ0g4R0JiZ2dIM0ZkcHNiZThUUV9FLVNzdjV3dUpRVDg3Y01kOWdHbWtDcHp3R0RrWktnU3dRTGYtNUdHSkFMQjJHeE93NEhQZTljMk1FTWJfYzhfdzV2YTd0eDhjTTJnN0h5UHdBd2tyQkhTRlJMVQ?oc=5",
-    "publisher": "KING5.com",
+    "title": "미국 증시는 강한 경제 회복과 유가 완화로 반등했습니다 - cbs8.com",
+    "original_title": "US stocks rebound after strong economic updates and an easing of oil prices - cbs8.com",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
+    "publisher": "cbs8.com",
     "summary": [
-      "주식 시장 반등",
+      "주식 시장 반등 소식",
       "강한 경제 지표 발표",
-      "유가 하락"
+      "유가 하락 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
