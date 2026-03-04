@@ -1,5 +1,27 @@
 [
   {
+    "slug": "us-iran-war-kospi-crash-2026-analysis",
+    "title": "미국-이란 전쟁과 코스피 역대급 폭락: 원인 진단과 향후 전망 총분석",
+    "excerpt": "2026년 2월 28일 미·이스라엘의 이란 동시 타격으로 코스피가 이틀간 19% 폭락했습니다. 사태의 원인부터 유가·환율·반도체 충격, 그리고 시나리오별 회복 전망까지 데이터 기반으로 심층 분석합니다.",
+    "date_published": "2026-03-05",
+    "date_modified": "2026-03-05",
+    "author": "Stock Insight AI",
+    "category": "시장 분석",
+    "tags": [
+      "코스피폭락",
+      "미국이란전쟁",
+      "지정학리스크",
+      "유가충격",
+      "환율",
+      "삼성전자",
+      "SK하이닉스",
+      "시장전망"
+    ],
+    "seo_description": "미·이란 전쟁 충격으로 코스피가 이틀간 19% 폭락한 원인과 구조적 취약성, 유가·환율·반도체 영향, 시나리오별 회복 전망을 데이터 기반으로 분석합니다.",
+    "seo_keywords": "코스피폭락, 미국이란전쟁, 지정학리스크, 유가충격, 달러원환율, 삼성전자주가, SK하이닉스, 코스피전망, 호르무즈해협",
+    "content": "<div style=\"background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.3);border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.5rem;\">\n<strong style=\"color:#f87171;\">⚠️ 투자 유의사항</strong><br>\n<span style=\"font-size:0.9rem;color:#94a3b8;\">본 글은 정보 제공 목적의 시장 분석이며, 투자 권유가 아닙니다. 모든 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다.</span>\n</div>\n\n<h2>사태 개요: 30년 만의 최대 중동 충격</h2>\n<p>2026년 2월 28일 자정(현지시간), 미국과 이스라엘은 이란의 핵시설·탄도미사일 기지·해군 시설을 겨냥한 합동 공습을 단행했습니다. 미국 국방부가 공식 명명한 <strong>'오퍼레이션 에픽 퓨리(Operation Epic Fury)'</strong>는 B-2 스텔스 폭격기를 포함한 대규모 타격이었으며, 이란 최고지도자 하메네이가 사망한 것으로 전해졌습니다.</p>\n<p>이 사건은 2025년 6월 이스라엘의 단독 이란 선제타격, 10월 서방의 스냅백 제재 복원, 2026년 2월 트럼프의 핵협상 10일 최후통첩 등 일련의 긴장 고조 끝에 터진 예고된 폭발이었습니다. 하지만 금융시장이 받은 충격의 강도는 그 어떤 예측도 뛰어넘었습니다.</p>\n\n<h2>코스피 이틀간 19% 폭락: 수치로 보는 충격</h2>\n<h3>사상 최고치에서 급전직하</h3>\n<p>아이러니하게도 코스피는 공습 직전인 2026년 2월 25일 <strong>6,347포인트라는 사상 최고가</strong>를 기록하고 있었습니다. AI 반도체 수퍼사이클 기대감과 SK하이닉스의 HBM 시장 독주(점유율 62~64%), 삼성전자 실적 회복 기대가 맞물리며 12개월 수익률이 129%를 넘는 역사적 불마켓 한복판이었습니다. 노무라는 8,000 목표를 제시했고, JP모건은 7,500을 바라보고 있었습니다.</p>\n\n<div style=\"overflow-x:auto;margin:1.25rem 0;\">\n<table style=\"width:100%;border-collapse:collapse;font-size:0.88rem;\">\n<thead><tr style=\"background:rgba(56,189,248,0.1);\">\n<th style=\"padding:0.6rem 0.8rem;text-align:left;border-bottom:1px solid rgba(255,255,255,0.1);\">날짜</th>\n<th style=\"padding:0.6rem 0.8rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">KOSPI</th>\n<th style=\"padding:0.6rem 0.8rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">일간 등락</th>\n<th style=\"padding:0.6rem 0.8rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">외국인 순매도</th>\n<th style=\"padding:0.6rem 0.8rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">USD/KRW</th>\n</tr></thead>\n<tbody>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\">\n<td style=\"padding:0.5rem 0.8rem;color:#94a3b8;\">2026-02-25 (공습 전)</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#4ade80;font-weight:600;\">6,347 (역대 최고)</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;\">—</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;\">—</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;\">1,420.65</td>\n</tr>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);background:rgba(248,113,113,0.05);\">\n<td style=\"padding:0.5rem 0.8rem;color:#94a3b8;\">2026-03-03 (블랙 화요일)</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;font-weight:600;\">5,791.91</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;font-weight:700;\">-7.24%</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;\">약 3조 6,000억원</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;\">1,466.10</td>\n</tr>\n<tr style=\"background:rgba(248,113,113,0.1);\">\n<td style=\"padding:0.5rem 0.8rem;color:#94a3b8;\">2026-03-04 (서킷브레이커 발동)</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;font-weight:600;\">5,091.24</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;font-weight:700;\">-12.06% (역대 최대↓)</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;\">추가 대규모</td>\n<td style=\"padding:0.5rem 0.8rem;text-align:right;color:#f87171;\">1,498~1,500</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n<ul>\n<li>3월 4일 하락폭(-12.06%)은 <strong>2001년 9·11 테러(-12.02%)를 넘어 코스피 역대 최대 일일 낙폭</strong></li>\n<li>코스닥도 14% 폭락, 978.44 마감하며 별도 서킷브레이커 발동</li>\n<li>V-KOSPI(변동성지수) 장중 <strong>60.72</strong> — 코로나 이후 최고치</li>\n<li>코스피 800여 개 종목 중 <strong>상승 종목 단 10개</strong></li>\n</ul>\n\n<h2>왜 코스피가 글로벌 최대 피해국이 됐나: 구조적 취약성 분석</h2>\n\n<h3>1. 중동 에너지 의존도 — 세계 최고 수준</h3>\n<p>한국은 하루 약 <strong>276만 배럴</strong>의 원유를 수입하며, 이 중 70%가 중동산입니다. 대부분은 호르무즈해협을 통과합니다. 정부와 민간이 보유한 비축유는 약 7개월치로, 단기 충격은 버틸 수 있지만 <strong>장기 봉쇄에는 무방비</strong>에 가깝습니다.</p>\n<p>현대경제연구원 분석에 따르면, 유가가 배럴당 $100를 넘어 지속될 경우 2026년 GDP 성장률에서 최소 <strong>0.3%p</strong>가 깎이고 물가는 <strong>1.1%p</strong> 추가 상승할 수 있습니다.</p>\n\n<h3>2. 삼성전자·SK하이닉스 — 지수의 절반을 차지하는 반도체 쌍두마차</h3>\n<p>두 기업이 코스피 시가총액의 약 <strong>50%</strong>를 차지합니다. 이 구조적 집중도가 코스피의 낙폭을 글로벌 평균보다 2~3배 키웠습니다(모닝스타 아시아 리서치 디렉터 로레인 탠).</p>\n<ul>\n<li><strong>삼성전자</strong>: 이틀간 9~12% 하락. 미국 텍사스 테일러 공장 양산 일정이 2026년 → 2027년으로 밀렸다는 보도가 악재를 가중했습니다.</li>\n<li><strong>SK하이닉스</strong>: HBM 시장 점유율 62~64%의 독보적 위치에도 불구하고 6~12% 급락. AI 반도체 수요 둔화 우려가 함께 작용했습니다.</li>\n</ul>\n\n<h3>3. 원화의 구조적 약세 — 정치 불안이 쌓아둔 뇌관</h3>\n<p>2024년 12월 윤석열 전 대통령의 비상계엄 사태 이후, 원화는 이미 정치 리스크 통화라는 낙인이 찍혀 있었습니다. 공습 이전 달러-원 환율은 1,420원대였지만, 이란 사태 이후 역외시장에서 <strong>1,500원 돌파</strong> — 2009년 이후 17년 만의 최저치입니다.</p>\n<p>한국은행은 긴급 태스크포스를 소집하고 24시간 모니터링 체제에 돌입했습니다.</p>\n\n<h2>글로벌 시장 반응: 승자와 패자</h2>\n\n<div style=\"overflow-x:auto;margin:1rem 0;\">\n<table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;\">\n<thead><tr style=\"background:rgba(56,189,248,0.08);\">\n<th style=\"padding:0.5rem 0.7rem;text-align:left;border-bottom:1px solid rgba(255,255,255,0.1);\">자산</th>\n<th style=\"padding:0.5rem 0.7rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">공습 전</th>\n<th style=\"padding:0.5rem 0.7rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">이틀 후</th>\n<th style=\"padding:0.5rem 0.7rem;text-align:right;border-bottom:1px solid rgba(255,255,255,0.1);\">변동</th>\n</tr></thead>\n<tbody>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\">\n<td style=\"padding:0.45rem 0.7rem;\">WTI 원유</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">$65~66</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">$77.05</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;font-weight:700;\">+16%↑</td>\n</tr>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);background:rgba(255,255,255,0.02);\">\n<td style=\"padding:0.45rem 0.7rem;\">브렌트유</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">$70~72</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">$83.83</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;font-weight:700;\">+16%↑</td>\n</tr>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\">\n<td style=\"padding:0.45rem 0.7rem;\">VIX (공포지수)</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">17~18</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">27+</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;font-weight:700;\">+50%↑</td>\n</tr>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);background:rgba(255,255,255,0.02);\">\n<td style=\"padding:0.45rem 0.7rem;\">금(Gold)</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">$5,260</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#4ade80;\">$5,400</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#4ade80;font-weight:700;\">+2%↑</td>\n</tr>\n<tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\">\n<td style=\"padding:0.45rem 0.7rem;\">S&amp;P 500</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">6,881</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">6,817 (장중 6,715)</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">-0.9% (장중 -2.5%)</td>\n</tr>\n<tr style=\"background:rgba(255,255,255,0.02);\">\n<td style=\"padding:0.45rem 0.7rem;\">USD/KRW</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;\">1,420</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;\">1,498~1,500</td>\n<td style=\"padding:0.45rem 0.7rem;text-align:right;color:#f87171;font-weight:700;\">+5.5%↑ (원화 약세)</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n<p><strong>수혜 업종:</strong> 방산(록히드마틴 +6%, 노스럽그러먼 +5%, 에어로바이런먼트 +10%), 에너지(엑손모빌·쉐브론 +4~5%), 유조선(프론트라인 +5%), 금·달러 강세</p>\n<p><strong>피해 업종:</strong> 항공(유나이티드항공 -6%, 아메리칸·델타 -5%), 관광·숙박(매리어트 -5%, 에어비앤비 -3%), 기술주(NASDAQ 장중 -2.7%)</p>\n\n<h2>향후 시나리오별 전망</h2>\n\n<h3>🟢 시나리오 1: 단기 종전 (1개월 이내 해결) — 확률 약 40%</h3>\n<ul>\n<li>WTI 유가 $70 이하 복귀 → 코스피 5,800~6,000 회복 시도</li>\n<li>AI·반도체 불마켓 재개 가능성 유효</li>\n<li><strong>유안타증권 다니엘 유 전략가:</strong> \"이번 하락은 강세장 조정이지 펀더멘털 변화가 아니다. 유가가 안정되면 복귀는 빠를 것\"</li>\n<li>역사적 데이터: S&amp;P 500은 주요 지정학 이벤트 후 6개월 평균 +3.4% (CFR)</li>\n</ul>\n\n<h3>🟡 시나리오 2: 교착 상태 (3~6개월 지속) — 확률 약 40%</h3>\n<ul>\n<li>호르무즈 부분 통제 → 유가 $80~90 등락, 코스피 5,000~5,500 박스권</li>\n<li>한국은행 금리 인하 시기 지연 — 에너지발 물가 상승 우려</li>\n<li><strong>하나증권 황승택 리서치센터장:</strong> \"호르무즈 봉쇄로 유가가 오르면 조정 국면이 길어질 수 있다\"</li>\n<li>옥스퍼드 이코노믹스: 4MB/일 공급 차질 1분기 지속 시 유가 $80 수준, 연말 $60 복귀 전망</li>\n</ul>\n\n<h3>🔴 시나리오 3: 전면전·호르무즈 완전 봉쇄 — 확률 약 20%</h3>\n<ul>\n<li>WTI $100+ (뱅크오브아메리카 시나리오), 브렌트 $100 돌파</li>\n<li>코스피 추가 20~30% 하락, 4,000대 진입 리스크</li>\n<li>USD/KRW 1,600 돌파 가능성 (역외 트레이더 시나리오)</li>\n<li>GDP 성장률 -0.3%p 이상, 물가 +1.3%p 이상 충격 (현대경제연구원)</li>\n<li><strong>IM증권 박상현:</strong> \"트럼프가 조기 출구를 찾지 못하면 에너지 불안과 금융 변동성이 장기화될 것\"</li>\n</ul>\n\n<h2>투자자를 위한 실전 대응 전략</h2>\n\n<h3>단기 (1~4주)</h3>\n<ol>\n<li><strong>변동성 장세 신규 진입 자제</strong> — VIX 60대에서는 바닥 확인 후 접근이 원칙. 반등이 나와도 지속성을 먼저 확인하세요.</li>\n<li><strong>에너지·방산·금 ETF 점검</strong> — 지정학 헤지 수단으로 포트폴리오의 5~10% 내에서 활용 가능합니다.</li>\n<li><strong>달러 자산 비중 확인</strong> — 원화 약세 국면에서 미국 ETF 등 달러 자산이 환차익 완충 역할을 합니다.</li>\n</ol>\n\n<h3>중장기 (1~6개월)</h3>\n<ol>\n<li><strong>삼성전자·SK하이닉스 분할 매수 검토</strong> — AI HBM 수요 구조는 훼손되지 않았습니다. 코스피 5,000 이하에서 단계적 접근을 전문가들이 제안하고 있습니다.</li>\n<li><strong>호르무즈 모니터링이 핵심</strong> — 봉쇄 기간과 강도에 따라 3가지 시나리오 중 하나가 현실화됩니다. 원유 선물 시장의 콘탱고·백워데이션 구조가 시장의 기간 전망을 반영합니다.</li>\n<li><strong>인내가 대부분의 경우 유효</strong> — 9·11, 2003년 이라크 전쟁, 2022년 러-우 전쟁 모두 충격 이후 6개월~1년 내 회복. 패닉 매도보다 분할 접근이 역사적으로 우위를 보였습니다.</li>\n</ol>\n\n<h2>핵심 정리</h2>\n<div style=\"background:rgba(56,189,248,0.06);border:1px solid rgba(56,189,248,0.2);border-radius:10px;padding:1rem 1.25rem;margin-top:0.5rem;\">\n<ul style=\"margin:0;padding-left:1.2rem;\">\n<li>미·이란 합동 공습(2026.2.28)으로 코스피 이틀간 <strong>역대 최대 폭락(-19.3%)</strong>, 서킷브레이커 발동</li>\n<li>구조적 원인: 중동 원유 70% 의존 + 반도체 지수 집중도 50% + 원화 정치적 취약성</li>\n<li>유가 WTI $77, 달러-원 1,500원 돌파 — 17년 만의 최저 원화</li>\n<li>핵심 변수는 <strong>호르무즈해협 봉쇄 여부와 지속 기간</strong></li>\n<li>단기 종전 시 빠른 V자 반등, 장기화 시 4,000대 리스크</li>\n<li>패닉 매도보다 분할 접근 + 에너지·달러 헤지 조합이 역사적으로 유효</li>\n</ul>\n</div>\n\n<p style=\"margin-top:1.25rem;color:#64748b;font-size:0.85rem;\">\n📊 <a href=\"/economic-indicators\" style=\"color:#38bdf8;\">경제지표 대시보드</a>에서 VIX, WTI, 달러-원 환율 등 실시간 지표를 확인하고, <a href=\"/fear-greed-index\" style=\"color:#38bdf8;\">공포 &amp; 탐욕 지수</a>로 현재 시장 심리를 모니터링하세요.\n</p>"
+  },
+  {
     "slug": "technical-analysis-guide-for-beginners",
     "title": "주식 초보자를 위한 기술적 분석 가이드: RSI, MACD, 이동평균선 완벽 정리",
     "excerpt": "기술적 분석의 3대 핵심 지표인 RSI, MACD, 이동평균선(SMA)의 원리와 실전 활용법을 초보자 눈높이에서 알기 쉽게 설명합니다.",
@@ -8,7 +30,13 @@
     "date_modified": "2026-02-10",
     "author": "Stock Insight AI",
     "category": "투자 교육",
-    "tags": ["기술적분석", "RSI", "MACD", "이동평균선", "초보자"],
+    "tags": [
+      "기술적분석",
+      "RSI",
+      "MACD",
+      "이동평균선",
+      "초보자"
+    ],
     "seo_description": "주식 기술적 분석의 핵심 지표 RSI, MACD, 이동평균선(SMA)의 원리와 실전 활용법을 초보자도 쉽게 이해할 수 있도록 정리했습니다.",
     "seo_keywords": "기술적분석, RSI, MACD, 이동평균선, SMA, 주식차트, 매매신호, 주식초보"
   },
@@ -21,7 +49,14 @@
     "date_modified": "2026-02-17",
     "author": "Stock Insight AI",
     "category": "투자 전략",
-    "tags": ["ETF", "분산투자", "초보자", "SPY", "QQQ", "배당ETF"],
+    "tags": [
+      "ETF",
+      "분산투자",
+      "초보자",
+      "SPY",
+      "QQQ",
+      "배당ETF"
+    ],
     "seo_description": "ETF 투자의 장점, 종류별 특징, 카테고리별 추천 ETF를 초보자도 쉽게 이해할 수 있도록 정리한 2026년 ETF 입문 가이드입니다.",
     "seo_keywords": "ETF투자, ETF추천, SPY, QQQ, SCHD, 배당ETF, 분산투자, ETF초보"
   },
@@ -34,7 +69,13 @@
     "date_modified": "2026-02-23",
     "author": "Stock Insight AI",
     "category": "투자 전략",
-    "tags": ["공포탐욕지수", "매매타이밍", "역발상투자", "워런버핏", "VIX"],
+    "tags": [
+      "공포탐욕지수",
+      "매매타이밍",
+      "역발상투자",
+      "워런버핏",
+      "VIX"
+    ],
     "seo_description": "공포 & 탐욕 지수의 원리, 구성 요소, 그리고 역발상 투자에 활용하는 실전 전략을 알기 쉽게 정리했습니다.",
     "seo_keywords": "공포탐욕지수, FearGreedIndex, 매매타이밍, 역발상투자, VIX, 시장심리, 워런버핏"
   },
@@ -47,7 +88,14 @@
     "date_modified": "2026-03-02",
     "author": "Stock Insight AI",
     "category": "종목 분석",
-    "tags": ["AI반도체", "엔비디아", "AMD", "브로드컴", "GPU", "NVDA"],
+    "tags": [
+      "AI반도체",
+      "엔비디아",
+      "AMD",
+      "브로드컴",
+      "GPU",
+      "NVDA"
+    ],
     "seo_description": "2026년 AI 반도체 투자 가이드: 엔비디아, AMD, 브로드컴의 경쟁 구도, 기업별 강점과 리스크, 핵심 투자 지표를 분석합니다.",
     "seo_keywords": "AI반도체, 엔비디아, NVDA, AMD, 브로드컴, AVGO, GPU, AI투자, 반도체ETF, SOXX"
   },
@@ -60,7 +108,14 @@
     "date_modified": "2026-03-09",
     "author": "Stock Insight AI",
     "category": "투자 전략",
-    "tags": ["배당투자", "배당ETF", "SCHD", "월배당", "패시브인컴", "배당귀족"],
+    "tags": [
+      "배당투자",
+      "배당ETF",
+      "SCHD",
+      "월배당",
+      "패시브인컴",
+      "배당귀족"
+    ],
     "seo_description": "매달 안정적인 배당 수익을 만드는 실전 가이드. 배당주 선별 기준, 배당수익률 해석법, 포트폴리오 구성 예시까지 단계별로 안내합니다.",
     "seo_keywords": "배당투자, 배당주, SCHD, JEPI, 월배당, 배당수익률, 패시브인컴, 배당ETF, 배당포트폴리오"
   },
@@ -73,7 +128,14 @@
     "date_modified": "2026-03-16",
     "author": "Stock Insight AI",
     "category": "투자 교육",
-    "tags": ["PER", "PBR", "ROE", "밸류에이션", "가치투자", "주식기초"],
+    "tags": [
+      "PER",
+      "PBR",
+      "ROE",
+      "밸류에이션",
+      "가치투자",
+      "주식기초"
+    ],
     "seo_description": "PER, PBR, ROE의 의미와 실전 해석법을 3분 만에 이해하세요. 업종별 비교법, 조합 판단 프레임워크, 워런 버핏의 기준까지 정리합니다.",
     "seo_keywords": "PER, PBR, ROE, 밸류에이션, 주가수익비율, 주가순자산비율, 자기자본이익률, 가치투자, 주식기초"
   }
