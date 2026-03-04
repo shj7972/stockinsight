@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "외국인 순매도 20조 원 기록",
-      "역대 최대치지만 시총 대비 적어",
-      "시장 반응은 비교적 차분함"
+      "역대 최대 규모",
+      "시총 대비 영향 작아"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 계획 강조",
-      "국제 협력 필요성 언급",
-      "재정 정책 조정 의지"
+      "경제 정책에 대한 새로운 비전",
+      "시장 안정화 조치 강화",
+      "기업 지원 확대 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
     "publisher": "한국방송뉴스",
     "summary": [
-      "재무장관회의 개최",
-      "국제공조 방안 논의",
-      "핵심광물 중요성 강조"
+      "국제공조 강화 방안 논의",
+      "핵심광물 재무장관회의 개최",
+      "협력체계 구축의 중요성 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식시장 역사 최대 하락",
-      "미국-이란 전쟁 여파",
-      "투자자 불안감 증가"
+      "한국 주식, 역사적 최대 폭락",
+      "미국-이란 전쟁의 영향",
+      "투자자 불안 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -59,22 +59,22 @@
     "publisher": "invesco.com",
     "summary": [
       "투자자 불안 지속",
-      "시장 회복력 강조",
-      "변동성 속 안정 찾아"
+      "시장 강인함 강조",
+      "변동성 속 안정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg",
+    "title": "미국 증시 상승, 중동 분쟁 심화로 아시아 증시 흔들리다 - CNN",
+    "original_title": "US stocks rise, Asian markets get rocked as Middle East conflict intensifies - CNN",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DVTdFZkthcU5RSU1NV2tRMUtOYVNmLWtBcUxjaldHRTZlVVY0NlJoSWtsRWFnYlZqM1Baczc3NDk0aHJLcFgtOEpnWHFtWDZRd2p1QUR2YmlQZ3BDQXlYQUtoOE1iNVRkSEdR?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "아시아 주식 하락 예상",
-      "유가 상승 지속",
-      "시장 분위기 불안정"
+      "미국 주식 상승",
+      "아시아 시장 타격",
+      "중동 갈등 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
