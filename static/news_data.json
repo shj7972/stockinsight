@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
-      "주식, 부동산보다 유망",
-      "한국 부자 증가 추세"
+      "부동산 대신 주식이 유망",
+      "금융자산 증가 추세 확인"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1%",
-      "회복세 미약",
-      "전망이 부정적임"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 평가",
+      "전망에 부정적인 뉘앙스 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 방향 설명",
-      "통화 정책 안정 강조",
-      "산업 경쟁력 강화 계획"
+      "구윤철, 경제부총리 취임",
+      "정책 방향 밝힘",
+      "안정적 성장 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
+    "title": "미-이란 전쟁으로 한국 증시 사상 최대 폭락 - 알자지라",
     "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 증시 사상 최대 하락",
-      "미국-이란 전쟁 영향",
-      "투자자들 불안감 고조"
+      "한국 주식시장 역사적 하락",
+      "미국-이란 전쟁 여파",
+      "투자자 불안감 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaktraVVoQTFKYzNiZlZTZ21DVWJzazBXSDhhY3haZkJLYXQ1MXpZX2hHSE1scGU3SWxYZVBrd1c1ZlVBQ1JMYU50OW9GTjdwMEJFdEFrZG9UNVpFdlAzRUJuNldxQVJST3h5a0xmalY3MjJ3QnNfNTVrNkRNOU5MLQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "투자자 불안이 지속되고 있다",
-      "시장이 저항력을 보인다",
-      "경제 전망은 혼재된 신호들"
+      "투자자 불안감이 지속되고 있음",
+      "시장 회복력에 대한 논의",
+      "경제 전망의 불확실성 여전"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg",
+    "title": "미국 증시는 강한 경제 회복과 유가 완화로 반등했습니다 - KING5.com",
+    "original_title": "US stocks rebound after strong economic updates and an easing of oil prices - KING5.com",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMmFHRnNmemJjX3JkYWNpTUpRa3FzRi1oeUtjeXhuNlpMSjEzVHN4NklGdDVnNng3blVibkpJUnl5elBSSVNacThfZV9UNlF4bjUxckp6MEo0MXVfUC1xSUZlN3MtTVExVjdiYm9rQUZPQnJhVFdYVzMtbTFCbUtoQ0g4R0JiZ2dIM0ZkcHNiZThUUV9FLVNzdjV3dUpRVDg3Y01kOWdHbWtDcHp3R0RrWktnU3dRTGYtNUdHSkFMQjJHeE93NEhQZTljMk1FTWJfYzhfdzV2YTd0eDhjTTJnN0h5UHdBd2tyQkhTRlJMVQ?oc=5",
+    "publisher": "KING5.com",
     "summary": [
-      "아시아 증시 하락 예상",
-      "유가 상승 지속",
-      "시장 불안감 증가"
+      "주식 시장 반등",
+      "강한 경제 지표 발표",
+      "유가 하락"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
