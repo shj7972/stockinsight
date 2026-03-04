@@ -4,35 +4,35 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
-      "금융자산 10억 이상 보유",
-      "부동산보다 주식 유망"
+      "한국 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약함",
-      "경제 회복 불확실성 존재"
+      "한국거래소, 프리·애프터마켓 도입",
+      "운영 시작 시점: 6월",
+      "시장 유동성 증가 기대"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
-    "publisher": "포브스코리아",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "모바일 금융 성장세 지속",
-      "핀테크 혁신 가속화",
-      "투자 증가 전망 밝음"
+      "부총리의 경제 정책 강조",
+      "경제 회복력 포부",
+      "투자 활성화 방안 소개"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식 시장 역사적 하락",
+      "한국 증시 역사상 최대 하락",
       "미국-이란 전쟁 여파",
-      "투자자 우려 확산"
+      "투자자 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
+    "type": "해외"
+  },
+  {
+    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
+    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
+    "publisher": "Bloomberg",
+    "summary": [
+      "아시아 주식 하락 전망",
+      "유가 상승 지속",
+      "시장에 부정적 영향"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaktraVVoQTFKYzNiZlZTZ21DVWJzazBXSDhhY3haZkJLYXQ1MXpZX2hHSE1scGU3SWxYZVBrd1c1ZlVBQ1JMYU50OW9GTjdwMEJFdEFrZG9UNVpFdlAzRUJuNldxQVJST3h5a0xmalY3MjJ3QnNfNTVrNkRNOU5MLQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "투자자 불안 지속",
+      "투자자 불안감 지속",
       "시장 회복력 강조",
-      "장기 투자 전략 필요"
+      "경제 전망 여전히 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국 증시는 강한 경제 회복과 유가 완화로 반등했습니다 - cbs8.com",
-    "original_title": "US stocks rebound after strong economic updates and an easing of oil prices - cbs8.com",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
-    "publisher": "cbs8.com",
-    "summary": [
-      "주식 시장 반등 소식",
-      "강한 경제 지표 발표",
-      "유가 하락 영향"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
