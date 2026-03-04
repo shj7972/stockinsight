@@ -1,25 +1,12 @@
 [
   {
-    "title": "Ministry of Economy and Finance officially launched, pledges 2026 as a year of economic takeoff - The Korea Post",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YbjI4b19iZU14R3BDeXFwbXZkdzB5T3VTampKeHpJYTBNMjVfYWtJMHZsUkJWejQ5R0wxSE5rR1RkTjViQTBWYWY1cXFMcjRnb3J1d3Y1M1FnaWRVOEl2Q2FfRTdhOWNER3fSAW5BVV95cUxOdFgxVVBCS2xZWUIxeHNocUZzbHBNNm93TDdPTldfaDFCSWNsRERrOVZBZGk3ZVRRWjM1WUZYckl0NmpTdnRaYnc0N0VhUGMtWGtoVVpiUl9MejZWZkpjQy12MWcxc0syOHlHR0xnUQ?oc=5",
-    "publisher": "The Korea Post",
-    "summary": [
-      "경제부 출범",
-      "2026년 경제 비상 선언",
-      "정책 추진 의지"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식이 유망",
-      "주식 투자 증가 추세"
+      "한국 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "경제 회복세 미약",
-      "2024년 성장 기대감 낮음"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약할 것으로 예상",
+      "전반적 경기 불안 요인 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 전략 강조",
+      "외국인 투자 유치 목표",
+      "리더십 및 투명성 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장에 대한 긍정적 전망",
-      "경제적 지지 요인 존재",
-      "투자자 관심 증가"
+      "비미국 주식시장 긍정적 전망",
+      "경제 지표 분석 결과 우호적",
+      "전략적 투자 기회 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMGZwN2dPeVE3elNLdWxScUI1akZ3RlRRN05hYTNHdXBDZHI2TG4yZWxXNTAxbkxLTlFSRHNGeFFTVGtTS2dBN3ZlOFUwOEFEZDVJaGhReFZ2b0phMzAwbGJxUHU4M1ZDWU5YdkNBM0hlUU1zUjdTZGR0S052a3NzODZxaFBzanpESDVBS1B3bzRTaGp1a2E3N2pYT2VXSHowSVVWalp4a254cXlHLWJiYzZKSlk5eW8?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 경제 불안정한 상황",
-      "이란 전쟁 우려 증가",
-      "불확실성 확대될 가능성"
+      "미국 경제 불안정성 존재",
+      "이란 전쟁 가능성 언급",
+      "불확실성 더할 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국-이스라엘의 이란 공격 이후 글로벌 시장이 휘청거렸다 - The New York Times",
-    "original_title": "Global Markets Whipsaw After U.S.-Israel Attack on Iran - The New York Times",
+    "title": "이란 전쟁의 경제적 영향에 대한 투자자들의 대비로 주식 시소 - The New York Times",
+    "original_title": "Stocks Seesaw as Investors Brace for Iran War’s Economic Repercussions - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFZlSER5azBwbkJFNm43azF6bXBXWjJGeFRoNDU1dHFhMWtjT3RNbkI4c19tQTgxclFocDR6X2ZBOF9INERGR0tfTmxIWktwMmhaLXQzNTVKTUZrWlBiTzJKN1FSUExzcWJJdFV5LWpsOFVadFI1aFpObTg5THBVWUVzVVM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "세계 시장 변동성 증가",
-      "미-이스라엘 공격 발생",
-      "투자자 불안감 확대"
+      "주식 시장, 높은 변동성 보임",
+      "투자자, 이란 전쟁 우려",
+      "경제 영향에 대한 불안감 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
