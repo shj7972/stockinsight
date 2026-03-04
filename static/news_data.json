@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 부자 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식, 부동산보다 유망",
+      "한국 부자 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 성장률 2.1% 예상",
-      "회복세는 미약할 것으로 보임",
-      "경제 상황에 대한 우려 존재"
+      "내년 한국 경제 성장률 2.1%",
+      "회복세 미약",
+      "전망이 부정적임"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[KOREA’S MOBILE ECONOMY] (2) FINANCE - 포브스코리아",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JOXBDZzR5STNuRzRLdUNpekJ0ZE1JdXExNmhXMHhTbDhmT3k3SnRmZGg2SjNMUG1EZWdobEhYR0Rab0QxNjN5T093V2pOT2dEaENwQTRfRUdaNFluSjlyRmtUNjZickF0UFdCNFBSSkxFdw?oc=5",
-    "publisher": "포브스코리아",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "모바일 금융 서비스 성장 중",
-      "핀테크 스타트업 투자가 활발",
-      "디지털 결제 수요 증가"
+      "경제 정책 방향 설명",
+      "통화 정책 안정 강조",
+      "산업 경쟁력 강화 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식시장 역사적 폭락",
+      "한국 증시 사상 최대 하락",
       "미국-이란 전쟁 영향",
-      "투자자 불안감 증대"
+      "투자자들 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaktraVVoQTFKYzNiZlZTZ21DVWJzazBXSDhhY3haZkJLYXQ1MXpZX2hHSE1scGU3SWxYZVBrd1c1ZlVBQ1JMYU50OW9GTjdwMEJFdEFrZG9UNVpFdlAzRUJuNldxQVJST3h5a0xmalY3MjJ3QnNfNTVrNkRNOU5MLQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "투자자 불안감 증가",
-      "시장 회복력 강조",
-      "경제 긍정적 전망 유지"
+      "투자자 불안이 지속되고 있다",
+      "시장이 저항력을 보인다",
+      "경제 전망은 혼재된 신호들"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "미국 증시 상승, 중동 분쟁 심화로 아시아 증시 흔들리다 - CNN",
-    "original_title": "US stocks rise, Asian markets get rocked as Middle East conflict intensifies - CNN",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DVTdFZkthcU5RSU1NV2tRMUtOYVNmLWtBcUxjaldHRTZlVVY0NlJoSWtsRWFnYlZqM1Baczc3NDk0aHJLcFgtOEpnWHFtWDZRd2p1QUR2YmlQZ3BDQXlYQUtoOE1iNVRkSEdR?oc=5",
-    "publisher": "CNN",
+    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
+    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
+    "publisher": "Bloomberg",
     "summary": [
-      "미국 주식 상승",
-      "아시아 시장 불안정",
-      "중동 갈등 격화"
+      "아시아 증시 하락 예상",
+      "유가 상승 지속",
+      "시장 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
