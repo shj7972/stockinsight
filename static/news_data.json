@@ -1,41 +1,41 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 안정화 정책 강조",
+      "투자 유치 방안 논의",
+      "일자리에 대한 기여 약속"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
       "부자 47.6만명, 금융자산 10억 이상",
       "부동산보다 주식 투자 유망",
-      "주식 시장에 대한 긍정적 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국거래소, 6월부터 운영 추진",
-      "프리·애프터마켓 도입 예정",
-      "시장 활성화 기대"
+      "주식 시장에 대한 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
+    "publisher": "한국방송뉴스",
     "summary": [
-      "경제 정책 방향성 제시",
-      "금융시장 안정 강조",
-      "신투자 유도 노력"
+      "재무장관회의 개최",
+      "핵심광물 논의",
+      "국제공조 강화"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장에 긍정적 시각",
-      "기초 데이터 뒷받침",
-      "투자자 관심 증가"
+      "비미국 주식시장 긍정적 반응",
+      "한계가 있는 미국시장",
+      "글로벌 투자 기회 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
     "publisher": "cbs8.com",
     "summary": [
-      "주식 시장 반등",
-      "강한 경제 지표 발표",
-      "유가 완화 영향"
+      "미국 주식 시장 반등",
+      "강력한 경제 지표 발표",
+      "유가 하락 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg",
+    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
+    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
+    "publisher": "PBS",
     "summary": [
-      "아시아 주식 하락 전망",
-      "유가 상승 지속",
-      "시장 유동성 걱정"
+      "미국 주식, 큰 손실에서 반등",
+      "오일 가격, 이란 전쟁 우려로 급등",
+      "시장 불안감 속 회복 조짐"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
