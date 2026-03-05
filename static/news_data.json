@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 존재",
-      "주식, 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 유망",
+      "주식 시장에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "프리·애프터마켓 운영 6월 시행",
-      "한국거래소의 새로운 시도",
+      "한국거래소, 프리·애프터마켓 도입",
+      "운영 시작: 6월 예정",
       "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 제시",
-      "재정 정책 부담 완화",
-      "투자 유치 계획 강화"
+      "경제 성장 전략 강조",
+      "국제 협력 중요성 언급",
+      "투자 유치 방안 제시"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "미-이란 전쟁으로 한국 증시 사상 최대 폭락 - 알자지라",
+    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
     "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식 시장 역사적 하락",
-      "미국-이란 전쟁 여파",
-      "투자자 신뢰 급감"
+      "한국 주식시장 역사적 하락",
+      "미국-이란 전쟁 영향을 받아",
+      "투자자 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비US 주식 시장에 대한 긍정적 전망",
-      "내부적 요인과 외부적 요인 분석",
-      "투자 매력 증가 사례 제시"
+      "비미국 주식시장 지원하는 이야기들",
+      "긍정적인 경제 상황 강조",
+      "투자자들 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
+    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg.com",
+    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "아시아 주식, 하락 전망",
+      "아시아 주식 하락 예상",
       "유가 상승 지속",
-      "시장 불안 요소 증가"
+      "시장 전반에 부정적 영향"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
