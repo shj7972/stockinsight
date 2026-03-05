@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "주식 시장에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장 2.1% 전망",
-      "회복세는 미약하다고 언급",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장",
+      "회복세는 미약",
+      "전망에 우려 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 정책 강화",
-      "투자 유치 목표",
-      "재정 건전성 유지"
+      "부총리의 경제 정책 소개",
+      "경제 성장 전망 밝음",
+      "재정 개혁 의지 피력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "이란과의 미국-이스라엘 전쟁으로 석유 및 가스 가격이 상승함에 따라 주식 시장 하락 재개 - The Guardian",
+    "original_title": "Stock market falls resume as US-Israel war with Iran drives up oil and gas prices - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTkU2Mmc4bXp5cy0ybVRtNklzektIWE9iNUdDRXNfNlh5WFBkUEQ1cjdSYkhXclM0cWp0TERTeWVVR0VEZmxsNmRud09WdzJuV3NqcFJMcDI4Snh3Wl93V1dQME5KZ3JHWURFQ3ZvV3pWWTFnSE1ZcWZrTDEyOGc3c1hvTEhxaDBsZmtaTzVRS2VCWnVzckF5ZEo2eU1SaU9jTEo0Tkp4bHVodHZtNy1obEs5ZEJ4MUtzV19XRHIwTk1sMEtSV0E?oc=5",
+    "publisher": "The Guardian",
+    "summary": [
+      "주식 시장 하락세 재개",
+      "이스라엘 전쟁으로 유가 상승",
+      "경제 불안정성 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "트럼프는 계속해서 경제를 가지고 도박을 하고 있다 – 그리고 그것을 피하고 있다 – Politico",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNiTnZoMmxVLVdySnZSekMwQ1pCNlUtcFRHSUE1S1RDZEN6b21pamFPVjltbzlJU3BfNG5DZnNkenZrTGZMdXlzSTBiY19ZQVZ2bU1teHh0OGZQVm16OUtzSmhNdF9oaTN6NFNHSGtNOFVILXBYZk1ONTU2YjFuVnROUmhrZ0VsdWpsbDM3dHpsdnFiV0xCb0RLQXFETU1walUxQmJB?oc=5",
     "publisher": "Politico",
     "summary": [
-      "트럼프, 경제에 도박을 계속 함",
-      "위험한 결정들이 이어짐",
-      "시장에는 긍정적 영향 없음"
+      "트럼프, 경제에 도박하며 계속 성공",
+      "정책으로 인해 불확실성 증가",
+      "시장 반응은 여전히 긍정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
-    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
-    "publisher": "invesco.com",
+    "title": "유가 급등으로 인플레이션 우려 다시 커져 다우지수 1000포인트 이상 급락 - CBS 뉴스",
+    "original_title": "Dow plunges more than 1,000 points as surging oil prices renew inflation fears - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWDJReTNUR1NkdHltektiY2Z4REU4azBwcFh2VDROVjg2VEdDeENUMWxHS29Ub1J0aklOSEM4T2JOTndTb1dsdjF0dDB6TW0xUC1RTVRvM0FDc1RQeHlWaVhWcV91dVV5bmZTaG5Cc2N4MDFwRXNvelQtT3o1MHM5N08wZjQyYmtGTU5ldNIBkgFBVV95cUxPbDA5Z1l2ZFd6RjcyekxjZWYxRWR0dWQyWjMyODJ2ZXJHWkZoLW5QcDFmdm1ENFFfVlFyRUdMYzNmZXV6OUJmb184d3NyeWliNXZTb0dLMFVRX3hja3ZXS1k2b1VjTURCQlZUQXJIV2N0c0xtbW1qOWx3WndmTXZVQjhpTk5yMWdYeEZTcGZfVkRrdw?oc=5",
+    "publisher": "CBS News",
     "summary": [
-      "비미국 주식시장 긍정적",
-      "유망한 나래티브와 사실",
-      "투자자 관심 증가"
+      "다우 지수 1,000포인트 하락",
+      "유가 급등으로 인플레이션 우려 재확산",
+      "시장 투자 심리 위축"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식은 강한 경제 회복과 유가 급등이 멈춘 후 반등했습니다 - AP 뉴스",
-    "original_title": "US stocks rebound after strong economic updates and as oil prices stop spiking - AP News",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
-    "publisher": "AP News",
-    "summary": [
-      "미국 주식이 반등함",
-      "강한 경제 지표 발표",
-      "유가 상승 중단"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
