@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 부자는 47.6만명",
-      "금융자산은 10억 이상",
-      "주식이 더 유망하다는 의견"
+      "부자 47.6만명 존재",
+      "주식, 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 운영",
-      "6월부터 시행 예정",
-      "투자자 편의성 증가 기대"
+      "프리·애프터마켓 운영 6월 시행",
+      "한국거래소의 새로운 시도",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 노력 강화",
-      "부처 간 협력 강조",
-      "통화 정책 조정 필요"
+      "경제 성장 전략 제시",
+      "재정 정책 부담 완화",
+      "투자 유치 계획 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
+    "title": "미-이란 전쟁으로 한국 증시 사상 최대 폭락 - 알자지라",
     "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "韓国 증시 역사상 최악의 폭락",
-      "미국-이란 전쟁 영향",
-      "투자자들 우려 커져"
+      "한국 주식 시장 역사적 하락",
+      "미국-이란 전쟁 여파",
+      "투자자 신뢰 급감"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
     "type": "해외"
   },
   {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg.com",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg.com",
+    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
+    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "아시아 주식, 하락 가능성",
-      "유가 상승 지속",
-      "시장 분위기 부정적"
+      "비US 주식 시장에 대한 긍정적 전망",
+      "내부적 요인과 외부적 요인 분석",
+      "투자 매력 증가 사례 제시"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "소음 위: 투자자 불안과 시장 인내력 - invesco.com",
-    "original_title": "Above the Noise: Investor angst and market endurance - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaktraVVoQTFKYzNiZlZTZ21DVWJzazBXSDhhY3haZkJLYXQ1MXpZX2hHSE1scGU3SWxYZVBrd1c1ZlVBQ1JMYU50OW9GTjdwMEJFdEFrZG9UNVpFdlAzRUJuNldxQVJST3h5a0xmalY3MjJ3QnNfNTVrNkRNOU5MLQ?oc=5",
-    "publisher": "invesco.com",
+    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
+    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
+    "publisher": "Bloomberg",
     "summary": [
-      "투자자 불안 심화",
-      "시장 강인성 강조",
-      "장기 회복 가능성"
+      "아시아 주식, 하락 전망",
+      "유가 상승 지속",
+      "시장 불안 요소 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
