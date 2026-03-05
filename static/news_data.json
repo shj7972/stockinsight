@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식 투자 주목받아",
-      "재테크 트렌드 변화 시사"
+      "한국 부자 47.6만명 보유",
+      "부산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세 미약하다고 지적",
-      "한국 경제 불확실성 존재"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세는 미약하다고 언급",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 계획 강조",
-      "투자 유치 전략 발표",
-      "세금 정책 개편 예고"
+      "경제 정책 강화",
+      "투자 유치 목표",
+      "재정 건전성 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNiTnZoMmxVLVdySnZSekMwQ1pCNlUtcFRHSUE1S1RDZEN6b21pamFPVjltbzlJU3BfNG5DZnNkenZrTGZMdXlzSTBiY19ZQVZ2bU1teHh0OGZQVm16OUtzSmhNdF9oaTN6NFNHSGtNOFVILXBYZk1ONTU2YjFuVnROUmhrZ0VsdWpsbDM3dHpsdnFiV0xCb0RLQXFETU1walUxQmJB?oc=5",
     "publisher": "Politico",
     "summary": [
-      "트럼프, 경제에 도박 중",
-      "경제적 리스크 여전히 존재",
-      "성과는 인정받고 있음"
+      "트럼프, 경제에 도박을 계속 함",
+      "위험한 결정들이 이어짐",
+      "시장에는 긍정적 영향 없음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장에 대한 긍정적 전망",
-      "지속적인 성장이 가능하다",
-      "다양한 투자 기회 존재"
+      "비미국 주식시장 긍정적",
+      "유망한 나래티브와 사실",
+      "투자자 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
-    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
-    "publisher": "PBS",
+    "title": "미국 주식은 강한 경제 회복과 유가 급등이 멈춘 후 반등했습니다 - AP 뉴스",
+    "original_title": "US stocks rebound after strong economic updates and as oil prices stop spiking - AP News",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
+    "publisher": "AP News",
     "summary": [
-      "미국 주식 시장 반등",
-      "유가 상승",
-      "이란 전쟁 우려"
+      "미국 주식이 반등함",
+      "강한 경제 지표 발표",
+      "유가 상승 중단"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
