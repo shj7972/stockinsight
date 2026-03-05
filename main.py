@@ -282,6 +282,7 @@ def get_analysis_context(ticker: str):
     
     return {
         'ticker': ticker,
+        'clean_ticker': ticker.split('.')[0],
         'company_name': info.get('longName', ticker),
         'current_price': current_price,
         'prev_price': prev_price,

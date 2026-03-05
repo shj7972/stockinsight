@@ -1,16 +1,21 @@
 {% extends "base.html" %}
 
-{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) AI 주식분석 | 매수·매도 신호 실시간 확인{%
+{% block title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주가 현재가 및 AI 주식 분석 |
+매수·매도 📈{%
 else %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock Insight AI{% endif %}{% endblock %}
 
-{% block meta_description %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) 오늘의 AI 분석 결과 확인!
-현재가, 차트 패턴, 기술적 지표, 뉴스 감성분석, 매수/매도 의견을 무료로 확인하세요{% else %}삼성전자, 테슬라 등 60개+ 인기 종목을 AI가 실시간 분석! 매수·매도 신호, 차트 패턴, 뉴스 감성까지
+{% block meta_description %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 실시간 주가 데이터와
+AI 전망!
+오늘의 현재가, 목표 주가, 차트 패턴, 매수/매도 신호 탑재된 무료 주식 분석 결과를 지금 확인하세요{% else %}삼성전자, 테슬라 등 60개+ 인기 종목을 AI가 실시간 분석! 매수·매도 신호, 차트 패턴,
+뉴스 감성까지
 무료로 확인하세요 📈{% endif %}{% endblock %}
 
-{% block og_title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.ticker }}) AI 분석 결과{% else %}주식 AI
+{% block og_title %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주가 전망 & AI 분석 결과{%
+else %}주식 AI
 분석 | 매수·매도 신호 무료 확인{% endif %}{% endblock %}
 
-{% block og_description %}{% if stock_data %}{{ stock_data.company_name }} 오늘의 매수·매도 신호, 차트 패턴, AI 투자 전략 확인{% else
+{% block og_description %}{% if stock_data %}{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 현재 주가, 매수·매도
+신호, 차트 분석, 주식 전망 알아보기{% else
 %}60개+ 인기 종목 AI 분석 · 매수·매도 신호 · 뉴스 감성분석 무료{% endif %}{% endblock %}
 
 {% block canonical_path %}{% if stock_data %}/stock/{{ stock_data.ticker }}{% else %}/{% endif %}{% endblock %}
@@ -23,8 +28,8 @@ else %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock 
 {
     "@context": "https://schema.org",
     "@type": "FinancialProduct",
-    "name": "{{ stock_data.company_name }} ({{ stock_data.ticker }})",
-    "description": "{{ stock_data.company_name }} AI 기반 주식 분석 - 현재가, 기술적 분석, 뉴스 감성 분석",
+    "name": "{{ stock_data.company_name }} ({{ stock_data.clean_ticker }})",
+    "description": "{{ stock_data.company_name }} AI 기반 주식 분석 - 현재 주가, 기술적 분석, 주식 전망 및 감성 분석",
     "url": "https://stock-insight.app/stock/{{ stock_data.ticker }}",
     "provider": {
         "@type": "Organization",
@@ -69,7 +74,7 @@ else %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock 
 <!-- Stock Analysis Section -->
 <div class="stock-header glass-panel {{ stock_data.verdict_class }}">
     <div class="stock-title-section">
-        <h1 class="gradient-text">{{ stock_data.company_name }} ({{ stock_data.ticker }})</h1>
+        <h1 class="gradient-text">{{ stock_data.company_name }} ({{ stock_data.clean_ticker }})</h1>
         <div class="verdict-badge"
             style="background: {{ stock_data.verdict_color }}22; color: {{ stock_data.verdict_color }}; border-color: {{ stock_data.verdict_color }}44;">
             {{ stock_data.verdict }}
@@ -281,7 +286,7 @@ else %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock 
 
     // Share Functionality
     const shareBaseUrl = "https://stock-insight.app/stock/{{ stock_data.ticker }}";
-    const shareTitle = "{{ stock_data.company_name }} ({{ stock_data.ticker }}) AI 분석 결과";
+    const shareTitle = "{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주가 전망 및 AI 분석 결과";
     const shareText = "{{ stock_data.verdict.split('(')[0].strip() if '(' in stock_data.verdict else stock_data.verdict }} - Stock Insight AI";
 
     function toggleShareMenu() {
