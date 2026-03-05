@@ -4,25 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식 투자 유망",
-      "부동산 수익 감소"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "6월부터 프리·애프터마켓 운영",
-      "한국거래소의 새로운 시도",
-      "시장 접근성 확대 기대"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식, 부동산보다 유망하다는 전망",
+      "한국 경제에 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약함",
+      "금융연의 예측 발표"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 안정화를 위한 정책 추진",
-      "투자 활성화 방안 모색",
-      "국제 협력 강화 의지"
+      "구윤철 부총리 인터뷰",
+      "경제 정책 방향 밝혀",
+      "재정 건전성 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -44,8 +44,8 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비 미국 주식시장 전망 밝음",
-      "긍정적 내러티브와 사실",
+      "비미국 주식시장에 대한 긍정적 전망",
+      "강력한 내러티브와 데이터",
       "투자자 관심 증가"
     ],
     "sentiment": "POSITIVE",
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
     "publisher": "cbs8.com",
     "summary": [
-      "미국 주식, 경제 데이터 개선",
-      "유가 하락으로 반등",
-      "투자 심리 회복 조짐"
+      "미국 주식 반등",
+      "강력한 경제 지표 발표",
+      "유가 하락 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
-    "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
-    "publisher": "Al Jazeera",
+    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
+    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
+    "publisher": "Bloomberg",
     "summary": [
-      "한국 주식 시장 역사상 최대 하락",
-      "미국-이란 전쟁 여파",
-      "투자자들 불안감 증대"
+      "아시아 주식 하락 예상",
+      "석유 가격 상승 지속",
+      "시장 불안 요인 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
