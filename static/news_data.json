@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "투자 선호도 변화 나타남"
+      "한국 부자 47.6만명 보유",
+      "주식 투자 유망",
+      "부동산 수익 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "6월부터 프리·애프터마켓 운영",
-      "거래소의 새로운 시도",
-      "시장 활성화 기대"
+      "한국거래소의 새로운 시도",
+      "시장 접근성 확대 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철, 경제 정책 강조",
-      "금융 안정성 강화",
-      "성장 전략 논의"
+      "경제 안정화를 위한 정책 추진",
+      "투자 활성화 방안 모색",
+      "국제 협력 강화 의지"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장에 긍정적 전망",
-      "거시경제 데이터 우호적",
-      "투자자 신뢰 증대"
+      "비 미국 주식시장 전망 밝음",
+      "긍정적 내러티브와 사실",
+      "투자자 관심 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "미국 증시는 강한 경제 회복과 유가 완화로 반등했습니다 - cbs8.com",
+    "original_title": "US stocks rebound after strong economic updates and an easing of oil prices - cbs8.com",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
+    "publisher": "cbs8.com",
+    "summary": [
+      "미국 주식, 경제 데이터 개선",
+      "유가 하락으로 반등",
+      "투자 심리 회복 조짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주식 시장, 역사적 하락세",
-      "미국-이란 전쟁 영향",
-      "투자자 불안 증가"
+      "한국 주식 시장 역사상 최대 하락",
+      "미국-이란 전쟁 여파",
+      "투자자들 불안감 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
-    "type": "해외"
-  },
-  {
-    "title": "유가 반등 확대 후 아시아 증시 하락세: 시장 마감 - Bloomberg",
-    "original_title": "Asian Stocks Set to Slip After Oil Extends Rally: Markets Wrap - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0JTWF90ZlIyZ0d6OEdnUFBGRDNKcVJEMkpLZ2YwZXdHeWhPSjMxem1IQ0ZUZmIyMGV2ejg1WVNYTEFxQ1MzVV9QbDlJOUZxcEFfQmVzdHBvYkRUNHVab2gyQmx3VEwwY191Y2FTRmdMdHc2YjM0bkU1eGdKTHlSRS1JQTNWNjdsQ2E0MXYzcW1uT1o1eGc?oc=5",
-    "publisher": "Bloomberg",
-    "summary": [
-      "아시아 주식 하락 예상",
-      "유가 상승 지속",
-      "시장 분위기 부정적"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
