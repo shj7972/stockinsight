@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "부자 47.6만명, 금융자산 10억 이상",
       "부동산보다 주식 유망",
-      "금융자산 10억 초과"
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세 미약하다고 판단",
-      "글로벌 경제 영향 지속"
+      "내년 성장률 2.1% 전망",
+      "경제 회복세 미약",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "구윤철 부총리 인터뷰",
-      "경제 정책 방향 제시",
-      "시장은 긍정적 반응"
+      "국가 경제 정책 방향 제시",
+      "금융 안정성 강조",
+      "암호화폐 규제 논의"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장 긍정적 전망",
-      "강력한 경제 데이터",
-      "투자자 신뢰 회복"
+      "비미국 주식 시장이 유망하다",
+      "강한 서사와 사실 지지",
+      "투자자들 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,7 +58,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1UtczZzR0QwSkdSUHZpTVlic05oOVpvQW9oWEs5UGducWxPVlVvck1WYmRYWV9TWFhFdzFFNnktYlpUNUJxTV9HMjh5UU04OU8yZkRPZVI1TlRib0hlb3hDeUo0U0s4WlEtTzIzS3YyUEJaS3BlMGwwaXd0UDZnMU9QQjNoalpWbGozcWszVmRFRWJWc2JDSmdNY2dOTTNxVGowMm1YbnlsVTZPYV9ZNm9ieGZJQUFBMGVqc213cVBkUWUwUXQwMFRaaXRON0V4Zy1LMjVqQ1BuZjRkRWhKS3AyVDlCeDg0a3ZDMTdR?oc=5",
     "publisher": "cbs8.com",
     "summary": [
-      "미국 주식이 반등함",
+      "미국 증시 반등",
       "강한 경제 지표 발표",
       "유가 하락 영향"
     ],
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식, 급락 후 반등",
-      "이란 전쟁 우려로 유가 급등",
-      "시장 불안 속 회복 움직임"
+      "미국 주식, 급락에서 반등",
+      "원유 가격 급등",
+      "이란 전쟁에 대한 우려"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.6,
