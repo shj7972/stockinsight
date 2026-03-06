@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "한국 부자 47.6만명 존재",
       "주식이 부동산보다 유망",
-      "금융 자산 규모 증가"
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
+      "내년 한국 경제 2.1% 성장 전망",
       "회복세는 미약할 것",
-      "전망에 대한 우려 존재"
+      "전반적인 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "중소기업 지원 계획",
-      "국제 협력 중요성 언급"
+      "경제 성장 계획 발표",
+      "투자 유치 전략 강화",
+      "소득 분배 개선 방안 추진"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUF2bUVPdTlTTVExOEpjclJQQ3JkLUlObmFXRjkzUjVkdV80aXZIZ2hFTlh2MHNKRTFKS3lBNTByV0FfYjMydnlCR0x5eGR5QmNtcVFiTF9QcXJ4eEpEU1lxNHR4aWFUVlhfYnZZaFRqaWwyZG8xZUFkT3JITV9adTFWa1BmM2xSbVE1RENMSG40WVhTU2d1bEtSRE5GU080Ni04UzRTanRyWUkxb1BtdW9rVjNubFBPOUtB0gHAAUFVX3lxTE9vRFQ4dGI3YVFQbzFhSVpPLXVHZGdfYW1nTXBGMGo3VURWWWZHNWJ4UUVhRXJtbG5Ubl9fakduX1g4ckVtRHlqWk9XSUJxZU04QlE2R04wa29jVnVuNWc4V2FHU0hMc3BDUWlWN2dZS0NUeGxoNmJZcFFoWlhsUzd6NXlDS2dBWGlkQjR0RmowN20wQUxCOV9KN0FQbm16cElDR3ZuLVc4QlZxVFRoLTVpM3dlWG85eVJaQXRYNjd6OA?oc=5",
     "publisher": "ABC7 San Francisco",
     "summary": [
-      "미국 gas 가격 상승",
-      "주식 시장 변동성 증가",
-      "경제에 부정적 영향"
+      "전쟁으로 가스 가격 상승",
+      "주식 시장 불안정",
+      "경제에 부정적 영향 예상"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장에 대한 긍정적 서사",
-      "경제 지표도 비미국 시장 지지",
-      "다양한 투자 기회 증가"
+      "비달러 시장에 대한 긍정적 전망",
+      "경제 데이터가 긍정적 신호",
+      "해외 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "트럼프는 계속해서 경제를 가지고 도박을 하고 있다 – 그리고 그것을 피하고 있다 – Politico",
-    "original_title": "Trump Keeps Gambling With the Economy — And Getting Away With It - Politico",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNiTnZoMmxVLVdySnZSekMwQ1pCNlUtcFRHSUE1S1RDZEN6b21pamFPVjltbzlJU3BfNG5DZnNkenZrTGZMdXlzSTBiY19ZQVZ2bU1teHh0OGZQVm16OUtzSmhNdF9oaTN6NFNHSGtNOFVILXBYZk1ONTU2YjFuVnROUmhrZ0VsdWpsbDM3dHpsdnFiV0xCb0RLQXFETU1walUxQmJB?oc=5",
-    "publisher": "Politico",
+    "title": "이란과의 미국-이스라엘 전쟁으로 석유 및 가스 가격이 상승함에 따라 주식 시장 하락 재개 - The Guardian",
+    "original_title": "Stock market falls resume as US-Israel war with Iran drives up oil and gas prices - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTkU2Mmc4bXp5cy0ybVRtNklzektIWE9iNUdDRXNfNlh5WFBkUEQ1cjdSYkhXclM0cWp0TERTeWVVR0VEZmxsNmRud09WdzJuV3NqcFJMcDI4Snh3Wl93V1dQME5KZ3JHWURFQ3ZvV3pWWTFnSE1ZcWZrTDEyOGc3c1hvTEhxaDBsZmtaTzVRS2VCWnVzckF5ZEo2eU1SaU9jTEo0Tkp4bHVodHZtNy1obEs5ZEJ4MUtzV19XRHIwTk1sMEtSV0E?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "트럼프, 경제에 도박 중",
-      "경제 정책에 대한 비판",
-      "시장에 대한 부정적 영향"
+      "주식 시장 다시 하락세",
+      "중동 전쟁으로 유가 상승",
+      "경제 불안정성 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
