@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 더 유망",
-      "주식시장에 대한 긍정적 전망"
+      "부자 수 47.6만명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장 2.1% 전망",
-      "회복세는 미약하다고 지적",
-      "전반적인 경기 불확실성 지속"
+      "내년 성장률 2.1% 전망",
+      "회복세 미약",
+      "경제 회복 불확실"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,11 +31,11 @@
     "publisher": "ceomagazine.co.kr",
     "summary": [
       "경제 성장 전략 강조",
-      "재정 정책 강화 필요",
-      "국제 협력 중요성 지적"
+      "재정 정책 안정성 확보",
+      "투자 유치 방안 제시"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가 2023년 최고치 도달",
-      "미국 고용 보고서 발표",
-      "주식시장 하락"
+      "유가, 2023년 최고치 상승",
+      "미국 고용보고서 후 주식 하락",
+      "시장 내 불안정성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식, 스태그플레이션 우려로 하락",
-      "경제 불확실성 확대",
-      "투자자 신뢰도 저하"
+      "미국 주식 시장 하락",
+      "스태그플레이션 우려 증가",
+      "경제 불확실성 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,15 +69,15 @@
   {
     "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
     "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNbGprTWNJLTNrckNSeHlQVk54aDI0ZkRtYm53SDRkbm4xV0tIYmNhMnJxZ3l0WmFRUzFOcDN3V2gwbGIwZ2s2TTRnQ1hOSlF0STdMLUFqdTlud0VwX3dnVmxwUE9mLV9vdm9LLXEzNVhxRGV2OW8tZDVoNmVQcUxQcnVxYlExMjdnWUM0SmN0dnVHQS1iMERHaUFQQ0Y2aFVvUHo0M3dzbTlpUWs1LVpUT01zTUJQdTNmV2ROM1ZGVjh0bnhsQ3k0Z3IzTVN5X004TWE2cFU1NDJVSWd4dzh6TW9KMjVfdVJtam1nMEduT3RnTi1TTkFaVUNJVkl2Q2FsQ1d5RzdJUm9QU1R5Q2VlOExiLWNxdEZYeXB3Q1o2ckN4Sk9tcXhuWk5vNDBtdUlJaF8tWlVhOFptMDc2V0d3eUh4eTdnVTU3cVZBaUpKR2pJZzcyaVFramZvcHVCVjNWSUJZeGh3dEZ5ZkhzUFlzb1VHYkdmQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNMWdwM1BlTGRaOVh5eTlQLWRRTk5SZndtMnBwQVpPLUxlVzNSaUtlYTJLd1c5bk1xM2txQTlESzMxdEpoT2FYN2MzOGh6ajlZbUtvbEo4ejBad2xScHdmUGVNelRSblhRbXFIakhuX0dES3F6TUJhdFZJb0ZQbGh0TEU1VFNmNUpMMDczXzdhMDRGd09VUDZxdkZQWWhidXA1RWt1SXk0OXZ2aHoyZ0JLOVVQdkV0cGgtbDc1bGtWRGsyNG13N25MZ19WSzlKZXJzMUJZdXdtVFJuV3RxY1JOTmhlUUFQVHo5d05NcXk5aGVQdldsVmZiY0F3QmNkSjNmS1VhdDZFSWsxYmtDajI5dnFmLWdZWFBGblBDSm5TdnNqQXAxckowRnFGbkJPQjF0UnNmbGR4NU5wZ0NPUlpPcU1JcjQyR2VndFdRUkdzTnNQOXJsQVE3YldSX2VpX01ya09ZUWxjMVNkSFN3TG51NnRYNzBwQQ?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "전쟁, 석유가치 상승 예상",
-      "주식시장은 하락 우려",
-      "투자자 신뢰도 저하 경고"
+      "전쟁이 시장에 미치는 영향 분석",
+      "투자자들의 불안 증가",
+      "원자재 가격 상승 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
