@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명 조사",
+      "금융자산 10억 이상 보유",
+      "주식이 유망하다는 분석"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 예상",
-      "회복세는 미약할 것으로 보임",
-      "경제 전망에 대한 우려 존재"
+      "내년 경제 성장률 2.1% 전망",
+      "회복세는 미약할 것",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,23 +30,37 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 전략 발표",
-      "시장 안정성 강조",
-      "노동 시장 개선 노력"
+      "국가 경제 성장 전략 발표",
+      "재정 정책 강화 의지",
+      "글로벌 시장 대응 방안 모색"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
+    "title": "미국 주식은 새로운 우려 속에 다시 하락했습니다. 이것이 무엇인지입니다. - USA 투데이",
+    "original_title": "US stocks slide again amid a new worry. Here's what it is. - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
+    "publisher": "USA Today",
+    "summary": [
+      "미국 주식 또 하락",
+      "새로운 우려 요소 등장",
+      "시장이 불안정한 상황"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
     "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
     "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQQ2liQnRTUmZZamtmekhMMGdPUXk4dmpaLUFiM1pDLXZRWXhsLUZUV3lhREFLdkF4dmR1ckdOUmw3OFhkOEo3TXVObFgtdmZZOWZMamxESnJpV25LSVZHY2VpVzl4RHYxZzQzRi12eVE0MW1OVW13cVc1UXVHQWdnMUJoaEdIbzRHSlJfak9fZk9PX2xuMzJnY2NjOHRIZ3JMOXJyNDZUd3hQVTJlUUxhZW4xZVp2UTNNUlBlczN5RkhEOHZaZUt5OVlIUVR3TzJLMmpVQms2ZWVsSE56SU9fSFJoU3l6YXNLNG1PcUJ5LVZ1VzRRVloyN3NkZFEyTWwzaXNWcV9STVd5d29aM210R3ZySXJIWll2OTlXeVVBUU03Rm8wbmstUXFydGQzem1zM2lGay1LdmR5b3diaVltb0JJMzJhY2RxXzlUV3BISWhSaEZBUWs1b2ltd0twYlkwM1VaWXBzWHAxemFwdlZOSFhoVHpJdw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPWGtZN21MTDZMd0pUUkVDSWlHY1hMVVl5cWN2WFA0cllOck9MSllTUkY4YzJORFR0Tk5LS2o5SXNkeUZHcXUzWDMtcVNZUFkyVURwVFZxR1pSczVSTHdhLUpUOE94d2NuVkFwczI0bXZlUzlsN2prQ256TVJTQm9GdEYzMGh2bWZJN1NPd3FvcnBwc29YaUZtTmkxZm5UbGNiQWtTRjFyWG5pQkVieGJwZDdKYlh4eFdQdkY2N2N1S3E2ZWlBODZocUE5T0hhbngwcFhjU3pBdXFXMFZYTXlMLVIwQ1EzY2gwQzVvMm5SMm9ramVOZkRiaEFYYjdpUVBaaFVmdWhoMWNMSGNsWDh1WDlVcVB4aXRvNjQ1X1BZVHVaTjVha0lsQ3BCZXZvUzJ1cGxlZ3JTb2VUbG9DOHNaMGdzQ3AwN0szM0h4b2VYdU1XVVNTUlFON2x5TzR4RWpRdWFBdy1pZEpYaHJqMXh6ZDRCQ01ydw?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "전쟁, 불확실성 증가",
-      "원자재 가격 상승 예상",
-      "주식시장 변동성 확대"
+      "이란 전쟁, 시장에 영향 미침",
+      "유가 상승 우려가 시장 불안",
+      "안전자산 선호 증가 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6MXl4eEtzOVZfYnpDM0JtQl9qZHUtMEZKS3ozT25KVzkwbl9RaGpINjNGcTdYc2Yyb3YtVFAzS3NkREVpRXd3SHRscmVzYUVKc2NfUlF2anU1ekZuRWF2Rk0xZ0Rra2g3NDVCcXJSWmU?oc=5",
     "publisher": "Boston Herald",
     "summary": [
-      "주가 하락 발생",
-      "유가 2년 최고치 근접",
-      "미국 경제 둔화 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주택 대출, 가스, 식료품: 이란 전쟁이 어떻게 트럼프가 선전했던 경제적 이익을 뒤집을 수 있었는가 - NBC News",
-    "original_title": "Home loans, gas, groceries: How the Iran war could upend Trump's touted economic gains - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZlFyWXdHa3hJbERPRjIxdHBnMGplWm5rdmRDamJUYlBoUTE2YmN6UHJHM3JvU3pKNG9tMGFsb0xmVkMxeUoyUXBRYlJjR0dyREpJUXl2WXdyLXJUUlUwdXJXcnlNYU9IMVUzODc0Y2pHaUZfaHpnOXZ2UEw2ak1MNzRxakNuUFNiaXlTeXZCWjFWTGdvY1BoS1hFX0dlMU9DTGphdEk5amJ2cUtWMTFB?oc=5",
-    "publisher": "NBC News",
-    "summary": [
-      "이란 전쟁이 경제에 미치는 영향",
-      "가정 대출, 유가, 식료품에 영향",
-      "트럼프의 경제 성과 우려"
+      "주식이 하락하고 있음",
+      "유가, 2년 만에 최고치",
+      "미국 경제 성장 둔화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
