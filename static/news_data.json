@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 조사",
-      "금융자산 10억 이상 보유",
-      "주식이 유망하다는 분석"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세는 미약할 것",
-      "전망에 대한 우려 존재"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "국가 경제 성장 전략 발표",
-      "재정 정책 강화 의지",
-      "글로벌 시장 대응 방안 모색"
+      "한국 경제 안정 강화",
+      "예산 정책 개혁 추진",
+      "기업 환경 개선 방안 모색"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 성장률 2.1% 전망",
+      "회복세 미약",
+      "경제 불안 지속"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -45,8 +45,8 @@
     "publisher": "USA Today",
     "summary": [
       "미국 주식 또 하락",
-      "새로운 우려 요소 등장",
-      "시장이 불안정한 상황"
+      "새로운 걱정 발생",
+      "투자자들 불안감 커져"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -55,26 +55,26 @@
   {
     "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
     "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPWGtZN21MTDZMd0pUUkVDSWlHY1hMVVl5cWN2WFA0cllOck9MSllTUkY4YzJORFR0Tk5LS2o5SXNkeUZHcXUzWDMtcVNZUFkyVURwVFZxR1pSczVSTHdhLUpUOE94d2NuVkFwczI0bXZlUzlsN2prQ256TVJTQm9GdEYzMGh2bWZJN1NPd3FvcnBwc29YaUZtTmkxZm5UbGNiQWtTRjFyWG5pQkVieGJwZDdKYlh4eFdQdkY2N2N1S3E2ZWlBODZocUE5T0hhbngwcFhjU3pBdXFXMFZYTXlMLVIwQ1EzY2gwQzVvMm5SMm9ramVOZkRiaEFYYjdpUVBaaFVmdWhoMWNMSGNsWDh1WDlVcVB4aXRvNjQ1X1BZVHVaTjVha0lsQ3BCZXZvUzJ1cGxlZ3JTb2VUbG9DOHNaMGdzQ3AwN0szM0h4b2VYdU1XVVNTUlFON2x5TzR4RWpRdWFBdy1pZEpYaHJqMXh6ZDRCQ01ydw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPVGYxb1Q0UmJlWHdvMHFoWUlJaWl5dmNYTzFhOFRBbS1OMk9nbVF2aEVXUE9PNUZqVTNJNkJFVThzLU1NMVpLV0ExWnZ3cWdOVFhnbXVNZFEwc3BFNjRVc2x1MzZoRlcyc2FBTkRQZ2NLOWxPZGgxaXVSOTl4V3d3bWNGY21PSEFQcEs5eFliUGpSQVlvZ2FELUlRQ1ZEWENxWnRsbTRGY3NROG1NUTRUTFQ4MEdWODJYUzI2VWRhQUVZNmlUZUd3RUkyX2hIT3V0ZG90SUdIYm1TMlhONFZxTzJBQU9MTDRDdG01OWZjbkQwbTNtRThrbXh2UHpRN3pZYUhhN1FGUGhFakN0T1VZTy1JV3dOdmFaU1B5NVhfTE1kNHZQUzVUWDJMVmVsTGJteWxlazZMV2ZOQWo0N19iTEJsRFdlRjc3SG5PRUdFbHc5bWhRLTJhREpoSTkyekg1YTBidnJyRnNPM0dKNndKbUlVNzlCZw?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "이란 전쟁, 시장에 영향 미침",
-      "유가 상승 우려가 시장 불안",
-      "안전자산 선호 증가 가능성"
+      "이란 전쟁의 영향 분석",
+      "주식시장 변동성 증가",
+      "투자자 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "유가가 2년 만에 최고치에 근접한 후 주가는 하락하고 미국 경제 둔화를 시사하는 보고서 - 보스턴 헤럴드",
-    "original_title": "Stocks sink after oil prices near a 2-year high and reports suggest a slowing US economy - Boston Herald",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6MXl4eEtzOVZfYnpDM0JtQl9qZHUtMEZKS3ozT25KVzkwbl9RaGpINjNGcTdYc2Yyb3YtVFAzS3NkREVpRXd3SHRscmVzYUVKc2NfUlF2anU1ekZuRWF2Rk0xZ0Rra2g3NDVCcXJSWmU?oc=5",
-    "publisher": "Boston Herald",
+    "title": "유가가 2년 만에 최고치에 가까워지고 미국 경제가 둔화되고 있음을 시사하는 보고서에 주가 하락 - Wilton Bulletin",
+    "original_title": "Stocks fall after oil prices spike near a 2-year high and reports suggest a slowing US economy - The Wilton Bulletin",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdm82cjhtS0M4WjBHMTVhV3UyWk1NckdsLXRGTnJrdHdKRUhCNm1hM3lNWXJDNVI0VzBWOVMwNlJOZXhxRUdXOTB0QjFjdkF5M1doVjRIYzRXVVIzUTVoNFJPczFFZlVFVlJKVHNaREw2Q1FGYUNiWUtpQkpma0pmMHFVZHBHMFhMeEItTGNWOFpEdXhmdFkwVGVaYzRJdEJqbGVONnhFY09KTjhx?oc=5",
+    "publisher": "The Wilton Bulletin",
     "summary": [
-      "주식이 하락하고 있음",
-      "유가, 2년 만에 최고치",
-      "미국 경제 성장 둔화 우려"
+      "주식 하락, 유가 급등",
+      "유가, 2년 만에 최고치 근접",
+      "미국 경제 둔화 소식"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
