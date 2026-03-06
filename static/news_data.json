@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "쿠윤철 부총리의 경제 계획",
-      "금융 정책의 변화 예고",
-      "시장 안정성 증대 기대"
+      "경제 성장 정책 소개",
+      "국제 협력 강조",
+      "재정 건전성 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "불확실성 지속될 것으로 예상"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약함",
+      "전망에 대한 우려가 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 도입",
-      "거래소 운영 개선 기대",
-      "투자자 편의성 증가 예상"
+      "한국거래소, 프리·애프터마켓 도입",
+      "6월부터 운영 예정",
+      "투자자 편의성 증대 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUF2bUVPdTlTTVExOEpjclJQQ3JkLUlObmFXRjkzUjVkdV80aXZIZ2hFTlh2MHNKRTFKS3lBNTByV0FfYjMydnlCR0x5eGR5QmNtcVFiTF9QcXJ4eEpEU1lxNHR4aWFUVlhfYnZZaFRqaWwyZG8xZUFkT3JITV9adTFWa1BmM2xSbVE1RENMSG40WVhTU2d1bEtSRE5GU080Ni04UzRTanRyWUkxb1BtdW9rVjNubFBPOUtB0gHAAUFVX3lxTE9vRFQ4dGI3YVFQbzFhSVpPLXVHZGdfYW1nTXBGMGo3VURWWWZHNWJ4UUVhRXJtbG5Ubl9fakduX1g4ckVtRHlqWk9XSUJxZU04QlE2R04wa29jVnVuNWc4V2FHU0hMc3BDUWlWN2dZS0NUeGxoNmJZcFFoWlhsUzd6NXlDS2dBWGlkQjR0RmowN20wQUxCOV9KN0FQbm16cElDR3ZuLVc4QlZxVFRoLTVpM3dlWG85eVJaQXRYNjd6OA?oc=5",
     "publisher": "ABC7 San Francisco",
     "summary": [
-      "전쟁으로 인한 유가 상승",
-      "증시 변동성 증가",
-      "경제에 부정적 영향 우려"
+      "미국 가스 가격 상승 우려",
+      "주식 시장 변동성 증가",
+      "경제 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비US 시장에 대한 긍정적 관점",
-      "강력한 경제 데이터 지원",
-      "글로벌 투자 기회 증가"
+      "비미국 주식시장에 대한 긍정적 시각",
+      "주식 시장의 내재적 요인 강조",
+      "글로벌 경제 회복 신호 포착"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
-    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
-    "publisher": "PBS",
+    "title": "미·이란 전쟁 여파로 한국 증시 사상 최대 폭락 - 알자지라",
+    "original_title": "South Korea’s stock market suffers biggest drop in history amid US-Iran war - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
+    "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식, 큰 손실 후 반등",
-      "원유 가격 상승",
-      "이란 전쟁 우려 영향"
+      "한국 증시 역사적 하락",
+      "미국-이란 전쟁 영향",
+      "투자자 우려 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.9,
     "type": "해외"
   }
 ]
