@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "금융연의 예측 발표"
+      "2024년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다는 경고",
+      "재정정책과 수출 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 6월부터 운영 추진",
-      "프리·애프터마켓 도입 예정",
+      "한국거래소, 프리·애프터마켓 운영",
+      "운영 예정일: 6월부터",
       "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 정책 지침 제시",
-      "혁신 지원 의지 표명"
+      "경제 회복 전략 강조",
+      "투자 활성화 방안 제시",
+      "정책 안정성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장 긍정적 전망",
-      "경제적 지지 요소 존재",
-      "투자자 관심 증가"
+      "비미국 주식시장에 대한 긍정적 전망",
+      "내러티브와 사실들이 뒷받침됨",
+      "투자자들에게 기회 제공"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "이란 전쟁: 국제 분쟁이 미국 휘발유 가격, 주식 시장, 경제에 미치는 영향 - ABC7 샌프란시스코",
-    "original_title": "Iran war: How US gas prices, stock market, economy are impacted by international conflict - ABC7 San Francisco",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUF2bUVPdTlTTVExOEpjclJQQ3JkLUlObmFXRjkzUjVkdV80aXZIZ2hFTlh2MHNKRTFKS3lBNTByV0FfYjMydnlCR0x5eGR5QmNtcVFiTF9QcXJ4eEpEU1lxNHR4aWFUVlhfYnZZaFRqaWwyZG8xZUFkT3JITV9adTFWa1BmM2xSbVE1RENMSG40WVhTU2d1bEtSRE5GU080Ni04UzRTanRyWUkxb1BtdW9rVjNubFBPOUtB0gHAAUFVX3lxTE9vRFQ4dGI3YVFQbzFhSVpPLXVHZGdfYW1nTXBGMGo3VURWWWZHNWJ4UUVhRXJtbG5Ubl9fakduX1g4ckVtRHlqWk9XSUJxZU04QlE2R04wa29jVnVuNWc4V2FHU0hMc3BDUWlWN2dZS0NUeGxoNmJZcFFoWlhsUzd6NXlDS2dBWGlkQjR0RmowN20wQUxCOV9KN0FQbm16cElDR3ZuLVc4QlZxVFRoLTVpM3dlWG85eVJaQXRYNjd6OA?oc=5",
-    "publisher": "ABC7 San Francisco",
-    "summary": [
-      "전쟁으로 가즈 가격 상승 우려",
-      "주식 시장 변동성 증가",
-      "경제에 부정적 영향 미침"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVNDZFh0Vzg0ejlNZEZwVmx6Mzlkem1vVVVXdWpmNEk0RGVzNGRjNTRPeXRBZklNMno2TzB1QWNRSERISlhKNlQzeDBDaTN5U0UzeHFzaTJITlN3YUdSZEVmUDljTEhDSkU4aVRJMjdMUlJaa1FUdXYzSUhHVVJ3WkNVak1FS0dGZFJ4TzFuRmlMaTBieG5IVWFGY1ZtZ9IBowFBVV95cUxOX2IybXhCNVNUdWVmU21NMmxxUjh3VnhZUVlmemc2YTRvWGNqQWtFZVFud3dfV2l0ZFZGeko4OW5vb3E5VDdERmNQNHB6RXFwQW9DdEpOSjVsb3BtcFpkck9TQzZUNWotSnctLV9OamdVSWVyYlNINF9OZldRYUJ2U3drdXVWcHpQMnJ4Y3F1YmFBdmtHVWRSYmJqeHU3QkhSWVlZ?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "한국 주가, 역사적 하락세",
-      "미국-이란 전쟁 영향",
-      "투자자 우려 심화"
+      "남한 주식 시장 역사적 폭락",
+      "미국-이란 전쟁 관련",
+      "투자자 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁: 국제 분쟁이 미국 휘발유 가격, 주식 시장, 경제에 미치는 영향 - ABC7 샌프란시스코",
+    "original_title": "Iran war: How US gas prices, stock market, economy are impacted by international conflict - ABC7 San Francisco",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUF2bUVPdTlTTVExOEpjclJQQ3JkLUlObmFXRjkzUjVkdV80aXZIZ2hFTlh2MHNKRTFKS3lBNTByV0FfYjMydnlCR0x5eGR5QmNtcVFiTF9QcXJ4eEpEU1lxNHR4aWFUVlhfYnZZaFRqaWwyZG8xZUFkT3JITV9adTFWa1BmM2xSbVE1RENMSG40WVhTU2d1bEtSRE5GU080Ni04UzRTanRyWUkxb1BtdW9rVjNubFBPOUtB0gHAAUFVX3lxTE9vRFQ4dGI3YVFQbzFhSVpPLXVHZGdfYW1nTXBGMGo3VURWWWZHNWJ4UUVhRXJtbG5Ubl9fakduX1g4ckVtRHlqWk9XSUJxZU04QlE2R04wa29jVnVuNWc4V2FHU0hMc3BDUWlWN2dZS0NUeGxoNmJZcFFoWlhsUzd6NXlDS2dBWGlkQjR0RmowN20wQUxCOV9KN0FQbm16cElDR3ZuLVc4QlZxVFRoLTVpM3dlWG85eVJaQXRYNjd6OA?oc=5",
+    "publisher": "ABC7 San Francisco",
+    "summary": [
+      "전쟁으로 인해 유가 상승",
+      "주식시장 불안정성 증가",
+      "경제 성장 전망 악화"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
