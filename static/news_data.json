@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 부자 47.6만명 발생",
-      "부동산보다 주식 더 유망",
-      "금융자산 10억 이상 보유"
+      "한국 부자 47.6만명 보유",
+      "부동산 투자 감소 추세",
+      "주식 투자 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것으로 전망",
-      "금융연의 분석 결과"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것으로 보임",
+      "전반적인 경제 상황은 불확실함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 회복 위한 정책 추진",
-      "중소기업 지원 강화",
-      "지속 가능한 성장 목표"
+      "경제 성장 전략 강조",
+      "재정 정책 변화 예고",
+      "글로벌 협력 필요성 제기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "이란 전쟁: 국제 분쟁이 미국 휘발유 가격, 주식 시장, 경제에 미치는 영향 - ABC7 샌프란시스코",
+    "original_title": "Iran war: How US gas prices, stock market, economy are impacted by international conflict - ABC7 San Francisco",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUF2bUVPdTlTTVExOEpjclJQQ3JkLUlObmFXRjkzUjVkdV80aXZIZ2hFTlh2MHNKRTFKS3lBNTByV0FfYjMydnlCR0x5eGR5QmNtcVFiTF9QcXJ4eEpEU1lxNHR4aWFUVlhfYnZZaFRqaWwyZG8xZUFkT3JITV9adTFWa1BmM2xSbVE1RENMSG40WVhTU2d1bEtSRE5GU080Ni04UzRTanRyWUkxb1BtdW9rVjNubFBPOUtB0gHAAUFVX3lxTE9vRFQ4dGI3YVFQbzFhSVpPLXVHZGdfYW1nTXBGMGo3VURWWWZHNWJ4UUVhRXJtbG5Ubl9fakduX1g4ckVtRHlqWk9XSUJxZU04QlE2R04wa29jVnVuNWc4V2FHU0hMc3BDUWlWN2dZS0NUeGxoNmJZcFFoWlhsUzd6NXlDS2dBWGlkQjR0RmowN20wQUxCOV9KN0FQbm16cElDR3ZuLVc4QlZxVFRoLTVpM3dlWG85eVJaQXRYNjd6OA?oc=5",
+    "publisher": "ABC7 San Francisco",
+    "summary": [
+      "Iran 전쟁으로 유가 상승",
+      "주식 시장 불안정",
+      "경제에 부정적 영향"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "이란과의 미국-이스라엘 전쟁으로 석유 및 가스 가격이 상승함에 따라 주식 시장 하락 재개 - The Guardian",
@@ -44,23 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTkU2Mmc4bXp5cy0ybVRtNklzektIWE9iNUdDRXNfNlh5WFBkUEQ1cjdSYkhXclM0cWp0TERTeWVVR0VEZmxsNmRud09WdzJuV3NqcFJMcDI4Snh3Wl93V1dQME5KZ3JHWURFQ3ZvV3pWWTFnSE1ZcWZrTDEyOGc3c1hvTEhxaDBsZmtaTzVRS2VCWnVzckF5ZEo2eU1SaU9jTEo0Tkp4bHVodHZtNy1obEs5ZEJ4MUtzV19XRHIwTk1sMEtSV0E?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국-이스라엘 전쟁에 따른 긴장",
-      "석유 및 가스 가격 상승",
-      "주식시장 하락 지속"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "유가 급등으로 인플레이션 우려 다시 커져 다우지수 800포인트 급락 - CBS 뉴스",
-    "original_title": "Dow plunges almost 800 points as surging oil prices renew inflation fears - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWDJReTNUR1NkdHltektiY2Z4REU4azBwcFh2VDROVjg2VEdDeENUMWxHS29Ub1J0aklOSEM4T2JOTndTb1dsdjF0dDB6TW0xUC1RTVRvM0FDc1RQeHlWaVhWcV91dVV5bmZTaG5Cc2N4MDFwRXNvelQtT3o1MHM5N08wZjQyYmtGTU5ldNIBkgFBVV95cUxPbDA5Z1l2ZFd6RjcyekxjZWYxRWR0dWQyWjMyODJ2ZXJHWkZoLW5QcDFmdm1ENFFfVlFyRUdMYzNmZXV6OUJmb184d3NyeWliNXZTb0dLMFVRX3hja3ZXS1k2b1VjTURCQlZUQXJIV2N0c0xtbW1qOWx3WndmTXZVQjhpTk5yMWdYeEZTcGZfVkRrdw?oc=5",
-    "publisher": "CBS News",
-    "summary": [
-      "다우지수 800점 하락",
-      "유가 상승에 따른 인플레 우려",
-      "시장 불안정성 증가"
+      "주식 시장 하락 재개",
+      "미-이스라엘 전쟁",
+      "유가 및 가스 가격 상승"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNiTnZoMmxVLVdySnZSekMwQ1pCNlUtcFRHSUE1S1RDZEN6b21pamFPVjltbzlJU3BfNG5DZnNkenZrTGZMdXlzSTBiY19ZQVZ2bU1teHh0OGZQVm16OUtzSmhNdF9oaTN6NFNHSGtNOFVILXBYZk1ONTU2YjFuVnROUmhrZ0VsdWpsbDM3dHpsdnFiV0xCb0RLQXFETU1walUxQmJB?oc=5",
     "publisher": "Politico",
     "summary": [
-      "트럼프의 경제적 도박 계속됨",
-      "정책 불확실성이 우려됨",
-      "시장 반응은 긍정적"
+      "트럼프, 경제에서 위험을 감수하다",
+      "정치적 상황과 경제의 연관성",
+      "경제적 결과에 대한 논란"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
