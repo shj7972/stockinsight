@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "부자는 47.6만명으로 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "한국 경제 안정 강화",
-      "예산 정책 개혁 추진",
-      "기업 환경 개선 방안 모색"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세 미약",
-      "경제 불안 지속"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "경제 회복세 미약한 상황",
+      "금융연의 신뢰도 높은 분석"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 방안 강조",
+      "재정 정책 안정성 유지",
+      "투자 유치 정책 추진"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
+    "publisher": "NPR",
+    "summary": [
+      "유가 2023년 이후 최고치 기록",
+      "미국 고용 보고서 발표",
+      "주식시장 하락 반응"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "미국 주식은 새로운 우려 속에 다시 하락했습니다. 이것이 무엇인지입니다. - USA 투데이",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식 또 하락",
+      "미국 주식 다시 하락",
       "새로운 걱정 발생",
-      "투자자들 불안감 커져"
+      "시장 심리 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
     "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
     "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPVGYxb1Q0UmJlWHdvMHFoWUlJaWl5dmNYTzFhOFRBbS1OMk9nbVF2aEVXUE9PNUZqVTNJNkJFVThzLU1NMVpLV0ExWnZ3cWdOVFhnbXVNZFEwc3BFNjRVc2x1MzZoRlcyc2FBTkRQZ2NLOWxPZGgxaXVSOTl4V3d3bWNGY21PSEFQcEs5eFliUGpSQVlvZ2FELUlRQ1ZEWENxWnRsbTRGY3NROG1NUTRUTFQ4MEdWODJYUzI2VWRhQUVZNmlUZUd3RUkyX2hIT3V0ZG90SUdIYm1TMlhONFZxTzJBQU9MTDRDdG01OWZjbkQwbTNtRThrbXh2UHpRN3pZYUhhN1FGUGhFakN0T1VZTy1JV3dOdmFaU1B5NVhfTE1kNHZQUzVUWDJMVmVsTGJteWxlazZMV2ZOQWo0N19iTEJsRFdlRjc3SG5PRUdFbHc5bWhRLTJhREpoSTkyekg1YTBidnJyRnNPM0dKNndKbUlVNzlCZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPTGZDM3BtcE9NbHNDalB2b1FQd3BZeHhYS1M3OHVuN3VRaVhVMHhDcDZtNzhiUWpkMGpBS1JOZXVzdmNQNHNheThXM0EzeVp1OW9LU2tZQWlBWVY1eHVldnFUSHozcVBWbzJLcWc0T2FQY0VxVDBoX3RNWXozQ1lYTkUwZ052YkpGTkhQdWFkeDdHRkZOYWRaSy1uYXFPRkRpRE96S2UwVzVnRTVNNVllQkpNNGpXdy1Pek94VWpTeklfLV9vYlo2YlNlNjREbnM3ZmhNbGkyNGdYVTRsejZNcmpzekxBemU5QW5KMnVLRi1UX2JwOXlrYjNZUjJSWEdCWktRRUxOaUVkRTdJbWI4UjRCLWRhQmU0UmNQckV0c1liQzdWdFNyN2VxbU82dUxJcXRSdUNERnZIY3Ryek1zeWpYRkVIZDFiT1VMSG1LX29mYjRvWWZmNUt6aEJuTEhLbXVTUDNkbWxJTGhHWHZYMVRBMVdHZw?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "이란 전쟁의 영향 분석",
-      "주식시장 변동성 증가",
-      "투자자 불확실성 확대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "유가가 2년 만에 최고치에 가까워지고 미국 경제가 둔화되고 있음을 시사하는 보고서에 주가 하락 - Wilton Bulletin",
-    "original_title": "Stocks fall after oil prices spike near a 2-year high and reports suggest a slowing US economy - The Wilton Bulletin",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdm82cjhtS0M4WjBHMTVhV3UyWk1NckdsLXRGTnJrdHdKRUhCNm1hM3lNWXJDNVI0VzBWOVMwNlJOZXhxRUdXOTB0QjFjdkF5M1doVjRIYzRXVVIzUTVoNFJPczFFZlVFVlJKVHNaREw2Q1FGYUNiWUtpQkpma0pmMHFVZHBHMFhMeEItTGNWOFpEdXhmdFkwVGVaYzRJdEJqbGVONnhFY09KTjhx?oc=5",
-    "publisher": "The Wilton Bulletin",
-    "summary": [
-      "주식 하락, 유가 급등",
-      "유가, 2년 만에 최고치 근접",
-      "미국 경제 둔화 소식"
+      "전쟁, 유가 상승 우려",
+      "안전자산 수요 증가",
+      "주식 시장 변동성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
