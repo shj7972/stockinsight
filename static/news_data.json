@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 약할 것",
-      "금융연 전망 발표"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약하다는 평가",
+      "금융연의 경제 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10년간 2천억달러 투자",
-      "기업 투자액과 비슷함",
-      "미국 경제에 긍정적 기대"
+      "10년간 2천억 달러 투자",
+      "기업과 비슷한 투자액",
+      "경제 성장 기대감"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 발표",
-      "디지털 전환 강조",
-      "지속 가능성 강화"
+      "서민 경제 지원 강화",
+      "산업 경쟁력 확보",
+      "디지털 경제 발전 추진"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,8 +44,8 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "2023년 이후 유가 상승",
-      "U.S. 고용 보고서 발표",
+      "유가 올해 최고치 갱신",
+      "미국 일자리 보고서 발표",
       "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 증시 하락세",
-      "스태그플레이션 우려 확산",
-      "경제 전망 불확실성 증가"
+      "미국 주식 하락",
+      "스태그플레이션 우려",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTdkQ3dQbm9DVm5jN1dsWnZNcWlkaHJTa2VSZ29fVHU5emJPNXBGc3BSaW11MVI3QVBLaW5yOTJ6Y0dUalNucVBZcUR0QmJYdlM2a2pMZVhmb0RxV2l0X25VdVpFOEF6VVZZdHhrTnhrWjFGWXhEMEpsc2NQcTFzRmpvNjdzNS1JMW9pTjQxRF9VWG5kM3BsMVRVc1FEQnIyQ0w4THl2OXRNN3BkR21XUDJlRzZDWS01V0E?oc=5",
     "publisher": "Investopedia",
     "summary": [
-      "전문가들이 경제 전망에 우려",
-      "이란 전쟁이 시장에 영향 미침",
-      "유가 상승 및 불확실성 증가"
+      "전문가의 경제 전망",
+      "시장 불확실성 증가",
+      "전쟁의 영향 고려 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
