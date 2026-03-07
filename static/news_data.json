@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "주식이 부동산보다 유망하다는 분석",
-      "한국 경제 성장 가능성 시사"
+      "부자 47.6만명으로 증가",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 집중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "금융연의 분석 결과"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미미할 것",
+      "전망에 부정적 요소 포함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 성장률 올해 0.9% 예상",
-      "내년 성장률 1.7%로 조정",
-      "각각 0.1%p 상향 조정"
+      "한국 성장률 올해 0.9%로 예상",
+      "내년 성장률 1.7%로 상승",
+      "각각 0.1%p 상승 조정"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가, 2023년 최고치 도달",
-      "미국 고용보고서 발표",
-      "주식시장 하락"
+      "유가 2023년 최고치 기록",
+      "미국 고용 보고서 발표",
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 시장에 긍정적 요인 존재",
-      "강한 실적 지원 정보",
-      "글로벌 투자 기회 증가"
+      "비미국 주식 시장에 유리한 요인",
+      "주요 경제 지표 긍정적",
+      "투자자 심리 개선 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
     "publisher": "AP News",
     "summary": [
-      "미국 주식, 강한 경제 지표 반등",
-      "유가 급등세 멈춰",
-      "시장 긍정적 반응"
+      "미국 주식 반등",
+      "강한 경제 지표 발표",
+      "유가 상승 멈춤"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
