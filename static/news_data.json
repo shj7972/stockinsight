@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 성장률 2.1% 전망",
-      "회복세가 미약하다고 평가",
-      "경제 불확실성 지속 예상"
+      "회복세는 미약하다고 평가",
+      "경제 불확실성 유지"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10년간 2천억달러 미국 투자",
-      "기업 대미 투자액과 유사",
-      "국제 경제 동향 주목"
+      "10년간 2천억달러 투자",
+      "기업 대미 투자액과 같음",
+      "경제 성장 기대감 높아짐"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
+    "title": "ADB “South Korea growth 0.9% this year, 1.7% next year”…each raised by 0.1%p - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "경제 성장 전략 강조",
-      "투자 환경 개선 계획",
-      "국민 소득 향상 목표"
+      "남한 성장률 올해 0.9%로 수정",
+      "내년 성장률 1.7%로 조정",
+      "각각 0.1%p 올려짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "석유가 2023년 최고치 도달",
-      "미국 고용보고서 발표",
-      "주식시장 하락"
+      "2023년 최대 유가 상승",
+      "미국 고용 보고서 발표",
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식, 하락세 지속",
-      "스태그플레이션 우려 증가",
-      "투자자 심리 위축"
+      "미국 주식 시장 하락",
+      "스태그플레이션 우려 부각",
+      "경제 전반에 부정적 영향"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTdkQ3dQbm9DVm5jN1dsWnZNcWlkaHJTa2VSZ29fVHU5emJPNXBGc3BSaW11MVI3QVBLaW5yOTJ6Y0dUalNucVBZcUR0QmJYdlM2a2pMZVhmb0RxV2l0X25VdVpFOEF6VVZZdHhrTnhrWjFGWXhEMEpsc2NQcTFzRmpvNjdzNS1JMW9pTjQxRF9VWG5kM3BsMVRVc1FEQnIyQ0w4THl2OXRNN3BkR21XUDJlRzZDWS01V0E?oc=5",
     "publisher": "Investopedia",
     "summary": [
-      "전문가 의견, 경제 불확실성 증가",
-      "전쟁이 시장에 미치는 영향 우려",
-      "통화정책 조정 필요성 대두"
+      "전문가들이 전쟁 여파 분석",
+      "시장 불확실성 증가",
+      "경제 성장 둔화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
