@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
+      "내년 성장률 2.1% 전망",
       "회복세는 미약",
-      "경제 상황 우려가 커짐"
+      "경제 상황 불투명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10년간 2000억 달러 투자",
-      "기업 대미 투자액과 비슷",
-      "미국 투자 증대 추세"
+      "10년간 2천억 달러 투자",
+      "기업 대미 투자액과 유사",
+      "경제 발전 기대감 증대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "ADB, 올해 한국 성장률 0.9% 예상",
-      "내년 성장률 1.7%로 상승",
-      "각각 0.1%p 상승 조정"
+      "올해 성장률 0.9%로 상향 조정",
+      "내년 성장률 1.7%로 전망",
+      "각각 0.1%p 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,7 +44,7 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가, 2023년 최고치 경신",
+      "유가 2023년 최고치 기록",
       "미국 고용 보고서 발표",
       "주식 시장 하락"
     ],
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식 하락세 지속",
+      "미국 주식 하락",
       "스태그플레이션 우려 증가",
-      "경제 불안감 확산"
+      "시장 불안감 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,15 +69,15 @@
   {
     "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
     "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNWXplZEo3Y1VVeDcwTm1TUkpsbVBydWZmUkVidGVlVE5nVXlXbXVJYm0wLWN4RDdsUmZGSl8yaU1RVU5Gc0ZNSkhYekRDa1JheG1fbHhJRDdLS1NCbTlKUlo1WU9CVkJkSndBSHpmUGRtT1JBNXVlMmgzUS1xZTZJanE3dGhNckx2T3R3QmdMaFhOelZnbm50RUQyQzBQMU5mN01NMHJNblBmd0NWamcydE4tTmtzWjR5U3BVcUh5aDhhUDlnRUM4UldFR3RKQXVLd0pPRkszd0VQcmFLdkNlTk9MY1BHc2V5ZmtSckFqMk1pbjBpSkQyUGJHUk9UZnlwNFZkb2VwemJGS3F4S2ktSUdNUW9JdDVxb2c3RlNQYWRJQ0w0ejMxbWp0cFF5V3l0b1duVW9UVUV0cEpMOHNkcTluS251cV9sM0hDd1NwaFp4UEpva01VWjFVZUZvQmtoUkNlcWVPcDdMQWxIMTNxTmlWd3hyZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxONVZRNnRMLUpQWDZxUFpldTBiWVdhSXBWa2dDaVpZbGZrT25GTktiR0R2WS1DRm4zSHdTdzZwOGpfSFQxT21MdXVFSDUwb1Qxa3g2UnU5ajZYaU5rQnJkeVU5X3BNWTFzZEh2TGJ6Z3JuNldBbng0ZXREbXFheFVqbW9Xb0xzZ292cWJOZHV0ZktlU0lHaHhKUWZkZHp3TTJHSUNwQ0N6Z0EyY0oyLXMtSEZQYTlxTkIyLUo2Tk9KTUU5WUxXb0hSNnRzMmRremdSTVdpanpGZGtwb0ZIaEZ2OEZQWW1OVzFUeXN4eHFVS1BndlIxQWVyR2pjTTNTMEJtV1o2SDM2cUlzckVERHFhbE1XWFFoV2s3MlUtaXRWd2dVNkNFU216TlJpeVc2NjR3cXVCNVc2TjQyNG55ZFhqeXhWZERaR3NsR1hFWVZkUWlQUlpkUzU5UExadDdxa2daTWNTLTlfdWFBbjBVSFhLOGtBZVNMQQ?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "이란 전쟁 영향 분석",
-      "주식시장 불안 요소",
-      "투자자 대응 방안 제시"
+      "이란 전쟁의 시장 영향 분석",
+      "전쟁 관련 투자 위험 증가",
+      "안전 자산 선호 추세 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
