@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "전반적 경제 상황 우려"
+      "회복세는 미약",
+      "경제 상황 우려가 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10년간 2천억 달러 투자",
-      "기업 대미 투자액과 유사",
-      "경제 성장 기여 가능성"
+      "10년간 2000억 달러 투자",
+      "기업 대미 투자액과 비슷",
+      "미국 투자 증대 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 성장률 올해 0.9%로 상향 조정",
-      "내년 성장률 1.7%로 예측",
-      "각각 0.1%p 증가"
+      "ADB, 올해 한국 성장률 0.9% 예상",
+      "내년 성장률 1.7%로 상승",
+      "각각 0.1%p 상승 조정"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "title": "유가는 2023년 이후 최고치로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
     "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가, 2023년 이후 최고치 상승",
-      "미국 고용보고서 발표 후 주식 하락",
-      "시장 불안정성 증가 우려"
+      "유가, 2023년 최고치 경신",
+      "미국 고용 보고서 발표",
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식 시장 하락",
-      "스태그플레이션 우려 대두",
-      "경제 불확실성 증가"
+      "미국 주식 하락세 지속",
+      "스태그플레이션 우려 증가",
+      "경제 불안감 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이란 전쟁이 계속됨에 따라 전문가들이 경제와 시장에 대해 어떻게 생각하는지 알아보십시오 - Investopedia",
-    "original_title": "Here's What Experts Think About the Economy—and Markets—as War in Iran Continues - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTdkQ3dQbm9DVm5jN1dsWnZNcWlkaHJTa2VSZ29fVHU5emJPNXBGc3BSaW11MVI3QVBLaW5yOTJ6Y0dUalNucVBZcUR0QmJYdlM2a2pMZVhmb0RxV2l0X25VdVpFOEF6VVZZdHhrTnhrWjFGWXhEMEpsc2NQcTFzRmpvNjdzNS1JMW9pTjQxRF9VWG5kM3BsMVRVc1FEQnIyQ0w4THl2OXRNN3BkR21XUDJlRzZDWS01V0E?oc=5",
-    "publisher": "Investopedia",
+    "title": "이란 전쟁이 주식시장에 실제로 의미하는 것 - Barron's",
+    "original_title": "What the Iran War Really Means for the Stock Market - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNWXplZEo3Y1VVeDcwTm1TUkpsbVBydWZmUkVidGVlVE5nVXlXbXVJYm0wLWN4RDdsUmZGSl8yaU1RVU5Gc0ZNSkhYekRDa1JheG1fbHhJRDdLS1NCbTlKUlo1WU9CVkJkSndBSHpmUGRtT1JBNXVlMmgzUS1xZTZJanE3dGhNckx2T3R3QmdMaFhOelZnbm50RUQyQzBQMU5mN01NMHJNblBmd0NWamcydE4tTmtzWjR5U3BVcUh5aDhhUDlnRUM4UldFR3RKQXVLd0pPRkszd0VQcmFLdkNlTk9MY1BHc2V5ZmtSckFqMk1pbjBpSkQyUGJHUk9UZnlwNFZkb2VwemJGS3F4S2ktSUdNUW9JdDVxb2c3RlNQYWRJQ0w0ejMxbWp0cFF5V3l0b1duVW9UVUV0cEpMOHNkcTluS251cV9sM0hDd1NwaFp4UEpva01VWjFVZUZvQmtoUkNlcWVPcDdMQWxIMTNxTmlWd3hyZw?oc=5",
+    "publisher": "Barron's",
     "summary": [
-      "전문가의 경제 전망",
-      "전쟁 영향 분석",
-      "시장 반응 예측"
+      "이란 전쟁 영향 분석",
+      "주식시장 불안 요소",
+      "투자자 대응 방안 제시"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
