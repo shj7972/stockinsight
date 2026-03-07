@@ -1,15 +1,28 @@
 [
   {
-    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 순매도 20조 기록",
-      "역대 최대 규모",
-      "시총 대비 영향 미미"
+      "한국의 부자는 47.6만명",
+      "부동산보다 주식이 유망",
+      "금융자산 10억 이상 보유"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 성장률 2.1% 전망",
+      "회복세 미약",
+      "경제 불확실성 지속"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -18,24 +31,11 @@
     "publisher": "ceomagazine.co.kr",
     "summary": [
       "경제 성장 전략 강조",
-      "재정 정책의 지속성",
-      "글로벌 협력 필요성 지적"
+      "재정 안정성 유지 약속",
+      "디지털 전환 지원 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
-    "publisher": "한국방송뉴스",
-    "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 강화 논의",
-      "재무장관 참여"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가 2023년 최고치 상승",
+      "2023년 이후 유가 급등",
       "미국 고용 보고서 발표",
-      "주식 시장 하락"
+      "주식시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식시장 하락",
-      "스태그플레이션 우려 증가",
-      "경제 불확실성 심화"
+      "미국 주가 하락",
+      "스태그플레이션 우려 상승",
+      "경제 전망 불투명"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
     "publisher": "AP News",
     "summary": [
-      "미국 주식 시장 반등",
-      "강력한 경제 지표 발표",
-      "유가 상승세 둔화"
+      "미국 주식 상승",
+      "강력한 경제 업데이트",
+      "유가 급등 중단"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
