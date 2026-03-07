@@ -1,41 +1,41 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 유망",
-      "주식 투자 관심 증가"
+      "외국인 순매도 20조 기록",
+      "역대 최대 규모",
+      "시총 대비 영향 미미"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
     "summary": [
-      "내년 한국 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "경제 불확실성 여전"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "ADB “South Korea growth 0.9% this year, 1.7% next year”…each raised by 0.1%p - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한국 성장률, 올해 0.9% 전망",
-      "내년 성장률 1.7%로 상향",
-      "각 0.1%p씩 증가"
+      "경제 성장 전략 강조",
+      "재정 정책의 지속성",
+      "글로벌 협력 필요성 지적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
+    "publisher": "한국방송뉴스",
+    "summary": [
+      "핵심광물 회의 개최",
+      "국제공조 강화 논의",
+      "재무장관 참여"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "석유 가격 2023년 최고치 도달",
+      "유가 2023년 최고치 상승",
       "미국 고용 보고서 발표",
       "주식 시장 하락"
     ],
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주식 하락세 지속",
+      "미국 주식시장 하락",
       "스태그플레이션 우려 증가",
-      "시장 불확실성 확대"
+      "경제 불확실성 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
-    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
-    "publisher": "invesco.com",
+    "title": "미국 주식은 강한 경제 회복과 유가 급등이 멈춘 후 반등했습니다 - AP 뉴스",
+    "original_title": "US stocks rebound after strong economic updates and as oil prices stop spiking - AP News",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
+    "publisher": "AP News",
     "summary": [
-      "비시장을 지지하는 내러티브",
-      "비교적 긍정적인 글로벌 전망",
-      "투자자 관심 증가"
+      "미국 주식 시장 반등",
+      "강력한 경제 지표 발표",
+      "유가 상승세 둔화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
