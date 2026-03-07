@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 부자는 47.6만명",
-      "부동산보다 주식이 유망",
+      "부자 수 47.6만명으로 증가",
+      "주식이 부동산보다 유망",
       "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -22,7 +22,7 @@
       "경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "경제 성장 전략 강조",
-      "재정 안정성 유지 약속",
-      "디지털 전환 지원 계획"
+      "부총리의 경제 전략 소개",
+      "금융 안정 강조",
+      "향후 정책 방향 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "2023년 이후 유가 급등",
+      "유가 2023년 최고 수준으로 상승",
       "미국 고용 보고서 발표",
-      "주식시장 하락"
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdPdkQ1d192dXU4Wk83VUVmWFdrXzEyd1J5bTJhcm93Xzh0WTRpeXVPazZ5WHNFX3FaQVNzaUZJSjdweFMwQl8yaFZNVnlZZzBVTXQ1cTdNNnFJc2YzanFRZnpNeUZkakhqaFBUc09MbzdRem1PSUVzX19mVF9QTFpZWnJlbDNfTzRDUzVnYV94SGVvZ3ZwaV9pMmxzYWNfQmZmT0tncw?oc=5",
     "publisher": "USA Today",
     "summary": [
-      "미국 주가 하락",
-      "스태그플레이션 우려 상승",
-      "경제 전망 불투명"
+      "미국 주식 하락세",
+      "스태그플레이션 우려 확산",
+      "경제 전망 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국 주식은 강한 경제 회복과 유가 급등이 멈춘 후 반등했습니다 - AP 뉴스",
-    "original_title": "US stocks rebound after strong economic updates and as oil prices stop spiking - AP News",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
-    "publisher": "AP News",
+    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
+    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "미국 주식 상승",
-      "강력한 경제 업데이트",
-      "유가 급등 중단"
+      "비미국 주식 시장에 긍정적 전망",
+      "경제 데이터가 뒷받침됨",
+      "글로벌 투자 기회 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
