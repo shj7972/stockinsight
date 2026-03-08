@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "국내 경제 정책 방향 설명",
-      "재정 안정성 강조",
-      "상장 기업 혁신 장려"
+      "부총리 Koo 재정 정책 설명",
+      "경제 성장 전망",
+      "공공 투자 강화 계획"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 더 유망"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "부동산보다 주식이 유망하다는 분석",
+      "주식 투자에 대한 낙관적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세 미약한 상황",
-      "경제 전망 불확실성 존재"
+      "내년 한국 경제 성장 2.1% 전망",
+      "회복세 미약할 것",
+      "금융연의 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -46,10 +46,10 @@
     "summary": [
       "유가, 2023년 최고치 경신",
       "미국 고용 보고서 발표",
-      "주식시장 하락 반응"
+      "주식시장 하락 동반"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 증시 유망한 근거",
-      "긍정적 경제 내러티브",
-      "투자 기회 증가"
+      "비미국 주식시장에 긍정적 시각",
+      "강력한 내러티브와 사실",
+      "투자자 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXJ1dkJMMHZXd3dYc3p0N05fc21rY2pPckJfaTVMWUk5TkpjWkpGcXFPWnlCTXIwT3lNekh2SnVlS0c1QWRCSERBUlZjNnNqS2V0SThsOWNOQUI3TWlHcE5Cd3NjRkZLcnBkaFdqbTNzclpQRlRTdFlPRXpTQXBzY0hMVHhXRXM4REozMXJ3WHRLdzQ?oc=5",
     "publisher": "AP News",
     "summary": [
-      "미국 주식 반등",
-      "강력한 경제 지표 발표",
-      "유가 급등 멈춤"
+      "미국 주식 시장 반등",
+      "강한 경제 지표 발표",
+      "유가 상승 멈춤"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
