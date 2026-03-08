@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리 경제 정책 강조",
-      "재정 건전성 유지",
-      "시장 투자 유치 계획"
+      "부총리 구윤철 소개",
+      "경제 정책 방향 설명",
+      "미래 경제 전망 공유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 유망하다는 의견"
+      "10억 이상 금융자산 보유",
+      "부동산보다 주식 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 성장률 2.1% 전망",
+      "내년 한국 경제 2.1% 성장 전망",
       "회복세는 미약",
-      "경제 상황 우려"
+      "전반적인 경제 상황 불안"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "석유 가격, 2023년 최고치 기록",
-      "미국 고용 보고서 발표 이후 주식 하락",
-      "시장 변동성 증가 우려"
+      "유가, 2023년 중 최고치 도달",
+      "미국 고용 보고서 발표",
+      "주가 하락 반응 나타남"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비 미국 주식 시장에 대한 긍정적 시각",
-      "경제 데이터 지지 요인 있음",
-      "투자자 관심 증가 추세"
+      "비미국 주식시장이 매력적",
+      "견조한 경제 성장 배경",
+      "투자 다각화 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "유가가 치솟고 미국 고용이 부진하자 주가는 하락 - CBS 뉴스",
+    "title": "유가가 치솟고 미국 고용 부진으로 주가 하락 - CBS 뉴스",
     "original_title": "Stocks sink as oil prices sizzle and U.S. hiring fizzles - CBS News",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zcjJ2UWd2Z2NnQjhfOUlpVGo4am9OYlZPbnBkTnlBSmhaTEloZ1VyVVowU2VLY05wczJwc05ZQXJEOWM1VzVUQVk0SFlJQS1LUDAwRXdwOEpnM01URUNDaXBQam82cDYtUWpjSFVlU2dld9IBd0FVX3lxTE9kd0lLZkgwQ1hUS2wxTkQ4S3J3TG5WcnFKMUEtSFZ3YkhmRjJkNlh6X3BpNHQyY1FzTlpwN3F1U1dWdFZDNVVPUGRDUFd6M1cyanI3SDNBakR2SFFWX3JqTzZUU3ZrREdMb01zNUN1TmV2Tm8zc3E4?oc=5",
     "publisher": "CBS News",
     "summary": [
       "주식 시장 하락",
       "유가 상승",
-      "미국 고용 둔화"
+      "미국 고용 부진"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
