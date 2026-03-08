@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10억 이상 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "주식 투자 긍정적 시각"
+      "한국 부자 47.6만명 기록",
+      "부동산보다 주식 선호",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -18,11 +18,11 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것으로 예상",
-      "전반적인 경제 상황 부정적"
+      "회복세 미약",
+      "금융연 분석 발표"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "올해 성장률 0.9%로 조정",
-      "내년 성장률 1.7%로 상승",
-      "각각 0.1%p 상승"
+      "ADB, 한국 성장률 0.9%로 예상",
+      "내년 성장률 1.7%로 상향 조정",
+      "각각 0.1%포인트 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "title": "유가는 2023년 이후 최고치로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
     "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가 2023년 이후 최고치 도달",
-      "미국 신규 고용 보고서 발표",
-      "주식 시장 하락세 지속"
+      "유가 2023년 최고치 도달",
+      "미국 고용 보고서 발표",
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식 시장이 긍정적이다",
-      "투자 기회가 다양하다",
-      "세계 경제 회복 조짐 보인다"
+      "비(非)미국 주식시장에 긍정적",
+      "나래이션과 사실 지지",
+      "글로벌 투자 기회 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "유가가 치솟고 미국 고용 부진으로 주가 하락 - CBS 뉴스",
-    "original_title": "Stocks sink as oil prices sizzle and U.S. hiring fizzles - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zcjJ2UWd2Z2NnQjhfOUlpVGo4am9OYlZPbnBkTnlBSmhaTEloZ1VyVVowU2VLY05wczJwc05ZQXJEOWM1VzVUQVk0SFlJQS1LUDAwRXdwOEpnM01URUNDaXBQam82cDYtUWpjSFVlU2dld9IBd0FVX3lxTE9kd0lLZkgwQ1hUS2wxTkQ4S3J3TG5WcnFKMUEtSFZ3YkhmRjJkNlh6X3BpNHQyY1FzTlpwN3F1U1dWdFZDNVVPUGRDUFd6M1cyanI3SDNBakR2SFFWX3JqTzZUU3ZrREdMb01zNUN1TmV2Tm8zc3E4?oc=5",
-    "publisher": "CBS News",
+    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
+    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "주가 하락세",
-      "유가 급등 현상",
-      "미국 고용 부진"
+      "고용 시장이 경제에 미치는 영향",
+      "실업률 변화 분석",
+      "은행의 경제 전망 공유"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
