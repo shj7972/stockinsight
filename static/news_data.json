@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식 선호",
-      "금융자산 증가 추세"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 유망",
+      "시장 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약",
-      "금융연 분석 발표"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 경고",
+      "전반적 경제 상황은 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUNTFFVldJcWhtak9FZHRBOTdGMVFWeHNpSjhtZkNpbEE4Rl9sU3ViSE9iUU04VHNWdVVteEpSbl96Ti1lbmcxakRyOVpYMVZVXzh5dUtQZEpQUXZfWmfSAV9BVV95cUxONE5tRV9tTG1HV1R1TTlkODBFX3pGbHBOLTd2cU1xR25scm5EZXhYRVhmdnFHMWtFMFVDNWU2UmZNellQaDQ3TG1NaG01UHRTZEJ3ckNSWGdHVDM1dkRoZw?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "ADB, 한국 성장률 0.9%로 예상",
-      "내년 성장률 1.7%로 상향 조정",
-      "각각 0.1%포인트 증가"
+      "올해 성장률 0.9%로 조정",
+      "내년 성장률 1.7%로 상향",
+      "각각 0.1%p 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,7 +44,7 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가 2023년 최고치 도달",
+      "유가, 2023년 최고치 상승",
       "미국 고용 보고서 발표",
       "주식 시장 하락"
     ],
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비(非)미국 주식시장에 긍정적",
-      "나래이션과 사실 지지",
-      "글로벌 투자 기회 증가"
+      "비 미국 주식 시장에 대한 긍정적 논의",
+      "시장 데이터가 비 US 주식 지지",
+      "투자자 신뢰 회복 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "고용 시장이 경제에 미치는 영향",
-      "실업률 변화 분석",
-      "은행의 경제 전망 공유"
+      "일자리 증가, 경제 성장 촉진",
+      "실업률 감소, 소비자 신뢰 향상",
+      "인건비 상승, 기업 부담 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
