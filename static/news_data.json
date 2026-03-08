@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
     "publisher": "ceomagazine.co.kr",
     "summary": [
-      "부총리의 경제 정책 발표",
-      "금융 안정 강조",
-      "성장 전망 긍정적"
+      "구윤철 경제부총리 인터뷰",
+      "경제 정책 방향 강조",
+      "무역 확대 계획 설명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 전망",
+      "한국의 금융자산 증가세 주목"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다고 평가",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약할 것으로 보임",
+      "전반적인 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "title": "유가는 2023년 이후 최고치로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
     "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "유가, 2023년 최고치 경신",
-      "미국 고용 보고서 발표",
-      "주식시장 하락세 나타남"
+      "유가, 2023년 최고치 기록",
+      "미국 고용 보고서 발표 후 주식 하락",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5",
     "publisher": "Money/ US News",
     "summary": [
-      "2026년 주식시장 위험 요소 분석",
-      "경제 침체 가능성 언급",
-      "금리 상승이 우려됨"
+      "2026년 주식 시장 우려 제기",
+      "6가지 리스크 요인 설명",
+      "가격 조정 가능성 언급"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
-    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "이야기와 사실은 미국 이외의 주식 시장을 뒷받침합니다 - invesco.com",
+    "original_title": "Narratives and facts support non-US stock markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "고용 시장이 경제에 미치는 영향",
-      "U.S. Bank의 분석",
-      "경제 성장과 일자리 관계"
+      "비미국 주식시장에 긍정적 요소들",
+      "경제 성장 가능성 향상",
+      "투자 다각화 필요성 강조"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
