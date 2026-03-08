@@ -1,25 +1,12 @@
 [
   {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 전략 발표",
-      "재정 정책 개선 노력",
-      "사회적 안전망 강화 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "부동산보다 주식 유망"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 유망",
+      "시장 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "경제 회복세 미약",
-      "지속적인 불확실성 존재"
+      "내년 경제 성장률 2.1% 전망",
+      "회복세는 미흡할 것",
+      "한국 경제 불안정성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "장관, 경제 정책 방향 설명",
+      "해외 투자 유치 강조",
+      "통화 정책 안정성 유지"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHJQUzFPbmdYLVBOV2JMeXdjeGZTU1duWkFMQVo2WVlCWmRkTVlSbzF2TFh1c0NwLVBUQTB4U2tfU1llNkNJS1hzY0N2Tjh4QlkzRnJDMnl2bkRHd2xpM3E0Y01mTE9RZTdCYXJCTlRWSUxHS3AwOUs2U2RKZklRUlNkQ3NMVFJwMmJreUVlaXc0N0dvcFM2bzQ1d1JWSzg?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "트럼프, 경제는 호황이라고 주장",
-      "일자리 감소와 유가 상승",
-      "주식시장 급락"
+      "트럼프, 경제 호황 주장",
+      "일자리 급감",
+      "가스 가격 급등 및 주가 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "석유 가격 2023년 최고치 도달",
-      "미국 직업 보고서 발표",
-      "주가 하락 현상 발생"
+      "유가, 2023년 최고치 도달",
+      "미국 고용보고서 영향",
+      "주식 시장 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjFmVjdDbThoV1A3dlVXc1BIR1V4aEljUDdwbDlUVFRydkRWNVRsdHBRc3JCMmtWOGNHNFBwRDBvOW56OVZhLWdnNG5LS083R0NzZXpBckQzYkxMZi0wUmU2TTlEUnFZbF94Y2lfSko2MUlPM3BzNVNHYzZPdmJWQVRnUHA4eFBpMjFzLUxFb2R1LXM?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "비미국 주식시장에 긍정적 시사점",
-      "실적과 이야기의 조화",
-      "투자자 신뢰 상승"
+      "비미국 주식 시장에 대한 긍정적 내러티브",
+      "경제 지표가 시장을 뒷받침함",
+      "다양한 기회가 존재함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
