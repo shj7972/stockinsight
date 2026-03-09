@@ -1,12 +1,25 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장에 대한 낙관적 전망",
+      "재정 정책 강화 방안",
+      "일자리 창출 노력 지속"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산은 아닌 주식이 유망",
-      "금융자산 10억 이상 증가"
+      "부자 수, 47.6만명으로 증가",
+      "주식, 부동산보다 유망",
+      "금융 자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,24 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "한국거래소, 프리·애프터마켓 도입",
-      "운영 시작은 6월부터",
-      "시장 활용도 증가 기대"
+      "6월부터 운영 예정",
+      "시장 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 성장 계획 강조",
-      "재정 정책 개선 의지",
-      "투자 유치 노력 지속"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "2023년 이후 유가 급등",
+      "유가, 2023년 최고치 상승",
       "미국 고용 보고서 발표",
       "주식 시장 하락"
     ],
@@ -53,31 +53,31 @@
     "type": "해외"
   },
   {
-    "title": "트럼프 \"경제는 활황\"이라고 말했지만 일자리는 사라지고 휘발유 가격은 치솟고 주가는 급락 - 포춘",
-    "original_title": "Trump said 'economy is roaring' but jobs evaporated, gas prices soared, and stocks plunged - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHJQUzFPbmdYLVBOV2JMeXdjeGZTU1duWkFMQVo2WVlCWmRkTVlSbzF2TFh1c0NwLVBUQTB4U2tfU1llNkNJS1hzY0N2Tjh4QlkzRnJDMnl2bkRHd2xpM3E0Y01mTE9RZTdCYXJCTlRWSUxHS3AwOUs2U2RKZklRUlNkQ3NMVFJwMmJreUVlaXc0N0dvcFM2bzQ1d1JWSzg?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "트럼프, 경제 호황 주장",
-      "일자리 감소, 가스 가격 상승",
-      "주식 시장 급락"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
     "title": "주간 시장 랩 - 에드워드 존스",
     "original_title": "Weekly market wrap - Edward Jones",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 안정세 유지",
-      "경제 지표 긍정적",
-      "전문가 전망 밝음"
+      "시장 지수 상승",
+      "고용 데이터 긍정적",
+      "금리 인상 우려 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 \"경제는 활황\"이라고 말했지만 일자리는 사라지고 휘발유 가격은 치솟고 주가는 급락 - 포춘",
+    "original_title": "Trump said 'economy is roaring' but jobs evaporated, gas prices soared, and stocks plunged - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHJQUzFPbmdYLVBOV2JMeXdjeGZTU1duWkFMQVo2WVlCWmRkTVlSbzF2TFh1c0NwLVBUQTB4U2tfU1llNkNJS1hzY0N2Tjh4QlkzRnJDMnl2bkRHd2xpM3E0Y01mTE9RZTdCYXJCTlRWSUxHS3AwOUs2U2RKZklRUlNkQ3NMVFJwMmJreUVlaXc0N0dvcFM2bzQ1d1JWSzg?oc=5",
+    "publisher": "Fortune",
+    "summary": [
+      "트럼프, 경제는 호황이라고 주장",
+      "일자리 감소 및 유가 상승",
+      "주식 시장 급락"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
