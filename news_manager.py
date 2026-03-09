@@ -1,4 +1,3 @@
-import feedparser
 import requests
 from bs4 import BeautifulSoup
 import openai
@@ -105,18 +104,25 @@ def fetch_and_process_news(force=False):
     try:
         content = fetch_rss_content(FEEDS["domestic"])
         if content:
-            feed = feedparser.parse(content)
-            for entry in feed.entries[:3]:
+            soup = BeautifulSoup(content, 'xml')
+            items = soup.find_all('item')
+            for item in items[:3]:
+                title = item.title.text if item.title else "No Title"
+                link = item.link.text if item.link else ""
+                description = item.description.text if item.description else ""
+                source_tag = item.find('source')
+                publisher = source_tag.text if source_tag else "Google News"
+                
                 # Call to clean_html
-                cleaned_desc = clean_html(entry.description)
+                cleaned_desc = clean_html(description)
                 
                 # AI Processing
-                ai_result = summarize_with_ai(entry.title, cleaned_desc)
+                ai_result = summarize_with_ai(title, cleaned_desc)
                 
                 all_news.append({
-                    "title": entry.title,
-                    "link": entry.link,
-                    "publisher": entry.source.title if hasattr(entry, 'source') else "Google News",
+                    "title": title,
+                    "link": link,
+                    "publisher": publisher,
                     "summary": ai_result['summary'],
                     "sentiment": ai_result['sentiment'],
                     "sentiment_score": ai_result['score'],
@@ -129,22 +135,29 @@ def fetch_and_process_news(force=False):
     try:
         content = fetch_rss_content(FEEDS["global"])
         if content:
-            feed = feedparser.parse(content)
-            for entry in feed.entries[:3]:
+            soup = BeautifulSoup(content, 'xml')
+            items = soup.find_all('item')
+            for item in items[:3]:
+                title = item.title.text if item.title else "No Title"
+                link = item.link.text if item.link else ""
+                description = item.description.text if item.description else ""
+                source_tag = item.find('source')
+                publisher = source_tag.text if source_tag else "Global News"
+
                 # Translate Title
                 try:
-                    translated_title = GoogleTranslator(source='auto', target='ko').translate(entry.title)
+                    translated_title = GoogleTranslator(source='auto', target='ko').translate(title)
                 except:
-                    translated_title = entry.title
+                    translated_title = title
 
-                cleaned_desc = clean_html(entry.description)
-                ai_result = summarize_with_ai(entry.title, cleaned_desc)
+                cleaned_desc = clean_html(description)
+                ai_result = summarize_with_ai(title, cleaned_desc)
                 
                 all_news.append({
                     "title": translated_title,
-                    "original_title": entry.title,
-                    "link": entry.link,
-                    "publisher": entry.source.title if hasattr(entry, 'source') else "Global News",
+                    "original_title": title,
+                    "link": link,
+                    "publisher": publisher,
                     "summary": ai_result['summary'],
                     "sentiment": ai_result['sentiment'],
                     "sentiment_score": ai_result['score'],

@@ -14,7 +14,6 @@ requests
 beautifulsoup4
 Pillow
 praw
-feedparser
 apscheduler
 openai
 python-dotenv
