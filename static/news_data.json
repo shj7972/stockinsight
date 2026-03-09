@@ -1,12 +1,25 @@
 [
   {
+    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
+    "publisher": "ceomagazine.co.kr",
+    "summary": [
+      "경제 성장 전략 발표",
+      "세금 정책 개선 방침",
+      "기업 지원 확대 계획"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "주식이 더 유망"
+      "10억 이상 자산가 47.6만명",
+      "부동산보다 주식 선호",
+      "경제적 부유층 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월 프리·애프터마켓 운영 계획",
-      "거래소의 시장 활성화 기대",
-      "투자자 편의성 증대"
+      "프리·애프터마켓 6월 운영 예정",
+      "투자자 선택권 확대 기대",
+      "차별화된 거래환경 제공"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "[Cover Story] Koo Yoon-Cheol, Deputy Prime Minister and Minister of Economy and Finance - ceomagazine.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBUFEteTVYbnBJLVR3UklOaEhNcDNwWndxV1BBZ2I1VFVWWFJLSzZqdVlUQ3FVYWgwTC1jTTAxRHp1eHN0cWZVeERQaDM3b0pVZ0NUUWJQLUJjalRJV2pJ?oc=5",
-    "publisher": "ceomagazine.co.kr",
-    "summary": [
-      "경제 회복에 대한 긍정적인 전망",
-      "재정 정책 강화 의지",
-      "투자 유치와 일자리 창출 목표"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "트럼프 경제에 나쁜 소식",
-      "주식 시장 경고음",
-      "역사적 결과 예측"
+      "주식 시장, 악소식에 반응",
+      "트럼프 경제에 대한 불안감",
+      "역사적 패턴 분석 예고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
     "publisher": "NPR",
     "summary": [
-      "원유 가격, 2023년 최고치 도달",
-      "미국 고용 보고서 발표",
-      "주식 시장 하락"
+      "석유 가격 2023년 최고치 도달",
+      "미국 일자리 보고서 발표",
+      "주식시장 하락세 보여"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "고용 시장은 경제에 긍정적 영향을 미침",
-      "실업률 감소가 소비 증가로 이어짐",
-      "기업들이 고용 확대를 지속할 가능성 있음"
+      "미국 고용 시장의 회복세",
+      "경제 성장에 긍정적 영향",
+      "실업률 감소 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
