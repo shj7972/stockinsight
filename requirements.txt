@@ -18,3 +18,5 @@ feedparser
 apscheduler
 openai
 python-dotenv
+google-auth
+google-api-python-client

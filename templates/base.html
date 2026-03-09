@@ -52,11 +52,13 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Plotly - Latest version -->
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-
+    <!-- Preload Custom CSS -->
+    <link rel="preload" href="/static/styles.css?v=5" as="style">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/static/styles.css?v=5">
+
+    <!-- Plotly - Latest version (Deferred to improve LCP) -->
+    <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -277,7 +279,7 @@
                 style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin: 2rem 0;">
                 {% for banner in get_random_banners() %}
                 <a href="{{ banner.url }}" target="_blank" title="{{ banner.title }}">
-                    <img src="{{ banner.img }}" alt="{{ banner.alt }}"
+                    <img src="{{ banner.img }}" alt="{{ banner.alt }}" loading="lazy" decoding="async"
                         style="width:234px; height:60px; border: 1px solid #eee; border-radius: 4px;">
                 </a>
                 {% endfor %}

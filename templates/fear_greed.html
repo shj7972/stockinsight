@@ -7,7 +7,7 @@
 
 {% block structured_data %}
 <script type="application/ld+json">
-{
+[{
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "공포 & 탐욕 지수 - Stock Insight AI",
@@ -18,7 +18,29 @@
         "name": "Stock Insight AI",
         "url": "https://stock-insight.app"
     }
-}
+},
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "현재 시장의 공포와 탐욕 지수는 몇 점인가요?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "현재 시장 심리 점수는 {{ details['Momentum Score'] * 0.4 + details['Volatility Score'] * 0.4 + details['Strength Score'] * 0.2 | int if details else 50 }}점 수준으로 평가됩니다. (100점에 가까울수록 탐욕, 0점에 가까울수록 공포)"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "공포/탐욕 지수는 어떤 데이터로 계산되나요?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Stock Insight AI의 공포 & 탐욕 지수는 S&P 500 모멘텀, VIX 변동성 지표, 매수 강도(RSI)를 종합하여 자체적으로 계산됩니다."
+            }
+        }
+    ]
+}]
 </script>
 {% endblock %}
 

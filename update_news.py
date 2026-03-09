@@ -1,5 +1,6 @@
 import os
 import news_manager
+import indexing_service
 from dotenv import load_dotenv
 
 # Load environment variables (for OpenAI API Key)
@@ -13,6 +14,10 @@ def main():
         # git checkout resets file modification times.
         news_manager.update_news_now(force=True)
         print("News update process finished.")
+        
+        # Ping Google Indexing API to let it know daily report and home is updated
+        indexing_service.notify_google_indexing("https://stock-insight.app/")
+        indexing_service.notify_google_indexing("https://stock-insight.app/daily-report")
     except Exception as e:
         print(f"CRITICAL ERROR during news update: {e}")
 

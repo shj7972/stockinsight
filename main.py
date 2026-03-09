@@ -4,7 +4,9 @@ from fastapi.staticfiles import StaticFiles
 from jinja2 import Template
 from starlette.templating import Jinja2Templates
 import utils
+import og_generator
 import pandas as pd
+from fastapi.responses import HTMLResponse, PlainTextResponse, Response, StreamingResponse
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly
@@ -523,6 +525,44 @@ async def search_stock(request: Request, ticker: str = Form(...)):
 async def stock_detail(request: Request, ticker: str):
     """Stock analysis with clean URL"""
     return _render_dashboard(request, ticker=ticker.upper())
+
+@app.get("/api/og")
+async def get_og_image(
+    ticker: str = "",
+    price: str = "",
+    change: str = "",
+    pct: str = "",
+    verdict: str = "",
+    color: str = ""
+):
+    """Generate dynamic OG image for stocks"""
+    if not ticker:
+        # Fallback to static og image
+        with open(os.path.join(BASE_DIR, "static", "og-image.png"), "rb") as f:
+            return StreamingResponse(io.BytesIO(f.read()), media_type="image/png")
+    
+    # Fetch name (we can optimize by using the cached data or passing name in URL)
+    # But since it's just an OG image, it's mostly fetched by crawler once
+    name = ticker
+    try:
+        import yfinance as yf
+        # Check cache or simple fetch (we will just use ticker name instead of full name to save time if needed)
+        info = yf.Ticker(ticker).info
+        name = info.get('shortName', info.get('longName', ticker))
+    except Exception:
+        pass
+        
+    trend = "up" if "+" in change else "down" if "-" in change else "neutral"
+
+    img_byte_arr = og_generator.generate_stock_og_image(
+        ticker=ticker,
+        name=name,
+        current_price=price,
+        change_pct=pct,
+        trend=trend
+    )
+    
+    return StreamingResponse(img_byte_arr, media_type="image/png")
 
 @app.get("/ads.txt", response_class=PlainTextResponse)
 async def ads_txt():

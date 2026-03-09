@@ -16,16 +16,17 @@
 
 {% block structured_data %}
 <script type="application/ld+json">
-{
+[{
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": ["Report", "NewsArticle"],
     "headline": "{{ report_date }} AI 일일 시장 리포트",
-    "description": "{{ report_date }} 주요 지수, 섹터 동향, 시장 심리를 AI가 분석한 일일 리포트",
+    "description": "{{ report_date }} 주요 지수, 섹터 동향, 시장 심리를 AI가 분석한 일일 주식시장 요약 리포트",
     "datePublished": "{{ report_date_iso }}",
     "dateModified": "{{ report_date_iso }}",
     "author": {
         "@type": "Organization",
-        "name": "Stock Insight AI"
+        "name": "Stock Insight AI",
+        "url": "https://stock-insight.app"
     },
     "publisher": {
         "@type": "Organization",
@@ -39,7 +40,29 @@
         "@type": "WebPage",
         "@id": "https://stock-insight.app/daily-report"
     }
-}
+},
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "{{ report_date }} 오늘 글로벌 주요 지수는 어떻게 됐나요?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{{ report_date }} 기준 AI가 분석한 글로벌 주요 지수 및 특징 종목 현황을 확인하실 수 있습니다."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "시장의 현재 투자 심리(공포/탐욕)는 어떤 상태인가요?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{% if fear_greed %}현재 시장 심리는 '{{ fear_greed.label }}' 상태이며, 점수는 {{ fear_greed.score }}점 입니다.{% else %}현재 시장 심리를 본문에서 확인하실 수 있습니다.{% endif %}"
+            }
+        }
+    ]
+}]
 </script>
 {% endblock %}
 
