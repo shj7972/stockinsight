@@ -1111,13 +1111,18 @@ async def economic_indicators_page(request: Request):
         df['date'] = pd.to_datetime(df['date'])
         df = df.sort_values('date').reset_index(drop=True)
 
-        # yfinance로 최신 데이터 보완 (SMH, XLI, EWY, SOX)
+        # yfinance로 최신 데이터 보완 (월별 평균 backfill + 실시간 현재가 override)
         try:
             import yfinance as yf
             latest_date = df['date'].max()
             end_dt = datetime.now()
+
+            # 1) 월별 평균 backfill — CSV에 없는 최신 월 행 추가
+            yf_map = {
+                'smh': 'SMH', 'xli': 'XLI', 'ewy': 'EWY', 'sox': '^SOX',
+                'wti': 'CL=F', 'vix': '^VIX', 'treasury_10y': '^TNX', 'usd_krw': 'KRW=X'
+            }
             if end_dt > latest_date:
-                yf_map = {'smh': 'SMH', 'xli': 'XLI', 'ewy': 'EWY', 'sox': '^SOX'}
                 for col, ticker in yf_map.items():
                     hist = yf.download(ticker, start=latest_date.strftime('%Y-%m-%d'),
                                        end=end_dt.strftime('%Y-%m-%d'), interval='1mo', progress=False, auto_adjust=True)
@@ -1127,13 +1132,35 @@ async def economic_indicators_page(request: Request):
                             if month_start > latest_date:
                                 mask = df['date'] == month_start
                                 if mask.any():
-                                    df.loc[mask, col] = float(row['Close'])
+                                    df.loc[mask, col] = float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])
                                 else:
-                                    new_row = pd.DataFrame({'date': [month_start], col: [float(row['Close'])]})
+                                    new_row = pd.DataFrame({'date': [month_start], col: [float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])]})
                                     df = pd.concat([df, new_row], ignore_index=True)
                 df = df.sort_values('date').reset_index(drop=True)
+
+            # 2) 실시간 현재가 — 오늘 장중/종가로 각 지표의 마지막 값 override
+            realtime_map = {
+                'wti': 'CL=F', 'vix': '^VIX', 'treasury_10y': '^TNX',
+                'usd_krw': 'KRW=X', 'sox': '^SOX',
+                'smh': 'SMH', 'xli': 'XLI', 'ewy': 'EWY'
+            }
+            realtime_values = {}
+            rt_tickers = list(realtime_map.values())
+            try:
+                rt_data = yf.download(rt_tickers, period='2d', interval='1d', progress=False, auto_adjust=True)
+                if not rt_data.empty and 'Close' in rt_data.columns:
+                    close_df = rt_data['Close'] if hasattr(rt_data['Close'], 'columns') else rt_data[['Close']]
+                    for col, ticker in realtime_map.items():
+                        if ticker in close_df.columns:
+                            series = close_df[ticker].dropna()
+                            if not series.empty:
+                                realtime_values[col] = float(series.iloc[-1])
+            except Exception:
+                pass
+
         except Exception:
-            pass
+            realtime_values = {}
+
 
         # 지표 메타 정보
         indicator_meta = {
@@ -1151,13 +1178,25 @@ async def economic_indicators_page(request: Request):
         }
 
         # 현재값 및 변화율 계산 (각 컬럼별 마지막 유효값 사용)
+        # realtime_values가 있으면 카드 현재가를 오늘의 실시간 값으로 override
         indicator_cols = list(indicator_meta.keys())
 
         indicators_display = []
         for col in indicator_cols:
             col_series = df[col].dropna()
-            cur = float(col_series.iloc[-1]) if len(col_series) >= 1 else None
-            prv = float(col_series.iloc[-2]) if len(col_series) >= 2 else None
+            csv_cur = float(col_series.iloc[-1]) if len(col_series) >= 1 else None
+            csv_prv = float(col_series.iloc[-2]) if len(col_series) >= 2 else None
+
+            # 실시간 값 override: 오늘의 현재가 사용 (카드 표시값만 바꿈, 차트/상관관계는 CSV 유지)
+            rt_val = realtime_values.get(col)
+            if rt_val is not None:
+                cur = rt_val
+                # 전일 기준: csv 마지막 값을 전월 기준값으로 사용
+                prv = csv_cur  # 카드 change = 실시간값 - 이전 월평균
+            else:
+                cur = csv_cur
+                prv = csv_prv
+
             if cur is not None and prv is not None and prv != 0:
                 chg = cur - prv
                 chg_pct = chg / abs(prv) * 100
@@ -1174,7 +1213,9 @@ async def economic_indicators_page(request: Request):
                 'current': cur,
                 'change': chg,
                 'change_pct': chg_pct,
+                'is_realtime': rt_val is not None,
             })
+
 
         # 상관관계 히트맵 — NASDAQ / S&P500 / KOSPI 포함
         # yfinance로 주가 지수 월별 데이터 병합
