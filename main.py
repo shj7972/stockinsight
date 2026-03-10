@@ -1355,8 +1355,20 @@ async def economic_indicators_page(request: Request):
                 from sklearn.model_selection import train_test_split
                 from sklearn.preprocessing import StandardScaler
 
-                feat_cols = ['fed_rate', 'cpi', 'treasury_10y', 'usd_krw', 'ind_prod', 'wti', 'vix']
-                fi_labels = [indicator_meta[c]['label'] for c in feat_cols]
+                # FI chart uses same feature set as the prediction model (with _yoy transforms)
+                feat_cols = ['fed_rate', 'treasury_10y', 'vix', 'cpi_yoy', 'usd_krw_yoy', 'wti_yoy', 'ind_prod_yoy']
+                fi_labels = [
+                    indicator_meta.get('fed_rate', {}).get('label', 'Fed 기준금리'),
+                    indicator_meta.get('treasury_10y', {}).get('label', '10년 국채'),
+                    indicator_meta.get('vix', {}).get('label', 'VIX'),
+                    'CPI YoY%', 'USD/KRW YoY%', 'WTI YoY%', '산업생산 YoY%',
+                ]
+
+                # Ensure YoY columns exist in df (may not be present without re-computation)
+                _trend_src_cols = ['cpi', 'usd_krw', 'wti', 'ind_prod']
+                for _c in _trend_src_cols:
+                    if f'{_c}_yoy' not in df.columns:
+                        df[f'{_c}_yoy'] = df[_c].pct_change(periods=12, fill_method=None) * 100
 
                 # fi 차트도 캐싱
                 _fi_cache_key = "fi_json"

@@ -214,14 +214,15 @@
 {% endif %}{# end if not error #}
 
 <script>
-    {% if heatmap_json %}
-    (function () {
-        var heatmapData = {{ heatmap_json | safe
-    }};
+    document.addEventListener('DOMContentLoaded', function () {
+        {% if heatmap_json %}
+        (function () {
+            var heatmapData = {{ heatmap_json | safe
+        }};
     Plotly.newPlot('heatmap-chart', heatmapData.data, heatmapData.layout, {
         responsive: true, displayModeBar: false
     });
-}) ();
+        }) ();
     {% endif %}
 
     {% if trend_json %}
@@ -231,7 +232,7 @@
     Plotly.newPlot('trend-chart', trendData.data, trendData.layout, {
         responsive: true, displayModeBar: false
     });
-}) ();
+        }) ();
     {% endif %}
 
     {% if feature_importance_json %}
@@ -241,7 +242,8 @@
     Plotly.newPlot('fi-chart', fiData.data, fiData.layout, {
         responsive: true, displayModeBar: false
     });
-}) ();
+        }) ();
     {% endif %}
+    });
 </script>
 {% endblock %}
