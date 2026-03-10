@@ -317,18 +317,16 @@ def get_analysis_context(ticker: str):
         ]
     }
 
-# ── 메인 페이지용 ML 예측 캐시 (6시간) ──────────────────────────────────
+# ── ML 예측 캐시 (6시간) ──────────────────────────────────────────────────
 _main_predictions_cache: dict = {"data": None, "ts": 0}
 _PRED_CACHE_SEC = 21600  # 6 hours
 
 def _get_main_index_predictions() -> list:
-    """경제지표 기반 다음 달 방향 예측 (Heuristic Model). 6시간 캐시.
+    """RandomForest 기반 다음 달 지수 방향 예측. 6시간 캐시.
 
-    주요 수정사항:
-    - CPI, USD/KRW 등 누적 지표는 YoY 변화율로 변환 (z-score 편향 제거)
-    - 지수별 개별 가중치 조정 (NASDAQ=금리민감, KOSPI=환율민감)
-    - 최근 10년 데이터만 사용하여 z-score 계산
-    - accuracy 허위 필드 제거
+    - Features: fed_rate, cpi_yoy, treasury_10y, usd_krw_yoy, ind_prod_yoy, wti_yoy, vix
+    - Label: 1 if index is higher next month, 0 otherwise
+    - One model per index, trained on all available historical data
     """
     global _main_predictions_cache
     now = time.time()
@@ -337,61 +335,27 @@ def _get_main_index_predictions() -> list:
 
     results = []
     try:
+        from sklearn.ensemble import RandomForestClassifier
+        from sklearn.preprocessing import StandardScaler
+        import yfinance as yf
+
         csv_path = os.path.join(BASE_DIR, "static", "economic_indicators.csv")
         if not os.path.exists(csv_path):
             return []
 
         df = pd.read_csv(csv_path)
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values('date').reset_index(drop=True)
 
-        # Stationary columns (rates/indices): use raw z-score
+        # Feature engineering
         rate_cols = ['fed_rate', 'treasury_10y', 'vix']
-        # Trending columns (cumulative): convert to YoY % change
         trend_cols = ['cpi', 'usd_krw', 'wti', 'ind_prod']
-        all_raw = rate_cols + trend_cols
+        feat_cols = rate_cols + [f'{c}_yoy' for c in trend_cols]
 
-        for c in all_raw:
+        for c in rate_cols + trend_cols:
             df[c] = pd.to_numeric(df[c], errors='coerce')
-
-        # Calculate YoY change for trending columns (12-month lag)
         for c in trend_cols:
             df[f'{c}_yoy'] = df[c].pct_change(periods=12, fill_method=None) * 100
-
-        # Use last 10 years for z-score (more relevant than 30 years)
-        df_recent = df.tail(120).copy()
-
-        # Columns to z-score
-        z_cols = rate_cols + [f'{c}_yoy' for c in trend_cols]
-
-        df_valid = df_recent.dropna(subset=z_cols)
-        if len(df_valid) < 12:
-            return []
-
-        latest = df_valid.iloc[-1]
-        z_scores = {}
-        for c in z_cols:
-            mean = df_valid[c].mean()
-            std = df_valid[c].std()
-            z_scores[c] = (latest[c] - mean) / std if std > 0 else 0
-
-        # Base weights (negative = bearish signal when high)
-        weights = {
-            'fed_rate': -1.5,
-            'treasury_10y': -1.2,
-            'vix': -1.0,
-            'cpi_yoy': -1.0,
-            'usd_krw_yoy': -0.5,
-            'wti_yoy': -0.3,
-            'ind_prod_yoy': 1.2,
-        }
-
-        # Base composite score
-        base_score = sum(z_scores.get(c, 0) * weights.get(c, 0) for c in z_cols)
-
-        import math
-        def sigmoid(x):
-            return 1 / (1 + math.exp(-max(-10, min(10, x))))
-
-        k = 0.6
 
         target_indices = [
             ('^IXIC', 'NASDAQ',  '#38bdf8'),
@@ -400,43 +364,86 @@ def _get_main_index_predictions() -> list:
         ]
 
         for ticker_sym, name, color in target_indices:
-            adj_score = base_score
+            try:
+                # Download monthly index history
+                hist = yf.download(ticker_sym, start='1995-01-01', interval='1mo',
+                                   progress=False, auto_adjust=True)
+                if hist.empty:
+                    continue
 
-            # Per-index adjustments
-            if ticker_sym == '^IXIC':
-                # NASDAQ: extra sensitive to rates and VIX
-                adj_score += (-z_scores.get('treasury_10y', 0) * 0.5
-                              - z_scores.get('vix', 0) * 0.3)
-            elif ticker_sym == '^KS11':
-                # KOSPI: extra sensitive to KRW and manufacturing
-                adj_score += (-z_scores.get('usd_krw_yoy', 0) * 0.6
-                              + z_scores.get('ind_prod_yoy', 0) * 0.4)
-            # S&P 500 uses base score
+                close = hist['Close'].squeeze()
+                idx_df = pd.DataFrame({
+                    'date': pd.to_datetime(close.index).to_period('M').to_timestamp(),
+                    'price': close.values.astype(float)
+                }).dropna()
+                idx_df['date'] = idx_df['date'].dt.normalize()
 
-            prob = sigmoid(adj_score * k) * 100
-            if prob >= 50:
-                final_dir = 1
-                final_conf = prob
-            else:
-                final_dir = 0
-                final_conf = 100 - prob
+                # Merge with economic indicators
+                merged = pd.merge(
+                    df[['date'] + feat_cols].dropna(subset=feat_cols),
+                    idx_df, on='date', how='inner'
+                ).sort_values('date').reset_index(drop=True)
 
-            results.append({
-                'ticker': ticker_sym,
-                'name': name,
-                'color': color,
-                'direction': '상승' if final_dir == 1 else '하락',
-                'direction_icon': '📈' if final_dir == 1 else '📉',
-                'direction_color': '#4ade80' if final_dir == 1 else '#f87171',
-                'confidence': float(round(final_conf, 1)),
-                'data_months': len(df_valid),
-            })
+                # Label: 1 if next month's price > current
+                merged['target'] = (merged['price'].shift(-1) > merged['price']).astype(int)
+                # Drop last row (no future label) and any NaN
+                merged = merged.iloc[:-1].dropna(subset=feat_cols + ['target'])
+
+                if len(merged) < 60:
+                    continue
+
+                # Training on all historical data except the last row (current state)
+                # We need to predict for the current (last) feature vector
+                econ_latest = df[['date'] + feat_cols].dropna(subset=feat_cols).iloc[[-1]]
+
+                X_train = merged[feat_cols].values
+                y_train = merged['target'].values
+
+                sc = StandardScaler()
+                X_train_s = sc.fit_transform(X_train)
+                X_latest_s = sc.transform(econ_latest[feat_cols].values)
+
+                rf = RandomForestClassifier(
+                    n_estimators=200,
+                    max_depth=4,           # prevent overfitting with limited data
+                    min_samples_leaf=5,
+                    random_state=42,
+                    class_weight='balanced'
+                )
+                rf.fit(X_train_s, y_train)
+
+                proba = rf.predict_proba(X_latest_s)[0]  # [p_down, p_up]
+                p_up = float(proba[1])
+
+                # Direction and confidence
+                if p_up >= 0.5:
+                    final_dir = 1
+                    confidence = p_up * 100
+                else:
+                    final_dir = 0
+                    confidence = (1 - p_up) * 100
+
+                results.append({
+                    'ticker': ticker_sym,
+                    'name': name,
+                    'color': color,
+                    'direction': '상승' if final_dir == 1 else '하락',
+                    'direction_icon': '📈' if final_dir == 1 else '📉',
+                    'direction_color': '#4ade80' if final_dir == 1 else '#f87171',
+                    'confidence': float(round(confidence, 1)),
+                    'data_months': len(merged),
+                })
+            except Exception as e:
+                print(f"Prediction Error [{name}]: {e}")
+                continue
 
         _main_predictions_cache = {"data": results, "ts": now}
+    except ImportError:
+        print("sklearn not available — skipping predictions")
     except Exception as e:
         print(f"Prediction Error: {e}")
-        pass
     return results
+
 
 
 def _render_dashboard(request: Request, ticker: str = ""):

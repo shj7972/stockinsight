@@ -18,5 +18,6 @@ praw
 apscheduler
 openai
 python-dotenv
+scikit-learn
 google-auth
 google-api-python-client
