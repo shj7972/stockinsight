@@ -539,7 +539,12 @@ def get_sector_performance():
         
         # Fetch Sector Data
         tickers = list(sectors.keys())
-        data = yf.download(" ".join(tickers), period="3mo", progress="False")['Close']
+        raw = yf.download(" ".join(tickers), period="3mo", progress=False, auto_adjust=True)
+        # Normalize MultiIndex: yfinance 0.2.54+ returns MultiIndex columns
+        if isinstance(raw.columns, pd.MultiIndex):
+            data = raw['Close']
+        else:
+            data = raw[['Close']] if 'Close' in raw.columns else raw
         
         for ticker, name in sectors.items():
             if ticker not in data:
@@ -674,10 +679,14 @@ def get_meme_candidates():
     results = []
     
     try:
-        data = yf.download(" ".join(candidates), period="5d", progress=False)
-        # Handle MultiIndex
-        close = data['Close']
-        volume = data['Volume']
+        data = yf.download(" ".join(candidates), period="5d", progress=False, auto_adjust=True)
+        # Handle MultiIndex: yfinance 0.2.54+ returns MultiIndex columns
+        if isinstance(data.columns, pd.MultiIndex):
+            close = data['Close']
+            volume = data['Volume']
+        else:
+            close = data[['Close']]
+            volume = data[['Volume']]
         
         for ticker in candidates:
             if ticker not in close:
@@ -730,7 +739,8 @@ def get_sector_history_data():
     try:
         # Fetch all + SPY
         tickers = sectors + ["SPY"]
-        hist = yf.download(" ".join(tickers), period="3mo", progress=False)['Close']
+        raw2 = yf.download(" ".join(tickers), period="3mo", progress=False, auto_adjust=True)
+        hist = raw2['Close'] if isinstance(raw2.columns, pd.MultiIndex) else raw2
         
         # Calculate % Change from start based on RS
         # RS = Sector % Change - SPY % Change
@@ -803,7 +813,8 @@ def get_sector_top_stocks(cycle_bullish_sectors):
         return []
         
     try:
-        data = yf.download(" ".join(candidates), period="2d", progress=False)['Close']
+        raw3 = yf.download(" ".join(candidates), period="2d", progress=False, auto_adjust=True)
+        data = raw3['Close'] if isinstance(raw3.columns, pd.MultiIndex) else raw3
         for ticker in candidates:
             if ticker not in data:
                 continue
