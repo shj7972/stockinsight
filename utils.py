@@ -624,45 +624,51 @@ def get_reddit_sentiment(ticker):
     avg_score = 0
     
     try:
-        reddit = praw.Reddit(
-            client_id=REDDIT_CLIENT_ID,
-            client_secret=REDDIT_CLIENT_SECRET,
-            user_agent=REDDIT_USER_AGENT
-        )
-        
-        # Search specifically in WSB and Stocks
-        query = f"{ticker}"
-        # Fetch top recent posts
-        subreddit = reddit.subreddit("wallstreetbets+stocks+investing")
-        search_results = subreddit.search(query, sort='new', time_filter='month', limit=10)
-        
-        analyzer = SentimentIntensityAnalyzer()
-        scores = []
-        
-        for post in search_results:
-            # Simple filter to ensure ticker is actually relevant (basic)
-            if ticker not in post.title.upper() and ticker not in post.selftext.upper():
-                continue
-                
-            vs = analyzer.polarity_scores(post.title)
+        import warnings
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            reddit = praw.Reddit(
+                client_id=REDDIT_CLIENT_ID,
+                client_secret=REDDIT_CLIENT_SECRET,
+                user_agent=REDDIT_USER_AGENT
+            )
             
-            posts.append({
-                'title': post.title,
-                'url': post.url,
-                'score': post.score, # Upvotes
-                'sentiment': vs['compound'],
-                'created': datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d')
-            })
-            scores.append(vs['compound'])
+            # Search specifically in WSB and Stocks
+            query = f"{ticker}"
+            # Fetch top recent posts
+            subreddit = reddit.subreddit("wallstreetbets+stocks+investing")
+            search_results = subreddit.search(query, sort='new', time_filter='month', limit=10)
             
-            if len(posts) >= 5:
-                break
+            analyzer = SentimentIntensityAnalyzer()
+            scores = []
+            
+            for post in search_results:
+                # Simple filter to ensure ticker is actually relevant (basic)
+                if ticker not in post.title.upper() and ticker not in post.selftext.upper():
+                    continue
+                    
+                vs = analyzer.polarity_scores(post.title)
                 
-        if scores:
-            avg_score = sum(scores) / len(scores)
+                posts.append({
+                    'title': post.title,
+                    'url': post.url,
+                    'score': post.score, # Upvotes
+                    'sentiment': vs['compound'],
+                    'created': datetime.fromtimestamp(post.created_utc).strftime('%Y-%m-%d')
+                })
+                scores.append(vs['compound'])
+                
+                if len(posts) >= 5:
+                    break
+                    
+            if scores:
+                avg_score = sum(scores) / len(scores)
             
     except Exception as e:
-        print(f"Reddit API Error: {e}")
+        # PRAW often throws "Redirect to /" on invalid auth/IP blocking.
+        # Suppress the log if it's that specific error to avoid Vercel log spam.
+        if "Redirect to /" not in str(e):
+            print(f"Reddit API Error for {ticker}: {e}")
         return 0, []
         
     return avg_score, posts
