@@ -535,7 +535,7 @@ def get_sector_performance():
         # Fetch SPY first for baseline
         spy = yf.Ticker("SPY")
         spy_hist = spy.history(period="3mo")
-        if spy_hist.empty:
+        if spy_hist.empty or len(spy_hist) < 20:
             return []
             
         spy_close = spy_hist['Close']
@@ -545,6 +545,9 @@ def get_sector_performance():
         # Fetch Sector Data
         tickers = list(sectors.keys())
         raw = yf.download(" ".join(tickers), period="3mo", progress=False, auto_adjust=True)
+        if raw.empty:
+            return []
+        
         # Normalize MultiIndex: yfinance 0.2.54+ returns MultiIndex columns
         if isinstance(raw.columns, pd.MultiIndex):
             data = raw['Close']
@@ -691,31 +694,43 @@ def get_meme_candidates():
     
     try:
         data = yf.download(" ".join(candidates), period="5d", progress=False, auto_adjust=True)
+        if data.empty:
+            return []
+            
         # Handle MultiIndex: yfinance 0.2.54+ returns MultiIndex columns
         if isinstance(data.columns, pd.MultiIndex):
             close = data['Close']
             volume = data['Volume']
         else:
-            close = data[['Close']]
-            volume = data[['Volume']]
+            close = data[['Close']] if 'Close' in data.columns else data
+            volume = data[['Volume']] if 'Volume' in data.columns else data
         
         for ticker in candidates:
             if ticker not in close:
                 continue
             
+            series = close[ticker]
+            vol_series = volume[ticker] if 'Volume' in data.columns or isinstance(data.columns, pd.MultiIndex) else None
+            
+            if len(series) < 2 or (vol_series is not None and len(vol_series) < 2):
+                continue
+                
             # 1. Volatility (Range)
-            high_price = close[ticker].max()
-            low_price = close[ticker].min()
+            high_price = series.max()
+            low_price = series.min()
             volatility = (high_price - low_price) / low_price * 100
             
             # 2. Volume Spike
-            avg_vol = volume[ticker].mean()
-            curr_vol = volume[ticker].iloc[-1]
-            vol_ratio = curr_vol / avg_vol if avg_vol > 0 else 1
+            if vol_series is not None and not vol_series.empty:
+                avg_vol = vol_series.mean()
+                curr_vol = vol_series.iloc[-1]
+                vol_ratio = curr_vol / avg_vol if avg_vol > 0 else 1
+            else:
+                vol_ratio = 1
             
             # 3. Recent Performance
-            start_price = close[ticker].iloc[0]
-            end_price = close[ticker].iloc[-1]
+            start_price = series.iloc[0]
+            end_price = series.iloc[-1]
             pct_change = (end_price - start_price) / start_price * 100
             
             sentiment_score, _ = get_reddit_sentiment(ticker)
@@ -751,19 +766,22 @@ def get_sector_history_data():
         # Fetch all + SPY
         tickers = sectors + ["SPY"]
         raw2 = yf.download(" ".join(tickers), period="3mo", progress=False, auto_adjust=True)
-        hist = raw2['Close'] if isinstance(raw2.columns, pd.MultiIndex) else raw2
+        if raw2.empty:
+            return {}
+            
+        hist = raw2['Close'] if isinstance(raw2.columns, pd.MultiIndex) else (raw2[['Close']] if 'Close' in raw2.columns else raw2)
         
         # Calculate % Change from start based on RS
         # RS = Sector % Change - SPY % Change
-        if 'SPY' not in hist:
-            return None
+        if 'SPY' not in hist or len(hist['SPY']) < 2:
+            return {}
             
         spy_pct = (hist['SPY'] / hist['SPY'].iloc[0] - 1) * 100
         
         df_rs = pd.DataFrame(index=hist.index)
         
         for s in sectors:
-            if s in hist:
+            if s in hist and len(hist[s]) >= 2:
                 s_pct = (hist[s] / hist[s].iloc[0] - 1) * 100
                 df_rs[s] = s_pct - spy_pct
                 
@@ -825,7 +843,10 @@ def get_sector_top_stocks(cycle_bullish_sectors):
         
     try:
         raw3 = yf.download(" ".join(candidates), period="2d", progress=False, auto_adjust=True)
-        data = raw3['Close'] if isinstance(raw3.columns, pd.MultiIndex) else raw3
+        if raw3.empty:
+            return []
+            
+        data = raw3['Close'] if isinstance(raw3.columns, pd.MultiIndex) else (raw3[['Close']] if 'Close' in raw3.columns else raw3)
         for ticker in candidates:
             if ticker not in data:
                 continue
