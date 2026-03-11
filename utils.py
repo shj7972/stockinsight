@@ -500,6 +500,11 @@ def ttl_cache(func):
 # --- New Features: Sector & Sentiment Analysis ---
 
 import praw
+import logging
+import warnings
+logging.getLogger("praw").setLevel(logging.ERROR)
+logging.getLogger("prawcore").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore", message=".*asynchronous environment.*")
 
 # Reddit API Credentials (User Provided)
 REDDIT_CLIENT_ID = "RqwuvRs-4nsicsM46f86Vw"
