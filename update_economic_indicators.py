@@ -13,7 +13,11 @@ import sys
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-import time
+import datetime
+
+import logging
+yf_logger = logging.getLogger('yfinance')
+yf_logger.disabled = True
 
 # Fix encoding for Windows (cp949 can't handle emoji)
 if sys.stdout.encoding != "utf-8":

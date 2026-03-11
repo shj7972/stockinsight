@@ -13,6 +13,11 @@
             }
         }
     ],
+    "build": {
+        "env": {
+            "ENABLE_EXPERIMENT_UV": "0"
+        }
+    },
     "routes": [
         {
             "src": "/(.*)",

@@ -19,6 +19,10 @@ from datetime import datetime
 import time
 
 import os
+import logging
+import yfinance as yf
+yf_logger = logging.getLogger('yfinance')
+yf_logger.disabled = True
 
 # Set base directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
