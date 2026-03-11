@@ -20,9 +20,13 @@ import time
 
 import os
 import logging
+import warnings
 import yfinance as yf
+
+# Suppress warnings
 yf_logger = logging.getLogger('yfinance')
 yf_logger.disabled = True
+warnings.filterwarnings("ignore", category=UserWarning, module="praw")
 
 # Set base directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -112,7 +116,7 @@ def get_popular_tickers(candidates, region_key, top_n=10):
         tickers_str = " ".join(tickers_list)
         
         # Download volume only
-        data = yf.download(tickers_str, period="1d", progress=False)
+        data = yf.download(tickers_str, period="1d", progress=False, auto_adjust=True)
         
         if data.empty:
             # Fallback to simple first 10 if data fails
