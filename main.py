@@ -1131,18 +1131,22 @@ async def economic_indicators_page(request: Request):
             }
             if end_dt > latest_date:
                 for col, ticker in yf_map.items():
-                    hist = yf.download(ticker, start=latest_date.strftime('%Y-%m-%d'),
-                                       end=end_dt.strftime('%Y-%m-%d'), interval='1mo', progress=False, auto_adjust=True)
-                    if not hist.empty:
-                        for idx, row in hist.iterrows():
-                            month_start = pd.Timestamp(idx).replace(day=1)
-                            if month_start > latest_date:
-                                mask = df['date'] == month_start
-                                if mask.any():
-                                    df.loc[mask, col] = float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])
-                                else:
-                                    new_row = pd.DataFrame({'date': [month_start], col: [float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])]})
-                                    df = pd.concat([df, new_row], ignore_index=True)
+                    try:
+                        hist = yf.download(ticker, start=latest_date.strftime('%Y-%m-%d'),
+                                           end=end_dt.strftime('%Y-%m-%d'), interval='1mo', progress=False, auto_adjust=True)
+                        if not hist.empty:
+                            for idx, row in hist.iterrows():
+                                month_start = pd.Timestamp(idx).replace(day=1)
+                                if month_start > latest_date:
+                                    mask = df['date'] == month_start
+                                    if mask.any():
+                                        df.loc[mask, col] = float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])
+                                    else:
+                                        new_row = pd.DataFrame({'date': [month_start], col: [float(row['Close'].squeeze() if hasattr(row['Close'], 'squeeze') else row['Close'])]})
+                                        df = pd.concat([df, new_row], ignore_index=True)
+                    except Exception as e:
+                        # Log error but don't crash the loop
+                        print(f"yfinance missing data error for {ticker}: {e}")
                 df = df.sort_values('date').reset_index(drop=True)
 
             # 2) 실시간 현재가 — 오늘 장중/종가로 각 지표의 마지막 값 override
