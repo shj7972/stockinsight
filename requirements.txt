@@ -4,8 +4,9 @@ jinja2
 python-multipart
 starlette
 yfinance==0.2.66
-multitasking==0.0.11
+./vendor/multitasking-0.0.11-py3-none-any.whl
 pandas==2.2.3
+
 
 
 
