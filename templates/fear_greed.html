@@ -98,15 +98,114 @@
 
 {% block extra_scripts %}
 <script>
-    {% if gauge_json %}
-    var gaugeData = {{ gauge_json | safe }};
+    document.addEventListener('DOMContentLoaded', function () {
+        {% if gauge_json %}
+        var gaugeData = {{ gauge_json | safe
+    }};
     Plotly.newPlot('gauge-chart', gaugeData.data, gaugeData.layout, { displayModeBar: false, responsive: true });
     {% endif %}
-
     {% if trend_json %}
     var trendData = {{ trend_json | safe }};
     Plotly.newPlot('trend-chart', trendData.data, trendData.layout, { displayModeBar: false, responsive: true });
     {% endif %}
+    });
 </script>
 {% endblock %}
+
+<!-- ===== FAQ + 활용 가이드 ===== -->
+<section style="margin-top: 2.5rem;">
+    <!-- 활용 가이드 -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">📖 공포 &amp; 탐욕 지수 활용 가이드</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div
+                style="background: rgba(248,113,113,0.08); border: 1px solid rgba(248,113,113,0.25); border-radius: 10px; padding: 1rem;">
+                <div style="font-size: 1.4rem; margin-bottom: 0.4rem;">😱</div>
+                <div style="color: #f87171; font-weight: 600; font-size: 0.9rem;">0~25 극단적 공포</div>
+                <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 0.3rem;">역발상 분할 매수 기회. 시장이 과도하게 비관적일 때입니다.
+                </div>
+            </div>
+            <div
+                style="background: rgba(251,146,60,0.08); border: 1px solid rgba(251,146,60,0.25); border-radius: 10px; padding: 1rem;">
+                <div style="font-size: 1.4rem; margin-bottom: 0.4rem;">😨</div>
+                <div style="color: #fb923c; font-weight: 600; font-size: 0.9rem;">25~45 공포</div>
+                <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 0.3rem;">조심스러운 매수 가능. 추가 하락에 대비해 분할 접근하세요.
+                </div>
+            </div>
+            <div
+                style="background: rgba(148,163,184,0.08); border: 1px solid rgba(148,163,184,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="font-size: 1.4rem; margin-bottom: 0.4rem;">😐</div>
+                <div style="color: #94a3b8; font-weight: 600; font-size: 0.9rem;">45~55 중립</div>
+                <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 0.3rem;">방향성 불명확. 기존 포지션을 유지하고 신규 진입은 신중히..
+                </div>
+            </div>
+            <div
+                style="background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.25); border-radius: 10px; padding: 1rem;">
+                <div style="font-size: 1.4rem; margin-bottom: 0.4rem;">🤑</div>
+                <div style="color: #fbbf24; font-weight: 600; font-size: 0.9rem;">55~75 탐욕</div>
+                <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 0.3rem;">목표가 도달 종목 이익 실현 검토. 과열 신호 주시하세요.
+                </div>
+            </div>
+            <div
+                style="background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="font-size: 1.4rem; margin-bottom: 0.4rem;">🚀</div>
+                <div style="color: #4ade80; font-weight: 600; font-size: 0.9rem;">75~100 극단적 탐욕</div>
+                <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 0.3rem;">신규 매수 자제. 포트폴리오 점검하고 방어 자산 비중 확인하세요.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">❓ 자주 묻는 질문 (FAQ)</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">공포 &amp; 탐욕 지수는
+                    어떻게 계산되나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">S&amp;P 500의 125일 이동평균 대비 현재가
+                    괴리율(모멘텀, 40%), VIX 변동성 지수(40%), S&amp;P 500의 RSI 14일(매수강도, 20%)을 종합해 0~100 점수를 계산합니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">공포 지수가 낮을 때 무조건
+                    사야 하나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">지수 25 이하 구간에서 역사적으로 S&amp;P 500의 1년 후
+                    수익률은 평균 +20% 이상이었습니다. 단, 단기 추가 하락 가능성이 있으므로 한 번에 전부 매수하지 말고 2~3회 분할 매수를 권장합니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">얼마나 자주 업데이트되나요?
+                </summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">VIX, S&amp;P 500 데이터는 미국 장이 열리는 날
+                    실시간으로 반영됩니다. 페이지를 새로고침하면 최신 데이터가 표시됩니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">한국 주식(코스피)에도 적용할
+                    수 있나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">본 지수는 미국 시장(S&amp;P 500, VIX) 기반입니다.
+                    그러나 코스피는 미국 시장과 높은 상관관계(약 0.7~0.8)를 보이므로 참고 지표로 활용할 수 있습니다. 코스피 전망은 <a href="/economic-indicators"
+                        style="color:#38bdf8;">경제지표 AI 예측</a>을 함께 확인하세요.</p>
+            </details>
+        </div>
+    </div>
+
+    <!-- 관련 블로그 링크 -->
+    <div class="glass-panel" style="padding: 1.25rem;">
+        <h3 style="margin: 0 0 0.75rem; font-size: 0.95rem; color: #94a3b8;">📝 관련 투자 가이드</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <a href="/blog/fear-greed-index-guide"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">공포&탐욕
+                지수로 매매 타이밍 잡는 법</a>
+            <a href="/blog/vix-fear-index-over-30-stock-strategy"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">VIX
+                30 이상일 때 대응 전략</a>
+            <a href="/blog/technical-analysis-guide-for-beginners"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">RSI·MACD
+                기술적 분석 가이드</a>
+        </div>
+    </div>
+</section>
 {% endblock %}

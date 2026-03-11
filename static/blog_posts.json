@@ -1,5 +1,99 @@
 [
   {
+    "slug": "portfolio-rebalancing-guide",
+    "title": "포트폴리오 리밸런싱이란? 언제 어떻게 해야 하나 — 초보자 완벽 가이드",
+    "excerpt": "리밸런싱의 의미, 필요성, 최적 주기, 세금·수수료 고려 방법까지 포트폴리오 관리의 핵심을 정리합니다.",
+    "date_published": "2026-03-11",
+    "date_modified": "2026-03-11",
+    "author": "Stock Insight AI",
+    "category": "투자 교육",
+    "tags": [
+      "리밸런싱",
+      "포트폴리오",
+      "자산배분",
+      "장기투자",
+      "분산투자"
+    ],
+    "seo_description": "포트폴리오 리밸런싱이란 무엇인지, 왜 필요한지, 언제 어떻게 해야 하는지 초보자도 이해할 수 있게 정리합니다.",
+    "seo_keywords": "포트폴리오리밸런싱, 리밸런싱방법, 리밸런싱주기, 주식리밸런싱, 자산배분리밸런싱, 리밸런싱전략",
+    "content": "<h2>리밸런싱이란?</h2><p>포트폴리오를 처음 구성할 때 설정한 자산 비율(예: 주식 60%, 채권 40%)이 시간이 지나면서 시장 변동으로 달라집니다. 이를 원래 비율로 되돌리는 작업이 바로 <strong>리밸런싱(Rebalancing)</strong>입니다.</p><p>예를 들어 주식 60%·채권 40%로 시작했는데, 주식이 크게 올라 주식 75%·채권 25%가 됐다면, 주식을 일부 팔고 채권을 사서 60:40으로 되돌립니다.</p><h2>리밸런싱이 왜 필요한가?</h2><ol><li><strong>리스크 관리</strong>: 주식이 지나치게 커지면 처음 의도한 것보다 훨씬 높은 리스크에 노출됩니다.</li><li><strong>기계적 고점 매도·저점 매수</strong>: 비싸진 자산을 팔고 싸진 자산을 사는 합리적인 행동을 감정 없이 실행합니다.</li><li><strong>장기 수익 안정화</strong>: 변동성을 낮춰 동일한 기대 수익에서 리스크를 줄입니다.</li></ol><h2>리밸런싱 주기: 얼마나 자주 해야 하나?</h2><h3>시간 기반 리밸런싱</h3><ul><li><strong>분기(3개월)</strong>: 적극적 관리. 수수료 부담 증가</li><li><strong>반기(6개월)</strong>: 균형 있는 선택</li><li><strong>연 1회</strong>: 장기 투자자에게 적합. 연말 세금 계획과 함께 실행</li></ul><h3>임계값 기반 리밸런싱 (더 효율적)</h3><p>목표 비율에서 ±5% 이상 벗어날 때만 리밸런싱합니다.</p><ul><li>예: 주식 목표 60% → 65% 이상이 되면 매도</li><li>장점: 불필요한 거래 최소화, 세금·수수료 절약</li><li>단점: 모니터링이 필요</li></ul><h2>리밸런싱 시 고려사항</h2><h3>세금</h3><ul><li>주식·ETF 매도 시 양도소득세 또는 금융투자소득이 발생할 수 있습니다</li><li>세금 부담이 있다면 신규 자금 유입 시 비중이 낮은 자산에 집중 매수하는 방식으로 간접 리밸런싱</li></ul><h3>수수료</h3><ul><li>잦은 리밸런싱은 거래 수수료를 높입니다</li><li>ETF 기반 포트폴리오는 개별 주식보다 리밸런싱 비용이 저렴</li></ul><h2>리밸런싱 실전 예시</h2><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;\"><thead><tr style=\"background:rgba(56,189,248,0.08);\"><th style=\"padding:0.5rem;border-bottom:1px solid rgba(255,255,255,0.1);\">자산</th><th style=\"padding:0.5rem;border-bottom:1px solid rgba(255,255,255,0.1);\">목표</th><th style=\"padding:0.5rem;border-bottom:1px solid rgba(255,255,255,0.1);\">현재</th><th style=\"padding:0.5rem;border-bottom:1px solid rgba(255,255,255,0.1);\">액션</th></tr></thead><tbody><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.45rem;\">QQQ (기술주)</td><td style=\"padding:0.45rem;text-align:center;\">40%</td><td style=\"padding:0.45rem;text-align:center;color:#f87171;\">52%</td><td style=\"padding:0.45rem;color:#f87171;\">일부 매도</td></tr><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.45rem;\">SCHD (배당)</td><td style=\"padding:0.45rem;text-align:center;\">30%</td><td style=\"padding:0.45rem;text-align:center;color:#4ade80;\">23%</td><td style=\"padding:0.45rem;color:#4ade80;\">추가 매수</td></tr><tr><td style=\"padding:0.45rem;\">TLT (채권)</td><td style=\"padding:0.45rem;text-align:center;\">30%</td><td style=\"padding:0.45rem;text-align:center;color:#4ade80;\">25%</td><td style=\"padding:0.45rem;color:#4ade80;\">추가 매수</td></tr></tbody></table><p><a href=\"/portfolio-simulator\" style=\"color:#38bdf8;\">포트폴리오 시뮬레이터</a>에서 다양한 자산 배분 전략을 백테스트해보세요.</p>"
+  },
+  {
+    "slug": "kospi-nasdaq-correlation-investment",
+    "title": "코스피와 나스닥 상관관계: 미국 주식 오르면 한국도 오를까?",
+    "excerpt": "코스피와 나스닥의 역사적 상관관계를 분석하고, 이를 포트폴리오 분산에 활용하는 방법을 알아봅니다.",
+    "date_published": "2026-03-11",
+    "date_modified": "2026-03-11",
+    "author": "Stock Insight AI",
+    "category": "시장 분석",
+    "tags": [
+      "코스피",
+      "나스닥",
+      "상관관계",
+      "분산투자",
+      "글로벌투자"
+    ],
+    "seo_description": "코스피와 나스닥의 상관관계를 데이터로 분석합니다. 미국 시장과 한국 시장의 동조화, 차별화 요인, 분산 투자 전략을 알아보세요.",
+    "seo_keywords": "코스피나스닥상관관계, 코스피미국주식관계, 나스닥상승코스피, 코스피동조화, 한국주식미국주식, 코스피나스닥비교",
+    "content": "<h2>코스피와 나스닥: 얼마나 함께 움직이나?</h2><p>2010~2024년 월별 수익률 기준으로 코스피와 나스닥의 상관계수는 약 <strong>0.65~0.75</strong>입니다. 이는 '높은 양의 상관관계'로, 나스닥이 오를 때 코스피도 함께 오르는 경향이 강합니다.</p><h2>상관관계가 높은 이유</h2><ol><li><strong>외국인 투자자 영향</strong>: 코스피의 외국인 비중은 30% 이상. 글로벌 리스크 온/오프 심리가 동시에 작용합니다.</li><li><strong>반도체 연결고리</strong>: 나스닥 = 기술주 중심. 코스피 = 삼성전자·SK하이닉스 반도체 중심. AI 반도체 수요가 두 지수 모두를 움직입니다.</li><li><strong>달러 영향</strong>: 달러 강세 시 외국인 코스피 매도 + 나스닥 부담. 달러 약세 시 반대.</li></ol><h2>코스피가 나스닥보다 더 떨어지는 이유</h2><p>역사적으로 글로벌 위기 시 코스피의 낙폭은 나스닥보다 큽니다.</p><ul><li><strong>레버리지 효과</strong>: 코스피는 원화·달러 환율이라는 추가 변수가 있어 달러 기준 낙폭이 더 큼</li><li><strong>집중도</strong>: 삼성전자+SK하이닉스가 코스피 지수의 20~30% 차지. 반도체 업황 악화 시 집중 타격</li><li><strong>유동성</strong>: 글로벌 위기 시 선진국(미국) 대비 신흥국(한국) 자금 이탈 먼저 발생</li></ul><h2>그럼 한국 주식만 사면 안 되나?</h2><p>반드시 그렇지는 않습니다. 코스피가 나스닥 대비 유리한 시기도 있습니다:</p><ul><li><strong>달러 약세 사이클</strong>: 원화 강세 → 외국인 유입 → 코스피 아웃퍼폼</li><li><strong>반도체 수퍼사이클</strong>: 삼성전자·SK하이닉스 실적 급성장 구간</li><li><strong>중국 경기 회복</strong>: 한국 수출의 25%는 중국 향. 중국 부양책 시 코스피 수혜</li></ul><h2>실전 포트폴리오 전략</h2><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;\"><thead><tr style=\"background:rgba(56,189,248,0.1);\"><th style=\"padding:0.6rem;text-align:left;border-bottom:1px solid rgba(255,255,255,0.1);\">시장 환경</th><th style=\"padding:0.6rem;border-bottom:1px solid rgba(255,255,255,0.1);\">추천 비중</th></tr></thead><tbody><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.5rem;\">달러 강세 + 글로벌 긴축</td><td style=\"padding:0.5rem;\">미국 ETF 70% + 코스피 30%</td></tr><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.5rem;\">달러 약세 + 글로벌 완화</td><td style=\"padding:0.5rem;\">코스피 40% + 미국 ETF 60%</td></tr><tr><td style=\"padding:0.5rem;\">반도체 수퍼사이클</td><td style=\"padding:0.5rem;\">SMH/SOXX + 삼성전자·SK하이닉스 동반 편입</td></tr></tbody></table><p>코스피 AI 예측은 <a href=\"/economic-indicators\" style=\"color:#38bdf8;\">경제지표 대시보드</a>에서, 나스닥 종목 분석은 종목 검색에서 확인하세요.</p>"
+  },
+  {
+    "slug": "dividend-ex-date-stock-price-strategy",
+    "title": "배당락일 전후 주가는 어떻게 움직이나? 배당투자 완전 가이드",
+    "excerpt": "배당락일의 의미, 배당락 이후 주가 회복 패턴, 그리고 배당을 활용한 실전 투자 전략을 알아봅니다.",
+    "date_published": "2026-03-11",
+    "date_modified": "2026-03-11",
+    "author": "Stock Insight AI",
+    "category": "투자 전략",
+    "tags": [
+      "배당락일",
+      "배당투자",
+      "배당주",
+      "배당전략",
+      "주가패턴"
+    ],
+    "seo_description": "배당락일 의미와 주가 움직임, 배당락 후 회복 패턴, 배당투자 전략을 완벽 정리합니다. 배당 매수 타이밍과 주의사항을 알아보세요.",
+    "seo_keywords": "배당락일주가, 배당락후주가, 배당락일전략, 배당투자방법, 배당락일매수, 배당주투자타이밍",
+    "content": "<h2>배당락이란?</h2><p>배당을 받으려면 <strong>배당 기준일</strong>에 주식을 보유하고 있어야 합니다. 배당락일은 기준일 다음 영업일로, 이 날 이후에 주식을 사면 배당을 받을 수 없습니다.</p><ul><li><strong>배당 기준일</strong>: 배당을 받을 주주가 확정되는 날 (이 날까지 보유해야 함)</li><li><strong>배당락일</strong>: 기준일 다음 영업일. 이 날 사면 배당 못 받음</li><li><strong>배당 지급일</strong>: 실제로 통장에 배당금이 들어오는 날</li></ul><h2>배당락일 주가는 왜 떨어지나?</h2><p>배당락일에는 이론적으로 배당금만큼 주가가 하락합니다. 배당 4% 종목이라면 배당락일에 4% 하락이 자동으로 반영되는 것입니다. 이를 '배당락 하락'이라 합니다.</p><p>그러나 실제로는 이 만큼 정확히 떨어지지 않습니다. 왜냐하면:</p><ul><li>배당락 직전 배당 기대 매수세가 유입되었다가 빠지는 효과</li><li>배당락 후 배당재투자(DRIP) 매수세 유입</li><li>시장 전반의 분위기에 따라 덜 떨어지거나 더 떨어질 수도 있음</li></ul><h2>배당락 후 주가 회복 패턴</h2><p>한국 고배당주 분석(2015~2024년):</p><ul><li>배당락 후 1개월 이내 배당락 하락분을 회복하는 비율: 약 <strong>65%</strong></li><li>배당수익률 5% 이상 고배당주는 회복 속도가 느린 경향</li><li>성장성 높은 배당주(배당 성장률 10% 이상)는 배당락 후 빠르게 회복</li></ul><h2>배당투자 전략 3가지</h2><h3>전략 1: 배당 기준일 전 매수 → 기준일 후 매도</h3><ul><li>배당 기준일 2~4주 전 매수</li><li>기준일 이후 배당락 전에 매도</li><li>장점: 배당락 하락 회피, 단기 시세 차익</li><li>단점: 많은 투자자가 같은 생각 → 기준일 근처 주가 하락 시작</li></ul><h3>전략 2: 장기 보유 배당 재투자 (DRIP)</h3><ul><li>배당락 후 하락한 주가로 배당금을 재투자</li><li>복리 효과로 장기적으로 강력한 수익률</li><li>삼성전자, SCHD 같은 배당 성장주에 적합</li></ul><h3>전략 3: 연간 배당 사이클 활용</h3><p>미국 주식은 분기 배당, 월 배당(JEPI, O 등)도 있습니다. 배당 지급 월이 다른 ETF를 조합하면 매달 일정한 현금흐름을 만들 수 있습니다.</p><ul><li><strong>1·4·7·10월 배당</strong>: QQQ, SPY 계열</li><li><strong>2·5·8·11월 배당</strong>: SCHD, VYM</li><li><strong>3·6·9·12월 배당</strong>: 다수의 미국 배당주</li><li><strong>매월 배당</strong>: JEPI, JEPQ, 리얼티인컴(O)</li></ul><p>배당주 포트폴리오는 <a href=\"/portfolio-simulator\" style=\"color:#38bdf8;\">포트폴리오 시뮬레이터</a>에서 백테스트하고 <a href=\"/blog/dividend-portfolio-passive-income\" style=\"color:#38bdf8;\">월 50만원 배당 수익 만들기</a> 가이드도 참고하세요.</p>"
+  },
+  {
+    "slug": "golden-cross-dead-cross-strategy",
+    "title": "골든크로스 데드크로스 실전 전략: 언제 사고 언제 팔아야 하나",
+    "excerpt": "주식 시장에서 가장 많이 언급되는 골든크로스와 데드크로스의 의미, 실제 효과, 그리고 함정까지 데이터로 분석합니다.",
+    "date_published": "2026-03-11",
+    "date_modified": "2026-03-11",
+    "author": "Stock Insight AI",
+    "category": "투자 전략",
+    "tags": [
+      "골든크로스",
+      "데드크로스",
+      "이동평균선",
+      "매매신호",
+      "기술적분석"
+    ],
+    "seo_description": "골든크로스 데드크로스의 정의, 실제 투자 성과, 함정과 주의사항을 데이터로 분석합니다. 이동평균선 활용 실전 매매 전략을 알아보세요.",
+    "seo_keywords": "골든크로스매수, 데드크로스매도, 골든크로스전략, 이동평균선골든크로스, 50일200일골든크로스, 골든크로스주식",
+    "content": "<h2>골든크로스와 데드크로스란?</h2><p>이동평균선 두 개의 교차를 기반으로 한 가장 널리 알려진 매매 신호입니다.</p><ul><li><strong>골든크로스(Golden Cross)</strong>: 단기 이동평균선이 장기 이동평균선을 아래에서 위로 돌파 → 매수 신호</li><li><strong>데드크로스(Dead Cross)</strong>: 단기 이동평균선이 장기 이동평균선을 위에서 아래로 돌파 → 매도 신호</li></ul><p>가장 많이 사용되는 조합: <strong>50일 MA × 200일 MA</strong> (미국 기관투자자들의 표준)</p><h2>골든크로스의 실제 효과: S&P 500 데이터 분석</h2><p>1970~2024년 S&P 500의 50일/200일 골든크로스 이후 성과를 보면:</p><ul><li>골든크로스 발생 후 1년 평균 수익률: +<strong>12.8%</strong></li><li>골든크로스 후 3개월 내 추가 상승 확률: 약 <strong>68%</strong></li><li>단, 시장 이미 많이 오른 뒤 발생 시 효과 감소</li></ul><h2>골든크로스의 함정과 거짓 신호</h2><p>골든크로스가 항상 맞는 것은 아닙니다. 거짓 신호(Fake Cross)가 발생하는 경우:</p><ul><li>횡보 구간에서 빈번히 발생 → 손절-재진입 반복으로 수익 훼손</li><li>급락장(2008년, 2020년 3월) 이후 발생하는 골든크로스는 이미 상당 부분 회복된 후</li><li>코스피 같이 박스권에서 데드크로스와 골든크로스가 반복되는 경우 효과 제한적</li></ul><h2>더 효과적으로 활용하는 방법</h2><h3>✅ 골든크로스 신뢰도 높이는 조건</h3><ol><li><strong>거래량</strong>: 골든크로스 발생 시 평균 대비 150% 이상 거래량</li><li><strong>RSI</strong>: 50 이상이면 신뢰도 증가</li><li><strong>가격 위치</strong>: 52주 최저점 대비 30% 이상 하락 후 발생한 골든크로스가 더 신뢰적</li><li><strong>큰 추세 확인</strong>: 주봉 200일선이 우상향 중인지 확인</li></ol><h3>실전 매매 예시</h3><ul><li>50일선이 200일선 위로 교차 확인</li><li>다음 거래일 시가 매수 (당일 내 눌림 기다리지 않아도 됨)</li><li>손절: 200일선 하향 이탈 시</li><li>목표가: 최근 고점 or 주요 저항선</li></ul><p>Stock Insight AI에서 종목 검색 시 50일·200일 이동평균선 위치를 자동으로 분석하여 골든크로스 여부를 AI가 판단합니다. <a href=\"/blog/technical-analysis-guide-for-beginners\" style=\"color:#38bdf8;\">이동평균선 가이드</a>도 참고하세요.</p>"
+  },
+  {
+    "slug": "bollinger-band-investment-guide",
+    "title": "볼린저 밴드 완전 정복: 수축·돌파·눌림목 매수 타이밍 잡는 법",
+    "excerpt": "볼린저 밴드의 원리부터 수축(Squeeze) 패턴, 밴드 돌파 신호, 눌림목 매수까지 실전 매매에 활용하는 방법을 알아봅니다.",
+    "date_published": "2026-03-11",
+    "date_modified": "2026-03-11",
+    "author": "Stock Insight AI",
+    "category": "투자 전략",
+    "tags": [
+      "볼린저밴드",
+      "기술적분석",
+      "매매타이밍",
+      "주식차트"
+    ],
+    "seo_description": "볼린저 밴드 원리, 수축 패턴, 상단·하단 돌파 신호, 눌림목 매수 전략을 초보자도 이해할 수 있게 설명합니다.",
+    "seo_keywords": "볼린저밴드매수신호, 볼린저밴드수축, 볼린저밴드돌파전략, 볼린저밴드사용법, 주식볼린저밴드, 볼린저밴드하단매수",
+    "content": "<h2>볼린저 밴드란?</h2><p>볼린저 밴드(Bollinger Bands)는 이동평균선(중간 밴드)을 중심으로 상단과 하단 밴드를 봉투처럼 감싸는 지표입니다. 밴드의 폭은 가격 변동성에 따라 넓어지거나 좁아집니다.</p><ul><li><strong>중간 밴드</strong>: 20일 단순이동평균(SMA)</li><li><strong>상단 밴드</strong>: SMA + (표준편차 × 2)</li><li><strong>하단 밴드</strong>: SMA - (표준편차 × 2)</li></ul><p>이론적으로 주가의 약 95%는 이 밴드 안에서 움직입니다. 밴드를 벗어나는 움직임은 '이상 신호'입니다.</p><h2>핵심 패턴 1: 볼린저 밴드 수축 (Squeeze)</h2><p>상단과 하단 밴드 사이의 폭이 좁아지는 것을 '수축(Squeeze)'이라 합니다. 이는 변동성 감소를 의미하며, 곧 큰 움직임(돌발 변동성)이 올 것을 예고합니다.</p><h3>수축 후 방향 확인 방법</h3><ol><li>밴드가 충분히 좁아질 때까지 기다립니다 (최소 4~6주)</li><li>주가가 상단 밴드를 돌파하면 → 상승 추세 시작 신호</li><li>주가가 하단 밴드를 돌파하면 → 하락 추세 시작 신호</li><li>거래량 동반 여부를 반드시 확인합니다</li></ol><h2>핵심 패턴 2: 상단·하단 밴드 매매</h2><h3>상단 밴드 터치 시</h3><ul><li><strong>추세 추종자</strong>: 강한 추세에서는 상단 밴드를 '걸어가는' 경우가 많습니다. 성급한 매도 금물</li><li><strong>역발상 투자자</strong>: RSI과매수(70+)와 동반된 상단 밴드 터치는 단기 매도 신호</li></ul><h3>하단 밴드 터치 시</h3><ul><li>RSI 과매도(30 이하) + 하단 밴드 터치 = 강력한 매수 신호</li><li>거래량이 줄어들면서 하단 밴드에 접근하면 매수 준비</li><li>거래량 급증 + 하단 밴드 이탈은 추세 하락 가능성 — 매수 자제</li></ul><h2>핵심 패턴 3: 눌림목 매수 (M패턴)</h2><p>강세 추세에서 주가가 상단 밴드를 터치한 후 중간 밴드(SMA 20일)까지 내려오는 구간을 '눌림목'이라 합니다. 이 지점이 추세 추종 매수의 최적 기회입니다.</p><ol><li>주가가 상단 밴드를 강하게 돌파</li><li>중간 밴드까지 조정 발생 (거래량 감소)</li><li>중간 밴드 지지 확인 후 매수 진입</li><li>손절: 중간 밴드 하향 이탈 시</li></ol><h2>볼린저 밴드 + RSI 조합 실전 활용</h2><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;\"><thead><tr style=\"background:rgba(56,189,248,0.1);\"><th style=\"padding:0.6rem;text-align:left;border-bottom:1px solid rgba(255,255,255,0.1);\">시나리오</th><th style=\"padding:0.6rem;border-bottom:1px solid rgba(255,255,255,0.1);\">신호</th></tr></thead><tbody><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.5rem;\">하단 밴드 터치 + RSI 30 이하</td><td style=\"padding:0.5rem;color:#4ade80;\">강력 매수</td></tr><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.5rem;\">상단 밴드 터치 + RSI 70 이상</td><td style=\"padding:0.5rem;color:#f87171;\">단기 매도/이익실현</td></tr><tr style=\"border-bottom:1px solid rgba(255,255,255,0.05);\"><td style=\"padding:0.5rem;\">밴드 수축 + 거래량 급증</td><td style=\"padding:0.5rem;color:#fbbf24;\">방향 돌파 임박, 대기</td></tr><tr><td style=\"padding:0.5rem;\">중간 밴드 지지 + 거래량 감소</td><td style=\"padding:0.5rem;color:#4ade80;\">눌림목 매수</td></tr></tbody></table><p>Stock Insight AI에서 종목을 검색하면 볼린저 밴드, RSI, MACD를 자동 분석한 AI 투자 의견을 확인할 수 있습니다. <a href=\"/blog/technical-analysis-guide-for-beginners\" style=\"color:#38bdf8;\">기술적 분석 가이드</a>도 함께 읽어보세요.</p>"
+  },
+  {
     "slug": "free-ai-stock-analysis-site-guide",
     "title": "무료 AI 주식 분석 사이트 완전 활용 가이드: 이런 기능이 있었다고?",
     "excerpt": "Stock Insight AI의 숨겨진 기능들을 총정리합니다. AI 매매 신호, 경제지표, 공포 탐욕 지수, ETF 분석까지 무료로 활용하는 법을 알아보세요.",

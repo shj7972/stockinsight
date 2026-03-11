@@ -246,4 +246,115 @@
     {% endif %}
     });
 </script>
+
+<!-- ===== 경제지표 해설 + FAQ ===== -->
+<section style="margin-top: 2.5rem;">
+    <!-- 지표 해설 카드 -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">📖 주요 경제지표 해석 가이드</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.9rem;">
+            <div
+                style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">🏛 Fed 기준금리
+                </div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">금리 인상 → 성장주 압박, 금융주 수혜. 인하 → 기술주·리츠 상승 경향. 현재 수준이 "높은가
+                    낮은가"보다 방향이 중요합니다.</div>
+            </div>
+            <div
+                style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">📈 CPI (소비자물가)
+                </div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">CPI 상승 → 금리 인상 압박 → 주식 부담. YoY 3% 이하 안정 시 시장에 우호적. Fed
+                    목표치는 2%입니다.</div>
+            </div>
+            <div
+                style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">🇺🇸 10년 국채
+                    수익률</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">주식 밸류에이션의 할인율. 4% 이상 상승 시 성장주 조정 압박. 하락 전환 시 주식 회복 신호.
+                    채권 vs 주식 매력 비교 척도.</div>
+            </div>
+            <div
+                style="background: rgba(248,113,113,0.06); border: 1px solid rgba(248,113,113,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="color: #f87171; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">😨 VIX (변동성
+                    지수)</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">시장 공포 온도계. 12 이하: 안정. 25~30: 경계. 30 이상: 공포 → 역발상 매수 신호.
+                    40+: 극단적 공포 (역사적 바닥 근처).</div>
+            </div>
+            <div
+                style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">🛢 WTI 유가
+                </div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">상승 → 정유·조선 수혜, 항공·운송 피해. $90 이상 지속 시 물가 자극 → 금리 인상 우려.
+                    한국은 에너지 100% 수입국.</div>
+            </div>
+            <div
+                style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">💱 USD/KRW 환율
+                </div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">원화 약세(환율 상승) → 수출 대기업 수혜, 외국인 매도 압박. 1400원 이상 →
+                    삼성전자·SK하이닉스 등 달러 매출 기업 이익 증가.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">❓ 자주 묻는 질문 (FAQ)</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">AI 예측은 얼마나
+                    정확한가요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">RandomForest 모델의 12개월 Walk-forward
+                    백테스트 결과 NASDAQ 75%, S&P 500 66.7%, KOSPI 83.3%의 방향 예측 정확도를 보였습니다. 단, 월별 방향 예측 참고용이며 단기 변동성은 반영되지
+                    않습니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">경제지표 데이터는 얼마나 자주
+                    업데이트되나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">WTI 유가, VIX, 10년 국채, USD/KRW 환율은
+                    실시간(장중)으로 업데이트됩니다. CPI, Fed 금리, 산업생산지수는 월별 발표치를 기준으로 매주 자동 업데이트됩니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">VIX가 높은데 AI가 상승
+                    예측을 하는 경우는요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">VIX는 단기 변동성 지표이고 AI 모델은 7개 경제지표의 복합
+                    신호를 학습했습니다. VIX가 높아도 산업생산·환율·CPI 등 다른 지표가 긍정적이면 상승 예측이 나올 수 있습니다. 개별 지표보다 복합적 판단이 중요합니다.</p>
+            </details>
+            <details
+                style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">어떤 지표 조합이 가장 강력한
+                    매수 신호인가요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">역사적으로 ① VIX 30 이상 + ② Fed 금리 인하 전환 +
+                    ③ CPI 안정세 + ④ 산업생산 상승이 동시에 나타날 때 S&P 500의 6~12개월 성과가 가장 우수합니다. 현재 지표값을 위 차트에서 확인해보세요.</p>
+            </details>
+        </div>
+    </div>
+
+    <!-- 관련 블로그 링크 -->
+    <div class="glass-panel" style="padding: 1.25rem;">
+        <h3 style="margin: 0 0 0.75rem; font-size: 0.95rem; color: #94a3b8;">📝 관련 투자 가이드</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <a href="/blog/vix-fear-index-over-30-stock-strategy"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">VIX
+                30+ 실전 대응 전략</a>
+            <a href="/blog/fed-rate-cut-stock-market-impact"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">Fed
+                금리 인하 수혜 섹터</a>
+            <a href="/blog/us-10y-treasury-yield-stock-impact"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">10년
+                국채금리 4% 대응법</a>
+            <a href="/blog/wti-oil-price-rise-korea-stock"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">WTI
+                유가 상승 수혜·피해주</a>
+            <a href="/blog/dollar-krw-1400-stock-strategy"
+                style="background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); border-radius: 8px; padding: 0.4rem 0.8rem; color: #38bdf8; font-size: 0.82rem; text-decoration: none;">달러
+                환율 1400원+ 투자 전략</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
 {% endblock %}
