@@ -3,9 +3,10 @@ uvicorn[standard]
 jinja2
 python-multipart
 starlette
-yfinance
+yfinance==0.2.66
 multitasking==0.0.11
 pandas==2.2.3
+
 
 
 plotly
