@@ -1,6 +1,12 @@
 name: Periodic News Update
 
 on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
   schedule:
     - cron: '0 * * * *' # Every hour
   workflow_dispatch: # Allow manual trigger
