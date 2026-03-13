@@ -13,17 +13,19 @@ import sys
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-import datetime
-
+import time
 import logging
+
 yf_logger = logging.getLogger('yfinance')
 yf_logger.disabled = True
 
 # Fix encoding for Windows (cp949 can't handle emoji)
-if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-if sys.stderr.encoding != "utf-8":
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stdout, 'reconfigure'):
+    if sys.stdout.encoding != "utf-8":
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, 'reconfigure'):
+    if sys.stderr.encoding != "utf-8":
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(BASE_DIR, "static", "economic_indicators.csv")
@@ -126,9 +128,6 @@ def fetch_yf_monthly(tickers: dict, start_date: str, end_date: str) -> pd.DataFr
         close.index = pd.to_datetime(close.index)
         monthly = close.resample("MS").mean()  # MS = month start
 
-        # ^TNX is in basis-points-like (e.g. 425 = 4.25%), need no conversion
-        # Actually ^TNX returns values like 4.25 directly, no conversion needed
-
         result = monthly
 
     except Exception as e:
@@ -157,14 +156,12 @@ def main():
     today = pd.Timestamp.now()
 
     # We need data from the last row (to backfill) up to the last *completed* month
-    # A month is "completed" if we're past its last day
     if today.day >= 1:
-        # Last completed month
         last_completed = (today.replace(day=1) - timedelta(days=1)).replace(day=1)
     else:
         last_completed = today.replace(day=1)
 
-    # Start from 2 months before the last CSV date (to ensure backfill coverage)
+    # Start from 2 months before the last CSV date
     fetch_start = (last_date - pd.DateOffset(months=2)).strftime("%Y-%m-%d")
     fetch_end = (last_completed + pd.DateOffset(months=1)).strftime("%Y-%m-%d")
 
@@ -182,7 +179,7 @@ def main():
             print(f"✓ {len(s)} months (latest: {s.index[-1]} = {s.iloc[-1]:.2f})")
         else:
             print("✗ no data")
-        time.sleep(0.5)  # Rate limit courtesy
+        time.sleep(0.5)
 
     # 4. Fetch yfinance data
     print("\n── yfinance 데이터 수집 ──")
@@ -196,33 +193,24 @@ def main():
     else:
         print("  ✗ no data")
 
-    # 5. Update existing rows (backfill missing values)
+    # 5. Update existing rows
     print("\n── 기존 행 빈 값 보완 ──")
     updated_cells = 0
-
     all_cols = list(FRED_SERIES.keys()) + list(YF_TICKERS.keys())
 
     for idx, row in df.iterrows():
-        row_date = row["date"]
-        row_date_key = pd.Timestamp(row_date).strftime("%Y-%m-01")
-
+        row_date_key = pd.Timestamp(row["date"]).strftime("%Y-%m-01")
         for col in all_cols:
-            current_val = row.get(col)
-            if pd.isna(current_val) or current_val == "":
+            if pd.isna(row.get(col)) or row.get(col) == "":
                 new_val = None
-
-                # Check FRED data
                 if col in fred_data and row_date_key in fred_data[col].index:
                     new_val = fred_data[col][row_date_key]
-
-                # Check yfinance data
-                if col in YF_TICKERS and not yf_monthly.empty:
+                elif col in YF_TICKERS and not yf_monthly.empty:
                     ts_key = pd.Timestamp(row_date_key)
                     if col in yf_monthly.columns and ts_key in yf_monthly.index:
                         v = yf_monthly.loc[ts_key, col]
                         if not pd.isna(v):
                             new_val = v
-
                 if new_val is not None:
                     df.at[idx, col] = round(new_val, 2)
                     updated_cells += 1
@@ -233,22 +221,15 @@ def main():
     print("\n── 새로운 월 데이터 추가 ──")
     new_rows = 0
     existing_dates = set(df["date"].tolist())
-
-    # Generate list of months that should exist
     check_date = last_date + pd.DateOffset(months=1)
     while check_date <= last_completed:
         date_str = check_date.strftime("%Y-%m-%d")
         date_key = check_date.strftime("%Y-%m-01")
-
         if date_str not in existing_dates:
             new_row = {"date": date_str}
-
-            # Fill from FRED
             for col in FRED_SERIES:
                 if date_key in fred_data.get(col, pd.Series()).index:
                     new_row[col] = round(fred_data[col][date_key], 2)
-
-            # Fill from yfinance
             if not yf_monthly.empty:
                 ts_key = pd.Timestamp(date_key)
                 for col in YF_TICKERS:
@@ -256,24 +237,20 @@ def main():
                         v = yf_monthly.loc[ts_key, col]
                         if not pd.isna(v):
                             new_row[col] = round(float(v), 2)
-
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
             new_rows += 1
-            print(f"  + {date_str}: {', '.join(f'{k}={v}' for k, v in new_row.items() if k != 'date' and pd.notna(v))}")
-
+            print(f"  + {date_str}")
         check_date = check_date + pd.DateOffset(months=1)
 
     if new_rows == 0:
         print("  (새로운 완료된 월 없음)")
 
     # 7. Save CSV
-    # Ensure column order matches original
     col_order = ["date", "fed_rate", "cpi", "treasury_10y", "usd_krw",
                  "ind_prod", "wti", "vix", "sox", "xli", "ewy", "smh"]
     for c in col_order:
         if c not in df.columns:
             df[c] = np.nan
-
     df = df[col_order]
     df.to_csv(CSV_PATH, index=False)
 
@@ -285,4 +262,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"CRITICAL ERROR during update: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
