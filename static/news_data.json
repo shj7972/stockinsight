@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "47.6만 한국 부자 보유 금융자산",
+      "부동산보다 주식이 유망",
+      "경제 성장 가능성 있음"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장 2.1% 전망",
-      "회복세는 미약하다는 분석",
-      "여전히 불확실한 경제 상황"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세 미약하다고 평가",
+      "전망에 대한 불안감 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴시 금융 리스크 경고",
-      "경제 전망에 긍정적 시각"
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "경기 회복 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -41,12 +41,12 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxPUUVvZjlVM2ZWaTZDSmEyQ0FXNTI3QVoxM1dHTjY4U01ZOTdGR3pndzNOUjlib2RzRkw0a0pfWnRGdVVyZU5QemppN05IT3N0M25iaS0zSmRGblVObFhNenRibmRUVmpBWTJVcU04dEVRVUJJZ3padVltd0lfWlhDeGZkN0M2eS1TdXI0aFVMSmNvcTJfZnd2dS03UzJlRkpyMFh4MDVGQlpPQ2lEVTBvUm9UeThxSmt3NURhN2Y0LVpkaTRreDdqS0NXQ1hTYUxYX0RHS2M3N3YxMzNwYklZVFFHT2pBcE9vcjM5bjk3dVBrcEhPRVllUnVmZmJFT253MHRmYmtwREk1UTVZazhWMWIwSW9fOFQ2bURHcnFxNXEwSC0wRjY1NVVna1dVM3BMVzh4VDFMNm1laGF0NDdOT2dkM241cHZfU2RFRGhiOHRXR3VyN2ZablZLQjFOak5nVm1QOTdtaEZMaVBaN18xNjRMQUh5T0RCZ1hIaHJOTkJHTDVDU0JRTjIxVUtGcXp1cG5uZzhpbG1qNU56Zk5teQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQczEwRDNWeGlhWUROcmI3ekhKQTdhZGZmNWhRU2hKX3ozU2dyblNDQWVEMWZTY1VFWUZzUVZoVUxPWER5N2VjVVJYU01DNHVLQVB0YmlPUjVmWFdjck9zdXlGTDVqTERlbFU3eG4tZHR1c2x1eFJSZTVnYlpwc05lQ1NUbmJwZmVvSGNtUWxiQUJsQ0dDekZhYVBlNThvU05tcTNhTFUxajR3aVVOR2JydEVldVp5QzZnUEpoNzdQU001N25zSWZKV3ZUb2ZZck5MdktESmlka2QwVGExckxpREJQZ0w3Ymo0dUZxd0JZalRoYWk2c0FINjlSSEh0QVF5ZkZOVTRIVWVpTU82Qnl3MGNNZ1RsT3J1QjdCWEMtb0U0SmIwaGRGT3UtbEsyMHNZU1RENF96eXptTFdZeUg4Vi1ickN1Umg3UFZaeFlWNlFqa2xObEpMaGlqUnJzaWt4Xy1HUXo1akd5LU9yR2FaX2hoTW1iVzhzUk1scll0bWk1UHhYMU1pT2kxTHc0dEQ2YmNlNmNjYUtIdm1Uakp0cw?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장 하락",
+      "주식 시장 급락",
       "이란 전쟁 위험 증가",
-      "경제 불확실성 확대"
+      "경제적 불확실성 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "유가 상승이 경제에 미치는 영향",
-      "인플레이션 우려 지속",
-      "주식 시장의 불안정성 가능성"
+      "원유 가격 상승 우려",
+      "인플레이션 지속",
+      "주식 시장 불안정성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "트럼프는 시장을 최우선으로 생각하며 전쟁을 지시합니다 - The New York Times",
+    "title": "트럼프, 시장을 최우선으로 생각하며 전쟁 지시 - The New York Times",
     "original_title": "Trump Directs War With the Markets Top of Mind - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장 전쟁 지시",
-      "시장 상황 주목",
-      "경제 대응 전략 필요"
+      "트럼프, 시장과의 전쟁 지시",
+      "시장 상황을 최우선 고려",
+      "정책 방향 변화 예고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
