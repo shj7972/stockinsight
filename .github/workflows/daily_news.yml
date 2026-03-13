@@ -64,46 +64,51 @@ jobs:
           if [ -f static/news_data.json ]; then
             OLD_HASH=$(md5sum static/news_data.json | cut -d' ' -f1)
             echo "Before: hash=$OLD_HASH, size=$(wc -c < static/news_data.json) bytes"
+            echo "OLD_HASH=$OLD_HASH" >> $GITHUB_ENV
           fi
 
           # Run the update
           python update_news.py || { echo "Python script failed with error code $?"; exit 1; }
 
-          # Verify result
-          echo "=== news_data.json check ==="
-          if [ -f static/news_data.json ]; then
-            NEW_HASH=$(md5sum static/news_data.json | cut -d' ' -f1)
-            echo "After: hash=$NEW_HASH, size=$(wc -c < static/news_data.json) bytes"
-            # Thorough check of the JSON content
-            python -c '
-            import json, sys, os
-            try:
-                if not os.path.exists("static/news_data.json"):
-                    print("ERROR: news_data.json does not exist!")
-                    sys.exit(1)
-                with open("static/news_data.json") as f:
-                    content = f.read()
-                    if not content.strip():
-                        print("ERROR: news_data.json is empty (0 bytes)!")
-                        sys.exit(1)
-                    d = json.loads(content)
-                print(f"News items found: {len(d)}")
-                if len(d) == 0:
-                    print("ERROR: news_data.json contains an empty list!")
-                    sys.exit(1)
-            except Exception as e:
-                print(f"ERROR validating news_data.json: {e}")
-                sys.exit(1)
-            '
-            if [ "$OLD_HASH" = "$NEW_HASH" ]; then
-              echo "WARNING: news_data.json content unchanged!"
-            else
-              echo "SUCCESS: news_data.json was updated!"
-            fi
-          else
-            echo "ERROR: news_data.json was not created!"
-            exit 1
-          fi
+      - name: Verify news update
+        shell: python
+        run: |
+          import json
+          import sys
+          import os
+          import hashlib
+
+          try:
+              if not os.path.exists("static/news_data.json"):
+                  print("ERROR: news_data.json does not exist!")
+                  sys.exit(1)
+              
+              with open("static/news_data.json", "r", encoding="utf-8") as f:
+                  content = f.read()
+                  if not content.strip():
+                      print("ERROR: news_data.json is empty (0 bytes)!")
+                      sys.exit(1)
+                  d = json.loads(content)
+              
+              print(f"News items found: {len(d)}")
+              if len(d) == 0:
+                  print("ERROR: news_data.json contains an empty list!")
+                  sys.exit(1)
+              
+              # Check for changes
+              new_hash = hashlib.md5(content.encode("utf-8")).hexdigest()
+              old_hash = os.environ.get("OLD_HASH", "")
+              print(f"Old Hash: {old_hash}")
+              print(f"New Hash: {new_hash}")
+              
+              if old_hash == new_hash:
+                  print("WARNING: news_data.json content unchanged!")
+              else:
+                  print("SUCCESS: news_data.json was updated!")
+                  
+          except Exception as e:
+              print(f"ERROR validating news_data.json: {e}")
+              sys.exit(1)
 
       - name: Commit and push if changed
         run: |
