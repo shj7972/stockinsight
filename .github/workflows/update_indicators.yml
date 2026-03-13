@@ -11,7 +11,12 @@ permissions:
 jobs:
   update-indicators:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
+      - name: Diagnostic
+        run: echo "WORKFLOW_VERSION=2026-03-13-v2"
+
       - name: Checkout code
         uses: actions/checkout@v6
         with:
