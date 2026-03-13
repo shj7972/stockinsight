@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산 비해 주식 유망",
+      "한국 부자 47.6만명 확인",
+      "주식이 부동산보다 유망",
       "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약하다",
-      "전망에 대한 우려 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약",
+      "경제 불확실성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,40 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 韓 성장률 1.9%로 상향 조정",
-      "AI 버블, 금융 리스크 경고",
-      "경제 전망은 긍정적이나 우려 존재"
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 우려 경고",
+      "금융 위험 존재 가능성 지적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "이란 전쟁이 세계를 뒤흔들고 있지만 미국 주식시장은 그렇지 않다 - The New York Times",
-    "original_title": "The War in Iran Is Roiling the World, but Not the U.S. Stock Market - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1keTliRHNlaUVrMWVoTjVCOEZYdjNsazVmd09fNHBodHVWM3BoNHNzQmJHVVZ5NXJFU2syclBabFdZN2FBbENYZk45V1RXc05pMWp3Q190el93OU9JVkJoU3NIakJTTGMtRHBncFlQZzQ3bmlDODZ4YkF2NlgzZw?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "전쟁, 세계에 큰 혼란 초래",
-      "미국 주식 시장 안정적 유지",
-      "투자자들, 불안감 덜 느껴"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNbUFOU1ppczMxNVNRUFhrMk5tTV90S1RlQm5zOW5icXJZUXBTMHRCN2pGWEdjUUxHTmZ3RWVnVXhVbGduNlNTbVVsczQyaFJGQ0tmelRWZVdfWllJVlJwbEQxMkhzREIxVFpkMThkeV9xaEtsSk1icl9aNHZnekNlNmd6dWJDYVQxTHZjY1l2dUxEZFp3YkFQSUdrUnU2Rlhqc3RXcnVIZGNER1NFQzIzVDVEZFNyb08zdkc3djVWeUJCTWdqbFlhTXhrS0l0UTFsbEh3SFNuZ3RNWDhJNDJwdDFCNnlPYVdYcWx0Z2Y3OERCRlBHSXBKV1ZJS0M4Qm9senRfUzd5RnpsWUlfR3dVc3Y3NjctZHU5UWhQUGVXZlU1eEZDdVU3THJ5MWZGYUpMVVdxYXpvRHRraFpsc1JWNHVKSmhrR3RuZ3pfWGFBckZucGZESzhWU21JZElsWVZIRi1HVGR2NTRlQndqMS1waFlYMVZ1eXBqeXU4ZmJrYmFIX3dlSUd5Y09lcFRvYWFMOUpDVWJKcnB5OFNXVjNjRQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQU2tjUnJqM3BPc0hnczIwY3BsR050RThXRGtqcmN4QTJXczlZdnZZY1JVVVNRUW1BSXQ4U0xqc294dnVnMURBNWoyUTBDdE1kZnE1X3VFQkhIZVRjc0Vfa1p5bUlyNjBLR0tlZVIxTkdXSldiR2NXMjhuSWZ1NUktRDBBUmtlTEF6dWZ3bWwxUXY5TXFKak10UDQwSWFOQXFFNU1RVk5SdFRWbk1OZmNGS2tJSnFCOThkYlVWXzhfY2RpWjFnOFBfTVdtOEVBb19yZmRyUXU3ckVOQmxvUUxpWHZPRVZTQlJPMjMwWFlnT2NKZ3gxbHZZdzRzTk9LMjlUZlQwUXRaQm5KRHgtTXRYdC1PcmRONENUbU9PNUFjZll4UmVyZ1JXVkRmcnl0bk5tVTFJRXFINTNLZFlob3N3dGs4Qlg2VXo5eFhkWUdfU2xKRDRGbFlUOU1OTDRSZGZpazZJSHpzaTg5TTl2M0IwMXpzTDBNYWMzenNGVlc3R3dINlJqazZMdk16TFB1T1dBWVduWHVMS25FekxlOUhHRQ?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장 하락",
+      "주식 시장 하락세 지속",
       "이란 전쟁의 경제적 위험 증가",
-      "투자자 우려 확산"
+      "투자자들 불안감 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프는 시장을 최우선으로 생각하며 전쟁을 지시합니다 - The New York Times",
+    "original_title": "Trump Directs War With the Markets Top of Mind - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "트럼프, 시장과의 전쟁 시작",
+      "경제 문제에 초점 맞춰",
+      "정치적 긴장 고조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "유가 상승과 인플레이션 우려",
-      "경제에 미치는 영향 분석",
-      "주식시장 변동성 전망"
+      "유가 상승 우려 지배",
+      "인플레이션 지속",
+      "주식시장 불안정성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
