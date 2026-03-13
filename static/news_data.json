@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 10억 이상 부자 47.6만명",
+      "부동산보다 주식이 유망",
+      "주식 투자에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "한국거래소, 프리·애프터마켓 도입",
-      "6월부터 운영 예정",
-      "시장 유동성 증가 기대"
+      "6월부터 운영 시작",
+      "투자자 편의성 증대 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 성장 전망에 긍정적 시사"
+      "AI 버블 붕괴 가능성 경고",
+      "금융 위험에 대한 우려 제기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -41,12 +41,12 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNeEhTUEpOUUhFMThNS3RKSE5WNGRjbmZJYjBudXl1cnd6NGZDV2d1b3FVVEFlZnhiaWxqdHJtZXVSZEdVVWhqRG1xdzVOQWQwVjIzcjZFcjdJQnVhRmZwZFVKNmpZZ3llV3NJOWNicmdxVy1lU3BWZF9aR0FuRVhSOGdFa3Fyc0x0aUh4ZzZtal9oRWlWNS1tMVd2S29ua1dMbnJQMEhhM0NqSHM4Mk9BMzhVSWk5SEpmQUZPLXBaRUFWYTJDSGpUX0pZb1FVTG5zUkJmOHg1dnB1cFFGNEk3WDBMQ2lLdDdTUnpMc2xCb0FRSVc4bVhvQ1NScF9LM2puWHF6OWw2bnhGUDNEMngydHBaczkyNHd1UzAyZkJsSUJUdGl2LW9aZDRrMEZwQ1U1b3R4b05IdUdmcmtyZXZTaVVBNFkxbXZRNUVRdU9pcW9PR3VzWmRMVWU0NDFmSFllckJUbDRySjNuTncwNVNDZjlXUmd5T3BFUktvNUtjSVVLby1US2pDNHA4YzZ0RzhneGNmSUFKMXNFcDdoYV83Vg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQSVRHa3dSeF9vdjFvZUdlSERtRkZuak9wdTFuYjdzRXpuQS1xclNlRlV3Mmg0SG9peW5iZ0xrTzE5dERpVW5lTnAzalJZWnIyUEQ3NDJwMFlxQW8xUE1SWWpkeURiRERRN0pZX1h6SXUxWmxBN3Y1dG1ka0dHS0VVMXNnQ01WMFNTdmdpX1llVlZ2SnNlckFSeWFEUEtSSHdZODJ0Wmd2aXUyTEhOS09kbFg4TzJILThtbkVlYVItN2o1Zzd4dkFtVkxXVnVIVEZaT3lZMVBSaDNBNWtnQ25uZS1pZXg0LXhlRmQ2SkJsU2tQRWJIUGc4eWJnYjZ5UFVLSVpVZk1iLUdSczhnTEtTT2RPYVhvbUtrNXUyc2YtWS1nNk85RUJ6R1g2eEZuQjVRY0RIOWtvcUhUZTVmOVN5Nkt0ck1NYm1iLU5LNU1Pc0JEWEpGS3ZrTEZCQThpNTdaVUVPOU56cFFrWHIwZXltMDlQa1RJTDBxVHFLNnljcUpxS0dGX2ZsYkxQcWQ1X3BPUE5ISFBJVlFZem1ra3RTOQ?oc=5",
     "publisher": "WSJ",
     "summary": [
       "주식 시장 급락",
       "이란 전쟁의 경제적 위험 증가",
-      "시장 불안감 커짐"
+      "투자자 불안 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "유가 상승, 인플레이션 우려",
-      "경제의 불안정성 증가",
-      "주식 시장의 하락 가능성"
+      "유가 상승이 경제에 미치는 영향",
+      "인플레이션 지속 우려",
+      "주식 시장의 향후 전망"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과 전쟁 지시",
-      "경제에 대한 우려 커짐",
-      "시장 전망 불확실성 증대"
+      "트럼프, 시장과의 전쟁 지휘",
+      "시장 문제에 초점",
+      "경제적 영향 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
