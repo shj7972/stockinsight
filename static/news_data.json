@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 보유"
+      "한국 부자 47.6만명 보유",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 성장률 2.1% 전망",
-      "회복세 매우 미약",
-      "전망에 대한 우려 제기"
+      "내년 한국 경제 2.1% 성장 예측",
+      "회복세는 다소 미약",
+      "전반적으로 불안한 전망"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "IMF, 韓 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "경제 전망에 긍정적 신호"
+      "경제 성장 가능성에 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1keTliRHNlaUVrMWVoTjVCOEZYdjNsazVmd09fNHBodHVWM3BoNHNzQmJHVVZ5NXJFU2syclBabFdZN2FBbENYZk45V1RXc05pMWp3Q190el93OU9JVkJoU3NIakJTTGMtRHBncFlQZzQ3bmlDODZ4YkF2NlgzZw?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "이란 전쟁, 세계에 영향 미침",
-      "미국 주식 시장은 안정적",
-      "투자자 신뢰 지속됨"
+      "이란 전쟁이 세계를 혼란에 빠트림",
+      "미국 주식시장에는 영향 적음",
+      "투자자들의 신뢰 유지됨"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOcnBsU0J6N0RaUk1rMDlQT0ZEVFRrLWl6Y1o4SUFlMlRjZG4xemxxZXVpbVE3VGd2QTc0dE1vQWF5cW04U1dmVGM4a1NiT01VT3BSSi1oZ3gtcnhtb0NScWdGdDFTTVBTMVlka3dhYUsxN01xaDR1Ujl1bWZ1X1ZNcEItRW03Ync2OHFmd1VxeUZmRWZkYzM1U2F3VHdUNnUtY1JjazlmUWlzRTZBNTZBMjFTNDBrMkJnLXFyR2s5SE5XUlgwYkt1ZDVOczd1bnM1ZkFZbE1VTTJDSkxOQy1ySTN0QkxmdmpRdUlDaU5xQm1nZFV2UXRwdkt2ZHUyalRyZlI5dVdsYVhodjkySzY5Z2lVOVpUbEtRZUFVYW5WY0ZtRm5EaGRNcUlaeUpfM1hHckRkcHM0SEVacmEwVVlXdjQzM2cwd3hiZjJNUGZtN2ZCT2pxOEdqV3JJRW8yd1RDd3M2eHpJa3AwQXoyQWkzY2FxaXJvdWtKajdfc3dqZm9jUTFoSGdxS3g5a0N4ckdSSmhNUHBKTFM1RnVhcW9iYg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOUE5PTmc0Qi1Gb2g0V2lhY2J3cm1rYjZpbURScDN1MFREVEJTN0szWDZzcHhIazFOWkc3X3ZzVUYydXhPMWh4TUxLamJneHR2djlMWHp4TVhVcldmQnZLQ09yT2tZS2diNmw4TjU2Yy1oYm05dWZBaGFXQUczVGgwaFhWRkZsNjVEc045UlVoLXFZUjc5R1A5aDJNM0tlNTZnaUFmQlAtUUJjZ1Y4VzZxbzFMSEZZSG83cnFhRGI1c1Z4QkJTZ2t1R1BBbExhM0t1SGlBUWV6OU1yR0pRU1pqZTkyTFA0T1BJbjdrazg2ZDBFa0tHYzE2WHlMaTlDTWRoUE1EeGtIVVl0ak5lZEdhOWlrNDl3U3Z4WWNjMjV5S1UtT2R5NGFzWTZwU29ZUG1uc1B3aHdaT2s4cXZYcTktd2dZUU10RFY1SlhOcGlKTmFhVTB0QTBxWXE0dWw2eEtWMVQxcjJYMGp5TEZ4WGktcjE2VjZSRUhEdF9xWmNjQkNINVBRX0U2YzIyZVUyWUc0Ui1aTzdweU9HcnVIbHNVZg?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식이 급락하고 있다",
-      "이란 전쟁의 경제적 위험 증가",
-      "시장 불확실성 확대"
+      "주식 시장 급락",
+      "이란 전쟁 위험 증가",
+      "경제 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "유가 상승이 시장에 미치는 영향",
-      "인플레이션 우려 계속",
-      "주식 시장의 불안정성 증대"
+      "유가 상승이 경제에 미치는 영향",
+      "인플레이션 우려 고조",
+      "주식시장 전망에 대한 질문"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
