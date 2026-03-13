@@ -21,7 +21,10 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Diagnostic
-        run: echo "WORKFLOW_VERSION=2026-03-13-v2"
+        run: |
+          echo "WORKFLOW_VERSION=2026-03-13-v3"
+          python --version
+          pip --version
 
       - name: Checkout code
         uses: actions/checkout@v6
@@ -29,9 +32,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version-file: ".python-version"
 
       - name: Install dependencies
         run: |
