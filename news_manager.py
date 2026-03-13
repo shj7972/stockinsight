@@ -167,10 +167,13 @@ def fetch_and_process_news(force=False):
         print(f"Global News Error: {e}")
 
     # Save to JSON
-    with open(NEWS_DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(all_news, f, ensure_ascii=False, indent=2)
-    
-    print(f"[{datetime.now()}] News Updated: {len(all_news)} items.")
+    try:
+        with open(NEWS_DATA_FILE, 'w', encoding='utf-8') as f:
+            json.dump(all_news, f, ensure_ascii=False, indent=2)
+        print(f"[{datetime.now()}] News Updated: {len(all_news)} items saved to {NEWS_DATA_FILE}.")
+    except Exception as e:
+        print(f"[{datetime.now()}] Error saving news to {NEWS_DATA_FILE}: {e}")
+        raise
 
 # GitHub raw URL for latest news data (updated by GitHub Actions)
 GITHUB_NEWS_URL = "https://raw.githubusercontent.com/shj7972/stockinsight/master/static/news_data.json"

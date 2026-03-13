@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
@@ -51,14 +51,27 @@ jobs:
           fi
 
           # Run the update
-          python update_news.py
+          python update_news.py || { echo "Python script failed with error code $?"; exit 1; }
 
           # Verify result
           echo "=== news_data.json check ==="
           if [ -f static/news_data.json ]; then
             NEW_HASH=$(md5sum static/news_data.json | cut -d' ' -f1)
             echo "After: hash=$NEW_HASH, size=$(wc -c < static/news_data.json) bytes"
-            python -c "import json; d=json.load(open('static/news_data.json')); print(f'News items: {len(d)}')"
+            # Thorough check of the JSON content
+            python -c '
+            import json, sys
+            try:
+                with open("static/news_data.json") as f:
+                    d = json.load(f)
+                print(f"News items: {len(d)}")
+                if len(d) == 0:
+                    print("ERROR: news_data.json is empty!")
+                    sys.exit(1)
+            except Exception as e:
+                print(f"ERROR parsing news_data.json: {e}")
+                sys.exit(1)
+            '
             if [ "$OLD_HASH" = "$NEW_HASH" ]; then
               echo "WARNING: news_data.json content unchanged!"
             else
