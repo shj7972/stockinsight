@@ -26,7 +26,18 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install python-dotenv
+
+      - name: Create Google Credentials File
+        shell: bash
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          if [ -n "$GOOGLE_CREDENTIALS" ]; then
+            echo "$GOOGLE_CREDENTIALS" > google-credentials.json
+            echo "Google credentials file created."
+          else
+            echo "GOOGLE_CREDENTIALS secret not found. Indexing API will be skipped."
+          fi
 
       - name: Run news update
         env:

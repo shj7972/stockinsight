@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 분석",
+      "투자자들 주식시장에 긍정적 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "6월부터 프리·애프터마켓 운영",
+      "한국거래소의 새로운 시도",
+      "시장 활성화 기대"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 성장에 긍정적 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프, 시장을 최우선으로 생각하며 전쟁 지시 - The New York Times",
+    "original_title": "Trump Directs War With the Markets Top of Mind - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "트럼프, 시장과의 전쟁 지시",
+      "경제 문제 우선 해결",
+      "시장 반응 심각하게 고려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "이번 주(3월 9~13일) 경제 데이터에서 주목해야 할 사항 - Kiplinger",
+    "original_title": "What to Look Out for in Economic Data This Week (March 9-13) - Kiplinger",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+    "publisher": "Kiplinger",
+    "summary": [
+      "이번 주 경제 데이터 발표 예정",
+      "고용 및 물가 지표 주목",
+      "금리 인상 가능성 논의"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "투자자들이 트럼프 대통령의 경제에 대한 나쁜 소식을 접하면서 주식시장은 경종을 울리고 있습니다. 역사는 이런 일이 다음에 일어날 것이라고 말합니다. - 가지각색의 바보",
+    "original_title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "주식 시장이 경고음을 울림",
+      "트럼프 경제에 대한 나쁜 소식",
+      "역사적 패턴이 예측됨"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  }
+]

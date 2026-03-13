@@ -26,6 +26,7 @@ idna==3.11
 jinja2==3.1.6
 jiter==0.13.0
 joblib==1.5.3
+lxml==6.0.2
 markupsafe==3.0.3
 ./vendor/multitasking-0.0.11-py3-none-any.whl
 narwhals==2.18.0
