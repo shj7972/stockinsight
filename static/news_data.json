@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "금융자산 10억 이상",
-      "부동산보다 주식 유망"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "프리·애프터마켓 6월부터 운영",
-      "거래소의 새로운 서비스 도입",
-      "시장 활성화 기대"
+      "한국거래소, 프리·애프터마켓 도입",
+      "6월부터 운영 예정",
+      "시장 유동성 증가 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "금융 리스크 우려 언급"
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 성장 전망에 긍정적 시사"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -41,12 +41,12 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOeHhMMmRfTEZQRVpSWFIxaWVuemNoZU9uM3R5VTFnWFhwZ2hKU2YwM3dXVEpOQnNoM2xuNjdnRHlEOEh0T0xZQWJkZlpsZGlWOG14RVYyb2tfRGZ1bDdUcnctWnotanRnUE85MmFFeXFKRmJvUjNOLWRXb0FITTV0ZV84NGc0ZWFtRUJDRUdFSXR1Q2lTbVlsazdfaDF4Y3I2bG14Ylhha3QxTWJyTHpLSlVoa2hTcGwtWlVENUFTN2k5NUVFLVNYYlh0cndzRHBsZ1JycmNpM2RIN1loYXctb0k1RlAwT0tMeE9CRnlwempjOEdNOENLWE8wN2RObGtwcl9JZENGZkhyaFgwa2p4dm52VXk5VGl2b2pWUVZrUklUWlp5UUF2Vnd4V1Q0WVdwZWNfWDhMclBFaW5mNnhRcG1sUUItVzR4OXdnaWF6QzBxNGYyZE5BZTloMnBRX2ZvRGhGVmExTHotSHRha2JkMmtYYmRJN3RfU1NCeU9oTFpPTk1kaE5aMmVnalEtVUxmSGZOZXhjbzNUOEtlTU1vUQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNeEhTUEpOUUhFMThNS3RKSE5WNGRjbmZJYjBudXl1cnd6NGZDV2d1b3FVVEFlZnhiaWxqdHJtZXVSZEdVVWhqRG1xdzVOQWQwVjIzcjZFcjdJQnVhRmZwZFVKNmpZZ3llV3NJOWNicmdxVy1lU3BWZF9aR0FuRVhSOGdFa3Fyc0x0aUh4ZzZtal9oRWlWNS1tMVd2S29ua1dMbnJQMEhhM0NqSHM4Mk9BMzhVSWk5SEpmQUZPLXBaRUFWYTJDSGpUX0pZb1FVTG5zUkJmOHg1dnB1cFFGNEk3WDBMQ2lLdDdTUnpMc2xCb0FRSVc4bVhvQ1NScF9LM2puWHF6OWw2bnhGUDNEMngydHBaczkyNHd1UzAyZkJsSUJUdGl2LW9aZDRrMEZwQ1U1b3R4b05IdUdmcmtyZXZTaVVBNFkxbXZRNUVRdU9pcW9PR3VzWmRMVWU0NDFmSFllckJUbDRySjNuTncwNVNDZjlXUmd5T3BFUktvNUtjSVVLby1US2pDNHA4YzZ0RzhneGNmSUFKMXNFcDdoYV83Vg?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장 하락",
-      "이란 전쟁의 경제 리스크 증가",
-      "투자자 불안 증대"
+      "주식 시장 급락",
+      "이란 전쟁의 경제적 위험 증가",
+      "시장 불안감 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
     "publisher": "tastylive",
     "summary": [
-      "유가 상승 우려",
-      "인플레이션 지속",
-      "주식시장 불안정"
+      "유가 상승, 인플레이션 우려",
+      "경제의 불안정성 증가",
+      "주식 시장의 하락 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과의 전쟁 지시",
-      "경제 상황 주목",
-      "시장에 대한 대응 전략 마련"
+      "트럼프, 시장과 전쟁 지시",
+      "경제에 대한 우려 커짐",
+      "시장 전망 불확실성 증대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
