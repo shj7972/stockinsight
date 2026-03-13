@@ -1,4 +1,4 @@
-name: Periodic News Update
+name: Daily News Update v4
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '30 * * * *' # Every hour at 30 minutes
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Diagnostic
         run: |
-          echo "WORKFLOW_VERSION=2026-03-13-v3"
+          echo "WORKFLOW_VERSION=2026-03-13-v4-REFACTORED"
           python --version
           pip --version
 
