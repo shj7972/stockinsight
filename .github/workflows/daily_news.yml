@@ -31,12 +31,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          echo "=== Installed Packages ==="
+          pip list
 
       - name: Create Google Credentials File
         shell: bash
@@ -71,16 +73,23 @@ jobs:
             echo "After: hash=$NEW_HASH, size=$(wc -c < static/news_data.json) bytes"
             # Thorough check of the JSON content
             python -c '
-            import json, sys
+            import json, sys, os
             try:
+                if not os.path.exists("static/news_data.json"):
+                    print("ERROR: news_data.json does not exist!")
+                    sys.exit(1)
                 with open("static/news_data.json") as f:
-                    d = json.load(f)
-                print(f"News items: {len(d)}")
+                    content = f.read()
+                    if not content.strip():
+                        print("ERROR: news_data.json is empty (0 bytes)!")
+                        sys.exit(1)
+                    d = json.loads(content)
+                print(f"News items found: {len(d)}")
                 if len(d) == 0:
-                    print("ERROR: news_data.json is empty!")
+                    print("ERROR: news_data.json contains an empty list!")
                     sys.exit(1)
             except Exception as e:
-                print(f"ERROR parsing news_data.json: {e}")
+                print(f"ERROR validating news_data.json: {e}")
                 sys.exit(1)
             '
             if [ "$OLD_HASH" = "$NEW_HASH" ]; then

@@ -167,6 +167,12 @@ def fetch_and_process_news(force=False):
         print(f"Global News Error: {e}")
 
     # Save to JSON
+    if not all_news:
+        print(f"[{datetime.now()}] WARNING: No news items fetched. Skipping save to {NEWS_DATA_FILE} to avoid empty file.")
+        if force: # If forced, we might want to know why it failed
+             print(f"[{datetime.now()}] ERROR: Fetching failed even with force=True. Check RSS feeds and API keys.")
+        return
+
     try:
         with open(NEWS_DATA_FILE, 'w', encoding='utf-8') as f:
             json.dump(all_news, f, ensure_ascii=False, indent=2)
