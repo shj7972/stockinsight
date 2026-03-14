@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망하다는 평가",
-      "부자 증가 추세 확인"
+      "한국 부자 47.6만명 확인",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세 미약",
-      "경제 상황 불확실"
+      "내년 한국 경제 성장률 2.1% 예상",
+      "회복세 미약하다는 지적",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -32,10 +32,10 @@
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "경제 전망에 긍정적인 신호"
+      "경제 전망에 긍정적 신호 전달"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 하 주식 상승",
-      "세금 감면 효과",
-      "경제 성장 기대감"
+      "트럼프 행정부에서 주식 시장 성장",
+      "세금 감면 정책 효과",
+      "경제 지표 긍정적 변화"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "트럼프, 이란 전쟁에 시장을 최우선으로 생각하라고 지시 - The New York Times - The New York Times",
-    "original_title": "Trump Directs Iran War Keeping Markets Top of Mind - The New York Times - The New York Times",
+    "title": "트럼프, 시장을 최우선으로 생각하며 전쟁 지시 - The New York Times",
+    "original_title": "Trump Directs War With the Markets Top of Mind - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 이란 전쟁 지시",
-      "시장 우려 고려",
-      "경제에 미치는 영향 분석"
+      "트럼프, 시장과의 전쟁 지시",
+      "시장 동향에 대한 우려 표명",
+      "투자자 반응 주목할 만함"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "투자자들이 트럼프 대통령의 경제에 대한 나쁜 소식을 접하면서 주식시장은 경종을 울리고 있습니다. 역사는 이런 일이 다음에 일어날 것이라고 말합니다. - 가지각색의 바보",
-    "original_title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
+    "title": "2026년에 매수해야 할 최고의 국제 주식 5개 - The Motley Fool",
+    "original_title": "5 Best International Stocks to Buy in 2026 - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnIzYnBRbFZHeWU3NjAxd2dodkFrc2dnVDF5OTlaTzZQUVlZNFVTNjVYbS0tVjRkc2xjLXNDNjU0MW5ReVhSWHhoaGJCNUhoSi1KNkotb3I1akZBaDZXbzh1c1dTaW82V0JPZ1owRVJvd3haaDJ6Q3RlcC02aXdkTURtQmNFajNW?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "트럼프 경제에 대한 부정적 소식",
-      "주식 시장의 경고 신호",
-      "역사적 분석과 향후 경향"
+      "2026년 추천 국제 주식 5종",
+      "글로벌 시장 기회 언급",
+      "성장 잠재력 분석"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
