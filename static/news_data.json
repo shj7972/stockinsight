@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 확인",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "금융자산 증가 추세 나타남"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 예상",
-      "회복세 미약하다는 지적",
-      "전망에 대한 우려 존재"
+      "내년 성장률 2.1% 전망",
+      "회복세는 미비함",
+      "경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -31,26 +31,12 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 리스크 경고",
-      "경제 전망에 긍정적 신호 전달"
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 전망에 대한 조심스러운 시각"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.6,
     "type": "국내"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부에서 주식 시장 성장",
-      "세금 감면 정책 효과",
-      "경제 지표 긍정적 변화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "트럼프, 시장을 최우선으로 생각하며 전쟁 지시 - The New York Times",
@@ -59,25 +45,39 @@
     "publisher": "The New York Times",
     "summary": [
       "트럼프, 시장과의 전쟁 지시",
-      "시장 동향에 대한 우려 표명",
-      "투자자 반응 주목할 만함"
+      "경제 상황에 대한 우려 표명",
+      "정책 변화 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "2026년에 매수해야 할 최고의 국제 주식 5개 - The Motley Fool",
+    "title": "2026년에 매수해야 할 최고의 국제 주식 베스트 5 - The Motley Fool",
     "original_title": "5 Best International Stocks to Buy in 2026 - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnIzYnBRbFZHeWU3NjAxd2dodkFrc2dnVDF5OTlaTzZQUVlZNFVTNjVYbS0tVjRkc2xjLXNDNjU0MW5ReVhSWHhoaGJCNUhoSi1KNkotb3I1akZBaDZXbzh1c1dTaW82V0JPZ1owRVJvd3haaDJ6Q3RlcC02aXdkTURtQmNFajNW?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "2026년 추천 국제 주식 5종",
-      "글로벌 시장 기회 언급",
-      "성장 잠재력 분석"
+      "2026년에 투자할 주식 추천",
+      "국제 시장에 대한 긍정적 전망",
+      "다양한 산업 포함된 주식들"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "석유, 인플레이션 그리고 경제: 주식시장은 붕괴될 것인가? - 맛있는 라이브",
+    "original_title": "Oil, Inflation, and the Economy: Will the Stock Market Break? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
+    "publisher": "tastylive",
+    "summary": [
+      "유가 상승, 인플레이션 우려",
+      "경제 위축 가능성 대두",
+      "주식 시장의 불안정성 언급"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
