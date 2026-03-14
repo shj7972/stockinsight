@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식 투자 유망",
-      "금융자산 증가 추세 나타남"
+      "한국 부자 47.6만명",
+      "주식이 유망하다는 의견",
+      "부동산 인기 하락"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "회복세는 미비함",
-      "경제 불확실성 지속"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다는 분석",
+      "전반적 경제 환경 불안정"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,11 +31,11 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 전망에 대한 조심스러운 시각"
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "긍정적 성장 전망 제시"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과의 전쟁 지시",
-      "경제 상황에 대한 우려 표명",
-      "정책 변화 불확실성 증가"
+      "트럼프, 시장 대응 지시",
+      "경제전쟁 전략 강조",
+      "시장 불안정성 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "2026년에 매수해야 할 최고의 국제 주식 베스트 5 - The Motley Fool",
+    "title": "2026년에 매수해야 할 최고의 국제 주식 5개 - The Motley Fool",
     "original_title": "5 Best International Stocks to Buy in 2026 - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnIzYnBRbFZHeWU3NjAxd2dodkFrc2dnVDF5OTlaTzZQUVlZNFVTNjVYbS0tVjRkc2xjLXNDNjU0MW5ReVhSWHhoaGJCNUhoSi1KNkotb3I1akZBaDZXbzh1c1dTaW82V0JPZ1owRVJvd3haaDJ6Q3RlcC02aXdkTURtQmNFajNW?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "2026년에 투자할 주식 추천",
-      "국제 시장에 대한 긍정적 전망",
-      "다양한 산업 포함된 주식들"
+      "2026년 주목할 국제 주식 5종",
+      "세계 시장 성장 가능성",
+      "투자 기회 확대 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "석유, 인플레이션 그리고 경제: 주식시장은 붕괴될 것인가? - 맛있는 라이브",
-    "original_title": "Oil, Inflation, and the Economy: Will the Stock Market Break? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
-    "publisher": "tastylive",
+    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
+    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
+    "publisher": "PBS",
     "summary": [
-      "유가 상승, 인플레이션 우려",
-      "경제 위축 가능성 대두",
-      "주식 시장의 불안정성 언급"
+      "미국 주식, 급락 후 반등",
+      "유가 상승, 이란 전쟁 우려",
+      "시장 긴장감 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
