@@ -526,20 +526,26 @@ def _render_dashboard(request: Request, ticker: str = ""):
 async def home(request: Request, ticker: str = ""):
     """Main page - redirects to /stock/<ticker> if ticker query param is present"""
     if ticker:
+        resolved_ticker = utils.resolve_ticker(ticker.strip())
         from fastapi.responses import RedirectResponse
-        return RedirectResponse(url=f"/stock/{ticker.strip().upper()}", status_code=301)
+        return RedirectResponse(url=f"/stock/{resolved_ticker.upper()}", status_code=301)
     return _render_dashboard(request)
 
 @app.post("/", response_class=HTMLResponse)
 async def search_stock(request: Request, ticker: str = Form(...)):
     """Handle stock search form submission - redirect to clean URL"""
+    resolved_ticker = utils.resolve_ticker(ticker.strip())
     from fastapi.responses import RedirectResponse
-    return RedirectResponse(url=f"/stock/{ticker.strip().upper()}", status_code=302)
+    return RedirectResponse(url=f"/stock/{resolved_ticker.upper()}", status_code=302)
 
 @app.get("/stock/{ticker}", response_class=HTMLResponse)
 async def stock_detail(request: Request, ticker: str):
     """Stock analysis with clean URL"""
-    return _render_dashboard(request, ticker=ticker.upper())
+    resolved_ticker = utils.resolve_ticker(ticker.strip())
+    if resolved_ticker.upper() != ticker.upper():
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse(url=f"/stock/{resolved_ticker.upper()}", status_code=301)
+    return _render_dashboard(request, ticker=resolved_ticker.upper())
 
 @app.get("/api/og")
 async def get_og_image(
