@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "10억 이상 금융자산 보유자 47.6만명",
+      "부동산보다 주식이 더 유망",
+      "한국 부자의 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 성장률 2.1% 전망",
-      "회복세 미약하다고 지적",
-      "경제 불확실성 여전"
+      "회복세 미약 설명",
+      "경제 회복에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "전반적 경제 긍정적 전망"
+      "AI 붕괴 시 금융 위험 경고",
+      "경제에 대한 신중한 전망 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "미국-이스라엘의 이란 전쟁 배경",
-      "주식 시장 불안정성 증가",
-      "경제 영향 우려가 커짐"
+      "전쟁이 시장에 미치는 영향 분석",
+      "경제 불확실성 증가",
+      "투자자 우려 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 상승",
-      "세금 인하 정책 효과",
-      "경제 성장률 긍정적"
+      "트럼프 행정부의 주식 시장 분석",
+      "시장 변화의 주요 원인",
+      "경제 전망에 대한 의견"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -73,8 +73,8 @@
     "publisher": "Deloitte",
     "summary": [
       "경제 지표 발표 예정",
-      "금리 변화 주목",
-      "투자자 심리 분석"
+      "중앙은행 회의 진행",
+      "소비자 신뢰도 변화 예측"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
