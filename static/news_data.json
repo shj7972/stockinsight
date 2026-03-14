@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "10억 이상 금융자산 보유",
-      "주식 유망, 부동산 대비"
+      "한국 부자는 47.6만명 보유",
+      "주식이 더 유망하다는 의견",
+      "부동산 비중 감소 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세는 여전히 미약",
-      "금융연의 신중한 시각"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약할 것",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,11 +31,11 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 전망에 대한 우려 여전"
+      "AI 버블 붕괴에 대한 우려 표명",
+      "재정적 위험 경고"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 기간 주식 상승",
-      "세금 감면 효과",
-      "경제 성장 기대감 증가"
+      "트럼프 행정부의 시장 영향",
+      "주식 시장 상승세",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과 전쟁 지시",
-      "경제에 대한 우려 고조",
-      "시장 반응에 민감한 발언"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "투자자들이 트럼프 대통령의 경제에 대한 나쁜 소식을 접하면서 주식시장은 경종을 울리고 있습니다. 역사는 이런 일이 다음에 일어날 것이라고 말합니다. - 가지각색의 바보",
-    "original_title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
-    "publisher": "The Motley Fool",
-    "summary": [
-      "투자자들, 트럼프 경제 나쁜 소식 수신",
-      "주식 시장 경고 신호 발생",
-      "역사적 분석 후 속할 수 있는 결과"
+      "트럼프, 시장 전쟁 시작",
+      "경제 안정성 우려",
+      "투자자 신뢰 저하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "경제는 중간고사에 관해 우리에게 무엇을 말해주는가? - 더 힐",
+    "original_title": "What is the economy telling us about the midterms? - The Hill",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb3lyaEhJeUxhZlc4SkJUUTkyZ2hjUFphOXI0MWYxZXR1b2h3NTI2WGd1ck1xVjFRd3lXbEpqSVF4bkpCaFRwdlgtYVJ5blFucW9rVk5PazVoaWhIVW9iVUh4cEFiU04wNHktV2hNSldqVF9FUS1WTENGcXlkRGpvNU5aeHBFclVtd3dj0gGQAUFVX3lxTE5SNXRrVG5KSkhIYVdFOFhVMWZHN01vbFAwNnkzcGxnUTFyT1FvQUpRU3MtVG9lZEg1ZVJ1UTNxQko4ZFpGOU5OajJzSXQ4aU5tcjBVem44dXMyaVZySVJxZ1VROHBhdGY4dndQSlZYV0xjRGhQWlZFSVFDMFNyY05Na1VyTDY1eERkOXd1dTY2Rg?oc=5",
+    "publisher": "The Hill",
+    "summary": [
+      "경제가 중간 선거에 미치는 영향",
+      "투표율과 경제 연관성",
+      "경제 이슈의 중요성 강조"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
