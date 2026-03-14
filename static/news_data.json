@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식이 더 유망하다고 평가",
-      "부동산 수요 감소 우려"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망하다는 평가",
+      "부자 증가 추세 확인"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 성장률 2.1% 전망",
-      "회복세 미약함",
-      "경제 불확실성 지속"
+      "회복세 미약",
+      "경제 상황 불확실"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 하 주식시장 상승",
-      "세금 감면 효과 기대",
-      "경제 성장률 긍정적 전망"
+      "트럼프 행정부 하 주식 상승",
+      "세금 감면 효과",
+      "경제 성장 기대감"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
@@ -59,8 +59,8 @@
     "publisher": "The New York Times",
     "summary": [
       "트럼프, 이란 전쟁 지시",
-      "시장에 영향을 고려",
-      "정치적 긴장 고조"
+      "시장 우려 고려",
+      "경제에 미치는 영향 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "트럼프 경제에 대한 나쁜 뉴스",
-      "주식 시장 우려 신호",
-      "역사적 추세 분석 필요"
+      "트럼프 경제에 대한 부정적 소식",
+      "주식 시장의 경고 신호",
+      "역사적 분석과 향후 경향"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
