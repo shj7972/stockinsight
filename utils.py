@@ -89,6 +89,99 @@ def get_index_data(ticker_symbol):
     except Exception as e:
         return None, None, None
 
+# Korean stock name → ticker mapping
+KOREAN_STOCK_MAP = {
+    # 대형주
+    '삼성전자': '005930.KS', '삼성': '005930.KS',
+    'sk하이닉스': '000660.KS', 'SK하이닉스': '000660.KS', '하이닉스': '000660.KS',
+    'naver': '035420.KS', 'NAVER': '035420.KS', '네이버': '035420.KS',
+    'lg화학': '051910.KS', 'LG화학': '051910.KS',
+    '삼성sdi': '006400.KS', '삼성SDI': '006400.KS',
+    '카카오': '035720.KS',
+    '삼성바이오로직스': '207940.KS', '삼성바이오': '207940.KS',
+    '삼성물산': '028260.KS',
+    '현대차': '005380.KS', '현대자동차': '005380.KS',
+    'kb금융': '105560.KS', 'KB금융': '105560.KS',
+    '셀트리온': '068270.KS',
+    'lg에너지솔루션': '373220.KS', 'LG에너지솔루션': '373220.KS',
+    '기아': '000270.KS', '기아차': '000270.KS',
+    '삼성생명': '032830.KS',
+    '현대모비스': '012330.KS',
+    '포스코홀딩스': '005490.KS', '포스코': '005490.KS',
+    'sk이노베이션': '096770.KS', 'SK이노베이션': '096770.KS',
+    '신한지주': '055550.KS',
+    '한국전력': '015760.KS',
+    'sk텔레콤': '017670.KS', 'SKT': '017670.KS',
+    'lg전자': '066570.KS', 'LG전자': '066570.KS',
+    '두산에너빌리티': '034020.KS',
+    '하나금융지주': '086790.KS',
+    'kt': '030200.KS', 'KT': '030200.KS',
+    '우리금융지주': '316140.KS',
+    '카카오뱅크': '323410.KS',
+    'sk': '034730.KS', 'SK': '034730.KS',
+    'lg': '003550.KS', 'LG': '003550.KS',
+    '롯데케미칼': '011170.KS',
+    '삼성화재': '000810.KS',
+    '현대건설': '000720.KS',
+    'cj제일제당': '097950.KS', 'CJ제일제당': '097950.KS',
+    # 코스닥
+    '에코프로비엠': '247540.KQ', '에코프로': '086520.KQ',
+    '펄어비스': '263750.KQ',
+    '카카오게임즈': '293490.KQ',
+    '셀트리온헬스케어': '091990.KQ',
+    '알테오젠': '196170.KQ',
+    'hlo': '900140.KQ',
+}
+
+def resolve_ticker(query):
+    """Resolves stock name (Korean/English) to ticker symbol."""
+    if not query:
+        return query
+
+    is_korean = any('\uAC00' <= c <= '\uD7A3' for c in query)
+
+    if is_korean:
+        # Exact match (case-insensitive)
+        lower_query = query.lower()
+        for name, ticker in KOREAN_STOCK_MAP.items():
+            if name.lower() == lower_query:
+                return ticker
+        # Partial match
+        for name, ticker in KOREAN_STOCK_MAP.items():
+            if lower_query in name.lower() or name.lower() in lower_query:
+                return ticker
+        # yfinance search fallback
+        try:
+            search = yf.Search(query, news_count=0, max_results=1)
+            quotes = search.quotes
+            if quotes:
+                return quotes[0].get('symbol', query)
+        except Exception:
+            pass
+        return query
+
+    # English input: detect if it already looks like a ticker symbol
+    upper = query.upper()
+    looks_like_ticker = (
+        ' ' not in query and           # no spaces
+        query == upper and             # already all-caps (AAPL, INTC, 005930.KS)
+        len(query) <= 7                # tickers are short
+    )
+    if looks_like_ticker:
+        return upper
+
+    # Company name (mixed case or has spaces) → search
+    try:
+        search = yf.Search(query, news_count=0, max_results=1)
+        quotes = search.quotes
+        if quotes:
+            return quotes[0].get('symbol', upper)
+    except Exception:
+        pass
+
+    return upper
+
+
 def get_stock_data(ticker_symbol):
     """Fetches stock history and info."""
     try:

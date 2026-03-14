@@ -92,21 +92,26 @@ def show():
         ("105560.KS", "KB금융")
     ]
 
-    # Initialize session state
+    # Initialize session state — URL 파라미터 우선
     if 'selected_ticker' not in st.session_state:
-        st.session_state.selected_ticker = "AAPL"
+        url_ticker = st.query_params.get('ticker', 'AAPL')
+        st.session_state.selected_ticker = url_ticker
 
     # Sidebar for Dashboard
     with st.sidebar:
         st.markdown("### 🔍 종목 검색")
-        
+
         # Ticker input with session state
-        ticker_input = st.text_input("티커 또는 종목명 입력", value=st.session_state.selected_ticker).upper()
+        raw_input = st.text_input("티커 또는 종목명 입력", value=st.session_state.selected_ticker)
+        ticker_input = utils.resolve_ticker(raw_input)
         if ticker_input != st.session_state.selected_ticker:
             st.session_state.selected_ticker = ticker_input
-        
+            st.query_params['ticker'] = ticker_input
+
         # Use session state ticker
         ticker = st.session_state.selected_ticker
+        # URL을 현재 티커와 항상 동기화
+        st.query_params['ticker'] = ticker
         
         st.markdown("---")
         
@@ -194,6 +199,7 @@ def show():
             button_label = f"{name} ({tick})"
             if cols_us[col_idx].button(button_label, key=f"us_{tick}", use_container_width=True):
                 st.session_state.selected_ticker = tick
+                st.query_params['ticker'] = tick
                 st.rerun()
         
         st.markdown("---")
@@ -206,6 +212,7 @@ def show():
             button_label = f"{name} ({tick})"
             if cols_kr[col_idx].button(button_label, key=f"kr_{tick}", use_container_width=True):
                 st.session_state.selected_ticker = tick
+                st.query_params['ticker'] = tick
                 st.rerun()
         
         st.markdown("---")
@@ -226,11 +233,40 @@ def show():
                 sentiment_score, sentiment_details = utils.analyze_sentiment(news)
                 verdict, advice_list = utils.generate_advice(metrics_df, sentiment_score)
                 
-                # Header Section with enhanced styling (removed redundant empty div)
-                
+                # 동적 메타 태그 주입 (SEO: 종목명 + 현재가 반영)
+                company_name = info.get('longName', ticker)
+                current_price = history['Close'].iloc[-1]
+                prev_price = history['Close'].iloc[-2]
+                delta = current_price - prev_price
+                delta_pct = (delta / prev_price * 100) if prev_price else 0
+                is_kr = ticker.endswith('.KS') or ticker.endswith('.KQ')
+                currency_symbol = '₩' if is_kr else '$'
+                price_str = f"{currency_symbol}{current_price:,.0f}" if is_kr else f"{currency_symbol}{current_price:,.2f}"
+                trend_str = f"▲{delta_pct:.2f}%" if delta >= 0 else f"▼{abs(delta_pct):.2f}%"
+
+                import json
+                schema = {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": f"{company_name} 주가",
+                    "description": f"{company_name}({ticker}) 현재가 {price_str} {trend_str}. 실시간 차트, AI 분석, 뉴스 감성 분석.",
+                    "url": f"https://stockinsight.ai?ticker={ticker}"
+                }
+
+                st.markdown(f"""
+                    <script>
+                        document.title = "{company_name} 주가 {price_str} {trend_str} | Stock Insight AI";
+                        var metaDesc = document.querySelector('meta[name="description"]');
+                        if (metaDesc) {{
+                            metaDesc.setAttribute('content', '{company_name}({ticker}) 현재가 {price_str} {trend_str}. 실시간 차트, AI 분석, 뉴스 감성 분석을 한 번에 확인하세요.');
+                        }}
+                    </script>
+                    <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
+                """, unsafe_allow_html=True)
+
+                # Header Section
                 col1, col2 = st.columns([3, 1])
                 with col1:
-                    company_name = info.get('longName', ticker)
                     st.markdown(f"""
                         <h1 style="background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 50%, #8b5cf6 100%);
                                     -webkit-background-clip: text;
@@ -277,12 +313,7 @@ def show():
                         </div>
                     """, unsafe_allow_html=True)
                 with col2:
-                    current_price = history['Close'].iloc[-1]
-                    prev_price = history['Close'].iloc[-2]
-                    delta = current_price - prev_price
-                    
-                    currency_symbol = "₩" if ticker.endswith(".KS") or ticker.endswith(".KQ") else "$"
-                    st.metric("현재가", f"{currency_symbol}{current_price:,.2f}", f"{delta:,.2f}")
+                    st.metric("현재가", price_str, f"{delta:,.2f}")
 
                 # Main Content Tabs
                 tab1, tab2, tab3, tab4 = st.tabs(["📊 차트 & 분석", "📋 재무 정보", "📰 뉴스 & 평판", "🤖 AI 조언"])
