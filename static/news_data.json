@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
+      "한국 부자 47.6만명",
       "부동산보다 주식이 유망",
-      "주식 투자 증가 추세"
+      " 금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 경제 성장률 2.1% 전망",
-      "회복세는 미약할 것",
-      "금융연의 분석 결과"
+      "내년 성장률 2.1% 전망",
+      "회복세 미약",
+      "경제 상황 불안정"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,53 +31,53 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "전반적 경제 전망 긍정적"
+      "AI 버블 붕괴시 금융 리스크 경고",
+      "전망에 대한 긍정적 시각 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
-    "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNQjYtZHJmSUk0cG44cmRPcmE3QXp3ak1Kal9NVl81QmQ5aURHcFJTS2F2dG9SYmI0YUJpSWlDTkk4bzhPbXBQdXFJb1QxeUhpRnlFTjdhU0RlUmxnV0RLWDlwWkJyeUc0SkNYM005M3NaMW5HRFQxY295REtzeWtQd3ROOXZ3VTJPYVZqSFdCanpNUWFtTUNGN3gwaHhvS09leDlWWlhWcUJvVDNSdHJOa192bWJLM3djMmE5dkJpU1BFb2V6RTdzYnV1Vmh0M2xOTFN1WUZQT0dhcS1seWY1V3JCaFVsMzJxOGkzQU93ZzlPbGtRdTd2bWlzMU5adHpxMy1CQlBpNjZ5REFuOVd4Mnp3SzFUTWJYZlJwNEg1MjE1NVBzamlnMHlhMUNQQThLc1l1a1NxREMwZ01GNFRteW0tT1FxdThLenF5eUdDb1RNQ0J5Nk1aS1FwOXhPM3Z5SmFjcm1RU2hQVTBSSzN4dFZvMHNBS0hibXFJM1lBQWl5T3plMEk2VFpIZDIxNW9DRlNndEdheDRjeF9taFVIOA?oc=5",
-    "publisher": "WSJ",
+    "title": "트럼프 행정부 하의 주식시장 - US Bank",
+    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "증시 하락, 이란 전쟁 위험 증가",
-      "투자자 불안감 확산 중",
-      "경제적 불확실성 확대"
+      "트럼프 행정부의 주식 시장 평가",
+      "경제 성장 지표 상승",
+      "세금 감면의 긍정적 영향"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "트럼프, 시장을 최우선으로 생각하며 전쟁 지시 - The New York Times",
-    "original_title": "Trump Directs War With the Markets Top of Mind - The New York Times",
+    "title": "트럼프, 이란 전쟁에 시장을 최우선으로 생각하라고 지시 - The New York Times - The New York Times",
+    "original_title": "Trump Directs Iran War Keeping Markets Top of Mind - The New York Times - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과의 전쟁 지휘",
-      "경제 문제 최우선 과제",
-      "시장 동향에 전략적 집중"
+      "트럼프, 이란 전쟁 지시",
+      "시장 우려 반영",
+      "경제에 영향 미칠 예정"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "석유, 인플레이션 그리고 경제: 주식시장은 붕괴될 것인가? - 맛있는 라이브",
-    "original_title": "Oil, Inflation, and the Economy: Will the Stock Market Break? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNm1PUF9idE9aWk14M084NlAtUVktT0thRTkwWjRpY09UaHdUNks1U2tzNzZ2QnJrMTl4dFJWdEdqVXNJb18wV0Y5NmZKZzNlT1FIVWN6VHIyLUM2eTVGTDFlVDRnMnBSdEdOZHM5ZnBnakZFT3V4UHhkNmRhbU9fOVYydnN2TWRvcWxWV1ZHRlE2c1NaS0lZeDBlSWhsZU0?oc=5",
-    "publisher": "tastylive",
+    "title": "투자자들이 트럼프 대통령의 경제에 대한 나쁜 소식을 접하면서 주식시장은 경종을 울리고 있습니다. 역사는 이런 일이 다음에 일어날 것이라고 말합니다. - 가지각색의 바보",
+    "original_title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
+    "publisher": "The Motley Fool",
     "summary": [
-      "유가 상승이 경제에 미치는 영향",
-      "인플레이션 우려 지속",
-      "주식시장에 대한 불확실성 증가"
+      "트럼프 경제에 대한 악재 발생",
+      "투자자들 부정적 반응",
+      "역사적 데이터 경고 신호"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
