@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 기록",
-      "주식 투자 유망성 강조",
-      "부동산 선호도 감소"
+      "부자 수 47.6만명 증가",
+      "주식이 유망하다는 시각",
+      "부동산 투자 감소 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약",
-      "전반적 불확실성 존재"
+      "내년 경제 성장률 2.1% 예상",
+      "회복세 미미하다고 평가",
+      "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -32,7 +32,7 @@
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "전반적 경제 전망 긍정적"
+      "전망 긍정적이나 우려 요소 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 주식 시장에 영향 미칠 것",
+      "전쟁이 시장에 미치는 영향 우려",
       "경제 불확실성 증가",
-      "투자자들의 경계 필요"
+      "안전 자산 선호 높아짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 정부의 시장 영향",
-      "주식 상승 세 유지",
-      "투자자 신뢰도 증가"
+      "트럼프 행정부의 시장 영향",
+      "주식 시장 성장 추세",
+      "경제 정책 효과 분석"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "미국 증시는 급격한 하락세에서 반등하고 유가는 이란 전쟁 우려로 급등 - PBS",
+    "original_title": "U.S. stocks rebound from sharp losses, while oil prices leap on worries about Iran war - PBS",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYi1QeXpCMzg0VWVQSVZPaGRWdU4wNmNpSHJIY3B1Wk5hTG1Ccl9RTnFXQm1DdE94Z2YzVm5JRnlJbDZBSzllaF9nSm5tcktyWXZSZmx3MTJxYXBDY29HNXBHWFo1em9xWFBLQW5jUDl4dDhRZDA4d2NwNDlBdm1jaXU1NVoyUU1lQ2NTdG9fZ0dxbjFpSWpxRXZfNExzcGY1OUx4bXVOYUFrNFU5MXp4ZFZseXdkNjBOaktoblhB0gHDAUFVX3lxTE1hYUpQekd0RllUY1B2ajNGWGJoWVFDNU9Ea0VwV1VjeTJONUZFNGtWaDd4bFE5cTNJX2FTRzFVT1E1THdDejl5ZUI2aVZqeTZCdDlPVUhlVTdoNW5hcVlyLTNDUDgxaHFZV2RZa1lBT0lJTXpqTV9pTlJ3c2hjSTFOS0M0azJUakVBb09MWTl5V1lXdEZqS3pzeTM0dEhLMGVxZnMwMlZtUHNyUXBlcGotaWFUVHBiaUtJZDRGUGRMdmg3UQ?oc=5",
+    "publisher": "PBS",
     "summary": [
-      "이번 주 경제 지표 발표 예상",
-      "중앙은행 정책 변화 논의",
-      "소비자 신뢰도 조사 결과 주목"
+      "미국 주식 시장 반등",
+      "유가 상승",
+      "이란 전쟁 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
