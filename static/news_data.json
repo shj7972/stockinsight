@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만 명",
-      "부동산보다 주식 선호",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명 보유",
+      "주식이 더 유망하다는 평가",
+      "부동산 투자 후퇴 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약하다고 평가",
-      "전반적인 경제 상황 우려"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것",
+      "금융연 분석 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "금융 안정성 우려 증가"
+      "IMF, 한국 성장률 1.9% 상향 조정",
+      "AI 버블 붕괴에 대한 경고",
+      "재정적 리스크 우려"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 주식시장에 미치는 영향",
-      "경제에 대한 우려 증가",
-      "불확실성 속 투자자 신뢰 하락"
+      "미국-이스라엘 전쟁 우려",
+      "주식시장 불안정성 증가",
+      "경제에 미치는 영향 평가 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 성과",
-      "세금 감면과 규제 완화",
-      "경제 성장에 긍정적 영향"
+      "트럼프 행정부의 시장 동향",
+      "주식 시장의 성과 분석",
+      "U.S. Bank의 경제 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "이번 주(3월 16~20일) 경제 데이터에서 주목해야 할 사항 - Kiplinger",
-    "original_title": "What to Look Out for in Economic Data This Week (March 16-20) - Kiplinger",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-    "publisher": "Kiplinger",
+    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
+    "publisher": "NPR",
     "summary": [
-      "경제 데이터 발표 주목",
-      "소비자 신뢰도 조사",
-      "물가 상승률 기대"
+      "유가, 2023년 최고치 도달",
+      "미국 고용 보고서 발표",
+      "주식시장 하락세 기록"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
