@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10억 이상 보유 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "한국 경제 자산 분포 증가"
+      "한국 부자 47.6만명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 초과 현황"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것",
-      "시장 불확실성 지속"
+      "내년 한국 경제 성장률 2.1% 전망",
+      "회복세 미약하다고 평가",
+      "상황 개선 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.5,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "전반적 경제 전망은 긍정적"
+      "한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 재무 위험 경고",
+      "IMF의 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -45,11 +45,11 @@
     "publisher": "U.S. Bank",
     "summary": [
       "트럼프 행정부의 시장 성과",
-      "주가 상승 원인 분석",
-      "경제 정책의 영향"
+      "주식시장 상승세 지속",
+      "경제 정책 효과 분석"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "미국-이스라엘 전쟁의 영향 예상",
-      "주식 시장의 변동성 증가",
-      "경제에 미치는 리스크 강조"
+      "전쟁이 경제에 미치는 영향",
+      "주식 시장의 불확실성",
+      "투자자 심리의 변화 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "경제는 중간고사에 관해 우리에게 무엇을 말해주는가? - 더 힐",
-    "original_title": "What is the economy telling us about the midterms? - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb3lyaEhJeUxhZlc4SkJUUTkyZ2hjUFphOXI0MWYxZXR1b2h3NTI2WGd1ck1xVjFRd3lXbEpqSVF4bkpCaFRwdlgtYVJ5blFucW9rVk5PazVoaWhIVW9iVUh4cEFiU04wNHktV2hNSldqVF9FUS1WTENGcXlkRGpvNU5aeHBFclVtd3dj0gGQAUFVX3lxTE5SNXRrVG5KSkhIYVdFOFhVMWZHN01vbFAwNnkzcGxnUTFyT1FvQUpRU3MtVG9lZEg1ZVJ1UTNxQko4ZFpGOU5OajJzSXQ4aU5tcjBVem44dXMyaVZySVJxZ1VROHBhdGY4dndQSlZYV0xjRGhQWlZFSVFDMFNyY05Na1VyTDY1eERkOXd1dTY2Rg?oc=5",
-    "publisher": "The Hill",
+    "title": "유가는 2023년 이후 최고가로 급등하고 미국 고용 보고서 이후 주가는 하락 - NPR",
+    "original_title": "Oil surges to its highest price since 2023, and stocks drop after U.S. jobs report - NPR",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RQld0b3p3MmpNQ3Z6YU5BV2dINEhyZXZhZXpXTjlueTQ0MGFGbWVXNkhhYXZpNzFFRjVFOXRTNkZKSzRpWVRITDNvcUl4dUdNbWxLU28ycXdfZkZNQ0paQWgwMnRTWTJocmdzaEgwUWRjSE5JZ1UyaUVJOXo?oc=5",
+    "publisher": "NPR",
     "summary": [
-      "경제가 중간선거에 영향을 미침",
-      "유권자들의 우려가 증대됨",
-      "정당의 정책 차별화 필요"
+      "유가 2023년 최고치 기록",
+      "미국 고용보고서 발표",
+      "주식 시장 하락"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
