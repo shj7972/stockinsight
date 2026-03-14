@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명 보유",
-      "주식이 더 유망하다는 의견",
-      "부동산 비중 감소 추세"
+      "한국 부자 47.6만명 보유",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 예상",
-      "회복세는 미약할 것",
+      "내년 경제 성장률 2.1% 전망",
+      "회복세는 미약하다고 평가",
       "전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴에 대한 우려 표명",
-      "재정적 위험 경고"
+      "AI 버블, 금융 위험 경고",
+      "전망에 긍정적 시그널 포함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "주식 시장 상승세",
-      "투자자 신뢰 증가"
+      "트럼프 행정부 하 주식시장 상승",
+      "세금 감면 정책 효과",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장 전쟁 시작",
-      "경제 안정성 우려",
-      "투자자 신뢰 저하"
+      "트럼프, 시장과의 전쟁 지시",
+      "투자자들의 긴장감 증가",
+      "경제 불확실성 여전"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,8 +73,8 @@
     "publisher": "The Hill",
     "summary": [
       "경제가 중간 선거에 미치는 영향",
-      "투표율과 경제 연관성",
-      "경제 이슈의 중요성 강조"
+      "유권자들의 경제 우려",
+      "정당 지지율 변화 관찰"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
