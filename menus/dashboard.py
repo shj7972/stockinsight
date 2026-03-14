@@ -101,17 +101,26 @@ def show():
     with st.sidebar:
         st.markdown("### 🔍 종목 검색")
 
-        # Ticker input with session state
-        raw_input = st.text_input("티커 또는 종목명 입력", value=st.session_state.selected_ticker)
-        ticker_input = utils.resolve_ticker(raw_input)
-        if ticker_input != st.session_state.selected_ticker:
-            st.session_state.selected_ticker = ticker_input
-            st.query_params['ticker'] = ticker_input
+        # 현재 선택된 종목 표시
+        st.caption(f"현재 종목: **{st.session_state.selected_ticker}**")
+
+        # 검색 폼: 입력 후 Enter 또는 검색 버튼으로 확정
+        with st.form("ticker_search_form", clear_on_submit=False):
+            raw_input = st.text_input(
+                "종목명 또는 티커 입력",
+                placeholder="예: 삼성전자, Intel, AAPL, 005930.KS",
+                label_visibility="collapsed"
+            )
+            submitted = st.form_submit_button("🔍 검색", use_container_width=True)
+
+        if submitted and raw_input.strip():
+            resolved = utils.resolve_ticker(raw_input.strip())
+            st.session_state.selected_ticker = resolved
+            st.query_params['ticker'] = resolved
+            st.rerun()
 
         # Use session state ticker
         ticker = st.session_state.selected_ticker
-        # URL을 현재 티커와 항상 동기화
-        st.query_params['ticker'] = ticker
         
         st.markdown("---")
         
