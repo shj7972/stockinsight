@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식 선호",
-      "금융자산 증가 추세"
+      "한국 부자 47.6만명",
+      "10억 이상 금융자산 보유",
+      "주식 유망, 부동산 대비"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 전망",
-      "경제 회복세 미약",
-      "낙관적이지 않은 전망"
+      "내년 경제 성장률 2.1% 전망",
+      "회복세는 여전히 미약",
+      "금융연의 신중한 시각"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 韓 성장률 1.9% 전망 상향",
+      "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 견조한 성장세 보임"
+      "경제 전망에 대한 우려 여전"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 아래 주식 상승",
-      "경제 성장 지지 정책",
-      "투자자 신뢰도 향상"
+      "트럼프 행정부 기간 주식 상승",
+      "세금 감면 효과",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3FkSmFZcW13NHVyLWg3NUZSWXVrUnlsbHNjNlNhbVNlVkVjQUdZaFNOVGpUektGNEpyeW1CV3dpblVKMk5hTHpvWG1tMWE5SVlGY2RiT3M2NzZva1FIcW1lYjY5Rl9LMjNLU19IeThMUFE2c1ZKS1NNSVM3djlSTC12NU5VdUtlcmw4?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "트럼프, 시장과의 전쟁 지시",
-      "재정적 긴장 증가",
-      "경제 불안 요소 부각"
+      "트럼프, 시장과 전쟁 지시",
+      "경제에 대한 우려 고조",
+      "시장 반응에 민감한 발언"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "2026년에 매수해야 할 최고의 국제 주식 베스트 5 - The Motley Fool",
-    "original_title": "5 Best International Stocks to Buy in 2026 - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnIzYnBRbFZHeWU3NjAxd2dodkFrc2dnVDF5OTlaTzZQUVlZNFVTNjVYbS0tVjRkc2xjLXNDNjU0MW5ReVhSWHhoaGJCNUhoSi1KNkotb3I1akZBaDZXbzh1c1dTaW82V0JPZ1owRVJvd3haaDJ6Q3RlcC02aXdkTURtQmNFajNW?oc=5",
+    "title": "투자자들이 트럼프 대통령의 경제에 대한 나쁜 소식을 접하면서 주식시장은 경종을 울리고 있습니다. 역사는 이런 일이 다음에 일어날 것이라고 말합니다. - 가지각색의 바보",
+    "original_title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV183X3BMbW85LVRiVHEwc2trSmV6SjRYWmF0V0hrWVFFN0FqVDVXSFVtam1Yd2NCYW9vVE1YbnlKM1lldTh2U3F3NjRSemhaSG03UEgyV05kdmhaT2xXV2ZXZzZiblEwRmdvOWh3dzAyTEx4Nm5KR29WSHduamFWNlVtMElObHlab2Y1ZG9Vak00QkRoa0FfQg?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "2026년 최고의 해외 주식 5개",
-      "투자 기회와 성장성 강조",
-      "글로벌 시장에 대한 낙관적인 전망"
+      "투자자들, 트럼프 경제 나쁜 소식 수신",
+      "주식 시장 경고 신호 발생",
+      "역사적 분석 후 속할 수 있는 결과"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
