@@ -5,11 +5,11 @@
     "publisher": "경향신문",
     "summary": [
       "한일 재무장관, 원화와 엔화 하락 우려",
-      "외환시장 공동 대응 방침 논의",
-      "경제 불안정성에 대한 경고"
+      "공동 대응 방안 논의 중",
+      "외환시장 안정화 목표"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 증가",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 소유"
+      "부자 47.6만명 기록",
+      "주식이 더 유망하다는 분석",
+      "부동산 인기도 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 성장률 2.1% 예상",
-      "경제 회복세 미약",
-      "전망 불확실성 존재"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다",
+      "금융연 발표"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 동안 주식 상승",
-      "세금 인하로 기업 투자 증가",
-      "시장 변동성 우려 여전"
+      "트럼프 행정부 기간 주식 시장 분석",
+      "미국은행의 관점에서 제공",
+      "시장 변동성에 대한 우려"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 시장에 미칠 영향",
-      "경제적 불안정성 증가",
-      "투자 심리 약화 우려"
+      "전쟁, 시장에 큰 영향 미칠 것",
+      "경제 불확실성 증가",
+      "투자자들 긴장 상태"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,12 +69,12 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNWWdKRFhxLWJwZlNzTlVrN1NFcFcta2Z0UEFrQWwyYUNRYlNpSktVYXl5elUxRHBDOUxuUDNvX3JPNzB1R3BNTFF1OHc5MS1fT2FPd3g1SExjVkZKaUhJdHhTblV5RVRRSkpCa29NaW9ZUWdCMUM2OFpHVjlzcTJqbUd4N0hCa1czendScFpURlVsZXc5ejIyVV9EWURrLW5WVWtnRTZmZWRSMmM4TjVLSEtoVEp5NzZlemEyOWE1NkdhOV9VN2VqQUxhdUI1TGZBaEpjZU0xQWJ4aGs4Qi1QaHpnVFlodnk3OE9JZ3pMMEotY2F3b3ZEOFZrMk5DTXh1QWZ2cGdPYndybXhoTVFlZjF6aDVhYWI2d1pJdmRKR2ZXRlJnMU1QMGRRYUtXRnRtZ3FVMGd4TlA3MGtGVWdYUktfSmFsTUI5VE5iY2EwdFc1X1FZQTRKN3VoNlVvVnVsRlQwbHRlUkN4TW12T0dDWDdkNElITlhEUXhjTVptUWctRTVZY0U0VU5tRzV0QXpOUlR5cEdZZnVlS20zekh0VQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOcUgycXJzaTNrWm1fUTJHelhxb3hUZXJpWFJYbWt0bkVLUnRWbXRiZ3NWZ0dvbU9iNy1VSC1GdHFtNm9Ya0FFN0NBZHNITEd2bEVTaVFIQlJCblIzUkZJZ0VIam1tRHNMdVo0VDc1OTJTYThuUWNyMHhwNERhc1JQOC1aQ0cycjlBbTV5LUE0TzdoVlVHRk1FR1gtRHd6RU5DbENJZzBoZWFUZFEtaFE3ZGZnaEhmSVFDTjQ2ZHVYNXQ2SmhUakp3T25QY1lYMnI1MVo0ajZwMDNGOWp0SVZ3S3RYajhUdG1XVGc0aW0zc0c5SVZ3Zzhwc1lwMnNCRWtlNWxCcnJkNDA0MHRRbjAyWmVSTVJpcm1oa1ozS0ZEZnRPa1dtSkdoOWJuMzdLVXd6a1M1MUtvcEFxNUFscU9fUGcwbjU3WDQwaTY2WlBOMVNEQUJOWUpJUnQ2dUlsbnJTZnNSbmIzWGdvLWFuODBwNHgzZ2RFTkxCUFAyWnRsRDFkX2hUQ2ZtZm02SmFlYnhNenZQVFEyUG5hR3hKdzk2Mg?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장이 하락 중",
-      "이란 전쟁 위험 증가",
-      "경제적 불확실성 확대"
+      "주식 시장 매도 분위기 확산",
+      "이란 전쟁의 경제적 리스크 증가",
+      "투자자들 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
