@@ -1,28 +1,15 @@
 [
   {
-    "title": "South Korea and Japan finance ministers “serious concern over the sharp slide in the won and the yen”…joint response in the foreign-exchange market - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dmlvTUVCWVF5OU11VmViY3VuS0N2UW90azcyWEJMd2FsV3JiNXd0ZVRFcHRxY0dNMUJlem0xZnhDZWo0ZHZDODR3QUJhUFg5WUZ5RGI2N0ltdDd5SHc?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한일 재무장관, 원화와 엔화 하락 우려",
-      "공동 대응 방안 논의 중",
-      "외환시장 안정화 목표"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 기록",
-      "주식이 더 유망하다는 분석",
-      "부동산 인기도 감소"
+      "한국 부자 47.6만명 기록",
+      "부동산보다 주식 선호",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,11 +18,24 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약하다",
-      "금융연 발표"
+      "회복세는 미약할 것",
+      "경제 전망에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 전망 긍정적이지만 리스크 존재"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 기간 주식 시장 분석",
-      "미국은행의 관점에서 제공",
-      "시장 변동성에 대한 우려"
+      "주식 시장 상승세 지속",
+      "트럼프 정책 긍정 영향",
+      "경제 성장 전망 밝음"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁, 시장에 큰 영향 미칠 것",
-      "경제 불확실성 증가",
-      "투자자들 긴장 상태"
+      "전쟁이 시장에 미칠 영향",
+      "경제의 불확실성 증가",
+      "투자자 심리 악화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,11 +69,11 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOcUgycXJzaTNrWm1fUTJHelhxb3hUZXJpWFJYbWt0bkVLUnRWbXRiZ3NWZ0dvbU9iNy1VSC1GdHFtNm9Ya0FFN0NBZHNITEd2bEVTaVFIQlJCblIzUkZJZ0VIam1tRHNMdVo0VDc1OTJTYThuUWNyMHhwNERhc1JQOC1aQ0cycjlBbTV5LUE0TzdoVlVHRk1FR1gtRHd6RU5DbENJZzBoZWFUZFEtaFE3ZGZnaEhmSVFDTjQ2ZHVYNXQ2SmhUakp3T25QY1lYMnI1MVo0ajZwMDNGOWp0SVZ3S3RYajhUdG1XVGc0aW0zc0c5SVZ3Zzhwc1lwMnNCRWtlNWxCcnJkNDA0MHRRbjAyWmVSTVJpcm1oa1ozS0ZEZnRPa1dtSkdoOWJuMzdLVXd6a1M1MUtvcEFxNUFscU9fUGcwbjU3WDQwaTY2WlBOMVNEQUJOWUpJUnQ2dUlsbnJTZnNSbmIzWGdvLWFuODBwNHgzZ2RFTkxCUFAyWnRsRDFkX2hUQ2ZtZm02SmFlYnhNenZQVFEyUG5hR3hKdzk2Mg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxPdTJpdHVzQWJWSHEwNTIzaG1Kd2VBaXE0VG5rRl9aalpmVmxfNDNUalFoMkZ6ZUViSGRpLXRPZTdNcGk5VlNxSTg1Q0NCaUlRN2ZDNUdlZmhaZ0NuRm1rUkpwX21TMXZueEp3MkkzcDE0ekRVQnMxa1NpOEt6ZFB1bGU0QTdpOUxnaG5HZ2x0Y0dnWWt6M1ZzUk9NWUtzQ2hNd3dpWmFkX3BNaDJsUUtJcHJWd1lnQ3RrcGV3ZlZoeWowVEVzdmtNLWNVWnBVaGpOOXE3REhsRGUzQnpxTVVkR3JfcURqaE04VjFxTjBvZjlydURubk55dnl6UERzLTREOTNSaUFVLVdYME1rNWlrbngxcHg2MnNfa0ttZ0lwSTJYMjdqeUtCVm1LYjh3TVhZdldhYy1WMnZZTWwwVk43ZlBqcTNTNW82RUFDTTQ3aENDQmJ5bzBnREVYRk81bGdfRmdpRTItZ0I2Qk96bWJTZ05zVEpPN1JXTF9ab0U2dmw2bkpyLWZSSUJtSnlfY0xPcy1BaVZ1MDR0ZTlYOFV0QQ?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장 매도 분위기 확산",
-      "이란 전쟁의 경제적 리스크 증가",
+      "주식 시장 매도세 심화",
+      "이란 전쟁 경제 위험 증가",
       "투자자들 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
