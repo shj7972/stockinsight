@@ -1,56 +1,42 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "부자 증가 추세 반영"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국거래소, 6월 프리·애프터마켓 운영",
-      "시장의 유동성 확대 기대",
-      "투자자 편의성 증대 가능성"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Korea-Japan finance ministers “Serious concern over the sharp decline of the won and the yen”…joint response in the foreign exchange market - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dmlvTUVCWVF5OU11VmViY3VuS0N2UW90azcyWEJMd2FsV3JiNXd0ZVRFcHRxY0dNMUJlem0xZnhDZWo0ZHZDODR3QUJhUFg5WUZ5RGI2N0ltdDd5SHc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한일 재무장관, 원-엔 급락 우려",
-      "외환시장 공동 대응 예정",
-      "경제 불안정성 심화 가능성"
+      "원화와 엔화 급락 우려",
+      "재정 장관 공동 대응",
+      "환율 시장 안정화 목표"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "주가 상승 추세",
-      "경제 성장 기대감"
+      "금융자산 10억 이상 부자 47.6만명",
+      "주식이 부동산보다 유망",
+      "한국 부자의 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약하다고 지적",
+      "전반적 시각은 부정적"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
   },
   {
     "title": "이란과의 미국-이스라엘 전쟁이 주식시장과 경제를 어떻게 시험할 것인가 - Star Tribune",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 주식시장에 영향 미칠 것",
-      "경제 불확실성 증가 예상",
-      "투자자 심리 저하 가능성"
+      "전쟁이 시장에 미치는 영향 분석",
+      "경제의 불확실성 증가",
+      "투자자 신뢰도 감소 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,12 +55,26 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNWVgzMUV0TlBRTU1IOWo3ZkkxaFZzSzdWdVZvelFXMXdCLTFDM2pRTmZLaWxfVGZFU3U3SmNPdDktZkRzTVNvWjg2OEl2alhGMHp4MVkxRHhIOXM0aTBEUG40aC0yWTV0OHhWSjh0cG1WQmFpdXNxQnlUR1VkNmhyQ1NNNTVxdGJmbjV6ZGRlQlhOQ1BpOWZZWWJDcnJLZE5JRGIzek44RW9sczhJbkF0NDJHYU15NlhwSlU1akR1NUlRempOU00yR0ZPYUo2QmloNG41VklVYWJ4VDZGQUVoLWZwM0ZHcnltZ0dCZWdsU0FrUDNmM0puR3NMOVFOdzdTODNDUWxJbHVoRnloZHVoZ2lSdlduY3pCejhfX3JjVzB4MjYzSzBGaEdVRVZLLW5pb2g4anB5SzZ1TjQ1LTNRN3lHZF9MTlR1ZHcxSGdxUGRnOXdodHgyUWVnOE9mWnRJN3NRZVpvYXN4UVhGY21aNThCNW0wZE5GZmZtcURJLWtmdGJZRlhocmd6Mk92dVU3Zkl1T3dMTFVkZ1Rka0xkUw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxNdjU5WHVKZjVPR0pJN0RNeFY0dEdYcXdKbkxFVmdhcDdDem5WYmhuaE9zenBtWXN1ZjdvdzZWOUY0QjVISVNuVzdTTzhNZUgxcFVlbU56SENab3I4NGxRdTM2NE14UXo0RElSQThUay15SzdLbU5fd2M2TUNzSDdCTDJWM3htXzhtMTVWOTdQdkVnVElMbEJ6VHg0ZHRvVjQ0RXFXRGZXd3hwR0Jqbmk5WlAzTC1yeENKZWtoYXNDYkZIRm5pdXZTWFp0ZGJrYWtNRXlrWWV1UDM1RnJIbFNzcGNHLUNpS2VZZExpdm55c3Rqck4tQXN2NWNuZHhNRm05VEUtMjVFaUpJVm1jdDZUbnRBRTZISnlvejZfM0cxMV9BbzRKZHFKV25DS05WQlMyUzBzeXBpV3lXQ1gyenE3Z3pRdE0xMnFPVnBCVVNzdHI0N1FzRVo5RzhLbV9JMEdyMTRsdlk3SjRlcm1qNjhnaWVNSWRDVTZ0ZEZmSnl5NUpHQXdFTUVKSGhiaDNUMFg3SHVpOU01UGt0ZWtwV2thUg?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "하락세의 주식시장",
+      "주식 시장 하락",
       "이란 전쟁의 경제적 위험 증가",
-      "투자자들 불안감 증대"
+      "투자자 불안감 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "시장 주도자 블로그: 경제 둔화로 인해 2025년 4분기 미국 GDP 추정치가 절반으로 감소 - 투자 주간",
+    "original_title": "Market Movers blog: US GDP estimate for Q4 2025 slashed in half as economy decelerates - Investment Week",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+    "publisher": "Investment Week",
+    "summary": [
+      "미국 GDP 전망 절반으로 축소",
+      "경제 성장 둔화",
+      "Q4 2025 경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
