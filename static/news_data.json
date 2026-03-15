@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 기록",
-      "부동산보다 주식 선호",
-      "금융자산 10억 이상 증가"
+      "한국 부자 47.6만명",
+      "주식이 더 유망",
+      "부동산 투자 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "경제 전망에 대한 우려"
+      "내년 한국 성장 2.1% 전망",
+      "회복세 미약",
+      "경제 상황 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 전망 긍정적이지만 리스크 존재"
+      "AI 버블 붕괴시 금융 위험 경고",
+      "경제 전망에 긍정적이지만 주의 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "주식 시장 상승세 지속",
-      "트럼프 정책 긍정 영향",
-      "경제 성장 전망 밝음"
+      "트럼프 행정부의 시장 성과",
+      "경제 성장세 유지",
+      "투자자 신뢰도 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 시장에 미칠 영향",
-      "경제의 불확실성 증가",
-      "투자자 심리 악화 우려"
+      "미국-이스라엘의 이란 전쟁 영향",
+      "주식 시장의 변동성 증가",
+      "경제에 대한 불확실성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -69,12 +69,12 @@
   {
     "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
     "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxPdTJpdHVzQWJWSHEwNTIzaG1Kd2VBaXE0VG5rRl9aalpmVmxfNDNUalFoMkZ6ZUViSGRpLXRPZTdNcGk5VlNxSTg1Q0NCaUlRN2ZDNUdlZmhaZ0NuRm1rUkpwX21TMXZueEp3MkkzcDE0ekRVQnMxa1NpOEt6ZFB1bGU0QTdpOUxnaG5HZ2x0Y0dnWWt6M1ZzUk9NWUtzQ2hNd3dpWmFkX3BNaDJsUUtJcHJWd1lnQ3RrcGV3ZlZoeWowVEVzdmtNLWNVWnBVaGpOOXE3REhsRGUzQnpxTVVkR3JfcURqaE04VjFxTjBvZjlydURubk55dnl6UERzLTREOTNSaUFVLVdYME1rNWlrbngxcHg2MnNfa0ttZ0lwSTJYMjdqeUtCVm1LYjh3TVhZdldhYy1WMnZZTWwwVk43ZlBqcTNTNW82RUFDTTQ3aENDQmJ5bzBnREVYRk81bGdfRmdpRTItZ0I2Qk96bWJTZ05zVEpPN1JXTF9ab0U2dmw2bkpyLWZSSUJtSnlfY0xPcy1BaVZ1MDR0ZTlYOFV0QQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQeFVpZFMyYXhKRm1ZUjBUQktjb29uQnJ5ZXVhS2NfY3JRRjRrSmk3RzZya0VpeFZtRjdWX0tZWUN0aVRKeVVSbUVCZERHb0pjS01EdUFkVUwxdVJZM3IwSVdlelo0RXdtRnVCR2pJX24wOVJtSkhtLU1tem9WVHI4cHRlcHp4MlYwWGVid0F2SEFUS1F1dllneUR6NXFhRmRWVVNMcnlSTDJtS2x1aVdJXy1fU2QtRXI4QTNzSTVISGoxdGVGSTYzd3lBc1VYV05RcE40Rjg5R3VDQlcyLXh1WlpZY2taazFLaVRwbnQ0VE9xX2hNamd6Tk9pdGtkdVdiSlpBYnNFNktwcGdBdi00OVZVajBETEV3RmNubndteklyYXM4VTlzUFN1cF9ldFBPRE9YODhkaUN4MVNBN1BycXFEVzIwRkpMN01ndFN5VGhlTTU0Rmo5ZW1fc2JQRkRuZ0NWUW5Ud2UwSmk0dHpEandwcUFtd09WY003WjRUQ1ZsMmUyRWJuaWppaVZPMkRFTERoQWpBcG1rTFM4NEJ4UA?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "주식 시장 매도세 심화",
-      "이란 전쟁 경제 위험 증가",
-      "투자자들 불안감 고조"
+      "주식 시장 하락",
+      "이란 전쟁 위험 증가",
+      "경제적 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
