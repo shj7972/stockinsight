@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 부동산보다 유망",
+      "부자 47.6만명 증가",
+      "주식, 부동산 초과 유망",
       "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약하다고 평가",
-      "금융연의 보고서 발표"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세 미약할 것",
+      "전반적 경제 전망 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -31,26 +31,12 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블의 금융 리스크 우려",
-      "경제 전망에 대한 혼재된 시각"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "주식시장 성장은 트럼프의 정책 덕분",
-      "세금 개편으로 기업 투자 증가",
-      "고용 증가로 경제 안정성 향상"
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 성장 기대감 표명"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
+    "sentiment_score": 0.7,
+    "type": "국내"
   },
   {
     "title": "이란과의 미국-이스라엘 전쟁이 주식시장과 경제를 어떻게 시험할 것인가 - Star Tribune",
@@ -58,23 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 시장에 미치는 영향",
-      "경제에 대한 불확실성 증가",
-      "투자자 신뢰 저하 예상"
+      "미국-이스라엘의 이란 전쟁 우려",
+      "주식시장 시험대에 오름",
+      "경제에 부정적 영향 가능"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
+    "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOMzd5b29IcU0zWmN3SDVWcExMR1NMU2gtY290Y1k0VTFKZDFFc0xBaGlaVjdvdVNLUDRKNThST2dZaWg0Z0twVC1XQWZDcktvdTB3SDAteEt1LUY0eklGY1Q4MDA5RjRQNWI5bTgxZXlhellIeklZLVBjdXdjWjVWZElsRF90UFk3cURwSjZLdUFGd0R3OFJWVjhNbXV6NmU5dnp5bGlYNW1FMkJ2TUp6U1pVMlUyYlh6VzVnTzhxMC1iOGJVdlB1TjlJeGxHSTM4c0lCeElXV2cwc29TMDd6WkJZZ3MtQmVNWWhMM0RJRFl0T0Q2M1JJcFRxZG9fUmF5dVRmUHp1RktkVnlUcGFrcmdkWmdncWRSQmw4S3VVY1ZFbmtqOXJIUHJIOEhKVnU2dkZTanNwRVNfdktYMWdCXy1wRTViWFBFSGRvTjlycHJEVnFaSHpLVF95eWRhRmg5RHNwcjd3Z0gxM3d5a2FlUzItUXhIREJmRlp5UGlKMHZqckttakpBS180RjhIU0hKbm8tcTBsQkk0SlB3TWp1SQ?oc=5",
+    "publisher": "WSJ",
+    "summary": [
+      "주식 시장 하락세",
+      "이란 전쟁 경제 위험 증가",
+      "투자자들 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이란 전쟁 건설의 경제적 위험으로 주식 매도 - WSJ",
-    "original_title": "Stocks Sell Off as Economic Risks of Iran War Build - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQWDVWbXJQU05USkh4VGhrd3p5RGJsNWNwMmhyRWx4NktZSGJGcnBoNHZKZTZ6WUdidkJkTlNjdGJaUTNNOTJCaGczVnZNandIU2FXSVVzbmdicHQ1RGtxU2U4WlI5STlMNXZoY3UxaW9BYkFwaWpKVl9xVEJCUDltQlZKMEJYVkpkQXlWMVhYemh3UHI1UGN4SzFkZS1yU1NZclg2T3h5cWVRTUctOTdfSjhndk9xY2ZMMXh0NTZibWZNZWlJQ3paZU12dHdHUWpubWlJZVhyVWZJYlF2b0Vkbm5yMnppZ2dDNGRsNTJWNVlidk5FQXk3Q2pCc3JUX2t4b3V1QUV0QmNhUTF2d2w0blZ5QjR3RUdwZFZFcGRoMEtkNHplZ2NOcktlWlJLM2E3RmFuOURjVGZPM21FbWJwT1N3RlJlc0J5OEFDUWxCMDFXR3I1N1VrUWk4Mm1UMFhVa0RMMlhQM3MzeUw4WWxtUnc4N0YybGVweDlQYVlhUTRNV3ljSlNPYjgxbEE4V3dSS2EwU0gzMEdPRFhVQlZOMw?oc=5",
-    "publisher": "WSJ",
+    "title": "시장 주도자 블로그: 경제 둔화로 인해 2025년 4분기 미국 GDP 추정치가 절반으로 감소 - 투자 주간",
+    "original_title": "Market Movers blog: US GDP estimate for Q4 2025 slashed in half as economy decelerates - Investment Week",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+    "publisher": "Investment Week",
     "summary": [
-      "주식, 이란 전쟁 위험으로 하락",
-      "경제 불확실성 증가",
-      "투자자 신뢰 감소"
+      "미국 Q4 2025 GDP 전망 절반으로 축소",
+      "경제 성장 둔화 조짐 보임",
+      "투자자들 우려 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
