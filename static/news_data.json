@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 증가",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 보유"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식, 부동산보다 유망으로 평가",
+      "투자자들 긍정적 전망 유지"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "경제 상황에 대한 우려 존재"
+      "한국 경제 성장률 2.1% 예상",
+      "회복세는 미약한 모습",
+      "경제 전망에 부정적 시각"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -31,11 +31,11 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 리스크 경고",
-      "경제 전망에 희망적인 신호"
+      "AI 버블 꺼질 경우 금융 위험 경고",
+      "경제 전망은 긍정적이나 불안 요소 존재"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 동향",
-      "경제 성장 및 투자 증가",
-      "정책 변화 영향 분석"
+      "트럼프 행정부 하 주식시장 변화",
+      "경제 성장을 강조",
+      "투자자 신뢰 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁 중에도 미국 주식시장이 회복세를 유지한 이유 - Morningstar Australia",
+    "original_title": "Why the US stock market remained resilient amid the war in Iran - Morningstar Australia",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPakQ4M3lIQ0tiRU96eDEwaUpXLXNzMFFFd21ZZUdHMFVNZ2EwVjVtQXV3czVfN1gxdVhvT2lIVk0zXzFzLVpDSG54NlhDYmdCWVA2Sm1DZXlMVGg5OUNDSlhmRzB5R3FxRDBCdDJWOFhyUktLNms3LXQwYmN2d05nNmoySkpGTkZpQXd3SG1ZN0xIbEhIcnc?oc=5",
+    "publisher": "Morningstar Australia",
+    "summary": [
+      "미국 주식 시장의 회복력 강조",
+      "전쟁에도 불구하고 안정성 유지",
+      "투자자 신뢰도 높음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "미국-이스라엘 전쟁 우려",
-      "주식시장 영향 분석",
-      "경제에 미치는 긴장감"
+      "전쟁이 주식시장에 영향 미칠 것",
+      "경제 불확실성 증가",
+      "투자자 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "이란 전쟁 중에도 주식시장이 탄력을 유지한 이유 - 모닝스타",
-    "original_title": "Why the Stock Market Remained Resilient Amid the War in Iran - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOenFuajBJYlpqZXdsV0gyNTlwRTNWa1RlRnZWV1ZLb2RHNGlpaHJrOEE2ZnhCTEJhVW1laXRKWlZkQ2cwYkg2UUQxN1hST2pHd05uNE1JVzk5Tzd4ZmFlZ0ZlTmtIMTBheHpQNXpjQ0oxU3hzWVhCVTE4WkM1R2dYMkJycTJBY2k1NTdpeFhB?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "이란 전쟁에도 불구하고 주식 시장 강세",
-      "투자자 심리 안정세",
-      "유가 상승 불구 성장 지속"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
