@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유",
-      "주식이 더 유망한 전망",
-      "부동산 위축 우려"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "한국 부자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약",
-      "전반적으로 부정적 신호"
+      "회복세는 미약할 것",
+      "투자자 신뢰도 저하 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 위험에 대한 경고",
-      "금융 리스크 가능성 언급"
+      "IMF, 한국 성장률 1.9%로 상승 예측",
+      "AI 버블 붕괴 위험 경고",
+      "경제 전망에 대한 경계 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식시장이 강세 유지",
-      "전쟁에도 불구하고 투자 신뢰",
-      "경제 펀더멘털이 긍정적"
+      "미국 주식시장 강세 유지",
+      "전쟁 여파 제한적",
+      "투자자 신뢰 높음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 가능성 제기",
-      "투자자 우려 확산",
-      "경제 지표 혼조세"
+      "시장 조정 가능성 언급",
+      "경제 불확실성 증가",
+      "투자자 신뢰에 영향"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -69,12 +69,12 @@
   {
     "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
     "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQRS1wWURpMGFEVHFGMW9ocjFUTHRwcnpBbkUteHZsZE1BNmJfWk0zSGIwU016V3R2TjJVVTdrUVJBNTdlYll3V3RWRWdtNVc0VFotcHRMVmVFQ1RjRmx0Qng1dVpRU2s5SU1CLWJMa1lKOFdfOHRMcktzZjJYcjBFc1VPeXIzZkpCN0VVOFBQMGdRQ1NwZzQ2VldGeEhCdVNZc1BVc2lpSTAxZmRxcTdtcnhZVFZkMFhHWE9ZaVRXTXJsQlpTbEtaUU1FUFpkdTNsTWY3UXBmZHZ1Wm1uQUNNNW1lN1k4RGw3RlV4SEI3N052RndjTnlfNnUxdndlNV80bmFqVXMzSEwtUTYzVFpzbXlVcDdsbjJzV2pWeGdOOGZMdGExbk93aGVNTFVQdjdzeExnLVBQZk1yOXdneUY3dUoxY2hQcDNnOEVSRmtCVHAyVHVxN2JJb0wyN1VVTmhibnRXZmRNSzRXRWlJTDRyOXI2b05lZUpfSHFwVlRJQmtMOXlRdExnUmhDRGR0Sk9uM3NDbXZRRmZKNHpfUXJ5SlZCeXk3Tzg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPRzJBOXpqWlVTV3NLS0lzR2hDTlFQZkMySmtMYlNsZ0hxOE9yN0JfWFVTR1MtY2tZYWhMb1ZoWGhYTmRYUnpxTHpNdVVZMmRmdzE4c1VCTXA3emtGUkk5M2M0UlNTZ1hfZ21VZ0hKMjJvT1NURWtkU1Nib3kwcDU3TlhCdC1ybm96TzNRS3BuU25uelczMm1ibmhfZEhfc3EtRzVCSWJPbXlRZ3ExYlI0dHB2blRpQllhZ2YtNm5ELW5WUktqVWUxMGhXVzh4WHBFcC1zaGROdW5ZS2hnNEpmSWRFa3lYWENIT09mcmZiOFpfcFlGTjh3anpQR2cwREprS1c3TkdGb2NtcmVzOTRxbUJyNjZ0VndNUzhsaUkzYjB5Vkxkd1lLdTZ3Ti1vbmkycldPVFZzTlROZ2tKOEtMRWRVQWZodks2elVLd2FKcFlBb1NTV1NCVjBFRmwxa29hOVpmbkRBQ3NyWmFSakFyc0doM0doWm9YbENvVm9ldjBDX3VrQUhreDU0ZnNpUDlydG4wZEpzQnQ5TjkzRDh5bkIzaF92aG8?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "주식 시장 큰 하락 예측",
-      "과거의 경고와는 다름",
-      "투자자 경계 필요"
+      "주식 시장 큰 하락 예고",
+      "검증된 경고 신뢰",
+      "과거의 경고와 다름"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
