@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
+      "부자 47.6만명 기록",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -19,7 +19,7 @@
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
       "회복세 미약하다고 평가",
-      "전반적인 경제 상황 우려"
+      "전반적인 경제 불확실성 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴에 따른 금융 리스크 경고",
-      "경제 전망에 긍정적인 신호"
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "한국 경제에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁에도 불구하고 주식 시장 강세",
-      "투자자들 신뢰 유지",
-      "대체 자산 증가 영향"
+      "미국 시장의 강한 회복력",
+      "긴장에도 불구하고 안정성 유지",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식시장 분석",
-      "경제 성장에 긍정적 영향",
-      "정책 변화로 투자자 기대 상승"
+      "트럼프 행정부 주식시장 변화",
+      "경제 성장 지표 개선",
+      "투자자 신뢰도 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
     "publisher": "Star Tribune",
     "summary": [
-      "전쟁이 경제에 미치는 영향 분석",
-      "주식 시장의 변동성 우려",
-      "미국-이스라엘의 전략적 관계 강조"
+      "전쟁이 주식시장에 미치는 영향",
+      "경제 불확실성 증가",
+      "투자자 경계심 고조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
