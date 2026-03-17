@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 숫자 47.6만명에 도달",
-      "부동산보다 주식 추천",
-      "금융자산 고액 보유 증가"
+      "부자 47.6만명 보유",
+      "주식이 더 유망한 전망",
+      "부동산 위축 우려"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1% 전망",
-      "회복세는 미약할 것으로 예상",
-      "금융연의 경제 분석 발표"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약",
+      "전반적으로 부정적 신호"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "한국 경제에 대한 긍정적 전망"
+      "AI 버블 위험에 대한 경고",
+      "금융 리스크 가능성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,8 +44,8 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식시장, 이란 전쟁에도 강세",
-      "투자자들의 신뢰가 유지됨",
+      "미국 주식시장이 강세 유지",
+      "전쟁에도 불구하고 투자 신뢰",
       "경제 펀더멘털이 긍정적"
     ],
     "sentiment": "POSITIVE",
@@ -53,31 +53,31 @@
     "type": "해외"
   },
   {
-    "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
-    "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxOWTBRSUZ6RTUtQ2NaZ3ZiM0YwWWtLSlJodXZoT3NveEsxcjJvYnJ5ZG56Qml5S3hycW1hOGRoUC1oLVd6cWxtM0k5bC01M3dHdk1CS2dha09jTlBKRHh3LVQzeEVGQkVobVJoNTM3S3lJX0FPS0VMZmp0LXQ1LXRNN2NtSkFKQVJpbWYtdzRlTS1KZzQxT29TSlRjS3FlWjNBbjN2ZHlieGtsM3NoNVNvUjFJMElxUDRDT3ItaTFIcEtmSmp6UERMZ2VGNmh5SXhraEtEeWI1SkE1Wm9IVkZXUmsyREVkOWppS1hMb2FNRzdRYnVCdmhpMjhSZm5tVk9nRm9YNjVTRUlib3laTXBNeEFKdmc5aFFoNzdNdnFMb1dkd0Y3VGJYTE1mekxWdDUySzFfRENYcm9XTWlmaGhVc3ZkaU1MWFJtdGM5R2M4ZFV5YTQ5cUw3UnRPaGxrS3d2RUhOMzM3a3JkXzQ1UTJiQ0hFZFc1Qk1CUkwyLXlrRXU4YXRJcXQ4elZVWDAwOXhQaVJZMWNwYWNTeDN6OW9TVDRwZjIzcGM?oc=5",
-    "publisher": "Barron's",
+    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
+    "original_title": "Is a Market Correction Coming? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "주식 시장 큰 하락 예고",
-      "전문가의 경고 신뢰할 만함",
-      "투자자 주의 필요"
+      "시장 조정 가능성 제기",
+      "투자자 우려 확산",
+      "경제 지표 혼조세"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장 - US Bank",
-    "original_title": "Stock Market Under the Trump Administration - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
+    "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQRS1wWURpMGFEVHFGMW9ocjFUTHRwcnpBbkUteHZsZE1BNmJfWk0zSGIwU016V3R2TjJVVTdrUVJBNTdlYll3V3RWRWdtNVc0VFotcHRMVmVFQ1RjRmx0Qng1dVpRU2s5SU1CLWJMa1lKOFdfOHRMcktzZjJYcjBFc1VPeXIzZkpCN0VVOFBQMGdRQ1NwZzQ2VldGeEhCdVNZc1BVc2lpSTAxZmRxcTdtcnhZVFZkMFhHWE9ZaVRXTXJsQlpTbEtaUU1FUFpkdTNsTWY3UXBmZHZ1Wm1uQUNNNW1lN1k4RGw3RlV4SEI3N052RndjTnlfNnUxdndlNV80bmFqVXMzSEwtUTYzVFpzbXlVcDdsbjJzV2pWeGdOOGZMdGExbk93aGVNTFVQdjdzeExnLVBQZk1yOXdneUY3dUoxY2hQcDNnOEVSRmtCVHAyVHVxN2JJb0wyN1VVTmhibnRXZmRNSzRXRWlJTDRyOXI2b05lZUpfSHFwVlRJQmtMOXlRdExnUmhDRGR0Sk9uM3NDbXZRRmZKNHpfUXJ5SlZCeXk3Tzg?oc=5",
+    "publisher": "Barron's",
     "summary": [
-      "트럼프 행정부 주식시장 변화",
-      "경제 성장률 상승",
-      "투자자 신뢰 증가"
+      "주식 시장 큰 하락 예측",
+      "과거의 경고와는 다름",
+      "투자자 경계 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
