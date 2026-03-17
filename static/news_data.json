@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 규모",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 주목"
+      "부자 47.6만명, 금융자산 10억 초과",
+      "부동산보다 주식 투자 유망",
+      "한국 부자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 실행",
-      "6월부터 운영 시작 예정",
-      "시장 활성화 기대감 상승"
+      "거래소, 6월부터 프리마켓 운영",
+      "애프터마켓 도입 계획",
+      "시장 유동성 증대 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -32,7 +32,7 @@
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "전반적인 경제 전망 긍정적"
+      "경제 전망 긍정적이나 위험 요소 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식시장이 강세 유지",
-      "전쟁에도 불구하고 투자자 신뢰",
-      "안정적인 경제 지표 영향"
+      "미국 주식 시장의 강한 저항력",
+      "전쟁에도 불구하고 안정된 경제",
+      "투자자 신뢰 이어짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -59,22 +59,22 @@
     "publisher": "U.S. Bank",
     "summary": [
       "시장 조정 가능성 언급",
-      "투자자 경계 필요",
-      "경제 지표 변화 관찰"
+      "투자자 우려 증가",
+      "경제 기초는 여전히 강함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "이란 전쟁이 세계 경제에 얼마나 큰 타격을 주었나요? 숨길 수 없는 징후 - 알자지라",
+    "title": "이란 전쟁이 세계 경제에 얼마나 큰 타격을 주었나요? 숨길 수 없는 징후 - 알 자지라",
     "original_title": "How badly has the Iran war hit the global economy? The tell-tale signs - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOanJDaTRDOHdPZUFTQkpBMV9vdS1uU1pIcFFwMUJkV0s0NVpWVXFLRE1aRGI0bTNyT1VxOFdaX1l3YTNBUjNRWWltYmN4RjRWQUJXalcxRkx4OWJBbFkyR09wZlg4U2lFM0ZKaUpIMUJsbHp4cFpLWldRM1p3cE9hQk9GMkczdnNzUGtrbHFrc25VdUpRVjlXMW5mS21GaVViQUp0OHQzakFJNmhH0gGyAUFVX3lxTFBxdmJDeEUtWG9FY3VVR0tIcTE3SXZuZUNFOXltZXRzX1pJYy1UOV9hM21SXzdvRjlYVnYyZnljNUlYQTMyellBWHJwdXEwQmY3R3hrUG1SZTZXU2lod0V2eUgzUnBJS2hIemZIREk4MGlyU1VuZmhVemVZYVBKSko1NF9VbmJJdjZYMmJ5TW5WZm9DY0ZpZ0txTTlhOF95X2YzWURxeXZEdUZEdl91UjhyZWc?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "이란 전쟁의 경제적 영향 분석",
-      "원유 가격 급등 징후",
-      "글로벌 무역 감소 우려"
+      "전 세계 경제에 악영향",
+      "유가 상승 조짐",
+      "무역 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
