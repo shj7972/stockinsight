@@ -39,6 +39,7 @@ templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
 templates.env.globals['get_random_banners'] = utils.get_random_banners
 
 import news_manager
+import stock_discovery_manager
 
 @app.on_event("startup")
 async def startup_event():
@@ -1551,6 +1552,26 @@ async def blog_detail(request: Request, slug: str):
     })
 
 
+@app.get("/stock-discovery", response_class=HTMLResponse)
+async def stock_discovery(request: Request):
+    """AI 앙상블 종목 발굴 페이지 — 매일 오전 8시 KST 추천 3종목 (US + KR)"""
+    try:
+        picks_data = stock_discovery_manager.get_latest_picks()
+        picks_history = picks_data.get("picks_history", [])
+    except Exception as e:
+        logger.warning(f"종목 발굴 데이터 로드 실패: {e}")
+        picks_history = []
+
+    return templates.TemplateResponse("stock_discovery.html", {
+        "request":       request,
+        "selected_ticker": "",
+        "us_tickers":    get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers":    get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "picks_history": picks_history,
+        "og_image":      "/static/og-image.png",
+    })
+
+
 @app.get("/daily-report", response_class=HTMLResponse)
 async def daily_report(request: Request):
     """AI Daily Market Report - SEO-optimized daily content page"""
@@ -2139,6 +2160,12 @@ async def sitemap():
         <lastmod>{today}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>{base_url}/stock-discovery</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>{base_url}/daily-report</loc>

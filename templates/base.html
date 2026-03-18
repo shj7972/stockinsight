@@ -231,6 +231,9 @@
                 <a href="/" class="nav-item {% if request.url.path == '/' %}active{% endif %}">
                     <span>📊</span> 대시보드
                 </a>
+                <a href="/stock-discovery" class="nav-item {% if request.url.path == '/stock-discovery' %}active{% endif %}">
+                    <span>🔍</span> 종목 발굴
+                </a>
                 <a href="/daily-report" class="nav-item {% if request.url.path == '/daily-report' %}active{% endif %}">
                     <span>📋</span> 일일리포트
                 </a>
@@ -316,7 +319,7 @@
                         &copy; 2026 Stock Insight AI. All rights reserved.
                     </div>
                     <div class="footer-note">
-                        본 사이트의 투자 정보는 참고용이며, 투자의 책임은 사용자에게 있습니다.
+                        본 사이트의 모든 투자 정보(AI 의견·예측 포함)는 참고용이며 투자 권유가 아닙니다. 투자 결정과 손실 책임은 투자자 본인에게 있습니다.
                     </div>
                 </div>
             </footer>

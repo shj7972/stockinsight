@@ -110,6 +110,9 @@
             style="background: {{ stock_data.verdict_color }}22; color: {{ stock_data.verdict_color }}; border-color: {{ stock_data.verdict_color }}44;">
             {{ stock_data.verdict }}
         </div>
+        <div style="margin-top: 0.6rem; padding: 0.45rem 0.75rem; background: rgba(255,193,7,0.07); border: 1px solid rgba(255,193,7,0.25); border-radius: 8px; font-size: 0.72rem; color: #94a3b8; line-height: 1.5;">
+            ⚠️ <strong style="color: #fbbf24;">법적 고지</strong> — 본 AI 분석 결과(매수·매도·보류 의견)는 투자 참고 정보이며, 투자 권유 또는 금융 자문이 아닙니다. 모든 투자 결정과 손실 책임은 투자자 본인에게 있습니다.
+        </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
             <button class="watchlist-toggle-btn share-btn" data-ticker="{{ stock_data.ticker }}"
                 onclick="toggleWatchlist('{{ stock_data.ticker }}', '{{ stock_data.company_name }}')"
@@ -280,6 +283,15 @@
             {{ advice.text }}
         </div>
         {% endfor %}
+
+        <div style="margin-top: 1rem; padding: 0.65rem 0.9rem; background: rgba(100,116,139,0.08); border: 1px solid rgba(100,116,139,0.2); border-radius: 10px; font-size: 0.71rem; color: #64748b; line-height: 1.6;">
+            <strong style="color: #94a3b8;">📋 투자 위험 고지</strong><br>
+            본 AI 투자 전략 제안은 기술적 지표(RSI, MACD, 이동평균선 등) 및 뉴스 감성 분석을 기반으로 자동 생성된 참고 정보입니다.<br>
+            · 과거 데이터 분석 결과이며, 미래 수익을 보장하지 않습니다.<br>
+            · 금융투자상품은 원금 손실이 발생할 수 있습니다.<br>
+            · 투자 결정 전 충분한 검토와 필요 시 전문 금융 자문을 받으시기 바랍니다.<br>
+            · 본 서비스는 「자본시장과 금융투자업에 관한 법률」상 투자자문업 또는 투자일임업에 해당하지 않습니다.
+        </div>
     </div>
 </div>
 
@@ -420,11 +432,9 @@
         </div>
         {% endfor %}
     </div>
-    <p
-        style="color: #475569; font-size: 0.7rem; margin: 0; padding-top: 0.6rem; border-top: 1px solid rgba(255,255,255,0.05);">
-        ⚠️ 과거 경제지표 기반 휴리스틱 모델입니다. 투자 결정에 직접 활용하지 마세요.
-        분석 지표: Fed 금리 · CPI 변화율 · 국채 · 환율 변화율 · 산업생산 · 유가 · VIX
-    </p>
+    <div style="margin-top: 0.5rem; padding: 0.55rem 0.75rem; background: rgba(255,193,7,0.06); border: 1px solid rgba(255,193,7,0.2); border-radius: 8px; font-size: 0.7rem; color: #64748b; line-height: 1.55; border-top: 1px solid rgba(255,255,255,0.05);">
+        <strong style="color: #fbbf24;">⚠️ 법적 고지</strong> — 본 AI 예측은 과거 경제지표(Fed 금리·CPI·국채·환율·산업생산·유가·VIX) 기반 통계 모델(RandomForest)로 생성되며, <strong style="color: #94a3b8;">실제 시장 결과를 보장하지 않습니다.</strong> 투자 의사결정에 직접 활용하지 마시고, 참고 자료로만 사용하십시오. 투자 손실에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
 </div>
 {% endif %}
 

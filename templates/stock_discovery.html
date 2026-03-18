@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+
+{% block title %}오늘의 종목 발굴 | AI 앙상블 매일 추천 3종목 - Stock Insight AI{% endblock %}
+{% block meta_description %}AI 앙상블(RF·XGBoost·MLP·LSTM)이 매일 아침 선별한 US·KR 추천 종목과 누적 수익률 이력을 확인하세요.{% endblock %}
+{% block og_title %}AI 종목 발굴 — 오늘의 추천 종목 | Stock Insight AI{% endblock %}
+{% block og_url %}/stock-discovery{% endblock %}
+{% block canonical_path %}/stock-discovery{% endblock %}
+
+{% block content %}
+
+<!-- ── 헤더 ──────────────────────────────────────────────────────────── -->
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
+        <div>
+            <h2 style="font-size: 1.3rem; font-weight: 700; color: #e2e8f0; margin: 0 0 0.3rem 0;">
+                🔍 오늘의 종목 발굴
+            </h2>
+            <p style="color: #64748b; font-size: 0.82rem; margin: 0;">
+                매일 오전 8시 KST 업데이트 · AI 앙상블이 선별한 US 3종목 + KR 3종목
+            </p>
+        </div>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center;">
+            <span style="background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.3); color: #818cf8; font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 20px;">RF</span>
+            <span style="background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.3); color: #4ade80; font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 20px;">XGBoost</span>
+            <span style="background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.3); color: #fbbf24; font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 20px;">MLP</span>
+            <span style="background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); color: #38bdf8; font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 20px;">LSTM</span>
+            <span style="background: rgba(244,114,182,0.1); border: 1px solid rgba(244,114,182,0.3); color: #f472b6; font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 20px;">섹터 Z-score</span>
+        </div>
+    </div>
+
+    <!-- 선정 방법론 요약 -->
+    <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        <div style="flex: 1; min-width: 160px; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.8rem; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.2rem;">🤖 AI 앙상블</div>
+            <div style="font-size: 0.75rem; color: #e2e8f0;">4개 모델 예측 확률 평균</div>
+            <div style="font-size: 0.68rem; color: #475569;">5일 선행 수익률 &gt; 1.5% 타겟</div>
+        </div>
+        <div style="flex: 1; min-width: 160px; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.8rem; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.2rem;">📊 기술적 지표</div>
+            <div style="font-size: 0.75rem; color: #e2e8f0;">RSI · MACD · 볼린저밴드</div>
+            <div style="font-size: 0.68rem; color: #475569;">거래량비율 · 모멘텀 · MA괴리율</div>
+        </div>
+        <div style="flex: 1; min-width: 160px; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.6rem 0.8rem; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.2rem;">🔄 섹터 로테이션</div>
+            <div style="font-size: 0.75rem; color: #e2e8f0;">11개 섹터 ETF Z-score</div>
+            <div style="font-size: 0.68rem; color: #475569;">섹터 모멘텀 30% 반영</div>
+        </div>
+    </div>
+</div>
+
+{% if not picks_history %}
+<!-- ── 데이터 없음 상태 ─────────────────────────────────────────────── -->
+<div class="glass-panel" style="padding: 2.5rem 1.5rem; text-align: center; margin-bottom: 1.25rem;">
+    <div style="font-size: 3rem; margin-bottom: 0.75rem;">⏳</div>
+    <h3 style="color: #94a3b8; font-size: 1rem; margin: 0 0 0.5rem 0;">아직 오늘의 추천이 준비되지 않았습니다</h3>
+    <p style="color: #475569; font-size: 0.82rem; margin: 0;">매일 오전 8시 KST에 자동 업데이트됩니다.</p>
+</div>
+
+{% else %}
+
+{# ── 오늘의 섹터 상위 ─────────────────────────────────────────────────── #}
+{% set today_entry = picks_history[0] %}
+{% if today_entry.sector_top3 %}
+<div class="glass-panel" style="padding: 0.9rem 1.25rem; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+    <span style="font-size: 0.75rem; color: #64748b; white-space: nowrap;">🔄 오늘 섹터 모멘텀 상위</span>
+    {% for sector, z in today_entry.sector_top3 %}
+    <div style="display: flex; align-items: center; gap: 0.35rem; background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.2); border-radius: 20px; padding: 0.2rem 0.65rem;">
+        <span style="font-size: 0.72rem; color: #4ade80;">{{ sector }}</span>
+        <span style="font-size: 0.68rem; color: #94a3b8;">Z={{ "%.1f"|format(z) }}</span>
+    </div>
+    {% endfor %}
+    <span style="font-size: 0.68rem; color: #334155; margin-left: auto;">{{ today_entry.date }} {{ today_entry.generated_at[11:16] }} KST 기준</span>
+</div>
+{% endif %}
+
+{# ── 오늘의 추천 ─────────────────────────────────────────────────────── #}
+{% for market_label, market_flag, picks_key in [("🇺🇸 미국 추천 종목", "US", "us_picks"), ("🇰🇷 한국 추천 종목", "KR", "kr_picks")] %}
+{% set picks = today_entry[picks_key] %}
+{% if picks %}
+<div style="margin-bottom: 1.5rem;">
+    <div style="font-size: 0.85rem; font-weight: 600; color: #94a3b8; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem;">
+        <span>{{ market_label }}</span>
+        <span style="font-size: 0.7rem; color: #475569;">— {{ today_entry.date }}</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+    {% for pick in picks %}
+    {% set has_return = pick.return_pct is not none %}
+    {% set is_positive = has_return and pick.return_pct >= 0 %}
+    {% set return_color = "#4ade80" if is_positive else "#f87171" %}
+    <div style="background: rgba(15,23,42,0.6); border: 1px solid {% if has_return %}{{ return_color }}33{% else %}rgba(255,255,255,0.08){% endif %};
+                border-radius: 16px; padding: 1.1rem; position: relative; overflow: hidden;">
+        <!-- 배경 강도 표시 -->
+        <div style="position: absolute; top: 0; right: 0; width: 3px; height: 100%;
+                    background: linear-gradient(to bottom, {{ return_color if has_return else '#475569' }}, transparent);
+                    border-radius: 0 16px 16px 0;"></div>
+
+        <!-- 섹터 + 마켓 배지 -->
+        <div style="display: flex; gap: 0.4rem; margin-bottom: 0.65rem; flex-wrap: wrap;">
+            <span style="font-size: 0.65rem; background: rgba(99,102,241,0.15); color: #818cf8; border-radius: 20px; padding: 0.15rem 0.5rem; border: 1px solid rgba(99,102,241,0.2);">{{ pick.sector }}</span>
+            <span style="font-size: 0.65rem; background: rgba(255,255,255,0.05); color: #64748b; border-radius: 20px; padding: 0.15rem 0.5rem;">{{ market_flag }}</span>
+        </div>
+
+        <!-- 티커 + 종목명 -->
+        <div style="margin-bottom: 0.75rem;">
+            <a href="/stock/{{ pick.ticker }}" style="text-decoration: none;">
+                <div style="font-size: 1.3rem; font-weight: 800; color: #e2e8f0; letter-spacing: 0.02em;">{{ pick.ticker.replace('.KS','').replace('.KQ','') }}</div>
+                <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.1rem;">{{ pick.name }}</div>
+            </a>
+        </div>
+
+        <!-- 가격 + 수익률 -->
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 0.85rem;">
+            <div>
+                <div style="font-size: 0.65rem; color: #475569; margin-bottom: 0.15rem;">추천 시 가격</div>
+                <div style="font-size: 0.9rem; font-weight: 600; color: #94a3b8;">
+                    {% if market_flag == "KR" %}₩{{ "{:,.0f}".format(pick.entry_price) }}{% else %}${{ "%.2f"|format(pick.entry_price) }}{% endif %}
+                </div>
+            </div>
+            {% if has_return %}
+            <div style="text-align: right;">
+                <div style="font-size: 0.65rem; color: #475569; margin-bottom: 0.15rem;">현재 수익률</div>
+                <div style="font-size: 1.5rem; font-weight: 800; color: {{ return_color }};">
+                    {{ "%+.2f"|format(pick.return_pct) }}%
+                </div>
+                <div style="font-size: 0.68rem; color: #475569;">
+                    {% if market_flag == "KR" %}₩{{ "{:,.0f}".format(pick.current_price) }}{% else %}${{ "%.2f"|format(pick.current_price) }}{% endif %}
+                </div>
+            </div>
+            {% else %}
+            <div style="text-align: right;">
+                <div style="font-size: 0.68rem; color: #334155;">수익률 집계 중...</div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- 기술적 지표 바 -->
+        <div style="display: flex; gap: 0.35rem; margin-bottom: 0.7rem; flex-wrap: wrap;">
+            <!-- RSI -->
+            <div style="flex: 1; min-width: 60px; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 0.3rem 0.4rem; text-align: center;">
+                <div style="font-size: 0.6rem; color: #64748b;">RSI</div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: {% if pick.rsi < 30 %}#f87171{% elif pick.rsi < 50 %}#fbbf24{% else %}#94a3b8{% endif %};">{{ pick.rsi }}</div>
+            </div>
+            <!-- 볼린저 위치 -->
+            <div style="flex: 1; min-width: 60px; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 0.3rem 0.4rem; text-align: center;">
+                <div style="font-size: 0.6rem; color: #64748b;">BB위치</div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: {% if pick.bb_pos < 25 %}#4ade80{% elif pick.bb_pos < 40 %}#fbbf24{% else %}#94a3b8{% endif %};">{{ pick.bb_pos }}%</div>
+            </div>
+            <!-- 거래량 -->
+            <div style="flex: 1; min-width: 60px; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 0.3rem 0.4rem; text-align: center;">
+                <div style="font-size: 0.6rem; color: #64748b;">거래량</div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: {% if pick.vol_ratio > 1.5 %}#38bdf8{% else %}#94a3b8{% endif %};">×{{ "%.1f"|format(pick.vol_ratio) }}</div>
+            </div>
+            <!-- 신뢰도 -->
+            <div style="flex: 1; min-width: 60px; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 0.3rem 0.4rem; text-align: center;">
+                <div style="font-size: 0.6rem; color: #64748b;">신뢰도</div>
+                <div style="font-size: 0.8rem; font-weight: 700; color: #818cf8;">{{ (pick.ensemble_score * 100)|round(0)|int }}%</div>
+            </div>
+        </div>
+
+        <!-- 신호 요약 -->
+        <div style="font-size: 0.7rem; color: #64748b; line-height: 1.5; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 0.55rem;">
+            📌 {{ pick.signal_summary }}
+        </div>
+
+        <!-- 모델별 점수 (작게) -->
+        {% if pick.model_scores %}
+        <div style="display: flex; gap: 0.3rem; margin-top: 0.5rem; flex-wrap: wrap;">
+            {% for model, score in pick.model_scores.items() %}
+            <span style="font-size: 0.62rem; color: #334155; background: rgba(255,255,255,0.03); border-radius: 4px; padding: 0.1rem 0.35rem;">{{ model.upper() }} {{ (score*100)|round(0)|int }}%</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+{# ── 법적 고지 ──────────────────────────────────────────────────────── #}
+<div style="margin-bottom: 1.75rem; padding: 0.7rem 0.9rem; background: rgba(255,193,7,0.06); border: 1px solid rgba(255,193,7,0.2); border-radius: 10px; font-size: 0.71rem; color: #64748b; line-height: 1.6;">
+    <strong style="color: #fbbf24;">⚠️ 법적 고지 (투자 위험 안내)</strong><br>
+    본 AI 종목 추천은 머신러닝 모델(RF·XGBoost·MLP·LSTM)과 기술적 지표를 기반으로 자동 생성된 참고 정보로, <strong style="color: #94a3b8;">투자 권유 또는 금융 자문이 아닙니다.</strong><br>
+    · 과거 데이터 학습 결과이며, 미래 수익을 보장하지 않습니다.<br>
+    · 금융투자상품 투자 시 원금 손실이 발생할 수 있습니다.<br>
+    · 모든 투자 결정과 그에 따른 손익의 책임은 전적으로 투자자 본인에게 있습니다.<br>
+    · 본 서비스는 「자본시장과 금융투자업에 관한 법률」상 투자자문업 또는 투자일임업에 해당하지 않습니다.
+</div>
+
+{# ── 추천 이력 (최근 5일) ────────────────────────────────────────────── #}
+{% if picks_history|length > 1 %}
+<div class="glass-panel" style="padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
+    <h3 style="font-size: 0.95rem; font-weight: 600; color: #e2e8f0; margin: 0 0 1rem 0;">
+        📅 추천 이력 &amp; 누적 성과 (최근 {{ picks_history|length }}일)
+    </h3>
+
+    {% for entry in picks_history %}
+    {% if loop.index0 > 0 %}{# 오늘치는 위에서 이미 표시 #}
+    <div style="margin-bottom: 1.1rem;">
+        <div style="font-size: 0.75rem; font-weight: 600; color: #64748b; margin-bottom: 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+            {{ entry.date }}
+            {% set all_picks = entry.us_picks + entry.kr_picks %}
+            {% set scored = all_picks | selectattr('return_pct', 'ne', none) | list %}
+            {% if scored %}
+            {% set avg_ret = (scored | map(attribute='return_pct') | list | sum) / scored|length %}
+            <span style="margin-left: 0.5rem; font-size: 0.7rem; color: {% if avg_ret >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                평균 {{ "%+.2f"|format(avg_ret) }}%
+            </span>
+            {% endif %}
+        </div>
+        <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.75rem;">
+            <thead>
+                <tr style="color: #475569;">
+                    <th style="text-align: left; padding: 0.25rem 0.5rem; white-space: nowrap;">마켓</th>
+                    <th style="text-align: left; padding: 0.25rem 0.5rem; white-space: nowrap;">티커</th>
+                    <th style="text-align: left; padding: 0.25rem 0.5rem; white-space: nowrap;">종목명</th>
+                    <th style="text-align: left; padding: 0.25rem 0.5rem; white-space: nowrap;">섹터</th>
+                    <th style="text-align: right; padding: 0.25rem 0.5rem; white-space: nowrap;">추천가</th>
+                    <th style="text-align: right; padding: 0.25rem 0.5rem; white-space: nowrap;">현재가</th>
+                    <th style="text-align: right; padding: 0.25rem 0.5rem; white-space: nowrap;">수익률</th>
+                    <th style="text-align: right; padding: 0.25rem 0.5rem; white-space: nowrap;">신뢰도</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for pick in entry.us_picks + entry.kr_picks %}
+            {% set has_ret = pick.return_pct is not none %}
+            {% set ret_color = "#4ade80" if (has_ret and pick.return_pct >= 0) else "#f87171" if has_ret else "#475569" %}
+            <tr style="border-top: 1px solid rgba(255,255,255,0.04);">
+                <td style="padding: 0.35rem 0.5rem; color: #64748b;">{{ "🇺🇸" if pick.market == "US" else "🇰🇷" }}</td>
+                <td style="padding: 0.35rem 0.5rem;">
+                    <a href="/stock/{{ pick.ticker }}" style="color: #e2e8f0; text-decoration: none; font-weight: 600;">{{ pick.ticker.replace('.KS','').replace('.KQ','') }}</a>
+                </td>
+                <td style="padding: 0.35rem 0.5rem; color: #94a3b8;">{{ pick.name }}</td>
+                <td style="padding: 0.35rem 0.5rem; color: #64748b; font-size: 0.7rem;">{{ pick.sector }}</td>
+                <td style="padding: 0.35rem 0.5rem; text-align: right; color: #94a3b8;">
+                    {% if pick.market == "KR" %}₩{{ "{:,.0f}".format(pick.entry_price) }}{% else %}${{ "%.2f"|format(pick.entry_price) }}{% endif %}
+                </td>
+                <td style="padding: 0.35rem 0.5rem; text-align: right; color: #94a3b8;">
+                    {% if has_ret %}
+                        {% if pick.market == "KR" %}₩{{ "{:,.0f}".format(pick.current_price) }}{% else %}${{ "%.2f"|format(pick.current_price) }}{% endif %}
+                    {% else %}<span style="color: #334155;">—</span>{% endif %}
+                </td>
+                <td style="padding: 0.35rem 0.5rem; text-align: right; font-weight: 700; color: {{ ret_color }};">
+                    {% if has_ret %}{{ "%+.2f"|format(pick.return_pct) }}%{% else %}<span style="color: #334155;">—</span>{% endif %}
+                </td>
+                <td style="padding: 0.35rem 0.5rem; text-align: right; color: #818cf8;">{{ (pick.ensemble_score * 100)|round(0)|int }}%</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endif %}{# end if picks_history #}
+
+{% endblock %}
