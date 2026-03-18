@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 10억 이상의 부자는 47.6만명",
-      "부동산보다 주식이 더 유망하다는 의견",
-      "주식 투자에 대한 긍정적 전망 제시"
+      "한국 부자 47.6만명 증가",
+      "주식 투자 유망성 강조",
+      "부동산 매력 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 붕괴",
-      "경제 전망 불확실성 증가"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "6월부터 프리·애프터마켓 운영 예정",
-      "거래소의 새로운 서비스 도입",
-      "시장 활성화 기대"
+      "한국거래소, 6월 프리·애프터마켓 시작",
+      "시장 활성화 기대",
+      "투자자 선택권 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "전반적 경제 전망 긍정적"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁에도 불구하고 시장 강세",
+      "주식 시장, 전쟁 속에서도 강세",
       "투자자 신뢰 유지",
-      "경제 지표 긍정적"
+      "경제 지표 긍정적 반응"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
-    "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQVEZfUU5NX3dHNV9KSEgweGlpYjhkSHlIRnpnVWRrVGJxWGhfWlQyb3ZfelhxR25nQVY1YUtSODhLYmk3VUlkSmhlUmdheGRSZmJ1MHNkVWhHVFR0MEhTbkItSkNTRXpCLWFGWHRVS2psTVJTSEJxNkdOMWtXT1M3XzJqaHVuYUZpMWo1dHMzckpIM1FlTkRjUjJ0YTdiVjF0Q0tEOGxfUTlCemNuWi1tNmhZTnJTWjBDWjdsSUF0NDJEaDBEYWZxMlYzQjdDY21YQW9DNmdBOGhQMGdqTnN5aG5nWkVvVVNfcy1IV2xOYndFNkVIcmVGUzVOUEZobmhvSFhZajJzU0dxQWYzYjhGdHctZVZDbUF2bFhZZXNZWXFkcFY5d0pocWpERXM2VXNtbmZaRjQ2TEh1Nzc0OTZscXdId0NFdEZUMEVlLWdDdmRLU2NJcVBlT2ZLeFp5cllMLWNiR3cxSlJoZHBtNEd6UV8yVVlXWEVtQnhickIzUnVfQTFRZ1BaQlFYakhpRkJGZDJRckxmbEdCYlhNNmhwZWNzd05zdEU?oc=5",
-    "publisher": "Barron's",
+    "title": "연준 회의 준비 중 유가 하락으로 주가 상승: 시장 마감 - Bloomberg.com",
+    "original_title": "Stocks Rise as Oil Drops in Runup to Fed Meeting: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSUNVQVMyTWdSdlMxLVlLWVJmclA3WjU1S1l2WHhDVnBnQ0hPSWVuSUVJN05lNEVzLU5uTm1nT0F4TG5PSDRjUWtzQWVZLUJMMjdmSmtsTjVmYXE1WWtpRGM1WllZOWhZRUphSFZZMVRVdktYUEdNZW5HWEc1UWVWSmQzOF8zdEZLQVh2cVh6ZTRfT3BMdnc?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "주식 시장 큰 하락 전망",
-      "경고는 진짜라는 주장",
-      "투자자들 주의 필요"
+      "주가 상승, 유가 하락",
+      "연준 회의 앞두고 시장 안정",
+      "투자자들 긍정적 반응"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "이란과의 미국-이스라엘 전쟁이 주식시장과 경제를 어떻게 시험할 것인가 - Star Tribune",
-    "original_title": "How the U.S.-Israeli war on Iran will test the stock market, economy - Star Tribune",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
-    "publisher": "Star Tribune",
+    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
+    "original_title": "Is a Market Correction Coming? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "미국-이스라엘 전쟁 예고",
-      "주식 시장 변동성 증가",
-      "경제에 부정적 영향 우려"
+      "시장 조정 가능성 언급",
+      "U.S. Bank 분석 결과",
+      "경제 불확실성 지속"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
