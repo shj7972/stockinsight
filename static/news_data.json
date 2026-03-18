@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "47.6만명, 금융자산 10억 이상",
-      "부동산보다 주식 유망",
-      "부자 증가 추세"
+      "한국의 10억 이상의 부자는 47.6만명",
+      "부동산보다 주식이 더 유망하다는 의견",
+      "주식 투자에 대한 긍정적 전망 제시"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장 추세를 보임",
-      "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 붕괴",
+      "경제 전망 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 불안정",
-      "3%대 주담대 부재"
+      "6월부터 프리·애프터마켓 운영 예정",
+      "거래소의 새로운 서비스 도입",
+      "시장 활성화 기대"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁 속에서도 주식시장 강세 유지",
-      "투자자들의 신뢰가 지탱",
-      "경제 회복 조짐 보임"
+      "전쟁에도 불구하고 시장 강세",
+      "투자자 신뢰 유지",
+      "경제 지표 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
-    "original_title": "Is a Market Correction Coming? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
+    "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQVEZfUU5NX3dHNV9KSEgweGlpYjhkSHlIRnpnVWRrVGJxWGhfWlQyb3ZfelhxR25nQVY1YUtSODhLYmk3VUlkSmhlUmdheGRSZmJ1MHNkVWhHVFR0MEhTbkItSkNTRXpCLWFGWHRVS2psTVJTSEJxNkdOMWtXT1M3XzJqaHVuYUZpMWo1dHMzckpIM1FlTkRjUjJ0YTdiVjF0Q0tEOGxfUTlCemNuWi1tNmhZTnJTWjBDWjdsSUF0NDJEaDBEYWZxMlYzQjdDY21YQW9DNmdBOGhQMGdqTnN5aG5nWkVvVVNfcy1IV2xOYndFNkVIcmVGUzVOUEZobmhvSFhZajJzU0dxQWYzYjhGdHctZVZDbUF2bFhZZXNZWXFkcFY5d0pocWpERXM2VXNtbmZaRjQ2TEh1Nzc0OTZscXdId0NFdEZUMEVlLWdDdmRLU2NJcVBlT2ZLeFp5cllMLWNiR3cxSlJoZHBtNEd6UV8yVVlXWEVtQnhickIzUnVfQTFRZ1BaQlFYakhpRkJGZDJRckxmbEdCYlhNNmhwZWNzd05zdEU?oc=5",
+    "publisher": "Barron's",
     "summary": [
-      "시장 조정 가능성 언급",
-      "지표 분석이 중요",
-      "투자자 주의 필요"
+      "주식 시장 큰 하락 전망",
+      "경고는 진짜라는 주장",
+      "투자자들 주의 필요"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
-    "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxOSmhXRDdSM041S2JxbVZmQjIyOFItcmh1Yy01YW1BZU9KR29TLXljc2prY1IzZFhMbkpjLURLMEdBMlhBeVY1d1o0aTBDMXA5NlNpSDdrQVlFY1U5RU52WHRzTG94TE5NbzU3MUhlMWdhbVhVVkRuUVc4QmhKdlJTZXNwZ3RUVE1oSlctZFZXOUUzcHZGdmtqaDBBOTBsRUdoUTdGcFRWMGxuSWtHazN3c29PVW9McHFEeG10T3Z3YzA4UmVoQV9GUlpKb3dLVHBGYXRza3BBOXN4d2Vtc2VpNHZRZ2hYUnBXblhwUWZBZExYNnN0aGFxODAzc3p1aWdHT2FxbS1yalRicklORnJnQ3hWV2FOcFluN3RzNWszd19BRlRCTDFwd2F3RjFpei1NVFE2SEZ3eDNMTVBZSmVULVQxU0J0eTJwS2JoaHoxVjFKRExVUGdIem5pS0llSlVydVRuV0hOMWhTU3BzcTZDMFNrSEtLWUdtS2g3TVl0aklHN0lrV0pOQ0VJamRuS3plZlZYeVZLV2cxcG1CSG02ZkhWYm04ckk?oc=5",
-    "publisher": "Barron's",
+    "title": "이란과의 미국-이스라엘 전쟁이 주식시장과 경제를 어떻게 시험할 것인가 - Star Tribune",
+    "original_title": "How the U.S.-Israeli war on Iran will test the stock market, economy - Star Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWhhaWFIR25iSjZLMmpXQW00b3pZeVYteDVQcC1LOEhOQzI4UFg3X0Ixbi1aRmhkd200elh2VmExd1hkZmVpQVNMSl8xVGR0R1l1dUNmZzFMcWNrdEsyVHgyY0xCOGZKLWVudFBWejdUN0N6bG9sUzNDUGVGYVJGdGd6azkyNVdIWkM5Z2g1ZTNTbnRIR2FNd2tBMW1TOUV4YVktaW5Cdm1ROTBiQVVldkYzYmE1M0s3czFXWDNBMmxidWc?oc=5",
+    "publisher": "Star Tribune",
     "summary": [
-      "주식 시장 하락 예고",
-      "거짓 경고가 아님",
-      "투자자 주의 필요"
+      "미국-이스라엘 전쟁 예고",
+      "주식 시장 변동성 증가",
+      "경제에 부정적 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
