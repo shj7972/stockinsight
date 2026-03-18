@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 기록",
-      "주식 투자 유망성 강조",
-      "부동산 가치 하락 우려"
+      "한국 부자 47.6만명 발생",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 운영 예정",
-      "6월부터 새로운 시장 운영 시작",
-      "투자자에게 더 많은 선택지 제공"
+      "한국거래소, 6월부터 운영 계획",
+      "프리·애프터마켓 도입",
+      "시장의 유연성 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9% 상향 조정",
-      "AI 거품 붕괴시 금융 위험 경고",
-      "남은 리스크 관리 필요"
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 전망 긍정적이나 불안 요소 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁 속에서도 시장 강세 유지",
-      "투자자 신뢰 유지",
-      "경제 지표에 긍정적 영향"
+      "미국 주식 시장의 저항력",
+      "전쟁 중에도 안정성 유지",
+      "투자자 신뢰 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -55,15 +55,15 @@
   {
     "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
     "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQVWw3V1VMdlBSSjhEUVIwTEV4ZTYzYXFsSVFuX0sxb3l5QkZDTXYwQk5qREFieFpQLTZlRGdkZmxUazhQdllzTHJGVDlzVUdSU1gwdEthWWgzd3I5SWZXSnJOLVlBRXFPZ0ZibG54Vmw5elBqVXBtN1d5N0RxZ08wZWVBQ1YtRkpwa0lVT2dLdV9BUmMyQl9NRm90ZXhyaUV6c0FFYzlabm5KRGh6bHRUXzJ1d3V6dW9DOTA4c1BadkJlUHN2WTlfdjFUdmVveGotUmVqeTZGaVEzNFdZOXRndTFQWVp0eWE5YW1Sazg3b0xCOWNfanZmUWxQNkVqRGpiTWRsdzN6cU5tSTNDTGpTV2xVc2dKLWVsNjRESlpreTNFM1Q5YnRncGdzREtVOWVLU0FlSTJmbHhiVDJxbkFaSWk5ZUNqVkhMUmRrT1J1MWhMcWE2RXczS1Q4RTV2ZEp4a1h5ME5iZFBBb3NIQ3VrTjdaSjJoaEhYOThsYmZKR1YyRXQtQUhsR0ZwNlJ3THBmRXV4VElYTzlKR2U2ckgxWFhrRDQwZzg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxONnpSbVBTOTRvdGhhM3hoSms4aGZvdm9lM2VkV1ZNMldJQ0tMX2tGVUJNVkhlWTBrRmIxWHNaaC1jRGJjLTRpazlsVW9IbGVqdkI2QkphbFBnbEYxeEFZQVJQYmtIempINEdTRXlOV2ZaOWpJMkIySHNnVjF0MnItS3Y4QnFTSFVQeVpmZVcwVklvUjNJT1VhX2FZSS1na2ljR0xoMTRUQzBXSXQ0MHB6ZGJ3YThVWGFNcHViX1Q2MThHM3pLODN2NlNpQWJfSTZFcm1pUkFnYjhPUnVwbXhpS0RDWkJwbDQ1MTh0el9CYTZsZmRHaktVcUJuc3dPTFk5anRJZDdPSkc1QnBvRTJxOTNXMmtnc21aM1pKWGgxU3lGZVZEZzZ1bHd0OXhyVE9jZG5VMU12aEZpbXBSS0ItYUFHS0VWYnhIRm5CSWJBQ0R5WXVTdndNaXZQdThnbE1weGtuTmFSbVUwUHRWWGhLM3cxT2VBMmpmbk1VU0g5UEtvemxjVVZPbzZ3anhTUXM0cHQ1MEZsd0FoY1VzeXFCS1VzdlkwYXM?oc=5",
     "publisher": "Barron's",
     "summary": [
       "주식 시장 큰 하락 예고",
-      "이례적인 경고가 아님",
-      "투자자 주의 필요"
+      "보통의 경고가 아님",
+      "변동성 증가 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 우려 증가",
-      "경제 지표 혼재",
-      "투자자 심리 불안정"
+      "시장 조정 가능성 언급",
+      "주식 변동성 증가",
+      "투자자들 경계 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
