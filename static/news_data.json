@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 달성",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "10억 이상 부자는 47.6만명",
+      "부동산보다 주식 유망",
+      "주식 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 프리·애프터마켓 도입",
-      "6월부터 운영 예정",
-      "시장 다양한 거래 시간 제공"
+      "한국거래소, 6월부터 운영 예정",
+      "프리·애프터마켓 도입 발표",
+      "시장 다양성 확대 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 성장 전망, 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "재정적 위험 증가 가능성 언급"
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "경제 전망에 긍정적인 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식시장 강세 유지",
-      "전쟁 불구 경제 전망 긍정적",
-      "투자자 심리 안정적"
+      "미국 주식 시장, 전쟁 속에서도 견조",
+      "투자자 신뢰도 높은 상황 유지",
+      "경제 지표 긍정적으로 작용"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 가능성 제기",
-      "U.S. Bank 의견 분석",
-      "미래 전망 불확실"
+      "시장 조정 우려 발생",
+      "U.S. 은행 의견 제시",
+      "정황 분석 중"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -69,12 +69,12 @@
   {
     "title": "주식시장이 큰 하락세를 향하고 있습니다. 이것은 늑대를 울린 소년의 경우가 아닙니다. - 배런의",
     "original_title": "The Stock Market Is Heading for a Big Drop. This Isn’t a Case of the Boy Who Cried Wolf. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNU3haOHpITGpfOHMtbm9yd1BFbTFkbmM0REd5YUMtZy1uZlNKclZoZ1RHWVBZcHdSUk9XM1pWVGhpZC1zMmdCclJ3bzM1bmtMekNPbElGelpNVXhZazZLNXJ6czNseHVodlk1NE1BS0dKTDlKUlhSSktGODNGeXpHLUhIY2JidUZOczQwbERONUloRGo2c1NQSDVBWWlCd0NBQkhoTzdJOGpCM0tyb2I5eTRHcDRfYmZRSEdUaWQzcnBCaU5fZ1BfNWJyTFc3c2xsNVV6OU5WV0h2UjIzRDY3bjZKVm51aktsN3ZFclNOSGpoRl9jTmlRbHp4SW1aSjdITFVObnJQWG5ReUpuWlM0QTFwemw5aFdBeG8xcEtkSHk3Nk9HNTBBMmVTNnJKb3hIay01NThaRHdqX2tmaE1yZEozYlAxX1A5c0dCOGd0UDF1SlBZSk5WLTdodndZNGtHTVEzRVRmVTlUYXhsMk1BYmU1WURKeXlWd0cwaktBdkxmMTQ2U0VsMHFhWFQ4dDc4RmxUQUZPMVRHN19vYnhKQnpvU28wUjQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPazRsYTZJQUtNWFNXT0tKX0hraDljRHVFVWxobHZQZ3pnTGRKZGhFMmFBVlpkM0k4cGd2TEF6Ujg5cnNhSllpSVZKZGNGRGN3WENDaTBDZGpFR0VlOTkyM3gxOGxSWXUwam12emdfbU5qSkRQUHBmODEtS2M0N3hXRmQwQlVGVl9QX2FxaXc0X3R0TjZuNDVkY2tEa1MwNnNvbGNnRllTWXZKWXloMXREN2lqMW52MVg1WmZmQW0yS3R4N2hjZG5ndUFLbVNKVTdoRWZCZk1mN1NkaUNKNnlNYWRaenlvTFo3OUloWTZkUGhxQTVfT1lCTXVuNjJoc2I2R0tkNzdqbHRESV9GZU4zMmlXQjhualJvQ25QNUxFdjdIRTd0Z2FXaEhUYktqd292ZHVFMGpnMzg0LVlqT1YxQUFKQzFyZVVqSVJnd3I4UXU0YUpkMlBiSFlaajNMUUxPcVNkeGpGbzNZZWdMRGNyZDFzYU0xVDFvSFQ1ZWlYX05hSWUyd3AzWmpadG9WWmhBdUhreXNfdHVsUTNiakhNXzg2alEyWUk?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "주식 시장 큰 하락 예고",
-      "악재가 넘쳐나는 상황",
-      "신뢰할 만한 경고임"
+      "주식 시장 대폭락 예고",
+      "이상 징후 무시 못해",
+      "이번엔 진짜라는 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
