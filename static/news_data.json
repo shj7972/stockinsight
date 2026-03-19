@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적 금지",
-      "코스닥 1·2부 나눔",
-      "승강제 도입"
+      "정부, 원칙적으로 중복상장 금지",
+      "코스닥, 1·2부 나눠 승강제 도입",
+      "시장 질서 정립 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세를 유지 중",
-      "환율 하락 공식이 깨짐",
-      "시장 불확실성 증대"
+      "한국 경제는 성장세 유지",
+      "환율 하락 공식 무너짐",
+      "시장 변화 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산より 주식 유망",
-      "금융자산 10억 이상 증가"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식, 인플레이션 우려로 하락",
-      "금, 온스당 5,000달러 아래로 하락",
-      "경제 불안감 확산 중"
+      "미국 주식 하락",
+      "인플레이션 우려",
+      "금 5천 달러 이하로 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁에도 불구하고 주식시장 저항력",
-      "투자자 신뢰 여전",
-      "에너지 가격 상승 영향"
+      "전쟁 속에서도 주식시장 견조",
+      "투자자의 신뢰가 유지됨",
+      "경제적 영향 제한적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
-    "original_title": "Is a Market Correction Coming? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "이란 카타르 에너지 시설 피격 이후 아시아 증시 급락 - 알자지라",
+    "original_title": "Asia’s stock markets dive after attacks on energy facilities in Qatar, Iran - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3dkQjVzTmRwNVZQdWEtOTVrQm0yWHU5ajdMRkhFbnFYbDR5dG1XR0FsTFR4TmNvUnQwSmlhVGZSTU5fMS1Hc0FQd1pIN1Y4Wmo5YUVzbkRXRmlVZFFDRnRhYS1NajdRcFBNU2tYTDRJb3FXYkx6cmE5OUpCQjZQYnQyRjJmLUh2Y0h3ZkFTRER3aW4wRXk1dmQtTERrUWRkelpmUWFneFlYZ0MySkRENl9LaWh1eW5Y0gG-AUFVX3lxTFBpallLMzZXeW5NaUxaVW5FTEpER1ROb0pCVmZjN2c0TmppWnlmVk1BbWloemNfZ3BXMGk4Q2YxWDJYTkVGNHJfUkZsOFBaYzBOOVFLVmt0NkZ1dTB3dWNIUmNtU19sZlhuTGpLb2I4UmZoSVFWZHlTdDVCbUhibmRRbndRcnlKamt2el9WRGF3ZXVLUVFETVNOQ1lCMVZkajV1OXNkaWN2clhQZ0czR1ZsNksxdnpzSHFGeWd6S3c?oc=5",
+    "publisher": "Al Jazeera",
     "summary": [
-      "시장 조정 가능성 언급",
-      "경제 지표 분석",
-      "투자 전략 조언"
+      "아시아 증시 급락",
+      "카타르, 이란 에너지 시설 공격",
+      "시장 불안 우세"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
