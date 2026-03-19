@@ -5,24 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "정부, 중복상장 원칙적 금지",
-      "코스닥 1·2부 나눠 승강제 도입",
-      "상장 규제 강화 방침"
+      "코스닥 1·2부 나눠 운영",
+      "승강제 도입 예정"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제 성장 중",
-      "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망으로 평가",
-      "시장 전망 긍정적"
+      "한국 부자 47.6만명 존재",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "6월부터 프리·애프터마켓 운영",
+      "한국거래소의 새로운 시도",
+      "투자자 편의성 증대 기대"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식 하락",
-      "인플레이션 우려",
-      "금 가격 5,000달러 이하"
+      "미국 주식이 하락세",
+      "인플레이션 우려 증대",
+      "금값 5,000달러 하회"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "수요일 미국 주식시장에서 8천억 달러가 빠져나갔습니다 - Anadolu Ajansı",
+    "original_title": "$800B removed from US share markets on Wed - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTc3QkVrSFFqcm9vRnpuTkhRTVRCUS1mQWNSVUcwNUJMdDY0RTUyNU5xakZVN3JZRktoN3lXN19CQUNEQU0wZU45MGJmaFBDRlRrUXMzYkdyYXQxYldjWGpydWFSMFl4NXJLMnU1Vzc5U0tTR3lpSU9aZEdMcGx0aXltV2lKX29IZGw0?oc=5",
+    "publisher": "Anadolu Ajansı",
+    "summary": [
+      "미국 주식시장에서 8000억 달러 손실",
+      "하루 동안 큰 폭의 하락 발생",
+      "시장 불안정성 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "전쟁 중에도 시장 회복력 유지",
-      "투자자 신뢰 감소 없이 지속",
-      "지속 가능한 성장 신호 확인"
+      "전쟁 중에도 주식시장 강세 유지",
+      "경제 펀더멘털이 긍정적",
+      "투자자들의 신뢰 여전"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "수요일 미국 주식시장에서 8천억 달러가 빠져나갔습니다 - Anadolu Ajansı",
-    "original_title": "$800B removed from US share markets on Wed - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTc3QkVrSFFqcm9vRnpuTkhRTVRCUS1mQWNSVUcwNUJMdDY0RTUyNU5xakZVN3JZRktoN3lXN19CQUNEQU0wZU45MGJmaFBDRlRrUXMzYkdyYXQxYldjWGpydWFSMFl4NXJLMnU1Vzc5U0tTR3lpSU9aZEdMcGx0aXltV2lKX29IZGw0?oc=5",
-    "publisher": "Anadolu Ajansı",
-    "summary": [
-      "수요일에 8000억 달러 손실",
-      "미국 주식 시장 위기",
-      "투자자들 불안 증대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
