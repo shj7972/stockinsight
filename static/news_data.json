@@ -6,7 +6,7 @@
     "summary": [
       "정부, 중복상장 원칙적 금지",
       "코스닥 1·2부 나눠 승강제 도입",
-      "시장 안정성 강화 기대"
+      "시장 질서 강화 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명으로 증가",
-      "부동산보다 주식 유망",
+      "한국 부자 47.6만명 보유",
+      "주식 유망, 부동산 하락",
       "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
@@ -31,11 +31,53 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 거품 붕괴시 금융 위험 경고",
-      "전망 긍정적이나 경계 필요"
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "전망에 대한 긍정적 시각 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "미국 증시는 금값이 온스당 5,000달러 아래로 떨어지면서 인플레이션 우려로 하락했습니다 - PBS",
+    "original_title": "U.S. stocks sink on worries about inflation as gold falls below $5,000 per ounce - PBS",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "미국 주식 하락",
+      "인플레이션 우려 증대",
+      "금 가격 5,000달러 이하"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁 중에도 미국 주식시장이 회복세를 유지한 이유 - Morningstar Canada",
+    "original_title": "Why the US Stock Market Remained Resilient Amid the War in Iran - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "미국 주식 시장의 저항력",
+      "전쟁 중 안정적인 성과",
+      "투자자 신뢰 회복"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이란 카타르 에너지 시설 피격 이후 아시아 증시 급락 - 알자지라",
+    "original_title": "Asia’s stock markets dive after attacks on energy facilities in Qatar, Iran - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3dkQjVzTmRwNVZQdWEtOTVrQm0yWHU5ajdMRkhFbnFYbDR5dG1XR0FsTFR4TmNvUnQwSmlhVGZSTU5fMS1Hc0FQd1pIN1Y4Wmo5YUVzbkRXRmlVZFFDRnRhYS1NajdRcFBNU2tYTDRJb3FXYkx6cmE5OUpCQjZQYnQyRjJmLUh2Y0h3ZkFTRER3aW4wRXk1dmQtTERrUWRkelpmUWFneFlYZ0MySkRENl9LaWh1eW5Y0gG-AUFVX3lxTFBpallLMzZXeW5NaUxaVW5FTEpER1ROb0pCVmZjN2c0TmppWnlmVk1BbWloemNfZ3BXMGk4Q2YxWDJYTkVGNHJfUkZsOFBaYzBOOVFLVmt0NkZ1dTB3dWNIUmNtU19sZlhuTGpLb2I4UmZoSVFWZHlTdDVCbUhibmRRbndRcnlKamt2el9WRGF3ZXVLUVFETVNOQ1lCMVZkajV1OXNkaWN2clhQZ0czR1ZsNksxdnpzSHFGeWd6S3c?oc=5",
+    "publisher": "Al Jazeera",
+    "summary": [
+      "아시아 주식시장 급락",
+      "카타르, 이란 에너지 시설 공격",
+      "불안정한 경제 상황 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   }
 ]
