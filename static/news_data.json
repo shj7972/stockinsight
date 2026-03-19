@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "정부, 중복상장 원칙적 금지",
-      "코스닥 1·2부 나눠 승강제 도입",
-      "시장 질서 강화 기대"
+      "정부, 중복상장 원칙적 금지 방침",
+      "코스닥, 1·2부 나눠 승강제 도입",
+      "시장 질서 개선 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식 유망, 부동산 하락",
-      "금융자산 10억 이상 증가"
+      "부자 수 47.6만명에 달해",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "title": "Lee Chang-yong “Need to compile an extra budget as soon as possible” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XcW03bEJodEhIYzFnaVZsU0xDcWdsUmlFbzJCUHBZOUQxZk1hVExkYW5xMVV4R0Q2T1FGZFBvb2U4bTJOenFrZ1p5NFZVZzhIR3ZIcmtnRmt0eEt3cHc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "전망에 대한 긍정적 시각 존재"
+      "이창용 추가 예산 필요성 강조",
+      "신속한 예산 편성을 촉구",
+      "경제 활성화를 위한 조치 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식 하락",
-      "인플레이션 우려 증대",
-      "금 가격 5,000달러 이하"
+      "미 주식 하락, 인플레이션 우려",
+      "금 가격 5,000달러 이하로 하락",
+      "시장 불안정성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,8 +58,8 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식 시장의 저항력",
-      "전쟁 중 안정적인 성과",
+      "미국 주식 시장 탄탄함 유지",
+      "전쟁에도 불구하고 강세",
       "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
@@ -74,10 +74,10 @@
     "summary": [
       "아시아 주식시장 급락",
       "카타르, 이란 에너지 시설 공격",
-      "불안정한 경제 상황 우려"
+      "시장 불안 확산"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
