@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-03-19",
+      "generated_at": "2026-03-19T23:30:14",
+      "sector_top3": [
+        [
+          "Energy",
+          2.3021121364532666
+        ],
+        [
+          "Utilities",
+          0.808762652768298
+        ],
+        [
+          "Technology",
+          0.3841271976037617
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "market": "US",
+          "sector": "Consumer Discretionary",
+          "entry_price": 380.3,
+          "rsi": 36.4,
+          "bb_pos": 0.0,
+          "vol_ratio": 1.12,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.5524,
+          "model_scores": {
+            "rf": 0.5191,
+            "xgb": 0.826,
+            "mlp": 0.3632,
+            "lstm": 0.5014
+          },
+          "final_score": 0.6867,
+          "signal_summary": "RSI 과매도 진입 · MACD 반등 임박 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "market": "US",
+          "sector": "Technology",
+          "entry_price": 178.56,
+          "rsi": 43.6,
+          "bb_pos": 23.0,
+          "vol_ratio": 0.85,
+          "macd_positive": false,
+          "sector_zscore": 0.38,
+          "ensemble_score": 0.6399,
+          "model_scores": {
+            "rf": 0.6287,
+            "xgb": 0.7441,
+            "mlp": 0.5919,
+            "lstm": 0.5948
+          },
+          "final_score": 0.6267,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.4)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 114.2,
+          "rsi": 43.5,
+          "bb_pos": 21.5,
+          "vol_ratio": 0.66,
+          "macd_positive": false,
+          "sector_zscore": -0.54,
+          "ensemble_score": 0.647,
+          "model_scores": {
+            "rf": 0.6679,
+            "xgb": 0.8838,
+            "mlp": 0.5079,
+            "lstm": 0.5286
+          },
+          "final_score": 0.5624,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "000270.KS",
+          "name": "기아",
+          "market": "KR",
+          "sector": "Consumer Discretionary",
+          "entry_price": 170500.0,
+          "rsi": 52.7,
+          "bb_pos": 46.5,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.766,
+          "model_scores": {
+            "rf": 0.8662,
+            "xgb": 0.973,
+            "mlp": 0.7064,
+            "lstm": 0.5184
+          },
+          "final_score": 0.8362,
+          "signal_summary": "복합 기술적 신호",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "005930.KS",
+          "name": "삼성전자",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 200500.0,
+          "rsi": 57.9,
+          "bb_pos": 64.5,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.38,
+          "ensemble_score": 0.6679,
+          "model_scores": {
+            "rf": 0.4698,
+            "xgb": 0.7272,
+            "mlp": 0.7839,
+            "lstm": 0.6908
+          },
+          "final_score": 0.6463,
+          "signal_summary": "섹터 양호 (Z=+0.4)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "035420.KS",
+          "name": "NAVER",
+          "market": "KR",
+          "sector": "Communication Services",
+          "entry_price": 220500.0,
+          "rsi": 40.1,
+          "bb_pos": 31.3,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.11,
+          "ensemble_score": 0.5343,
+          "model_scores": {
+            "rf": 0.6275,
+            "xgb": 0.7045,
+            "mlp": 0.3634,
+            "lstm": 0.4417
+          },
+          "final_score": 0.5326,
+          "signal_summary": "RSI 중립~반등 · MACD 반등 임박 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-03-18",
       "generated_at": "2026-03-18T23:31:11",
       "sector_top3": [
