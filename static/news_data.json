@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "정부, 중복상장 원칙적 금지",
-      "코스닥 1·2부 나눠져 승강제 도입",
-      "시장 안정화 기대"
+      "코스닥 1·2부 나눠 승강제 도입",
+      "상장 규제 강화 방침"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제, 우상향 성장 중",
+      "한국 경제 성장 중",
       "환율 하락 공식 깨짐",
-      "다양한 경제 영향 요인"
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망으로 평가",
+      "시장 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식, 인플레이션 우려로 하락",
-      "금 가격, 5,000달러 이하로 떨어져",
-      "시장 침체 조짐이 뚜렷해짐"
+      "미국 주식 하락",
+      "인플레이션 우려",
+      "금 가격 5,000달러 이하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁 중에도 미국 주식시장이 회복세를 유지한 이유 - Morningstar Canada",
+    "original_title": "Why the US Stock Market Remained Resilient Amid the War in Iran - Morningstar Canada",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
+    "publisher": "Morningstar Canada",
+    "summary": [
+      "전쟁 중에도 시장 회복력 유지",
+      "투자자 신뢰 감소 없이 지속",
+      "지속 가능한 성장 신호 확인"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTc3QkVrSFFqcm9vRnpuTkhRTVRCUS1mQWNSVUcwNUJMdDY0RTUyNU5xakZVN3JZRktoN3lXN19CQUNEQU0wZU45MGJmaFBDRlRrUXMzYkdyYXQxYldjWGpydWFSMFl4NXJLMnU1Vzc5U0tTR3lpSU9aZEdMcGx0aXltV2lKX29IZGw0?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "수요일에 8000억 달러 감소",
-      "미국 주식 시장의 하락",
-      "경제 상황 우려 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "이란 카타르 에너지 시설 피격 이후 아시아 증시 급락 - 알자지라",
-    "original_title": "Asia’s stock markets dive after attacks on energy facilities in Qatar, Iran - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3dkQjVzTmRwNVZQdWEtOTVrQm0yWHU5ajdMRkhFbnFYbDR5dG1XR0FsTFR4TmNvUnQwSmlhVGZSTU5fMS1Hc0FQd1pIN1Y4Wmo5YUVzbkRXRmlVZFFDRnRhYS1NajdRcFBNU2tYTDRJb3FXYkx6cmE5OUpCQjZQYnQyRjJmLUh2Y0h3ZkFTRER3aW4wRXk1dmQtTERrUWRkelpmUWFneFlYZ0MySkRENl9LaWh1eW5Y?oc=5",
-    "publisher": "Al Jazeera",
-    "summary": [
-      "아시아 증시 대폭락",
-      "카타르, 이란 에너지 시설 공격",
-      "시장 우려 급증"
+      "수요일에 8000억 달러 손실",
+      "미국 주식 시장 위기",
+      "투자자들 불안 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
