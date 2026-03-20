@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적으로 금지",
+      "중복상장 원칙적 금지",
       "코스닥 1·2부 나눔",
       "승강제 도입 결정"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 성장세를 보인다",
-      "환율 하락 공식은 깨졌다",
-      "경제 불확실성 증가 우려"
+      "한국 경제는 성장 중",
+      "환율 하락 공식 깨짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 확인",
-      "주식 투자 유망하다는 분석",
-      "부동산 투자 매력 감소"
+      "한국 부자 47.6만명 보유",
+      "금융자산 10억 이상",
+      "주식이 부동산보다 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식 하락",
-      "인플레이션 우려",
-      "금 가격 5,000달러 이하"
+      "주식시장 하락, 인플레이션 우려",
+      "금 가격 5,000달러 하회",
+      "투자자 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBDS2VLZlFyQlUyX2lzbm9DOWdtc1RITHpReGo1amJka2IxYkVzRUFUbnNSM1VkYlZTd2pkdG9WNTVNRGIzbFFDc2dEb2FsQVRKZ2tMakV0TUR4WHdJMmtuVDMteXJtSlVlcVNyc0tmSWljdDZHb0FtTXU5Skk0c0g1WlJ4cTlRRGxwQlZUNWJyU0ozX3hqdkhmN1A0Zw?oc=5",
     "publisher": "Morningstar Canada",
     "summary": [
-      "미국 주식시장 회복력 보여줌",
-      "전쟁에도 안정적 성과",
-      "투자자 신뢰 유지"
+      "미국 주식 시장의 회복력",
+      "이란 전쟁의 영향",
+      "투자자들의 신뢰 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이란의 석유가 경제에 미치는 영향",
-      "모건스탠리의 전망 분석",
-      "미국 경제와의 관계 강조"
+      "이란의 석유 생산 증가 예상",
+      "미국 경제에 미치는 영향 분석",
+      "유가 변동성 확대 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
