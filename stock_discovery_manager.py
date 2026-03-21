@@ -25,10 +25,6 @@ import pandas as pd
 import requests
 import yfinance as yf
 
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.preprocessing import StandardScaler
-
 try:
     from xgboost import XGBClassifier
     HAS_XGB = True
@@ -305,6 +301,10 @@ def _train_predict(df: pd.DataFrame) -> tuple[float, dict]:
     neg_count = len(y_tr) - pos_count
     if pos_count < 15 or neg_count < 15:
         return 0.5, {}
+
+    from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+    from sklearn.neural_network import MLPClassifier
+    from sklearn.preprocessing import StandardScaler
 
     scaler = StandardScaler()
     X_tr_s = scaler.fit_transform(X_tr)
