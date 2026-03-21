@@ -4,35 +4,35 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적 금지",
+      "정부, 중복상장 원칙적 금지 결정",
       "코스닥 1·2부 나눠 승강제 도입",
-      "시장 질서 강화 목적"
+      "시장 안정성 강화 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "부자 수 47.6만명 보고",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 집계"
+      "한국, 시장 안정 대책 발표",
+      "중동 긴장 관련 즉각 대응",
+      "경제 불안 막기 위한 조치"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "건강하면 보험료 할인, 현금… 한국도 인센티브를 달라 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOFQwMUdRVkd0ZzJCV1hOUTlmekdyY2t0ZXJDN0RpZWQ1WDh0eG11cDh6aWhFc2Z1WWhyRmwzREtQbDA0cmY2bmh1RHFkbE8xcWtDRmpEQk9GWDQ2VXZ1MmZ0Rnk2ckU0WjNYU2g2UzZKQ2RPaURrMm1WcGRuOVZVc19LS1Zkd3A1amtN0gGfAUFVX3lxTFB0LTlaekM0UFBCY2RBekU3UnF1dDA4Uzc1TzAwa29XTFJMM3ZOTjg5X1h4aGRRZzVrOFVzd3ZQV1RWQXYyUUk5RFhuZVpwalpYM1RfdGQyWER1clN1NktTSnZCWldkazVjT0g3eU81dHR1NzVkQVU3TWVZLU8tVUNCWUtHa2VFbUx4dWx6cThxa3BabVJWNlczVkxvU0Z6MA?oc=5",
+    "publisher": "조선일보",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "재정 리스크에 대한 우려"
+      "건강한 삶, 보험료 할인 제도 필요",
+      "현금 인센티브 도입 요구",
+      "한국 보험 시장 변화 가능성"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식 시장 하락",
-      "인플레이션 우려 증가",
-      "금 가격 5천 달러 하락"
+      "미국 주식, 인플레이션 우려로 하락",
+      "금값 5,000달러 이하로 떨어져",
+      "시장에 부정적인 신호 발생"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국 주식시장은 주간 마감에도 계속 하락세를 보이고 있습니다 - Anadolu Ajansı",
+    "title": "미국 주식 시장은 주간 마감으로 계속 하락하고 있습니다 - Anadolu Ajansı",
     "original_title": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장 하락 지속",
-      "주간 마감에서 부진",
-      "투자자 우려 증가"
+      "미국 주식시장 하락 지속",
+      "주간 마감 시 낙폭 확대",
+      "투자자 불안 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이란이 국제유가에 미치는 영향",
-      "미국 경제에 대한 분석",
-      "모건스탠리의 전망 제시"
+      "이란의 석유가 시장에 미치는 영향",
+      "미국 경제와의 상관관계",
+      "모건스탠리의 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
