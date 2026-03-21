@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "중복상장 원칙적 금지",
-      "코스닥 1·2부 나누기",
-      "승강제 도입 결정"
+      "코스닥 1·2부 나눠",
+      "승강제 도입"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "한국 경제 회복 기미"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,26 +31,12 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 회복 기대감 상승"
+      "AI 버블 붕괴시 금융 리스크 경고",
+      "전반적 경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "미국 증시는 금값이 온스당 5,000달러 아래로 떨어지면서 인플레이션 우려로 하락했습니다 - PBS",
-    "original_title": "U.S. stocks sink on worries about inflation as gold falls below $5,000 per ounce - PBS",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "미국 주식 하락, 인플레이션 우려",
-      "금값 5,000달러 이하로 하락",
-      "시장 불안감 고조"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "미국 주식시장은 주간 마감에도 계속 하락세를 보이고 있습니다 - Anadolu Ajansı",
@@ -59,8 +45,22 @@
     "publisher": "Anadolu Ajansı",
     "summary": [
       "미국 주식 시장 하락 지속",
-      "주간 마감 시세 부진",
-      "투자자들 심리 위축"
+      "주간 마감 시세 낮아져",
+      "투자자 불안 심화"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "미국 증시는 금값이 온스당 5,000달러 아래로 떨어지면서 인플레이션 우려로 하락했습니다 - PBS",
+    "original_title": "U.S. stocks sink on worries about inflation as gold falls below $5,000 per ounce - PBS",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "미국 주식 하락",
+      "인플레이션 우려",
+      "금 시세 5,000달러 이하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이란의 오일 수출 상황",
-      "미국 경제에 미치는 영향",
-      "시장 변동성 증가"
+      "이란, 석유가 경제에 미치는 영향",
+      "미국 경제에 대한 분석",
+      "모건 스탠리의 전망"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
