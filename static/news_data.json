@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "정부, 중복상장 원칙적 금지 결정",
-      "코스닥 1·2부 나눠 승강제 도입",
-      "시장 규제 강화 의도 나타남"
+      "정부 중복상장 원칙적 금지",
+      "코스닥 1·2부로 운영 나눔",
+      "승강제 도입 예정"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "금융자산 10억 이상",
-      "주식 유망, 부동산보다"
+      "한국 부자 47.6만명 보유",
+      "주식 투자 전망 긍정적",
+      "부동산 선호도 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "South Korea and Japan finance ministers “serious concern over the sharp slide in the won and the yen”…joint response in the foreign-exchange market - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dmlvTUVCWVF5OU11VmViY3VuS0N2UW90azcyWEJMd2FsV3JiNXd0ZVRFcHRxY0dNMUJlem0xZnhDZWo0ZHZDODR3QUJhUFg5WUZ5RGI2N0ltdDd5SHc?oc=5",
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "원화와 엔화 하락에 대한 우려",
-      "한국과 일본 재무장관 대응 합의",
-      "외환시장 공동 대응 계획"
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융위험 경고",
+      "경제 회복에 대한 긍정적 신호"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이란의 석유 영향력 증가",
+      "이란의 석유 공급이 중요하다",
       "미국 경제에 미치는 영향",
-      "시장 안정성 우려"
+      "시장 변동성이 증가할 것"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 증시 주간 마감 하락",
-      "투자자들 우려 지속",
-      "경제 불확실성 심화"
+      "미국 주식 시장 주간 마감 하락",
+      "주가 지속적 하락 추세",
+      "투자자 경계감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,8 +73,8 @@
     "publisher": "Deloitte",
     "summary": [
       "이번 주 경제 지표 발표",
-      "중요 회의 일정",
-      "제품 가격 변화 예고"
+      "금리 변동 전망",
+      "정부 정책 변화"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
