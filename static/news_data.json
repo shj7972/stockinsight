@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적 금지",
-      "코스닥 1·2부 나눔",
-      "승강제 도입 예정"
+      "정부, 중복상장 원칙적 금지",
+      "코스닥 1·2부 나눠",
+      "승강제 도입 계획"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "한국 부자 47.6만명 보유",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dmlvTUVCWVF5OU11VmViY3VuS0N2UW90azcyWEJMd2FsV3JiNXd0ZVRFcHRxY0dNMUJlem0xZnhDZWo0ZHZDODR3QUJhUFg5WUZ5RGI2N0ltdDd5SHc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "원화와 엔화 급락에 대한 우려 표명",
-      "한일 재무장관 공동 대응 계획",
-      "외환 시장 안정 필요성 강조"
+      "한일 재무장관, 원화와 엔 하락 우려",
+      "외환시장 공동 대응 계획",
+      "경제 불안감 고조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkpFejFBYTJZMmQ5WmRIRWpQQnppb0RSeVNIcnZoR3RONDR0elNJMkJ1SVMxcjJiMHFTUGFzeUxGRW5wS2FibDRRSXpGNkVkWTZRZDk3NFpRTW4zNDZMcnVfSDJaUGZOMUY3U1hvNjhyU0Z3cjAzM0RLcmRLaFZ3bnR5Y2NYR2VRZnA3dWliWlpIUXFqOFVEVjB1c2lRcTF4dlZyT1hNaFhNem5Xcnl6WUpCMWLSAboBQVVfeXFMTnQ2c0tkZElTb1RUR1lQRl9NRlBwT2dkZWp2V0ZHaHJQelRhN0dxT0ZleWhvbkotWUlvalQ0WV93aHBEQ3RxcUowbU9IMnYwV0d6d0I0MzQtQ2JvRnFTbDVWdmJFVEJ4X25aU0JPYVlJcy1FMk04SVBTc3BmRExiVHBDYkloeDFGd2NHVHFlUTFJQWVESE40bEtyanI4WG1POUViOE5iS1RQZlNEaW1wSm1CWk0tdXpzbVVB?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 주식, 인플레이션 우려로 하락",
-      "금 가격, 온스당 5,000달러 이하로",
-      "시장 불안감 증가"
+      "미국 주식 하락 우려",
+      "인플레이션 걱정 고조",
+      "금 가격 5,000 달러 이하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이스라엘과 이란의 유가 영향",
-      "미 경제에 미치는 리스크",
-      "시장 불확실성 증가"
+      "이란의 경제 상황 우려",
+      "유가 상승 전망",
+      "미국 경제에 미치는 영향"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장 지속 하락",
-      "주간 마감 시점 상황",
-      "투자자 신뢰 감소 우려"
+      "미국 주식시장 주간 종가 하락",
+      "지속적인 하락세 지속",
+      "시장 심리 악화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
