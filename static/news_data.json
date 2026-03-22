@@ -4,8 +4,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "정부 중복상장 원칙적 금지",
-      "코스닥 1·2부로 운영 나눔",
+      "중복상장 원칙적 금지",
+      "코스닥 1·2부 나눔",
       "승강제 도입 예정"
     ],
     "sentiment": "POSITIVE",
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "한국 부자 47.6만명 보유",
-      "주식 투자 전망 긍정적",
-      "부동산 선호도 감소"
+      "부동산보다 주식 투자 유망",
+      "금융자산 10억 이상 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,8 +31,8 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융위험 경고",
-      "경제 회복에 대한 긍정적 신호"
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "전반적 경제 상황에 대한 긍정적 시각"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
     "publisher": "Morgan Stanley",
     "summary": [
-      "이란의 석유 공급이 중요하다",
-      "미국 경제에 미치는 영향",
-      "시장 변동성이 증가할 것"
+      "이란의 석유 공급 영향",
+      "미국 경제의 반응",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "미국 주식 시장은 주간 마감으로 계속 하락하고 있습니다 - Anadolu Ajansı",
+    "title": "미국 주식시장은 주간 마감에도 계속 하락세를 보이고 있습니다 - Anadolu Ajansı",
     "original_title": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장 주간 마감 하락",
-      "주가 지속적 하락 추세",
-      "투자자 경계감 증가"
+      "미국 주식시장 주간 마감 하락",
+      "지속적인 하락세 이어져",
+      "투자자들 불안한 심리 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "이번 주 경제 지표 발표",
-      "금리 변동 전망",
-      "정부 정책 변화"
+      "주요 경제 지표 발표 예정",
+      "금리 변화 예측",
+      "시장 반응 분석 중"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
