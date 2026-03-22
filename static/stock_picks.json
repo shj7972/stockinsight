@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-03-22",
+      "generated_at": "2026-03-22T23:28:08",
+      "sector_top3": [
+        [
+          "Energy",
+          2.4987546876402926
+        ],
+        [
+          "Technology",
+          0.5188634667810867
+        ],
+        [
+          "Communication Services",
+          0.4423850887825178
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "market": "US",
+          "sector": "Technology",
+          "entry_price": 310.51,
+          "rsi": 39.2,
+          "bb_pos": 10.6,
+          "vol_ratio": 1.23,
+          "macd_positive": false,
+          "sector_zscore": 0.52,
+          "ensemble_score": 0.5927,
+          "model_scores": {
+            "rf": 0.5987,
+            "xgb": 0.847,
+            "mlp": 0.4206,
+            "lstm": 0.5043
+          },
+          "final_score": 0.6038,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "V",
+          "name": "Visa",
+          "market": "US",
+          "sector": "Financials",
+          "entry_price": 301.62,
+          "rsi": 34.5,
+          "bb_pos": 14.8,
+          "vol_ratio": 1.79,
+          "macd_positive": false,
+          "sector_zscore": 0.33,
+          "ensemble_score": 0.5853,
+          "model_scores": {
+            "rf": 0.7385,
+            "xgb": 0.8602,
+            "mlp": 0.3443,
+            "lstm": 0.3981
+          },
+          "final_score": 0.5848,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 거래량 증가세 · 섹터 양호 (Z=+0.3)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "BA",
+          "name": "Boeing",
+          "market": "US",
+          "sector": "Industrials",
+          "entry_price": 195.12,
+          "rsi": 28.5,
+          "bb_pos": 0.0,
+          "vol_ratio": 1.74,
+          "macd_positive": false,
+          "sector_zscore": -0.52,
+          "ensemble_score": 0.6746,
+          "model_scores": {
+            "rf": 0.681,
+            "xgb": 0.9482,
+            "mlp": 0.3392,
+            "lstm": 0.7301
+          },
+          "final_score": 0.583,
+          "signal_summary": "RSI 강한 과매도 · 볼린저 하단 근접 · 거래량 증가세",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "066570.KS",
+          "name": "LG전자",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 117900.0,
+          "rsi": 51.5,
+          "bb_pos": 40.2,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.52,
+          "ensemble_score": 0.7179,
+          "model_scores": {
+            "rf": 0.7148,
+            "xgb": 0.8996,
+            "mlp": 0.6839,
+            "lstm": 0.5733
+          },
+          "final_score": 0.6914,
+          "signal_summary": "섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "000270.KS",
+          "name": "기아",
+          "market": "KR",
+          "sector": "Consumer Discretionary",
+          "entry_price": 168500.0,
+          "rsi": 51.5,
+          "bb_pos": 43.2,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": -0.28,
+          "ensemble_score": 0.7478,
+          "model_scores": {
+            "rf": 0.8481,
+            "xgb": 0.9869,
+            "mlp": 0.6177,
+            "lstm": 0.5385
+          },
+          "final_score": 0.6526,
+          "signal_summary": "복합 기술적 신호",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "028260.KS",
+          "name": "삼성물산",
+          "market": "KR",
+          "sector": "Industrials",
+          "entry_price": 297500.0,
+          "rsi": 50.5,
+          "bb_pos": 45.5,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": -0.52,
+          "ensemble_score": 0.5365,
+          "model_scores": {
+            "rf": 0.4977,
+            "xgb": 0.3521,
+            "mlp": 0.7094,
+            "lstm": 0.5865
+          },
+          "final_score": 0.4863,
+          "signal_summary": "복합 기술적 신호",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-03-19",
       "generated_at": "2026-03-19T23:30:14",
       "sector_top3": [
