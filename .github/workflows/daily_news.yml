@@ -8,7 +8,8 @@ on:
     branches:
       - master
   schedule:
-    - cron: '30 * * * *' # Every hour at 30 minutes
+    - cron: '0 23 * * *' # 08:00 KST (23:00 UTC)
+    - cron: '0 8 * * *'  # 17:00 KST (08:00 UTC)
   workflow_dispatch: # Allow manual trigger
 
 permissions:
