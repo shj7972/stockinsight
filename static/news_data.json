@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "중복상장 원칙적 금지",
-      "코스닥 1·2부 나눔",
-      "승강제 도입 예정"
+      "코스닥 1·2부 분리 도입",
+      "승강제 시스템 적용"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 투자 유망",
-      "금융자산 10억 이상 증가"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 유망하다는 인식",
+      "경제에 대한 긍정적 전망 나타남"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -32,52 +32,52 @@
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
       "AI 버블 붕괴 시 금융 리스크 경고",
-      "전반적 경제 상황에 대한 긍정적 시각"
+      "경제 전망 높아져 긍정적 기대감"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "이란, 석유 그리고 미국 경제 - Morgan Stanley",
-    "original_title": "Iran, Oil and the U.S. Economy - Morgan Stanley",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTl4bFJIcVBuZ29QNkViTndrM0lKaHRMODhnYjIxdTFpTnltSHZQMnBVdkFmQ002N3JiLTctUmRlbDBSNmg3d0JFWW43TUV3ajh0RzFSVnpHUVZNblZMa3lMTGZCbjVyUHkzLVBOaFJOM19uM293VlRFb1g0VWpxWlBsN0R1NjJOYVlrUlR0Slo?oc=5",
-    "publisher": "Morgan Stanley",
+    "title": "트럼프의 이란 최후통첩에 아시아 증시 급락 - 알자지라",
+    "original_title": "Asian stock markets plunge amid Trump’s ultimatum on Iran - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmNwSHdSTWlYVHpfcHM3bHV2bUFKbFloR09KRURLZ0lzN3poOGpBYko2S0djbWR5bllOODlHSlRFQTQ0d2Jrc0tlMlRzcmtoSVdmZjl4bGNfOTRrQ2JLWW1LTmM5NTZyZ2tIenRzem9qdGJZd1VoVHVFVUpmVmpCUWJGUFB3ZlFVam5RamlJaUxFaGNDUWhMenZXTXAzZ2kwbmfSAacBQVVfeXFMTS1EX0pZbEdiUm8wVFIyZTVpaUt5R1lZbndZX2VqR0NpZTJUelRENUJvcThTMDJXdWhNQnpHN2dsSWhQZFJnN2p3VHhvYzdWYk5PVUdzZ2hyQnoxY1F4b3p5cU84VVJKbzN5U21VSEx0ZXFobnRCclllRE9fYUc0YVZLQUxzeWxIbzdCSkZXd0VKaEZyZEJzZm8xY3ItZ1Uyejk5MnkxSlU?oc=5",
+    "publisher": "Al Jazeera",
     "summary": [
-      "이란의 석유 공급 영향",
-      "미국 경제의 반응",
-      "시장 불확실성 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장은 주간 마감에도 계속 하락세를 보이고 있습니다 - Anadolu Ajansı",
-    "original_title": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
-    "publisher": "Anadolu Ajansı",
-    "summary": [
-      "미국 주식시장 주간 마감 하락",
-      "지속적인 하락세 이어져",
-      "투자자들 불안한 심리 지속"
+      "아시아 주식시장 하락",
+      "트럼프의 이란 최후통첩",
+      "불안한 경제 전망"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "주요 경제 지표 발표 예정",
-      "금리 변화 예측",
-      "시장 반응 분석 중"
+      "주가 상승세 지속",
+      "경제 회복 조짐",
+      "투자자 신뢰 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식 시장은 주간 마감으로 계속 하락하고 있습니다 - Anadolu Ajansı",
+    "original_title": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
+    "publisher": "Anadolu Ajansı",
+    "summary": [
+      "미국 주식시장 주말 연속 하락",
+      "투자자 우려 심화",
+      "거시경제 불안 지속"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
