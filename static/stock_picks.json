@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-03-23",
+      "generated_at": "2026-03-23T23:32:52",
+      "sector_top3": [
+        [
+          "Energy",
+          2.5555343762348866
+        ],
+        [
+          "Technology",
+          0.5023686393342436
+        ],
+        [
+          "Communication Services",
+          0.392514667916795
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "market": "US",
+          "sector": "Technology",
+          "entry_price": 175.64,
+          "rsi": 42.0,
+          "bb_pos": 18.3,
+          "vol_ratio": 0.88,
+          "macd_positive": false,
+          "sector_zscore": 0.5,
+          "ensemble_score": 0.6849,
+          "model_scores": {
+            "rf": 0.7287,
+            "xgb": 0.8398,
+            "mlp": 0.5239,
+            "lstm": 0.6471
+          },
+          "final_score": 0.6671,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "BA",
+          "name": "Boeing",
+          "market": "US",
+          "sector": "Industrials",
+          "entry_price": 198.41,
+          "rsi": 32.4,
+          "bb_pos": 10.3,
+          "vol_ratio": 0.75,
+          "macd_positive": false,
+          "sector_zscore": -0.55,
+          "ensemble_score": 0.6081,
+          "model_scores": {
+            "rf": 0.6455,
+            "xgb": 0.9476,
+            "mlp": 0.4517,
+            "lstm": 0.3877
+          },
+          "final_score": 0.5341,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "FCX",
+          "name": "Freeport",
+          "market": "US",
+          "sector": "Materials",
+          "entry_price": 54.94,
+          "rsi": 39.6,
+          "bb_pos": 20.5,
+          "vol_ratio": 1.05,
+          "macd_positive": false,
+          "sector_zscore": -1.14,
+          "ensemble_score": 0.6687,
+          "model_scores": {
+            "rf": 0.6784,
+            "xgb": 0.8515,
+            "mlp": 0.6208,
+            "lstm": 0.524
+          },
+          "final_score": 0.5327,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "000660.KS",
+          "name": "SK하이닉스",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 933000.0,
+          "rsi": 50.0,
+          "bb_pos": 37.8,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.5,
+          "ensemble_score": 0.7298,
+          "model_scores": {
+            "rf": 0.6834,
+            "xgb": 0.8932,
+            "mlp": 0.6544,
+            "lstm": 0.6881
+          },
+          "final_score": 0.6985,
+          "signal_summary": "섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "000270.KS",
+          "name": "기아",
+          "market": "KR",
+          "sector": "Consumer Discretionary",
+          "entry_price": 154900.0,
+          "rsi": 47.3,
+          "bb_pos": 32.6,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": -0.13,
+          "ensemble_score": 0.69,
+          "model_scores": {
+            "rf": 0.7299,
+            "xgb": 0.9696,
+            "mlp": 0.4955,
+            "lstm": 0.5649
+          },
+          "final_score": 0.6233,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "055550.KS",
+          "name": "신한지주",
+          "market": "KR",
+          "sector": "Financials",
+          "entry_price": 89900.0,
+          "rsi": 45.6,
+          "bb_pos": 26.2,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.32,
+          "ensemble_score": 0.5375,
+          "model_scores": {
+            "rf": 0.5434,
+            "xgb": 0.6471,
+            "mlp": 0.6067,
+            "lstm": 0.3527
+          },
+          "final_score": 0.5501,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.3)",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-03-22",
       "generated_at": "2026-03-22T23:28:08",
       "sector_top3": [
