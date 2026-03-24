@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-03-24 11:40 UTC",
+  "predictions": [
+    {
+      "ticker": "^IXIC",
+      "name": "NASDAQ",
+      "color": "#38bdf8",
+      "direction": "상승",
+      "direction_icon": "📈",
+      "direction_color": "#4ade80",
+      "confidence": 55.7,
+      "data_months": 360
+    },
+    {
+      "ticker": "^GSPC",
+      "name": "S&P 500",
+      "color": "#818cf8",
+      "direction": "상승",
+      "direction_icon": "📈",
+      "direction_color": "#4ade80",
+      "confidence": 51.3,
+      "data_months": 360
+    },
+    {
+      "ticker": "^KS11",
+      "name": "KOSPI",
+      "color": "#4ade80",
+      "direction": "상승",
+      "direction_icon": "📈",
+      "direction_color": "#4ade80",
+      "confidence": 55.4,
+      "data_months": 349
+    }
+  ]
+}

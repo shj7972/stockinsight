@@ -329,9 +329,11 @@ def get_analysis_context(ticker: str):
 # ── ML 예측 캐시 (6시간) ──────────────────────────────────────────────────
 _main_predictions_cache: dict = {"data": None, "ts": 0}
 _PRED_CACHE_SEC = 21600  # 6 hours
+_PREDICTIONS_JSON = os.path.join(BASE_DIR, "static", "predictions.json")
+
 
 def _get_main_index_predictions() -> list:
-    """RandomForest 기반 다음 달 지수 방향 예측. 6시간 캐시.
+    """다음 달 지수 방향 예측. 사전 계산된 JSON 파일 우선 로드, 없으면 런타임 계산.
 
     - Features: fed_rate, cpi_yoy, treasury_10y, usd_krw_yoy, ind_prod_yoy, wti_yoy, vix
     - Label: 1 if index is higher next month, 0 otherwise
@@ -339,6 +341,22 @@ def _get_main_index_predictions() -> list:
     """
     global _main_predictions_cache
     now = time.time()
+
+    # 사전 계산된 JSON 파일이 있으면 우선 사용 (6시간 캐시)
+    if os.path.exists(_PREDICTIONS_JSON):
+        try:
+            mtime = os.path.getmtime(_PREDICTIONS_JSON)
+            if _main_predictions_cache["data"] is not None and now - _main_predictions_cache["ts"] < _PRED_CACHE_SEC:
+                return _main_predictions_cache["data"]
+            with open(_PREDICTIONS_JSON, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            preds = data.get("predictions", [])
+            if preds:
+                _main_predictions_cache = {"data": preds, "ts": now}
+                return preds
+        except Exception as e:
+            print(f"predictions.json load error: {e}")
+
     if _main_predictions_cache["data"] is not None and now - _main_predictions_cache["ts"] < _PRED_CACHE_SEC:
         return _main_predictions_cache["data"]
 

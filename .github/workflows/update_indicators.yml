@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas yfinance requests python-dotenv numpy
+          pip install pandas yfinance requests python-dotenv numpy scikit-learn
 
       - name: Run economic indicators update
         env:
@@ -51,9 +51,14 @@ jobs:
           echo "=== After update ==="
           tail -5 static/economic_indicators.csv
 
+      - name: Run AI predictions update
+        run: |
+          echo "=== AI 주가 방향 예측 계산 ==="
+          python update_predictions.py
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f static/economic_indicators.csv
+          git add -f static/economic_indicators.csv static/predictions.json
           git diff --staged --quiet || (git commit -m "Auto-update economic indicators [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git pull --rebase && git push)
