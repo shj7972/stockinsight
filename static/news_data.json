@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적 금지",
-      "코스닥 1·2부 나눔",
-      "승강제 도입 발표"
+      "중복상장 원칙적 금지 방침",
+      "코스닥 1·2부 분리 적용",
+      "승강제 도입으로 질서 강화"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,53 +17,39 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 더 유망해",
-      "부동산 시장 둔화"
+      "한국 부자 47.6만명 증가",
+      "부동산보다 주식 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴시 금융 리스크 경고",
-      "전반적 경제 전망에 대한 긍정적 태도"
+      "6월부터 프리마켓 운영",
+      "애프터마켓 도입 예정",
+      "거래소 활성화 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "트럼프의 이란 최후통첩에 아시아 증시 급락 - 알자지라",
-    "original_title": "Asian stock markets plunge amid Trump’s ultimatum on Iran - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmNwSHdSTWlYVHpfcHM3bHV2bUFKbFloR09KRURLZ0lzN3poOGpBYko2S0djbWR5bllOODlHSlRFQTQ0d2Jrc0tlMlRzcmtoSVdmZjl4bGNfOTRrQ2JLWW1LTmM5NTZyZ2tIenRzem9qdGJZd1VoVHVFVUpmVmpCUWJGUFB3ZlFVam5RamlJaUxFaGNDUWhMenZXTXAzZ2kwbmfSAacBQVVfeXFMTS1EX0pZbEdiUm8wVFIyZTVpaUt5R1lZbndZX2VqR0NpZTJUelRENUJvcThTMDJXdWhNQnpHN2dsSWhQZFJnN2p3VHhvYzdWYk5PVUdzZ2hyQnoxY1F4b3p5cU84VVJKbzN5U21VSEx0ZXFobnRCclllRE9fYUc0YVZLQUxzeWxIbzdCSkZXd0VKaEZyZEJzZm8xY3ItZ1Uyejk5MnkxSlU?oc=5",
-    "publisher": "Al Jazeera",
+    "title": "주간 시장 논평 - blackrock.com",
+    "original_title": "Weekly market commentary - blackrock.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "blackrock.com",
     "summary": [
-      "아시아 주식 시장 급락",
-      "트럼프의 이란 ultimatum",
-      "불확실성 증가"
+      "주식 시장 안정세 유지",
+      "채권 수익률 하락",
+      "인플레이션 우려 완화"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 대통령의 이란 발전소 파업 연기로 주식시장이 흔들리고 유가는 하락했다.",
-    "original_title": "Stock markets swing and oil prices fall after Trump postpones strikes on Iran power plants - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlJpMzhRdnZKMmVSNEhLdkZCSFA2QVRtQ0FBelJJeGFlOVJIazBSVEdtbm9VSy1MNnV5Y0FRTVBzUHpVekJ4NFgzX21aMGZHdXkzY2tSZVlmb1o5ejBEVnhqT1c1WHNHNTdDMWhoZ1FmX2xWX1lFeWpyU2dwVVZJbjNhUi1PWTNhMEJ3UmtlejhyRzZiX0FUZjJIVUo?oc=5",
-    "publisher": "The Guardian",
-    "summary": [
-      "주가가 변동성을 보임",
-      "유가가 하락함",
-      "트럼프의 공격 연기"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식시장 소폭 상승",
-      "경제 지표 안정세",
-      "투자자 신뢰 회복"
+      "주가 상승세 지속",
+      "경제 지표 긍정적",
+      "투자 심리 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "IEA 의장 \"세계 경제는 이란 전쟁으로 '중대하고 중대한 위협'에 직면해 있다\" - PBS",
+    "original_title": "Global economy faces 'major, major threat' from Iran war, IEA head says - PBS",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNi1uTl9hT3B1TFRzUkxabThEOXZzMmxSaXFDc3EwbUJ3MlZMLXBSVlhuT2wxNE93bDNfOG85azlMQUp2NzBXakxvUk81djVTX1UyTlB6d1hiTHlQQVhidnlwM3NHUjZ1RC1VVnE2aWRDMFYzMGhoTVRTci0xU0lDUDAxaFNfLW1qUGRkdU1Ec0J4U2gwaTJ5Z0RzdERqM2RvMk9reEJfc9IBrAFBVV95cUxNT05PclgzQUdQQjRzTG16MDJLMzNNVjRjSzdpdkdlUHZZSDUwUGJGdEpkc3VfRHJlUzBkUE5PM2VYeUJjY0xYMzEzMzZvVldHX2ZodloxOGl2U1BzZmVxTTZUdUV5WHNnZURURjNEMWhrS284NVNWZUNGdFlibm1ZeFhYOWFJUk9tNHRhZjRjR3NpLW4wSXNfbTRnNkprREw1anJwYkRyVlRTdi1m?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "이라크 전쟁이 경제에 큰 위협",
+      "IEA 책임자의 경고",
+      "글로벌 경제 불안정성 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
