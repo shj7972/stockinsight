@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "금융자산 증가 추세"
+      "한국 부자 47.6만명",
+      "주식, 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,53 +17,53 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 발표",
-      "시장금리 상승세 나타남",
-      "3%대 주담대 자취 감춤"
+      "금리 인하 사이클 종료",
+      "시장금리 변동성 증가",
+      "3%대 주담대 사라져"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴에 따른 금융 위험 경고",
-      "경제 전망 긍정적이나 리스크 존재"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "경제 지표 발표 예정",
-      "금리 동결 예상",
-      "소비자 신뢰 증가"
+      "한국거래소, 6월부터 새 시장 운영",
+      "프리·애프터마켓 도입 예정",
+      "시장 활성화 기대감 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
+    "title": "경제가 표면 아래에 균열을 보이면서 월스트리트의 경기 침체 확률이 높아집니다 - CNBC",
+    "original_title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ1IyWnB4eWVsenR4a0VZSHdQYnJiTTljV29FcW5ld29acW9sUXNvVnp4VEF2Zm1QdkxRbnJmeUtZYVdmNER6V2c3MDF6N2ZYLVhTcXVXM3VsbFQtU1luU2JCZDg1ekxNaE9LdVY1QUhqZUdrNXZOTzVWRW9XZnc4eEh1YlZwTVUyMFRFWVpoOHpMRV9ISU5DMzZQeVZhSjNfOEdCX3AzUTFJSWI1U3VZVGE1OGZxNTDSAbwBQVVfeXFMTi1QS3Y2azRlbzItUnBkRHBuMlNQU09meEVfWG83UEFnOEszcFNsMkxwbjZzcEhSdXVjRC1HNERrMUhsbE1BV1NqNXhtdU83TjM5cEczV0EwOGZnTk1oZjB4Zi1DZFR4SkxqTGhCWTdaUndSLWNySDMtR3BGdkxLUW1mOERRMHJWZnY2M2J4OXZ5eWtXa1ktV3VJUi05RklWdTRBREhEckhNdFYyMTdabHhmbC15OVpKRktIMU8?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "월가, 경기침체 확률 증가",
+      "경제 기초가 흔들림",
+      "시장에 부정적 신호 발생"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 이란과의 전쟁이 얼마나 오래 지속될지에 대한 불확실성으로 인해 손실과 이익 사이를 오갑니다. - Spectrum News",
-    "original_title": "U.S. stocks swing between losses and gains on un­cer­tainty about how long the war with Iran will last - Spectrum News",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFI3SVlXem9EdGxRT25BT05Oc0lsdXg0YW5zOHlxbXN0dk9QbGRjYTlWbkFQWHNkeDdRVHl2bnZHODhnQVF4TGppZ3dCNEtQOW40Ty1wYVVqODRySWR2X3pIOXRuX1VLY2Y3OFFpSjk2aHY4MF9iSFBBUVJXZkgzdi1aY0ZGMllMaXc3Wk9OYnpZeTNtQVpHdXB0bzNWcUZxSHp0NFZTTEViUlpZbEhTT1FKWlRHVUFJMWJ2RjJyZnh1NmdmYWZhU1hNMzk2ZDhOUF8wbVp1aEdMRzZXbjBmaW1hMA?oc=5",
-    "publisher": "Spectrum News",
+    "title": "전쟁 충격에 대비하는 시장은 회복력 있는 미국 경제를 무시하고 있습니다 - Bloomberg.com",
+    "original_title": "Markets Bracing for War Shock Are Ignoring Resilient US Economy - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV2Q2YXV3WVdEenF4X3BoUjg5SHJNTlFHQnJyY0k0LW5kLTZCXzExdzNKcDkzMkdlQUMtMWo0cG5jSFNKQ0llSFQwOVRZbmZZSTJydTFGcm9hZDE1eDJvdHJvay1kZ2ZPMU9Rd0lvdzE1amZwWlc5c3VPcjR6bDRucXNJRXJUcENCWUVMb21uYUo0a1JXSTJMYjNPNXhLWU5yNzVyQkVXb2dMYW43eGVwZ1dkQkhKd002V2ZnSHAyRQ?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "미국 주식, 손실과 이익 오가며 변화",
-      "이란 전쟁 지속 불확실성 영향",
-      "시장 심리 불안정성 드러남"
+      "시장이 전쟁 충격에 대비 중",
+      "미국 경제는 강한 모습",
+      "투자자들 불안 감지"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주가 상승, 긍정적 신호",
-      "경제 회복 조짐",
-      "투자자 신뢰 증가"
+      "주식시장 상승세 지속",
+      "경제지표 개선",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
