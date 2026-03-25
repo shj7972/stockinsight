@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-03-25",
+      "generated_at": "2026-03-25T23:35:25",
+      "sector_top3": [
+        [
+          "Energy",
+          2.7302718921505225
+        ],
+        [
+          "Technology",
+          0.21275905720032762
+        ],
+        [
+          "Communication Services",
+          -0.07867264760427463
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "PG",
+          "name": "P&G",
+          "market": "US",
+          "sector": "Consumer Staples",
+          "entry_price": 143.92,
+          "rsi": 32.0,
+          "bb_pos": 18.9,
+          "vol_ratio": 0.71,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.6938,
+          "model_scores": {
+            "rf": 0.8424,
+            "xgb": 0.9935,
+            "mlp": 0.8122,
+            "lstm": 0.1272
+          },
+          "final_score": 0.7857,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "market": "US",
+          "sector": "Technology",
+          "entry_price": 178.68,
+          "rsi": 46.4,
+          "bb_pos": 36.7,
+          "vol_ratio": 0.83,
+          "macd_positive": false,
+          "sector_zscore": 0.21,
+          "ensemble_score": 0.7539,
+          "model_scores": {
+            "rf": 0.7202,
+            "xgb": 0.9892,
+            "mlp": 0.6438,
+            "lstm": 0.6623
+          },
+          "final_score": 0.6937,
+          "signal_summary": "RSI 중립~반등",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "CAT",
+          "name": "Caterpillar",
+          "market": "US",
+          "sector": "Industrials",
+          "entry_price": 719.04,
+          "rsi": 53.7,
+          "bb_pos": 59.8,
+          "vol_ratio": 0.56,
+          "macd_positive": false,
+          "sector_zscore": -0.47,
+          "ensemble_score": 0.6796,
+          "model_scores": {
+            "rf": 0.649,
+            "xgb": 0.9215,
+            "mlp": 0.6423,
+            "lstm": 0.5056
+          },
+          "final_score": 0.5903,
+          "signal_summary": "MACD 반등 임박",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "000660.KS",
+          "name": "SK하이닉스",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 995000.0,
+          "rsi": 54.9,
+          "bb_pos": 60.8,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": 0.21,
+          "ensemble_score": 0.6931,
+          "model_scores": {
+            "rf": 0.6158,
+            "xgb": 0.7531,
+            "mlp": 0.709,
+            "lstm": 0.6945
+          },
+          "final_score": 0.6511,
+          "signal_summary": "복합 기술적 신호",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "000270.KS",
+          "name": "기아",
+          "market": "KR",
+          "sector": "Consumer Discretionary",
+          "entry_price": 157900.0,
+          "rsi": 49.4,
+          "bb_pos": 39.5,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": -0.25,
+          "ensemble_score": 0.6636,
+          "model_scores": {
+            "rf": 0.6635,
+            "xgb": 0.964,
+            "mlp": 0.4945,
+            "lstm": 0.5321
+          },
+          "final_score": 0.5959,
+          "signal_summary": "RSI 중립~반등",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "003670.KS",
+          "name": "포스코퓨처엠",
+          "market": "KR",
+          "sector": "Materials",
+          "entry_price": 202500.0,
+          "rsi": 47.7,
+          "bb_pos": 42.4,
+          "vol_ratio": 0.0,
+          "macd_positive": false,
+          "sector_zscore": -0.51,
+          "ensemble_score": 0.6346,
+          "model_scores": {
+            "rf": 0.5264,
+            "xgb": 0.9107,
+            "mlp": 0.534,
+            "lstm": 0.5673
+          },
+          "final_score": 0.5557,
+          "signal_summary": "RSI 중립~반등",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-03-24",
       "generated_at": "2026-03-24T23:32:45",
       "sector_top3": [
