@@ -1,28 +1,28 @@
 [
   {
-    "title": "정부, ‘중복상장’ 원칙적 금지…코스닥은 1·2부 나눠 승강제 도입 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcC1FWVItcEU5alUtdVdnQmplUXBNMmF6aVNSX1FuN2p1ejN3LTNJNndXZFdYeldGbENXREhCcjBjZm5DYUhiNkhZOTJsMjJKYmlrdmwyejhBNHJPaWZtTEhnTEZYcG8?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중복상장 원칙적 금지",
-      "코스닥 1·2부 분리",
-      "승강제 도입 예정"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식이 더 유망",
-      "부동산 선호 감소"
+      "금리 인하 사이클 종료 발표",
+      "시장금리 상승세 나타남",
+      "3%대 주담대 자취 감춤"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -31,12 +31,26 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 위험 경고",
-      "경제 회복 기대감 부각"
+      "AI 버블 붕괴에 따른 금융 위험 경고",
+      "경제 전망 긍정적이나 리스크 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "경제 지표 발표 예정",
+      "금리 동결 예상",
+      "소비자 신뢰 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "해외"
   },
   {
     "title": "미국 증시는 이란과의 전쟁이 얼마나 오래 지속될지에 대한 불확실성으로 인해 손실과 이익 사이를 오갑니다. - Spectrum News",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFI3SVlXem9EdGxRT25BT05Oc0lsdXg0YW5zOHlxbXN0dk9QbGRjYTlWbkFQWHNkeDdRVHl2bnZHODhnQVF4TGppZ3dCNEtQOW40Ty1wYVVqODRySWR2X3pIOXRuX1VLY2Y3OFFpSjk2aHY4MF9iSFBBUVJXZkgzdi1aY0ZGMllMaXc3Wk9OYnpZeTNtQVpHdXB0bzNWcUZxSHp0NFZTTEViUlpZbEhTT1FKWlRHVUFJMWJ2RjJyZnh1NmdmYWZhU1hNMzk2ZDhOUF8wbVp1aEdMRzZXbjBmaW1hMA?oc=5",
     "publisher": "Spectrum News",
     "summary": [
-      "미국 주식, 변동성 보여",
-      "이란 전쟁 장기화 불확실성",
-      "투자자 우려가 커지고 있음"
+      "미국 주식, 손실과 이익 오가며 변화",
+      "이란 전쟁 지속 불확실성 영향",
+      "시장 심리 불안정성 드러남"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 이란 전쟁 관련 불확실성 속에 적자로 마감했다 - Anadolu Ajansı",
-    "original_title": "US stock markets close day in red amid uncertainties related to Iran war - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSnJyTlM5ZlNiTlBnNTJ0M0paWG1wQ1FpNFoxOGdGMUVZMG5CQ3B4RnRJaS13UmdoWFp2d2VhNF94TElpOXJKb0Rqa0p4enFpekxRal8zR0EydENoS2VqRThsUWhEbjUwWmtua2VMOXU5MU1XLVh0OVhpNnBpUjZ1UUxwdjhmNGR6TjVPdWxlWm9FNXBnNlpDQ3ZPTy14QXVHclRrSjJJbkQ3OVVBd1BYSXhOVQ?oc=5",
-    "publisher": "Anadolu Ajansı",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "미국 주식 시장, 하락세 마감",
-      "이란 전쟁 관련 불확실성 영향",
-      "투자자들 심리 위축"
+      "주가 상승, 긍정적 신호",
+      "경제 회복 조짐",
+      "투자자 신뢰 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 대통령의 이란 발전소 파업 연기로 주식시장이 흔들리고 유가는 하락했다.",
-    "original_title": "Stock markets swing and oil prices fall after Trump postpones strikes on Iran power plants - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlJpMzhRdnZKMmVSNEhLdkZCSFA2QVRtQ0FBelJJeGFlOVJIazBSVEdtbm9VSy1MNnV5Y0FRTVBzUHpVekJ4NFgzX21aMGZHdXkzY2tSZVlmb1o5ejBEVnhqT1c1WHNHNTdDMWhoZ1FmX2xWX1lFeWpyU2dwVVZJbjNhUi1PWTNhMEJ3UmtlejhyRzZiX0FUZjJIVUo?oc=5",
-    "publisher": "The Guardian",
-    "summary": [
-      "트럼프, 이란 공습 연기 발표",
-      "주식시장 급등락",
-      "유가 하락세 지속"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
