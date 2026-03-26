@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명",
-      "주식, 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "부동산보다 주식 투자 유망",
+      "한국 경제에 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,53 +17,39 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 변동성 증가",
-      "3%대 주담대 사라져"
+      "금리 인하 사이클 종료 선언",
+      "시장금리 상승세 지속",
+      "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "한국거래소, 6월부터 프리·애프터마켓 운영 추진 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rQkJ3djd1VDBEb3RiNG1ZYTBPeV9IdW9nSTZfNzJiSjhVdUxPak80djgzUEQzWE9PQ04taVNNa05CUW9ISjNtVEhyNXNjOHgtRzNzX3FNUVRXZzFFNVEySHFqTS1qX0U?oc=5",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국거래소, 6월부터 새 시장 운영",
-      "프리·애프터마켓 도입 예정",
-      "시장 활성화 기대감 상승"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약할 것으로 예상",
+      "글로벌 불확실성 여전"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "경제가 표면 아래에 균열을 보이면서 월스트리트의 경기 침체 확률이 높아집니다 - CNBC",
-    "original_title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ1IyWnB4eWVsenR4a0VZSHdQYnJiTTljV29FcW5ld29acW9sUXNvVnp4VEF2Zm1QdkxRbnJmeUtZYVdmNER6V2c3MDF6N2ZYLVhTcXVXM3VsbFQtU1luU2JCZDg1ekxNaE9LdVY1QUhqZUdrNXZOTzVWRW9XZnc4eEh1YlZwTVUyMFRFWVpoOHpMRV9ISU5DMzZQeVZhSjNfOEdCX3AzUTFJSWI1U3VZVGE1OGZxNTDSAbwBQVVfeXFMTi1QS3Y2azRlbzItUnBkRHBuMlNQU09meEVfWG83UEFnOEszcFNsMkxwbjZzcEhSdXVjRC1HNERrMUhsbE1BV1NqNXhtdU83TjM5cEczV0EwOGZnTk1oZjB4Zi1DZFR4SkxqTGhCWTdaUndSLWNySDMtR3BGdkxLUW1mOERRMHJWZnY2M2J4OXZ5eWtXa1ktV3VJUi05RklWdTRBREhEckhNdFYyMTdabHhmbC15OVpKRktIMU8?oc=5",
-    "publisher": "CNBC",
+    "title": "주간 시장 논평 - blackrock.com",
+    "original_title": "Weekly market commentary - blackrock.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "blackrock.com",
     "summary": [
-      "월가, 경기침체 확률 증가",
-      "경제 기초가 흔들림",
-      "시장에 부정적 신호 발생"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "전쟁 충격에 대비하는 시장은 회복력 있는 미국 경제를 무시하고 있습니다 - Bloomberg.com",
-    "original_title": "Markets Bracing for War Shock Are Ignoring Resilient US Economy - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV2Q2YXV3WVdEenF4X3BoUjg5SHJNTlFHQnJyY0k0LW5kLTZCXzExdzNKcDkzMkdlQUMtMWo0cG5jSFNKQ0llSFQwOVRZbmZZSTJydTFGcm9hZDE1eDJvdHJvay1kZ2ZPMU9Rd0lvdzE1amZwWlc5c3VPcjR6bDRucXNJRXJUcENCWUVMb21uYUo0a1JXSTJMYjNPNXhLWU5yNzVyQkVXb2dMYW43eGVwZ1dkQkhKd002V2ZnSHAyRQ?oc=5",
-    "publisher": "Bloomberg.com",
-    "summary": [
-      "시장이 전쟁 충격에 대비 중",
-      "미국 경제는 강한 모습",
-      "투자자들 불안 감지"
+      "주간 시장 동향 보고",
+      "투자 기회 탐색",
+      "경제 회복세 전망"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식시장 상승세 지속",
-      "경제지표 개선",
-      "투자자 신뢰 회복"
+      "주식 시장 안정세 유지",
+      "경제 성장 전망 긍정적",
+      "금리 인상 우려 완화"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "전쟁 충격에 대비하는 시장은 회복력 있는 미국 경제를 무시하고 있습니다 - Bloomberg.com",
+    "original_title": "Markets Bracing for War Shock Are Ignoring Resilient US Economy - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV2Q2YXV3WVdEenF4X3BoUjg5SHJNTlFHQnJyY0k0LW5kLTZCXzExdzNKcDkzMkdlQUMtMWo0cG5jSFNKQ0llSFQwOVRZbmZZSTJydTFGcm9hZDE1eDJvdHJvay1kZ2ZPMU9Rd0lvdzE1amZwWlc5c3VPcjR6bDRucXNJRXJUcENCWUVMb21uYUo0a1JXSTJMYjNPNXhLWU5yNzVyQkVXb2dMYW43eGVwZ1dkQkhKd002V2ZnSHAyRQ?oc=5",
+    "publisher": "Bloomberg.com",
+    "summary": [
+      "전쟁 충격에 시장이 반응하고 있다",
+      "미국 경제는 여전히 강세를 보임",
+      "투자자들 우려하고 있으나 경제는 안정적"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
