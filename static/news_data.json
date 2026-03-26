@@ -1,12 +1,25 @@
 [
   {
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "외국인 순매도 20조 기록",
+      "역대 최대 규모",
+      "시총 대비 영향 작음"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식 투자 유망",
-      "한국 경제에 긍정적 신호"
+      "한국 부자 47.6만명",
+      "부동산 시장 성숙",
+      "주식 투자 유망함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,8 +30,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 선언",
-      "시장금리 상승세 지속",
+      "금리 인하 사이클 종료",
+      "시장금리 불안정",
       "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
@@ -26,30 +39,17 @@
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
+    "title": "미국 증시는 이란과의 전쟁이 얼마나 오래 지속될지에 대한 불확실성으로 인해 손실과 이익 사이를 오갑니다. - Spectrum News",
+    "original_title": "U.S. stocks swing between losses and gains on un­cer­tainty about how long the war with Iran will last - Spectrum News",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFI3SVlXem9EdGxRT25BT05Oc0lsdXg0YW5zOHlxbXN0dk9QbGRjYTlWbkFQWHNkeDdRVHl2bnZHODhnQVF4TGppZ3dCNEtQOW40Ty1wYVVqODRySWR2X3pIOXRuX1VLY2Y3OFFpSjk2aHY4MF9iSFBBUVJXZkgzdi1aY0ZGMllMaXc3Wk9OYnpZeTNtQVpHdXB0bzNWcUZxSHp0NFZTTEViUlpZbEhTT1FKWlRHVUFJMWJ2RjJyZnh1NmdmYWZhU1hNMzk2ZDhOUF8wbVp1aEdMRzZXbjBmaW1hMA?oc=5",
+    "publisher": "Spectrum News",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것으로 예상",
-      "글로벌 불확실성 여전"
+      "미국 주식, 상승과 하락을 반복",
+      "이란 전쟁 지속에 대한 불확실성",
+      "시장에 부정적 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "주간 시장 논평 - blackrock.com",
-    "original_title": "Weekly market commentary - blackrock.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "blackrock.com",
-    "summary": [
-      "주간 시장 동향 보고",
-      "투자 기회 탐색",
-      "경제 회복세 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 안정세 유지",
-      "경제 성장 전망 긍정적",
-      "금리 인상 우려 완화"
+      "주가 상승세 지속",
+      "투자자 신뢰 증가",
+      "경제 지표 개선"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV2Q2YXV3WVdEenF4X3BoUjg5SHJNTlFHQnJyY0k0LW5kLTZCXzExdzNKcDkzMkdlQUMtMWo0cG5jSFNKQ0llSFQwOVRZbmZZSTJydTFGcm9hZDE1eDJvdHJvay1kZ2ZPMU9Rd0lvdzE1amZwWlc5c3VPcjR6bDRucXNJRXJUcENCWUVMb21uYUo0a1JXSTJMYjNPNXhLWU5yNzVyQkVXb2dMYW43eGVwZ1dkQkhKd002V2ZnSHAyRQ?oc=5",
     "publisher": "Bloomberg.com",
     "summary": [
-      "전쟁 충격에 시장이 반응하고 있다",
-      "미국 경제는 여전히 강세를 보임",
-      "투자자들 우려하고 있으나 경제는 안정적"
+      "전쟁 충격에 대비한 시장",
+      "미국 경제는 회복세",
+      "시장 반응은 부정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
