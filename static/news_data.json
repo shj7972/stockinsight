@@ -1,80 +1,80 @@
 [
   {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "부자 47.6만명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 유지",
-      "환율 하락 공식 붕괴",
-      "향후 경제 전망 혼란"
+      "한국 경제, 지속적 성장 추세",
+      "환율 하락 공식 무너짐",
+      "변화된 경제 환경 주목 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10억 이상 금융자산 47.6만명",
-      "부동산보다 주식 유망",
-      "주식 투자 관심 증가"
+      "외국인 순매도 20조원 기록",
+      "역대 최대 규모",
+      "시총 대비 영향은 미미"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "건강하면 보험료 할인, 현금… 한국도 인센티브를 달라 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOFQwMUdRVkd0ZzJCV1hOUTlmekdyY2t0ZXJDN0RpZWQ1WDh0eG11cDh6aWhFc2Z1WWhyRmwzREtQbDA0cmY2bmh1RHFkbE8xcWtDRmpEQk9GWDQ2VXZ1MmZ0Rnk2ckU0WjNYU2g2UzZKQ2RPaURrMm1WcGRuOVZVc19LS1Zkd3A1amtN0gGfAUFVX3lxTFB0LTlaekM0UFBCY2RBekU3UnF1dDA4Uzc1TzAwa29XTFJMM3ZOTjg5X1h4aGRRZzVrOFVzd3ZQV1RWQXYyUUk5RFhuZVpwalpYM1RfdGQyWER1clN1NktTSnZCWldkazVjT0g3eU81dHR1NzVkQVU3TWVZLU8tVUNCWUtHa2VFbUx4dWx6cThxa3BabVJWNlczVkxvU0Z6MA?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "건강 인센티브 도입 요구",
-      "보험료 할인 가능성",
-      "현금 보상 제안"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "미국 시장, 이란과의 미국-이스라엘 전쟁 시작 이후 가장 큰 폭락 | 주식 시장 - The Guardian",
-    "original_title": "US markets see biggest slump since start of US-Israel war on Iran | Stock markets - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ3ZpRGJTYUpvUmstUkVFV01RSUR5RVZrMk96a21oTHBKdHhxc0FXVkJ0dzg5c1JaOHMwQ3dkMWc3d1JCYUFDRW1xLTREczl2VXNZQnFKVUFTZ3RPc2ZubHdqeFRNWjJyZ2xhb0c4REFUWElicy10RUltdV93WE5rczVGaHlZNTlM?oc=5",
+    "title": "미국 주식시장, 5주 연속 하락 마감 - The Guardian",
+    "original_title": "US stock market caps off fifth consecutive week of closing down - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국 시장, 전쟁 시작 이후 급락",
-      "이스라엘-이란 전쟁 영향",
-      "주식 하락폭 최대 기록"
+      "미국 주식시장, 5주 연속 하락",
+      "투자자들 우려 지속",
+      "경제 불확실성 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "월스트리트 주간 전망 미국 일자리 데이터, 전쟁에 휘말린 시장에 대한 경제 전망 제공 - Reuters",
+    "original_title": "Wall St Week Ahead US jobs data to give economic view for war-gripped markets - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnNRUHRHY1FOWDhhWld3MkhCOEdzTk1XRk9oUUZ1b0dKU0ZKVDBQeU50Z0VRMWg1RjJncGRrZFRwNk0yVURndWdmVTVYcVMxTjk5VkJaSmVBS0dmYVdOTjZkeFdkN0R2eHVFbllOV28taE5SX3AwZVlVdndHVTlRZXdjS1h6cXlfR1M3S3ppLXNtUE5ObGEwSENUa0otajgtOFdtNXprVllhSS12d194aDNySHBKUQ?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "경제 지표 발표 예정",
-      "시장 전망 유망",
-      "금리 변동 주의 필요"
+      "US 고용 데이터 발표 예정",
+      "전쟁으로 인해 시장 불안",
+      "경제 전망에 영향 줄 듯"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "미국 증시는 이란과의 전쟁이 얼마나 오래 지속될지에 대한 불확실성으로 인해 손실과 이익 사이를 오갑니다. - Spectrum News",
-    "original_title": "U.S. stocks swing between losses and gains on un­cer­tainty about how long the war with Iran will last - Spectrum News",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaFI3SVlXem9EdGxRT25BT05Oc0lsdXg0YW5zOHlxbXN0dk9QbGRjYTlWbkFQWHNkeDdRVHl2bnZHODhnQVF4TGppZ3dCNEtQOW40Ty1wYVVqODRySWR2X3pIOXRuX1VLY2Y3OFFpSjk2aHY4MF9iSFBBUVJXZkgzdi1aY0ZGMllMaXc3Wk9OYnpZeTNtQVpHdXB0bzNWcUZxSHp0NFZTTEViUlpZbEhTT1FKWlRHVUFJMWJ2RjJyZnh1NmdmYWZhU1hNMzk2ZDhOUF8wbVp1aEdMRzZXbjBmaW1hMA?oc=5",
-    "publisher": "Spectrum News",
+    "title": "월스트리트, 이란 내전 이후 최악의 한 주 - CBC",
+    "original_title": "Wall Street marks its worst week since start of conflict in Iran - CBC",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YdEo5bk1pSjVBYVBCSGl0TnYyM0FxYkREdXBGOVl6a1lUOERFTlJCSTREaDZ0Mjg0SG9rQU1xT2swUTJ5dU1Xallta3dCV1BLME1DRTFrX0RhS0FmNldNWkd5RDNYbFFCVnV4M0lNVThzbkN3?oc=5",
+    "publisher": "CBC",
     "summary": [
-      "미국 주식, 손익 혼조",
-      "이란 전쟁 지속성 불안",
-      "투자자들 우려 커짐"
+      "월가, 이란 전쟁 이후 최악의 주간",
+      "투자자들, 불안감 커짐",
+      "시장 반응 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
