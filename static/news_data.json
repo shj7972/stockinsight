@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부유한 한국인 47.6만명",
-      "주식이 더 유망하다는 의견",
-      "부동산 투자 감소 추세"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "부동산보다 주식이 유망",
+      "주식 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 순매도 20조 최대 기록",
-      "시장 규모에 비해 영향 미미",
-      "부정적인 우려 덜어내야"
+      "외국인 순매도 20조, 역대 최대",
+      "시장 시총 대비 비중 작아",
+      "시장 영향 크지 않음"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "title": "Lee Chang-yong “Need to compile an extra budget as soon as possible” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XcW03bEJodEhIYzFnaVZsU0xDcWdsUmlFbzJCUHBZOUQxZk1hVExkYW5xMVV4R0Q2T1FGZFBvb2U4bTJOenFrZ1p5NFZVZzhIR3ZIcmtnRmt0eEt3cHc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "금융 리스크 우려 표명"
+      "이창용, 추가 예산 필요 강조",
+      "빠른 예산 편성이 중요",
+      "경제 회복 기대감 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "美 증시 5주 연속 하락 마감",
-      "투자자들 우려 심화",
-      "경제 불안감 지속"
+      "미국 주식시장 5주 연속 하락",
+      "투자자들 우려가 커짐",
+      "경제 전망에 대한 불신 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "시장 급락, 미국 원유 100달러 돌파",
-      "트럼프의 월스트리트 안심 한계",
-      "투자자 불안 증가"
+      "시장이 급락하고 있다",
+      "미국 유가 $100 도달",
+      "트럼프의 안심 능력 한계 도달"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "월스트리트 주간 전망 미국 일자리 데이터, 전쟁에 휘말린 시장에 대한 경제 전망 제공 - Reuters",
-    "original_title": "Wall St Week Ahead US jobs data to give economic view for war-gripped markets - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnNRUHRHY1FOWDhhWld3MkhCOEdzTk1XRk9oUUZ1b0dKU0ZKVDBQeU50Z0VRMWg1RjJncGRrZFRwNk0yVURndWdmVTVYcVMxTjk5VkJaSmVBS0dmYVdOTjZkeFdkN0R2eHVFbllOV28taE5SX3AwZVlVdndHVTlRZXdjS1h6cXlfR1M3S3ppLXNtUE5ObGEwSENUa0otajgtOFdtNXprVllhSS12d194aDNySHBKUQ?oc=5",
-    "publisher": "Reuters",
+    "title": "주식, 채권, 금 모두 시장 하락세로 하락 - CNN",
+    "original_title": "Stocks, bonds and gold all fall in market slide - CNN",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ZXJBbDNIVUJDQ1lRYjBDQnFuTlVoMkpsVEFmZnpxMU8zRUgyZ1Q3U3BtOHJ3R0c0d1lBUWdONHJtdTNJV090MV93UGJNUFdwSnJXU0UzYVFVeXBYM1BVU0VJajlyME9scW5rZTZjYUJRM1dt?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "고용 데이터가 중요해질 전망",
-      "전쟁으로 인한 시장 불안",
-      "경제 전망에 영향 미칠 듯"
+      "주식, 채권, 금 모두 하락",
+      "전반적인 시장 하락세",
+      "투자자들 신뢰도 감소"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
