@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 증가",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상"
+      "부유한 한국인 47.6만명",
+      "주식이 더 유망하다는 의견",
+      "부동산 투자 감소 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제, 지속적 성장 추세",
-      "환율 하락 공식 무너짐",
-      "변화된 경제 환경 주목 필요"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 순매도 20조원 기록",
-      "역대 최대 규모",
-      "시총 대비 영향은 미미"
+      "외국인 순매도 20조 최대 기록",
+      "시장 규모에 비해 영향 미미",
+      "부정적인 우려 덜어내야"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 위험 경고",
+      "금융 리스크 우려 표명"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국 주식시장, 5주 연속 하락",
-      "투자자들 우려 지속",
-      "경제 불확실성 커짐"
+      "美 증시 5주 연속 하락 마감",
+      "투자자들 우려 심화",
+      "경제 불안감 지속"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
+    "type": "해외"
+  },
+  {
+    "title": "월스트리트를 안심시키는 트럼프의 능력이 한계에 도달함에 따라 시장은 폭락하고 미국 유가는 100달러에 도달했습니다.",
+    "original_title": "Markets plunge and U.S. oil hits $100 as Trump's ability to reassure Wall Street hits its limit - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "시장 급락, 미국 원유 100달러 돌파",
+      "트럼프의 월스트리트 안심 한계",
+      "투자자 불안 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNnNRUHRHY1FOWDhhWld3MkhCOEdzTk1XRk9oUUZ1b0dKU0ZKVDBQeU50Z0VRMWg1RjJncGRrZFRwNk0yVURndWdmVTVYcVMxTjk5VkJaSmVBS0dmYVdOTjZkeFdkN0R2eHVFbllOV28taE5SX3AwZVlVdndHVTlRZXdjS1h6cXlfR1M3S3ppLXNtUE5ObGEwSENUa0otajgtOFdtNXprVllhSS12d194aDNySHBKUQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "US 고용 데이터 발표 예정",
-      "전쟁으로 인해 시장 불안",
-      "경제 전망에 영향 줄 듯"
+      "고용 데이터가 중요해질 전망",
+      "전쟁으로 인한 시장 불안",
+      "경제 전망에 영향 미칠 듯"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "월스트리트, 이란 내전 이후 최악의 한 주 - CBC",
-    "original_title": "Wall Street marks its worst week since start of conflict in Iran - CBC",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YdEo5bk1pSjVBYVBCSGl0TnYyM0FxYkREdXBGOVl6a1lUOERFTlJCSTREaDZ0Mjg0SG9rQU1xT2swUTJ5dU1Xallta3dCV1BLME1DRTFrX0RhS0FmNldNWkd5RDNYbFFCVnV4M0lNVThzbkN3?oc=5",
-    "publisher": "CBC",
-    "summary": [
-      "월가, 이란 전쟁 이후 최악의 주간",
-      "투자자들, 불안감 커짐",
-      "시장 반응 부정적"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
