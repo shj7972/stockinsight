@@ -4,80 +4,80 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자로 분류된 인구 47.6만명",
-      "주식이 부동산보다 유망",
-      "금융자산 10억 이상 보유"
+      "부자 47.6만명 보유",
+      "주식이 더 유망",
+      "부동산 투자 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "Lee Chang-yong “Need to compile an extra budget as soon as possible” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XcW03bEJodEhIYzFnaVZsU0xDcWdsUmlFbzJCUHBZOUQxZk1hVExkYW5xMVV4R0Q2T1FGZFBvb2U4bTJOenFrZ1p5NFZVZzhIR3ZIcmtnRmt0eEt3cHc?oc=5",
-    "publisher": "경향신문",
+    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "추가 예산 편성 필요성 강조",
-      "Lee Chang-yong의 강력한 발언",
-      "경제 활성화 기대감 표출"
+      "금리 인하 종료로 시장금리 상승",
+      "3%대 주담대 사라져",
+      "주택담보대출 부담 증가 우려"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "[칼럼] Korea Story 18 - Economy and Finance 1 by Atty Jeong-kee Kim - 뉴스코리아",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0TElscFBaSWQwOUtHaE9mb3ltaHpaM3dZNXlOS0ZYOWdFMGNaV2FIMHFGVEFNOVAwZFBDbWppclpYTEM2UkVHUnhCd3VYWkNYYWhHRF93UWh4QWE0dWxvWEM5dXJuX2NOYnpRYw?oc=5",
-    "publisher": "뉴스코리아",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제의 현재 상황 설명",
-      "금융 정책의 중요성 강조",
-      "미래 전망에 대한 논의"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세 미약하다고 평가",
+      "경제 상황 우려감 존재"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "주식 시장 성장은 지속되고 있음",
+      "경제 회복의 신호 발견",
+      "투자자 신뢰 향상 중"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "전쟁에 휘말린 시장에 대한 경제 전망을 제공하는 미국 고용 데이터 부터 Reuters - Investing.com",
+    "original_title": "US jobs data to give economic view for war-gripped markets By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdUZKTTNBMlI3YUxyb2dSTmN3VE93LVNiNnFyRURSWXBWc2QxZnpuMTBzaU5WZ29YUmZUTzZmMG90TjV6Z25BV2RaclhUT0xldmZmS0E3R25MYmpLWUctVl84UkZUaEJ3cDUta1dfNldzd3d0T19SRFZJMHBRNHhDWnRZTTJWNVFzVjlZb0hRUlRTRUQ1aGtNUDdIQmxsS29rWUFSV0JaT1J3SDhnRHc?oc=5",
+    "publisher": "Investing.com",
+    "summary": [
+      "미국 고용 데이터 발표 예정",
+      "전쟁으로 인한 시장 영향",
+      "경제 전망에 중요한 지표"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
-    "type": "국내"
+    "type": "해외"
   },
   {
-    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - The Guardian",
-    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - The Guardian",
+    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - theguardian.com",
+    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - theguardian.com",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
-    "publisher": "The Guardian",
+    "publisher": "theguardian.com",
     "summary": [
-      "미국 주식 시장 장 하락",
-      "5주 연속 하락 마감",
-      "경제 전망 불투명"
+      "미국 주식, 5주 연속 하락",
+      "시장 우려 심화",
+      "투자 심리 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
-    "type": "해외"
-  },
-  {
-    "title": "월스트리트를 안심시키는 트럼프의 능력이 한계에 도달함에 따라 시장은 폭락하고 미국 유가는 100달러에 도달했습니다.",
-    "original_title": "Markets plunge and U.S. oil hits $100 as Trump's ability to reassure Wall Street hits its limit - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
-    "publisher": "NBC News",
-    "summary": [
-      "시장 급락 및 유가 100달러 도달",
-      "트럼프, 월스트리트를 안심시키지 못함",
-      "투자자 불안 심화 및 신뢰 상실"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.75,
-    "type": "해외"
-  },
-  {
-    "title": "이번 주 경제 데이터에서 주목해야 할 사항(3월 30일~4월 3일) - kiplinger.com",
-    "original_title": "What to Look Out for in Economic Data This Week (March 30-April 3) - kiplinger.com",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-    "publisher": "kiplinger.com",
-    "summary": [
-      "주요 경제 지표 발표 예정",
-      "소비자 신뢰도 조사 중요",
-      "실업률 변화 주목 필요"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
