@@ -63,6 +63,7 @@ tzlocal==5.3.1
 update-checker==0.18.0
 urllib3==2.6.3
 uvicorn==0.41.0
+gunicorn==23.0.0
 vadersentiment==3.3.2
 watchfiles==1.1.1
 websocket-client==1.9.0
