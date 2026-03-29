@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국에서 47.6만명 부자",
-      "부동산보다 주식 유망",
-      "금융자산 증가 추세"
+      "부자로 분류된 인구 47.6만명",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "경향신문",
     "summary": [
       "추가 예산 편성 필요성 강조",
-      "조속한 대응 필요",
-      "경제 불확실성 해결 모색"
+      "Lee Chang-yong의 강력한 발언",
+      "경제 활성화 기대감 표출"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0TElscFBaSWQwOUtHaE9mb3ltaHpaM3dZNXlOS0ZYOWdFMGNaV2FIMHFGVEFNOVAwZFBDbWppclpYTEM2UkVHUnhCd3VYWkNYYWhHRF93UWh4QWE0dWxvWEM5dXJuX2NOYnpRYw?oc=5",
     "publisher": "뉴스코리아",
     "summary": [
-      "경제 동향에 대한 분석 제공",
-      "재정 정책의 중요성 강조",
-      "미래 전망에 대한 긍정적 시각"
+      "한국 경제의 현재 상황 설명",
+      "금융 정책의 중요성 강조",
+      "미래 전망에 대한 논의"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국 시장 5주 연속 하락",
-      "투자자들 불안감 커짐",
-      "경제 전망에 회의적"
+      "미국 주식 시장 장 하락",
+      "5주 연속 하락 마감",
+      "경제 전망 불투명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   },
   {
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "트럼프의 시장 안정 능력 한계",
-      "미국 유가 100달러 돌파",
-      "주식 시장 급락"
+      "시장 급락 및 유가 100달러 도달",
+      "트럼프, 월스트리트를 안심시키지 못함",
+      "투자자 불안 심화 및 신뢰 상실"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.75,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제 데이터에서 주목해야 할 사항(3월 30일~4월 3일) - Kiplinger",
-    "original_title": "What to Look Out for in Economic Data This Week (March 30-April 3) - Kiplinger",
+    "title": "이번 주 경제 데이터에서 주목해야 할 사항(3월 30일~4월 3일) - kiplinger.com",
+    "original_title": "What to Look Out for in Economic Data This Week (March 30-April 3) - kiplinger.com",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-    "publisher": "Kiplinger",
+    "publisher": "kiplinger.com",
     "summary": [
-      "경제 지표 발표 예정",
-      "소비자 신뢰 지수 주목",
-      "금리 변화 영향 분석"
+      "주요 경제 지표 발표 예정",
+      "소비자 신뢰도 조사 중요",
+      "실업률 변화 주목 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
