@@ -1,41 +1,41 @@
 [
   {
-    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "외국인 순매도 20조, 역대 최대",
-      "시총 대비 크지 않다는 분석",
-      "시장 영향은 제한적일 것으로 예상"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자는 47.6만명",
+      "한국에서 47.6만명 부자",
       "부동산보다 주식 유망",
-      "금융자산 10억 이상"
+      "금융자산 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
-    "publisher": "한겨레",
+    "title": "Lee Chang-yong “Need to compile an extra budget as soon as possible” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XcW03bEJodEhIYzFnaVZsU0xDcWdsUmlFbzJCUHBZOUQxZk1hVExkYW5xMVV4R0Q2T1FGZFBvb2U4bTJOenFrZ1p5NFZVZzhIR3ZIcmtnRmt0eEt3cHc?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 상승세",
-      "3%대 주담대 사라짐"
+      "추가 예산 편성 필요성 강조",
+      "조속한 대응 필요",
+      "경제 불확실성 해결 모색"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "[칼럼] Korea Story 18 - Economy and Finance 1 by Atty Jeong-kee Kim - 뉴스코리아",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0TElscFBaSWQwOUtHaE9mb3ltaHpaM3dZNXlOS0ZYOWdFMGNaV2FIMHFGVEFNOVAwZFBDbWppclpYTEM2UkVHUnhCd3VYWkNYYWhHRF93UWh4QWE0dWxvWEM5dXJuX2NOYnpRYw?oc=5",
+    "publisher": "뉴스코리아",
+    "summary": [
+      "경제 동향에 대한 분석 제공",
+      "재정 정책의 중요성 강조",
+      "미래 전망에 대한 긍정적 시각"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국 증시, 5주 연속 하락",
-      "경제 불확실성 지속",
-      "투자자 우려 커짐"
+      "미국 시장 5주 연속 하락",
+      "투자자들 불안감 커짐",
+      "경제 전망에 회의적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "트럼프가 월스트리트를 안심시키지 못하자 시장은 폭락하고 미국 유가는 100달러에 도달했습니다.",
-    "original_title": "Markets plunge and U.S. oil hits $100 as Trump fails to reassure Wall Street - NBC News",
+    "title": "월스트리트를 안심시키는 트럼프의 능력이 한계에 도달함에 따라 시장은 폭락하고 미국 유가는 100달러에 도달했습니다.",
+    "original_title": "Markets plunge and U.S. oil hits $100 as Trump's ability to reassure Wall Street hits its limit - NBC News",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "시장이 급락했다",
-      "미국 원유가 100달러 도달",
-      "트럼프가 월가를 안심시키지 못함"
+      "트럼프의 시장 안정 능력 한계",
+      "미국 유가 100달러 돌파",
+      "주식 시장 급락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "중요한 경제 지표 발표 예정",
-      "소비자 신뢰도 주목",
-      "일자리 데이터 분석 필요"
+      "경제 지표 발표 예정",
+      "소비자 신뢰 지수 주목",
+      "금리 변화 영향 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
