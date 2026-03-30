@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유",
-      "주식이 더 유망",
-      "부동산 투자 감소"
+      "부자 47.6만명, 금융자산 10억 이상",
+      "주식이 부동산보다 유망",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,26 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 종료로 시장금리 상승",
-      "3%대 주담대 사라져",
-      "주택담보대출 부담 증가 우려"
+      "금리 인하 사이클 종료",
+      "시장금리 급등",
+      "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "title": "주담대 금리 2년 만에 6%대…대출문 더 좁아진다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DV1BwdEFiMTdKOW1TYVZmaTE3QzdHN3VYTXhhT0RNWWdKR1Y1TzUtQlM1NEtxNVdyWXl3WVBSbkRLTFVmVTlQNXY1WlBnaWVFc2pJaGVmQVZWS0JnOVA4RDJtU0kwZlk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세 미약하다고 평가",
-      "경제 상황 우려감 존재"
+      "주담대 금리 6%대 돌파",
+      "대출문 좁아질 가능성",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
+  },
+  {
+    "title": "2026년 미국은 경기 침체에 들어갈 것인가? 데이터가 제안하는 것은 다음과 같습니다. - 가지각색의 바보",
+    "original_title": "Will the U.S. Enter a Recession in 2026? Here's What the Data Suggests. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTktTOFNaLXoxa0o4TjdNQXRJRllSREtpV2hKQWlpMEtGdFluOVlta0VnWVpIM3V3cTlkdlhHejV2YzM3MzdXLUxxZHJQR0NLRE5OZGF3VG5VbGVHSkxqMWdGdGFDb2Roc2pmaEVoN0tPYXYzV1l2elVDREdSanMxLUhBTWtoenk1c1V2RzVOZmV6WGxwczI3bA?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "2026년 경기 침체 가능성 분석",
+      "데이터에 따른 예측 제시",
+      "경제 불확실성 여전"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 성장은 지속되고 있음",
-      "경제 회복의 신호 발견",
-      "투자자 신뢰 향상 중"
+      "주식 시장의 안정적 흐름",
+      "경제 성장 기대감",
+      "투자 기회 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "전쟁에 휘말린 시장에 대한 경제 전망을 제공하는 미국 고용 데이터 부터 Reuters - Investing.com",
-    "original_title": "US jobs data to give economic view for war-gripped markets By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdUZKTTNBMlI3YUxyb2dSTmN3VE93LVNiNnFyRURSWXBWc2QxZnpuMTBzaU5WZ29YUmZUTzZmMG90TjV6Z25BV2RaclhUT0xldmZmS0E3R25MYmpLWUctVl84UkZUaEJ3cDUta1dfNldzd3d0T19SRFZJMHBRNHhDWnRZTTJWNVFzVjlZb0hRUlRTRUQ1aGtNUDdIQmxsS29rWUFSV0JaT1J3SDhnRHc?oc=5",
-    "publisher": "Investing.com",
-    "summary": [
-      "미국 고용 데이터 발표 예정",
-      "전쟁으로 인한 시장 영향",
-      "경제 전망에 중요한 지표"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - theguardian.com",
-    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - theguardian.com",
+    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - The Guardian",
+    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
-    "publisher": "theguardian.com",
+    "publisher": "The Guardian",
     "summary": [
-      "미국 주식, 5주 연속 하락",
-      "시장 우려 심화",
-      "투자 심리 부정적"
+      "미국 주식시장 5주 연속 하락",
+      "투자자 불안 증대",
+      "경제 전망 부정적 인식"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
