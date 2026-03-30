@@ -4,53 +4,39 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명, 금융자산 10억 이상",
-      "주식이 부동산보다 유망",
-      "경제 성장 기대감 증가"
+      "부자는 47.6만명에 달함",
+      "부동산보다 주식 선호",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 급등",
-      "3%대 주담대 사라짐"
+      "내년 한국 경제 2.1% 성장 예상",
+      "회복세는 미약할 것",
+      "경제 전망에 대한 우려 남아"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "주담대 금리 2년 만에 6%대…대출문 더 좁아진다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DV1BwdEFiMTdKOW1TYVZmaTE3QzdHN3VYTXhhT0RNWWdKR1Y1TzUtQlM1NEtxNVdyWXl3WVBSbkRLTFVmVTlQNXY1WlBnaWVFc2pJaGVmQVZWS0JnOVA4RDJtU0kwZlk?oc=5",
-    "publisher": "한겨레",
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "주담대 금리 6%대 돌파",
-      "대출문 좁아질 가능성",
-      "경제 불확실성 증가"
+      "IMF 한국 성장률 1.9% 상향 조정",
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "성장 전망은 긍정적이나 주의 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "2026년 미국은 경기 침체에 들어갈 것인가? 데이터가 제안하는 것은 다음과 같습니다. - 가지각색의 바보",
-    "original_title": "Will the U.S. Enter a Recession in 2026? Here's What the Data Suggests. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTktTOFNaLXoxa0o4TjdNQXRJRllSREtpV2hKQWlpMEtGdFluOVlta0VnWVpIM3V3cTlkdlhHejV2YzM3MzdXLUxxZHJQR0NLRE5OZGF3VG5VbGVHSkxqMWdGdGFDb2Roc2pmaEVoN0tPYXYzV1l2elVDREdSanMxLUhBTWtoenk1c1V2RzVOZmV6WGxwczI3bA?oc=5",
-    "publisher": "The Motley Fool",
-    "summary": [
-      "2026년 경기 침체 가능성 분석",
-      "데이터에 따른 예측 제시",
-      "경제 불확실성 여전"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장의 안정적 흐름",
-      "경제 성장 기대감",
-      "투자 기회 증가"
+      "주식시장 안정세 지속",
+      "경제 성장세 긍정적",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국 주식시장 5주 연속 하락",
-      "투자자 불안 증대",
-      "경제 전망 부정적 인식"
+      "미국 증시 5주 연속 하락",
+      "시장 안정성 우려",
+      "투자자 신뢰 감소"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
+    "type": "해외"
+  },
+  {
+    "title": "2026년 미국은 경기 침체에 들어갈 것인가? 데이터가 제안하는 것은 다음과 같습니다. - 가지각색의 바보",
+    "original_title": "Will the U.S. Enter a Recession in 2026? Here's What the Data Suggests. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTktTOFNaLXoxa0o4TjdNQXRJRllSREtpV2hKQWlpMEtGdFluOVlta0VnWVpIM3V3cTlkdlhHejV2YzM3MzdXLUxxZHJQR0NLRE5OZGF3VG5VbGVHSkxqMWdGdGFDb2Roc2pmaEVoN0tPYXYzV1l2elVDREdSanMxLUhBTWtoenk1c1V2RzVOZmV6WGxwczI3bA?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "2026년 경기침체 가능성 분석",
+      "데이터로 예측 결과 제시",
+      "경제 회복력에 대한 의견"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
