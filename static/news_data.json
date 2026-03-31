@@ -1,41 +1,41 @@
 [
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제는 성장세 지속 중",
-      "환율 하락 공식이 변동",
-      "경제 불확실성 우려"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10억 이상 금융자산 보유자 47.6만명",
-      "부동산보다 주식 유망하다는 의견",
-      "부자 증가 추세 반영"
+      "한국의 부자는 47.6만명",
+      "금융자산 10억 이상",
+      "부동산보다 주식이 유망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 선언",
-      "시장금리 불안정성 증가",
-      "3%대 주담대 사라짐"
+      "외국인 순매도 20조원 최다 기록",
+      "시총 대비 비중은 크지 않음",
+      "시장 과열 우려 완화"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 시 금융 위험 경고",
+      "경제 전망은 긍정적이나 위험요소 존재"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 경제 동향 분석",
-      "투자자 신뢰도 상승"
+      "트럼프 경제 정책의 영향 분석",
+      "주식 시장의 성장 요인",
+      "2026년 전망과 도전 과제"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식시장 안정세 보임",
-      "경제 성장 전망 긍정적",
-      "투자자 심리 개선됨"
+      "주식 시장 안정세 유지",
+      "경제 지표 개선",
+      "투자 심리 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - theguardian.com",
-    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - theguardian.com",
+    "title": "미국 주식시장, 5주 연속 폐쇄 | 미국 시장 - The Guardian",
+    "original_title": "US stock market caps off fifth consecutive week of closing down | US markets - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVhjOE55ckplY0phOGo0TlJlR05UTWtWUFVSeDQxb3dJdzJOMWYtLUlPbEpIQ2dCcHdtQlRSbnByZHVUMzk4dGg4ZGxfZkx4elViWHZUZDBnR3pIS3VEd0VsSVVwZy02LUlWMFB3MXJZTEF5UnpCZXFQRWlsTDg5RmVNYw?oc=5",
-    "publisher": "theguardian.com",
+    "publisher": "The Guardian",
     "summary": [
-      "미국 주식 시장 5주 연속 하락",
-      "경제 불확실성 지속",
-      "투자자 신뢰 약화"
+      "미국 주식 시장, 5주 연속 하락",
+      "투자자들 우려 증가",
+      "경제 전망 압박받아"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
