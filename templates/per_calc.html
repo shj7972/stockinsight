@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block title %}PER/PBR 계산기 | 주식 밸류에이션 무료 계산 - Stock Insight AI{% endblock %}
+{% block meta_description %}주가와 EPS, BPS를 입력하면 PER·PBR을 자동 계산합니다. 업종 평균 PER과 비교해 고평가·저평가 여부를 판단하세요{% endblock %}
+{% block og_title %}PER/PBR 계산기 | 주식 밸류에이션 계산 - Stock Insight AI{% endblock %}
+{% block og_description %}PER·PBR을 계산하고 업종 평균과 비교해 종목의 고평가·저평가 여부를 확인하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1rem;">
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+        <a href="/tools" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">🛠️ 도구/분석</a>
+        <span style="color:#475569;">›</span>
+        <span style="color:#f8fafc; font-size:0.85rem;">PER/PBR 계산기</span>
+    </div>
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">📊</span> PER / PBR 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">주가와 EPS·BPS를 입력해 밸류에이션 지표를 계산하고 업종 평균과 비교해보세요.</p>
+</div>
+
+<div class="calculator-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <!-- 입력 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 입력 정보</h3>
+
+        <div class="input-group">
+            <label for="stockPrice">현재 주가 (원/$)</label>
+            <input type="number" id="stockPrice" value="50000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="eps">EPS — 주당 순이익 (원/$)</label>
+            <input type="number" id="eps" value="3000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="bps">BPS — 주당 순자산 (원/$)</label>
+            <input type="number" id="bps" value="25000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="sectorPer">업종 평균 PER (비교용, 선택)</label>
+            <input type="number" id="sectorPer" value="15" step="any" class="styled-input">
+        </div>
+
+        <button onclick="calcPerPbr()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- 결과 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">PER (주가 / EPS)</div>
+            <div class="result-value" id="perResult">-</div>
+        </div>
+        <div class="result-item">
+            <div class="result-label">PBR (주가 / BPS)</div>
+            <div class="result-value" id="pbrResult">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="result-item highlight">
+            <div class="result-label">업종 평균 PER 대비 평가</div>
+            <div class="result-value" id="perJudge" style="font-size: 1.4rem;">-</div>
+        </div>
+        <div class="result-item" style="margin-top:1rem;">
+            <div class="result-label">업종 평균 PER 기준 적정주가</div>
+            <div class="result-value" id="fairPrice">-</div>
+        </div>
+
+        <div style="margin-top: 1.5rem; font-size: 0.85rem; color: #64748b; line-height: 1.6;">
+            <p>• PER &lt; 10: 저평가 가능성</p>
+            <p>• PBR &lt; 1: 청산가치 이하</p>
+            <p>• PBR &gt; 3: 고평가 주의</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group { margin-bottom: 1.25rem; }
+    .input-group label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .styled-input { width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; padding: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+    .action-btn { width: 100%; margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+    .action-btn:hover { transform: translateY(-2px); }
+    .result-item { margin-bottom: 1rem; }
+    .result-label { color: #94a3b8; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .result-value { font-size: 1.5rem; font-weight: 700; color: #f8fafc; }
+    @media (max-width: 768px) { .calculator-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+    function calcPerPbr() {
+        const price = parseFloat(document.getElementById('stockPrice').value);
+        const eps = parseFloat(document.getElementById('eps').value);
+        const bps = parseFloat(document.getElementById('bps').value);
+        const sectorPer = parseFloat(document.getElementById('sectorPer').value);
+
+        if (isNaN(price) || isNaN(eps) || isNaN(bps)) return;
+
+        const per = eps !== 0 ? price / eps : null;
+        const pbr = bps !== 0 ? price / bps : null;
+
+        document.getElementById('perResult').innerText = per !== null ? per.toFixed(2) + 'x' : '-';
+        document.getElementById('pbrResult').innerText = pbr !== null ? pbr.toFixed(2) + 'x' : '-';
+
+        if (per !== null && !isNaN(sectorPer) && sectorPer > 0) {
+            const fairPrice = eps * sectorPer;
+            const diff = ((price - fairPrice) / fairPrice) * 100;
+            const judgeEl = document.getElementById('perJudge');
+            if (diff > 10) {
+                judgeEl.innerText = '고평가 (' + diff.toFixed(1) + '% 초과)';
+                judgeEl.style.color = '#f44336';
+            } else if (diff < -10) {
+                judgeEl.innerText = '저평가 (' + Math.abs(diff).toFixed(1) + '% 할인)';
+                judgeEl.style.color = '#4CAF50';
+            } else {
+                judgeEl.innerText = '적정 수준 (' + (diff >= 0 ? '+' : '') + diff.toFixed(1) + '%)';
+                judgeEl.style.color = '#f8fafc';
+            }
+            document.getElementById('fairPrice').innerText = fairPrice.toLocaleString(undefined, {maximumFractionDigits: 0});
+        } else {
+            document.getElementById('perJudge').innerText = '업종 PER 입력 시 표시';
+            document.getElementById('fairPrice').innerText = '-';
+        }
+    }
+    calcPerPbr();
+</script>
+{% endblock %}

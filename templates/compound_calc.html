@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}복리 계산기 | 장기 투자 수익 예측 무료 계산 - Stock Insight AI{% endblock %}
+{% block meta_description %}초기 투자금, 연 수익률, 투자 기간을 입력하면 복리 효과로 미래 자산 규모를 자동 계산합니다. 장기 투자 계획 수립에 활용하세요{% endblock %}
+{% block og_title %}복리 계산기 | 장기 투자 수익 예측 - Stock Insight AI{% endblock %}
+{% block og_description %}복리 효과로 내 투자금이 얼마나 불어나는지 연도별로 확인하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1rem;">
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+        <a href="/tools" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">🛠️ 도구/분석</a>
+        <span style="color:#475569;">›</span>
+        <span style="color:#f8fafc; font-size:0.85rem;">복리 계산기</span>
+    </div>
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">📈</span> 복리 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">장기 투자 시 복리 효과로 자산이 얼마나 성장하는지 확인하세요.</p>
+</div>
+
+<div class="calculator-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <!-- 입력 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 입력 정보</h3>
+
+        <div class="input-group">
+            <label for="principal">초기 투자금 (원/$)</label>
+            <input type="number" id="principal" value="10000000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="monthly">월 추가 적립금 (원/$, 선택)</label>
+            <input type="number" id="monthly" value="500000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="annualRate">연 수익률 (%)</label>
+            <input type="number" id="annualRate" value="10" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="investYears">투자 기간 (년)</label>
+            <input type="number" id="investYears" value="20" min="1" max="50" step="1" class="styled-input">
+        </div>
+
+        <button onclick="calcCompound()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- 결과 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">최종 자산</div>
+            <div class="result-value" id="finalAmount" style="font-size: 2rem; color: #4CAF50;">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="breakdown" style="font-size: 0.9rem; color: #94a3b8;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>총 투자 원금:</span>
+                <span id="totalPrincipal" style="color:#f8fafc;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>총 수익금:</span>
+                <span id="totalGain" style="color:#4CAF50;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <span>수익률:</span>
+                <span id="totalReturn" style="color:#4CAF50;">-</span>
+            </div>
+        </div>
+
+        <div id="yearTable" style="margin-top: 1.5rem; max-height: 200px; overflow-y: auto; font-size: 0.82rem;"></div>
+    </div>
+</div>
+
+<style>
+    .input-group { margin-bottom: 1.25rem; }
+    .input-group label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .styled-input { width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; padding: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+    .action-btn { width: 100%; margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+    .action-btn:hover { transform: translateY(-2px); }
+    .result-item { margin-bottom: 1rem; }
+    .result-label { color: #94a3b8; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .result-value { font-size: 1.5rem; font-weight: 700; color: #f8fafc; }
+    #yearTable table { width: 100%; border-collapse: collapse; }
+    #yearTable th { color: #64748b; padding: 0.3rem 0.5rem; text-align: right; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    #yearTable th:first-child { text-align: left; }
+    #yearTable td { padding: 0.3rem 0.5rem; text-align: right; color: #94a3b8; }
+    #yearTable td:first-child { text-align: left; color: #f8fafc; }
+    @media (max-width: 768px) { .calculator-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+    function calcCompound() {
+        const principal = parseFloat(document.getElementById('principal').value) || 0;
+        const monthly = parseFloat(document.getElementById('monthly').value) || 0;
+        const rate = parseFloat(document.getElementById('annualRate').value) / 100;
+        const years = parseInt(document.getElementById('investYears').value) || 1;
+
+        const monthlyRate = rate / 12;
+        const fmt = (n) => n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+
+        let balance = principal;
+        let rows = '';
+        for (let y = 1; y <= years; y++) {
+            for (let m = 0; m < 12; m++) {
+                balance = balance * (1 + monthlyRate) + monthly;
+            }
+            const totalInvested = principal + monthly * 12 * y;
+            rows += `<tr><td>${y}년</td><td>${fmt(totalInvested)}</td><td style="color:#4CAF50;">${fmt(balance)}</td></tr>`;
+        }
+
+        const totalInvested = principal + monthly * 12 * years;
+        const gain = balance - totalInvested;
+        const totalReturn = totalInvested > 0 ? (gain / totalInvested) * 100 : 0;
+
+        document.getElementById('finalAmount').innerText = fmt(balance);
+        document.getElementById('totalPrincipal').innerText = fmt(totalInvested);
+        document.getElementById('totalGain').innerText = '+' + fmt(gain);
+        document.getElementById('totalReturn').innerText = '+' + totalReturn.toFixed(1) + '%';
+        document.getElementById('yearTable').innerHTML = `
+            <table>
+                <tr><th>연도</th><th>투자원금</th><th>평가금액</th></tr>
+                ${rows}
+            </table>`;
+    }
+    calcCompound();
+</script>
+{% endblock %}

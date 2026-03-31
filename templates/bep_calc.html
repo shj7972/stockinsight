@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}손익분기점 계산기 | 주식 BEP 무료 계산 - Stock Insight AI{% endblock %}
+{% block meta_description %}매수가와 수수료를 입력하면 실제 손익분기점 주가를 자동 계산합니다. 추가 매수 시 평균 단가와 BEP도 계산 가능합니다{% endblock %}
+{% block og_title %}손익분기점 계산기 | 주식 BEP 계산 - Stock Insight AI{% endblock %}
+{% block og_description %}수수료를 포함한 실제 손익분기점 주가와 추가 매수 시 평균 단가를 계산하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1rem;">
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+        <a href="/tools" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">🛠️ 도구/분석</a>
+        <span style="color:#475569;">›</span>
+        <span style="color:#f8fafc; font-size:0.85rem;">손익분기점 계산기</span>
+    </div>
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">⚖️</span> 손익분기점 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">수수료를 반영한 실제 BEP와 추가 매수 시 평균 단가를 계산해보세요.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;" class="calculator-grid">
+    <!-- 입력 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 1차 매수</h3>
+
+        <div class="input-group">
+            <label for="buy1Price">매수 단가 (원/$)</label>
+            <input type="number" id="buy1Price" value="50000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="buy1Qty">수량 (주)</label>
+            <input type="number" id="buy1Qty" value="100" step="1" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="bepFee">수수료율 (%)</label>
+            <input type="number" id="bepFee" value="0.015" step="0.001" class="styled-input">
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+        <h3 style="margin-top: 0; color: #94a3b8; font-size: 1rem;">➕ 추가 매수 (선택)</h3>
+
+        <div class="input-group">
+            <label for="buy2Price">추가 매수 단가 (원/$)</label>
+            <input type="number" id="buy2Price" value="" step="any" class="styled-input" placeholder="입력 시 평균단가 계산">
+        </div>
+        <div class="input-group">
+            <label for="buy2Qty">추가 수량 (주)</label>
+            <input type="number" id="buy2Qty" value="" step="1" class="styled-input" placeholder="입력 시 평균단가 계산">
+        </div>
+
+        <button onclick="calcBep()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- 결과 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">총 매수 금액 (수수료 포함)</div>
+            <div class="result-value" id="totalCost">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="result-item highlight">
+            <div class="result-label">손익분기점 (BEP) 주가</div>
+            <div class="result-value" id="bepPrice" style="font-size: 2rem; color: #f59e0b;">-</div>
+            <div style="color: #64748b; font-size: 0.82rem; margin-top: 0.25rem;">이 가격에 매도 시 수수료 포함 본전</div>
+        </div>
+
+        <div class="breakdown" style="margin-top: 1.5rem; font-size: 0.9rem; color: #94a3b8;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>총 보유 수량:</span>
+                <span id="totalQty" style="color:#f8fafc;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>평균 매수 단가:</span>
+                <span id="avgPrice" style="color:#f8fafc;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <span>총 수수료:</span>
+                <span id="totalFeeDisp" style="color:#fca5a5;">-</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group { margin-bottom: 1.25rem; }
+    .input-group label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .styled-input { width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; padding: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+    .styled-input::placeholder { color: #475569; }
+    .action-btn { width: 100%; margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+    .action-btn:hover { transform: translateY(-2px); }
+    .result-item { margin-bottom: 1rem; }
+    .result-label { color: #94a3b8; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .result-value { font-size: 1.5rem; font-weight: 700; color: #f8fafc; }
+    @media (max-width: 768px) { .calculator-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+    function calcBep() {
+        const p1 = parseFloat(document.getElementById('buy1Price').value);
+        const q1 = parseFloat(document.getElementById('buy1Qty').value);
+        const fee = parseFloat(document.getElementById('bepFee').value) / 100;
+        const p2 = parseFloat(document.getElementById('buy2Price').value);
+        const q2 = parseFloat(document.getElementById('buy2Qty').value);
+
+        if (isNaN(p1) || isNaN(q1)) return;
+
+        const fmt = (n) => n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+        const fmt2 = (n) => n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+
+        let totalAmount = p1 * q1;
+        let totalQty = q1;
+
+        if (!isNaN(p2) && !isNaN(q2) && p2 > 0 && q2 > 0) {
+            totalAmount += p2 * q2;
+            totalQty += q2;
+        }
+
+        const buyFee = totalAmount * fee;
+        const totalCost = totalAmount + buyFee;
+        const avgPrice = totalQty > 0 ? totalAmount / totalQty : 0;
+
+        // BEP: 매도 시 수수료까지 포함해서 본전이 되는 주가
+        // totalCost = bepPrice * totalQty * (1 - fee)
+        const bepPrice = totalQty > 0 ? totalCost / (totalQty * (1 - fee)) : 0;
+
+        const sellFeeAtBep = bepPrice * totalQty * fee;
+        const totalFee = buyFee + sellFeeAtBep;
+
+        document.getElementById('totalCost').innerText = fmt(totalCost);
+        document.getElementById('bepPrice').innerText = fmt2(bepPrice);
+        document.getElementById('totalQty').innerText = fmt(totalQty) + '주';
+        document.getElementById('avgPrice').innerText = fmt2(avgPrice);
+        document.getElementById('totalFeeDisp').innerText = '-' + fmt(totalFee);
+    }
+    calcBep();
+</script>
+{% endblock %}

@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}목표주가 계산기 | EPS × 적정PER 무료 계산 - Stock Insight AI{% endblock %}
+{% block meta_description %}EPS와 적정 PER을 입력하면 목표주가와 현재 주가 대비 상승 여력을 자동 계산합니다. 투자 전 적정 가치 판단에 활용하세요{% endblock %}
+{% block og_title %}목표주가 계산기 | 상승 여력 계산 - Stock Insight AI{% endblock %}
+{% block og_description %}EPS × 적정PER로 목표주가를 계산하고 현재 주가 대비 상승/하락 여력을 확인하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1rem;">
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+        <a href="/tools" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">🛠️ 도구/분석</a>
+        <span style="color:#475569;">›</span>
+        <span style="color:#f8fafc; font-size:0.85rem;">목표주가 계산기</span>
+    </div>
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">🎯</span> 목표주가 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">EPS × 적정 PER로 목표주가를 계산하고 상승 여력을 확인하세요.</p>
+</div>
+
+<div class="calculator-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <!-- 입력 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 입력 정보</h3>
+
+        <div class="input-group">
+            <label for="currentPrice">현재 주가 (원/$)</label>
+            <input type="number" id="currentPrice" value="50000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="epsInput">EPS — 주당 순이익 (원/$)</label>
+            <input type="number" id="epsInput" value="3000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="epsGrowth">예상 EPS 성장률 (%/년, 선택)</label>
+            <input type="number" id="epsGrowth" value="10" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="targetPer">적정 PER (배)</label>
+            <input type="number" id="targetPer" value="15" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="years">목표 기간 (년)</label>
+            <input type="number" id="years" value="1" min="1" max="10" step="1" class="styled-input">
+        </div>
+
+        <button onclick="calcTarget()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- 결과 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">목표 기간 후 예상 EPS</div>
+            <div class="result-value" id="futureEps">-</div>
+        </div>
+        <div class="result-item">
+            <div class="result-label">목표주가 (예상 EPS × 적정 PER)</div>
+            <div class="result-value" id="targetPrice">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="result-item highlight">
+            <div class="result-label">상승 여력</div>
+            <div class="result-value" id="upside" style="font-size: 2rem;">-</div>
+        </div>
+
+        <div class="breakdown" style="margin-top: 1.5rem; font-size: 0.9rem; color: #94a3b8;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>현재 주가:</span>
+                <span id="currentPriceDisplay">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>현재 PER:</span>
+                <span id="currentPer">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <span>목표 기간:</span>
+                <span id="yearsDisplay">-</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group { margin-bottom: 1.25rem; }
+    .input-group label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .styled-input { width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; padding: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+    .action-btn { width: 100%; margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+    .action-btn:hover { transform: translateY(-2px); }
+    .result-item { margin-bottom: 1rem; }
+    .result-label { color: #94a3b8; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .result-value { font-size: 1.5rem; font-weight: 700; color: #f8fafc; }
+    @media (max-width: 768px) { .calculator-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+    function calcTarget() {
+        const current = parseFloat(document.getElementById('currentPrice').value);
+        const eps = parseFloat(document.getElementById('epsInput').value);
+        const growth = parseFloat(document.getElementById('epsGrowth').value) || 0;
+        const per = parseFloat(document.getElementById('targetPer').value);
+        const years = parseInt(document.getElementById('years').value) || 1;
+
+        if (isNaN(current) || isNaN(eps) || isNaN(per)) return;
+
+        const futureEps = eps * Math.pow(1 + growth / 100, years);
+        const target = futureEps * per;
+        const upside = ((target - current) / current) * 100;
+        const currentPer = eps > 0 ? current / eps : null;
+
+        const fmt = (n) => n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+
+        document.getElementById('futureEps').innerText = fmt(futureEps);
+        document.getElementById('targetPrice').innerText = fmt(target);
+        document.getElementById('currentPriceDisplay').innerText = fmt(current);
+        document.getElementById('currentPer').innerText = currentPer !== null ? currentPer.toFixed(1) + 'x' : '-';
+        document.getElementById('yearsDisplay').innerText = years + '년';
+
+        const upsideEl = document.getElementById('upside');
+        upsideEl.innerText = (upside >= 0 ? '+' : '') + upside.toFixed(1) + '%';
+        upsideEl.style.color = upside >= 0 ? '#4CAF50' : '#f44336';
+    }
+    calcTarget();
+</script>
+{% endblock %}

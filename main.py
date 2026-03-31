@@ -612,10 +612,70 @@ async def ads_txt():
         content = f.read()
     return content
 
+@app.get("/tools", response_class=HTMLResponse)
+async def tools_hub(request: Request):
+    """Tools Hub Page"""
+    return templates.TemplateResponse("tools.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
 @app.get("/yield-calculator", response_class=HTMLResponse)
 async def yield_calculator(request: Request):
     """Yield Calculator Page"""
     return templates.TemplateResponse("yield_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/per-calculator", response_class=HTMLResponse)
+async def per_calculator(request: Request):
+    """PER/PBR Calculator Page"""
+    return templates.TemplateResponse("per_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/target-price-calculator", response_class=HTMLResponse)
+async def target_price_calculator(request: Request):
+    """Target Price Calculator Page"""
+    return templates.TemplateResponse("target_price.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/compound-calculator", response_class=HTMLResponse)
+async def compound_calculator(request: Request):
+    """Compound Interest Calculator Page"""
+    return templates.TemplateResponse("compound_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/dividend-calculator", response_class=HTMLResponse)
+async def dividend_calculator(request: Request):
+    """Dividend Yield Calculator Page"""
+    return templates.TemplateResponse("dividend_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/bep-calculator", response_class=HTMLResponse)
+async def bep_calculator(request: Request):
+    """Break-Even Point Calculator Page"""
+    return templates.TemplateResponse("bep_calc.html", {
         "request": request,
         "selected_ticker": "",
         "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),

@@ -237,9 +237,9 @@
                 <a href="/daily-report" class="nav-item {% if request.url.path == '/daily-report' %}active{% endif %}">
                     <span>📋</span> 일일리포트
                 </a>
-                <a href="/yield-calculator"
-                    class="nav-item {% if request.url.path == '/yield-calculator' %}active{% endif %}">
-                    <span>🧮</span> 수익률 계산기
+                <a href="/tools"
+                    class="nav-item {% if request.url.path.startswith('/tools') or request.url.path in ['/yield-calculator','/per-calculator','/target-price-calculator','/compound-calculator','/dividend-calculator','/bep-calculator'] %}active{% endif %}">
+                    <span>🛠️</span> 도구/분석
                 </a>
                 <a href="/fear-greed-index"
                     class="nav-item {% if request.url.path == '/fear-greed-index' %}active{% endif %}">

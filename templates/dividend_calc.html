@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}배당 수익률 계산기 | 세후 배당금 무료 계산 - Stock Insight AI{% endblock %}
+{% block meta_description %}주가와 연간 배당금을 입력하면 배당 수익률과 세후 실수령 배당금을 자동 계산합니다. 배당주 투자 판단에 활용하세요{% endblock %}
+{% block og_title %}배당 수익률 계산기 | 세후 실수령 배당금 계산 - Stock Insight AI{% endblock %}
+{% block og_description %}배당 수익률과 세후 실수령액을 계산하고 투자 원금 회수 기간을 확인하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 1rem;">
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+        <a href="/tools" style="color:#94a3b8; font-size:0.85rem; text-decoration:none;">🛠️ 도구/분석</a>
+        <span style="color:#475569;">›</span>
+        <span style="color:#f8fafc; font-size:0.85rem;">배당 수익률 계산기</span>
+    </div>
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">💰</span> 배당 수익률 계산기
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">배당 수익률과 세후 실수령액, 원금 회수 기간을 계산해보세요.</p>
+</div>
+
+<div class="calculator-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <!-- 입력 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📥 입력 정보</h3>
+
+        <div class="input-group">
+            <label for="stockPriceDiv">매수 주가 (원/$)</label>
+            <input type="number" id="stockPriceDiv" value="50000" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="sharesDiv">보유 수량 (주)</label>
+            <input type="number" id="sharesDiv" value="100" step="1" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="annualDividend">연간 주당 배당금 (원/$)</label>
+            <input type="number" id="annualDividend" value="1500" step="any" class="styled-input">
+        </div>
+        <div class="input-group">
+            <label for="taxRate">배당 세율 (%)</label>
+            <input type="number" id="taxRate" value="15.4" step="any" class="styled-input">
+            <small style="color:#64748b; font-size:0.78rem;">국내 15.4% / 미국 주식 15%</small>
+        </div>
+
+        <button onclick="calcDividend()" class="action-btn">계산하기</button>
+    </div>
+
+    <!-- 결과 -->
+    <div class="glass-panel">
+        <h3 style="margin-top: 0;">📊 계산 결과</h3>
+
+        <div class="result-item">
+            <div class="result-label">배당 수익률 (세전)</div>
+            <div class="result-value" id="divYield">-</div>
+        </div>
+        <div class="result-item">
+            <div class="result-label">연간 배당금 (세전)</div>
+            <div class="result-value" id="annualGross">-</div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.1); margin: 1.5rem 0;">
+
+        <div class="result-item highlight">
+            <div class="result-label">연간 배당금 (세후 실수령)</div>
+            <div class="result-value" id="annualNet" style="font-size: 2rem; color: #4CAF50;">-</div>
+        </div>
+
+        <div class="breakdown" style="margin-top: 1.5rem; font-size: 0.9rem; color: #94a3b8;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>총 투자 원금:</span>
+                <span id="totalInvested" style="color:#f8fafc;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span>원금 회수 기간:</span>
+                <span id="paybackYears" style="color:#f8fafc;">-</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <span>세후 배당 수익률:</span>
+                <span id="netYield" style="color:#4CAF50;">-</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group { margin-bottom: 1.25rem; }
+    .input-group label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    .styled-input { width: 100%; background: rgba(15,23,42,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; padding: 0.8rem; font-size: 1rem; box-sizing: border-box; }
+    .action-btn { width: 100%; margin-top: 1rem; padding: 1rem; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: transform 0.2s; }
+    .action-btn:hover { transform: translateY(-2px); }
+    .result-item { margin-bottom: 1rem; }
+    .result-label { color: #94a3b8; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .result-value { font-size: 1.5rem; font-weight: 700; color: #f8fafc; }
+    @media (max-width: 768px) { .calculator-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+    function calcDividend() {
+        const price = parseFloat(document.getElementById('stockPriceDiv').value);
+        const shares = parseFloat(document.getElementById('sharesDiv').value);
+        const dividend = parseFloat(document.getElementById('annualDividend').value);
+        const taxRate = parseFloat(document.getElementById('taxRate').value) / 100;
+
+        if (isNaN(price) || isNaN(shares) || isNaN(dividend)) return;
+
+        const fmt = (n) => n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+
+        const totalInvested = price * shares;
+        const annualGross = dividend * shares;
+        const annualNet = annualGross * (1 - taxRate);
+        const divYield = price > 0 ? (dividend / price) * 100 : 0;
+        const netYield = price > 0 ? (dividend * (1 - taxRate) / price) * 100 : 0;
+        const payback = annualNet > 0 ? totalInvested / annualNet : null;
+
+        document.getElementById('divYield').innerText = divYield.toFixed(2) + '%';
+        document.getElementById('annualGross').innerText = fmt(annualGross);
+        document.getElementById('annualNet').innerText = fmt(annualNet);
+        document.getElementById('totalInvested').innerText = fmt(totalInvested);
+        document.getElementById('paybackYears').innerText = payback !== null ? payback.toFixed(1) + '년' : '-';
+        document.getElementById('netYield').innerText = netYield.toFixed(2) + '%';
+    }
+    calcDividend();
+</script>
+{% endblock %}

@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}투자 도구/분석 | 주식 계산기 모음 - Stock Insight AI{% endblock %}
+{% block meta_description %}수익률 계산기, PER/PBR 계산기, 목표주가 계산기, 복리 계산기, 배당 수익률 계산기 등 주식 투자에 필요한 모든 도구를 무료로 제공합니다{% endblock %}
+{% block og_title %}투자 도구/분석 | 주식 계산기 모음 - Stock Insight AI{% endblock %}
+{% block og_description %}수익률·PER·복리·배당·손익분기점까지 투자에 필요한 모든 계산기를 한 곳에서 무료로 사용하세요{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
+    <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">🛠️</span> 투자 도구 / 분석
+    </h3>
+    <p style="color: #94a3b8; margin-top: 0.5rem;">주식 투자에 필요한 계산기와 분석 도구를 한 곳에서 사용해보세요.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+
+    <!-- 수익률 계산기 -->
+    <a href="/yield-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">🧮</div>
+            <div class="tool-title">수익률 계산기</div>
+            <div class="tool-desc">매수/매도 금액과 수수료를 입력해 실제 손익과 수익률을 계산합니다.</div>
+            <div class="tool-tag">기본</div>
+        </div>
+    </a>
+
+    <!-- PER/PBR 계산기 -->
+    <a href="/per-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">📊</div>
+            <div class="tool-title">PER / PBR 계산기</div>
+            <div class="tool-desc">주가와 EPS, BPS를 입력해 PER·PBR을 계산하고 업종 평균과 비교합니다.</div>
+            <div class="tool-tag">밸류에이션</div>
+        </div>
+    </a>
+
+    <!-- 목표주가 계산기 -->
+    <a href="/target-price-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">🎯</div>
+            <div class="tool-title">목표주가 계산기</div>
+            <div class="tool-desc">EPS와 적정 PER을 입력해 목표주가와 상승 여력을 계산합니다.</div>
+            <div class="tool-tag">밸류에이션</div>
+        </div>
+    </a>
+
+    <!-- 복리 계산기 -->
+    <a href="/compound-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">📈</div>
+            <div class="tool-title">복리 계산기</div>
+            <div class="tool-desc">초기 투자금과 연 수익률, 투자 기간을 입력해 장기 복리 수익을 예측합니다.</div>
+            <div class="tool-tag">장기투자</div>
+        </div>
+    </a>
+
+    <!-- 배당 수익률 계산기 -->
+    <a href="/dividend-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">💰</div>
+            <div class="tool-title">배당 수익률 계산기</div>
+            <div class="tool-desc">주가와 연간 배당금을 입력해 배당 수익률과 세후 실수령액을 계산합니다.</div>
+            <div class="tool-tag">배당투자</div>
+        </div>
+    </a>
+
+    <!-- 손익분기점 계산기 -->
+    <a href="/bep-calculator" style="text-decoration: none;">
+        <div class="glass-panel tool-card">
+            <div class="tool-icon">⚖️</div>
+            <div class="tool-title">손익분기점 계산기</div>
+            <div class="tool-desc">매수가와 수수료를 반영한 실제 손익분기점 주가를 계산합니다.</div>
+            <div class="tool-tag">리스크 관리</div>
+        </div>
+    </a>
+
+</div>
+
+<style>
+    .tool-card {
+        padding: 1.5rem;
+        cursor: pointer;
+        transition: transform 0.2s, border-color 0.2s;
+        border: 1px solid rgba(255,255,255,0.07);
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .tool-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(56, 189, 248, 0.4);
+    }
+    .tool-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+    .tool-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #f8fafc;
+        margin-bottom: 0.5rem;
+    }
+    .tool-desc {
+        font-size: 0.88rem;
+        color: #94a3b8;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    .tool-tag {
+        display: inline-block;
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        border-radius: 20px;
+        color: #38bdf8;
+    }
+</style>
+{% endblock %}
