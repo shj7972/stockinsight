@@ -238,17 +238,14 @@
                     <span>📋</span> 일일리포트
                 </a>
                 <a href="/tools"
-                    class="nav-item {% if request.url.path.startswith('/tools') or request.url.path in ['/yield-calculator','/per-calculator','/target-price-calculator','/compound-calculator','/dividend-calculator','/bep-calculator'] %}active{% endif %}">
+                    class="nav-item {% if request.url.path.startswith('/tools') or request.url.path in ['/yield-calculator','/per-calculator','/target-price-calculator','/compound-calculator','/dividend-calculator','/bep-calculator','/exchange-rate'] %}active{% endif %}">
                     <span>🛠️</span> 도구/분석
                 </a>
                 <a href="/fear-greed-index"
                     class="nav-item {% if request.url.path == '/fear-greed-index' %}active{% endif %}">
                     <span>😨</span> 공포/탐욕 지수
                 </a>
-                <a href="/exchange-rate"
-                    class="nav-item {% if request.url.path == '/exchange-rate' %}active{% endif %}">
-                    <span>💱</span> 환율 계산기
-                </a>
+
                 <a href="/etf-explorer" class="nav-item {% if request.url.path == '/etf-explorer' %}active{% endif %}">
                     <span>🔭</span> ETF 탐험가
                 </a>
