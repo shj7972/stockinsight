@@ -572,11 +572,12 @@ def _update_returns(history: list) -> list:
         raw = yf.download(list(all_tickers), period="5d", auto_adjust=True, progress=False)
         close = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw
         if isinstance(close, pd.DataFrame):
-            latest = close.iloc[-1].dropna().to_dict()
-            prices = {t: float(v) for t, v in latest.items()}
+            # 티커별 마지막 유효값 사용 (US/KR 거래시간 차이로 인한 NaN 방지)
+            latest = close.apply(lambda col: col.dropna().iloc[-1] if col.dropna().shape[0] > 0 else None)
+            prices = {t: float(v) for t, v in latest.items() if v is not None and not pd.isna(v)}
         else:
             t = list(all_tickers)[0]
-            prices = {t: float(close.iloc[-1])}
+            prices = {t: float(close.dropna().iloc[-1])}
     except Exception as e:
         logger.warning(f"수익률 업데이트 실패: {e}")
 
