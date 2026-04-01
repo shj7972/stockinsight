@@ -1,52 +1,52 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식 투자 유망",
-      "주식 시장 전망 긍정적"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
       "금리 인하 사이클 종료 발표",
-      "시장금리 변동성 증가",
+      "시장금리 급등 현상",
       "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "건강하면 보험료 할인, 현금… 한국도 인센티브를 달라 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOFQwMUdRVkd0ZzJCV1hOUTlmekdyY2t0ZXJDN0RpZWQ1WDh0eG11cDh6aWhFc2Z1WWhyRmwzREtQbDA0cmY2bmh1RHFkbE8xcWtDRmpEQk9GWDQ2VXZ1MmZ0Rnk2ckU0WjNYU2g2UzZKQ2RPaURrMm1WcGRuOVZVc19LS1Zkd3A1amtN0gGfAUFVX3lxTFB0LTlaekM0UFBCY2RBekU3UnF1dDA4Uzc1TzAwa29XTFJMM3ZOTjg5X1h4aGRRZzVrOFVzd3ZQV1RWQXYyUUk5RFhuZVpwalpYM1RfdGQyWER1clN1NktTSnZCWldkazVjT0g3eU81dHR1NzVkQVU3TWVZLU8tVUNCWUtHa2VFbUx4dWx6cThxa3BabVJWNlczVkxvU0Z6MA?oc=5",
+    "publisher": "조선일보",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 리스크 경고",
-      "경제 전망에 긍정적 신호"
+      "건강 인센티브 보험료 할인 필요",
+      "현금 보상 제안",
+      "한국 시장에서도 도입 요구"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "주식은 2022년 이후 최악의 분기를 기록하며 트럼프의 경제 플레이북에 대한 의구심을 불러일으킨다 - nbcnews.com",
-    "original_title": "Stocks have their worst quarter since 2022, raising doubts about Trump's economic playbook - nbcnews.com",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
-    "publisher": "nbcnews.com",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "주식, 2022년 이후 최악의 분기",
-      "트럼프의 경제 전략에 의구심",
-      "시장 불확실성 증가"
+      "내년 한국 경제 성장률 2.1%",
+      "회복세는 미약할 것",
+      "경제 전망에 우려 존재"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "주식은 2022년 이후 최악의 분기를 기록하며 트럼프의 경제 플레이북에 대한 의구심을 불러일으켰습니다 - NBC News",
+    "original_title": "Stocks have their worst quarter since 2022, raising doubts about Trump's economic playbook - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "2022년 이후 최악의 분기",
+      "트럼프 경제 전략에 의문",
+      "시장 신뢰도 저하"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "주식시장 전반적 상승세",
-      "정책 변화의 영향",
-      "투자자 심리 긍정적"
+      "트럼프 행정부 영향 분석",
+      "2026년 시장 동향",
+      "U.S. 뱅크의 예측"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 경제는 강하다. 그게 문제가 될 수도 있어요 - inc.com",
-    "original_title": "The U.S. Economy Is Strong. That Could Be a Problem - inc.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGVnZ0NJc0tROUVYU200MjdITGk3dk4zblc4R0NfTXY4cTJGMUxLcGZ0bm9kY3A4ZFhyNkxHV29YTGRUMzFjM1p4YVM0UXdmYmdCRm9wNjc1bWhGOUxxZjVhX2hPeXNrVzhNRlhBejYyeEkwYmV2SEs5Q0lBaVdMUzZwdm1uMXN1LVFNMGJGOHpRVDAyRkdKYWJpVWFBMkVyUUlVcDg4dVU4RmJReVBLbFp6QjhPa0E?oc=5",
-    "publisher": "inc.com",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "미국 경제, 강력한 성장세",
-      "인플레이션 우려 증가",
-      "금리 인상 가능성 존재"
+      "주식 시장 상승세 지속",
+      "경제 지표 개선",
+      "투자자 신뢰 회복"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
