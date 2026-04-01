@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 발표",
-      "시장금리 급등 현상",
-      "3%대 주담대 사라짐"
+      "금리 인하 사이클 종료",
+      "시장금리 변동성 증가",
+      "3%대 주담대 실종"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "건강하면 보험료 할인, 현금… 한국도 인센티브를 달라 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOFQwMUdRVkd0ZzJCV1hOUTlmekdyY2t0ZXJDN0RpZWQ1WDh0eG11cDh6aWhFc2Z1WWhyRmwzREtQbDA0cmY2bmh1RHFkbE8xcWtDRmpEQk9GWDQ2VXZ1MmZ0Rnk2ckU0WjNYU2g2UzZKQ2RPaURrMm1WcGRuOVZVc19LS1Zkd3A1amtN0gGfAUFVX3lxTFB0LTlaekM0UFBCY2RBekU3UnF1dDA4Uzc1TzAwa29XTFJMM3ZOTjg5X1h4aGRRZzVrOFVzd3ZQV1RWQXYyUUk5RFhuZVpwalpYM1RfdGQyWER1clN1NktTSnZCWldkazVjT0g3eU81dHR1NzVkQVU3TWVZLU8tVUNCWUtHa2VFbUx4dWx6cThxa3BabVJWNlczVkxvU0Z6MA?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "건강 인센티브 보험료 할인 필요",
-      "현금 보상 제안",
-      "한국 시장에서도 도입 요구"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 성장률 2.1%",
+      "내년 한국 경제 2.1% 성장 전망",
       "회복세는 미약할 것",
-      "경제 전망에 우려 존재"
+      "전망치에 낙관적이지 않음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향 조정",
+      "AI 버블 붕괴 위험 경고",
+      "재정적 위험성 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "2022년 이후 최악의 분기",
-      "트럼프 경제 전략에 의문",
-      "시장 신뢰도 저하"
+      "주식, 2022년 이후 최악 분기",
+      "트럼프의 경제 전략 의문 제기",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 영향 분석",
-      "2026년 시장 동향",
-      "U.S. 뱅크의 예측"
+      "트럼프 행정부의 시장 영향",
+      "2026년 시장 동향 분석",
+      "U.S.은행의 금융 관점"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,7 +72,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 상승세 지속",
+      "주식 시장 소폭 상승",
       "경제 지표 개선",
       "투자자 신뢰 회복"
     ],
