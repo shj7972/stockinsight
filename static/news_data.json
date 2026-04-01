@@ -1,28 +1,28 @@
 [
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 변동성 증가",
-      "3%대 주담대 실종"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
     "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
       "내년 한국 경제 2.1% 성장 전망",
       "회복세는 미약할 것",
-      "전망치에 낙관적이지 않음"
+      "경제 불확실성 여전"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "부자 수 47.6만명 증가",
+      "부동산보다 주식 선호",
+      "금융자산 10억 이상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,12 +31,40 @@
     "publisher": "경향신문",
     "summary": [
       "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 위험 경고",
-      "재정적 위험성 강조"
+      "AI 버블 붕괴 시 금융 리스크 경고",
+      "국내 경제에 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
+    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "교수가 K자형 경제 경고함",
+      "현재 미국 주식 회피 중",
+      "투자 신뢰도 저하"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - marketwatch.com",
+    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - marketwatch.com",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPMVljNkJpLTdhWlRCN1l6dXAyUEUwS3EwcXRNNk1XMTlKWncwZ25TMEpXamR4YXJCaUNVZzVzWDI1Um9CZkpNNnBqZUMxc1BaSW5FbTl0QXlISXItenhRUVhhVm45TmdFVG9PLUU3UGpDUTN1U3k1aXhnN2dHZjV1LXBqOXhJemp5VnhVcGM0WVNXOW1EMGN1NVdxQkpjaTFybS1BM0o4WHVHVDZ2YUNIRmhVallyWUlqWWJhWjBrTHpLblJoRFphbjBqWmtDalVKRFNrbV9QVUV4WTY1NEo3cVpsYUdRWmtfaUJYTlJTaXRHc1hLSktlbW82RnVkdkc1YzVFMnZUQzZuZEMzUDhVQ3V4MHJ5ektocnB4MURDZklFYzJFVHhLNFJVd0YtZ2FyN3pJWTFWVXdLRHJQc1VTOFg4TmV5TWtvM3RIWHEwWmthazVTcWhaWGRISEczMXlwcDBWWklnNjBCWjlFV1cxOGdCVERjOEg2ZExqTEJUZ1huMEZCbVpab0NVbjZ6Ti02b0thbXBremhYcE9JOGdkU2JMNWMtRko0U2JqX3I3ck14SnVrN3hsQ2xSeGhyU3o3M2hTSlRIYw?oc=5",
+    "publisher": "marketwatch.com",
+    "summary": [
+      "주식 시장 하락이 경제에 부담",
+      "유가 상승보다 더 큰 영향",
+      "소비자 신뢰에 부정적 자료"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "주식은 2022년 이후 최악의 분기를 기록하며 트럼프의 경제 플레이북에 대한 의구심을 불러일으켰습니다 - NBC News",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "주식, 2022년 이후 최악 분기",
-      "트럼프의 경제 전략 의문 제기",
-      "시장 불확실성 증가"
+      "주식, 2022년 이후 최악의 분기",
+      "트럼프 경제 정책에 의문 제기",
+      "시장에 대한 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 시장 동향 분석",
-      "U.S.은행의 금융 관점"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "주식 시장 소폭 상승",
-      "경제 지표 개선",
-      "투자자 신뢰 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
