@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 확인",
-      "부동산보다 주식 유망",
-      "금융자산 증가 추세"
+      "한국 부자 47.6만명 보유",
+      "주식 유망성 강조",
+      "부동산 보다 주식 선호"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "10년간 2천억달러 투자",
-      "기업 대미 투자와 유사",
-      "경제 활성화 기대감"
+      "10년간 2천억 달러 투자",
+      "기업 투자액과 유사",
+      "미국 투자 증가 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향",
-      "AI 버블 붕괴 리스크 경고",
-      "재정적 위험 우려 표명"
+      "IMF, 한국 성장 전망 1.9%로 상향",
+      "AI 버블 붕괴시 금융 리스크 경고",
+      "경제 성장에 대한 긍정적 시각"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
+    "title": "주식시장 하락이 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
     "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOMGJZNkRWelNHekRHTXU1NHhXTXdGSmxkVHZNbzZKQVg1UDItWEhDbjJsX0hadGlhbWlkc0FRWkxYcTdBWG9yYUhnT0hXaTBvOExmQlVMZms5T0Y1RFh6WFE4ajRqMDVGMkFTRXZBSkQtYVZyX1JES2RyT1BBYnpRRGd2NENxRnRYLXF4TUdWUVFFMFBDWHd2V0E3YnZEYkhlTzFodHZqRHRfbnBRbEFoQ0JEc1dESFBadHhYT2lkWTZtczRGWElfWE1HRUVtYkVLNW1leEo3RVgtVmlNTXpJQllNZ2M5Rk5vU1ZodHNhMkRsNXNlYVBaR0g0ZElwSjlRRWJDZzUxbDVQbS1PVW5RQWZBMjdsSDB2YkFPa0NHVWMtNlpzamg0dkZGYkhMbk9ZcExXczFMRG82ZEtabkdBVldid3dwQ2V3cEZGZFVvR3pleUxVV2l4Sk1DTGhMYVRJbERLdGVwR1lTQWlSVGNqYjEtZzQ2TG9kbHVIWElLRWotUWFybVZDbU5BTXEtT2tpMmRZb203ajJhOHlHRlY2SEwwdWZIamgxVGZUekt4bHBMUmNUbXlpV3lTbTNUX2pzVk5lZkozOA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQRXkzY3FjdWZEUlhEWFUzdDBOME12Y3hZTXlLUUFhU0RSVWZfNk8zZGE2cmQ3RF92RU01NWRTdXpwTjlIXzdQdVRXNG55Zy1WdkdVMFVSRVJEVklhTXRFV04xTkJONWNUYkM1TG5JUnBMNDNJUVZabWtjc1Eyd2hEbGF6SnZQSUU4NEphSl9wZXY1d0oxakRpTDBMXy1BRnZ5dF81cmZ6RnQ5VnRtUlN1cHlfN0FkdmIxWW5vekwyOGRuMnp2NVRoRTNOZUkzeEZtM2wwZzdUT3d4a3ZNODJFZmlCUXh1a21YT2xQYWY3czdsY0daSW51M1U4MjFPbTdGS1pZdkdkYVFFaW9mWXJnRmFCZ1BYZDRVQnNKa3JUR2ZWYllDODZRejdfb3ZQUElMN3kyVTExa1YtclJPUDhsQXdkNXRzSlFzLXZhNF9MbnBldVBYbk5rdEZZLWprTXpVVkk3TXVyVG9sekxzNUllTzZGMFNoRVRVYWZUNzlvU1B5NE1vYTh1ZWE4eWNma3FDdHBBcjZzanJCMWlHNG9vanlhM0pZVnktZnNCTTUwREJBYVlPYnFJQWRSTGkweWIzbDk1anpRQQ?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "주식시장 하락이 경제에 악영향",
-      "주유소 가격보다 주식이 심각",
-      "소비자 신뢰 위축 우려"
+      "주식 시장 하락이 우려됨",
+      "고유가보다 경제에 영향 큼",
+      "경제 전망에 부정적 신호"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "주식, 2022년 이후 최악의 분기 기록",
+      "주식, 2022년 이후 최악 분기",
       "트럼프 경제 전략에 의문 제기",
-      "시장 전망, 불확실성 증가"
+      "투자자들 불안감 커져"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유를 설명하다 - businessinsider.com",
-    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - businessinsider.com",
+    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
+    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
-    "publisher": "businessinsider.com",
+    "publisher": "Business Insider",
     "summary": [
-      "K자 경제 경고 교수의 의견",
-      "현재 미국 주식 회피",
-      "시장 우려의 주요 요인 지적"
+      "K자 경제 경고 교수",
+      "미국 주식 회피 이유",
+      "시장 전망 부정적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
