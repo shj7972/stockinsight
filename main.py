@@ -2161,62 +2161,6 @@ async def terms_of_service(request: Request):
     """Terms of Service Page"""
     return templates.TemplateResponse("terms.html", {"request": request})
 
-@app.get("/api/og")
-async def api_og(ticker: str, price: str, change: str, pct: str, verdict: str, color: str):
-    """Generate dynamic OG image"""
-    
-    # 1. Create Base Image (Dark Theme)
-    W, H = 1200, 630
-    img = Image.new('RGB', (W, H), color='#0f172a')
-    draw = ImageDraw.Draw(img)
-    
-    # 2. visual elements (gradient-like background effect)
-    # Draw some subtle circles
-    draw.ellipse((-100, -100, 300, 300), fill='#1e293b')
-    draw.ellipse((900, 400, 1400, 800), fill='#1e293b')
-    
-    # 3. Load Fonts
-    # 3. Load Fonts
-    try:
-        # Load local Korean font for server-side generation
-        import os
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        font_path = os.path.join(base_dir, "static", "NanumGothic-Bold.ttf")
-        
-        font_large = ImageFont.truetype(font_path, 80)
-        font_medium = ImageFont.truetype(font_path, 50)
-        font_small = ImageFont.truetype(font_path, 30)
-    except Exception as e:
-        # Fallback to default if font file is missing (text might break)
-        print(f"Font loading failed: {e}")
-        font_large = ImageFont.load_default()
-        font_medium = ImageFont.load_default()
-        font_small = ImageFont.load_default()
-
-    # 4. Draw Text
-    # Ticker
-    draw.text((100, 100), ticker, font=font_large, fill='#ffffff')
-    
-    # Price
-    price_text = f"{price} ({change} / {pct})"
-    draw.text((100, 220), price_text, font=font_medium, fill='#e2e8f0')
-    
-    # Verdict Box
-    # Calculate text size to center or draw box
-    # Simple draw:
-    draw.text((100, 350), "AI 분석 의견:", font=font_small, fill='#94a3b8')
-    draw.text((100, 400), verdict, font=font_large, fill=color)
-    
-    # Footer branding
-    draw.text((100, 550), "Stock Insight AI", font=font_small, fill='#64748b')
-    
-    # 5. Save to Buffer
-    buf = io.BytesIO()
-    img.save(buf, format='PNG')
-    buf.seek(0)
-    
-    return Response(content=buf.getvalue(), media_type="image/png")
-
 @app.get("/sitemap.xml")
 async def sitemap():
     """Generate and serve dynamic sitemap.xml"""
