@@ -1,55 +1,69 @@
 [
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - hani.co.kr",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
-    "publisher": "한겨레",
+    "publisher": "hani.co.kr",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "주식 유망성 강조",
-      "부동산 보다 주식 선호"
+      "한국 부자 47.6만명",
+      "주식 투자가 유망",
+      "부동산보다 선호"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "10년간 2천억달러 미국 투자…기업 대미 투자액과 맞먹는다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
-    "publisher": "한겨레",
+    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - hani.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "publisher": "hani.co.kr",
     "summary": [
-      "10년간 2천억 달러 투자",
-      "기업 투자액과 유사",
-      "미국 투자 증가 추세"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "IMF, 한국 성장 전망 1.9%로 상향",
-      "AI 버블 붕괴시 금융 리스크 경고",
-      "경제 성장에 대한 긍정적 시각"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "주식시장 하락이 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
-    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQRXkzY3FjdWZEUlhEWFUzdDBOME12Y3hZTXlLUUFhU0RSVWZfNk8zZGE2cmQ3RF92RU01NWRTdXpwTjlIXzdQdVRXNG55Zy1WdkdVMFVSRVJEVklhTXRFV04xTkJONWNUYkM1TG5JUnBMNDNJUVZabWtjc1Eyd2hEbGF6SnZQSUU4NEphSl9wZXY1d0oxakRpTDBMXy1BRnZ5dF81cmZ6RnQ5VnRtUlN1cHlfN0FkdmIxWW5vekwyOGRuMnp2NVRoRTNOZUkzeEZtM2wwZzdUT3d4a3ZNODJFZmlCUXh1a21YT2xQYWY3czdsY0daSW51M1U4MjFPbTdGS1pZdkdkYVFFaW9mWXJnRmFCZ1BYZDRVQnNKa3JUR2ZWYllDODZRejdfb3ZQUElMN3kyVTExa1YtclJPUDhsQXdkNXRzSlFzLXZhNF9MbnBldVBYbk5rdEZZLWprTXpVVkk3TXVyVG9sekxzNUllTzZGMFNoRVRVYWZUNzlvU1B5NE1vYTh1ZWE4eWNma3FDdHBBcjZzanJCMWlHNG9vanlhM0pZVnktZnNCTTUwREJBYVlPYnFJQWRSTGkweWIzbDk1anpRQQ?oc=5",
-    "publisher": "MarketWatch",
-    "summary": [
-      "주식 시장 하락이 우려됨",
-      "고유가보다 경제에 영향 큼",
-      "경제 전망에 부정적 신호"
+      "금리 인하 종료로 시장 금리 변동",
+      "3%대 주담대 사라짐",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - hani.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
+    "publisher": "hani.co.kr",
+    "summary": [
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약하다고 분석",
+      "경제 전망에 대한 우려 존재"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "나쁨, 매우 나쁨, 훨씬 더 나쁨: 전쟁과 경제에 대한 예측 선택 - The New York Times",
+    "original_title": "Bad, Very Bad and Much Worse: Pick a Forecast for the War and Economy - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "전쟁 상황 악화 우려",
+      "경제 전망 심각",
+      "부정적 시나리오 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
+    "type": "해외"
+  },
+  {
+    "title": "성금요일에는 시장이 문을 닫나요? 부활절? 2026년 공휴일 일정 보기 - 오클라호맨",
+    "original_title": "Are markets closed on Good Friday? Easter? See 2026 holiday schedule - The Oklahoman",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUDlOMUZrMVlEeHR4aE5rbFRrNi16QVNrVDA2MlR3NGhuMXdRbDVQdmc2aFI2QURMWGd4X0Jnc0R4eTR1bG5iQkxjdWJjZVhMVzgtNndRVXRqWEM4Wk9FZkxNaTQ3VTVSalRJdFpVckFVX2dua3pING1NY3AySjVsTzE1NFNpR0F6Uk9jTHRxdFRaNTdVQ2FhUnVUX2FTR2owalI1VzFCVUVKalJSaG1XWERpOGJHb3F2X3J3OEt1cmJUZW5fSGxXamd2RU05dDUyUkh1SXM1d3U?oc=5",
+    "publisher": "The Oklahoman",
+    "summary": [
+      "금요일 시장 휴장 여부",
+      "이스터 홀리데이 일정",
+      "2026년 휴일 일정 안내"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -60,21 +74,7 @@
     "summary": [
       "주식, 2022년 이후 최악 분기",
       "트럼프 경제 전략에 의문 제기",
-      "투자자들 불안감 커져"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
-    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "K자 경제 경고 교수",
-      "미국 주식 회피 이유",
-      "시장 전망 부정적"
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
