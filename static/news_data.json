@@ -1,15 +1,28 @@
 [
   {
-    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
-    "publisher": "한겨레",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약할 것",
-      "경제 불확실성 여전"
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 무너짐",
+      "미래 전망에 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.4,
+    "type": "국내"
+  },
+  {
+    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
+    "publisher": "한국방송뉴스",
+    "summary": [
+      "핵심광물 회의 개최",
+      "국제공조 강화 방안 논의",
+      "재무장관 참여"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,26 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 수 47.6만명 증가",
-      "부동산보다 주식 선호",
-      "금융자산 10억 이상"
+      "부자 47.6만명 보유 금융자산 10억 이상",
+      "주식이 더 유망하다고 평가됨",
+      "부동산 투자 감소 추세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
+    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
+    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNbHJiRGFJU3JncUJfcVpRbEphMTRmeTc0SHRxeEdWTTVJNlYya3dsZDd5Y1gyWWtWdThQNGs2TXpuVzV0Sk5fLWktVE5HeVdLVFA2Q0pYaUdwSV9FeFktclhEUXgtd3BySjRHbVpWRTJBeUtVUWZSSDFqbUl3d3U1aEpYSko4N2xaRDFTcWlMb0RHc05nZE5BQjFzdmN5MWlHQXVzcXFJMTlZVWEzQ1FJQ1NvN0UyQl91R0E5cFlVWng0TVJlZjZhN0ZZUHRscG9Sa0plaDZTUjlRd3l0MVhUaXhOMGlHc3pBTTF4MnY4eDBTNVFRRlFUa0ZVek1OYlB4RHRsWEY4OTZ2TzFWMzVienlYTENQejIwWGVzR1Z5eDl1ZldoczdBYnNJUUNtc3JxZU1hS3NNS1MwRTh6UzV2UTZ0d1pMbGlBTHVuUXE5QTNET3p0d2tlNW1iUERpV3lWdnZ4QWRWTkNhQmE4azNtT1pOM1l1bUFSQnYzYUJFSkowVjNFcEt2VjVmUU9oNHBWWEo1THctNmdvU09WbjJpU0Y0OTdNZkZLemZ0VWdZWHo3UW9Da0R1WktrUHRGU2FtMUJfalBiQQ?oc=5",
+    "publisher": "MarketWatch",
     "summary": [
-      "IMF, 한국 성장률 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 금융 리스크 경고",
-      "국내 경제에 긍정적 신호"
+      "주식 시장 하락이 경제에 악영향",
+      "고유가보다 더 심각한 문제",
+      "투자자 심리 위축 우려"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
@@ -44,23 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
     "publisher": "Business Insider",
     "summary": [
-      "교수가 K자형 경제 경고함",
-      "현재 미국 주식 회피 중",
-      "투자 신뢰도 저하"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - marketwatch.com",
-    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPMVljNkJpLTdhWlRCN1l6dXAyUEUwS3EwcXRNNk1XMTlKWncwZ25TMEpXamR4YXJCaUNVZzVzWDI1Um9CZkpNNnBqZUMxc1BaSW5FbTl0QXlISXItenhRUVhhVm45TmdFVG9PLUU3UGpDUTN1U3k1aXhnN2dHZjV1LXBqOXhJemp5VnhVcGM0WVNXOW1EMGN1NVdxQkpjaTFybS1BM0o4WHVHVDZ2YUNIRmhVallyWUlqWWJhWjBrTHpLblJoRFphbjBqWmtDalVKRFNrbV9QVUV4WTY1NEo3cVpsYUdRWmtfaUJYTlJTaXRHc1hLSktlbW82RnVkdkc1YzVFMnZUQzZuZEMzUDhVQ3V4MHJ5ektocnB4MURDZklFYzJFVHhLNFJVd0YtZ2FyN3pJWTFWVXdLRHJQc1VTOFg4TmV5TWtvM3RIWHEwWmthazVTcWhaWGRISEczMXlwcDBWWklnNjBCWjlFV1cxOGdCVERjOEg2ZExqTEJUZ1huMEZCbVpab0NVbjZ6Ti02b0thbXBremhYcE9JOGdkU2JMNWMtRko0U2JqX3I3ck14SnVrN3hsQ2xSeGhyU3o3M2hTSlRIYw?oc=5",
-    "publisher": "marketwatch.com",
-    "summary": [
-      "주식 시장 하락이 경제에 부담",
-      "유가 상승보다 더 큰 영향",
-      "소비자 신뢰에 부정적 자료"
+      "K자형 경제 우려 재강조",
+      "미국 주식 기피 의사 밝혀",
+      "시장 불확실성 증가 지적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,7 +73,7 @@
     "publisher": "NBC News",
     "summary": [
       "주식, 2022년 이후 최악의 분기",
-      "트럼프 경제 정책에 의문 제기",
+      "트럼프 경제책에 의문 제기",
       "시장에 대한 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
