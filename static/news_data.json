@@ -1,66 +1,52 @@
 [
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 무너짐",
-      "미래 전망에 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
-    "type": "국내"
-  },
-  {
-    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
-    "publisher": "한국방송뉴스",
-    "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 강화 방안 논의",
-      "재무장관 참여"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
     "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "부자 47.6만명 보유 금융자산 10억 이상",
-      "주식이 더 유망하다고 평가됨",
-      "부동산 투자 감소 추세"
+      "부자 47.6만명 확인",
+      "부동산보다 주식 유망",
+      "금융자산 증가 추세"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "10년간 2천억달러 미국 투자…기업 대미 투자액과 맞먹는다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM05HNk90dVlrd3hqanVmbWhwR2lfODBLTE53S0hEX3VuSUpVX0NDUDdhTVY3cW5NMExmbkotNzRUSmw4YWhfSHhGdVFUT2IxZjlpWlQxR2FGdVc3dDhjeUJ1YlpfSjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "10년간 2천억달러 투자",
+      "기업 대미 투자와 유사",
+      "경제 활성화 기대감"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 1.9%로 상향",
+      "AI 버블 붕괴 리스크 경고",
+      "재정적 위험 우려 표명"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
     "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
     "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNbHJiRGFJU3JncUJfcVpRbEphMTRmeTc0SHRxeEdWTTVJNlYya3dsZDd5Y1gyWWtWdThQNGs2TXpuVzV0Sk5fLWktVE5HeVdLVFA2Q0pYaUdwSV9FeFktclhEUXgtd3BySjRHbVpWRTJBeUtVUWZSSDFqbUl3d3U1aEpYSko4N2xaRDFTcWlMb0RHc05nZE5BQjFzdmN5MWlHQXVzcXFJMTlZVWEzQ1FJQ1NvN0UyQl91R0E5cFlVWng0TVJlZjZhN0ZZUHRscG9Sa0plaDZTUjlRd3l0MVhUaXhOMGlHc3pBTTF4MnY4eDBTNVFRRlFUa0ZVek1OYlB4RHRsWEY4OTZ2TzFWMzVienlYTENQejIwWGVzR1Z5eDl1ZldoczdBYnNJUUNtc3JxZU1hS3NNS1MwRTh6UzV2UTZ0d1pMbGlBTHVuUXE5QTNET3p0d2tlNW1iUERpV3lWdnZ4QWRWTkNhQmE4azNtT1pOM1l1bUFSQnYzYUJFSkowVjNFcEt2VjVmUU9oNHBWWEo1THctNmdvU09WbjJpU0Y0OTdNZkZLemZ0VWdZWHo3UW9Da0R1WktrUHRGU2FtMUJfalBiQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOMGJZNkRWelNHekRHTXU1NHhXTXdGSmxkVHZNbzZKQVg1UDItWEhDbjJsX0hadGlhbWlkc0FRWkxYcTdBWG9yYUhnT0hXaTBvOExmQlVMZms5T0Y1RFh6WFE4ajRqMDVGMkFTRXZBSkQtYVZyX1JES2RyT1BBYnpRRGd2NENxRnRYLXF4TUdWUVFFMFBDWHd2V0E3YnZEYkhlTzFodHZqRHRfbnBRbEFoQ0JEc1dESFBadHhYT2lkWTZtczRGWElfWE1HRUVtYkVLNW1leEo3RVgtVmlNTXpJQllNZ2M5Rk5vU1ZodHNhMkRsNXNlYVBaR0g0ZElwSjlRRWJDZzUxbDVQbS1PVW5RQWZBMjdsSDB2YkFPa0NHVWMtNlpzamg0dkZGYkhMbk9ZcExXczFMRG82ZEtabkdBVldid3dwQ2V3cEZGZFVvR3pleUxVV2l4Sk1DTGhMYVRJbERLdGVwR1lTQWlSVGNqYjEtZzQ2TG9kbHVIWElLRWotUWFybVZDbU5BTXEtT2tpMmRZb203ajJhOHlHRlY2SEwwdWZIamgxVGZUekt4bHBMUmNUbXlpV3lTbTNUX2pzVk5lZkozOA?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "주식 시장 하락이 경제에 악영향",
-      "고유가보다 더 심각한 문제",
-      "투자자 심리 위축 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
-    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "K자형 경제 우려 재강조",
-      "미국 주식 기피 의사 밝혀",
-      "시장 불확실성 증가 지적"
+      "주식시장 하락이 경제에 악영향",
+      "주유소 가격보다 주식이 심각",
+      "소비자 신뢰 위축 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "주식, 2022년 이후 최악의 분기",
-      "트럼프 경제책에 의문 제기",
-      "시장에 대한 불확실성 증가"
+      "주식, 2022년 이후 최악의 분기 기록",
+      "트럼프 경제 전략에 의문 제기",
+      "시장 전망, 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유를 설명하다 - businessinsider.com",
+    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
+    "publisher": "businessinsider.com",
+    "summary": [
+      "K자 경제 경고 교수의 의견",
+      "현재 미국 주식 회피",
+      "시장 우려의 주요 요인 지적"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
