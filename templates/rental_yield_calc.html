@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block title %}임대수익률 계산기 | 월세 수익률 자동 계산 — Stock Insight AI{% endblock %}
+{% block meta_description %}보증금, 월세, 매매가를 입력하면 표면 수익률과 실질 수익률을 자동으로 계산합니다. 공실률·유지비·대출이자까지 반영한 정확한 임대수익률 분석{% endblock %}
+{% block og_title %}임대수익률 계산기 — Stock Insight AI{% endblock %}
+{% block og_description %}보증금·월세·매매가 입력 → 표면/실질 수익률 자동 계산{% endblock %}
+{% block canonical_path %}/rental-yield-calculator{% endblock %}
+
+{% block content %}
+<!-- 브레드크럼 -->
+<nav style="margin-bottom:1rem;font-size:0.82rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;">
+    <a href="/tools" style="color:#38bdf8;text-decoration:none;">🛠️ 도구/분석</a>
+    <span>›</span>
+    <span style="color:#94a3b8;">🏠 임대수익률 계산기</span>
+</nav>
+
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h1 style="margin:0 0 0.4rem;font-size:1.6rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-size:2rem;">🏠</span> 임대수익률 계산기
+    </h1>
+    <p style="color:#94a3b8;margin:0;font-size:0.95rem;">
+        보증금, 월세, 매매가를 입력하면 <strong style="color:#e2e8f0;">표면 수익률</strong>과 공실·유지비를 반영한 <strong style="color:#e2e8f0;">실질 수익률</strong>을 계산합니다.
+    </p>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+    <!-- 입력 패널 -->
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h2 style="margin:0 0 1.2rem;font-size:1rem;color:#e2e8f0;">📝 기본 정보</h2>
+
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">매매가 (만원)</label>
+                <input id="price" type="number" value="30000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">보증금 (만원)</label>
+                <input id="deposit" type="number" value="1000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">월세 (만원)</label>
+                <input id="rent" type="number" value="80" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+
+            <hr style="border:none;border-top:1px solid rgba(255,255,255,0.06);margin:0.2rem 0;">
+            <h3 style="margin:0 0 0.8rem;font-size:0.9rem;color:#94a3b8;">⚙️ 상세 설정 (선택)</h3>
+
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">공실률 (%)</label>
+                <input id="vacancy" type="number" value="5" min="0" max="100"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">연간 유지비 (만원) <span style="font-size:0.75rem;">관리비·수선비 등</span></label>
+                <input id="expense" type="number" value="120" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">대출금액 (만원) <span style="font-size:0.75rem;">0이면 전액 자기자본</span></label>
+                <input id="loan" type="number" value="0" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">대출 금리 (%)</label>
+                <input id="loanRate" type="number" value="3.5" min="0" max="30" step="0.1"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+        </div>
+    </div>
+
+    <!-- 결과 패널 -->
+    <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="glass-panel" style="padding:1.5rem;text-align:center;">
+            <div style="font-size:0.85rem;color:#94a3b8;margin-bottom:0.4rem;">표면 수익률</div>
+            <div id="grossYield" style="font-size:3rem;font-weight:800;color:#38bdf8;">—</div>
+            <div style="font-size:0.75rem;color:#64748b;margin-top:0.2rem;">연 월세 ÷ (매매가 − 보증금)</div>
+        </div>
+        <div class="glass-panel" style="padding:1.5rem;text-align:center;">
+            <div style="font-size:0.85rem;color:#94a3b8;margin-bottom:0.4rem;">실질 수익률 (공실·유지비·이자 반영)</div>
+            <div id="netYield" style="font-size:3rem;font-weight:800;color:#4ade80;">—</div>
+            <div style="font-size:0.75rem;color:#64748b;margin-top:0.2rem;">순소득 ÷ 실투자금</div>
+        </div>
+        <div class="glass-panel" style="padding:1.2rem;">
+            <h3 style="margin:0 0 0.8rem;font-size:0.9rem;color:#e2e8f0;">📊 연간 손익 내역</h3>
+            <div id="breakdown" style="display:flex;flex-direction:column;gap:0.4rem;font-size:0.85rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- 수익률 기준 가이드 -->
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h2 style="margin:0 0 1rem;font-size:1rem;color:#e2e8f0;">📖 임대수익률 판단 기준</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0.8rem;">
+        <div style="background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.25);border-radius:10px;padding:0.9rem;">
+            <div style="color:#f87171;font-weight:600;font-size:0.88rem;margin-bottom:0.3rem;">3% 미만</div>
+            <div style="color:#94a3b8;font-size:0.8rem;">은행 예금 금리 수준. 리스크 대비 수익 낮음</div>
+        </div>
+        <div style="background:rgba(251,191,36,0.08);border:1px solid rgba(251,191,36,0.25);border-radius:10px;padding:0.9rem;">
+            <div style="color:#fbbf24;font-weight:600;font-size:0.88rem;margin-bottom:0.3rem;">3% ~ 4%</div>
+            <div style="color:#94a3b8;font-size:0.8rem;">도심 아파트 평균 수준. 시세차익 기대 시 고려 가능</div>
+        </div>
+        <div style="background:rgba(74,222,128,0.08);border:1px solid rgba(74,222,128,0.2);border-radius:10px;padding:0.9rem;">
+            <div style="color:#4ade80;font-weight:600;font-size:0.88rem;margin-bottom:0.3rem;">4% ~ 6%</div>
+            <div style="color:#94a3b8;font-size:0.8rem;">양호한 수준. 지방 수익형 부동산 평균</div>
+        </div>
+        <div style="background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.2);border-radius:10px;padding:0.9rem;">
+            <div style="color:#38bdf8;font-weight:600;font-size:0.88rem;margin-bottom:0.3rem;">6% 이상</div>
+            <div style="color:#94a3b8;font-size:0.8rem;">우수. 상가·오피스텔·고수익 수익형 목표 수준</div>
+        </div>
+    </div>
+</div>
+
+<style>
+@media (max-width: 768px) {
+    div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+}
+</style>
+
+<script>
+function fmt(n) { return n.toLocaleString('ko-KR'); }
+
+function calc() {
+    const price   = parseFloat(document.getElementById('price').value)   || 0;
+    const deposit = parseFloat(document.getElementById('deposit').value) || 0;
+    const rent    = parseFloat(document.getElementById('rent').value)    || 0;
+    const vacancy = parseFloat(document.getElementById('vacancy').value) || 0;
+    const expense = parseFloat(document.getElementById('expense').value) || 0;
+    const loan    = parseFloat(document.getElementById('loan').value)    || 0;
+    const loanRate= parseFloat(document.getElementById('loanRate').value)|| 0;
+
+    const annualRent = rent * 12;
+    const effectiveRent = annualRent * (1 - vacancy / 100);
+    const annualInterest = loan * loanRate / 100;
+    const netIncome = effectiveRent - expense - annualInterest;
+
+    const investment = price - deposit;    // 실투자금
+    const selfCapital = price - deposit - loan;  // 실제 자기자본
+
+    const grossYield = investment > 0 ? (annualRent / investment * 100) : 0;
+    const netYield   = selfCapital > 0 ? (netIncome / selfCapital * 100) : 0;
+
+    document.getElementById('grossYield').textContent = grossYield.toFixed(2) + '%';
+    document.getElementById('netYield').textContent   = netYield.toFixed(2) + '%';
+    document.getElementById('netYield').style.color   = netYield >= 4 ? '#4ade80' : netYield >= 3 ? '#fbbf24' : '#f87171';
+
+    const rows = [
+        ['연간 임대료 (100%)', `+${fmt(annualRent)}만원`, '#4ade80'],
+        [`공실 손실 (${vacancy}%)`, `-${fmt(Math.round(annualRent * vacancy / 100))}만원`, '#f87171'],
+        ['유지비·관리비', `-${fmt(expense)}만원`, '#f87171'],
+        ['대출 이자', `-${fmt(Math.round(annualInterest))}만원`, annualInterest > 0 ? '#f87171' : '#64748b'],
+        ['─────────────', '', '#334155'],
+        ['순 임대 소득', `${netIncome >= 0 ? '+' : ''}${fmt(Math.round(netIncome))}만원`, netIncome >= 0 ? '#4ade80' : '#f87171'],
+    ];
+
+    document.getElementById('breakdown').innerHTML = rows.map(([k, v, c]) =>
+        `<div style="display:flex;justify-content:space-between;padding:0.2rem 0;border-bottom:1px solid rgba(255,255,255,0.04);">
+            <span style="color:#94a3b8;">${k}</span>
+            <span style="color:${c};font-weight:600;">${v}</span>
+        </div>`
+    ).join('');
+}
+calc();
+</script>
+{% endblock %}

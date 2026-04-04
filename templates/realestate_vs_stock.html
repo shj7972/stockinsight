@@ -1,0 +1,306 @@
+{% extends "base.html" %}
+
+{% block title %}부동산 vs 주식 투자 비교 | 동일 자금 장기 수익 시뮬레이션 — Stock Insight AI{% endblock %}
+{% block meta_description %}같은 돈을 부동산에 투자했을 때와 주식(S&P500/KOSPI)에 투자했을 때 10·20·30년 후 수익을 비교합니다. 세금·대출레버리지·임대수익까지 반영{% endblock %}
+{% block og_title %}부동산 vs 주식 투자 비교 계산기 — Stock Insight AI{% endblock %}
+{% block og_description %}동일 자금으로 부동산 vs 주식 장기 수익 시뮬레이션. 세금·레버리지·임대수입 반영{% endblock %}
+{% block canonical_path %}/realestate-vs-stock{% endblock %}
+
+{% block content %}
+<!-- 브레드크럼 -->
+<nav style="margin-bottom:1rem;font-size:0.82rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;">
+    <a href="/tools" style="color:#38bdf8;text-decoration:none;">🛠️ 도구/분석</a>
+    <span>›</span>
+    <span style="color:#94a3b8;">⚔️ 부동산 vs 주식 비교</span>
+</nav>
+
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h1 style="margin:0 0 0.4rem;font-size:1.6rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-size:2rem;">⚔️</span> 부동산 vs 주식 투자 비교
+    </h1>
+    <p style="color:#94a3b8;margin:0;font-size:0.95rem;">
+        동일한 자기자본으로 <strong style="color:#e2e8f0;">부동산(레버리지·임대수입)</strong>과 <strong style="color:#38bdf8;">주식 지수(복리)</strong>의 장기 수익을 시뮬레이션합니다.
+        <span style="font-size:0.78rem;color:#475569;"> 참고용 시뮬레이션이며 실제 투자 결과와 다를 수 있습니다.</span>
+    </p>
+</div>
+
+<!-- 입력 섹션 -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+
+    <!-- 공통 기본 정보 -->
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h2 style="margin:0 0 1.2rem;font-size:1rem;color:#e2e8f0;">💰 공통 투자 조건</h2>
+        <div style="display:flex;flex-direction:column;gap:0.9rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">자기자본 (만원) <span style="font-size:0.75rem;">실제 보유 현금</span></label>
+                <input id="equity" type="number" value="10000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">투자 기간 (년)</label>
+                <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.3rem;">
+                    <button onclick="setYears(10)" id="yr10" class="yr-btn yr-active">10년</button>
+                    <button onclick="setYears(20)" id="yr20" class="yr-btn">20년</button>
+                    <button onclick="setYears(30)" id="yr30" class="yr-btn">30년</button>
+                    <input id="years" type="number" value="10" min="1" max="50"
+                        style="width:70px;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#f8fafc;padding:0.45rem 0.5rem;font-size:0.85rem;" oninput="calc()">
+                    <span style="color:#64748b;font-size:0.85rem;padding:0.5rem 0;">년</span>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.06);margin:1rem 0;">
+        <h3 style="margin:0 0 1rem;font-size:0.9rem;color:#f87171;">🏠 부동산 설정</h3>
+        <div style="display:flex;flex-direction:column;gap:0.9rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">매매가 (만원)</label>
+                <input id="rePrice" type="number" value="30000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">연 가격상승률 (%) <span style="font-size:0.75rem;">역사적 전국 평균 약 3~5%</span></label>
+                <input id="reAppreciation" type="number" value="3.0" step="0.1" min="-10" max="30"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">임대 수익률 (%) <span style="font-size:0.75rem;">선택, 0이면 미임대</span></label>
+                <input id="rentalYield" type="number" value="3.0" step="0.1" min="0" max="20"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">대출 금리 (%) <span style="font-size:0.75rem;">자기자본 초과분 대출</span></label>
+                <input id="loanRate" type="number" value="3.5" step="0.1" min="0" max="20"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">양도소득세율 (%)</label>
+                <input id="reTax" type="number" value="15" min="0" max="70"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+        </div>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.06);margin:1rem 0;">
+        <h3 style="margin:0 0 1rem;font-size:0.9rem;color:#38bdf8;">📈 주식 설정</h3>
+        <div style="display:flex;flex-direction:column;gap:0.9rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">연 수익률 (%) <span style="font-size:0.75rem;">S&P500 역사 평균 약 10%</span></label>
+                <input id="stockReturn" type="number" value="10.0" step="0.1" min="-50" max="50"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">배당 수익률 (%) <span style="font-size:0.75rem;">복리 재투자</span></label>
+                <input id="stockDividend" type="number" value="1.5" step="0.1" min="0" max="20"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">주식 양도세율 (%) <span style="font-size:0.75rem;">국내 ETF 15.4%, 해외 22%</span></label>
+                <input id="stockTax" type="number" value="15.4" step="0.1" min="0" max="50"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;" oninput="calc()">
+            </div>
+        </div>
+    </div>
+
+    <!-- 결과 패널 -->
+    <div style="display:flex;flex-direction:column;gap:1rem;">
+        <!-- 승자 배너 -->
+        <div id="winner-banner" class="glass-panel" style="padding:1.5rem;text-align:center;"></div>
+
+        <!-- 결과 카드 -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="glass-panel" style="padding:1.2rem;border-top:3px solid #f87171;">
+                <div style="font-size:0.78rem;color:#94a3b8;margin-bottom:0.3rem;">🏠 부동산 최종 수익</div>
+                <div id="re_profit" style="font-size:1.8rem;font-weight:800;color:#f87171;">—</div>
+                <div id="re_roi" style="font-size:0.78rem;color:#64748b;"></div>
+                <div id="re_detail" style="font-size:0.74rem;color:#475569;margin-top:0.4rem;line-height:1.5;"></div>
+            </div>
+            <div class="glass-panel" style="padding:1.2rem;border-top:3px solid #38bdf8;">
+                <div style="font-size:0.78rem;color:#94a3b8;margin-bottom:0.3rem;">📈 주식 최종 수익</div>
+                <div id="st_profit" style="font-size:1.8rem;font-weight:800;color:#38bdf8;">—</div>
+                <div id="st_roi" style="font-size:0.78rem;color:#64748b;"></div>
+                <div id="st_detail" style="font-size:0.74rem;color:#475569;margin-top:0.4rem;line-height:1.5;"></div>
+            </div>
+        </div>
+
+        <!-- 연도별 비교 차트 영역 -->
+        <div class="glass-panel" style="padding:1.2rem;">
+            <h3 style="margin:0 0 0.8rem;font-size:0.9rem;color:#e2e8f0;">📊 연도별 순자산 성장</h3>
+            <div id="chart-bars" style="display:flex;flex-direction:column;gap:0.5rem;"></div>
+        </div>
+
+        <!-- 연도별 테이블 -->
+        <div class="glass-panel" style="padding:1.2rem;overflow:auto;">
+            <h3 style="margin:0 0 0.8rem;font-size:0.9rem;color:#e2e8f0;">🗓️ 연도별 상세 수익</h3>
+            <table style="width:100%;border-collapse:collapse;font-size:0.78rem;">
+                <thead>
+                    <tr style="border-bottom:1px solid rgba(255,255,255,0.08);">
+                        <th style="padding:0.4rem 0.5rem;text-align:left;color:#64748b;">연차</th>
+                        <th style="padding:0.4rem 0.5rem;text-align:right;color:#f87171;">🏠 부동산</th>
+                        <th style="padding:0.4rem 0.5rem;text-align:right;color:#38bdf8;">📈 주식</th>
+                        <th style="padding:0.4rem 0.5rem;text-align:right;color:#94a3b8;">우위</th>
+                    </tr>
+                </thead>
+                <tbody id="yearly-body"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- 중요 고지 -->
+<div class="glass-panel" style="padding:1.2rem;border-left:3px solid #fbbf24;">
+    <p style="margin:0;font-size:0.78rem;color:#64748b;line-height:1.7;">
+        <strong style="color:#fbbf24;">⚠️ 투자 위험 안내</strong><br>
+        본 시뮬레이션은 교육 목적의 단순화된 계산으로, 실제 투자 결과와 다를 수 있습니다. 부동산은 공인중개수수료·취득세·재산세 등 거래 비용, 공실 리스크, 지역별 격차가 반영되지 않았습니다. 
+        주식은 시장 변동성, 원금 손실 가능성이 내재되어 있습니다. 모든 투자 결정과 손익 책임은 투자자 본인에게 있습니다.
+    </p>
+</div>
+
+<style>
+.yr-btn {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #64748b;
+    transition: all 0.2s;
+}
+.yr-active {
+    background: rgba(56,189,248,0.15) !important;
+    border-color: #38bdf8 !important;
+    color: #38bdf8 !important;
+    font-weight: 600;
+}
+@media (max-width: 900px) {
+    div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+}
+</style>
+
+<script>
+function fmt(n) { return Math.round(n).toLocaleString('ko-KR'); }
+function setYears(y) {
+    document.getElementById('years').value = y;
+    ['yr10','yr20','yr30'].forEach(id => document.getElementById(id).classList.remove('yr-active'));
+    if (y === 10) document.getElementById('yr10').classList.add('yr-active');
+    else if (y === 20) document.getElementById('yr20').classList.add('yr-active');
+    else if (y === 30) document.getElementById('yr30').classList.add('yr-active');
+    calc();
+}
+
+function calc() {
+    const equity        = (parseFloat(document.getElementById('equity').value)         || 0) * 10000;
+    const years         = parseInt(document.getElementById('years').value)              || 10;
+    const rePrice       = (parseFloat(document.getElementById('rePrice').value)        || 0) * 10000;
+    const reApprecPct   = parseFloat(document.getElementById('reAppreciation').value)  || 0;
+    const rentalYieldPct= parseFloat(document.getElementById('rentalYield').value)     || 0;
+    const loanRatePct   = parseFloat(document.getElementById('loanRate').value)        || 0;
+    const reTaxPct      = parseFloat(document.getElementById('reTax').value)           || 0;
+    const stockReturnPct= parseFloat(document.getElementById('stockReturn').value)     || 0;
+    const stockDivPct   = parseFloat(document.getElementById('stockDividend').value)   || 0;
+    const stockTaxPct   = parseFloat(document.getElementById('stockTax').value)        || 0;
+
+    // 부동산 계산
+    const loan = Math.max(0, rePrice - equity);
+    const annualInterest = loan * loanRatePct / 100;
+    const annualRentalIncome = rePrice * rentalYieldPct / 100;
+    const annualNetRental = annualRentalIncome - annualInterest;
+
+    let reData = [];  // {year, propValue, rentalAccum, loanBalance}
+    let propValue = rePrice;
+    let rentalAccum = 0;
+    let loanBalance = loan;
+
+    for (let yr = 1; yr <= years; yr++) {
+        propValue *= (1 + reApprecPct / 100);
+        rentalAccum += annualNetRental;
+        // 상환 없이 이자만 내는 단순 계산
+        reData.push({ yr, propValue, rentalAccum, loanBalance });
+    }
+
+    const finalPropValue = reData[years - 1].propValue;
+    const finalRentalAccum = reData[years - 1].rentalAccum;
+    const grossGain = (finalPropValue - rePrice) + finalRentalAccum;
+    const reTax = Math.max(0, (finalPropValue - rePrice) * reTaxPct / 100);
+    const reNetProfit = grossGain - reTax;
+    const reROI = equity > 0 ? reNetProfit / equity * 100 : 0;
+
+    // 주식 계산
+    const totalStockReturn = (stockReturnPct + stockDivPct) / 100;
+    let stData = [];
+    let stValue = equity;
+    for (let yr = 1; yr <= years; yr++) {
+        stValue *= (1 + totalStockReturn);
+        stData.push({ yr, value: stValue });
+    }
+    const finalStValue = stData[years - 1].value;
+    const stGrossGain = finalStValue - equity;
+    const stTax = Math.max(0, stGrossGain * stockTaxPct / 100);
+    const stNetProfit = stGrossGain - stTax;
+    const stROI = equity > 0 ? stNetProfit / equity * 100 : 0;
+
+    // 결과 표시
+    const reWins = reNetProfit > stNetProfit;
+    document.getElementById('winner-banner').innerHTML = `
+        <div style="font-size:2.5rem;margin-bottom:0.4rem;">${reWins ? '🏠' : '📈'}</div>
+        <div style="font-size:1.1rem;font-weight:700;color:${reWins ? '#f87171' : '#38bdf8'};">${reWins ? '부동산' : '주식'} 우위</div>
+        <div style="font-size:0.82rem;color:#64748b;margin-top:0.2rem;">${years}년 후 기준 | 차이: ${fmt(Math.abs(reNetProfit - stNetProfit) / 10000)}만원</div>`;
+
+    document.getElementById('re_profit').textContent = fmt(reNetProfit / 10000) + '만원';
+    document.getElementById('re_roi').textContent = `자기자본 대비 수익률 ${reROI.toFixed(1)}%`;
+    document.getElementById('re_detail').innerHTML =
+        `매매차익 ${fmt((finalPropValue - rePrice) / 10000)}만원 + 임대순수익 ${fmt(finalRentalAccum / 10000)}만원<br>양도세 -${fmt(reTax / 10000)}만원`;
+
+    document.getElementById('st_profit').textContent  = fmt(stNetProfit / 10000) + '만원';
+    document.getElementById('st_roi').textContent = `자기자본 대비 수익률 ${stROI.toFixed(1)}%`;
+    document.getElementById('st_detail').innerHTML =
+        `복리 수익 ${fmt(stGrossGain / 10000)}만원<br>양도세 -${fmt(stTax / 10000)}만원`;
+
+    // 바 차트
+    const maxVal = Math.max(reNetProfit, stNetProfit, 1);
+    const steps = Math.min(years, 10);
+    const chartBars = document.getElementById('chart-bars');
+    chartBars.innerHTML = '';
+    for (let i = 1; i <= steps; i++) {
+        const yr = Math.round(i * years / steps);
+        const idx = yr - 1;
+        const reV = reData[idx];
+        const stV = stData[idx];
+
+        const reGain = (reV.propValue - rePrice) + reV.rentalAccum - Math.max(0, (reV.propValue - rePrice) * reTaxPct / 100);
+        const stGain = stV.value - equity - Math.max(0, (stV.value - equity) * stockTaxPct / 100);
+
+        const reW = Math.max(2, Math.round(Math.abs(reGain) / maxVal * 100));
+        const stW = Math.max(2, Math.round(Math.abs(stGain) / maxVal * 100));
+
+        chartBars.innerHTML += `
+        <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.72rem;">
+            <span style="width:40px;color:#64748b;flex-shrink:0;">${yr}년</span>
+            <div style="flex:1;display:flex;flex-direction:column;gap:2px;">
+                <div style="height:8px;background:#f87171;border-radius:4px;width:${reW}%;min-width:4px;" title="부동산 ${fmt(reGain/10000)}만원"></div>
+                <div style="height:8px;background:#38bdf8;border-radius:4px;width:${stW}%;min-width:4px;" title="주식 ${fmt(stGain/10000)}만원"></div>
+            </div>
+            <span style="width:100px;color:${reGain > stGain ? '#f87171' : '#38bdf8'};text-align:right;">${reGain > stGain ? '🏠' : '📈'} ${fmt(Math.max(reGain, stGain) / 10000)}만원</span>
+        </div>`;
+    }
+
+    // 연도별 테이블
+    const tbody = document.getElementById('yearly-body');
+    tbody.innerHTML = '';
+    for (let yr = 1; yr <= years; yr++) {
+        const reV = reData[yr - 1];
+        const stV = stData[yr - 1];
+        const reGain = Math.round((reV.propValue - rePrice + reV.rentalAccum - Math.max(0, (reV.propValue - rePrice) * reTaxPct / 100)) / 10000);
+        const stGain = Math.round((stV.value - equity - Math.max(0, (stV.value - equity) * stockTaxPct / 100)) / 10000);
+        const winIcon = reGain > stGain ? '<span style="color:#f87171;">🏠</span>' : '<span style="color:#38bdf8;">📈</span>';
+        const row = tbody.insertRow();
+        row.style.borderBottom = '1px solid rgba(255,255,255,0.04)';
+        row.innerHTML = `
+            <td style="padding:0.4rem 0.5rem;color:#94a3b8;">${yr}년</td>
+            <td style="padding:0.4rem 0.5rem;text-align:right;color:#f87171;">${fmt(reGain)}만원</td>
+            <td style="padding:0.4rem 0.5rem;text-align:right;color:#38bdf8;">${fmt(stGain)}만원</td>
+            <td style="padding:0.4rem 0.5rem;text-align:right;">${winIcon}</td>`;
+    }
+}
+calc();
+</script>
+{% endblock %}

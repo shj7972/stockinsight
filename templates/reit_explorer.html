@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+
+{% block title %}리츠(REITs) 탐험가 | 국내 상장 리츠 배당수익률·NAV 할인율 비교 — Stock Insight AI{% endblock %}
+{% block meta_description %}국내 상장 리츠(REITs) 배당수익률, 52주 범위, NAV 대비 할인율을 한눈에 비교합니다. 오피스·물류·주거·인프라 섹터별 필터 지원{% endblock %}
+{% block og_title %}리츠(REITs) 탐험가 — Stock Insight AI{% endblock %}
+{% block og_description %}국내 상장 리츠 배당수익률·NAV 할인율 비교. 섹터별 필터·정렬 지원{% endblock %}
+{% block canonical_path %}/reit-explorer{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Stock Insight AI 리츠 탐험가",
+    "description": "국내 상장 리츠 배당수익률, 주가, 52주 범위, NAV 대비 할인율 비교 도구",
+    "url": "https://stock-insight.app/reit-explorer",
+    "applicationCategory": "FinanceApplication",
+    "provider": {"@type": "Organization", "name": "Stock Insight AI"}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<!-- 헤더 -->
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+        <span style="font-size:2.2rem;">🏢</span>
+        <div>
+            <h1 style="margin:0;font-size:1.6rem;font-weight:800;">리츠(REITs) 탐험가</h1>
+            <p style="margin:0;font-size:0.88rem;color:#64748b;">국내 상장 리츠 배당수익률·NAV 할인율 실시간 비교</p>
+        </div>
+        {% if last_updated %}
+        <span style="margin-left:auto;font-size:0.75rem;color:#475569;">업데이트 {{ last_updated }}</span>
+        {% endif %}
+    </div>
+
+    <!-- 섹터 필터 + 정렬 -->
+    <div style="display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center;margin-top:1rem;">
+        <span style="font-size:0.8rem;color:#64748b;">섹터:</span>
+        <button onclick="filterSector('all')"   id="btn-all"       class="sect-btn sect-active">전체</button>
+        <button onclick="filterSector('office')" id="btn-office"    class="sect-btn">🏙️ 오피스</button>
+        <button onclick="filterSector('retail')" id="btn-retail"    class="sect-btn">🛒 리테일</button>
+        <button onclick="filterSector('logistics')" id="btn-logistics" class="sect-btn">🚚 물류</button>
+        <button onclick="filterSector('infra')"  id="btn-infra"     class="sect-btn">⚡ 인프라</button>
+        <button onclick="filterSector('mixed')"  id="btn-mixed"     class="sect-btn">🏘️ 복합</button>
+
+        <div style="margin-left:auto;display:flex;align-items:center;gap:0.4rem;">
+            <span style="font-size:0.8rem;color:#64748b;">정렬:</span>
+            <select id="sort-select" onchange="sortCards()"
+                style="background:rgba(15,23,42,0.8);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#f8fafc;padding:0.35rem 0.6rem;font-size:0.8rem;cursor:pointer;">
+                <option value="dividend_desc">배당수익률 ↓</option>
+                <option value="dividend_asc">배당수익률 ↑</option>
+                <option value="price_desc">주가 ↓</option>
+                <option value="price_asc">주가 ↑</option>
+                <option value="discount_desc">NAV 할인율 ↓</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+{% if error %}
+<div class="glass-panel" style="padding:1rem;border-left:3px solid #f87171;margin-bottom:1.5rem;">
+    <p style="color:#f87171;margin:0;">⚠️ {{ error }}</p>
+</div>
+{% endif %}
+
+<!-- 요약 통계 -->
+{% if reits %}
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:0.75rem;margin-bottom:1.5rem;">
+    <div class="glass-panel" style="padding:1rem;text-align:center;">
+        <div style="font-size:0.75rem;color:#94a3b8;margin-bottom:0.2rem;">추적 리츠</div>
+        <div style="font-size:1.8rem;font-weight:800;color:#f1f5f9;">{{ reits|length }}</div>
+        <div style="font-size:0.7rem;color:#475569;">개 종목</div>
+    </div>
+    <div class="glass-panel" style="padding:1rem;text-align:center;">
+        <div style="font-size:0.75rem;color:#94a3b8;margin-bottom:0.2rem;">평균 배당수익률</div>
+        <div style="font-size:1.8rem;font-weight:800;color:#4ade80;">{{ avg_dividend }}%</div>
+    </div>
+    <div class="glass-panel" style="padding:1rem;text-align:center;">
+        <div style="font-size:0.75rem;color:#94a3b8;margin-bottom:0.2rem;">최고 배당수익률</div>
+        <div style="font-size:1.8rem;font-weight:800;color:#38bdf8;">{{ max_dividend }}%</div>
+        <div style="font-size:0.7rem;color:#475569;">{{ max_dividend_name }}</div>
+    </div>
+    <div class="glass-panel" style="padding:1rem;text-align:center;">
+        <div style="font-size:0.75rem;color:#94a3b8;margin-bottom:0.2rem;">시가 대비 할인 리츠</div>
+        <div style="font-size:1.8rem;font-weight:800;color:#fbbf24;">{{ discount_count }}</div>
+        <div style="font-size:0.7rem;color:#475569;">개 (NAV 아래 거래)</div>
+    </div>
+</div>
+
+<!-- 리츠 카드 그리드 -->
+<div id="reit-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:1.25rem;margin-bottom:2rem;">
+    {% for r in reits %}
+    <div class="reit-card glass-panel"
+         data-sector="{{ r.sector_id }}"
+         data-dividend="{{ r.dividend_yield }}"
+         data-price="{{ r.price }}"
+         data-discount="{{ r.nav_discount }}"
+         style="padding:1.25rem;border-top:3px solid {{ r.sector_color }};cursor:pointer;transition:transform 0.2s,border-color 0.2s;"
+         onclick="window.location='/stock/{{ r.ticker }}'">
+
+        <!-- 리츠 헤더 -->
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.75rem;">
+            <div>
+                <div style="font-size:1rem;font-weight:700;color:#f1f5f9;">{{ r.name }}</div>
+                <div style="font-size:0.75rem;color:#64748b;">{{ r.ticker }}</div>
+            </div>
+            <div style="text-align:right;">
+                <span style="font-size:0.72rem;padding:0.2rem 0.55rem;border-radius:20px;
+                    background:{{ r.sector_color }}22;border:1px solid {{ r.sector_color }}44;color:{{ r.sector_color }};">
+                    {{ r.sector_label }}
+                </span>
+            </div>
+        </div>
+
+        <!-- 주가 및 등락 -->
+        <div style="display:flex;align-items:baseline;gap:0.5rem;margin-bottom:0.75rem;">
+            <span style="font-size:1.6rem;font-weight:800;color:#f1f5f9;">{{ "{:,.0f}".format(r.price) }}원</span>
+            <span style="font-size:0.85rem;font-weight:600;color:{{ '#4ade80' if r.change_pct >= 0 else '#f87171' }};">
+                {{ "{:+.2f}".format(r.change_pct) }}%
+            </span>
+        </div>
+
+        <!-- 52주 범위 바 -->
+        <div style="margin-bottom:0.75rem;">
+            <div style="display:flex;justify-content:space-between;font-size:0.68rem;color:#64748b;margin-bottom:0.2rem;">
+                <span>52주 저점</span><span>52주 고점</span>
+            </div>
+            <div style="position:relative;height:6px;background:rgba(255,255,255,0.06);border-radius:3px;">
+                <div style="position:absolute;left:{{ r.week52_pos }}%;top:50%;transform:translateX(-50%) translateY(-50%);
+                    width:10px;height:10px;border-radius:50%;background:{{ '#4ade80' if r.change_pct >= 0 else '#f87171' }};
+                    border:2px solid rgba(15,23,42,0.9);"></div>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:0.68rem;color:#475569;margin-top:0.2rem;">
+                <span>{{ "{:,.0f}".format(r.week52_low) }}원</span>
+                <span>{{ "{:,.0f}".format(r.week52_high) }}원</span>
+            </div>
+        </div>
+
+        <!-- 핵심 지표 -->
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.5rem;margin-bottom:0.75rem;">
+            <div style="background:rgba(74,222,128,0.06);border:1px solid rgba(74,222,128,0.15);border-radius:8px;padding:0.5rem;text-align:center;">
+                <div style="font-size:0.65rem;color:#64748b;margin-bottom:0.1rem;">배당수익률</div>
+                <div style="font-size:1rem;font-weight:700;color:#4ade80;">{{ r.dividend_yield }}%</div>
+            </div>
+            <div style="background:{{ 'rgba(56,189,248,0.06)' if r.nav_discount <= 0 else 'rgba(251,191,36,0.06)' }};
+                border:1px solid {{ 'rgba(56,189,248,0.15)' if r.nav_discount <= 0 else 'rgba(251,191,36,0.15)' }};border-radius:8px;padding:0.5rem;text-align:center;">
+                <div style="font-size:0.65rem;color:#64748b;margin-bottom:0.1rem;">NAV 대비</div>
+                <div style="font-size:1rem;font-weight:700;color:{{ '#38bdf8' if r.nav_discount <= 0 else '#fbbf24' }};">
+                    {{ "{:+.1f}".format(r.nav_discount) }}%
+                </div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:8px;padding:0.5rem;text-align:center;">
+                <div style="font-size:0.65rem;color:#64748b;margin-bottom:0.1rem;">시가총액</div>
+                <div style="font-size:0.88rem;font-weight:600;color:#e2e8f0;">{{ r.market_cap }}</div>
+            </div>
+        </div>
+
+        <!-- 설명 -->
+        <p style="font-size:0.78rem;color:#64748b;margin:0;line-height:1.5;">{{ r.description }}</p>
+
+        <div style="margin-top:0.75rem;font-size:0.72rem;color:#38bdf8;text-align:right;">상세 분석 보기 →</div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- 리츠 투자 가이드 -->
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h2 style="margin:0 0 1rem;font-size:1rem;color:#e2e8f0;">📖 리츠(REITs) 투자 핵심 개념</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#4ade80;font-weight:600;font-size:0.88rem;margin-bottom:0.4rem;">💰 배당수익률</div>
+            <div style="color:#94a3b8;font-size:0.8rem;line-height:1.7;">
+                주가 대비 연간 배당금 비율. 리츠는 법적으로 수익의 90% 이상을 배당해야 하므로 일반 주식보다 높은 경향.
+                5% 이상이면 양호한 편입니다.
+            </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#38bdf8;font-weight:600;font-size:0.88rem;margin-bottom:0.4rem;">📐 NAV 대비 할인율</div>
+            <div style="color:#94a3b8;font-size:0.8rem;line-height:1.7;">
+                NAV(순자산가치) 대비 시장 가격 차이. 마이너스(-%)면 NAV보다 싸게 거래 중 → 저평가 가능성.
+                플러스(+%)면 프리미엄 거래 중.
+            </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#fbbf24;font-weight:600;font-size:0.88rem;margin-bottom:0.4rem;">⚠️ 리츠 투자 위험</div>
+            <div style="color:#94a3b8;font-size:0.8rem;line-height:1.7;">
+                금리 상승 시 배당매력 감소로 주가 하락 가능. 공실률 증가, 임차인 부도 등 부동산 리스크도 내재.
+                부동산 직접 투자보다 유동성은 높음.
+            </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#a855f7;font-weight:600;font-size:0.88rem;margin-bottom:0.4rem;">🏦 국내 리츠 세금</div>
+            <div style="color:#94a3b8;font-size:0.8rem;line-height:1.7;">
+                상장 리츠 배당소득세 15.4% (지방소득세 포함). 연간 배당소득 2,000만원 초과 시 금융소득종합과세 대상.
+                ISA 계좌 활용 시 절세 가능.
+            </div>
+        </div>
+    </div>
+</div>
+
+{% else %}
+<div class="glass-panel" style="padding:2rem;text-align:center;">
+    <div style="font-size:3rem;margin-bottom:1rem;">⏳</div>
+    <p style="color:#94a3b8;">리츠 데이터를 불러오는 중입니다. 잠시 후 다시 시도해 주세요.</p>
+</div>
+{% endif %}
+
+<style>
+.sect-btn {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #64748b;
+    transition: all 0.2s;
+}
+.sect-active {
+    background: rgba(56,189,248,0.15) !important;
+    border-color: #38bdf8 !important;
+    color: #38bdf8 !important;
+    font-weight: 600;
+}
+.reit-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(56,189,248,0.5) !important;
+}
+</style>
+
+<script>
+const allCards = Array.from(document.querySelectorAll('.reit-card'));
+
+function filterSector(sector) {
+    // 버튼 상태
+    document.querySelectorAll('.sect-btn').forEach(b => b.classList.remove('sect-active'));
+    document.getElementById('btn-' + sector).classList.add('sect-active');
+
+    allCards.forEach(card => {
+        const show = sector === 'all' || card.dataset.sector === sector;
+        card.style.display = show ? '' : 'none';
+    });
+}
+
+function sortCards() {
+    const mode = document.getElementById('sort-select').value;
+    const grid = document.getElementById('reit-grid');
+    const cards = Array.from(grid.querySelectorAll('.reit-card'));
+
+    cards.sort((a, b) => {
+        if (mode === 'dividend_desc') return parseFloat(b.dataset.dividend) - parseFloat(a.dataset.dividend);
+        if (mode === 'dividend_asc')  return parseFloat(a.dataset.dividend) - parseFloat(b.dataset.dividend);
+        if (mode === 'price_desc')    return parseFloat(b.dataset.price) - parseFloat(a.dataset.price);
+        if (mode === 'price_asc')     return parseFloat(a.dataset.price) - parseFloat(b.dataset.price);
+        if (mode === 'discount_desc') return parseFloat(b.dataset.discount) - parseFloat(a.dataset.discount);
+        return 0;
+    });
+
+    cards.forEach(c => grid.appendChild(c));
+}
+</script>
+
+{% endblock %}

@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}투자 도구/분석 | 수익률·PER·복리·배당·환율 계산기 무료 모음 - Stock Insight AI{% endblock %}
-{% block meta_description %}수익률 계산기, PER/PBR 계산기, 목표주가 계산기, 복리 계산기, 배당 수익률 계산기, 환율 계산기, 손익분기점 계산기 등 주식 투자에 필요한 모든 도구를 무료로 제공합니다{% endblock %}
-{% block og_title %}투자 도구/분석 | 수익률·PER·복리·배당·환율 계산기 무료 모음 - Stock Insight AI{% endblock %}
-{% block og_description %}수익률·PER/PBR·목표주가·복리·배당·환율·손익분기점 계산기까지 주식 투자에 필요한 모든 도구를 한 곳에서 무료로 사용하세요{% endblock %}
+{% block title %}투자 도구/분석 | 수익률·PER·복리·임대수익률·대출상환 계산기 무료 모음 - Stock Insight AI{% endblock %}
+{% block meta_description %}수익률 계산기, PER 계산기, 복리 계산기, 배당 수익률 계산기, 환율 계산기, 임대수익률 계산기, 전월세 전환 계산기, 대출 상환 계산기, 부동산 vs 주식 비교까지 투자에 필요한 모든 도구를 무료로 제공합니다{% endblock %}
+{% block og_title %}투자 도구/분석 | 주식+부동산 계산기 무료 모음 - Stock Insight AI{% endblock %}
+{% block og_description %}수익률·PER·복리·환율·임대수익률·전월세·대출상환·부동산 vs 주식까지 투자에 필요한 모든 도구를 한 곳에서 무료로 사용하세요{% endblock %}
 
 {% block content %}
 <div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
@@ -86,6 +86,63 @@
     </a>
 
 </div>
+
+<!-- 부동산 투자 섹션 -->
+<div style="margin-top: 2.5rem; margin-bottom: 1rem;">
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.25rem;">
+        <span style="font-size: 1.8rem;">🏠</span>
+        <div>
+            <h2 style="margin: 0; font-size: 1.2rem; color: #e2e8f0;">부동산 투자 도구</h2>
+            <p style="margin: 0; font-size: 0.82rem; color: #64748b;">임대수익률·전월세 전환·대출 상환·부동산 vs 주식 비교</p>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+
+        <!-- 임대수익률 계산기 -->
+        <a href="/rental-yield-calculator" style="text-decoration: none;">
+            <div class="glass-panel tool-card" style="border-color: rgba(251,146,60,0.15);">
+                <div class="tool-icon">🏘️</div>
+                <div class="tool-title">임대수익률 계산기</div>
+                <div class="tool-desc">보증금·월세·매매가로 표면/실질 수익률을 계산합니다. 공실률·유지비·대출이자까지 반영.</div>
+                <div class="tool-tag" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:#fb923c;">부동산</div>
+            </div>
+        </a>
+
+        <!-- 전월세 전환율 계산기 -->
+        <a href="/jeonse-calculator" style="text-decoration: none;">
+            <div class="glass-panel tool-card" style="border-color: rgba(251,146,60,0.15);">
+                <div class="tool-icon">🔁</div>
+                <div class="tool-title">전월세 전환 계산기</div>
+                <div class="tool-desc">보증금 → 월세, 월세 → 보증금(전세) 전환을 법정 전환율 기준으로 자동 계산합니다.</div>
+                <div class="tool-tag" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:#fb923c;">부동산</div>
+            </div>
+        </a>
+
+        <!-- 대출 상환 계산기 -->
+        <a href="/mortgage-calculator" style="text-decoration: none;">
+            <div class="glass-panel tool-card" style="border-color: rgba(251,146,60,0.15);">
+                <div class="tool-icon">🏦</div>
+                <div class="tool-title">대출 상환 계산기</div>
+                <div class="tool-desc">원리금균등·원금균등 방식별 월 납입액, 총 이자, 연도별 상환 스케줄을 계산합니다.</div>
+                <div class="tool-tag" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:#fb923c;">부동산</div>
+            </div>
+        </a>
+
+        <!-- 부동산 vs 주식 비교 (킬러 콘텐츠) -->
+        <a href="/realestate-vs-stock" style="text-decoration: none;">
+            <div class="glass-panel tool-card" style="border-color: rgba(168,85,247,0.3); position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0.6rem; right: 0.6rem; background: linear-gradient(135deg, #7c3aed, #c026d3); color: white; font-size: 0.65rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 20px; letter-spacing: 0.04em;">킬러 콘텐츠</div>
+                <div class="tool-icon">⚔️</div>
+                <div class="tool-title">부동산 vs 주식 비교</div>
+                <div class="tool-desc">동일 자기자본으로 부동산(레버리지+임대)과 주식 지수에 투자했을 때 10·20·30년 후 수익을 비교합니다.</div>
+                <div class="tool-tag" style="background:rgba(168,85,247,0.1);border-color:rgba(168,85,247,0.35);color:#a855f7;">🆕 신규</div>
+            </div>
+        </a>
+
+    </div>
+</div>
+
 
 <style>
     .tool-card {

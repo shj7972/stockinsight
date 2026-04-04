@@ -682,6 +682,47 @@ async def bep_calculator(request: Request):
         "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
     })
 
+@app.get("/rental-yield-calculator", response_class=HTMLResponse)
+async def rental_yield_calculator(request: Request):
+    """임대수익률 계산기"""
+    return templates.TemplateResponse("rental_yield_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/jeonse-calculator", response_class=HTMLResponse)
+async def jeonse_calculator(request: Request):
+    """전월세 전환율 계산기"""
+    return templates.TemplateResponse("jeonse_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/mortgage-calculator", response_class=HTMLResponse)
+async def mortgage_calculator(request: Request):
+    """대출 상환 계산기"""
+    return templates.TemplateResponse("mortgage_calc.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+@app.get("/realestate-vs-stock", response_class=HTMLResponse)
+async def realestate_vs_stock(request: Request):
+    """부동산 vs 주식 비교 계산기"""
+    return templates.TemplateResponse("realestate_vs_stock.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr')
+    })
+
+
 @app.get("/fear-greed-index", response_class=HTMLResponse)
 async def fear_greed_index(request: Request):
     """Fear & Greed Index Page"""
@@ -1104,6 +1145,120 @@ async def etf_explorer(request: Request, ticker: str = ""):
 @app.post("/etf-explorer", response_class=HTMLResponse)
 async def etf_explorer_post(request: Request, ticker: str = Form(...)):
     return await etf_explorer(request, ticker)
+
+# ─────────────────────────────────────────────
+# 리츠(REITs) 탐험가
+# ─────────────────────────────────────────────
+REIT_LIST = [
+    # (ticker, name, sector_id, sector_label, sector_color, nav_per_share, description)
+    ("088980.KS", "맥쿼리인프라",   "infra",    "⚡ 인프라",  "#a855f7", 10500, "유료도로·항만 등 핵심 인프라 자산. 안정적 현금흐름과 높은 배당으로 인컴 투자자 선호"),
+    ("395400.KS", "SK리츠",         "office",   "🏙️ 오피스", "#38bdf8", 4800,  "SK 그룹 오피스·주유소 자산 임차. 장기 임대 계약 기반의 안정적 배당"),
+    ("432320.KS", "삼성FN리츠",     "office",   "🏙️ 오피스", "#38bdf8", 4500,  "삼성금융사 오피스 임대. 우량 임차인으로 배당 안정성 높음"),
+    ("377190.KS", "디앤디플랫폼리츠","mixed",   "🏘️ 복합",   "#4ade80", 3800,  "도심 오피스+리테일 복합 자산. 서울 핵심 입지 포트폴리오"),
+    ("451800.KS", "NH프라임리츠",   "office",   "🏙️ 오피스", "#38bdf8", 3500,  "서울 프라임 등급 오피스 빌딩. 기관 투자자 비중 높아 배당 신뢰성 우수"),
+    ("350520.KS", "이지스밸류리츠", "office",   "🏙️ 오피스", "#38bdf8", 4000,  "서울 을지로·종로 업무빌딩 중심. 도심권 공실률 낮은 우량 자산"),
+    ("334890.KS", "이지스레지던스리츠","mixed",  "🏘️ 복합",   "#4ade80", 2500,  "도심권 주거+상업 복합. 주거 수요 증가에 따른 임대료 상승 수혜 기대"),
+    ("348950.KS", "제이알글로벌리츠","office",   "🏙️ 오피스", "#38bdf8", 3200,  "벨기에 파이낸스타워 중심 해외 오피스 투자. 유럽 프라임 오피스 노출"),
+    ("432640.KS", "신한알파리츠",   "office",   "🏙️ 오피스", "#38bdf8", 6000,  "서울 판교·강남 IT 업무 빌딩. 테크기업 임차인으로 공실 위험 낮음"),
+    ("404990.KS", "미래에셋글로벌리츠","logistics","🚚 물류", "#fbbf24", 3600,  "미국 아마존·DHL 물류센터 임차. 전자상거래 성장에 따른 물류 수요 증가"),
+    ("448730.KS", "롯데리츠",       "retail",   "🛒 리테일", "#fb923c", 3300,  "롯데백화점·마트 부동산 임대. 장기 임차를 통한 안정적 현금흐름"),
+    ("293940.KS", "케이탑리츠",     "logistics","🚚 물류",  "#fbbf24", 1800,  "수도권 물류센터 중심 포트폴리오. 이커머스 성장으로 물류 자산 가치 상승"),
+    ("266940.KS", "이리츠코크렙",   "retail",   "🛒 리테일", "#fb923c", 2200,  "이마트·홈플러스 대형마트 부동산 임대. 필수 소비재 기반 안정 임대료"),
+]
+
+def _build_reit_data(ticker_tuple):
+    """단일 리츠 데이터 수집 (yfinance)"""
+    import yfinance as yf
+    ticker, name, sector_id, sector_label, sector_color, nav_per_share, description = ticker_tuple
+    try:
+        t = yf.Ticker(ticker)
+        info = t.info
+        hist = t.history(period="1y")
+
+        price = info.get("currentPrice") or info.get("regularMarketPrice") or 0
+        prev  = info.get("previousClose") or price
+        change_pct = (price - prev) / prev * 100 if prev else 0
+
+        week52_low  = info.get("fiftyTwoWeekLow")  or (hist["Close"].min() if not hist.empty else 0)
+        week52_high = info.get("fiftyTwoWeekHigh") or (hist["Close"].max() if not hist.empty else 1)
+        week52_pos  = round((price - week52_low) / (week52_high - week52_low) * 100, 1) if week52_high > week52_low else 50
+
+        # 배당수익률 (%)
+        div_yield_raw = info.get("dividendYield") or 0
+        dividend_yield = round(div_yield_raw * 100, 2) if div_yield_raw > 0 else 0
+
+        # 시가총액 표시
+        mktcap = info.get("marketCap") or 0
+        if mktcap >= 1_000_000_000_000:
+            market_cap = f"{mktcap/1_000_000_000_000:.1f}조"
+        elif mktcap >= 100_000_000:
+            market_cap = f"{mktcap/100_000_000:.0f}억"
+        else:
+            market_cap = "—"
+
+        # NAV 대비 할인율 (nav_per_share 기준): (price - nav) / nav * 100
+        nav_discount = round((price - nav_per_share) / nav_per_share * 100, 1) if nav_per_share else 0
+
+        return {
+            "ticker": ticker,
+            "name": name,
+            "sector_id": sector_id,
+            "sector_label": sector_label,
+            "sector_color": sector_color,
+            "description": description,
+            "price": price,
+            "change_pct": round(change_pct, 2),
+            "week52_low": week52_low,
+            "week52_high": week52_high,
+            "week52_pos": week52_pos,
+            "dividend_yield": dividend_yield,
+            "market_cap": market_cap,
+            "nav_discount": nav_discount,
+            "nav_per_share": nav_per_share,
+        }
+    except Exception:
+        return None
+
+@app.get("/reit-explorer", response_class=HTMLResponse)
+async def reit_explorer(request: Request):
+    """리츠(REITs) 탐험가 페이지"""
+    from concurrent.futures import ThreadPoolExecutor
+    from datetime import datetime
+
+    reits = []
+    error = None
+
+    try:
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            results = list(ex.map(_build_reit_data, REIT_LIST))
+        reits = [r for r in results if r is not None and r["price"] > 0]
+
+        # 기본 정렬: 배당수익률 내림차순
+        reits.sort(key=lambda x: x["dividend_yield"], reverse=True)
+    except Exception as e:
+        error = f"데이터 로드 중 오류가 발생했습니다: {str(e)}"
+
+    # 요약 통계
+    valid = [r for r in reits if r["dividend_yield"] > 0]
+    avg_dividend = round(sum(r["dividend_yield"] for r in valid) / len(valid), 2) if valid else 0
+    max_reit = max(valid, key=lambda x: x["dividend_yield"]) if valid else None
+    max_dividend = max_reit["dividend_yield"] if max_reit else 0
+    max_dividend_name = max_reit["name"] if max_reit else "—"
+    discount_count = sum(1 for r in reits if r["nav_discount"] < 0)
+
+    return templates.TemplateResponse("reit_explorer.html", {
+        "request": request,
+        "reits": reits,
+        "error": error,
+        "avg_dividend": avg_dividend,
+        "max_dividend": max_dividend,
+        "max_dividend_name": max_dividend_name,
+        "discount_count": discount_count,
+        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+    })
 
 @app.get("/sector-analysis", response_class=HTMLResponse)
 async def sector_analysis(request: Request, cycle: str = "rate_cut"):
@@ -1567,6 +1722,28 @@ async def economic_indicators_page(request: Request):
             "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
             "error": str(e),
         })
+
+
+@app.get("/market-analysis", response_class=HTMLResponse)
+async def market_analysis_hub(request: Request):
+    """Market Analysis Hub Page"""
+    return templates.TemplateResponse("market_analysis.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+    })
+
+
+@app.get("/portfolio", response_class=HTMLResponse)
+async def portfolio_hub(request: Request):
+    """Portfolio Hub Page"""
+    return templates.TemplateResponse("portfolio_hub.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+    })
 
 
 # ── Blog Helper Functions ──────────────────────────────────────────
@@ -2257,6 +2434,48 @@ async def sitemap():
     </url>
     <url>
         <loc>{base_url}/portfolio-simulator</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/market-analysis</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/portfolio</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/rental-yield-calculator</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/jeonse-calculator</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/mortgage-calculator</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/realestate-vs-stock</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>{base_url}/reit-explorer</loc>
         <lastmod>{today}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

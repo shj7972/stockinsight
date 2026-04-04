@@ -238,40 +238,28 @@
                     <span>📋</span> 일일리포트
                 </a>
                 <a href="/tools"
-                    class="nav-item {% if request.url.path.startswith('/tools') or request.url.path in ['/yield-calculator','/per-calculator','/target-price-calculator','/compound-calculator','/dividend-calculator','/bep-calculator','/exchange-rate'] %}active{% endif %}">
+                    class="nav-item {% if request.url.path.startswith('/tools') or request.url.path in ['/yield-calculator','/per-calculator','/target-price-calculator','/compound-calculator','/dividend-calculator','/bep-calculator','/exchange-rate','/rental-yield-calculator','/jeonse-calculator','/mortgage-calculator','/realestate-vs-stock'] %}active{% endif %}">
                     <span>🛠️</span> 도구/분석
                 </a>
-                <a href="/fear-greed-index"
-                    class="nav-item {% if request.url.path == '/fear-greed-index' %}active{% endif %}">
-                    <span>😨</span> 공포/탐욕 지수
+                <a href="/market-analysis"
+                    class="nav-item {% if request.url.path == '/market-analysis' or request.url.path in ['/fear-greed-index','/sector-analysis','/sentiment-analysis','/economic-indicators'] %}active{% endif %}">
+                    <span>🔬</span> 시장 분석
                 </a>
-
                 <a href="/etf-explorer" class="nav-item {% if request.url.path == '/etf-explorer' %}active{% endif %}">
                     <span>🔭</span> ETF 탐험가
                 </a>
-                <a href="/sector-analysis"
-                    class="nav-item {% if request.url.path == '/sector-analysis' %}active{% endif %}">
-                    <span>🏗️</span> 섹터 분석
+                <a href="/reit-explorer" class="nav-item {% if request.url.path == '/reit-explorer' %}active{% endif %}">
+                    <span>🏠</span> 리츠 탐험가
                 </a>
-                <a href="/sentiment-analysis"
-                    class="nav-item {% if request.url.path == '/sentiment-analysis' %}active{% endif %}">
-                    <span>📢</span> 소셜 센티먼트
-                </a>
-                <a href="/economic-indicators"
-                    class="nav-item {% if request.url.path == '/economic-indicators' %}active{% endif %}">
-                    <span>📈</span> 경제지표
-                </a>
-                <a href="/compare" class="nav-item {% if request.url.path == '/compare' %}active{% endif %}">
-                    <span>⚖️</span> 종목비교
-                </a>
-                <a href="/portfolio-simulator"
-                    class="nav-item {% if request.url.path == '/portfolio-simulator' %}active{% endif %}">
+                <a href="/portfolio"
+                    class="nav-item {% if request.url.path == '/portfolio' or request.url.path in ['/compare','/portfolio-simulator'] %}active{% endif %}">
                     <span>💼</span> 포트폴리오
                 </a>
                 <a href="/blog" class="nav-item {% if '/blog' in request.url.path %}active{% endif %}">
                     <span>📝</span> 블로그
                 </a>
             </nav>
+
 
             {% block content %}{% endblock %}
 

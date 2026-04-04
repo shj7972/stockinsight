@@ -45,9 +45,15 @@
 {% endblock %}
 
 {% block content %}
+<!-- 브레드크럼 -->
+<nav style="margin-bottom: 1rem; font-size: 0.82rem; color: #64748b; display: flex; align-items: center; gap: 0.4rem;">
+    <a href="/market-analysis" style="color: #38bdf8; text-decoration: none;">🔬 시장 분석</a>
+    <span>›</span>
+    <span style="color: #94a3b8;">😨 공포/탐욕 지수</span>
+</nav>
 <div class="glass-panel" style="padding: 1.25rem; margin-bottom: 2rem;">
     <h3 style="margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
-        <span style="font-size: 2rem;">😨</span> 공포 & 탐욕 지수 (Fear & Greed Index)
+        <span style="font-size: 2rem;">😨</span> 공포 &amp; 탐욕 지수 (Fear &amp; Greed Index)
     </h3>
     <p style="color: #94a3b8; margin-top: 0.5rem;">
         시장 데이터를 기반으로 자체 분석한 현재 시장의 심리 상태입니다. (0: 극도의 공포 ~ 100: 극도의 탐욕)

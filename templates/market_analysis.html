@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+
+{% block title %}시장 분석 허브 | 공포/탐욕·섹터·센티먼트·경제지표 한눈에 - Stock Insight AI{% endblock %}
+{% block meta_description %}공포/탐욕 지수, 섹터 분석, 소셜 센티먼트, 경제지표까지 시장 전반을 한 곳에서 분석하세요. AI 기반 시장 분석 무료 제공{% endblock %}
+{% block og_title %}시장 분석 허브 | 공포/탐욕·섹터·경제지표 무료 분석 - Stock Insight AI{% endblock %}
+{% block og_description %}공포/탐욕 지수, 섹터 분석, 소셜 센티먼트, 경제지표 — 시장을 읽는 4가지 핵심 분석 도구{% endblock %}
+{% block og_url %}/market-analysis{% endblock %}
+
+{% block breadcrumb_items %},
+    {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "시장 분석",
+        "item": "https://stock-insight.app/market-analysis"
+    }
+{% endblock %}
+
+{% block content %}
+<div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+    <h1 style="margin: 0 0 0.5rem; font-size: 1.6rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="font-size: 2rem;">🔬</span> 시장 분석 허브
+    </h1>
+    <p style="color: #94a3b8; margin: 0; font-size: 0.92rem;">
+        공포/탐욕 지수, 섹터 분석, 소셜 센티먼트, 경제지표까지 — 시장 전반을 한눈에 파악하세요.
+    </p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
+
+    <!-- 공포/탐욕 지수 -->
+    <a href="/fear-greed-index" style="text-decoration: none;" id="card-fear-greed">
+        <div class="glass-panel market-hub-card fear-greed-card">
+            <div class="hub-card-icon">😨</div>
+            <div class="hub-card-body">
+                <div class="hub-card-title">공포/탐욕 지수</div>
+                <div class="hub-card-desc">
+                    S&P500 모멘텀, VIX 변동성, RSI 강도를 종합해 현재 시장 심리를 0~100 지수로 표현합니다.
+                    극단적 공포 구간은 역발상 매수 기회로 활용됩니다.
+                </div>
+                <div class="hub-card-tags">
+                    <span class="hub-tag">실시간</span>
+                    <span class="hub-tag">VIX</span>
+                    <span class="hub-tag">RSI</span>
+                </div>
+                <div class="hub-card-cta">분석 보기 →</div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 섹터 분석 -->
+    <a href="/sector-analysis" style="text-decoration: none;" id="card-sector">
+        <div class="glass-panel market-hub-card sector-card">
+            <div class="hub-card-icon">🏗️</div>
+            <div class="hub-card-body">
+                <div class="hub-card-title">섹터 분석</div>
+                <div class="hub-card-desc">
+                    기술·헬스케어·금융·에너지 등 11개 섹터별 수익률을 비교 분석합니다.
+                    경기 사이클에 따른 순환매 기회를 찾아보세요.
+                </div>
+                <div class="hub-card-tags">
+                    <span class="hub-tag">11개 섹터</span>
+                    <span class="hub-tag">순환매</span>
+                    <span class="hub-tag">수익률 비교</span>
+                </div>
+                <div class="hub-card-cta">분석 보기 →</div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 소셜 센티먼트 -->
+    <a href="/sentiment-analysis" style="text-decoration: none;" id="card-sentiment">
+        <div class="glass-panel market-hub-card sentiment-card">
+            <div class="hub-card-icon">📢</div>
+            <div class="hub-card-body">
+                <div class="hub-card-title">소셜 센티먼트</div>
+                <div class="hub-card-desc">
+                    Reddit, 트위터 등 소셜 미디어의 투자 심리를 AI로 분석합니다.
+                    개미 투자자들의 집단 심리 변화를 선제적으로 파악하세요.
+                </div>
+                <div class="hub-card-tags">
+                    <span class="hub-tag">Reddit</span>
+                    <span class="hub-tag">AI 분석</span>
+                    <span class="hub-tag">감성 점수</span>
+                </div>
+                <div class="hub-card-cta">분석 보기 →</div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 경제지표 -->
+    <a href="/economic-indicators" style="text-decoration: none;" id="card-economic">
+        <div class="glass-panel market-hub-card economic-card">
+            <div class="hub-card-icon">📈</div>
+            <div class="hub-card-body">
+                <div class="hub-card-title">경제지표</div>
+                <div class="hub-card-desc">
+                    CPI, 금리, GDP, 고용지표 등 핵심 거시경제 데이터를 시각화합니다.
+                    시장 방향성을 결정하는 매크로 환경을 파악하세요.
+                </div>
+                <div class="hub-card-tags">
+                    <span class="hub-tag">CPI</span>
+                    <span class="hub-tag">금리</span>
+                    <span class="hub-tag">AI 예측</span>
+                </div>
+                <div class="hub-card-cta">분석 보기 →</div>
+            </div>
+        </div>
+    </a>
+
+</div>
+
+<!-- 시장 분석 활용 가이드 -->
+<section style="margin-top: 2.5rem;">
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">📖 시장 분석 활용 가이드</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.9rem;">
+            <div style="background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="color: #f87171; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">😨 공포 구간 (0~25)</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">역사적으로 탁월한 매수 진입 시점. 공포에 묻고 탐욕에 팔아라.</div>
+            </div>
+            <div style="background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="color: #fbbf24; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">😐 중립 구간 (45~55)</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">섹터 순환매와 경제지표로 방향성 판단. 개별 종목 선별 중요.</div>
+            </div>
+            <div style="background: rgba(74,222,128,0.06); border: 1px solid rgba(74,222,128,0.2); border-radius: 10px; padding: 1rem;">
+                <div style="color: #4ade80; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">🤑 탐욕 구간 (75~100)</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">과열 신호. 리밸런싱 및 수익 실현 검토. 방어 섹터 비중 확대 고려.</div>
+            </div>
+            <div style="background: rgba(56,189,248,0.06); border: 1px solid rgba(56,189,248,0.15); border-radius: 10px; padding: 1rem;">
+                <div style="color: #38bdf8; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.4rem;">🔍 복합 분석 전략</div>
+                <div style="color: #94a3b8; font-size: 0.8rem;">공포/탐욕 + 경제지표 + 섹터 분석을 함께 활용해 신뢰도 높은 시그널을 포착하세요.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="glass-panel" style="padding: 1.5rem;">
+        <h2 style="margin: 0 0 1rem; font-size: 1.1rem; color: #e2e8f0;">❓ 자주 묻는 질문</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">공포/탐욕 지수는 어떻게 계산되나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">S&P500의 125일 이동평균 대비 현재가 (모멘텀 40%), VIX 변동성 지수 (40%), RSI 강도 지수 (20%)를 가중 평균해 0~100 지수로 산출합니다. 숫자가 낮을수록 시장 공포가 심한 상태입니다.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">섹터 분석은 어떤 데이터를 기준으로 하나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">S&P500 11개 섹터 ETF (XLK, XLV, XLF 등)의 최근 1개월·3개월·6개월 수익률을 실시간으로 비교합니다. 경기 사이클에 따라 앞서가는 섹터를 파악하는 데 유용합니다.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 0.9rem 1rem;">
+                <summary style="cursor: pointer; color: #e2e8f0; font-weight: 500; font-size: 0.92rem;">경제지표 AI 예측은 얼마나 믿을 수 있나요?</summary>
+                <p style="color: #94a3b8; font-size: 0.85rem; margin: 0.6rem 0 0;">머신러닝(Random Forest) 모델이 과거 거시경제 데이터를 학습해 다음 달 지수 방향(상승/하락)을 확률로 예측합니다. 참고용으로 활용하시되, 투자 결정의 유일한 근거로 사용하지 마세요.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<style>
+    .market-hub-card {
+        padding: 1.5rem;
+        cursor: pointer;
+        transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+        border: 1px solid rgba(255,255,255,0.07);
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        height: 100%;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+    }
+    .market-hub-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        border-radius: inherit;
+    }
+    .fear-greed-card::before { background: radial-gradient(circle at top left, rgba(239,68,68,0.08), transparent 60%); }
+    .sector-card::before    { background: radial-gradient(circle at top left, rgba(251,191,36,0.08), transparent 60%); }
+    .sentiment-card::before { background: radial-gradient(circle at top left, rgba(167,139,250,0.08), transparent 60%); }
+    .economic-card::before  { background: radial-gradient(circle at top left, rgba(74,222,128,0.08), transparent 60%); }
+
+    .market-hub-card:hover { transform: translateY(-5px); box-shadow: 0 12px 32px rgba(0,0,0,0.3); }
+    .fear-greed-card:hover { border-color: rgba(239,68,68,0.4); }
+    .sector-card:hover     { border-color: rgba(251,191,36,0.4); }
+    .sentiment-card:hover  { border-color: rgba(167,139,250,0.4); }
+    .economic-card:hover   { border-color: rgba(74,222,128,0.4); }
+    .market-hub-card:hover::before { opacity: 1; }
+
+    .hub-card-icon {
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+    .hub-card-body { display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
+    .hub-card-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #f8fafc;
+    }
+    .hub-card-desc {
+        font-size: 0.87rem;
+        color: #94a3b8;
+        line-height: 1.6;
+        flex: 1;
+    }
+    .hub-card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.25rem; }
+    .hub-tag {
+        font-size: 0.73rem;
+        padding: 0.18rem 0.55rem;
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 20px;
+        color: #38bdf8;
+    }
+    .hub-card-cta {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #38bdf8;
+        margin-top: 0.5rem;
+        transition: gap 0.2s;
+    }
+    a:hover .hub-card-cta { letter-spacing: 0.03em; }
+</style>
+{% endblock %}

@@ -1,0 +1,234 @@
+{% extends "base.html" %}
+
+{% block title %}대출 상환 계산기 | 원리금균등·원금균등 월 상환액 계산 — Stock Insight AI{% endblock %}
+{% block meta_description %}대출 원리금균등 또는 원금균등 방식으로 월 상환액, 총 이자, 총 상환액을 자동 계산합니다. 부동산·주택담보대출 상환 시뮬레이션{% endblock %}
+{% block og_title %}대출 상환 계산기 — Stock Insight AI{% endblock %}
+{% block og_description %}원리금균등·원금균등 월 납입액, 총 이자 자동 계산{% endblock %}
+{% block canonical_path %}/mortgage-calculator{% endblock %}
+
+{% block content %}
+<!-- 브레드크럼 -->
+<nav style="margin-bottom:1rem;font-size:0.82rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;">
+    <a href="/tools" style="color:#38bdf8;text-decoration:none;">🛠️ 도구/분석</a>
+    <span>›</span>
+    <span style="color:#94a3b8;">🏦 대출 상환 계산기</span>
+</nav>
+
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h1 style="margin:0 0 0.4rem;font-size:1.6rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-size:2rem;">🏦</span> 대출 상환 계산기
+    </h1>
+    <p style="color:#94a3b8;margin:0;font-size:0.95rem;">
+        대출금액, 금리, 기간을 입력하면 <strong style="color:#e2e8f0;">원리금균등</strong>·<strong style="color:#e2e8f0;">원금균등</strong> 방식별 월 납입액과 총 이자를 계산합니다.
+    </p>
+</div>
+
+<div style="display:grid;grid-template-columns:340px 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+
+    <!-- 입력 -->
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h2 style="margin:0 0 1.2rem;font-size:1rem;color:#e2e8f0;">📝 대출 정보 입력</h2>
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">대출 금액 (만원)</label>
+                <input id="loanAmount" type="number" value="30000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">연 금리 (%)</label>
+                <input id="annualRate" type="number" value="3.5" min="0" max="30" step="0.1"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">대출 기간 (년)</label>
+                <input id="years" type="number" value="20" min="1" max="50"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">거치 기간 (년) <span style="font-size:0.75rem;">이자만 납부</span></label>
+                <input id="grace" type="number" value="0" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calc()">
+            </div>
+        </div>
+
+        <!-- 결과 요약 카드 -->
+        <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.75rem;">
+            <div style="background:rgba(56,189,248,0.07);border:1px solid rgba(56,189,248,0.2);border-radius:12px;padding:1rem;">
+                <div style="font-size:0.78rem;color:#94a3b8;margin-bottom:0.2rem;">원리금균등 — 첫 달 납입액</div>
+                <div id="annuity_monthly" style="font-size:1.8rem;font-weight:800;color:#38bdf8;">—</div>
+                <div id="annuity_total" style="font-size:0.75rem;color:#64748b;"></div>
+            </div>
+            <div style="background:rgba(74,222,128,0.07);border:1px solid rgba(74,222,128,0.2);border-radius:12px;padding:1rem;">
+                <div style="font-size:0.78rem;color:#94a3b8;margin-bottom:0.2rem;">원금균등 — 첫 달 납입액</div>
+                <div id="linear_monthly" style="font-size:1.8rem;font-weight:800;color:#4ade80;">—</div>
+                <div id="linear_total" style="font-size:0.75rem;color:#64748b;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 상환 스케줄 테이블 -->
+    <div class="glass-panel" style="padding:1.5rem;overflow:auto;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+            <h2 style="margin:0;font-size:1rem;color:#e2e8f0;">📅 연도별 상환 스케줄</h2>
+            <div style="display:flex;gap:0.5rem;">
+                <button onclick="setMode('annuity')" id="btn_annuity"
+                    style="padding:0.3rem 0.8rem;border-radius:20px;font-size:0.78rem;cursor:pointer;
+                    background:rgba(56,189,248,0.2);border:1px solid #38bdf8;color:#38bdf8;font-weight:600;">원리금균등</button>
+                <button onclick="setMode('linear')" id="btn_linear"
+                    style="padding:0.3rem 0.8rem;border-radius:20px;font-size:0.78rem;cursor:pointer;
+                    background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);color:#64748b;">원금균등</button>
+            </div>
+        </div>
+        <div style="overflow-x:auto;">
+            <table style="width:100%;border-collapse:collapse;font-size:0.82rem;" id="schedule-table">
+                <thead>
+                    <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+                        <th style="padding:0.5rem 0.6rem;text-align:left;color:#64748b;font-weight:500;">연차</th>
+                        <th style="padding:0.5rem 0.6rem;text-align:right;color:#64748b;font-weight:500;">월 납입액</th>
+                        <th style="padding:0.5rem 0.6rem;text-align:right;color:#64748b;font-weight:500;">원금</th>
+                        <th style="padding:0.5rem 0.6rem;text-align:right;color:#64748b;font-weight:500;">이자</th>
+                        <th style="padding:0.5rem 0.6rem;text-align:right;color:#64748b;font-weight:500;">잔액</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-body"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- 방식 비교 -->
+<div class="glass-panel" style="padding:1.5rem;">
+    <h2 style="margin:0 0 1rem;font-size:1rem;color:#e2e8f0;">📖 상환 방식 비교</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="background:rgba(56,189,248,0.06);border:1px solid rgba(56,189,248,0.15);border-radius:10px;padding:1rem;">
+            <div style="color:#38bdf8;font-weight:600;font-size:0.92rem;margin-bottom:0.6rem;">원리금균등 (Annuity)</div>
+            <ul style="color:#94a3b8;font-size:0.82rem;margin:0;padding-left:1.2rem;line-height:1.8;">
+                <li>매월 동일한 금액 납부</li>
+                <li>초반에 이자 비중이 높음</li>
+                <li>현금흐름 예측이 쉬움</li>
+                <li>총 이자가 원금균등보다 많음</li>
+            </ul>
+        </div>
+        <div style="background:rgba(74,222,128,0.06);border:1px solid rgba(74,222,128,0.15);border-radius:10px;padding:1rem;">
+            <div style="color:#4ade80;font-weight:600;font-size:0.92rem;margin-bottom:0.6rem;">원금균등 (Linear)</div>
+            <ul style="color:#94a3b8;font-size:0.82rem;margin:0;padding-left:1.2rem;line-height:1.8;">
+                <li>매월 원금은 동일, 이자가 줄어듦</li>
+                <li>초반 납부액이 상대적으로 많음</li>
+                <li>총 이자가 원리금균등보다 적음</li>
+                <li>대출자에게 유리한 방식</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+@media (max-width: 900px) {
+    div[style*="grid-template-columns:340px 1fr"] { grid-template-columns: 1fr !important; }
+    div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+}
+</style>
+
+<script>
+let currentMode = 'annuity';
+
+function fmt(n) { return Math.round(n).toLocaleString('ko-KR'); }
+function setMode(mode) {
+    currentMode = mode;
+    document.getElementById('btn_annuity').style.background = mode === 'annuity' ? 'rgba(56,189,248,0.2)' : 'rgba(255,255,255,0.05)';
+    document.getElementById('btn_annuity').style.borderColor = mode === 'annuity' ? '#38bdf8' : 'rgba(255,255,255,0.1)';
+    document.getElementById('btn_annuity').style.color = mode === 'annuity' ? '#38bdf8' : '#64748b';
+    document.getElementById('btn_linear').style.background = mode === 'linear' ? 'rgba(74,222,128,0.2)' : 'rgba(255,255,255,0.05)';
+    document.getElementById('btn_linear').style.borderColor = mode === 'linear' ? '#4ade80' : 'rgba(255,255,255,0.1)';
+    document.getElementById('btn_linear').style.color = mode === 'linear' ? '#4ade80' : '#64748b';
+    drawTable();
+}
+
+function calc() {
+    const P = (parseFloat(document.getElementById('loanAmount').value) || 0) * 10000;
+    const annual = parseFloat(document.getElementById('annualRate').value) || 0;
+    const years = parseInt(document.getElementById('years').value) || 0;
+    const grace = parseInt(document.getElementById('grace').value) || 0;
+    const r = annual / 100 / 12;
+    const n = (years - grace) * 12;
+
+    // 원리금균등
+    const annuityPmt = r > 0 && n > 0 ? P * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1) : (n > 0 ? P / n : 0);
+    const annuityTotal = annuityPmt * n + P * r * grace * 12;
+    const annuityInterest = annuityTotal - P;
+
+    // 원금균등: 첫 달
+    const linearPrin = n > 0 ? P / n : 0;
+    const linearFirstInterest = P * r;
+    const linearFirstPmt = linearPrin + linearFirstInterest;
+    const linearTotalInterest = n > 0 ? P * r * (n + 1) / 2 + P * r * grace * 12 : 0;
+    const linearTotal = P + linearTotalInterest;
+
+    document.getElementById('annuity_monthly').textContent = fmt(annuityPmt / 10000) + '만원';
+    document.getElementById('annuity_total').textContent = `총 이자 ${fmt(annuityInterest / 10000)}만원 | 총 상환 ${fmt(annuityTotal / 10000)}만원`;
+    document.getElementById('linear_monthly').textContent = fmt(linearFirstPmt / 10000) + '만원';
+    document.getElementById('linear_total').textContent = `총 이자 ${fmt(linearTotalInterest / 10000)}만원 | 총 상환 ${fmt(linearTotal / 10000)}만원`;
+
+    drawTable(P, r, grace, years, n, annuityPmt, linearPrin);
+}
+
+let _tableData = {};
+
+function drawTable(P, r, grace, years, n, annuityPmt, linearPrin) {
+    if (P !== undefined) _tableData = { P, r, grace, years, n, annuityPmt, linearPrin };
+    const { P: p, r: rate, grace: g, years: y, n: months, annuityPmt: aPmt, linearPrin: lPrin } = _tableData;
+    if (!p) return;
+
+    const tbody = document.getElementById('schedule-body');
+    tbody.innerHTML = '';
+    let balance = p;
+
+    for (let yr = 1; yr <= y; yr++) {
+        if (yr <= g) {
+            // 거치 기간: 이자만
+            const interest = balance * rate * 12;
+            const row = tbody.insertRow();
+            row.style.borderBottom = '1px solid rgba(255,255,255,0.04)';
+            row.innerHTML = `
+                <td style="padding:0.5rem 0.6rem;color:#fbbf24;">거치 ${yr}년</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#94a3b8;">${fmt(balance * rate / 10000)}만원</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#64748b;">0</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#f87171;">${fmt(interest / 10000)}만원</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;">${fmt(balance / 10000)}만원</td>`;
+        } else {
+            const repayYr = yr - g;
+            let yearPrin = 0, yearInt = 0, startBal = balance;
+            for (let m = 0; m < 12 && balance > 0; m++) {
+                if (currentMode === 'annuity') {
+                    const interest = balance * rate;
+                    const prin = Math.min(aPmt - interest, balance);
+                    yearPrin += prin;
+                    yearInt += interest;
+                    balance -= prin;
+                } else {
+                    const interest = balance * rate;
+                    yearPrin += lPrin;
+                    yearInt += interest;
+                    balance -= lPrin;
+                }
+            }
+            balance = Math.max(0, balance);
+            const monthlyPmt = currentMode === 'annuity' ? aPmt : (lPrin + startBal * rate);
+            const row = tbody.insertRow();
+            row.style.borderBottom = '1px solid rgba(255,255,255,0.04)';
+            row.innerHTML = `
+                <td style="padding:0.5rem 0.6rem;color:#e2e8f0;">${yr}년차</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#38bdf8;">${fmt(monthlyPmt / 10000)}만원</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#4ade80;">${fmt(yearPrin / 10000)}만원</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;color:#f87171;">${fmt(yearInt / 10000)}만원</td>
+                <td style="padding:0.5rem 0.6rem;text-align:right;">${fmt(Math.max(0, balance) / 10000)}만원</td>`;
+        }
+    }
+}
+
+calc();
+</script>
+{% endblock %}

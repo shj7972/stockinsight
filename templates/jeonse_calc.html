@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}전월세 전환율 계산기 | 보증금↔월세 전환 자동 계산 — Stock Insight AI{% endblock %}
+{% block meta_description %}전월세 전환율을 이용해 보증금을 월세로, 월세를 보증금으로 자동 전환합니다. 법정 전환율(연 10%) 기준 세입자·임대인 모두 사용 가능{% endblock %}
+{% block og_title %}전월세 전환율 계산기 — Stock Insight AI{% endblock %}
+{% block og_description %}보증금 ↔ 월세 전환 자동 계산기. 법정 전환율 기준{% endblock %}
+{% block canonical_path %}/jeonse-calculator{% endblock %}
+
+{% block content %}
+<!-- 브레드크럼 -->
+<nav style="margin-bottom:1rem;font-size:0.82rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;">
+    <a href="/tools" style="color:#38bdf8;text-decoration:none;">🛠️ 도구/분석</a>
+    <span>›</span>
+    <span style="color:#94a3b8;">🔁 전월세 전환율 계산기</span>
+</nav>
+
+<div class="glass-panel" style="padding:1.5rem;margin-bottom:1.5rem;">
+    <h1 style="margin:0 0 0.4rem;font-size:1.6rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-size:2rem;">🔁</span> 전월세 전환율 계산기
+    </h1>
+    <p style="color:#94a3b8;margin:0;font-size:0.95rem;">
+        전월세 전환율을 이용해 <strong style="color:#e2e8f0;">보증금 → 월세</strong> 또는 <strong style="color:#e2e8f0;">월세 → 보증금</strong>으로 자동 전환 계산합니다.
+        <br><span style="font-size:0.8rem;color:#64748b;">주택임대차보호법상 법정 전환율 기준: 기준금리 + 2%(연간 최고 10% 이내)</span>
+    </p>
+</div>
+
+<!-- 전환율 계산기 -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+    <!-- 보증금 → 월세 -->
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h2 style="margin:0 0 1.2rem;font-size:1rem;color:#38bdf8;">📦 보증금 → 월세 전환</h2>
+        <p style="font-size:0.82rem;color:#64748b;margin:0 0 1rem;">전세를 월세로 전환할 때 적정 월세 계산</p>
+
+        <div style="display:flex;flex-direction:column;gap:0.9rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">전세(보증금) 금액 (만원)</label>
+                <input id="d2m_jeonse" type="number" value="30000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcD2M()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">전환 후 보증금 (만원) <span style="font-size:0.75rem;">남길 보증금</span></label>
+                <input id="d2m_newDeposit" type="number" value="1000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcD2M()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">전환율 (%) <span style="font-size:0.75rem;">법정 최대 10%</span></label>
+                <input id="d2m_rate" type="number" value="5.5" min="0" max="10" step="0.1"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcD2M()">
+            </div>
+        </div>
+
+        <div style="margin-top:1.2rem;background:rgba(56,189,248,0.06);border:1px solid rgba(56,189,248,0.2);border-radius:12px;padding:1.2rem;text-align:center;">
+            <div style="font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">적정 월세</div>
+            <div id="d2m_result" style="font-size:2.8rem;font-weight:800;color:#38bdf8;">—</div>
+            <div id="d2m_annual" style="font-size:0.8rem;color:#64748b;margin-top:0.2rem;"></div>
+        </div>
+    </div>
+
+    <!-- 월세 → 보증금 -->
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h2 style="margin:0 0 1.2rem;font-size:1rem;color:#4ade80;">💵 월세 → 보증금(전세) 전환</h2>
+        <p style="font-size:0.82rem;color:#64748b;margin:0 0 1rem;">월세 계약을 전세로 전환할 때 보증금 계산</p>
+
+        <div style="display:flex;flex-direction:column;gap:0.9rem;">
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">현재 월세 (만원)</label>
+                <input id="m2d_rent" type="number" value="80" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcM2D()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">현재 보증금 (만원)</label>
+                <input id="m2d_deposit" type="number" value="1000" min="0"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcM2D()">
+            </div>
+            <div>
+                <label style="display:block;font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">전환율 (%) <span style="font-size:0.75rem;">법정 최대 10%</span></label>
+                <input id="m2d_rate" type="number" value="5.5" min="0" max="10" step="0.1"
+                    style="width:100%;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:#f8fafc;padding:0.6rem 0.8rem;font-size:0.95rem;box-sizing:border-box;"
+                    oninput="calcM2D()">
+            </div>
+        </div>
+
+        <div style="margin-top:1.2rem;background:rgba(74,222,128,0.06);border:1px solid rgba(74,222,128,0.2);border-radius:12px;padding:1.2rem;text-align:center;">
+            <div style="font-size:0.82rem;color:#94a3b8;margin-bottom:0.3rem;">전환 보증금(전세가)</div>
+            <div id="m2d_result" style="font-size:2.8rem;font-weight:800;color:#4ade80;">—</div>
+            <div id="m2d_detail" style="font-size:0.8rem;color:#64748b;margin-top:0.2rem;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- 전환율 개념 설명 -->
+<div class="glass-panel" style="padding:1.5rem;">
+    <h2 style="margin:0 0 1rem;font-size:1rem;color:#e2e8f0;">📖 전월세 전환율이란?</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;font-size:0.85rem;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#38bdf8;font-weight:600;margin-bottom:0.4rem;">📐 계산 공식</div>
+            <div style="color:#94a3b8;line-height:1.7;">
+                월세 = (전세 − 보증금) × 전환율 ÷ 12<br>
+                전세 = 보증금 + 월세 × 12 ÷ 전환율
+            </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#fbbf24;font-weight:600;margin-bottom:0.4rem;">⚖️ 법정 전환율</div>
+            <div style="color:#94a3b8;line-height:1.7;">
+                주택임대차보호법 기준<br>
+                기준금리(한은) + 2%, 연 10% 이내<br>
+                임대인이 법정율 초과 요구 시 거절 가능
+            </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:1rem;">
+            <div style="color:#4ade80;font-weight:600;margin-bottom:0.4rem;">💡 세입자 팁</div>
+            <div style="color:#94a3b8;line-height:1.7;">
+                전환율이 낮을수록 세입자에게 유리<br>
+                은행 예금 금리보다 낮으면 전세가 유리<br>
+                대출 금리와 비교해 선택 결정
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+@media (max-width: 768px) {
+    div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+}
+</style>
+
+<script>
+function fmt(n) { return Math.round(n).toLocaleString('ko-KR'); }
+
+function calcD2M() {
+    const jeonse     = parseFloat(document.getElementById('d2m_jeonse').value)     || 0;
+    const newDeposit = parseFloat(document.getElementById('d2m_newDeposit').value)  || 0;
+    const rate       = parseFloat(document.getElementById('d2m_rate').value)        || 0;
+
+    const convertedAmount = Math.max(0, jeonse - newDeposit);
+    const monthlyRent = convertedAmount * rate / 100 / 12;
+
+    document.getElementById('d2m_result').textContent = fmt(monthlyRent) + '만원/월';
+    document.getElementById('d2m_annual').textContent = `연 ${fmt(monthlyRent * 12)}만원 | 전환 금액: ${fmt(convertedAmount)}만원`;
+}
+
+function calcM2D() {
+    const rent    = parseFloat(document.getElementById('m2d_rent').value)    || 0;
+    const deposit = parseFloat(document.getElementById('m2d_deposit').value) || 0;
+    const rate    = parseFloat(document.getElementById('m2d_rate').value)    || 0;
+
+    const jeonse = rate > 0 ? (rent * 12 / rate * 100) + deposit : 0;
+
+    document.getElementById('m2d_result').textContent = fmt(jeonse) + '만원';
+    document.getElementById('m2d_detail').textContent = `보증금 ${fmt(deposit)} + 전환분 ${fmt(rent * 12 / rate * 100)}만원`;
+}
+
+calcD2M();
+calcM2D();
+</script>
+{% endblock %}
