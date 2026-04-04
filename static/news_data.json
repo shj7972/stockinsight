@@ -5,24 +5,11 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 반영",
-      "경제 불안 요소 대비"
+      "중동 긴장 속 경제 영향 우려",
+      "네거티브 상황에서의 대처 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
-    "type": "국내"
-  },
-  {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "금리 인하 사이클 종료 확인",
-      "시장금리 불안정성 증가",
-      "3%대 주담대 사라짐"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,27 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
     "publisher": "한국방송뉴스",
     "summary": [
-      "핵심광물 관리 회의 개최",
-      "국제공조 방안 논의",
-      "재무장관 참여"
+      "핵심광물 회의 개최 소식",
+      "국제공조 강화 논의",
+      "한국방송뉴스 보도"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "이란 전쟁이 주식, 채권 및 성장에 미치는 영향 - The New York Times",
-    "original_title": "What the Iran War Could Mean for Stocks, Bonds and Growth - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
-    "publisher": "The New York Times",
+    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "전쟁이 주가에 미칠 영향",
-      "채권 시장의 불안정성",
-      "경제 성장 전망에 대한 우려"
+      "금리 인하 사이클 종료",
+      "시장금리 불안정",
+      "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
+    "sentiment_score": -0.7,
+    "type": "국내"
   },
   {
     "title": "주식은 2022년 이후 최악의 분기를 기록하며 트럼프의 경제 플레이북에 대한 의구심을 불러일으켰습니다 - NBC News",
@@ -58,8 +44,8 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "주식, 2022년 이후 최악의 분기",
-      "트럼프 경제 전략에 대한 의구심 증가",
+      "2022년 이후 최악의 주식 분기",
+      "트럼프 경제 전략에 대한 의구심",
       "시장 불확실성 확대"
     ],
     "sentiment": "NEGATIVE",
@@ -67,14 +53,28 @@
     "type": "해외"
   },
   {
-    "title": "K형 경제를 처음 경고한 교수가 지금 미국 주식을 기피하는 이유 - Business Insider",
-    "original_title": "The professor who first warned of the K-shaped economy explains why he's avoiding US stocks right now - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVll3U2k5anIwTXMycWNweFduVnlGYXd0UHZqMkNyclNQUDBXQWx3eElEbk1KYlJGT0RvWk5FQmYtZHdISFNFMFpxWVRESXZrdHZad1lCYnFXYTNodUFMVnFHT28wMDNlR3Vyd1lFQ3FLSXlUQks3VXRJMUpUTnBObTBQQUxFMnNDa1Vtbm9VbE1uSVMxckJYNXZpRjZnUnM2bDhmZnhn?oc=5",
-    "publisher": "Business Insider",
+    "title": "이란 전쟁이 주식, 채권 및 성장에 미치는 영향 - The New York Times",
+    "original_title": "What the Iran War Could Mean for Stocks, Bonds and Growth - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "K자 경제 경고한 교수",
-      "현재 미국 주식 피하고 있어",
-      "경제 불확실성 언급"
+      "이란 전쟁이 시장에 영향",
+      "주식과 채권 변동성 증가",
+      "경제 성장에 불확실성"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
+    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPaklzNXdJOTF1cnB6YmFDak9rT09mQlZNS1c1Z1QyanF2aVdhM1lSSTNZWWU4eXpRRFVLdmFuUDF6YTA2YVZ2WWhpMHFhQ1RqUEFqM0NfUm1tb0pxc0R1d1d5MnpTR0Mxcnp0SmF6ellmRzQwR2dIbHFFaUZkNTVhMEtwLTduZU9FdUdScnJBazIxbkNxS0pVTHl5Q0p1UDJKRmJmVm1PWEw2Mk9kTnFPaDZ3WlZWUDhqT0h2eTVlNThoVktBZW1tNWFuWmxKVDRZM3hxTzZ5NVJqYUdnVnU5d0xvTzVnZUxINDlvUGR2OUdfWDdkbDNBalRpOFRzUHBRMGdMN0NTbXlxY1Z4bDJ3UjBUN2llWXg1RzFxVjkxTGRyT1hTMWt6V3FoQ3NuZUhwVmpuOFY5SXBkTXNwWTU4SS11R1U1dnRCc3kwSlZyTDVkQnM4S3dtd1FJTGxfSXR1NTk5U1dPQWhkT0U5dk1DZXlCdE03SjBDSWZyOTB1UDkybEFiQzNxR3ZVeWc3ZkNzekNBWXhsVFF5M2tBUVFvSU5rSm9KcWVGMWpTY29DbFJ1RUQ3eVhaYkNMWXZjZ29VdVE3Mk9LYw?oc=5",
+    "publisher": "MarketWatch",
+    "summary": [
+      "주식 시장 하락이 경제에 악영향",
+      "치솟는 유가보다 더 심각",
+      "소비자 심리에 미치는 영향 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
