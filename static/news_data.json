@@ -5,11 +5,11 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 경제 영향 우려",
-      "네거티브 상황에서의 대처 필요"
+      "중동 긴장, 경제에 영향",
+      "시장 불안 해소 목표"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
     "publisher": "한국방송뉴스",
     "summary": [
-      "핵심광물 회의 개최 소식",
-      "국제공조 강화 논의",
-      "한국방송뉴스 보도"
+      "핵심광물 회의 개최",
+      "국제공조 방안 논의",
+      "산업 경쟁력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,8 +30,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료",
-      "시장금리 불안정",
+      "금리 인하 사이클 종료 설정",
+      "시장금리 변동성 증가",
       "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
@@ -39,45 +39,45 @@
     "type": "국내"
   },
   {
-    "title": "주식은 2022년 이후 최악의 분기를 기록하며 트럼프의 경제 플레이북에 대한 의구심을 불러일으켰습니다 - NBC News",
-    "original_title": "Stocks have their worst quarter since 2022, raising doubts about Trump's economic playbook - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUZ3c1F6c1lzQmpSVy1mUW9rc20yamtUU0owVmN1WV9pSkR0SXhJM2ZtZTVKUEtlWS1RTUE3M3NLUjBGWFcyYjB5am1QWHQxQXk4MkFxOUR5cWt4al9NdWZlSl9iVC1hVFhNaFlreG14d3ZHUVh1UFIwb0N3QllGWEtXNmoyZ0dfZ0pSQ0JB?oc=5",
-    "publisher": "NBC News",
+    "title": "이란 전쟁이 주식, 채권 및 성장에 미치는 영향 - nytimes.com",
+    "original_title": "What the Iran War Could Mean for Stocks, Bonds and Growth - nytimes.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
+    "publisher": "nytimes.com",
     "summary": [
-      "2022년 이후 최악의 주식 분기",
-      "트럼프 경제 전략에 대한 의구심",
-      "시장 불확실성 확대"
+      "전쟁이 주식 시장에 미치는 영향",
+      "채권 시장의 변화 예측",
+      "경제 성장에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "이란 전쟁이 주식, 채권 및 성장에 미치는 영향 - The New York Times",
-    "original_title": "What the Iran War Could Mean for Stocks, Bonds and Growth - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "이란 전쟁이 시장에 영향",
-      "주식과 채권 변동성 증가",
-      "경제 성장에 불확실성"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장 하락은 물가 상승보다 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
+    "title": "주식시장 하락이 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
     "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPaklzNXdJOTF1cnB6YmFDak9rT09mQlZNS1c1Z1QyanF2aVdhM1lSSTNZWWU4eXpRRFVLdmFuUDF6YTA2YVZ2WWhpMHFhQ1RqUEFqM0NfUm1tb0pxc0R1d1d5MnpTR0Mxcnp0SmF6ellmRzQwR2dIbHFFaUZkNTVhMEtwLTduZU9FdUdScnJBazIxbkNxS0pVTHl5Q0p1UDJKRmJmVm1PWEw2Mk9kTnFPaDZ3WlZWUDhqT0h2eTVlNThoVktBZW1tNWFuWmxKVDRZM3hxTzZ5NVJqYUdnVnU5d0xvTzVnZUxINDlvUGR2OUdfWDdkbDNBalRpOFRzUHBRMGdMN0NTbXlxY1Z4bDJ3UjBUN2llWXg1RzFxVjkxTGRyT1hTMWt6V3FoQ3NuZUhwVmpuOFY5SXBkTXNwWTU4SS11R1U1dnRCc3kwSlZyTDVkQnM4S3dtd1FJTGxfSXR1NTk5U1dPQWhkT0U5dk1DZXlCdE03SjBDSWZyOTB1UDkybEFiQzNxR3ZVeWc3ZkNzekNBWXhsVFF5M2tBUVFvSU5rSm9KcWVGMWpTY29DbFJ1RUQ3eVhaYkNMWXZjZ29VdVE3Mk9LYw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNNGxJWTFYV1JEd3FERXNmUzlPdGVlWHZqS1kxX2ZzdVJPNkx0TXo3V1NSOEpQUGlpRjIwWEx6UEppUlFjc3FBcjA5UWRscVBVcVVudFptdG1tZnJ0Z25DNjFZb2cyN0dZb2ttTHgzTEhvX2JvQWpzTWV3N291aU9uaWIzLVlJWW83NjJEQW53bWUwUE93UzNfaFlyXzRuWDRrVHRIZ0V4R3VHWllxMFAzRGV0NENHU3VJeU9jUV8zeXY5T3ZJLWdGNTFxWG5fOV9BUHJqQnFxZVBNM2Z0QVlKcmhvS0tWcEltdUdHS2ZKaHVtaldSSnNfcVZQQ19NUDU1RXlJTzBmd2J5ekZwWklqcS1yRWp4a2RhM3BobW1TTGpLdHZFMFdZTWtCQVRWVEpWMGZ0RUN1bUpGT0ZteFdwbmIxbDlDWUNucHBXcl9OYWZpdDdkQjJISTlfRUZSRVJJTlFnYXdYTU00RFIwNGVRa3RsVjd4bVdOWDJMeWxneVlNWDlxX2ZWSzB5d2U1dlRSQ1Z2RzFhX0JzQUd2aF9JVmRSMkFHNDNxNEhCdXR2WFZqZ2xxdldJVDQwSjh1T1MtTTlhd1lGMA?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "주식 시장 하락이 경제에 악영향",
-      "치솟는 유가보다 더 심각",
-      "소비자 심리에 미치는 영향 우려"
+      "주식 시장 하락이 더 큰 문제",
+      "휘발유 가격보다 주식 영향 더 큼",
+      "경제에 부정적 영향을 미칠 수 있음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "성금요일에는 시장이 문을 닫나요? 부활절? 2026년 공휴일 일정 보기 - 오클라호맨",
+    "original_title": "Are markets closed on Good Friday? Easter? See 2026 holiday schedule - The Oklahoman",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUDlOMUZrMVlEeHR4aE5rbFRrNi16QVNrVDA2MlR3NGhuMXdRbDVQdmc2aFI2QURMWGd4X0Jnc0R4eTR1bG5iQkxjdWJjZVhMVzgtNndRVXRqWEM4Wk9FZkxNaTQ3VTVSalRJdFpVckFVX2dua3pING1NY3AySjVsTzE1NFNpR0F6Uk9jTHRxdFRaNTdVQ2FhUnVUX2FTR2owalI1VzFCVUVKalJSaG1XWERpOGJHb3F2X3J3OEt1cmJUZW5fSGxXamd2RU05dDUyUkh1SXM1d3U?oc=5",
+    "publisher": "The Oklahoman",
+    "summary": [
+      "굿 프라이데이에 시장 닫힘",
+      "부활절에도 시장 닫힘",
+      "2026년 휴일 일정 제공"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
