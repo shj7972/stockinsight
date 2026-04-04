@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장, 경제에 영향",
-      "시장 불안 해소 목표"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장으로 불안 심화",
+      "경제 안정화 목표 명확히 함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,11 +18,11 @@
     "publisher": "한국방송뉴스",
     "summary": [
       "핵심광물 회의 개최",
-      "국제공조 방안 논의",
-      "산업 경쟁력 강화"
+      "국제공조 강화 논의",
+      "재무장관 참여"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,8 +30,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 설정",
-      "시장금리 변동성 증가",
+      "금리 인하 사이클 종료 언급",
+      "시장금리 상승세 보임",
       "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
@@ -39,28 +39,14 @@
     "type": "국내"
   },
   {
-    "title": "이란 전쟁이 주식, 채권 및 성장에 미치는 영향 - nytimes.com",
-    "original_title": "What the Iran War Could Mean for Stocks, Bonds and Growth - nytimes.com",
+    "title": "나쁨, 매우 나쁨, 훨씬 더 나쁨: 전쟁과 경제에 대한 예측 선택 - The New York Times",
+    "original_title": "Bad, Very Bad and Much Worse: Pick a Forecast for the War and Economy - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
-    "publisher": "nytimes.com",
+    "publisher": "The New York Times",
     "summary": [
-      "전쟁이 주식 시장에 미치는 영향",
-      "채권 시장의 변화 예측",
-      "경제 성장에 대한 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장 하락이 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
-    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNNGxJWTFYV1JEd3FERXNmUzlPdGVlWHZqS1kxX2ZzdVJPNkx0TXo3V1NSOEpQUGlpRjIwWEx6UEppUlFjc3FBcjA5UWRscVBVcVVudFptdG1tZnJ0Z25DNjFZb2cyN0dZb2ttTHgzTEhvX2JvQWpzTWV3N291aU9uaWIzLVlJWW83NjJEQW53bWUwUE93UzNfaFlyXzRuWDRrVHRIZ0V4R3VHWllxMFAzRGV0NENHU3VJeU9jUV8zeXY5T3ZJLWdGNTFxWG5fOV9BUHJqQnFxZVBNM2Z0QVlKcmhvS0tWcEltdUdHS2ZKaHVtaldSSnNfcVZQQ19NUDU1RXlJTzBmd2J5ekZwWklqcS1yRWp4a2RhM3BobW1TTGpLdHZFMFdZTWtCQVRWVEpWMGZ0RUN1bUpGT0ZteFdwbmIxbDlDWUNucHBXcl9OYWZpdDdkQjJISTlfRUZSRVJJTlFnYXdYTU00RFIwNGVRa3RsVjd4bVdOWDJMeWxneVlNWDlxX2ZWSzB5d2U1dlRSQ1Z2RzFhX0JzQUd2aF9JVmRSMkFHNDNxNEhCdXR2WFZqZ2xxdldJVDQwSjh1T1MtTTlhd1lGMA?oc=5",
-    "publisher": "MarketWatch",
-    "summary": [
-      "주식 시장 하락이 더 큰 문제",
-      "휘발유 가격보다 주식 영향 더 큼",
-      "경제에 부정적 영향을 미칠 수 있음"
+      "전쟁 상황이 심각해짐",
+      "경제 전망도 비관적",
+      "회복 어려운 상황 지적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUDlOMUZrMVlEeHR4aE5rbFRrNi16QVNrVDA2MlR3NGhuMXdRbDVQdmc2aFI2QURMWGd4X0Jnc0R4eTR1bG5iQkxjdWJjZVhMVzgtNndRVXRqWEM4Wk9FZkxNaTQ3VTVSalRJdFpVckFVX2dua3pING1NY3AySjVsTzE1NFNpR0F6Uk9jTHRxdFRaNTdVQ2FhUnVUX2FTR2owalI1VzFCVUVKalJSaG1XWERpOGJHb3F2X3J3OEt1cmJUZW5fSGxXamd2RU05dDUyUkh1SXM1d3U?oc=5",
     "publisher": "The Oklahoman",
     "summary": [
-      "굿 프라이데이에 시장 닫힘",
-      "부활절에도 시장 닫힘",
-      "2026년 휴일 일정 제공"
+      "시장, 굿 프라이데이 휴장",
+      "이스터도 휴장",
+      "2026년 휴일 일정 안내"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장 하락이 미국 경제에 더 큰 타격을 줄 수 있다 - MarketWatch",
+    "original_title": "A falling stock market may hurt the U.S. economy more than high prices at the pump - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNTlV3MmVYTkVfNnNCS18zVGx1MUhDLVNhb0xoQlVtLWVFLU14SnVReS1HdXJWbnhmVE9PRG9rMVQ5NG9YVFBDdGlKTTdLRlpYa1RSSS1YWUs3bGxOR08zTTNZTjFyZDJUS1lTU3dJRExCMTltNDBTTFdVWXNhU011ZjBWRlhibHMwNnRWQXltSnByMUZmdkhyeTg4aDAyYVNTUTVUM2VwV20xWDlxNzRIREo4QkhfRWFpSUs1bFBpLWZObkVrSUNqaV91ZkREcVNXYmJWSDh1U040ZDJlRE03a2poVUQ0dVhvbXN5U0R4dDUwZlJOY0d2SkZtQ0ZNb3dKUS11Vm43WGsyVl80UF9VNHVYWmd1M2xHdm5EQ0xJcDJtV3dwRWtMc2lsQU5CMlpUQU1oQWlGdW5Za1FTbGdEdUJnek91alMwRWFIUHJYWWJjZVFQR2FYeFZleW1wbFUtQ3ZqQXhicklQQlRXY3NCbWFFX0Q2QWl3VURBT0I3TUw4SlhrZjk5V1A5X0lpdk1ERzF1LTBfLVB6SXJzWGJjRGJvYlRVcTBwOEJDWUM5T0VlLVVlWTEwSE1lTE1ubEtxSzdWMzY0bw?oc=5",
+    "publisher": "MarketWatch",
+    "summary": [
+      "주식시장 하락이 경제에 영향",
+      "유가 상승보다 심각할 수 있음",
+      "투자 심리 저하 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
