@@ -9,7 +9,6 @@
 {% block og_description %}{% if stock_data %}{{ stock_data.company_name }} 주가 {{ stock_data.currency_symbol }}{{ '{:,.2f}'.format(stock_data.current_price) }}. AI 매수·매도 신호 및 차트 분석 확인하기!{% else %}인기 종목 AI 주가 예측 · 매수·매도 신호 · 통계 분석 리포트 무료 제공{% endif %}{% endblock %}
 
 {% block canonical_path %}{% if stock_data %}/stock/{{ stock_data.ticker }}{% else %}/{% endif %}{% endblock %}
-
 {% block og_url %}{% if stock_data %}/stock/{{ stock_data.ticker }}{% endif %}{% endblock %}
 
 {% block structured_data %}
@@ -21,29 +20,13 @@
     "name": "{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주식 데이터 및 AI 분석",
     "description": "{{ stock_data.company_name }} 실시간 주가 데이터, AI 매수·매도 신호, 기술적 지표, 뉴스 감성 분석.",
     "url": "https://stock-insight.app/stock/{{ stock_data.ticker }}",
-    "provider": {
-        "@type": "Organization",
-        "name": "Stock Insight AI",
-        "url": "https://stock-insight.app"
-    },
+    "provider": {"@type": "Organization","name": "Stock Insight AI","url": "https://stock-insight.app"},
     "license": "https://stock-insight.app/privacy-policy",
-    "creator": {
-        "@type": "Organization",
-        "name": "Stock Insight AI",
-        "url": "https://stock-insight.app"
-    },
+    "creator": {"@type": "Organization","name": "Stock Insight AI","url": "https://stock-insight.app"},
     "category": "Stock Analysis",
     "variableMeasured": [
-        {
-            "@type": "PropertyValue",
-            "name": "현재가",
-            "value": "{{ stock_data.current_price }}"
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "AI 판정",
-            "value": "{{ stock_data.verdict.split('(')[0] }}"
-        }
+        {"@type": "PropertyValue","name": "현재가","value": "{{ stock_data.current_price }}"},
+        {"@type": "PropertyValue","name": "AI 판정","value": "{{ stock_data.verdict.split('(')[0] }}"}
     ]
 },
 {
@@ -73,26 +56,30 @@
 {% endblock %}
 
 {% block content %}
-<!-- Major Indices (콤팩트 버전) -->
-<div class="glass-panel" style="padding: 0.85rem 1rem; margin-bottom: 1.25rem;">
-    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.65rem;">
-        <span style="font-size: 1rem;">📊</span>
-        <span style="font-size: 0.85rem; font-weight: 600; color: #94a3b8; letter-spacing: 0.04em;">실시간 글로벌 지수</span>
+
+<!-- ═══════════════════════════════════════════════════════════
+     글로벌 지수 위젯 (항상 표시)
+════════════════════════════════════════════════════════════ -->
+<div class="glass-panel" style="padding:0.85rem 1rem;margin-bottom:1.25rem;">
+    <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.65rem;">
+        <span style="font-size:1rem;">📊</span>
+        <span style="font-size:0.82rem;font-weight:600;color:#94a3b8;letter-spacing:0.04em;">실시간 글로벌 지수</span>
     </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+    <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
         {% for region, indices in indices_data.items() %}
         {% for index in indices %}
-        <a href="/stock/{{ index.ticker }}" style="text-decoration:none; display:flex; flex-direction:column; align-items:flex-start;
-                  background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
-                  border-radius: 10px; padding: 0.5rem 0.75rem; min-width: 110px; flex: 1;
-                  transition: border-color 0.2s;" onmouseover="this.style.borderColor='rgba(56,189,248,0.35)'"
-            onmouseout="this.style.borderColor='rgba(255,255,255,0.06)'">
-            <span style="font-size: 0.7rem; color: #64748b; margin-bottom: 0.15rem;">{{ index.name }}</span>
-            <span style="font-size: 0.95rem; font-weight: 700; color: #f1f5f9;">
+        <a href="/stock/{{ index.ticker }}" style="text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;
+            background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);
+            border-radius:10px;padding:0.5rem 0.75rem;min-width:110px;flex:1;
+            transition:border-color 0.2s,transform 0.2s;"
+            onmouseover="this.style.borderColor='rgba(56,189,248,0.35)';this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.borderColor='rgba(255,255,255,0.06)';this.style.transform=''">
+            <span style="font-size:0.68rem;color:#64748b;margin-bottom:0.15rem;">{{ index.name }}</span>
+            <span style="font-size:0.95rem;font-weight:700;color:#f1f5f9;">
                 {% if region == "한국" %}{{ "{:,.0f}".format(index.current) }}
                 {% else %}{{ "{:,.2f}".format(index.current) }}{% endif %}
             </span>
-            <span style="font-size: 0.72rem; color: {% if index.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+            <span style="font-size:0.72rem;font-weight:600;color:{% if index.change >= 0 %}#4ade80{% else %}#f87171{% endif %};">
                 {{ "{:+.2f}".format(index.change_pct) }}%
             </span>
         </a>
@@ -101,48 +88,35 @@
     </div>
 </div>
 
+<!-- ═══════════════════════════════════════════════════════════
+     STOCK DATA 있을 때 – 종목 분석 뷰
+════════════════════════════════════════════════════════════ -->
 {% if stock_data %}
-<!-- Stock Analysis Section -->
 <div class="stock-header glass-panel {{ stock_data.verdict_class }}">
     <div class="stock-title-section">
         <h1 class="gradient-text">{{ stock_data.company_name }} ({{ stock_data.clean_ticker }})</h1>
         <div class="verdict-badge"
-            style="background: {{ stock_data.verdict_color }}22; color: {{ stock_data.verdict_color }}; border-color: {{ stock_data.verdict_color }}44;">
+            style="background:{{ stock_data.verdict_color }}22;color:{{ stock_data.verdict_color }};border-color:{{ stock_data.verdict_color }}44;">
             {{ stock_data.verdict }}
         </div>
-        <div style="margin-top: 0.6rem; padding: 0.45rem 0.75rem; background: rgba(255,193,7,0.07); border: 1px solid rgba(255,193,7,0.25); border-radius: 8px; font-size: 0.72rem; color: #94a3b8; line-height: 1.5;">
-            ⚠️ <strong style="color: #fbbf24;">법적 고지</strong> — 본 AI 분석 결과(매수·매도·보류 의견)는 투자 참고 정보이며, 투자 권유 또는 금융 자문이 아닙니다. 모든 투자 결정과 손실 책임은 투자자 본인에게 있습니다.
+        <div style="margin-top:0.6rem;padding:0.45rem 0.75rem;background:rgba(255,193,7,0.07);border:1px solid rgba(255,193,7,0.25);border-radius:8px;font-size:0.72rem;color:#94a3b8;line-height:1.5;">
+            ⚠️ <strong style="color:#fbbf24;">법적 고지</strong> — 본 AI 분석 결과(매수·매도·보류 의견)는 투자 참고 정보이며, 투자 권유 또는 금융 자문이 아닙니다. 모든 투자 결정과 손실 책임은 투자자 본인에게 있습니다.
         </div>
-        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:1rem;">
             <button class="watchlist-toggle-btn share-btn" data-ticker="{{ stock_data.ticker }}"
                 onclick="toggleWatchlist('{{ stock_data.ticker }}', '{{ stock_data.company_name }}')"
-                style="margin: 0;">
-                ☆ 관심 종목 추가
-            </button>
-            <div style="position: relative; display: inline-block;">
-                <button class="share-btn" onclick="toggleShareMenu()" style="margin: 0;">
-                    🔗 공유하기 ▾
-                </button>
-                <div id="share-menu" style="display: none; position: absolute; top: 100%; left: 0; margin-top: 0.5rem;
-                     background: rgba(15,23,42,0.95); border: 1px solid rgba(255,255,255,0.1);
-                     border-radius: 12px; padding: 0.5rem; min-width: 180px; z-index: 100;
-                     backdrop-filter: blur(12px); box-shadow: 0 8px 32px rgba(0,0,0,0.4);">
-                    <button onclick="shareToTwitter()" class="share-menu-item">
-                        <span>🐦</span> 트위터 (X)
-                    </button>
-                    <button onclick="shareToFacebook()" class="share-menu-item">
-                        <span>📘</span> 페이스북
-                    </button>
-                    <button onclick="shareToKakao()" class="share-menu-item">
-                        <span>💬</span> 카카오톡
-                    </button>
-                    <button onclick="copyShareLink()" class="share-menu-item">
-                        <span>📋</span> 링크 복사
-                    </button>
-                    <button onclick="shareNative()" class="share-menu-item" id="native-share-btn"
-                        style="display: none;">
-                        <span>📱</span> 더보기
-                    </button>
+                style="margin:0;">☆ 관심 종목 추가</button>
+            <div style="position:relative;display:inline-block;">
+                <button class="share-btn" onclick="toggleShareMenu()" style="margin:0;">🔗 공유하기 ▾</button>
+                <div id="share-menu" style="display:none;position:absolute;top:100%;left:0;margin-top:0.5rem;
+                    background:rgba(15,23,42,0.95);border:1px solid rgba(255,255,255,0.1);
+                    border-radius:12px;padding:0.5rem;min-width:180px;z-index:100;
+                    backdrop-filter:blur(12px);box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+                    <button onclick="shareToTwitter()"  class="share-menu-item"><span>🐦</span> 트위터 (X)</button>
+                    <button onclick="shareToFacebook()" class="share-menu-item"><span>📘</span> 페이스북</button>
+                    <button onclick="shareToKakao()"    class="share-menu-item"><span>💬</span> 카카오톡</button>
+                    <button onclick="copyShareLink()"   class="share-menu-item"><span>📋</span> 링크 복사</button>
+                    <button onclick="shareNative()" class="share-menu-item" id="native-share-btn" style="display:none;"><span>📱</span> 더보기</button>
                 </div>
             </div>
         </div>
@@ -159,16 +133,16 @@
 <!-- Tabs -->
 <div class="tabs-container">
     <div class="tabs">
-        <button class="tab-btn active" onclick="showTab('chart', this)">📊 차트 & 분석</button>
+        <button class="tab-btn active" onclick="showTab('chart', this)">📊 차트 &amp; 분석</button>
         <button class="tab-btn" onclick="showTab('financial', this)">📋 재무 정보</button>
-        <button class="tab-btn" onclick="showTab('news', this)">📰 뉴스 & 평판</button>
+        <button class="tab-btn" onclick="showTab('news', this)">📰 뉴스 &amp; 평판</button>
         <button class="tab-btn" onclick="showTab('advice', this)">🤖 AI 조언</button>
     </div>
 
     <!-- Chart Tab -->
     <div id="chart-tab" class="tab-content active">
-        <div class="glass-panel" style="padding: 1.5rem;">
-            <div id="chart-container" style="width: 100%; height: 650px; min-height: 650px;"></div>
+        <div class="glass-panel" style="padding:1.5rem;">
+            <div id="chart-container" style="width:100%;height:650px;min-height:650px;"></div>
         </div>
     </div>
 
@@ -178,60 +152,23 @@
             <h3>📝 기업 개요</h3>
             <div class="summary-text">{{ stock_data.summary }}</div>
         </div>
-
         <div class="glass-panel">
             <h3>💎 주요 지표</h3>
             <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="metric-label">시가총액</div>
-                    <div class="metric-value">{{ stock_data.market_cap }}</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">PER</div>
-                    <div class="metric-value">{{ stock_data.pe_ratio }}</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">배당수익률</div>
-                    <div class="metric-value">
-                        {% if stock_data.dividend_yield %}
-                        {{ "{:.2f}".format(stock_data.dividend_yield) }}%
-                        {% else %}
-                        N/A
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">PBR</div>
-                    <div class="metric-value">{{ stock_data.pbr }}</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">ROE</div>
-                    <div class="metric-value">{{ stock_data.roe }}</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-label">EPS</div>
-                    <div class="metric-value">{{ stock_data.eps }}</div>
-                </div>
-                <div class="metric-card wide-card">
-                    <div class="metric-label">52주 가격 범위</div>
-                    <div class="metric-value">
-                        {% if stock_data.week52_low and stock_data.week52_high %}
-                        {{ stock_data.week52_low }} ~ {{ stock_data.week52_high }}
-                        {% else %}
-                        N/A
-                        {% endif %}
-                    </div>
-                </div>
+                <div class="metric-card"><div class="metric-label">시가총액</div><div class="metric-value">{{ stock_data.market_cap }}</div></div>
+                <div class="metric-card"><div class="metric-label">PER</div><div class="metric-value">{{ stock_data.pe_ratio }}</div></div>
+                <div class="metric-card"><div class="metric-label">배당수익률</div><div class="metric-value">{% if stock_data.dividend_yield %}{{ "{:.2f}".format(stock_data.dividend_yield) }}%{% else %}N/A{% endif %}</div></div>
+                <div class="metric-card"><div class="metric-label">PBR</div><div class="metric-value">{{ stock_data.pbr }}</div></div>
+                <div class="metric-card"><div class="metric-label">ROE</div><div class="metric-value">{{ stock_data.roe }}</div></div>
+                <div class="metric-card"><div class="metric-label">EPS</div><div class="metric-value">{{ stock_data.eps }}</div></div>
+                <div class="metric-card wide-card"><div class="metric-label">52주 가격 범위</div><div class="metric-value">{% if stock_data.week52_low and stock_data.week52_high %}{{ stock_data.week52_low }} ~ {{ stock_data.week52_high }}{% else %}N/A{% endif %}</div></div>
             </div>
         </div>
     </div>
 
     <!-- News Tab -->
     <div id="news-tab" class="tab-content">
-        <div class="glass-panel">
-            <h3>🌍 실시간 뉴스 및 시장 심리</h3>
-        </div>
-
+        <div class="glass-panel"><h3>🌍 실시간 뉴스 및 시장 심리</h3></div>
         {% if stock_data.sentiment_details %}
         <div class="glass-panel sentiment-summary">
             <div class="sentiment-item">
@@ -245,282 +182,338 @@
                 <div class="sentiment-range">개</div>
             </div>
         </div>
-
         <div class="news-list">
             {% for item in stock_data.sentiment_details %}
             <details class="news-item">
                 <summary>
-                    <span class="sentiment-icon">
-                        {% if item.compound > 0.05 %}🟢
-                        {% elif item.compound < -0.05 %}🔴 {% else %}⚪{% endif %} </span>
-                            {{ item.translated_title }}
+                    <span class="sentiment-icon">{% if item.compound > 0.05 %}🟢{% elif item.compound < -0.05 %}🔴{% else %}⚪{% endif %}</span>
+                    {{ item.translated_title }}
                 </summary>
                 <div class="news-details">
                     <p><strong>출처:</strong> {{ item.publisher }}</p>
                     <p><strong>감성 점수:</strong> {{ "{:.3f}".format(item.compound) }}</p>
-                    {% if item.link and item.link != '#' %}
-                    <p><a href="{{ item.link }}" target="_blank">기사 읽기</a></p>
-                    {% endif %}
+                    {% if item.link and item.link != '#' %}<p><a href="{{ item.link }}" target="_blank">기사 읽기</a></p>{% endif %}
                 </div>
             </details>
             {% endfor %}
         </div>
         {% else %}
-        <div class="glass-panel">
-            <p>'{{ stock_data.ticker }}'에 대한 최신 뉴스를 찾을 수 없습니다.</p>
-        </div>
+        <div class="glass-panel"><p>'{{ stock_data.ticker }}'에 대한 최신 뉴스를 찾을 수 없습니다.</p></div>
         {% endif %}
     </div>
 
     <!-- Advice Tab -->
     <div id="advice-tab" class="tab-content">
-        <div class="glass-panel">
-            <h3>💡 AI 투자 전략 제안</h3>
-        </div>
-
+        <div class="glass-panel"><h3>💡 AI 투자 전략 제안</h3></div>
         {% for advice in stock_data.advice_list %}
-        <div class="advice-item" style="border-left-color: {{ advice.color }}; background: {{ advice.color }}22;">
-            {{ advice.text }}
-        </div>
+        <div class="advice-item" style="border-left-color:{{ advice.color }};background:{{ advice.color }}22;">{{ advice.text }}</div>
         {% endfor %}
-
-        <div style="margin-top: 1rem; padding: 0.65rem 0.9rem; background: rgba(100,116,139,0.08); border: 1px solid rgba(100,116,139,0.2); border-radius: 10px; font-size: 0.71rem; color: #64748b; line-height: 1.6;">
-            <strong style="color: #94a3b8;">📋 투자 위험 고지</strong><br>
+        <div style="margin-top:1rem;padding:0.65rem 0.9rem;background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.2);border-radius:10px;font-size:0.71rem;color:#64748b;line-height:1.6;">
+            <strong style="color:#94a3b8;">📋 투자 위험 고지</strong><br>
             본 AI 투자 전략 제안은 기술적 지표(RSI, MACD, 이동평균선 등) 및 뉴스 감성 분석을 기반으로 자동 생성된 참고 정보입니다.<br>
             · 과거 데이터 분석 결과이며, 미래 수익을 보장하지 않습니다.<br>
             · 금융투자상품은 원금 손실이 발생할 수 있습니다.<br>
-            · 투자 결정 전 충분한 검토와 필요 시 전문 금융 자문을 받으시기 바랍니다.<br>
-            · 본 서비스는 「자본시장과 금융투자업에 관한 법률」상 투자자문업 또는 투자일임업에 해당하지 않습니다.
+            · 투자 결정 전 충분한 검토와 필요 시 전문 금융 자문을 받으시기 바랍니다.
         </div>
     </div>
 </div>
 
 <script>
-    // Render Plotly chart
     {% if stock_data and stock_data.chart_json %}
     document.addEventListener('DOMContentLoaded', function () {
-        var chartData = {{ stock_data.chart_json | tojson | safe
-    }};
-    if (chartData && chartData.data && chartData.layout) {
-        Plotly.newPlot('chart-container', chartData.data, chartData.layout, {
-            responsive: true,
-            displayModeBar: false
-        });
-    } else {
-        console.error('Chart data is invalid:', chartData);
-    }
+        var chartData = {{ stock_data.chart_json | tojson | safe }};
+        if (chartData && chartData.data && chartData.layout) {
+            Plotly.newPlot('chart-container', chartData.data, chartData.layout, { responsive: true, displayModeBar: false });
+        }
     });
     {% endif %}
 
-    // Tab functionality
     function showTab(tabName, element) {
-        // Hide all tabs
-        document.querySelectorAll('.tab-content').forEach(tab => {
-            tab.classList.remove('active');
-        });
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
-
-        // Show selected tab
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
         document.getElementById(tabName + '-tab').classList.add('active');
         element.classList.add('active');
     }
 
-    // Share Functionality
     const shareBaseUrl = "https://stock-insight.app/stock/{{ stock_data.ticker }}";
-    const shareTitle = "{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주가 전망 및 AI 분석 결과";
-    const shareText = "{{ stock_data.verdict.split('(')[0].strip() if '(' in stock_data.verdict else stock_data.verdict }} - Stock Insight AI";
+    const shareTitle   = "{{ stock_data.company_name }} ({{ stock_data.clean_ticker }}) 주가 전망 및 AI 분석 결과";
+    const shareText    = "{{ stock_data.verdict.split('(')[0].strip() if '(' in stock_data.verdict else stock_data.verdict }} - Stock Insight AI";
 
     function toggleShareMenu() {
         const menu = document.getElementById('share-menu');
         menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-        // Show native share if available
-        if (navigator.share) {
-            document.getElementById('native-share-btn').style.display = 'block';
-        }
+        if (navigator.share) document.getElementById('native-share-btn').style.display = 'block';
     }
-
-    // Close share menu when clicking outside
-    document.addEventListener('click', function (e) {
+    document.addEventListener('click', function(e) {
         const menu = document.getElementById('share-menu');
-        if (menu && !e.target.closest('#share-menu') && !e.target.closest('.share-btn')) {
-            menu.style.display = 'none';
-        }
+        if (menu && !e.target.closest('#share-menu') && !e.target.closest('.share-btn')) menu.style.display = 'none';
     });
-
-    function shareToTwitter() {
-        const text = encodeURIComponent(shareTitle + "\n" + shareText);
-        const url = encodeURIComponent(shareBaseUrl);
-        window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'width=600,height=400');
-        document.getElementById('share-menu').style.display = 'none';
-    }
-
-    function shareToFacebook() {
-        const url = encodeURIComponent(shareBaseUrl);
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
-        document.getElementById('share-menu').style.display = 'none';
-    }
-
-    function shareToKakao() {
-        const url = encodeURIComponent(shareBaseUrl);
-        window.open(`https://story.kakao.com/share?url=${url}`, '_blank', 'width=600,height=400');
-        document.getElementById('share-menu').style.display = 'none';
-    }
-
-    function copyShareLink() {
-        navigator.clipboard.writeText(shareBaseUrl).then(function () {
-            const menu = document.getElementById('share-menu');
-            const copyBtn = menu.querySelector('[onclick="copyShareLink()"]');
-            const origText = copyBtn.innerHTML;
-            copyBtn.innerHTML = '<span>✅</span> 복사 완료!';
-            setTimeout(() => { copyBtn.innerHTML = origText; }, 2000);
-        }).catch(function () {
-            alert('링크: ' + shareBaseUrl);
-        });
-    }
-
-    function shareNative() {
-        navigator.share({
-            title: shareTitle,
-            text: shareText,
-            url: shareBaseUrl
-        }).catch(console.error);
-        document.getElementById('share-menu').style.display = 'none';
-    }
+    function shareToTwitter()  { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTitle+"\n"+shareText)}&url=${encodeURIComponent(shareBaseUrl)}`,'_blank','width=600,height=400'); document.getElementById('share-menu').style.display='none'; }
+    function shareToFacebook() { window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareBaseUrl)}`,'_blank','width=600,height=400'); document.getElementById('share-menu').style.display='none'; }
+    function shareToKakao()    { window.open(`https://story.kakao.com/share?url=${encodeURIComponent(shareBaseUrl)}`,'_blank','width=600,height=400'); document.getElementById('share-menu').style.display='none'; }
+    function copyShareLink()   { navigator.clipboard.writeText(shareBaseUrl).then(() => { const b=document.querySelector('[onclick="copyShareLink()"]'); const o=b.innerHTML; b.innerHTML='<span>✅</span> 복사 완료!'; setTimeout(()=>{b.innerHTML=o;},2000); }).catch(()=>alert('링크: '+shareBaseUrl)); document.getElementById('share-menu').style.display='none'; }
+    function shareNative()     { navigator.share({title:shareTitle,text:shareText,url:shareBaseUrl}).catch(console.error); document.getElementById('share-menu').style.display='none'; }
 </script>
+
+<!-- ═══════════════════════════════════════════════════════════
+     STOCK DATA 없을 때 – 홈 대시보드 뷰
+════════════════════════════════════════════════════════════ -->
 {% else %}
-<div class="glass-panel welcome-section" style="padding: 1rem 1.25rem; margin-bottom: 1.25rem;">
-    <h2 style="font-size: 1.1rem; margin: 0 0 0.25rem 0;">주식 티커를 입력하여 분석을 시작하세요</h2>
-    <p style="color: #64748b; font-size: 0.85rem; margin: 0;">좌측 사이드바에서 티커를 입력하거나 인기 주식을 선택하세요.</p>
+
+<!-- ── 히어로 + 검색창 ── -->
+<div class="glass-panel" style="padding:2rem 1.5rem 1.75rem;margin-bottom:1.5rem;
+    background:linear-gradient(135deg,rgba(56,189,248,0.06) 0%,rgba(139,92,246,0.06) 50%,rgba(74,222,128,0.04) 100%);
+    border:1px solid rgba(56,189,248,0.15);position:relative;overflow:hidden;">
+    <!-- 배경 글로우 -->
+    <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;
+        background:radial-gradient(circle,rgba(139,92,246,0.12) 0%,transparent 70%);pointer-events:none;"></div>
+    <div style="position:absolute;bottom:-30px;left:-20px;width:160px;height:160px;
+        background:radial-gradient(circle,rgba(56,189,248,0.08) 0%,transparent 70%);pointer-events:none;"></div>
+
+    <div style="position:relative;">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;">
+            <span style="font-size:2rem;">📈</span>
+            <h2 style="margin:0;font-size:1.5rem;font-weight:800;background:linear-gradient(90deg,#38bdf8,#a78bfa,#4ade80);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
+                AI 주식 분석
+            </h2>
+            <span style="font-size:0.72rem;padding:0.15rem 0.55rem;background:rgba(74,222,128,0.12);border:1px solid rgba(74,222,128,0.3);border-radius:20px;color:#4ade80;font-weight:600;">무료</span>
+        </div>
+        <p style="color:#94a3b8;font-size:0.92rem;margin:0 0 1.25rem;max-width:480px;line-height:1.6;">
+            종목 티커를 검색하면 <strong style="color:#e2e8f0;">AI 매수·매도 신호</strong>, 기술적 지표, 뉴스 감성을 즉시 분석합니다.
+        </p>
+
+        <!-- 인라인 검색창 -->
+        <div style="position:relative;max-width:520px;">
+            <form id="hero-search-form" onsubmit="heroSearch(event)" autocomplete="off">
+                <div style="display:flex;gap:0.5rem;">
+                    <div style="position:relative;flex:1;">
+                        <input id="hero-ticker-input" type="text" placeholder="티커 또는 종목명 입력 (예: AAPL, 삼성전자)"
+                            style="width:100%;padding:0.75rem 1rem 0.75rem 2.75rem;
+                            background:rgba(15,23,42,0.7);border:1px solid rgba(56,189,248,0.3);
+                            border-radius:12px;color:#f8fafc;font-size:0.95rem;
+                            box-sizing:border-box;outline:none;transition:border-color 0.2s;"
+                            onfocus="this.style.borderColor='rgba(56,189,248,0.7)'"
+                            onblur="setTimeout(()=>hideAC(),200)"
+                            oninput="fetchAC(this.value)">
+                        <span style="position:absolute;left:0.85rem;top:50%;transform:translateY(-50%);font-size:1rem;pointer-events:none;">🔍</span>
+                        <!-- 자동완성 드롭다운 -->
+                        <div id="ac-dropdown" style="display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;
+                            background:rgba(15,23,42,0.97);border:1px solid rgba(56,189,248,0.25);
+                            border-radius:12px;overflow:hidden;z-index:200;
+                            box-shadow:0 8px 32px rgba(0,0,0,0.5);backdrop-filter:blur(12px);"></div>
+                    </div>
+                    <button type="submit" style="padding:0.75rem 1.5rem;
+                        background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+                        color:white;border:none;border-radius:12px;font-weight:700;
+                        cursor:pointer;font-size:0.95rem;white-space:nowrap;
+                        transition:opacity 0.2s;flex-shrink:0;"
+                        onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+                        분석하기
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- 빠른 선택 칩 -->
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.85rem;align-items:center;">
+            <span style="font-size:0.75rem;color:#64748b;flex-shrink:0;">인기:</span>
+            {% set quick_tickers = [("AAPL","Apple"),("NVDA","Nvidia"),("TSLA","Tesla"),("MSFT","Microsoft"),("005930.KS","삼성전자"),("000660.KS","SK하이닉스")] %}
+            {% for tick, label in quick_tickers %}
+            <a href="/stock/{{ tick }}"
+                style="font-size:0.75rem;padding:0.2rem 0.65rem;background:rgba(255,255,255,0.05);
+                border:1px solid rgba(255,255,255,0.1);border-radius:20px;color:#94a3b8;text-decoration:none;
+                transition:all 0.2s;"
+                onmouseover="this.style.background='rgba(56,189,248,0.12)';this.style.borderColor='rgba(56,189,248,0.3)';this.style.color='#38bdf8'"
+                onmouseout="this.style.background='rgba(255,255,255,0.05)';this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='#94a3b8'">
+                {{ label }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
-<!-- AI 지수 예측 섹션 -->
+<!-- ── 기능 쇼케이스 카드 8개 ── -->
+<div style="margin-bottom:1.5rem;">
+    <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.9rem;">
+        <span style="font-size:0.82rem;font-weight:700;color:#64748b;letter-spacing:0.06em;text-transform:uppercase;">주요 기능</span>
+        <div style="flex:1;height:1px;background:rgba(255,255,255,0.06);"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:0.85rem;">
+
+        <!-- 시장 분석 -->
+        <a href="/market-analysis" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(56,189,248,0.35);">
+                <div class="fc-icon">🔬</div>
+                <div class="fc-title">시장 분석</div>
+                <div class="fc-desc">공포·탐욕 지수, 섹터 로테이션, 시장 센티먼트</div>
+                <div class="fc-sub">공포/탐욕 · 섹터 · 센티먼트 · 경제지표</div>
+            </div>
+        </a>
+
+        <!-- 포트폴리오 -->
+        <a href="/portfolio" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(139,92,246,0.35);">
+                <div class="fc-icon">💼</div>
+                <div class="fc-title">포트폴리오</div>
+                <div class="fc-desc">백테스트, 자산 배분, 최대 낙폭·샤프 비율 시뮬레이션</div>
+                <div class="fc-sub">종목 비교 · 포트폴리오 시뮬레이터</div>
+            </div>
+        </a>
+
+        <!-- 리츠 탐험가 -->
+        <a href="/reit-explorer" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(74,222,128,0.3);">
+                <div class="fc-icon">🏢</div>
+                <div class="fc-title">리츠 탐험가</div>
+                <div class="fc-desc">국내 상장 리츠 배당수익률·NAV 할인율 비교</div>
+                <div class="fc-sub">13개 리츠 · 섹터별 필터</div>
+            </div>
+        </a>
+
+        <!-- ETF 탐험가 -->
+        <a href="/etf-explorer" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(251,191,36,0.3);">
+                <div class="fc-icon">🔭</div>
+                <div class="fc-title">ETF 탐험가</div>
+                <div class="fc-desc">국내·미국·테마·배당 ETF 카테고리별 탐색</div>
+                <div class="fc-sub">지수 · 테마 · 배당 · 채권</div>
+            </div>
+        </a>
+
+        <!-- 부동산 vs 주식 (킬러 콘텐츠) -->
+        <a href="/realestate-vs-stock" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(168,85,247,0.4);position:relative;">
+                <div style="position:absolute;top:0.55rem;right:0.55rem;background:linear-gradient(135deg,#7c3aed,#c026d3);color:white;font-size:0.6rem;font-weight:700;padding:0.1rem 0.45rem;border-radius:20px;">NEW</div>
+                <div class="fc-icon">⚔️</div>
+                <div class="fc-title">부동산 vs 주식</div>
+                <div class="fc-desc">동일 자금 10·20·30년 후 수익 비교 시뮬레이션</div>
+                <div class="fc-sub">레버리지 · 임대수입 · 복리 반영</div>
+            </div>
+        </a>
+
+        <!-- 일일 리포트 -->
+        <a href="/daily-report" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(248,113,113,0.3);">
+                <div class="fc-icon">📋</div>
+                <div class="fc-title">일일 리포트</div>
+                <div class="fc-desc">AI가 작성한 당일 시장 요약·주요 이슈·전망</div>
+                <div class="fc-sub">매일 자동 업데이트</div>
+            </div>
+        </a>
+
+        <!-- 종목 발굴 -->
+        <a href="/stock-discovery" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(56,189,248,0.25);">
+                <div class="fc-icon">🔍</div>
+                <div class="fc-title">종목 발굴</div>
+                <div class="fc-desc">PER·PBR·ROE 기준 저평가·성장 종목 스크리닝</div>
+                <div class="fc-sub">미국 · 한국 인기 종목</div>
+            </div>
+        </a>
+
+        <!-- 투자 도구 -->
+        <a href="/tools" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(251,146,60,0.3);">
+                <div class="fc-icon">🛠️</div>
+                <div class="fc-title">투자 도구</div>
+                <div class="fc-desc">수익률·복리·임대수익률·대출상환 계산기 모음</div>
+                <div class="fc-sub">11개 계산기 무료 제공</div>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+<!-- ── AI 지수 예측 ── -->
 {% if index_predictions %}
-<div class="glass-panel" style="padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
-    <div
-        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
-        <div style="display: flex; align-items: center; gap: 0.4rem;">
+<div class="glass-panel" style="padding:1.1rem 1.25rem;margin-bottom:1.25rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;flex-wrap:wrap;gap:0.5rem;">
+        <div style="display:flex;align-items:center;gap:0.4rem;">
             <span>🤖</span>
-            <span style="font-size: 0.9rem; font-weight: 700; color: #e2e8f0;">AI 예측 — 다음 달 주요 지수 방향</span>
+            <span style="font-size:0.9rem;font-weight:700;color:#e2e8f0;">AI 예측 — 다음 달 주요 지수 방향</span>
         </div>
-        <a href="/economic-indicators" style="font-size: 0.75rem; color: #38bdf8; text-decoration: none;
-           background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25);
-           border-radius: 20px; padding: 0.2rem 0.65rem;">
+        <a href="/economic-indicators" style="font-size:0.75rem;color:#38bdf8;text-decoration:none;
+            background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.25);border-radius:20px;padding:0.2rem 0.65rem;">
             상세 분석 보기 →
         </a>
     </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 0.75rem;">
+    <div style="display:flex;flex-wrap:wrap;gap:0.65rem;margin-bottom:0.75rem;">
         {% for pred in index_predictions %}
-        <div style="flex: 1; min-width: 130px;
-                    background: rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.06);
-                    border: 1px solid {{ pred.direction_color }}33;
-                    border-radius: 12px; padding: 0.85rem 0.75rem; text-align: center;">
-            <div style="font-size: 0.75rem; font-weight: 600; color: {{ pred.color }}; margin-bottom: 0.3rem;">
-                {{ pred.name }}
-            </div>
-            <div style="font-size: 1.7rem; line-height: 1;">{{ pred.direction_icon }}</div>
-            <div style="font-size: 1.15rem; font-weight: 800; color: {{ pred.direction_color }}; margin-top: 0.2rem;">
-                {{ pred.direction }}
-            </div>
-            <div style="font-size: 0.7rem; color: #94a3b8; margin-top: 0.3rem;">
-                신뢰도 <strong style="color: #e2e8f0;">{{ pred.confidence }}%</strong>
-            </div>
-            <div style="font-size: 0.65rem; color: #475569; margin-top: 0.15rem;">
-                분석 데이터: {{ pred.data_months }}개월
-            </div>
+        <div style="flex:1;min-width:130px;
+            background:rgba({% if pred.direction == '상승' %}74,222,128{% else %}248,113,113{% endif %},0.06);
+            border:1px solid {{ pred.direction_color }}33;border-radius:12px;padding:0.85rem 0.75rem;text-align:center;">
+            <div style="font-size:0.75rem;font-weight:600;color:{{ pred.color }};margin-bottom:0.3rem;">{{ pred.name }}</div>
+            <div style="font-size:1.7rem;line-height:1;">{{ pred.direction_icon }}</div>
+            <div style="font-size:1.15rem;font-weight:800;color:{{ pred.direction_color }};margin-top:0.2rem;">{{ pred.direction }}</div>
+            <div style="font-size:0.7rem;color:#94a3b8;margin-top:0.3rem;">신뢰도 <strong style="color:#e2e8f0;">{{ pred.confidence }}%</strong></div>
+            <div style="font-size:0.65rem;color:#475569;margin-top:0.15rem;">분석 데이터: {{ pred.data_months }}개월</div>
         </div>
         {% endfor %}
     </div>
-    <div style="margin-top: 0.5rem; padding: 0.55rem 0.75rem; background: rgba(255,193,7,0.06); border: 1px solid rgba(255,193,7,0.2); border-radius: 8px; font-size: 0.7rem; color: #64748b; line-height: 1.55; border-top: 1px solid rgba(255,255,255,0.05);">
-        <strong style="color: #fbbf24;">⚠️ 법적 고지</strong> — 본 AI 예측은 과거 경제지표(Fed 금리·CPI·국채·환율·산업생산·유가·VIX) 기반 통계 모델(RandomForest)로 생성되며, <strong style="color: #94a3b8;">실제 시장 결과를 보장하지 않습니다.</strong> 투자 의사결정에 직접 활용하지 마시고, 참고 자료로만 사용하십시오. 투자 손실에 대한 책임은 투자자 본인에게 있습니다.
+    <div style="padding:0.55rem 0.75rem;background:rgba(255,193,7,0.06);border:1px solid rgba(255,193,7,0.2);border-radius:8px;font-size:0.7rem;color:#64748b;line-height:1.55;">
+        <strong style="color:#fbbf24;">⚠️ 법적 고지</strong> — 본 AI 예측은 과거 경제지표 기반 통계 모델로 생성되며, <strong style="color:#94a3b8;">실제 시장 결과를 보장하지 않습니다.</strong> 참고 자료로만 사용하십시오.
     </div>
 </div>
 {% endif %}
 
-<!-- AI 금융 뉴스 브리핑 (콤팩트) -->
+<!-- ── AI 뉴스 브리핑 ── -->
 {% if news_data %}
-<div style="margin-bottom: 1.25rem;">
-    <div
-        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.65rem; flex-wrap: wrap; gap: 0.4rem;">
-        <div style="display: flex; align-items: center; gap: 0.4rem;">
+<div style="margin-bottom:1.25rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.65rem;flex-wrap:wrap;gap:0.4rem;">
+        <div style="display:flex;align-items:center;gap:0.4rem;">
             <span>🔥</span>
-            <span class="gradient-text" style="font-size: 0.9rem; font-weight: 700;">AI 실시간 금융 뉴스 브리핑</span>
+            <span class="gradient-text" style="font-size:0.9rem;font-weight:700;">AI 실시간 금융 뉴스 브리핑</span>
         </div>
-        <span style="font-size: 0.7rem; color: #475569; background: rgba(255,255,255,0.04);
-               border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 0.15rem 0.55rem;">
-            매시간 자동 업데이트
-        </span>
+        <span style="font-size:0.7rem;color:#475569;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:0.15rem 0.55rem;">매시간 자동 업데이트</span>
     </div>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.65rem;">
-        {% for news in news_data %}
-        <div class="glass-panel" style="padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-            <!-- 헤더 -->
-            <div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;">
-                <span style="font-size: 0.68rem; font-weight: 600; padding: 0.15rem 0.45rem; border-radius: 4px;
-                      background: {% if news.type == '국내' %}rgba(74,222,128,0.15){% else %}rgba(56,189,248,0.15){% endif %};
-                      color: {% if news.type == '국내' %}#4ade80{% else %}#38bdf8{% endif %};">
-                    {{ news.type }}
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0.65rem;">
+        {% for news in news_data[:6] %}
+        <div class="glass-panel" style="padding:0.85rem 1rem;display:flex;flex-direction:column;gap:0.5rem;">
+            <div style="display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap;">
+                <span style="font-size:0.68rem;font-weight:600;padding:0.15rem 0.45rem;border-radius:4px;
+                    background:{% if news.type == '국내' %}rgba(74,222,128,0.15){% else %}rgba(56,189,248,0.15){% endif %};
+                    color:{% if news.type == '국내' %}#4ade80{% else %}#38bdf8{% endif %};">{{ news.type }}</span>
+                <span style="font-size:0.68rem;color:{% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
+                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif %}
                 </span>
-                <span
-                    style="font-size: 0.68rem; color: {% if news.sentiment == 'POSITIVE' %}#4ade80{% elif news.sentiment == 'NEGATIVE' %}#f87171{% else %}#94a3b8{% endif %};">
-                    {% if news.sentiment == 'POSITIVE' %}🟢{% elif news.sentiment == 'NEGATIVE' %}🔴{% else %}⚪{% endif
-                    %}
-                </span>
-                <span style="font-size: 0.68rem; color: #475569; margin-left: auto;">{{ news.publisher }}</span>
+                <span style="font-size:0.68rem;color:#475569;margin-left:auto;">{{ news.publisher }}</span>
             </div>
-            <!-- 제목 -->
-            <a href="{{ news.link }}" target="_blank" style="text-decoration: none; color: #e2e8f0; font-size: 0.82rem; font-weight: 600;
-                      line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2;
-                      -webkit-box-orient: vertical; overflow: hidden;">
+            <a href="{{ news.link }}" target="_blank" style="text-decoration:none;color:#e2e8f0;font-size:0.82rem;font-weight:600;
+                line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">
                 {{ news.title }}
             </a>
-            <!-- 요약 불렛 -->
-            <ul style="margin: 0; padding-left: 1.1rem; color: #94a3b8; font-size: 0.75rem; line-height: 1.5;">
-                {% for point in news.summary[:2] %}
-                <li>{{ point }}</li>
-                {% endfor %}
+            <ul style="margin:0;padding-left:1.1rem;color:#94a3b8;font-size:0.75rem;line-height:1.5;">
+                {% for point in news.summary[:2] %}<li>{{ point }}</li>{% endfor %}
             </ul>
-            <!-- 원문 링크 -->
-            <a href="{{ news.link }}" target="_blank" style="font-size: 0.72rem; color: #38bdf8; text-decoration: none; margin-top: auto;
-                      align-self: flex-start;">
-                원문 보기 ↗
-            </a>
+            <a href="{{ news.link }}" target="_blank" style="font-size:0.72rem;color:#38bdf8;text-decoration:none;margin-top:auto;align-self:flex-start;">원문 보기 ↗</a>
         </div>
         {% endfor %}
     </div>
 </div>
 {% endif %}
 
-<!-- Blog Posts Section -->
+<!-- ── 블로그 ── -->
 {% if blog_posts %}
-<div style="margin-bottom: 1.25rem;">
-    <div
-        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.65rem; flex-wrap: wrap; gap: 0.4rem;">
-        <div style="display: flex; align-items: center; gap: 0.4rem;">
+<div style="margin-bottom:1.25rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.65rem;flex-wrap:wrap;gap:0.4rem;">
+        <div style="display:flex;align-items:center;gap:0.4rem;">
             <span>📝</span>
-            <span class="gradient-text" style="font-size: 0.9rem; font-weight: 700;">투자 블로그</span>
+            <span class="gradient-text" style="font-size:0.9rem;font-weight:700;">투자 블로그</span>
         </div>
-        <a href="/blog" style="font-size: 0.72rem; color: #38bdf8; text-decoration: none;
-           background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25);
-           border-radius: 20px; padding: 0.15rem 0.55rem;">
-            전체 보기 →
-        </a>
+        <a href="/blog" style="font-size:0.72rem;color:#38bdf8;text-decoration:none;
+            background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.25);border-radius:20px;padding:0.15rem 0.55rem;">전체 보기 →</a>
     </div>
     <div class="blog-grid">
         {% for post in blog_posts %}
         <a href="/blog/{{ post.slug }}" class="blog-card">
-            <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.5rem;">
+            <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.5rem;">
                 <span class="blog-category-badge">{{ post.category }}</span>
-                <span style="font-size: 0.68rem; color: #475569; margin-left: auto;">{{ post.date_published }}</span>
+                <span style="font-size:0.68rem;color:#475569;margin-left:auto;">{{ post.date_published }}</span>
             </div>
             <h3 class="blog-card-title">{{ post.title }}</h3>
             <p class="blog-card-excerpt">{{ post.excerpt }}</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: auto; padding-top: 0.5rem;">
-                {% for tag in post.tags[:3] %}
-                <span class="blog-tag">#{{ tag }}</span>
-                {% endfor %}
+            <div style="display:flex;flex-wrap:wrap;gap:0.25rem;margin-top:auto;padding-top:0.5rem;">
+                {% for tag in post.tags[:3] %}<span class="blog-tag">#{{ tag }}</span>{% endfor %}
             </div>
         </a>
         {% endfor %}
@@ -528,5 +521,142 @@
 </div>
 {% endif %}
 
-{% endif %}
+{% endif %}{# end else (no stock_data) #}
+
+<!-- ── 기능 카드 & 자동완성 스타일 ── -->
+<style>
+/* Feature Cards */
+.feature-card {
+    padding: 1.1rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+    height: 100%;
+    box-sizing: border-box;
+}
+.feature-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--fc, rgba(56,189,248,0.4));
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.fc-icon  { font-size: 2rem; margin-bottom: 0.6rem; }
+.fc-title { font-size: 1rem; font-weight: 700; color: #f1f5f9; margin-bottom: 0.35rem; }
+.fc-desc  { font-size: 0.78rem; color: #94a3b8; line-height: 1.5; margin-bottom: 0.5rem; }
+.fc-sub   { font-size: 0.7rem; color: #475569; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 0.4rem; }
+
+/* Autocomplete item */
+.ac-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: background 0.15s;
+}
+.ac-item:last-child { border-bottom: none; }
+.ac-item:hover { background: rgba(56,189,248,0.1); }
+.ac-ticker { font-size: 0.85rem; font-weight: 700; color: #38bdf8; min-width: 80px; }
+.ac-name   { font-size: 0.82rem; color: #e2e8f0; flex: 1; }
+.ac-region { font-size: 0.8rem; }
+
+@media (max-width: 640px) {
+    .feature-card { padding: 0.9rem; }
+    .fc-icon { font-size: 1.6rem; }
+    .fc-title { font-size: 0.92rem; }
+}
+</style>
+
+<!-- ── 자동완성 스크립트 ── -->
+<script>
+let acTimer = null;
+
+function fetchAC(val) {
+    clearTimeout(acTimer);
+    if (!val || val.trim().length < 1) { hideAC(); return; }
+    acTimer = setTimeout(async () => {
+        try {
+            const res  = await fetch(`/api/search-ticker?q=${encodeURIComponent(val.trim())}`);
+            const data = await res.json();
+            renderAC(data);
+        } catch(e) { hideAC(); }
+    }, 180);
+}
+
+function renderAC(items) {
+    const dd = document.getElementById('ac-dropdown');
+    if (!items || items.length === 0) { hideAC(); return; }
+    dd.innerHTML = items.map(item =>
+        `<div class="ac-item" onclick="selectTicker('${item.ticker}')">
+            <span class="ac-region">${item.region}</span>
+            <span class="ac-ticker">${item.ticker}</span>
+            <span class="ac-name">${item.name}</span>
+        </div>`
+    ).join('');
+    dd.style.display = 'block';
+}
+
+function hideAC() {
+    const dd = document.getElementById('ac-dropdown');
+    if (dd) dd.style.display = 'none';
+}
+
+function selectTicker(ticker) {
+    hideAC();
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'flex';
+    window.location.href = `/stock/${ticker}`;
+}
+
+function heroSearch(e) {
+    e.preventDefault();
+    const val = document.getElementById('hero-ticker-input').value.trim();
+    if (!val) return;
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'flex';
+    window.location.href = `/stock/${val.toUpperCase()}`;
+}
+
+// 키보드 내비게이션
+document.addEventListener('DOMContentLoaded', () => {
+    const inp = document.getElementById('hero-ticker-input');
+    if (!inp) return;
+    inp.addEventListener('keydown', (e) => {
+        const dd = document.getElementById('ac-dropdown');
+        if (!dd || dd.style.display === 'none') return;
+        const items = dd.querySelectorAll('.ac-item');
+        let active = dd.querySelector('.ac-item.ac-active');
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (!active) items[0]?.classList.add('ac-active');
+            else {
+                active.classList.remove('ac-active');
+                const next = active.nextElementSibling;
+                if (next) next.classList.add('ac-active');
+                else items[0]?.classList.add('ac-active');
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (!active) items[items.length-1]?.classList.add('ac-active');
+            else {
+                active.classList.remove('ac-active');
+                const prev = active.previousElementSibling;
+                if (prev) prev.classList.add('ac-active');
+                else items[items.length-1]?.classList.add('ac-active');
+            }
+        } else if (e.key === 'Enter') {
+            if (active) { e.preventDefault(); active.click(); }
+        } else if (e.key === 'Escape') {
+            hideAC();
+        }
+    });
+});
+</script>
+
+<style>
+.ac-item.ac-active { background: rgba(56,189,248,0.1); }
+</style>
+
 {% endblock %}

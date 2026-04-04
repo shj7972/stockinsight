@@ -557,6 +557,31 @@ async def search_stock(request: Request, ticker: str = Form(...)):
     from fastapi.responses import RedirectResponse
     return RedirectResponse(url=f"/stock/{resolved_ticker.upper()}", status_code=302)
 
+@app.get("/api/search-ticker")
+async def search_ticker_api(q: str = ""):
+    """자동완성용 티커/종목명 검색 API"""
+    from fastapi.responses import JSONResponse
+    q = q.strip().upper()
+    if len(q) < 1:
+        return JSONResponse([])
+
+    all_candidates = [
+        {"ticker": t, "name": n, "region": "🇺🇸"} for t, n in US_CANDIDATES
+    ] + [
+        {"ticker": t, "name": n, "region": "🇰🇷"} for t, n in KR_CANDIDATES
+    ]
+
+    results = []
+    for c in all_candidates:
+        ticker_match = q in c["ticker"].upper()
+        name_match   = q in c["name"].upper()
+        if ticker_match or name_match:
+            results.append(c)
+        if len(results) >= 8:
+            break
+
+    return JSONResponse(results)
+
 @app.get("/stock/{ticker}", response_class=HTMLResponse)
 async def stock_detail(request: Request, ticker: str):
     """Stock analysis with clean URL"""
