@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 시행",
-      "중동 긴장 고조",
-      "신속한 대응 필요"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 상황 우려",
+      "경제 안정성 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
-    "publisher": "한국방송뉴스",
-    "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 방안 논의",
-      "재무장관들 참여"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,40 +17,53 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 소식",
-      "시장금리 상승 우려",
-      "3%대 주담대 실종 현실화"
+      "금리 인하 사이클 종료 발표",
+      "시장금리 불안정 상황",
+      "3%대 주담대 소멸"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "주간 시장 랩 - edwardjones.ca",
-    "original_title": "Weekly market wrap - edwardjones.ca",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "edwardjones.ca",
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "주식 시장 상승세 지속",
-      "경제 지표 긍정적",
-      "투자 의견 회복 조짐"
+      "외국인 순매도 20조, 최대 기록",
+      "시총 대비 영향은 크지 않음",
+      "시장 반응은 신중함 유지"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "주식 시장 안정세 유지",
+      "경제 회복 신호",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "나쁨, 매우 나쁨, 훨씬 더 나쁨: 전쟁과 경제에 대한 예측 선택 - nytimes.com",
-    "original_title": "Bad, Very Bad and Much Worse: Pick a Forecast for the War and Economy - nytimes.com",
+    "title": "나쁨, 매우 나쁨, 훨씬 더 나쁨: 전쟁과 경제에 대한 예측 선택 - The New York Times",
+    "original_title": "Bad, Very Bad and Much Worse: Pick a Forecast for the War and Economy - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
-    "publisher": "nytimes.com",
+    "publisher": "The New York Times",
     "summary": [
-      "전쟁 전망이 암울하다",
-      "경제 성장 둔화 우려",
-      "시장 불확실성 심화"
+      "전쟁 상황이 악화되고 있다.",
+      "경제도 심각한 위기 직면.",
+      "부정적인 전망이 지배적이다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUDlOMUZrMVlEeHR4aE5rbFRrNi16QVNrVDA2MlR3NGhuMXdRbDVQdmc2aFI2QURMWGd4X0Jnc0R4eTR1bG5iQkxjdWJjZVhMVzgtNndRVXRqWEM4Wk9FZkxNaTQ3VTVSalRJdFpVckFVX2dua3pING1NY3AySjVsTzE1NFNpR0F6Uk9jTHRxdFRaNTdVQ2FhUnVUX2FTR2owalI1VzFCVUVKalJSaG1XWERpOGJHb3F2X3J3OEt1cmJUZW5fSGxXamd2RU05dDUyUkh1SXM1d3U?oc=5",
     "publisher": "The Oklahoman",
     "summary": [
-      "시장, 성 금요일에 닫힙니다",
-      "부활절에도 시장은 휴무",
-      "2026년 휴일 일정 제공"
+      "성 금요일 장 마감 여부",
+      "부활절 장 마감 여부",
+      "2026년 휴일 일정"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
