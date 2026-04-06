@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 대응",
-      "경제 충격 완화 목적"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장으로 인한 영향 대응",
+      "경제 안전성 확보 노력"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - seoul.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "seoul.co.kr",
-    "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 무너짐",
-      "시장 불확실성 확대"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,11 +18,24 @@
     "publisher": "한겨레",
     "summary": [
       "금리 인하 사이클 종료",
-      "시장금리 상승 중",
+      "시장금리 불안정",
       "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "외국인 순매도 20조 역대 최대",
+      "시총 대비 영향은 미미",
+      "시장 안정성 언급"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,8 +44,8 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU2xsLTZQMS1GZDd3NEk3aDlzVVRxMktBTU1YT3JBS3J4MVNnaEdpX0NUdlM5LXN2bGFkMjljSDRKbkEtX3lra0xKYk1NNWpaWE10R0I2MWVlNUVueEx5TFNMbk5RQkQ1Y3NuQmdzM2prR2dFU1BEaF82YXpMZW11T25BUUljOFJqaERZUmVBcVFta3RjOWYw?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "유가 충격이 경제에 미치는 영향",
-      "S&P 500의 역사적 경향",
+      "석유 충격이 경제에 미치는 영향",
+      "S&P 500의 역사적 동향",
       "주식 시장의 향후 전망"
     ],
     "sentiment": "NEUTRAL",
@@ -53,31 +53,31 @@
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
+    "title": "주간 시장 랩 - edwardjones.ca",
+    "original_title": "Weekly market wrap - edwardjones.ca",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "publisher": "edwardjones.ca",
     "summary": [
-      "시장 안정세 유지",
-      "적극적 투자 증가",
-      "경제 성장 기대감 상승"
+      "주식 시장 안정세 보여",
+      "경제 지표 개선 중",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "나쁨, 매우 나쁨, 훨씬 더 나쁨: 전쟁과 경제에 대한 예측 선택 - The New York Times",
-    "original_title": "Bad, Very Bad and Much Worse: Pick a Forecast for the War and Economy - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
-    "publisher": "The New York Times",
+    "title": "오일 쇼크가 경제를 강타하면 주식 시장이 붕괴될 것인가? 역사는 S&P 500이 다음 단계에 이를 것이라고 말합니다. - AOL.com",
+    "original_title": "Will the Stock Market Crash as the Oil Shock Hits the Economy? History Says the S&P 500 Will Do This Next. - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3M1RfZkZLemxTRjZ2QzEzNzNEUk4zOTdxWkRRTmtic2xKVUpoS3NsSnV6ZUo1ZXRGLUlyWFBuazhEd1BpdURGdWl6YnBtZVZiRFo3emxMRnNPM1FaT1NaQUItT2F6dE9raXZUT0w0LVM?oc=5",
+    "publisher": "AOL.com",
     "summary": [
-      "전쟁과 경제 상황이 악화되고 있다.",
-      "예측이 다양하게 엇갈리고 있다.",
-      "미래에 대한 우려가 커지고 있다."
+      "유가 충격이 경제에 미치는 영향",
+      "S&P 500의 역사적 반응",
+      "시장 전망에 대한 우려"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
