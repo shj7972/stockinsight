@@ -5,11 +5,24 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 우려",
-      "경제 안정성 강조"
+      "중동 긴장 상황 대응",
+      "경제 충격 완화 목적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
+    "type": "국내"
+  },
+  {
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - seoul.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "seoul.co.kr",
+    "summary": [
+      "한국 경제 성장세 지속",
+      "환율 하락 공식 무너짐",
+      "시장 불확실성 확대"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -17,26 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "금리 인하 사이클 종료 발표",
-      "시장금리 불안정 상황",
-      "3%대 주담대 소멸"
+      "금리 인하 사이클 종료",
+      "시장금리 상승 중",
+      "3%대 주담대 사라짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
-    "publisher": "한겨레",
+    "title": "오일 쇼크가 경제를 강타하면 주식 시장이 붕괴될 것인가? 역사는 S&P 500이 다음 단계에 이를 것이라고 말합니다. - 가지각색의 바보",
+    "original_title": "Will the Stock Market Crash as the Oil Shock Hits the Economy? History Says the S&P 500 Will Do This Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU2xsLTZQMS1GZDd3NEk3aDlzVVRxMktBTU1YT3JBS3J4MVNnaEdpX0NUdlM5LXN2bGFkMjljSDRKbkEtX3lra0xKYk1NNWpaWE10R0I2MWVlNUVueEx5TFNMbk5RQkQ1Y3NuQmdzM2prR2dFU1BEaF82YXpMZW11T25BUUljOFJqaERZUmVBcVFta3RjOWYw?oc=5",
+    "publisher": "The Motley Fool",
     "summary": [
-      "외국인 순매도 20조, 최대 기록",
-      "시총 대비 영향은 크지 않음",
-      "시장 반응은 신중함 유지"
+      "유가 충격이 경제에 미치는 영향",
+      "S&P 500의 역사적 경향",
+      "주식 시장의 향후 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
-    "type": "국내"
+    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 안정세 유지",
-      "경제 회복 신호",
-      "투자자 신뢰 증가"
+      "시장 안정세 유지",
+      "적극적 투자 증가",
+      "경제 성장 기대감 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkpTMWJlQWVraEotdlc3ZVRQZHppTFFvaWtLdklaaUVOMmhtamtzZmxKVjhaV29wOTlQdW5hanA0ZXoxX1ZQY0VydmhuYnFuVl9Zalc3SkRPT3VUWS1DaHZWVnROSm1kWHhCWWVzQURsZlFrdEQ0T3lwOUtqRGs3VXpKRUI?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "전쟁 상황이 악화되고 있다.",
-      "경제도 심각한 위기 직면.",
-      "부정적인 전망이 지배적이다."
+      "전쟁과 경제 상황이 악화되고 있다.",
+      "예측이 다양하게 엇갈리고 있다.",
+      "미래에 대한 우려가 커지고 있다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
-    "type": "해외"
-  },
-  {
-    "title": "성금요일에는 시장이 문을 닫나요? 부활절? 2026년 공휴일 일정 보기 - 오클라호맨",
-    "original_title": "Are markets closed on Good Friday? Easter? See 2026 holiday schedule - The Oklahoman",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUDlOMUZrMVlEeHR4aE5rbFRrNi16QVNrVDA2MlR3NGhuMXdRbDVQdmc2aFI2QURMWGd4X0Jnc0R4eTR1bG5iQkxjdWJjZVhMVzgtNndRVXRqWEM4Wk9FZkxNaTQ3VTVSalRJdFpVckFVX2dua3pING1NY3AySjVsTzE1NFNpR0F6Uk9jTHRxdFRaNTdVQ2FhUnVUX2FTR2owalI1VzFCVUVKalJSaG1XWERpOGJHb3F2X3J3OEt1cmJUZW5fSGxXamd2RU05dDUyUkh1SXM1d3U?oc=5",
-    "publisher": "The Oklahoman",
-    "summary": [
-      "성 금요일 장 마감 여부",
-      "부활절 장 마감 여부",
-      "2026년 휴일 일정"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
