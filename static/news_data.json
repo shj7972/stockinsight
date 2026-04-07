@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 발언",
-      "한은의 혁신 방향 제시"
+      "신현송 후보자 언급",
+      "한은의 미래 방향성 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장으로 인한 영향 우려",
-      "경제 안정성 확보 목표"
+      "한국, 시장 안정 대책 발효",
+      "중동 긴장 속 신속 대응",
+      "경제에 대한 우려 완화 시도"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,40 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
     "publisher": "한국방송뉴스",
     "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 강화 논의",
-      "재무장관 참여"
+      "핵심광물 국제공조 회의 개최",
+      "재무장관 간 협력 방안 논의",
+      "국제적 경제 안정 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "주간 시장 논평 - blackrock.com",
-    "original_title": "Weekly market commentary - blackrock.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "blackrock.com",
+    "title": "크레이머는 화요일의 주식시장 조치가 투자자들에게 이란 전쟁이 지속될 경우 미국 경제의 운명을 엿볼 수 있게 해준다고 말했습니다 - CNBC",
+    "original_title": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbml6dS1peTRsRmRkSUEyNTAyUUVqbU5waVZYaWlGR1haRDl4VVpsQU05S3ZOU0J6S0FHeTd1aGcyU1lkMmM5cjE5bHFRTE10UFFWMUdITWotc0JVLWE2SEkwRmVkcXVYSDFGRm4yWVlwcC0yd1ZjdU5VVklSQURsdWtVOFLSAYoBQVVfeXFMT1RxcENxcDh4dTNEUnd3M0s3SUVTd082cEJoUF9IQmNSU3JOaGg5a041NHZjN3NPdFU2NHVzWW5MRUVlLXBJNlc2X2NSTnlrR3M4RUd3T1U5UnBuQUtfRkhEQUxmY0ZmdG9JMnNsbFNVckttcm1TVzkwOEtWUW1UcWw2R1kzQllaYXZ3?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "주식 시장 강세 지속",
-      "인플레이션 완화 기미",
-      "경제 성장 전망 긍정적"
+      "크레이머, 주식 시장 분석",
+      "이란 전쟁의 영향",
+      "경제 미래 암시"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "ICYMI: Bloomberg News: Gavin Newsom 시대에 캘리포니아 경제가 어떻게 지배했는지 - gov.ca.gov",
-    "original_title": "ICYMI: Bloomberg News: How California’s economy dominates in the Gavin Newsom era - gov.ca.gov",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdjNzeE1LX29pd1JCOXJxNGd6aC1PY3JjVEI4RTNmZ2pVY0ViUEIzdXlHVGtCN3lBenlrLVFOZVd3RVo0WFo3Z2NQa002cVNUN3R5aDBiakVFM01DZUN1SHBQeW5NR2xQLVE0bWs5U2NxaVJjZkdXRXl6T3hNQm0wbFNqX2lvd1h1bUF1SC1nS3BSVDNrM0NWQ3htVmhyZUhCYmdmQ1JnMGVaLUJHLUdMSm10UQ?oc=5",
-    "publisher": "gov.ca.gov",
+    "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
+    "original_title": "Indicators suggest the market likely hasn’t hit bottom yet - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "뉴스, 뉴스엄 행정부 경제 성장",
-      "캘리포니아의 경제 지배력",
-      "시장에서의 긍정적 트렌드"
+      "시장 바닥에 도달하지 않은 듯",
+      "추가 하락 우려 존재",
+      "투자자 주의 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -73,8 +73,8 @@
     "publisher": "Edward Jones",
     "summary": [
       "주식 시장 안정세 유지",
-      "매출 증가 기업들 긍정적",
-      "경제 지표 개선 경향"
+      "경제 지표 개선",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
