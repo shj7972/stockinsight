@@ -4,38 +4,38 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqZE91TjVtZGhFWXdPb3I1cUVPcVAxVVBuUDlNVDJyQ0RweHY3NFpNQUhsUzN3R3k3WWFBalcyR05VdGNMMkV1V1lYWlRPWU1OUHdxeVp6Qk5hd25xWEpqOXpiNmE3NU0?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중앙은행 디지털화폐 가능성",
-      "스테이블코인 공존 전망",
-      "혁신적 금융 환경 기대"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - alphabiz.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
-    "publisher": "alphabiz.co.kr",
-    "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장감으로 대응",
-      "경제 안정화 목표 강화"
+      "디지털화폐와 스테이블코인 공존 가능",
+      "중앙은행 디지털화폐 논의 필요",
+      "신현송 총재 후보자 발언"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
-    "publisher": "한겨레",
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "금리 인하 사이클 종료 알림",
-      "시장금리 상승세 반영",
-      "3%대 주담대 사라짐"
+      "남한, 시장 안정 조치 발표",
+      "중동 긴장 관계 영향",
+      "신속한 대응 필요성 강조"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
+    "publisher": "한국방송뉴스",
+    "summary": [
+      "핵심광물 재무장관회의 개최",
+      "국제공조 강화 방안 논의",
+      "경제협력 확대 기대"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 바닥은 아직 도달하지 못함",
-      "추가 하락 가능성 있음",
-      "투자자 주의 필요"
+      "시장이 아직 바닥에 도달하지 않음",
+      "indikators가 추가 하락을 시사",
+      "투자자 신뢰 회복 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "다른 나라의 주식 시장에 투자하는 것은 그 나라 경제에 투자하는 것이 아닙니다 🌍 - TKer by Sam Ro",
-    "original_title": "Investing in another country's stock market isn't about investing in their economy 🌍 - TKer by Sam Ro",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KZkFMd1hEQzQ4UEZNMWlDcWZJS3o5dFZkUmNaeEUxUHJKMmdCMlQxaDliOEdKejE4MHB0a202c3o4R2Z0cVdZYTNMR1lOTWcxbFNwazdtRDRhTm9UUDRqdFV3ZWdvYlRQTkZWckJHMjN1UQ?oc=5",
-    "publisher": "TKer by Sam Ro",
-    "summary": [
-      "국외 주식 시장 투자는 경제와 무관",
-      "투자 결정에는 다양한 요소 존재",
-      "시장의 움직임은 복잡하게 얽힘"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbml6dS1peTRsRmRkSUEyNTAyUUVqbU5waVZYaWlGR1haRDl4VVpsQU05S3ZOU0J6S0FHeTd1aGcyU1lkMmM5cjE5bHFRTE10UFFWMUdITWotc0JVLWE2SEkwRmVkcXVYSDFGRm4yWVlwcC0yd1ZjdU5VVklSQURsdWtVOFLSAYoBQVVfeXFMT1RxcENxcDh4dTNEUnd3M0s3SUVTd082cEJoUF9IQmNSU3JOaGg5a041NHZjN3NPdFU2NHVzWW5MRUVlLXBJNlc2X2NSTnlrR3M4RUd3T1U5UnBuQUtfRkhEQUxmY0ZmdG9JMnNsbFNVckttcm1TVzkwOEtWUW1UcWw2R1kzQllaYXZ3?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식 시장은 이란 전쟁 영향을 반영",
-      "투자자에게 경제 전망 제공",
-      "향후 경제 상황에 대한 우려 존재"
+      "크레이머, 주식 시장 동향 분석",
+      "이란 전쟁 지속 시 경제 우려",
+      "투자자에 대한 시사점 제공"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
+    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "노동 시장 회복세 나타남",
+      "소비 증가 기대",
+      "경제 성장 긍정적 영향"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
