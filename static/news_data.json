@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 인터뷰 내용",
-      "한은 정책에 대한 긍정적 시각"
+      "한은 총재 후보자의 발언",
+      "중앙은행의 혁신적 접근 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 불안정 대책 마련",
-      "신속한 시장 안정 조치 실행",
-      "경제 안정성 유지 목표"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감 속 경제 우려",
+      "투자자 신뢰 회복 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "‘금리 인하 사이클 종료’에 시장금리 들썩…3%대 주담대 실종 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TWVpacWhYcUkzdF9sQ0dkWUlxelI5UGhGdUtOeE1Da0lmbDR3YmFlalJyQ1JjZXhpR0VJWk1BRFIzeGpMX0wwbFd5Rk1iblNNNjhQQk5MaVpiTzFnTm1iemdNZXZFNXc?oc=5",
-    "publisher": "한겨레",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "금리 인하 사이클 종료 소식",
-      "시장금리 상승세",
-      "3%대 주담대 사라짐"
+      "한국 경제 우상향 중",
+      "환율 하락 공식 무너짐",
+      "시장 불안 요소 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 바닥 아직 확인되지 않음",
-      "지표가 추가 하락 가능성 시사",
-      "불확실성 지속, 투자 유의 필요"
+      "시장 바닥 아닌 신호 나타나",
+      "추가 하락 가능성 있음",
+      "투자자 신중 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -55,12 +55,12 @@
   {
     "title": "크레이머는 화요일의 주식시장 조치가 투자자들에게 이란 전쟁이 지속될 경우 미국 경제의 운명을 엿볼 수 있게 해준다고 말했습니다 - CNBC",
     "original_title": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbml6dS1peTRsRmRkSUEyNTAyUUVqbU5waVZYaWlGR1haRDl4VVpsQU05S3ZOU0J6S0FHeTd1aGcyU1lkMmM5cjE5bHFRTE10UFFWMUdITWotc0JVLWE2SEkwRmVkcXVYSDFGRm4yWVlwcC0yd1ZjdU5VVklSQURsdWtVOFLSAYoBQVVfeXFMT1RxcENxcDh4dTNEUnd3M0s3SUVTd082cEJoUF9IQmNSU3JOaGg5a041NHZjN3NPdFU2NHVzWW5MRUVlLXBJNlc2X2NSTnlrR3M4RUd3T1U5UnBuQUtfRkhEQUxmY0ZmdG9JMnNsbFNVckttcm1TVzkwOEtWUW1UcWw2R1kzQllaYXZ3?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbml6dS1peTRsRmRkSUEyNTAyUUVqbU5waVZYaWlGR1haRDl4VVpsQU05S3ZOU0J6S0FHeTd1aGcyU1lkMmM5cjE5bHFRTE10UFFWMUdITWotc0JVLWE2SEkwRmVkcXVYSDFGRm4yWVlwcC0yd1ZjdU5VVklSQURsdWtVOFI?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식 시장이 이란 전쟁 영향 반영",
-      "경제 전망에 대한 시사점 제시",
-      "Cramer의 인사이트 강조"
+      "주식 시장, 이란 전쟁 예고 보여줘",
+      "경제의 미래 암시하는 불확실성",
+      "투자자들 긴장감 고조"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "고용 시장은 경제에 중요한 역할",
-      "일자리 증가가 소비 촉진",
-      "실업률 감소로 긍정적 전망"
+      "일자리 시장의 성장세",
+      "경제에 긍정적 영향",
+      "고용률 상승 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
