@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "한은 총재 후보 신현송 발언",
-      "중앙은행 혁신 강조"
+      "신현송 후보자 발언",
+      "금융 혁신 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장감 고조",
-      "경제 불안에 대응 방안 마련"
+      "한국, 중동 긴장 속 시장 방지 조치 추진",
+      "신속한 대응으로 시장 안정화 기대",
+      "경제 위기 우려 완화 목표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국의 10억 이상 금융자산 47.6만명",
-      "부동산보다 주식 선호 경향",
-      "주식 시장 전망 긍정적"
+      "부자 47.6만명 증가",
+      "주식 선호도 상승",
+      "부동산 수요 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "시장은 혼돈의 한 해를 맞이했지만 여전히 끔찍한 성과를 거두었습니다 - The New York Times",
-    "original_title": "Markets Have Faced a Year of Chaos and Still Done Awfully Well - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdmFwZVV2ZjRpVXdBNF93ekVpOVpjbzZadVhtanRwN1piWVhRRkxhVjY5OEItX29UX0ZBQjRrdzNlQWhWX25qZFJBejFTTXVCb3lBSENMa3Z0NkJwakVPVEgxVDVuRFBkSDlVNFZBMHZtUW93aENodGtfNzJPeG02cWRIaDc?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "혼란 속에서도 시장이 잘 견뎌냈다",
-      "올해 많은 도전에도 우상향",
-      "투자자의 신뢰가 회복되고 있다"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 바닥은 아직 도달하지 않음",
-      "지표들이 하락 신호를 보임",
-      "투자자 주의 필요함"
+      "시장 바닥은 아직 안 찍은 듯",
+      "지표가 부정적인 방향",
+      "추가 하락 가능성 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "크레이머는 화요일의 주식시장 조치가 투자자들에게 이란 전쟁이 지속될 경우 미국 경제의 운명을 엿볼 수 있게 해준다고 말했습니다 - CNBC",
-    "original_title": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbml6dS1peTRsRmRkSUEyNTAyUUVqbU5waVZYaWlGR1haRDl4VVpsQU05S3ZOU0J6S0FHeTd1aGcyU1lkMmM5cjE5bHFRTE10UFFWMUdITWotc0JVLWE2SEkwRmVkcXVYSDFGRm4yWVlwcC0yd1ZjdU5VVklSQURsdWtVOFLSAYoBQVVfeXFMT1RxcENxcDh4dTNEUnd3M0s3SUVTd082cEJoUF9IQmNSU3JOaGg5a041NHZjN3NPdFU2NHVzWW5MRUVlLXBJNlc2X2NSTnlrR3M4RUd3T1U5UnBuQUtfRkhEQUxmY0ZmdG9JMnNsbFNVckttcm1TVzkwOEtWUW1UcWw2R1kzQllaYXZ3?oc=5",
-    "publisher": "CNBC",
+    "title": "시장은 혼돈의 한 해를 맞이했지만 여전히 끔찍한 성과를 거두었습니다 - The New York Times",
+    "original_title": "Markets Have Faced a Year of Chaos and Still Done Awfully Well - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdmFwZVV2ZjRpVXdBNF93ekVpOVpjbzZadVhtanRwN1piWVhRRkxhVjY5OEItX29UX0ZBQjRrdzNlQWhWX25qZFJBejFTTXVCb3lBSENMa3Z0NkJwakVPVEgxVDVuRFBkSDlVNFZBMHZtUW93aENodGtfNzJPeG02cWRIaDc?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "주식 시장이 경제 미래를 보여줌",
-      "이란 전쟁 지속 시 경제 불확실성 증가",
-      "투자자들 우려 표명"
+      "혼란 속에서도 시장은 잘 버텼다",
+      "주의 깊은 투자자들이 성과를 거두었다",
+      "긍정적인 전망이 여전히 존재한다"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "이번 주 경제 행사 안내",
+      "중요 지표 발표 예정",
+      "시장 반응 분석 필요"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
