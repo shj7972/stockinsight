@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자, 한은 총재 후보",
-      "중앙은행 정책에 긍정적 영향 미칠 듯"
+      "신현송 후보자 발언",
+      "한은 정책 방향 주목"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,26 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 시장 안정 조치",
-      "신속한 대응 방침 강조",
-      "경제 불안 감시 강화"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장 상황 반영",
+      "경제 불안 해소 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "title": "금융연 “내년 한국 경제 2.1% 성장 전망…회복세는 미약” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유 금융자산 10억 이상",
-      "부동산보다 주식 투자 더 유망",
-      "주식 시장에 대한 긍정적 전망"
+      "내년 한국 경제 2.1% 성장 전망",
+      "회복세는 미약함",
+      "전반적인 경제 상황 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 주식 시장 분석",
+      "2026년 시장 동향에 대한 통찰",
+      "경제 성장 요소에 집중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
+    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -46,38 +60,24 @@
     "summary": [
       "주가 상승세 지속",
       "경제 지표 개선",
-      "투자자 신뢰 증가"
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
-    "original_title": "Indicators suggest the market likely hasn’t hit bottom yet - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
-    "publisher": "invesco.com",
+    "title": "\"두 개의 핵폭탄이 우리에게 떨어지도록 놔두십시오\": 트럼프는 Fox News 전화에서 경제가 훨씬 더 나빠질 수 있다고 말했습니다 - Salon.com",
+    "original_title": "\"Let a couple nuclear bombs drop on us\": Trump says economy could be much worse in Fox News call - Salon.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORF9PZWQyckpTRmNhcW1YcElQRDRUUEY2MlNNRGZqMmFEeVVoZm04ODhGbGRkOFBoT194cndmUEtqbUpDYWc4TGF2M1dDNDljOW5VWkd3M0puQ3dGVV9keFo4QVFTZmhuekpSN1JyQ0RtWnhfT1lKRG01LUw1V05VbEctTjV4Yi1IMzd6MURaNU91cVc2clZ2Q0tBZmNkVl9WZ21QRTBFY0w2S2JlbkRDQkY1dG5meGZsLVI5a3ptQ0xhM002SHc?oc=5",
+    "publisher": "Salon.com",
     "summary": [
-      "시장이 바닥에 도달하지 않은 듯",
-      "지표들이 하락 가능성을 시사",
-      "추가 하락 우려가 존재함"
+      "트럼프, 경제 상황 비관적 언급",
+      "핵폭탄 언급으로 충격 효과",
+      "악화될 경제 전망 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "시장은 혼돈의 한 해를 맞이했지만 여전히 끔찍한 성과를 거두었습니다 - The New York Times",
-    "original_title": "Markets Have Faced a Year of Chaos and Still Done Awfully Well - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdmFwZVV2ZjRpVXdBNF93ekVpOVpjbzZadVhtanRwN1piWVhRRkxhVjY5OEItX29UX0ZBQjRrdzNlQWhWX25qZFJBejFTTXVCb3lBSENMa3Z0NkJwakVPVEgxVDVuRFBkSDlVNFZBMHZtUW93aENodGtfNzJPeG02cWRIaDc?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "혼란에도 불구하고 시장 안정세",
-      "올해 성과 예외적으로 좋음",
-      "투자자 신뢰 여전함"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
