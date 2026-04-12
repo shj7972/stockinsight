@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 한은 총재 제안",
-      "중앙은행의 미래 방향성 언급"
+      "신현송 후보자, 한은 총재 후보",
+      "중앙은행 정책에 긍정적 영향 미칠 듯"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,26 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정화 조치 신속 시행",
-      "중동 긴장감으로 인한 경제 우려",
-      "정책 대응으로 시장 보호 의지"
+      "한국, 중동 긴장 속 시장 안정 조치",
+      "신속한 대응 방침 강조",
+      "경제 불안 감시 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제 성장 지속",
-      "환율 하락 공식 변동",
-      "시장 불확실성 증가"
+      "한국 부자 47.6만명 보유 금융자산 10억 이상",
+      "부동산보다 주식 투자 더 유망",
+      "주식 시장에 대한 긍정적 전망"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "주가 상승세 지속",
+      "경제 지표 개선",
+      "투자자 신뢰 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 바닥 아직 도달 안 함",
-      "지표들 부정적 신호",
-      "전망 불확실성 증가"
+      "시장이 바닥에 도달하지 않은 듯",
+      "지표들이 하락 가능성을 시사",
+      "추가 하락 우려가 존재함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdmFwZVV2ZjRpVXdBNF93ekVpOVpjbzZadVhtanRwN1piWVhRRkxhVjY5OEItX29UX0ZBQjRrdzNlQWhWX25qZFJBejFTTXVCb3lBSENMa3Z0NkJwakVPVEgxVDVuRFBkSDlVNFZBMHZtUW93aENodGtfNzJPeG02cWRIaDc?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "혼란 속에서도 시장이 잘 버텼다",
-      "올해 시장 성과가 놀랍다",
-      "경제 회복세를 보이고 있다"
+      "혼란에도 불구하고 시장 안정세",
+      "올해 성과 예외적으로 좋음",
+      "투자자 신뢰 여전함"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "금리 결정 회의 예정",
-      "소비자 지표 발표",
-      "고용 상황 점검"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
