@@ -43,8 +43,11 @@ import stock_discovery_manager
 
 @app.on_event("startup")
 async def startup_event():
-    # News updates are handled by an external script to prevent worker conflicts
-    pass
+    # News updates are handled by an external script to prevent worker conflicts.
+    # Kick off background pre-warm so popular tickers respond instantly.
+    import threading
+    t = threading.Thread(target=_prewarm_task, daemon=True, name="prewarm")
+    t.start()
 
 
 # Major Indices
@@ -93,6 +96,63 @@ _ranking_cache = {
     "kr": {"data": [], "ts": 0}
 }
 CACHE_DURATION = 600  # 10 minutes
+
+# ── Analysis Result Cache ──────────────────────────────────────────────────────
+# Stores full get_analysis_context() output per ticker.
+# TTL=900s (15 min) — fresh enough for intraday analysis; eliminates cold-start latency.
+_analysis_cache: dict = {}
+_ANALYSIS_CACHE_TTL = 900  # 15 minutes
+
+
+def _get_cached_analysis(ticker: str) -> dict | None:
+    entry = _analysis_cache.get(ticker.upper())
+    if entry and time.time() - entry["ts"] < _ANALYSIS_CACHE_TTL:
+        return entry["data"]
+    return None
+
+
+def _set_cached_analysis(ticker: str, data: dict):
+    _analysis_cache[ticker.upper()] = {"data": data, "ts": time.time()}
+
+
+# Pre-warm targets: top 15 US + top 10 KR by market interest
+_PREWARM_US = [t for t, _ in [
+    ("NVDA", "Nvidia"), ("AAPL", "Apple"), ("MSFT", "Microsoft"),
+    ("TSLA", "Tesla"), ("GOOGL", "Alphabet"), ("META", "Meta"),
+    ("AMZN", "Amazon"), ("AMD", "AMD"), ("PLTR", "Palantir"),
+    ("NFLX", "Netflix"), ("JPM", "JPMorgan"), ("V", "Visa"),
+    ("COIN", "Coinbase"), ("SHOP", "Shopify"), ("UBER", "Uber"),
+]]
+_PREWARM_KR = [t for t, _ in [
+    ("005930.KS", "삼성전자"), ("000660.KS", "SK하이닉스"),
+    ("035420.KS", "NAVER"), ("035720.KS", "카카오"),
+    ("005380.KS", "현대차"), ("000270.KS", "기아"),
+    ("247540.KQ", "에코프로비엠"), ("068270.KS", "셀트리온"),
+    ("373220.KS", "LG에너지솔루션"), ("207940.KS", "삼성바이오"),
+]]
+
+
+def _prewarm_task():
+    """Background thread: pre-populate analysis cache for popular tickers."""
+    import threading
+    logger = logging.getLogger("prewarm")
+    logger.info("[pre-warm] starting analysis cache warm-up")
+
+    targets = _PREWARM_US + _PREWARM_KR
+    for ticker in targets:
+        # Skip if already cached (e.g. another worker beat us to it)
+        if _get_cached_analysis(ticker) is not None:
+            continue
+        try:
+            data = get_analysis_context(ticker)
+            if data:
+                logger.info(f"[pre-warm] cached {ticker}")
+        except Exception as e:
+            logger.warning(f"[pre-warm] failed {ticker}: {e}")
+        # Short sleep to avoid hammering yfinance rate limits
+        time.sleep(2)
+
+    logger.info("[pre-warm] warm-up complete")
 
 def get_popular_tickers(candidates, region_key, top_n=10):
     """
@@ -236,11 +296,16 @@ def create_chart(history, metrics_df):
     return fig.to_dict()
 
 def get_analysis_context(ticker: str):
-    """Reuseable function to analyze stock data"""
+    """Reuseable function to analyze stock data (with 15-min in-memory cache)."""
     if not ticker:
         return None
-    
+
     ticker = ticker.strip()
+
+    # Return cached result if fresh
+    cached = _get_cached_analysis(ticker)
+    if cached is not None:
+        return cached
 
     history, info = utils.get_stock_data(ticker)
     if history is None or history.empty:
@@ -291,7 +356,7 @@ def get_analysis_context(ticker: str):
         verdict_color = "#ff9800"
         verdict_class = "verdict-hold"
     
-    return {
+    result = {
         'ticker': ticker,
         'clean_ticker': ticker.split('.')[0],
         'company_name': info.get('longName', ticker),
@@ -325,6 +390,10 @@ def get_analysis_context(ticker: str):
             for advice in advice_list
         ]
     }
+
+    # Store in cache so subsequent requests are instant (TTL=15 min)
+    _set_cached_analysis(ticker, result)
+    return result
 
 # ── ML 예측 캐시 (6시간) ──────────────────────────────────────────────────
 _main_predictions_cache: dict = {"data": None, "ts": 0}
