@@ -10,9 +10,9 @@
 
 {% block og_description %}{{ report_date }} 주요 지수, 섹터 동향, 시장 심리를 AI가 분석한 일일 리포트{% endblock %}
 
-{% block canonical_path %}/daily-report{% endblock %}
+{% block canonical_path %}/daily-report/{{ report_date_iso }}{% endblock %}
 
-{% block og_url %}/daily-report{% endblock %}
+{% block og_url %}/daily-report/{{ report_date_iso }}{% endblock %}
 
 {% block structured_data %}
 <script type="application/ld+json">
@@ -38,7 +38,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://stock-insight.app/daily-report"
+        "@id": "https://stock-insight.app/daily-report/{{ report_date_iso }}"
     }
 },
 {
@@ -87,6 +87,29 @@
             </button>
         </div>
     </div>
+
+    <!-- 과거 리포트 아카이브 내비게이션 -->
+    {% if recent_dates and recent_dates|length > 1 %}
+    <div style="margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.06);">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.72rem; color: #475569; flex-shrink: 0;">📅 과거 리포트:</span>
+            {% for d in recent_dates %}
+            <a href="/daily-report/{{ d }}"
+                style="font-size: 0.72rem; padding: 0.2rem 0.6rem;
+                    border-radius: 20px; text-decoration: none; transition: all 0.2s;
+                    {% if d == report_date_iso %}
+                    background: rgba(56,189,248,0.15); border: 1px solid rgba(56,189,248,0.4); color: #38bdf8; font-weight: 600;
+                    {% else %}
+                    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: #64748b;
+                    {% endif %}"
+                onmouseover="if('{{ d }}' !== '{{ report_date_iso }}') { this.style.background='rgba(255,255,255,0.08)'; this.style.color='#94a3b8'; }"
+                onmouseout="if('{{ d }}' !== '{{ report_date_iso }}') { this.style.background='rgba(255,255,255,0.04)'; this.style.color='#64748b'; }">
+                {{ d }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
 </div>
 
 {% if error %}
@@ -320,7 +343,7 @@
 
 <script>
     function shareDailyReport() {
-        const shareUrl = "https://stock-insight.app/daily-report";
+        const shareUrl = "https://stock-insight.app/daily-report/{{ report_date_iso }}";
         const shareText = "{{ report_date }} AI 일일 시장 리포트 - Stock Insight AI";
 
         if (navigator.share) {
@@ -331,9 +354,12 @@
             }).catch(console.error);
         } else {
             navigator.clipboard.writeText(shareUrl).then(function () {
-                alert('링크가 복사되었습니다! 공유해보세요.');
+                const btn = document.querySelector('[onclick="shareDailyReport()"]');
+                const orig = btn.innerHTML;
+                btn.innerHTML = '✅ 복사 완료!';
+                setTimeout(() => { btn.innerHTML = orig; }, 2000);
             }, function () {
-                alert('복사에 실패했습니다.');
+                alert('링크: ' + shareUrl);
             });
         }
     }

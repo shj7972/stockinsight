@@ -1852,15 +1852,110 @@ async def stock_discovery(request: Request):
     })
 
 
+# ── Daily Report Snapshot Helpers ─────────────────────────────────────────────
+_DR_SNAPSHOT_DIR = os.path.join(BASE_DIR, "static", "daily_reports")
+
+
+def _dr_snapshot_path(date_iso: str) -> str:
+    return os.path.join(_DR_SNAPSHOT_DIR, f"{date_iso}.json")
+
+
+def _save_dr_snapshot(date_iso: str, data: dict):
+    """Save daily report data as JSON snapshot (best-effort)."""
+    try:
+        os.makedirs(_DR_SNAPSHOT_DIR, exist_ok=True)
+        path = _dr_snapshot_path(date_iso)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+    except Exception as e:
+        print(f"[daily-report] snapshot save error: {e}")
+
+
+def _load_dr_snapshot(date_iso: str) -> dict | None:
+    """Load a past daily report snapshot. Returns None if not found."""
+    path = _dr_snapshot_path(date_iso)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[daily-report] snapshot load error: {e}")
+        return None
+
+
+def _recent_dr_dates(n: int = 7) -> list[str]:
+    """Return list of dates (ISO) that have saved snapshots, sorted desc."""
+    try:
+        os.makedirs(_DR_SNAPSHOT_DIR, exist_ok=True)
+        files = sorted(
+            [f[:-5] for f in os.listdir(_DR_SNAPSHOT_DIR) if f.endswith(".json")],
+            reverse=True,
+        )
+        return files[:n]
+    except Exception:
+        return []
+
+
+def _build_dr_context(request: Request, date_iso: str, data: dict) -> dict:
+    """Build template context dict from snapshot data."""
+    return {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, "us"),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, "kr"),
+        "report_date": data.get("report_date", date_iso),
+        "report_date_iso": date_iso,
+        "indices": data.get("indices", []),
+        "fear_greed": data.get("fear_greed", {}),
+        "key_metrics": data.get("key_metrics", []),
+        "sectors": data.get("sectors", []),
+        "top_gainers": data.get("top_gainers", []),
+        "top_losers": data.get("top_losers", []),
+        "predictions": data.get("predictions", []),
+        "news_data": news_manager.get_latest_news(),
+        "recent_dates": _recent_dr_dates(),
+        "error": None,
+    }
+
+
 @app.get("/daily-report", response_class=HTMLResponse)
-async def daily_report(request: Request):
-    """AI Daily Market Report - SEO-optimized daily content page"""
+async def daily_report_redirect(request: Request):
+    """Redirect /daily-report to today's dated permalink."""
+    from fastapi.responses import RedirectResponse
+    today = datetime.now().strftime("%Y-%m-%d")
+    return RedirectResponse(url=f"/daily-report/{today}", status_code=302)
+
+
+@app.get("/daily-report/{date}", response_class=HTMLResponse)
+async def daily_report(request: Request, date: str):
+    """AI Daily Market Report with date-based permalink for sharing & archiving."""
     import yfinance as yf
     import numpy as np
-    from datetime import datetime
+
+    # Validate date format
+    try:
+        datetime.strptime(date, "%Y-%m-%d")
+    except ValueError:
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse(url="/daily-report", status_code=302)
+
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+    is_today = (date == today_iso)
+
+    # For past dates, serve snapshot if available
+    if not is_today:
+        snapshot = _load_dr_snapshot(date)
+        if snapshot:
+            return templates.TemplateResponse(
+                "daily_report.html", _build_dr_context(request, date, snapshot)
+            )
+        # Past date with no snapshot → redirect to today
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse(url="/daily-report", status_code=302)
 
     report_date = datetime.now().strftime("%Y년 %m월 %d일")
-    report_date_iso = datetime.now().strftime("%Y-%m-%d")
+    report_date_iso = date
     error = None
 
     try:
@@ -1996,6 +2091,19 @@ async def daily_report(request: Request):
         # 7. News
         news_data = news_manager.get_latest_news()
 
+        # Save snapshot for today (enables past-date permalinks)
+        snapshot = {
+            "report_date": report_date,
+            "indices": indices,
+            "fear_greed": fear_greed,
+            "key_metrics": key_metrics,
+            "sectors": sectors,
+            "top_gainers": top_gainers,
+            "top_losers": top_losers,
+            "predictions": predictions,
+        }
+        _save_dr_snapshot(report_date_iso, snapshot)
+
         return templates.TemplateResponse("daily_report.html", {
             "request": request,
             "selected_ticker": "",
@@ -2011,6 +2119,7 @@ async def daily_report(request: Request):
             "top_losers": top_losers,
             "predictions": predictions,
             "news_data": news_data,
+            "recent_dates": _recent_dr_dates(),
             "error": None
         })
 
@@ -2024,6 +2133,7 @@ async def daily_report(request: Request):
             "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
             "report_date": report_date,
             "report_date_iso": report_date_iso,
+            "recent_dates": _recent_dr_dates(),
             "error": str(e)
         })
 
@@ -2527,6 +2637,16 @@ async def sitemap():
     </url>
 """
     
+    # Add dated daily report permalinks
+    for dr_date in _recent_dr_dates(30):
+        sitemap_xml += f"""    <url>
+        <loc>{base_url}/daily-report/{dr_date}</loc>
+        <lastmod>{dr_date}</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.85</priority>
+    </url>
+"""
+
     # Add blog listing page
     sitemap_xml += f"""    <url>
         <loc>{base_url}/blog</loc>
