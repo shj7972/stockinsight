@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqZE91TjVtZGhFWXdPb3I1cUVPcVAxVVBuUDlNVDJyQ0RweHY3NFpNQUhsUzN3R3k3WWFBalcyR05VdGNMMkV1V1lYWlRPWU1OUHdxeVp6Qk5hd25xWEpqOXpiNmE3NU0?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 발언",
-      "한은 정책 방향 주목"
+      "신현송 후보자, CBDC와 스테이블코인 공존",
+      "통화정책 효율성 강조",
+      "디지털 자산의 가능성 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -18,8 +18,8 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 상황 반영",
-      "경제 불안 해소 목표"
+      "중동 긴장 속 불안 해소 필요",
+      "경제 안정성을 위한 조치 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Mbk1nMkgtUjFCaV9KbWFLQ1pPT2poYWxZN1dhOEFDYi1sYWJjejE3eThXRUMyc2xTQmg4ZDFBVmp2Y05OWXlKSWtISTdFQkpvQlkxUXhXNGJCM3NfbHNKTjNHRl8yZDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "내년 한국 경제 2.1% 성장 전망",
-      "회복세는 미약함",
-      "전반적인 경제 상황 우려"
+      "한국 경제 내년 2.1% 성장 전망",
+      "회복세는 미약하다는 분석",
+      "경기 전망에 대한 우려 존재"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "2026년 시장 동향에 대한 통찰",
-      "경제 성장 요소에 집중"
+      "트럼프 행정부의 시장 동향",
+      "2026년 주요 원동력 분석",
+      "U.S. Bank의 전문가 의견"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "워렌 버핏은 미국 경제의 '믿을 수 없는 시기'가 끝났다고 말했습니다. 그의 예측은 2026년에 실현될까? - 야후 파이낸스",
+    "original_title": "The ‘incredible period’ for the US economy is ending, Warren Buffett once said. Is his prediction coming true in 2026? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGNNem1YS0k1STA2S1VrNEZCbURKY1VwbXJnbmZHQXdmMkxsX05xbjVRQXZaTWpPcTNiTXhMNEFKRW9TMmJwRGRvbFR1TVhoX1U0Q3JSWi1ITy1scTRHRjBnNFBsb0dDdTJ4cFByQkV0clg4Nm1CQTBhVHhyRlJrLXg2TDBpaDJzTkxHejBCZ1N5RGlEYkM5Xw?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "버핏, 미국 경제의 끝 예언",
+      "2026년 예측 현실화 가능성",
+      "‘이상적 기간’ 종식징후"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주가 상승세 지속",
+      "주식 시장 상승세 지속",
       "경제 지표 개선",
       "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "\"두 개의 핵폭탄이 우리에게 떨어지도록 놔두십시오\": 트럼프는 Fox News 전화에서 경제가 훨씬 더 나빠질 수 있다고 말했습니다 - Salon.com",
-    "original_title": "\"Let a couple nuclear bombs drop on us\": Trump says economy could be much worse in Fox News call - Salon.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORF9PZWQyckpTRmNhcW1YcElQRDRUUEY2MlNNRGZqMmFEeVVoZm04ODhGbGRkOFBoT194cndmUEtqbUpDYWc4TGF2M1dDNDljOW5VWkd3M0puQ3dGVV9keFo4QVFTZmhuekpSN1JyQ0RtWnhfT1lKRG01LUw1V05VbEctTjV4Yi1IMzd6MURaNU91cVc2clZ2Q0tBZmNkVl9WZ21QRTBFY0w2S2JlbkRDQkY1dG5meGZsLVI5a3ptQ0xhM002SHc?oc=5",
-    "publisher": "Salon.com",
-    "summary": [
-      "트럼프, 경제 상황 비관적 언급",
-      "핵폭탄 언급으로 충격 효과",
-      "악화될 경제 전망 경고"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
