@@ -58,6 +58,99 @@
 
 {% else %}
 
+{# ── 누적 성과 대시보드 ────────────────────────────────────────────── #}
+{% if performance and performance.total_picks > 0 %}
+<div class="glass-panel" style="padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;
+    background: linear-gradient(135deg, rgba(74,222,128,0.05) 0%, rgba(56,189,248,0.04) 100%);
+    border: 1px solid rgba(74,222,128,0.15);">
+
+    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.9rem;">
+        <span style="font-size: 1rem;">📊</span>
+        <span style="font-size: 0.88rem; font-weight: 700; color: #e2e8f0;">AI 픽 누적 성과</span>
+        <span style="font-size: 0.7rem; color: #475569; margin-left: 0.25rem;">최근 {{ performance.days_tracked }}일 · {{ performance.total_picks }}개 픽 집계</span>
+    </div>
+
+    <!-- 지표 4개 -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.75rem; margin-bottom: 1rem;">
+
+        <!-- 적중률 -->
+        <div style="background: rgba(255,255,255,0.04); border-radius: 12px; padding: 0.75rem 0.9rem; text-align: center; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.65rem; color: #64748b; margin-bottom: 0.25rem;">적중률</div>
+            <div style="font-size: 1.6rem; font-weight: 800;
+                color: {% if performance.win_rate >= 60 %}#4ade80{% elif performance.win_rate >= 45 %}#fbbf24{% else %}#f87171{% endif %};">
+                {{ performance.win_rate }}%
+            </div>
+            <div style="font-size: 0.65rem; color: #475569; margin-top: 0.15rem;">
+                {{ performance.wins }}/{{ performance.total_picks }} 플러스
+            </div>
+        </div>
+
+        <!-- 평균 수익률 -->
+        <div style="background: rgba(255,255,255,0.04); border-radius: 12px; padding: 0.75rem 0.9rem; text-align: center; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.65rem; color: #64748b; margin-bottom: 0.25rem;">평균 수익률</div>
+            <div style="font-size: 1.6rem; font-weight: 800;
+                color: {% if performance.avg_return >= 0 %}#4ade80{% else %}#f87171{% endif %};">
+                {{ "%+.2f"|format(performance.avg_return) }}%
+            </div>
+            <div style="font-size: 0.65rem; color: #475569; margin-top: 0.15rem;">추천 이후 평균</div>
+        </div>
+
+        <!-- 최고 픽 -->
+        <div style="background: rgba(74,222,128,0.06); border-radius: 12px; padding: 0.75rem 0.9rem; text-align: center; border: 1px solid rgba(74,222,128,0.15);">
+            <div style="font-size: 0.65rem; color: #64748b; margin-bottom: 0.25rem;">최고 픽 🏆</div>
+            <a href="/stock/{{ performance.best.ticker }}" style="text-decoration: none;">
+                <div style="font-size: 1rem; font-weight: 800; color: #4ade80;">
+                    {{ performance.best.ticker.replace('.KS','').replace('.KQ','') }}
+                </div>
+                <div style="font-size: 0.88rem; font-weight: 700; color: #4ade80;">
+                    {{ "%+.2f"|format(performance.best.return_pct) }}%
+                </div>
+            </a>
+            <div style="font-size: 0.62rem; color: #475569; margin-top: 0.1rem;">{{ performance.best.date }}</div>
+        </div>
+
+        <!-- 최저 픽 -->
+        <div style="background: rgba(248,113,113,0.05); border-radius: 12px; padding: 0.75rem 0.9rem; text-align: center; border: 1px solid rgba(248,113,113,0.12);">
+            <div style="font-size: 0.65rem; color: #64748b; margin-bottom: 0.25rem;">최저 픽 📉</div>
+            <a href="/stock/{{ performance.worst.ticker }}" style="text-decoration: none;">
+                <div style="font-size: 1rem; font-weight: 800; color: #f87171;">
+                    {{ performance.worst.ticker.replace('.KS','').replace('.KQ','') }}
+                </div>
+                <div style="font-size: 0.88rem; font-weight: 700; color: #f87171;">
+                    {{ "%+.2f"|format(performance.worst.return_pct) }}%
+                </div>
+            </a>
+            <div style="font-size: 0.62rem; color: #475569; margin-top: 0.1rem;">{{ performance.worst.date }}</div>
+        </div>
+    </div>
+
+    <!-- 날짜별 성과 바 -->
+    {% if performance.date_avg %}
+    <div>
+        <div style="font-size: 0.68rem; color: #475569; margin-bottom: 0.45rem;">일자별 평균 수익률</div>
+        <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+            {% for d, avg in performance.date_avg.items() %}
+            {% set bar_color = "#4ade80" if avg >= 0 else "#f87171" %}
+            {% set bar_pct = [([avg, -5]|max), 5]|min %}  {# -5 ~ +5 범위로 클램프 #}
+            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.68rem;">
+                <span style="color: #475569; width: 80px; flex-shrink: 0;">{{ d }}</span>
+                <div style="flex: 1; height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden;">
+                    <div style="height: 100%; border-radius: 3px; background: {{ bar_color }};
+                        width: {{ [[((avg / 5) * 50 + 50)|round(0)|int, 5]|max, 95]|min }}%;
+                        transition: width 0.4s ease;">
+                    </div>
+                </div>
+                <span style="color: {{ bar_color }}; font-weight: 600; width: 52px; text-align: right; flex-shrink: 0;">
+                    {{ "%+.2f"|format(avg) }}%
+                </span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
 {# ── 오늘의 섹터 상위 ─────────────────────────────────────────────────── #}
 {% set today_entry = picks_history[0] %}
 {% if today_entry.sector_top3 %}
@@ -190,9 +283,25 @@
 {# ── 추천 이력 (최근 5일) ────────────────────────────────────────────── #}
 {% if picks_history|length > 1 %}
 <div class="glass-panel" style="padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
-    <h3 style="font-size: 0.95rem; font-weight: 600; color: #e2e8f0; margin: 0 0 1rem 0;">
-        📅 추천 이력 &amp; 누적 성과 (최근 {{ picks_history|length }}일)
-    </h3>
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <h3 style="font-size: 0.95rem; font-weight: 600; color: #e2e8f0; margin: 0;">
+            📅 추천 이력 &amp; 누적 성과 (최근 {{ picks_history|length }}일)
+        </h3>
+        {% if performance and performance.total_picks > 0 %}
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+            <span style="font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 20px;
+                background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.25); color: #4ade80; font-weight: 600;">
+                적중률 {{ performance.win_rate }}%
+            </span>
+            <span style="font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 20px;
+                background: {% if performance.avg_return >= 0 %}rgba(74,222,128,0.1){% else %}rgba(248,113,113,0.1){% endif %};
+                border: 1px solid {% if performance.avg_return >= 0 %}rgba(74,222,128,0.25){% else %}rgba(248,113,113,0.25){% endif %};
+                color: {% if performance.avg_return >= 0 %}#4ade80{% else %}#f87171{% endif %}; font-weight: 600;">
+                평균 {{ "%+.2f"|format(performance.avg_return) }}%
+            </span>
+        </div>
+        {% endif %}
+    </div>
 
     {% for entry in picks_history %}
     {% if loop.index0 > 0 %}{# 오늘치는 위에서 이미 표시 #}

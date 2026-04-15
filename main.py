@@ -1901,6 +1901,53 @@ async def blog_detail(request: Request, slug: str):
     })
 
 
+def _calc_pick_performance(picks_history: list) -> dict:
+    """
+    picks_history 전체에서 누적 적중률·평균 수익률·최고·최저 픽을 계산합니다.
+    return_pct 가 None 인 픽은 집계에서 제외합니다.
+    """
+    all_picks_scored = []
+    for entry in picks_history:
+        date = entry.get("date", "")
+        for pick in entry.get("us_picks", []) + entry.get("kr_picks", []):
+            rp = pick.get("return_pct")
+            if rp is not None:
+                all_picks_scored.append({**pick, "date": date})
+
+    if not all_picks_scored:
+        return {}
+
+    total = len(all_picks_scored)
+    wins  = sum(1 for p in all_picks_scored if p["return_pct"] >= 0)
+    avg_r = sum(p["return_pct"] for p in all_picks_scored) / total
+
+    best  = max(all_picks_scored, key=lambda p: p["return_pct"])
+    worst = min(all_picks_scored, key=lambda p: p["return_pct"])
+
+    # 날짜별 평균 수익률 (성과 바용)
+    date_perf: dict = {}
+    for p in all_picks_scored:
+        d = p["date"]
+        if d not in date_perf:
+            date_perf[d] = []
+        date_perf[d].append(p["return_pct"])
+    date_avg = {
+        d: round(sum(v) / len(v), 2)
+        for d, v in sorted(date_perf.items(), reverse=True)
+    }
+
+    return {
+        "total_picks":  total,
+        "wins":         wins,
+        "win_rate":     round(wins / total * 100, 1),
+        "avg_return":   round(avg_r, 2),
+        "best":         best,
+        "worst":        worst,
+        "days_tracked": len(date_avg),
+        "date_avg":     date_avg,   # {date: avg_return_pct}
+    }
+
+
 @app.get("/stock-discovery", response_class=HTMLResponse)
 async def stock_discovery(request: Request):
     """AI 앙상블 종목 발굴 페이지 — 매일 오전 8시 KST 추천 3종목 (US + KR)"""
@@ -1911,13 +1958,16 @@ async def stock_discovery(request: Request):
         logger.warning(f"종목 발굴 데이터 로드 실패: {e}")
         picks_history = []
 
+    performance = _calc_pick_performance(picks_history)
+
     return templates.TemplateResponse("stock_discovery.html", {
-        "request":       request,
+        "request":        request,
         "selected_ticker": "",
-        "us_tickers":    get_popular_tickers(US_CANDIDATES, 'us'),
-        "kr_tickers":    get_popular_tickers(KR_CANDIDATES, 'kr'),
-        "picks_history": picks_history,
-        "og_image":      "/static/og-image.png",
+        "us_tickers":     get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers":     get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "picks_history":  picks_history,
+        "performance":    performance,
+        "og_image":       "/static/og-image.png",
     })
 
 
