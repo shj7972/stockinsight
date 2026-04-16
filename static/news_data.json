@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 총재 후보자 발언",
-      "한은 정책 방향성 제시"
+      "신현송 후보자 발언",
+      "중앙은행 정책 변화 예상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,67 +17,67 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장에 따른 조치",
-      "경제 불안 해소 기대"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장으로 인한 영향 우려",
+      "경제 방어책 강화 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제는 성장세 지속 중",
-      "환율 하락 공식 이상 발생",
-      "시장 불확실성 증가 우려"
+      "외국인 순매도 20조, 역대 최대",
+      "시총 대비 영향은 크지 않아",
+      "시장 안정성 유지 추세"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "여전히 희망적인 월스트리트에서 미국 주식이 오르면서 유가는 오전 상승세를 상당 부분 반납했습니다.",
-    "original_title": "Oil prices give back much of their morning jump as U.S. stocks climb on a still hopeful Wall Street - PBS",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ1NIdndweXhwbjREbjd1dUlsbGpwcDZCYzJTazctd09HRnhMN3Nkd0t0VFJhQzNQdUpQbndVa05zU2lBNDZ2Nnp2a1F4cnJySFgtUUFtU1JCb0NCckM1NkRBNEljU21Sak5lWklKZThESkRnRWtqak1KWWFPN0tEYThWNkFKaFJMaHFaVjBLaVpKRVU4T2xTMG15YjlyakU0TzFhNGFHQ2hzQ2h5N3lONTE2WXhwSFVnWVFTMkhtY0FadmQ0dXBERjM1X3l5N1dN0gHWAUFVX3lxTE9XaUFZaVlQZWQ2SlpaQ0RqUEZ0NGs3Vy1MSjJpdWQzRkR2V2hxRmF2RWxfQ0xUN3NQNkU5ZWlOcmtOa01lRjQyVGZzLXNLblN4ZkVZcGNWdWttbjEyMHB4UWpyM0FjMTByeEJtakVIbkNUN2s4QnpMWXJlekVCRG5tSHl1bk9mWHhUMElxRjJQUm91ODJSenFENlBIbTlmMDB0MWxza3Nrbkp1cjZ2VlNlODQ4RXFUaVIyYnRlNk1ndldaekl4MEt6Y2duNy1zUkVGVnVJLWc?oc=5",
+    "title": "이란 전쟁 종식에 대한 희망에 힘입어 S&P 500이 2주 연속 랠리를 이어가면서 월스트리트는 사상 최고치를 경신했습니다.",
+    "original_title": "Wall Street hits record as S&P 500 continues 2-week rally, boosted by hopes for Iran war's end - PBS",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3kycm9PYWZzVnJiVllILUtRZlFlN19waWNzNG9hNXNReGNLRkJSdnpfNmdjaTZhTk1CdGM2THJIVlJ1RmZTc0VNS2ZvT2Rmc3JndlZWS1ItMWM0RG93X3ZjdUQ4anZJMENjXzhjaWtpVzdNTTBXbHlXd2RTR1M2WF96ZlFscVRoSXBxcjlVdE9OSFRTaDk4NmJFTGItZnJ6Y3JiVHhZMEw4NXVYZ3ZNb1V5OTFmdDhTVHNheXZ0RE9Lb1ZZRHd30gHMAUFVX3lxTE5od2ZpbkRoY2pjaG1DcVRKTVlRaUZBY0p5a2hpUDMtTFhab0ZzWG5teFZIQUNldDNoWHV0T0dsOHhFMjZGckxEMW5kZUpULXQwMFY2OFJwX2RmUFZTeVRPcW5DYmxYcFUtdXpRNlJCLWR4cDB0N2VvUDlFSUJjYXlxME9tT01sNmxDZ3JDanlOc2QySllnU3FPNmEwakJnOWFxVVhGYVNJMl9nUVk0a1B1N3N3TTBSNVo4MmhkZGFCNEloa3NkczBlS05aNA?oc=5",
     "publisher": "PBS",
     "summary": [
-      "유가, 오전 상승분 반납",
-      "미국 주식시장 상승",
-      "월스트리트에 희망이 커짐"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 논평 - blackrock.com",
-    "original_title": "Weekly market commentary - blackrock.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "blackrock.com",
-    "summary": [
-      "주식 시장 안정세 유지",
-      "금리 인상 우려 완화",
-      "글로벌 경제 회복 기대감"
+      "월가, 사상 최고치 경신",
+      "S&P 500, 2주 연속 상승",
+      "이란 전쟁 종료 기대감 작용"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "주식 시장이 이란 전쟁 이후를 바라보면서 S&P 500은 사상 최고치를 기록했습니다 - The New York Times",
+    "original_title": "S&P 500 Hits Record High as Stock Market Looks Beyond Iran War - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "주식 시장 안정세 지속",
-      "경제 지표 개선",
-      "투자자 신뢰 회복"
+      "S&P 500, 사상 최고치 기록",
+      "시장, 이란 전쟁 우려 넘어서",
+      "투자 심리 긍정적 변화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
+    "original_title": "Indicators suggest the market likely hasn’t hit bottom yet - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "시장 바닥 아직 안 찍혔음",
+      "지표들이 하락 예고",
+      "투자자 신뢰 회복 필요"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
