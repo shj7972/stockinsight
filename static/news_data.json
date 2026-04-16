@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 발언",
-      "중앙은행 정책 변화 예상"
+      "신현송 후보자 의견 전달",
+      "중앙은행 혁신 제안"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장으로 인한 영향 우려",
-      "경제 방어책 강화 필요"
+      "한국, 시장 안정 조치 발빠르게 시행",
+      "중동 긴장 속 경제 우려 커져",
+      "투자자 신뢰 회복 노력 필요"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
-    "title": "지난달 외국인 ‘순매도 20조’ 역대 최대…“시총 대비로는 크지 않아” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yRm05eVhiTXRzRUZYWENseFdvanlydlhMZUJFd1BqeTk5eFBoMzU3LWRId3poOHU2UWdndUlSYm5wUTEyMWJiSnZRM0V2WS03Ym5CRXAySGFuN29wS3ZJOFN5aGNuZkU?oc=5",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 순매도 20조, 역대 최대",
-      "시총 대비 영향은 크지 않아",
-      "시장 안정성 유지 추세"
+      "한국 부자 47.6만명 확인",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3kycm9PYWZzVnJiVllILUtRZlFlN19waWNzNG9hNXNReGNLRkJSdnpfNmdjaTZhTk1CdGM2THJIVlJ1RmZTc0VNS2ZvT2Rmc3JndlZWS1ItMWM0RG93X3ZjdUQ4anZJMENjXzhjaWtpVzdNTTBXbHlXd2RTR1M2WF96ZlFscVRoSXBxcjlVdE9OSFRTaDk4NmJFTGItZnJ6Y3JiVHhZMEw4NXVYZ3ZNb1V5OTFmdDhTVHNheXZ0RE9Lb1ZZRHd30gHMAUFVX3lxTE5od2ZpbkRoY2pjaG1DcVRKTVlRaUZBY0p5a2hpUDMtTFhab0ZzWG5teFZIQUNldDNoWHV0T0dsOHhFMjZGckxEMW5kZUpULXQwMFY2OFJwX2RmUFZTeVRPcW5DYmxYcFUtdXpRNlJCLWR4cDB0N2VvUDlFSUJjYXlxME9tT01sNmxDZ3JDanlOc2QySllnU3FPNmEwakJnOWFxVVhGYVNJMl9nUVk0a1B1N3N3TTBSNVo4MmhkZGFCNEloa3NkczBlS05aNA?oc=5",
     "publisher": "PBS",
     "summary": [
-      "월가, 사상 최고치 경신",
+      "월스트리트, 사상 최고치 기록",
       "S&P 500, 2주 연속 상승",
-      "이란 전쟁 종료 기대감 작용"
+      "이란 전쟁 종식 기대감 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "시장과 중동: 자산군에 미치는 영향 - invesco.com",
+    "original_title": "Markets and the Middle East: Impacts to asset classes - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPelBvMnRTaE5IcklEUm1iSHlaVWNGemozaWgzSE16TnYxeThvY0RNenh0QThKcWpxYm0yZ0szMnlfUjBTLXRmbFRZX0w4bjloMTYtbDFJaEpyV014Q2hZRkxUb0V4emoxQmJGSWJiQ2RreHI0aWN5SXNRRjFWVkY1RmJVX095ZkY2V3BrLTByLXNqN1ZZR2c?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "중동의 시장 영향 분석",
+      "자산 클래스 변화",
+      "투자자에게 중요한 정보"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -59,25 +73,11 @@
     "publisher": "The New York Times",
     "summary": [
       "S&P 500, 사상 최고치 기록",
-      "시장, 이란 전쟁 우려 넘어서",
-      "투자 심리 긍정적 변화"
+      "주식 시장, 이란 전쟁 초월",
+      "투자자들, 긍정적 심리 반영"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "지표에 따르면 시장은 아직 바닥을 치지 않았을 가능성이 높습니다 - invesco.com",
-    "original_title": "Indicators suggest the market likely hasn’t hit bottom yet - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenNzYmw5SERQTkVlWXBkdktJSVdMNVJJYndaT0ZISml1TnFDbVAyWW9UTDI2bUZpU1lBLTc2YndZRThrOVlfWGVOeTFodzRLOG0xUTM3LV9IVW5VcVhMcTdnOVZSSGNBYXVoa25qc2o3WXdob1h2TkhtY1ctUnpqUWpEQzdFWnlpRmx1dVhzdGpOWmw1a3psNzk2Z2tsQQ?oc=5",
-    "publisher": "invesco.com",
-    "summary": [
-      "시장 바닥 아직 안 찍혔음",
-      "지표들이 하락 예고",
-      "투자자 신뢰 회복 필요"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
