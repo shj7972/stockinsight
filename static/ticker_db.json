@@ -1,0 +1,1342 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GOOG",
+    "name": "Alphabet C",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UnitedHealth",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XOM",
+    "name": "ExxonMobil",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AMD",
+    "name": "AMD",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PEP",
+    "name": "PepsiCo",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TMO",
+    "name": "Thermo Fisher",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "WFC",
+    "name": "Wells Fargo",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ACN",
+    "name": "Accenture",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "INTU",
+    "name": "Intuit",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "IBM",
+    "name": "IBM",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "RTX",
+    "name": "Raytheon",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "UPS",
+    "name": "UPS",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NEE",
+    "name": "NextEra Energy",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AXP",
+    "name": "American Express",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SPGI",
+    "name": "S&P Global",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PFE",
+    "name": "Pfizer",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DE",
+    "name": "Deere",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SBUX",
+    "name": "Starbucks",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MDLZ",
+    "name": "Mondelez",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SHOP",
+    "name": "Shopify",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SQ",
+    "name": "Block",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SNAP",
+    "name": "Snap",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TWLO",
+    "name": "Twilio",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "RBLX",
+    "name": "Roblox",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "HOOD",
+    "name": "Robinhood",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DIS",
+    "name": "Disney",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CMCSA",
+    "name": "Comcast",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "T",
+    "name": "AT&T",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "VZ",
+    "name": "Verizon",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TMUS",
+    "name": "T-Mobile",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SPOT",
+    "name": "Spotify",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ROKU",
+    "name": "Roku",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GME",
+    "name": "GameStop",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AMC",
+    "name": "AMC",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NKE",
+    "name": "Nike",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MCD",
+    "name": "McDonald's",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DKNG",
+    "name": "DraftKings",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LYFT",
+    "name": "Lyft",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DASH",
+    "name": "DoorDash",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ZM",
+    "name": "Zoom",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DOCU",
+    "name": "DocuSign",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "OKTA",
+    "name": "Okta",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PATH",
+    "name": "UiPath",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AI",
+    "name": "C3.ai",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SOUN",
+    "name": "SoundHound AI",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SMCI",
+    "name": "Super Micro Computer",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ARM",
+    "name": "ARM Holdings",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LMT",
+    "name": "Lockheed Martin",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BA",
+    "name": "Boeing",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NOC",
+    "name": "Northrop Grumman",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GLD",
+    "name": "Gold ETF (SPDR)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SLV",
+    "name": "Silver ETF (iShares)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "USO",
+    "name": "Oil ETF (United States)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NEM",
+    "name": "Newmont",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental Petroleum",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "C",
+    "name": "Citigroup",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "USB",
+    "name": "US Bancorp",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PNC",
+    "name": "PNC Financial",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TFC",
+    "name": "Truist Financial",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SCHW",
+    "name": "Charles Schwab",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BLK",
+    "name": "BlackRock",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MSTR",
+    "name": "MicroStrategy",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "RIOT",
+    "name": "Riot Platforms",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "MARA",
+    "name": "Marathon Digital",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "RGTI",
+    "name": "Rigetti Computing",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SAP",
+    "name": "SAP",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BABA",
+    "name": "Alibaba",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "PDD",
+    "name": "PDD Holdings",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "JD",
+    "name": "JD.com",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BIDU",
+    "name": "Baidu",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "NIO",
+    "name": "NIO",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XPEV",
+    "name": "XPeng",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LI",
+    "name": "Li Auto",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "LCID",
+    "name": "Lucid Motors",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "F",
+    "name": "Ford",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "GM",
+    "name": "General Motors",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "AFRM",
+    "name": "Affirm",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "UPST",
+    "name": "Upstart",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SPY",
+    "name": "S&P 500 ETF (SPDR)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "QQQ",
+    "name": "NASDAQ 100 ETF (Invesco)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "QQQM",
+    "name": "NASDAQ 100 ETF (소액형)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "IWM",
+    "name": "Russell 2000 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "DIA",
+    "name": "Dow Jones ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "VOO",
+    "name": "S&P 500 ETF (Vanguard)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "VTI",
+    "name": "전체 시장 ETF (Vanguard)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "VGT",
+    "name": "기술 섹터 ETF (Vanguard)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLK",
+    "name": "기술 섹터 ETF (SPDR)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLF",
+    "name": "금융 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLE",
+    "name": "에너지 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLV",
+    "name": "헬스케어 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLY",
+    "name": "소비재 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLU",
+    "name": "유틸리티 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "XLI",
+    "name": "산업재 섹터 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SCHD",
+    "name": "배당 ETF (Schwab)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "JEPI",
+    "name": "커버드콜 배당 ETF (JPMorgan)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "JEPQ",
+    "name": "NASDAQ 커버드콜 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SQQQ",
+    "name": "NASDAQ 3배 인버스",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TQQQ",
+    "name": "NASDAQ 3배 레버리지",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SPXS",
+    "name": "S&P 500 3배 인버스",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SPXL",
+    "name": "S&P 500 3배 레버리지",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SOXL",
+    "name": "반도체 3배 레버리지",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SOXS",
+    "name": "반도체 3배 인버스",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TLT",
+    "name": "미국 장기채 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "SHY",
+    "name": "미국 단기채 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "BIL",
+    "name": "미국 초단기채 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "TIP",
+    "name": "물가연동채 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "IAU",
+    "name": "금 ETF (iShares)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "INDA",
+    "name": "인도 ETF (iShares)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "EEM",
+    "name": "신흥국 ETF",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "EWJ",
+    "name": "일본 ETF (iShares)",
+    "region": "🇺🇸"
+  },
+  {
+    "ticker": "^GSPC",
+    "name": "S&P 500 지수",
+    "region": "📊"
+  },
+  {
+    "ticker": "^IXIC",
+    "name": "NASDAQ 지수",
+    "region": "📊"
+  },
+  {
+    "ticker": "^DJI",
+    "name": "Dow Jones 지수",
+    "region": "📊"
+  },
+  {
+    "ticker": "^VIX",
+    "name": "VIX 공포 지수",
+    "region": "📊"
+  },
+  {
+    "ticker": "^KS11",
+    "name": "KOSPI",
+    "region": "📊"
+  },
+  {
+    "ticker": "^KQ11",
+    "name": "KOSDAQ",
+    "region": "📊"
+  },
+  {
+    "ticker": "GC=F",
+    "name": "금 선물",
+    "region": "📊"
+  },
+  {
+    "ticker": "CL=F",
+    "name": "WTI 원유 선물",
+    "region": "📊"
+  },
+  {
+    "ticker": "KRW=X",
+    "name": "USD/KRW 환율",
+    "region": "📊"
+  },
+  {
+    "ticker": "005930.KS",
+    "name": "삼성전자",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000660.KS",
+    "name": "SK하이닉스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "035420.KS",
+    "name": "NAVER",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "035720.KS",
+    "name": "카카오",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "005380.KS",
+    "name": "현대차",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000270.KS",
+    "name": "기아",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "051910.KS",
+    "name": "LG화학",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "373220.KS",
+    "name": "LG에너지솔루션",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "207940.KS",
+    "name": "삼성바이오로직스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "006400.KS",
+    "name": "삼성SDI",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "068270.KS",
+    "name": "셀트리온",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "005490.KS",
+    "name": "POSCO홀딩스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "028260.KS",
+    "name": "삼성물산",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "105560.KS",
+    "name": "KB금융",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "055550.KS",
+    "name": "신한지주",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "086790.KS",
+    "name": "하나금융지주",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "015760.KS",
+    "name": "한국전력",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "032830.KS",
+    "name": "삼성생명",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "034020.KS",
+    "name": "두산에너빌리티",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "012330.KS",
+    "name": "현대모비스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "066570.KS",
+    "name": "LG전자",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "003550.KS",
+    "name": "LG",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "034730.KS",
+    "name": "SK",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "017670.KS",
+    "name": "SK텔레콤",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "096770.KS",
+    "name": "SK이노베이션",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "011200.KS",
+    "name": "HMM",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "010140.KS",
+    "name": "삼성중공업",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "009540.KS",
+    "name": "HD한국조선해양",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "042660.KS",
+    "name": "한화오션",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "329180.KS",
+    "name": "HD현대중공업",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000720.KS",
+    "name": "현대건설",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "028050.KS",
+    "name": "삼성엔지니어링",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "047040.KS",
+    "name": "대우건설",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000810.KS",
+    "name": "삼성화재",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "030200.KS",
+    "name": "KT",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "036570.KS",
+    "name": "엔씨소프트",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "251270.KS",
+    "name": "넷마블",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "323410.KS",
+    "name": "카카오뱅크",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "377300.KS",
+    "name": "카카오페이",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "316140.KS",
+    "name": "우리금융지주",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "139480.KS",
+    "name": "이마트",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "097950.KS",
+    "name": "CJ제일제당",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "011170.KS",
+    "name": "롯데케미칼",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "009150.KS",
+    "name": "삼성전기",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "003670.KS",
+    "name": "포스코퓨처엠",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "047050.KS",
+    "name": "포스코인터내셔널",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000100.KS",
+    "name": "유한양행",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "128940.KS",
+    "name": "한미약품",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "185750.KS",
+    "name": "종근당",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "003230.KS",
+    "name": "삼양식품",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "033780.KS",
+    "name": "KT&G",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "271560.KS",
+    "name": "오리온",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "180640.KS",
+    "name": "한화에어로스페이스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "012450.KS",
+    "name": "한화에어로스페이스(구)",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "003490.KS",
+    "name": "대한항공",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "020560.KS",
+    "name": "아시아나항공",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "035150.KS",
+    "name": "백산",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "000240.KS",
+    "name": "한국타이어앤테크놀로지",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "047810.KS",
+    "name": "한국항공우주",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "034220.KS",
+    "name": "LG디스플레이",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "006280.KS",
+    "name": "녹십자",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "247540.KQ",
+    "name": "에코프로비엠",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "086520.KQ",
+    "name": "에코프로",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "091990.KQ",
+    "name": "셀트리온헬스케어",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "066970.KQ",
+    "name": "엘앤에프",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "028300.KQ",
+    "name": "HLB",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "403870.KQ",
+    "name": "HPSP",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "293490.KQ",
+    "name": "카카오게임즈",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "035900.KQ",
+    "name": "JYP엔터테인먼트",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "122870.KQ",
+    "name": "와이지엔터테인먼트",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "352820.KQ",
+    "name": "하이브",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "041510.KQ",
+    "name": "에스엠",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "196170.KQ",
+    "name": "알테오젠",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "145020.KQ",
+    "name": "휴젤",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "214150.KQ",
+    "name": "클래시스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "263750.KQ",
+    "name": "펄어비스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "112040.KQ",
+    "name": "위메이드",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "095660.KQ",
+    "name": "네오위즈",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "078340.KQ",
+    "name": "컴투스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "259960.KQ",
+    "name": "크래프톤",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "034230.KQ",
+    "name": "파라다이스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "060280.KQ",
+    "name": "큐렉소",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "950130.KQ",
+    "name": "엑세스바이오",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "039030.KQ",
+    "name": "이오테크닉스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "357780.KQ",
+    "name": "솔브레인",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "336370.KQ",
+    "name": "솔브레인홀딩스",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "036810.KQ",
+    "name": "에프에스티",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "131970.KQ",
+    "name": "두산테스나",
+    "region": "🇰🇷"
+  },
+  {
+    "ticker": "005140.KS",
+    "name": "세아베스틸지주",
+    "region": "🇰🇷"
+  }
+]

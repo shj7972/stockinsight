@@ -628,28 +628,54 @@ async def search_stock(request: Request, ticker: str = Form(...)):
 
 @app.get("/api/search-ticker")
 async def search_ticker_api(q: str = ""):
-    """자동완성용 티커/종목명 검색 API"""
+    """자동완성용 티커/종목명 검색 API (ticker_db.json 기반 확장 검색)"""
     from fastapi.responses import JSONResponse
-    q = q.strip().upper()
+    q = q.strip()
     if len(q) < 1:
         return JSONResponse([])
 
-    all_candidates = [
-        {"ticker": t, "name": n, "region": "🇺🇸"} for t, n in US_CANDIDATES
-    ] + [
-        {"ticker": t, "name": n, "region": "🇰🇷"} for t, n in KR_CANDIDATES
-    ]
+    q_upper = q.upper()
 
-    results = []
-    for c in all_candidates:
-        ticker_match = q in c["ticker"].upper()
-        name_match   = q in c["name"].upper()
-        if ticker_match or name_match:
-            results.append(c)
-        if len(results) >= 8:
-            break
+    # Load extended ticker DB (module-level cache)
+    db = _load_ticker_db()
 
+    # Priority-tiered matching
+    tier1, tier2, tier3 = [], [], []
+    for c in db:
+        t_up = c["ticker"].upper()
+        n_up = c["name"].upper()
+        if t_up == q_upper or t_up.startswith(q_upper):
+            tier1.append(c)
+        elif n_up.startswith(q_upper):
+            tier2.append(c)
+        elif q_upper in t_up or q_upper in n_up:
+            tier3.append(c)
+
+    results = (tier1 + tier2 + tier3)[:8]
     return JSONResponse(results)
+
+
+# ── Ticker DB cache ────────────────────────────────────────────────────────────
+_ticker_db_cache: list = []
+_TICKER_DB_PATH = os.path.join(BASE_DIR, "static", "ticker_db.json")
+
+
+def _load_ticker_db() -> list:
+    global _ticker_db_cache
+    if _ticker_db_cache:
+        return _ticker_db_cache
+    try:
+        with open(_TICKER_DB_PATH, "r", encoding="utf-8") as f:
+            _ticker_db_cache = json.load(f)
+    except Exception as e:
+        print(f"[ticker_db] load error: {e}")
+        # Fallback to hardcoded candidates
+        _ticker_db_cache = [
+            {"ticker": t, "name": n, "region": "🇺🇸"} for t, n in US_CANDIDATES
+        ] + [
+            {"ticker": t, "name": n, "region": "🇰🇷"} for t, n in KR_CANDIDATES
+        ]
+    return _ticker_db_cache
 
 @app.get("/stock/{ticker}", response_class=HTMLResponse)
 async def stock_detail(request: Request, ticker: str):
