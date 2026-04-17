@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 한은 총재 후보자 발언",
-      "경제 안정성 기대"
+      "신현송 후보자 발언",
+      "금융 시스템 혁신 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 착수",
-      "중동 긴장 상황 반영",
-      "투자자 불안 해소 의지"
+      "한국, 시장 안정 대책 추진",
+      "중동 긴장 고조",
+      "신속한 대응 계획 발표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 선호",
-      "금융자산 10억 이상 증가"
+      "부자가 47.6만명으로 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상 보유"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "미국 경제가 또 다른 '스트레스 테스트'를 통과하여 주식이 사상 최고치를 기록할 것으로 예상됨 - Barron's",
+    "original_title": "Another ‘Stress Test’ Passed by U.S. Economy as Stocks Poised to Add to Record Highs - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTSGN1Vzdtc1BnMXlFRlRFUHFPSGJMeTZOdk9XSFpCeDUyOHlQRnFJcWJlTXRGamFaWERLY2VPSWJKZU5QckFmbjR4Q3E4cEEyOHRhQ0hNX1lDQU5nWTFmM3BpTGRfRldVSUdiRlBSRl90N21XcHc?oc=5",
+    "publisher": "Barron's",
+    "summary": [
+      "미국 경제, 또 하나의 스트레스 테스트 통과",
+      "주식 시장, 사상 최고치 경신 예고",
+      "투자자 optimism 높아짐"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "주식 시장 최고치로 미국 경제가 승자임을 확인 - Yardeni QuickTakes",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmdQRjRmYWt6b1dPVXBJczZMYmF5WXlKQ2lST08xZnA2Z1NuSVVqdm1TamNHVWthRzdOZ0pYNEdLUDlJRmVFT290SkxRMWl5VFBZTXNEdUVPVmFtMXphMTdVT1duWk9YNVZLbkdfOWlCbG9icEs4QXBhcm9OOWpXcFBvTzNGYm5CVV9Ccg?oc=5",
     "publisher": "Yardeni QuickTakes",
     "summary": [
-      "주식 시장 최고점 기록",
-      "미국 경제 강세 확인",
-      "투자자 신뢰 상승"
+      "주식 시장 최고치 경신",
+      "미국 경제 승리 확인",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "월스트리트는 경기침체 위험이 끝났다고 판단한 것 같습니다. 호주 시장도 같은 일을 할 수 있을까요? - 가디언",
-    "original_title": "Wall Street seems to have decided the recession risk is over. Can the Australian market do the same? - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdjlYOURHOG9UMTNtcFhBWEt3RnRQeWhSSlI0YWsxZDNDRVBqWUZSWnhGS0lRQVpfMG9XdGRUOFdPVE11SWNrX2RxOTdWZlpNUUdCdk50d3F4MjVBWUtIYWFZM3ZXYXF5MmRGN19JblJaeGI3bEZzR2JRakpJM1VFakFXSmJNZ3YwZ1NnY2ZvYW50SGpYdUs3VXpfajJzN01adEk5a2dibjVoSFpZMktoN295NloyTlF1LXpaVWVBNTdmVUZCQk5rU055WVNlN2oxakhCSWprVmYycW1I?oc=5",
-    "publisher": "The Guardian",
-    "summary": [
-      "월가, 불황 위험 종식 인식",
-      "호주 시장도 같은 방향?",
-      "경제 회복 기대감 고조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "이란 전쟁 종식에 대한 희망에 힘입어 S&P 500이 2주 연속 랠리를 이어가면서 월스트리트는 사상 최고치를 경신했습니다.",
+    "title": "이란 전쟁 종식에 대한 희망에 힘입어 S&P 500이 2주 연속 랠리를 이어가며 월스트리트 사상 최고치 기록 - PBS",
     "original_title": "Wall Street hits record as S&P 500 continues 2-week rally, boosted by hopes for Iran war's end - PBS",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3kycm9PYWZzVnJiVllILUtRZlFlN19waWNzNG9hNXNReGNLRkJSdnpfNmdjaTZhTk1CdGM2THJIVlJ1RmZTc0VNS2ZvT2Rmc3JndlZWS1ItMWM0RG93X3ZjdUQ4anZJMENjXzhjaWtpVzdNTTBXbHlXd2RTR1M2WF96ZlFscVRoSXBxcjlVdE9OSFRTaDk4NmJFTGItZnJ6Y3JiVHhZMEw4NXVYZ3ZNb1V5OTFmdDhTVHNheXZ0RE9Lb1ZZRHd30gHMAUFVX3lxTE5od2ZpbkRoY2pjaG1DcVRKTVlRaUZBY0p5a2hpUDMtTFhab0ZzWG5teFZIQUNldDNoWHV0T0dsOHhFMjZGckxEMW5kZUpULXQwMFY2OFJwX2RmUFZTeVRPcW5DYmxYcFUtdXpRNlJCLWR4cDB0N2VvUDlFSUJjYXlxME9tT01sNmxDZ3JDanlOc2QySllnU3FPNmEwakJnOWFxVVhGYVNJMl9nUVk0a1B1N3N3TTBSNVo4MmhkZGFCNEloa3NkczBlS05aNA?oc=5",
     "publisher": "PBS",
     "summary": [
-      "월스트리트, 사상 최고치 경신",
+      "월스트리트, 기록 경신",
       "S&P 500, 2주 연속 상승",
-      "이란 전쟁 종식 기대감 작용"
+      "이란 전쟁 종식 기대감 반영"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
