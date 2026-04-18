@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * 1'
   workflow_dispatch:  # 수동 실행 가능
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   send-newsletter:
     runs-on: ubuntu-latest
@@ -18,21 +21,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Check RESEND_API_KEY
-        id: check_key
-        run: |
-          if [ -z "$RESEND_API_KEY" ]; then
-            echo "::warning::RESEND_API_KEY secret is not set. Skipping newsletter send."
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
-          fi
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-
       - name: Send weekly newsletter
-        if: steps.check_key.outputs.skip != 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
-        run: python send_newsletter.py
+        run: |
+          if [ -z "$RESEND_API_KEY" ]; then
+            echo "::warning::RESEND_API_KEY secret이 설정되지 않았습니다. 뉴스레터 발송을 건너뜁니다."
+            echo "resend.com에서 API 키를 발급받아 GitHub Secrets에 RESEND_API_KEY로 등록하세요."
+            exit 0
+          fi
+          python send_newsletter.py
