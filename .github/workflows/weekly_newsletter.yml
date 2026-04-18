@@ -18,7 +18,20 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Check RESEND_API_KEY
+        id: check_key
+        run: |
+          if [ -z "$RESEND_API_KEY" ]; then
+            echo "::warning::RESEND_API_KEY secret is not set. Skipping newsletter send."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+
       - name: Send weekly newsletter
+        if: steps.check_key.outputs.skip != 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
