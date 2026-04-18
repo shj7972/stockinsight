@@ -2585,7 +2585,7 @@ async def newsletter_subscribe(request: Request, email: str = Form(...)):
             json.dump(subscribers, f, ensure_ascii=False, indent=2)
 
         return HTMLResponse(
-            '<div style="color:#4ade80;font-size:0.82rem;">✅ 구독 완료! 매주 투자 인사이트를 보내드립니다.</div>'
+            '<div style="color:#4ade80;font-size:0.82rem;">✅ 구독 완료! 매주 월요일 오전 시장 요약 이메일을 보내드립니다.</div>'
         )
     except Exception as e:
         print(f"Newsletter error: {e}")
