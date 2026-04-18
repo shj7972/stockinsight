@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqZE91TjVtZGhFWXdPb3I1cUVPcVAxVVBuUDlNVDJyQ0RweHY3NFpNQUhsUzN3R3k3WWFBalcyR05VdGNMMkV1V1lYWlRPWU1OUHdxeVp6Qk5hd25xWEpqOXpiNmE3NU0?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "총재 후보자 신현송 발언",
-      "CBDC와 스테이블코인 공존 가능",
-      "디지털 금융환경 긍정적 전망"
+      "중앙은행 디지털화폐 가능성 언급",
+      "스테이블코인과의 공존 구조",
+      "한은 총재 후보자의 비전 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국 시장 안정 조치 시행",
-      "중동 긴장 상황 반영",
-      "신속 대응 계획 마련"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 완화 필요성 대두",
+      "경제 불안정성 확산 우려"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 부자 47.6만명 보유",
-      "부동산보다 주식 유망",
-      "금융자산 기준 긍정적"
+      "부자 47.6만명 증가",
+      "주식이 부동산보다 유망",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3kycm9PYWZzVnJiVllILUtRZlFlN19waWNzNG9hNXNReGNLRkJSdnpfNmdjaTZhTk1CdGM2THJIVlJ1RmZTc0VNS2ZvT2Rmc3JndlZWS1ItMWM0RG93X3ZjdUQ4anZJMENjXzhjaWtpVzdNTTBXbHlXd2RTR1M2WF96ZlFscVRoSXBxcjlVdE9OSFRTaDk4NmJFTGItZnJ6Y3JiVHhZMEw4NXVYZ3ZNb1V5OTFmdDhTVHNheXZ0RE9Lb1ZZRHd30gHMAUFVX3lxTE5od2ZpbkRoY2pjaG1DcVRKTVlRaUZBY0p5a2hpUDMtTFhab0ZzWG5teFZIQUNldDNoWHV0T0dsOHhFMjZGckxEMW5kZUpULXQwMFY2OFJwX2RmUFZTeVRPcW5DYmxYcFUtdXpRNlJCLWR4cDB0N2VvUDlFSUJjYXlxME9tT01sNmxDZ3JDanlOc2QySllnU3FPNmEwakJnOWFxVVhGYVNJMl9nUVk0a1B1N3N3TTBSNVo4MmhkZGFCNEloa3NkczBlS05aNA?oc=5",
     "publisher": "PBS",
     "summary": [
-      "월가 기록 경신",
-      "S&P 500 2주 연속 상승",
-      "이스라엘 전쟁 종식 기대"
+      "S&P 500, 이틀 연속 상승",
+      "월가, 기록 경신",
+      "이스라엘 전쟁 희망 속 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "전쟁에도 불구하고 주가 상승",
-      "투자자 신뢰 증가",
-      "경제 지표 긍정적 반영"
+      "주식 시장, 사상 최고치 경신",
+      "이란 전쟁에도 안정적 성장",
+      "투자 심리 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "주식 시장, 사상 최고치 기록",
-      "전쟁 불구, 투자 심리 개선",
-      "Wall St. 긍정적 전망 유지"
+      "주식, 사상 최고치 경신",
+      "전쟁을 넘어서 전망",
+      "투자자들 낙관적 반응"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
