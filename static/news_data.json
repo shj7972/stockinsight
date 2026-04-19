@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqZE91TjVtZGhFWXdPb3I1cUVPcVAxVVBuUDlNVDJyQ0RweHY3NFpNQUhsUzN3R3k3WWFBalcyR05VdGNMMkV1V1lYWlRPWU1OUHdxeVp6Qk5hd25xWEpqOXpiNmE3NU0?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "디지털화폐와 스테이블코인 공존 가능",
-      "한은 총재 후보 신현송 발언",
-      "금융 혁신 기대감 증대"
+      "신현송 후보, 디지털화폐 언급",
+      "스테이블코인과 공존 가능성 강조",
+      "한은 정책 방향에 긍정적 시사"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,26 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 배포",
-      "중동 긴장 배경으로 조치 시행",
-      "경제 불안 최소화 의지 밝혀"
+      "한국, 시장 안정 대책 신속 추진",
+      "중동 긴장 고조 배경",
+      "경제 영향 최소화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "핵심광물 재무장관회의 개최를 통한 국제공조 강화방안 논의 - 한국방송뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ETnhUMnZVaU9laW9RemdiWXJzZmgxS1dkRGt3QjZEd2dtbTU1dlpfaFRXYXdRcUdNcTJldEhnS2xwRWFQb3pSc01uRTQ4ZjlvOUZwRmhLUFRSZFFvdmc?oc=5",
-    "publisher": "한국방송뉴스",
+    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "핵심광물 회의 개최",
-      "국제공조 강화 논의",
-      "경제 협력 확대 기대"
+      "한국 경제는 성장 중",
+      "환율 하락 공식 깨짐",
+      "경제 불확실성 존재"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "국내"
+  },
+  {
+    "title": "지저분한 전쟁, 행복한 주식 시장 - The New York Times",
+    "original_title": "Messy War, Happy Stock Markets - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTWZiY0Nvc2paRHJsaG1QSlRmRmljdFpscEphcENmdE10WFcxZFRRWU9NdVFuQ3JJYlB3V25YbXBsZnhsUXd5MUJwMjE1RmVmZ1Vvb2UyN2NDTWdzNkd0ZHlDWjVhekcwNFpIdmkwV0t3elYtdkxFUi1NS3lmb1A0WWVIRnUxb05B?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "전쟁 중에도 주식시장 상승",
+      "투자자들 긍정적 전망",
+      "경제 회복 신호 감지"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "이란 전쟁과 관련하여 주식시장이 잘못했을 수 있는 점은 다음과 같습니다. - The Washington Post",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUhqLUcxRUMzckFORGoybXk2LU5qdGRsRHpyY0Q4Zm5kWndiNHBENzZqc3dTN0xrX0t3R0dMbmxwSGNZTkI3dlE5SERqYm1YRmNJMncyc2NUN1lUNUp0S1U2T2h2X3U2N0FVVlI0R3FYZnBZOXBkTlJ2OXJBelk4YU1TUy04dXNr?oc=5",
     "publisher": "The Washington Post",
     "summary": [
-      "주식시장, 이란 전쟁의 오해 발생",
-      "전쟁의 영향력 과대평가 가능성",
-      "경제 반응 신중해야 할 것"
+      "이란 전쟁에 대한 시장의 오해",
+      "전략적 불확실성이 여전함",
+      "경제 영향 분석 필요"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식 시장 기록 경신 중",
-      "이란 전쟁의 영향 최소화",
-      "투자자 신뢰 소폭 강화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "월스트리트가 전쟁 너머를 바라보면서 주가는 사상 최고치를 기록했습니다 - The New York Times",
-    "original_title": "Stocks Hit Record High as Wall St. Looks Beyond War - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjVQYkE3N21Pc210S21jQmhGZ0R5SnB2NnpyUlc5dHhQQVRweFA2bEs3SXNyNllYZzRXWXZzc0VCSlNUVEpLcE4zWVp5VE5jcHV6b3l6b1lVTXRmQlBHNU1ZVEpsUDhRb051YnhDT05kT3dhelVsdHpWVQ?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "주식, 사상 최고치 경신",
-      "전쟁 여파를 초월한 투자 신뢰",
-      "월가의 긍정적 전망 지속"
+      "증시, 이란 전쟁에도 사상 최고치 경신",
+      "투자자들, 경제 회복 기대감 높아",
+      "기업 실적이 호조를 보여주고 있음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
