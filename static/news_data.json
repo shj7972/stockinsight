@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "디지털화폐와 스테이블코인 공존 가능",
-      "신현송 후보자 발언",
-      "중앙은행의 미래 금융 방향"
+      "중앙은행의 혁신적 접근 강조",
+      "경제 시스템의 발전 기대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "남한, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 대응",
-      "경제 보호 조치 예상"
+      "한국, 시장 안정 대책 곧 시행",
+      "중동 긴장 상황 영향",
+      "경제 접근 방식 고려 중"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장 추세 지속",
-      "환율 하락 공식 파괴",
-      "경제적 불확실성 증가"
+      "한국 경제 우상향 성장 중",
+      "환율 하락 공식 깨짐",
+      "시장 변동성 증가 우려"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZE1fazNSdDd2WVFzSzFhZ0tWNUFDVm5YR2VDMFFHUnpvaUNWRlVyUVpBYndYbXIxc1A5ODU3UG9yREV0cXR1cEd4Y0R1dU9UR0x0NUFtTmtPa1hzVkJBRUJnb0Q1ckhBUFFHR1FPTDdGdU1xVG0wUThCZDR0NTkzNmhFYmVWVEFRNlp2NWZ6cG1pRlVjcnhqZjhFbWlGSDhNNjJiTHhLRUM0UQ?oc=5",
     "publisher": "Business Insider",
     "summary": [
-      "미국 경제 과열 가능성 언급",
-      "Citi의 시장 전략 공유",
-      "조심스럽게 접근 필요"
+      "미국 경제 과열 우려",
+      "시장이 조정 필요할 수 있음",
+      "투자 전략 제시"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORWxYcFZxQ2xPZzAtc3lLVXpkbGVhcS1VN1kwN01nR2YtZEUtNVJlV0FjeVpvTUJINVNTTUs1WS1zNjRHbi1oWXR3ZTF5blAyZFZDclVkcllOcTJFUjNnR1lOQllockRHcy14X0R3bnloNnluUW1RSm1tRGJ3ZVozdU5vV05iWU1jTHZqYVRNQm1NRGRSWTlOVEZBWWlMQmVQSkFwaTVwcU1vbXpMeXZUelktOVY?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "주식 바벨 전략 추천",
-      "위험 분산에 효과적",
-      "Q2 전망 긍정적"
+      "주식 바벨 전략의 중요성",
+      "시장 불확실성 고려",
+      "다양한 포트폴리오 필요"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "시장 조정 가능성에 대한 우려",
-      "경제 지표 분석 필요",
-      "투자자들의 신뢰도 변화"
+      "시장 조정 가능성 언급",
+      "경제 지표 혼재",
+      "투자자 경고 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
