@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 GDP 1.7% 성장",
+      "1분기 경제 1.7% 상승",
       "반도체 산업 기여",
-      "중동 악재 영향 제한"
+      "중동 악재 영향 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 발표",
-      "중동 긴장 속 신속 대응",
-      "경제 활동 보호 목표"
+      "중동 긴장 속 시장 조치 시행",
+      "신속한 대응 방침 발표",
+      "경제 안정성 유지 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 문제 발생",
-      "경제 전망에 대한 우려 존재"
+      "한국 경제는 성장세를 보인다",
+      "환율 하락 공식 파괴",
+      "경제 전망에 불확실성 존재"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
     "publisher": "J.P. Morgan",
     "summary": [
-      "주식 시장, 사상 최고치 기록",
-      "이란 문제 해결 없이 상승",
-      "투자자 신뢰 여전히 견고함"
+      "주식 시장이 사상 최고치 도달",
+      "이란 문제 해결 없음",
+      "JP모건의 시장 분석 주목"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 시장 영향",
+      "2026년 경제 전망",
+      "주식 왜 상승하고 있나"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHhkQlQxX3J0dzV2b3oyemJhbUdEOFRBaDdZOW82SENGX3pDOEJTcDQwcG55NktiZ1NpX2JsN0pBTEs2VFJUOXgyTUZ3MTBkWFhmUV92Yzgwa2tETmpPczJuMG9XOHJtWEpFQWZvYk5rZzNJWDRqaFh0aUZCMFZ5RmI0VVdPNE56NnloTGV2MA?oc=5",
     "publisher": "The Week",
     "summary": [
-      "주식 시장 급등 이유 분석",
-      "이란 위기에도 투자 심리 상승",
-      "중장기 성장 기대감 유지"
+      "주식 시장 상승 이유 분석",
+      "이란 위기와 시장 반응",
+      "투자자 심리 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "영국 은행(Bank of England) 부관은 글로벌 주식시장이 너무 높아 하락할 것이라고 말했다 - BBC",
-    "original_title": "Global stock markets are too high and set to fall, says Bank of England deputy - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyTG5vbkV3dG9RUjJwM1VXTlFOQ0p6VFRPakpnWVR4WjdiY2M0OVUwSjV0aTdOZWJJWHh2bkdoN19CLUd4a2dBRjZXZG01MlBqSkwxMmRVODlVZw?oc=5",
-    "publisher": "BBC",
-    "summary": [
-      "글로벌 주식 시장이 너무 높다",
-      "하락할 것이라고 경고",
-      "영국은행 부총재 의견"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
