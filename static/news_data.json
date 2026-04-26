@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 성장률 1.7% 증가",
-      "반도체 산업이 주효",
-      "중동의 악재를 상쇄"
+      "1분기 경제 1.7% 성장",
+      "반도체 수출 증가",
+      "중동 악재 영향 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,40 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 실시",
-      "중동 긴장 상황 반영",
-      "경제 영향 최소화 목표"
+      "한국, 중동 긴장 속 시장 안정 조치",
+      "신속한 대응 방침 발표",
+      "경제 불안 예방 조치 마련"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한국 경제는 우상향 성장 중인데… 환율 하락 공식은 깨졌다 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
-    "publisher": "서울신문",
+    "title": "신현송 한은 총재 후보자 “중앙은행 디지털화폐와 스테이블코인 공존 가능” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqZE91TjVtZGhFWXdPb3I1cUVPcVAxVVBuUDlNVDJyQ0RweHY3NFpNQUhsUzN3R3k3WWFBalcyR05VdGNMMkV1V1lYWlRPWU1OUHdxeVp6Qk5hd25xWEpqOXpiNmE3NU0?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국 경제는 성장세를 보이고 있다",
-      "환율 하락 공식이 깨졌다",
-      "환율 변화에 대한 우려 존재"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 정부 아래 주식 시장 동향",
-      "2026년 시장 주도 요인 분석",
-      "U.S. Bank의 전망 제공"
+      "중앙은행 디지털화폐 논의 활발",
+      "스테이블코인과의 공존 가능성 제기",
+      "금융 혁신 추진 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
+    "type": "국내"
   },
   {
     "title": "이란 결의안 없이 주가가 사상 최고치를 기록하는 이유는 무엇입니까? - J.P. 모건",
@@ -58,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
     "publisher": "J.P. Morgan",
     "summary": [
-      "주식 시장, 사상 최고치 경신",
-      "이란 문제 해결 없이 상승",
-      "투자자 신뢰도 여전"
+      "주식 시장, 사상 최고치 기록",
+      "이란 문제 해결 없음",
+      "투자자들의 신뢰 지속"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "주식 시장 반등세 지속",
+      "정책 변화가 영향",
+      "투자자 신뢰 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfdDlTbUxRaGQ1Y0hYM1pTUVduYTB3WlhaVjJfeWpTYmFnWFFkRnhJVm0zaXdfTlU2RUhvUGhpb25yakQ0eFVHQzYtWE11em9WbTh4Mkt6VlJVREtfcVlJLUY1V2pBX21mZ2Y1bXZOYjJCUQ?oc=5",
     "publisher": "American Enterprise Institute - AEI",
     "summary": [
-      "주식 시장은 현실을 잊음",
-      "경제 신호가 불확실함",
-      "투자자 경계 필요"
+      "주식시장 과대평가 상태",
+      "경제 성장 회복 회의적",
+      "투자자 신뢰 하락 경향"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
