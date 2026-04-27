@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "1분기 경제 1.7% 성장",
-      "반도체 산업 기여",
-      "중동 악재 영향 미미"
+      "반도체가 주요 요인",
+      "중동 악재 영향 차단"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 고조 상황",
-      "경제적 영향 최소화 목표"
+      "한국, 중동 긴장 속 시장 안정 조치 발효",
+      "신속한 대응으로 시장 충격 완화 기대",
+      "경제 안전성 유지에 집중할 것"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,26 +31,12 @@
     "publisher": "서울신문",
     "summary": [
       "한국 경제 성장세 지속",
-      "환율 하락 공식 변화",
-      "경제 상황 복잡성 증가"
+      "환율 하락 공식 무너지다",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.2,
     "type": "국내"
-  },
-  {
-    "title": "이란 결의안 없이 주가가 사상 최고치를 기록하는 이유는 무엇입니까? - J.P. 모건",
-    "original_title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
-    "publisher": "J.P. Morgan",
-    "summary": [
-      "주식 시장 기록적 최고치",
-      "이란 문제 해결 없음",
-      "JP 모건의 분석 제공"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식시장 안정세 보임",
-      "경제 성장 지표 호조",
-      "투자자들 기대감 증가"
+      "시장 안정세 지속",
+      "주요 지수 상승",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "이란 위기에도 주식시장이 급등하는 이유는 무엇일까? - 주간",
-    "original_title": "Why are stock markets surging despite Iran crisis? - The Week",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHhkQlQxX3J0dzV2b3oyemJhbUdEOFRBaDdZOW82SENGX3pDOEJTcDQwcG55NktiZ1NpX2JsN0pBTEs2VFJUOXgyTUZ3MTBkWFhmUV92Yzgwa2tETmpPczJuMG9XOHJtWEpFQWZvYk5rZzNJWDRqaFh0aUZCMFZ5RmI0VVdPNE56NnloTGV2MA?oc=5",
-    "publisher": "The Week",
+    "title": "워렌 버핏의 수학에 따르면 주식시장은 공식적으로 '불장난' 영역에 있습니다 - Fortune",
+    "original_title": "According to Warren Buffett's math the stock market is officially in 'playing with fire' territory - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVFqSDlReHJfclNnWnZwSWNpcVlQLVdJOFhtRWVIY180MzJJMURIMnVzcTJPSnN6eV9VQm5HSnFzS0JkRW5FWWFmWkFzT2l6VFhraW1RMGxza2tIRlhKRzdnSEt6Rm16WDIxa1FYa2pLUm9kSzZQajdvTnVfcG5janE2aXJNQXIxY1A5Y1VyUQ?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "이란 위기 속에서도 주가 상승",
-      "투자자 신뢰 회복 세풍",
-      "경기 회복 기대감 증가"
+      "워렌 버핏, 주식시장 경고",
+      "시장, '불장난' 상태",
+      "위험 신호 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "전쟁을 무시하는 것이 장기 투자자들에게 효과가 있었습니다 - The New York Times",
+    "original_title": "Ignoring the War Has Been Working for Long-Term Investors - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV19yVXVaOWY5NHEyMnFrS2xENkJTazRPZDgwVWw2WTh1QTlXSlM2c2F4TjNEcWZha2c1eXY3dC1NZjllWDcxa0MydjR3U2tKWFhKVzlyRzdCVGFpZXhCQktETFdRY25CUGgtcnNWaGxPNEpQY3VlNUZKa1h2NmVJOE1Id3pFdmM?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "전쟁 무시, 장기 투자 성공",
+      "시장 안정성 유지",
+      "장기 투자 효율성 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
