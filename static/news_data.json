@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 한국 경제 1.7% 성장",
-      "반도체 산업이 주효",
-      "중동 악재 영향 제한"
+      "1분기 경제 성장률 1.7% 증가",
+      "반도체 산업의 긍정적 영향",
+      "중동 악재에도 경제 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 시행",
-      "중동 긴장으로 긴급 대응",
-      "경제 불안정 해소 목표"
+      "한국, 시장 안정 조치 추진",
+      "중동 긴장감 고조",
+      "경제 안정성 우선시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,37 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 변화",
-      "시장 불확실성 증대"
+      "한국 경제는 성장 중",
+      "환율 하락 공식 무효화",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "주간 시장 논평 - blackrock.com",
-    "original_title": "Weekly market commentary - blackrock.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "blackrock.com",
+    "title": "미국 경제를 주도하는 5개 기술 기업이 이번 주에 실적을 발표합니다 - Marketplace.org",
+    "original_title": "Five tech firms that drive the U.S. economy are reporting earnings this week - marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeG1Ra2htMWtaeHpDOHVqbDNWMU9UTnJrWGF5QmYxUjZHTFNMOFFYckxNZU1zYXNYSkV3VFg5UlVoY19sTVFmc0otbjZkZ2lnZDROUnJkbnE3MC1pUl9Mekg4YjVELTlVNlIzdkotcGdITkJtNTQ0Zjczb3V5NzNxNElTLVRaeEtvZHVzWmYyLWRZbmtyTlZBS3hyOA?oc=5",
+    "publisher": "marketplace.org",
     "summary": [
-      "시장에 대한 긍정적 전망",
-      "경제 성장 기대감",
-      "금리 변화 분석"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 정부 아래 시장 동향 분석",
-      "2026년 경제를 이끄는 요인들",
-      "U.S. 뱅크의 시장 전망 공유"
+      "5개 기술 기업 실적 발표 예정",
+      "미국 경제에 대한 영향 주목",
+      "투자자들의 기대감 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 상승세 지속",
-      "경제 지표 긍정적 반응",
+      "주식 시장 안정세 지속",
+      "경제 지표 긍정적 변화",
       "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "시장 조정이 다가오고 있는가? - 미국 은행",
+    "original_title": "Is a Market Correction Coming? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVliSlNNN1JvaWszYmh4VVhGc3FBczJyOTYtbkVYdmJuc3JoUjROWGdEcjdfdnBybXlteWc1bFRCeEZDTHRxN0xHUnU4Wkg1THdnV3BWUHRKYVhVbGF4QnlwTzZjYU81SkQ2U3VXSElCNXpHQzF4bjFQTXotc3FvSnc4TGxKNlROU3c2SE1PTHM4cmNjanN6X04ydV9kZU5UQ3p1LQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "시장 조정 가능성 언급",
+      "경제 지표 분석 필요",
+      "투자자 경계 당부"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
