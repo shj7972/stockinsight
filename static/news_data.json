@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제, 1.7% 성장",
-      "반도체가 주도한 상승",
-      "중동 악재 영향 축소"
+      "1분기 한국 경제 1.7% 성장",
+      "반도체 산업이 기여",
+      "중동 악재에도 긍정적 영향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 반영",
-      "경제 안정성 유지 목표"
+      "남한 시장 안정 대책 신속 시행",
+      "중동 긴장에 대응",
+      "경제 불안 해소 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,40 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 성장세 지속",
-      "환율 하락 공식 깨짐",
-      "시장 불확실성 증가"
+      "한국 경제는 성장 중",
+      "환율 하락 공식 무너짐",
+      "경제 전망에 불확실성 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
-    "title": "이스라엘의 경제와 금융 시장은 중동에서 분쟁이 격화되고 있음에도 불구하고 호황을 누리고 있습니다 - CNBC",
-    "original_title": "Israel’s economy and financial markets are booming — even as conflict rages in the Middle East - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNHY3Mkpyb19NOTY2Vkw5bE1vdkRvVGhCZVhlOGF0SGFuT1Q1LUJkS3gya1N2TEUwbzJpVnJzektVLWhzTHVrQmh5UGtFY3BpN0hkaVczZjdXWm5EZ0hGOFQ1cVc1N01YNmltU0NFcmJXRm5nOFFCRGRnNER5VzhPbW1ScWtJR0c1TmRGOVpCUkhhdlFhbmR1WE9rbk1sejAzSUJlNnhkLXpNZw?oc=5",
-    "publisher": "CNBC",
+    "title": "우리는 모두 시장을 잘못 읽고 있다 - CNN",
+    "original_title": "We’re all reading the markets wrong - CNN",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVN3BxX0hod0tkWWo3azM5OFE3RG1OSHNmY3RFLWpxTTNaeV9GOEZ2OXpGZ2wtOWtyNmwwbG05VXdsQWh4WTVKSS1NYUJIRFFVMnpzaUFZbG9qU1JWM0FaRWwxYjBDUF82ZkN5MFg4Rk5qdw?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "이스라엘 경제 크게 성장 중",
-      "금융 시장 활황 유지",
-      "갈등에도 불구 지속적 성장"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "중간 선거는 경제 성장을 근본적으로 변화시키지 않았습니다 - invesco.com",
-    "original_title": "Midterm elections haven’t radically changed economic growth - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekFoREdKakNEd0tfMGcyWmcxLUJpM25SNTJxejkyVno0ZndNeXJFbTRIdXJiYXJMQm5fTEhRUGZHdHFqODVhdVJwbWZhMGdlZ3F3Q3RoYURzckNoM1RkVmpza1d5aVVPRzQzOWxrR2tKS3ZrRXBRMl9uYmJvTzNESFc5RQ?oc=5",
-    "publisher": "invesco.com",
-    "summary": [
-      "선거 결과, 성장 변화 미미",
-      "경제 성장에 큰 영향 없음",
-      "정치적 불확실성 지속"
+      "시장 해석 방식의 문제점 지적",
+      "경제 전망에 대한 새로운 시각",
+      "투자자들의 오해와 혼란 해소 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식이 사상 최고치를 넘어서는 동안 유가는 급등했습니다-KSL NewsRadio",
+    "original_title": "Oil prices whipsaw while US stocks hover above their record heights - KSL NewsRadio",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9KRmIzdnFUczRkUU1rTEI2QVB3NlhQbjM4OG4tOGRpSnZMLWE5bVpQZ19qR2xDb2wydGQzbk9LNDUzczlVcWktelBKQ012OFVINTJuQWJZVWZlUVZRTzd2RU02NUxNd2dkaHlRZ2ZsblpKX2pPOGd2SmUzWQ?oc=5",
+    "publisher": "KSL NewsRadio",
+    "summary": [
+      "유가 변동성 증가",
+      "미국 주식 최고치 유지",
+      "경제 안정성 신호"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 경제 동향 분석",
-      "투자자 신뢰 증가"
+      "트럼프 행정부 하의 시장 분석",
+      "2026년 시장 구동 요인",
+      "U.S. 은행의 영향력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
