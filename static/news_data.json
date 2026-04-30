@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 1.7% 상승",
-      "반도체가 경제 회복 주도",
-      "중동 악재 영향 제한적"
+      "1분기 경제, 1.7% 성장",
+      "반도체가 주도한 상승",
+      "중동 악재 영향 축소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 시장안정 조치",
-      "신속한 정책 시행 예정",
-      "경제 불안 감지에 따른 대응"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 상황 반영",
+      "경제 안정성 유지 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -31,12 +31,26 @@
     "publisher": "서울신문",
     "summary": [
       "한국 경제 성장세 지속",
-      "환율 하락 공식 변동",
-      "경제 전망에 대한 우려"
+      "환율 하락 공식 깨짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
+  },
+  {
+    "title": "이스라엘의 경제와 금융 시장은 중동에서 분쟁이 격화되고 있음에도 불구하고 호황을 누리고 있습니다 - CNBC",
+    "original_title": "Israel’s economy and financial markets are booming — even as conflict rages in the Middle East - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNHY3Mkpyb19NOTY2Vkw5bE1vdkRvVGhCZVhlOGF0SGFuT1Q1LUJkS3gya1N2TEUwbzJpVnJzektVLWhzTHVrQmh5UGtFY3BpN0hkaVczZjdXWm5EZ0hGOFQ1cVc1N01YNmltU0NFcmJXRm5nOFFCRGRnNER5VzhPbW1ScWtJR0c1TmRGOVpCUkhhdlFhbmR1WE9rbk1sejAzSUJlNnhkLXpNZw?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "이스라엘 경제 크게 성장 중",
+      "금융 시장 활황 유지",
+      "갈등에도 불구 지속적 성장"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "중간 선거는 경제 성장을 근본적으로 변화시키지 않았습니다 - invesco.com",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekFoREdKakNEd0tfMGcyWmcxLUJpM25SNTJxejkyVno0ZndNeXJFbTRIdXJiYXJMQm5fTEhRUGZHdHFqODVhdVJwbWZhMGdlZ3F3Q3RoYURzckNoM1RkVmpza1d5aVVPRzQzOWxrR2tKS3ZrRXBRMl9uYmJvTzNESFc5RQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "중간 선거, 경제 성장 변화 없음",
-      "정치적 요인 영향 적음",
-      "경제 지속성 유지 전망"
+      "선거 결과, 성장 변화 미미",
+      "경제 성장에 큰 영향 없음",
+      "정치적 불확실성 지속"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "미국 경제는 '와일 E 코요테' 순간을 맞이하고 있고, 주식시장은 '곰을 앞지르려 하고 있다' - Business Insider",
-    "original_title": "The US economy is facing a 'Wile E Coyote' moment and the stock market is 'trying to outrun a bear' - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVmZ6aFdCV284ZElYSEtYMGc1ZXRmUHZ5VmZIVVl0bVdDSzhnbi1RZzVucE5pSVA4RU0xUVhvZXlTNkRSeDZOeXZFTlhoVkM5amhsTTlVT3cxYjdQQ0JqREgwbWxmdkdjYk9vMEpFWmxWUFNpbnExRmxNU0I1dUExUmp4Sm44SGFoLUVEZ0lnWkhrT3B5VGdzck40WFA1TnNVNGFz?oc=5",
-    "publisher": "Business Insider",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "경제 '와일 E 코요테' 순간",
-      "주식시장 '곰을 피하려고 애씀'",
-      "불확실한 경제 전망"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "주식 시장 상승세 지속",
-      "경제 지표 긍정적",
-      "투자자 신뢰 회복"
+      "트럼프 행정부의 시장 영향",
+      "2026년 경제 동향 분석",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
