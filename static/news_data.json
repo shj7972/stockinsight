@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 GDP 1.7% 성장",
-      "반도체 산업의 기여",
-      "중동 불안에도 경제 회복"
+      "1분기 한국 경제 1.7% 성장",
+      "반도체 산업이 기여",
+      "중동 악재 영향 미미"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 시행 예정",
-      "중동 긴장 고조에 대응",
-      "신속한 행동 강조"
+      "한국, 시장 안정 조치 발 빠르게 시행",
+      "중동 긴장 상황 영향 반영",
+      "경제 불안정성 예방 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제 우상향 성장 중",
-      "환율 하락 공식 깨짐",
-      "경제 불안 요소 증가 가능성"
+      "한국 경제 성장 지속",
+      "환율 하락 공식 불일치",
+      "시장 안정성 의문"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IclJWRnJ6ZUVkY1dORmlxN04wZ3pad2ZqUGtQQk9IR3NxcjJtTWtZTXRPYTV4ZHlmS1lSMzU3TjFDNmM4MUZ5YzVOUU1leFc3QkxJYkxZSlZ5aUxiREYtaUQzcDc2MmltVUctbXd6dloxQQ?oc=5",
     "publisher": "American Enterprise Institute - AEI",
     "summary": [
-      "이란은 세계 경제에 위협적이다.",
-      "정유 및 무역에 영향 미칠 수 있다.",
-      "정치적 긴장이 경제에 악영향 준다."
+      "이란의 경제적 위협 증가",
+      "세계 에너지 시장 불안정",
+      "국제 제재 강화 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 주식 시장 분석",
-      "2026년 시장의 주요 요인",
-      "경제 성장과 투자 신뢰도 향상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekFoREdKakNEd0tfMGcyWmcxLUJpM25SNTJxejkyVno0ZndNeXJFbTRIdXJiYXJMQm5fTEhRUGZHdHFqODVhdVJwbWZhMGdlZ3F3Q3RoYURzckNoM1RkVmpza1d5aVVPRzQzOWxrR2tKS3ZrRXBRMl9uYmJvTzNESFc5RQ?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "중간 선거가 경제에 큰 변화 없음",
-      "경제 성장 지속 가능성 유지",
-      "정치 불확실성은 지속 중"
+      "중간 선거가 경제 성장에 영향 없음",
+      "정치 변화가 경제에 큰 변화 없음",
+      "안정된 경제 성장세 유지"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "미국 경제는 '와일 E 코요테' 순간을 맞이하고 있고, 주식시장은 '곰을 앞지르려 하고 있다' - Business Insider",
+    "original_title": "The US economy is facing a 'Wile E Coyote' moment and the stock market is 'trying to outrun a bear' - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVmZ6aFdCV284ZElYSEtYMGc1ZXRmUHZ5VmZIVVl0bVdDSzhnbi1RZzVucE5pSVA4RU0xUVhvZXlTNkRSeDZOeXZFTlhoVkM5amhsTTlVT3cxYjdQQ0JqREgwbWxmdkdjYk9vMEpFWmxWUFNpbnExRmxNU0I1dUExUmp4Sm44SGFoLUVEZ0lnWkhrT3B5VGdzck40WFA1TnNVNGFz?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "미국 경제, 위기 직면 중",
+      "주식시장은 하락 우려",
+      "불확실성 속에서 투자 심리 위축"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
