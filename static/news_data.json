@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업 호조",
-      "중동 악재 영향 축소"
+      "1분기 경제 성장률 1.7% 증가",
+      "반도체 산업의 역할 강조",
+      "중동 상황 영향 미미"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 발효",
-      "중동 긴장 속 결정",
-      "신속한 대응 강조"
+      "한국, 시장 안정 대책 신속 발동",
+      "중동 긴장으로 인한 대책 필요",
+      "경제 안정화 최우선 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,23 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41NjBNMnJPRFQ3RnhVYWRxcW9KYnR5andFcXp3OWl6aWJ1NmNnVlVDOVIweVlRWUZZMXZMSkFlYXF0QnREeTZyUlBJaTdwNm5UUWpnV3JlUWhyQ1dzMmdoTGhwR2pkMEU2WUNaOTZxV2VId0YwTXZSVkx3?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국 경제는 지속적으로 성장 중",
-      "환율 하락 공식이 깨짐",
-      "시장 변동성이 증가할 가능성"
+      "한국 경제 성장세 지속",
+      "환율 하락 이론 무너짐",
+      "시장 불확실성 증가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "우리는 모두 시장을 잘못 읽고 있다 - CNN",
-    "original_title": "We’re all reading the markets wrong - CNN",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVN3BxX0hod0tkWWo3azM5OFE3RG1OSHNmY3RFLWpxTTNaeV9GOEZ2OXpGZ2wtOWtyNmwwbG05VXdsQWh4WTVKSS1NYUJIRFFVMnpzaUFZbG9qU1JWM0FaRWwxYjBDUF82ZkN5MFg4Rk5qdw?oc=5",
-    "publisher": "CNN",
+    "title": "유권자들은 경제 측면에서 트럼프를 평가할 것입니다. 현재 상황은 어떻습니까? - BBC",
+    "original_title": "Voters will judge Trump on the economy - how is it doing? - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWYUE1TmFEdW80ZjlReW9IR3pqdzM4UDVKbzZEQ0ljTW5YTnRDaWxoY3NXYS1BUURYRkd3NTNrVTdIbDZlUlFCam50YkJwWUx1TVF4VVBXd3VNUQ?oc=5",
+    "publisher": "BBC",
     "summary": [
-      "시장 해석이 잘못되고 있다.",
-      "경제 전망에 주의 필요.",
-      "올바른 정보가 필요하다."
+      "유권자들은 경제로 트럼프 평가",
+      "경제 상황 분석 필요",
+      "경제가 투표에 미치는 영향"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 경제 동향",
-      "주요 투자 전략 분석"
+      "트럼프 행정부의 경제 정책 분석",
+      "2026년 시장 동향 예측",
+      "주식 시장의 주요 요인 토론"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "중간 선거는 경제 성장을 근본적으로 변화시키지 않았습니다 - invesco.com",
-    "original_title": "Midterm elections haven’t radically changed economic growth - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekFoREdKakNEd0tfMGcyWmcxLUJpM25SNTJxejkyVno0ZndNeXJFbTRIdXJiYXJMQm5fTEhRUGZHdHFqODVhdVJwbWZhMGdlZ3F3Q3RoYURzckNoM1RkVmpza1d5aVVPRzQzOWxrR2tKS3ZrRXBRMl9uYmJvTzNESFc5RQ?oc=5",
-    "publisher": "invesco.com",
+    "title": "우리는 모두 시장을 잘못 읽고 있다 - CNN",
+    "original_title": "We’re all reading the markets wrong - CNN",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVN3BxX0hod0tkWWo3azM5OFE3RG1OSHNmY3RFLWpxTTNaeV9GOEZ2OXpGZ2wtOWtyNmwwbG05VXdsQWh4WTVKSS1NYUJIRFFVMnpzaUFZbG9qU1JWM0FaRWwxYjBDUF82ZkN5MFg4Rk5qdw?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "중간선거가 경제성장에 영향 없음",
-      "성장세는 안정적 유지",
-      "정치적 변화 미미"
+      "시장이 잘못 해석되고 있다",
+      "투자자 인식의 오류",
+      "정보의 중요성이 강조된다"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
