@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 논의",
-      "중동 전쟁으로 경제 하락 압력",
-      "공동 대처 의지 표명"
+      "중동 전쟁 경제 부담 우려 표명",
+      "한·중·일 재무장관 의견 일치",
+      "경제 상황 모니터링 강화 의지"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 성장률 1.7% 증가",
-      "반도체 산업이 주요 기여",
+      "1분기 경제 성장률 1.7%",
+      "반도체 수출 증가",
       "중동 악재 영향 감소"
     ],
     "sentiment": "POSITIVE",
@@ -31,53 +31,53 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 불안감 해소",
-      "경제적 안정 위한 노력 강화"
+      "중동 긴장 속 경제 불안 우려",
+      "정부의 대책 기대감"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "주식 시장 상승세 지속",
-      "경제 성장 전망 밝음",
-      "투자 심리 회복 조짐"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 주식 시장 영향",
-      "2026년 시장 동향 분석",
-      "U.S. 은행의 시장 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "중간 선거는 경제 성장을 근본적으로 변화시키지 않았습니다 - invesco.com",
-    "original_title": "Midterm elections haven’t radically changed economic growth - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekFoREdKakNEd0tfMGcyWmcxLUJpM25SNTJxejkyVno0ZndNeXJFbTRIdXJiYXJMQm5fTEhRUGZHdHFqODVhdVJwbWZhMGdlZ3F3Q3RoYURzckNoM1RkVmpza1d5aVVPRzQzOWxrR2tKS3ZrRXBRMl9uYmJvTzNESFc5RQ?oc=5",
+    "title": "4월 주가 상승: 시장은 탄력성을 반영합니다 - invesco.com",
+    "original_title": "April stock advance: Markets reflect resiliency - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "중간 선거, 경제 성장 영향 미미",
-      "정치 변화 반복적이지만 안정적",
-      "지속적인 성장이 우선시됨"
+      "주식시장, 4월에 상승세",
+      "시장 회복력 확인",
+      "투자자 신뢰도 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "시장의 기술 붐은 경제의 눈에 띄는 분열을 가리킨다고 베테랑 전략가가 말합니다 - Business Insider",
+    "original_title": "The market's tech boom points to a glaring division in the economy, a veteran strategist says - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWnU0Qy1LV1pTZEllWGthUk5uZFMzdFZENE1QdkxMMVp5aGd3NWdGMkc0NmRYdEpUVXV5Qml1ODU4ZlVYaHh1OVhMNGhyT1N3ejdTcGVLYjdlOHJRendnZ1UzMy1SalBiaDFWUWI2V2xUN183YTg0SS0wMi1NXzlHdUZ5WmE1cVBLVG1Id2RuS05lWk5qV2V2ZHZYOEcydi1j?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "기술 주식 중반 호황",
+      "경제 양극화 심화",
+      "전문가 의견 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁에도 불구하고 주식시장이 기록을 경신하는 이유 - CNBC",
+    "original_title": "Why the stock market is hitting records despite Iran war - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "주식 시장이 사상 최고치 도달",
+      "전쟁에도 불구하고 투자자 신뢰",
+      "경제 성장 전망 긍정적"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
