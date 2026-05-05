@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁, 경제 하방 압력 우려",
-      "한중일 재무장관 공동 입장 발표",
-      "신뢰 회복 필요성 강조"
+      "한중일 재무장관 회의",
+      "중동 전쟁 경제 리스크",
+      "하방 압력 공동 인식"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업 호조",
-      "중동 악재 영향 적음"
+      "1분기 GDP 1.7% 성장",
+      "반도체 산업 영향",
+      "중동 악재의 영향 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 속 경제 리스크 감지",
-      "적극적 대응으로 시장 안정을 추구"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장으로 인한 영향 고려",
+      "경제 안전성 확보 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주식 시장 상승",
-      "시장 회복력 반영",
-      "긍정적인 경제 전망"
+      "주식 시장, 4월에도 상승세 지속",
+      "경제 회복력에 대한 신뢰 증가",
+      "투자 심리 개선 및 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "'잘못된 행복감': 이란 전쟁 유가 충격으로 인해 시장이 경기 침체에 빠져들고 있습니다 - CNBC",
+    "original_title": "‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oil price shock - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYnNDLUpNSm8xS3dXXzhZMWdqU3NhaFRFdkxvSzdkNHhNV25LT2ttYmVzb1Z4eFJXemJSR1k3cHR3RGtfSXVpNHJMWmVhZ2t4Q05fN2JzVTBOdk01aTl4NXdKWmhucnhXU1lqSHo2OVJxcV9SX08zTlIwbzM2aDhPMm5GdHlRLWRseGtlRWZ2VEhMNmlOb18wcFZJOU9VTjd2Z1JkSkw3UmfSAa4BQVVfeXFMTUFRUmN0QnpvTVV4X21hQVA5OHlkeEZhQ01pZi1lWHlYcnlBOV96UUhWaDdZMlVyVUFkUmFZVHhmdG9XR2o1dE9KbXNkSWNTdm51WFZkbndSbGxvby1pUnVWNzZqTmc1NEV0TU1JenhON0FIM2syTzdWdFlEVGVJUGY3QUg0d1d5OThmcEotMW1pVG1xcFl5RkV1elBnNUJfUjMxQi1Bd1dNaVJsVFJB?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "주식시장 안정세 유지",
-      "기업 실적 긍정적 반영",
-      "금리 동결 기대감 상승"
+      "시장이 불황으로 가고 있다",
+      "이란 전쟁이 유가 충격",
+      "투자자들의 낙관론 경계 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWnU0Qy1LV1pTZEllWGthUk5uZFMzdFZENE1QdkxMMVp5aGd3NWdGMkc0NmRYdEpUVXV5Qml1ODU4ZlVYaHh1OVhMNGhyT1N3ejdTcGVLYjdlOHJRendnZ1UzMy1SalBiaDFWUWI2V2xUN183YTg0SS0wMi1NXzlHdUZ5WmE1cVBLVG1Id2RuS05lWk5qV2V2ZHZYOEcydi1j?oc=5",
     "publisher": "Business Insider",
     "summary": [
-      "기술 부문의 급증",
-      "경제의 뚜렷한 분열",
-      "전문가의 의견"
+      "기술 boom이 경제의 분열을 반영",
+      "전문가는 시장에 경고",
+      "균형 잡힌 성장 필요"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
