@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 하방압력 우려",
-      "한국·중국·일본 재무장관 협력",
-      "공동 대응 방안 모색 필요"
+      "한·중·일 재무장관 공동 성명 발표",
+      "중동 전쟁으로 인한 경제 압박 우려",
+      "경제 안정성 확보 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업 기여",
-      "중동 악재 극복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,27 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 경제 불안 우려",
-      "신속한 대응 필요성 강조"
+      "중동 긴장 속 시장 안정 조치",
+      "신속한 대응 필요성 강조",
+      "경제에 긍정적 영향 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "시장 주도자 블로그: 영국 장기 차입 비용이 1998년 이후 최고 수준으로 급등 - 투자 주간",
-    "original_title": "Market Movers blog: UK long-term borrowing costs spike to highest level since 1998 - Investment Week",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-    "publisher": "Investment Week",
+    "title": "한은, 기준금리 연 2.5% 7연속 동결…“중동 전쟁 불확실성 매우 높은 상황” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xTFRVQ2Y3TEFleTU4VmV2ZkxlUERYMnpUcGk4YS1yNWJ2UFBERW82VV9pd0QwMG5icmttcmUyajRHQlUyT2ZxZmxjc0R2NFdHVm1zWEhDanZ2dUZzc01zRlpnRTkxbWM?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "영국 장기 채무 비용 최고 수준",
-      "1998년 이후 최고치 기록",
-      "시장 불안 요인 증가"
+      "기준금리 연 2.5% 동결",
+      "7연속 동결 유지",
+      "중동 전쟁 불확실성 고조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
+    "sentiment_score": -0.6,
+    "type": "국내"
   },
   {
     "title": "4월 주가 상승: 시장은 탄력성을 반영합니다 - invesco.com",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주가 상승세 관찰",
-      "시장 회복력 강조",
-      "투자자 신뢰 유지"
+      "4월 주식 시장 상승세",
+      "시장 회복력 반영",
+      "긍정적 경제 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "시장 상승세 지속",
-      "투자자 신뢰 회복",
-      "경기 전망 긍정적"
+      "주식 시장 상승세 지속",
+      "경제 성장 긍정적 신호",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식시장: 탄력적인 경제와 인플레이션 위험 속에서 연준의 금리 전망을 테스트하는 고용 데이터 - The Economic Times",
+    "original_title": "US Stock Market: Jobs data to test Fed’s rate outlook amid resilient economy and inflation risks - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVDhfT3VqMllwNmtwV1pVeTEwb1EyR2x3WVVKd3NWZ29mWWhEaDIwM09sZ3RUYnRORDlVcTRTcUNCTlNlTnJfZUJXbFI0dFA1bHJ5WHNDUTN5TV9WRXhlLWVuRU1SRFBwUDQ2YW9XMnNQZHZUdlZwWTV6ekhnYUFkcHlSajEwb2w1Z3hzNFgzTHRpbVI4VTl1eThPcHc3eC0taVk4T2tWdUxja1hXZXlvTmRLVm1peHFoSHhlekQxSXY5MjQwUm40NXZVN1JwNUVjcnN2c3FpSkh1Nm1BUWdmZWtGaGJiVnhuZG5aOVZCQ1RRYjNKSWVwWjNXV3JQMk5P0gGGAkFVX3lxTFAtT1cwRXNMbWItOTF5aXZxR3dnNTJfNVkyTXg2dEp2S0d3TU5NNXlIU2sxQU1GVGZIUGtIR2lDVDhubHFXN2cyQ2tRUzk0VFA4MUp2V281Wm1xQlJoRkJ4M0JBMDFZaUZ4UHZWUDQ1NEF3RnpUbHdXNXBudktDRGVaT1FfSDdJVVNWV3FHOGlxVGc4VlpxV0FvWDktTC1kZHJwdDBOeWg0VlBmNDlPb2Fycl9vUGYtc2JJZTdxRnJicmZUcm1JUnoxT2JMdG01X2d6aUtFZ2xSTW40MzR4aDlvSkxNYWtDWFk2ampCYmhUUjdDbEhuSHNaM21tNE9TMjA2V0tmX2c?oc=5",
+    "publisher": "The Economic Times",
+    "summary": [
+      "고용 데이터, 금리 전망 시험",
+      "경기 강세 속 인플레 리스크",
+      "연준의 결정을 주목해야"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
