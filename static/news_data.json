@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 공동 성명 발표",
-      "중동 전쟁으로 인한 경제 압박 우려",
-      "경제 안정성 확보 필요성 강조"
+      "한중일 재무장관의 공동 성명",
+      "중동 전쟁의 경제적 압박 경고",
+      "지역 경제 협력 중요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "중동 긴장 속 시장 안정 조치",
-      "신속한 대응 필요성 강조",
-      "경제에 긍정적 영향 기대"
+      "중동 긴장 속 신속한 조치",
+      "시장 안정화 방안 발표",
+      "경제 대응력 강화 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xTFRVQ2Y3TEFleTU4VmV2ZkxlUERYMnpUcGk4YS1yNWJ2UFBERW82VV9pd0QwMG5icmttcmUyajRHQlUyT2ZxZmxjc0R2NFdHVm1zWEhDanZ2dUZzc01zRlpnRTkxbWM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "기준금리 연 2.5% 동결",
-      "7연속 동결 유지",
-      "중동 전쟁 불확실성 고조"
+      "기준금리 2.5% 7회 연속 동결",
+      "중동 전쟁 불확실성 심각",
+      "경제 상황에 경고 신호"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "주식시장은 트럼프 대통령 경제에 심각한 문제에 직면해 있다. 역사는 이것이 다음에 일어날 수 있다고 말합니다. - 가지각색의 바보",
+    "original_title": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "트럼프 경제, 주식시장 문제 심각",
+      "역사적 맥락에서 우려 발생",
+      "향후 위험 요소 예측 필요"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "4월 주가 상승: 시장은 탄력성을 반영합니다 - invesco.com",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주식 시장 상승세",
-      "시장 회복력 반영",
-      "긍정적 경제 신호"
+      "4월 주가 상승, 시장의 회복력 반영",
+      "투자자 신뢰 상승",
+      "경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "미국 주식은 사상 최대치를 기록했고 유가는 월스트리트의 블록버스터 주간을 앞두고 상승했습니다. - Scripps News",
+    "original_title": "US stocks edge up to more records, while oil prices rise ahead of a blockbuster week for Wall Street - Scripps News",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZTRnQTdqYVF2SmFoLW5yMF9sbzFTLTkwdjNybTVOYkZIazdHMDVvZS1yMUpfdTZxd0ZQVDJSQl9NUmprWDQxR1EzZW9wRnNoUnlTVm92bm55aEJTazFnRy1BbHhtbFAtdmlDYkVKT0lDRXZrczU4emZuS296V3FoR19nb1l3ZmJqRVRBSjBhQW5LQWw4bTFtMnJTeGF1REw2UTNTMm1BVXVSUFFtOExsbjRfTHdOT19GbFhLQTc3aGFNTm1nQ3dqT2lvajBPdFU5Q3VNSXpPMFFQQkFP?oc=5",
+    "publisher": "Scripps News",
     "summary": [
-      "주식 시장 상승세 지속",
-      "경제 성장 긍정적 신호",
-      "투자자 신뢰 회복"
+      "미국 주가 신기록 경신",
+      "유가 상승",
+      "월가의 기대가 큰 주간"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장: 탄력적인 경제와 인플레이션 위험 속에서 연준의 금리 전망을 테스트하는 고용 데이터 - The Economic Times",
-    "original_title": "US Stock Market: Jobs data to test Fed’s rate outlook amid resilient economy and inflation risks - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVDhfT3VqMllwNmtwV1pVeTEwb1EyR2x3WVVKd3NWZ29mWWhEaDIwM09sZ3RUYnRORDlVcTRTcUNCTlNlTnJfZUJXbFI0dFA1bHJ5WHNDUTN5TV9WRXhlLWVuRU1SRFBwUDQ2YW9XMnNQZHZUdlZwWTV6ekhnYUFkcHlSajEwb2w1Z3hzNFgzTHRpbVI4VTl1eThPcHc3eC0taVk4T2tWdUxja1hXZXlvTmRLVm1peHFoSHhlekQxSXY5MjQwUm40NXZVN1JwNUVjcnN2c3FpSkh1Nm1BUWdmZWtGaGJiVnhuZG5aOVZCQ1RRYjNKSWVwWjNXV3JQMk5P0gGGAkFVX3lxTFAtT1cwRXNMbWItOTF5aXZxR3dnNTJfNVkyTXg2dEp2S0d3TU5NNXlIU2sxQU1GVGZIUGtIR2lDVDhubHFXN2cyQ2tRUzk0VFA4MUp2V281Wm1xQlJoRkJ4M0JBMDFZaUZ4UHZWUDQ1NEF3RnpUbHdXNXBudktDRGVaT1FfSDdJVVNWV3FHOGlxVGc4VlpxV0FvWDktTC1kZHJwdDBOeWg0VlBmNDlPb2Fycl9vUGYtc2JJZTdxRnJicmZUcm1JUnoxT2JMdG01X2d6aUtFZ2xSTW40MzR4aDlvSkxNYWtDWFk2ampCYmhUUjdDbEhuSHNaM21tNE9TMjA2V0tmX2c?oc=5",
-    "publisher": "The Economic Times",
-    "summary": [
-      "고용 데이터, 금리 전망 시험",
-      "경기 강세 속 인플레 리스크",
-      "연준의 결정을 주목해야"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
