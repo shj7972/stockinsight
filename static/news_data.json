@@ -4,12 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관의 공동 성명",
-      "중동 전쟁의 경제적 압박 경고",
-      "지역 경제 협력 중요성 강조"
+      "한국·중국·일본 재무장관 회담",
+      "중동 전쟁으로 인한 경제적 압박 우려",
+      "통합된 의견으로 협력 강화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국 경제 1.7% 성장",
+      "반도체가 주도",
+      "중동 악재 영향 감소"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,39 +30,26 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "중동 긴장 속 신속한 조치",
-      "시장 안정화 방안 발표",
-      "경제 대응력 강화 의지"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장 고조 영향 고려",
+      "경제 보호를 위한 조치 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "한은, 기준금리 연 2.5% 7연속 동결…“중동 전쟁 불확실성 매우 높은 상황” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xTFRVQ2Y3TEFleTU4VmV2ZkxlUERYMnpUcGk4YS1yNWJ2UFBERW82VV9pd0QwMG5icmttcmUyajRHQlUyT2ZxZmxjc0R2NFdHVm1zWEhDanZ2dUZzc01zRlpnRTkxbWM?oc=5",
-    "publisher": "한겨레",
+    "title": "주식과 채권이 이란 전쟁에 다르게 반응하는 이유 - The New York Times",
+    "original_title": "Why Stocks and Bonds Are Responding Differently to the Iran War - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "기준금리 2.5% 7회 연속 동결",
-      "중동 전쟁 불확실성 심각",
-      "경제 상황에 경고 신호"
+      "주식과 채권 반응 차이 설명",
+      "전쟁 영향으로 시장 불안정",
+      "투자자 심리 변화 분석"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "주식시장은 트럼프 대통령 경제에 심각한 문제에 직면해 있다. 역사는 이것이 다음에 일어날 수 있다고 말합니다. - 가지각색의 바보",
-    "original_title": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
-    "publisher": "The Motley Fool",
-    "summary": [
-      "트럼프 경제, 주식시장 문제 심각",
-      "역사적 맥락에서 우려 발생",
-      "향후 위험 요소 예측 필요"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주가 상승, 시장의 회복력 반영",
-      "투자자 신뢰 상승",
-      "경제 전망 긍정적"
+      "4월 주식 상승세 지속",
+      "시장 강인성 반영",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 주식은 사상 최대치를 기록했고 유가는 월스트리트의 블록버스터 주간을 앞두고 상승했습니다. - Scripps News",
-    "original_title": "US stocks edge up to more records, while oil prices rise ahead of a blockbuster week for Wall Street - Scripps News",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZTRnQTdqYVF2SmFoLW5yMF9sbzFTLTkwdjNybTVOYkZIazdHMDVvZS1yMUpfdTZxd0ZQVDJSQl9NUmprWDQxR1EzZW9wRnNoUnlTVm92bm55aEJTazFnRy1BbHhtbFAtdmlDYkVKT0lDRXZrczU4emZuS296V3FoR19nb1l3ZmJqRVRBSjBhQW5LQWw4bTFtMnJTeGF1REw2UTNTMm1BVXVSUFFtOExsbjRfTHdOT19GbFhLQTc3aGFNTm1nQ3dqT2lvajBPdFU5Q3VNSXpPMFFQQkFP?oc=5",
-    "publisher": "Scripps News",
+    "title": "주식시장은 트럼프 대통령 경제에 심각한 문제에 직면해 있다. 역사는 이것이 다음에 일어날 수 있다고 말합니다. - 가지각색의 바보",
+    "original_title": "The Stock Market Faces Serious Problems in President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
+    "publisher": "The Motley Fool",
     "summary": [
-      "미국 주가 신기록 경신",
-      "유가 상승",
-      "월가의 기대가 큰 주간"
+      "트럼프 경제, 주식시장 문제 직면",
+      "역사가 다음 상황을 예고",
+      "투자자들 경계 필요성 증가"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
