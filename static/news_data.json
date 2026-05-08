@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 회담",
-      "중동 전쟁으로 인한 경제적 압박 우려",
-      "통합된 의견으로 협력 강화"
+      "한중일 재무장관들 공동 성명",
+      "중동전쟁 경제적 압박 우려",
+      "지속적 하락 리스크 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 1.7% 성장",
-      "반도체가 주도",
-      "중동 악재 영향 감소"
+      "1분기 한국 경제 1.7% 성장",
+      "반도체 수출이 주요 요인",
+      "중동 악재 영향 줄어듦"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -31,22 +31,22 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 고조 영향 고려",
-      "경제 보호를 위한 조치 강화"
+      "중동 긴장 상황 영향",
+      "경제 안정성 강화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "주식과 채권이 이란 전쟁에 다르게 반응하는 이유 - The New York Times",
-    "original_title": "Why Stocks and Bonds Are Responding Differently to the Iran War - The New York Times",
+    "title": "주식과 채권이 이란 전쟁에 다르게 반응하는 이유 - nytimes.com",
+    "original_title": "Why Stocks and Bonds Are Responding Differently to the Iran War - nytimes.com",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
-    "publisher": "The New York Times",
+    "publisher": "nytimes.com",
     "summary": [
-      "주식과 채권 반응 차이 설명",
-      "전쟁 영향으로 시장 불안정",
-      "투자자 심리 변화 분석"
+      "주가와 채권 반응 차이 분석",
+      "전쟁 불확실성 영향",
+      "투자자 심리 변화"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주식 상승세 지속",
-      "시장 강인성 반영",
-      "투자자 신뢰 증가"
+      "4월 주식 상승세 뚜렷",
+      "시장 회복력 반영",
+      "경제 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "트럼프 경제, 주식시장 문제 직면",
-      "역사가 다음 상황을 예고",
-      "투자자들 경계 필요성 증가"
+      "트럼프 경제의 문제점 증가",
+      "역사적 데이터로 예측",
+      "다음 조치에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
