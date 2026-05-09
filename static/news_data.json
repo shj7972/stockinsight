@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁에 대한 우려",
-      "경제 하방 압력 경고"
+      "한중일 재무장관 공조 강화",
+      "중동 전쟁의 경제적 영향 경고",
+      "향후 경제 불확실성 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 1.7% 성장",
-      "반도체 산업 효과",
-      "중동 악재 영향 제한"
+      "1분기 경제 1.7% 성장",
+      "반도체가 주요 기여",
+      "중동 악재 영향 축소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장상태에서의 대응",
-      "경제에 긍정적 영향을 기대"
+      "한국, 시장 안정 조치 발빠르게 시행",
+      "중동 긴장 고조 속 대응",
+      "경제 안정성 유지 의지 포착"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "주식과 채권이 이란 전쟁에 다르게 반응하는 이유 - The New York Times",
-    "original_title": "Why Stocks and Bonds Are Responding Differently to the Iran War - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "주식과 채권 반응 다름",
-      "전쟁 불확실성 영향",
-      "안전자산 선호 증가"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
   },
   {
     "title": "4월 주가 상승: 시장은 탄력성을 반영합니다 - invesco.com",
@@ -58,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "4월 주식 상승세",
-      "시장 회복력 반영",
-      "투자자 신뢰 증가"
+      "4월 주가 상승, 시장의 회복력 반영",
+      "투자자 신뢰 회복세",
+      "경제 지표 긍정적으로 움직임"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "주식과 채권이 이란 전쟁에 다르게 반응하는 이유 - The New York Times",
+    "original_title": "Why Stocks and Bonds Are Responding Differently to the Iran War - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "주식과 채권의 반응 차이 설명",
+      "전쟁이 경제에 미치는 영향 분석",
+      "투자자 심리 변화 관찰"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOE5mb3ZMcVpvSThRcGdmYzd5T0lvVUNCZE03TWcwUjZDcG1lM2pfR3VIQTBILWprc3VnWDd1T3dycF95TnRFWGRWMlZ5Rno3RlU4TUZBT1dfdzFrelVnREhhRFA5OUV5ZjRKYnp5OVhuRGxtRmtTZVd2WXpWVmlzMFBkS1Z5UnExZVJJb2FvdmlrT2wxUFFBbw?oc=5",
     "publisher": "The Motley Fool",
     "summary": [
-      "트럼프 경제, 주식 시장 문제 심각",
-      "역사적 교훈, 다음에 발생할 일",
-      "투자자 심리 불안정해질 가능성"
+      "트럼프 경제의 문제점 지적",
+      "역사적 분석 제공",
+      "향후 시장 변화 예고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
