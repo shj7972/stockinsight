@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 하방 압력 경고",
-      "한중일 재무장관 공동 목소리",
-      "안정된 경제를 위한 협력 필요성 강조"
+      "한중일 재무장관 협력 강화",
+      "중동 전쟁 영향 경고",
+      "경제 하방압력 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 1분기 1.7% 성장",
-      "반도체 산업이 주요 기여",
-      "중동 악재에도 긍정적 반응"
+      "1분기 한국 경제 1.7% 성장",
+      "반도체 산업 호조",
+      "중동 악재 영향 제한"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황에 따른 대응",
-      "주식 시장 변동성 우려 해소 노력"
+      "한국, 시장 안정 조치 시행",
+      "중동 긴장 속 투기 방지",
+      "경제 환경 변화에 대응"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 경제 동향",
-      "투자자 심리 변화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 상승세 유지",
-      "경제 지표 안정적",
-      "투자자 신뢰 회복"
+      "주식 시장 상승세 지속",
+      "소비자 신뢰도 증가",
+      "금리 동결 가능성 검토"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,9 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa0E0Y1JNTm1IQ21Db0xmTnY0VFI3SjY5OUJTODhwclpoR0REa3lNOGk0R0dmY016ekx1MWVRWG1RWDhIb3JVbE91N01CTEMxaGU1Qk1jdEpFUlNOc2NwZy05LTgwM2JlM01PYjJDTlRXUnlRVnM3cEhvYTFrNTAzOXYxWWQ?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "주식 시장 활황",
-      "채권 시장 저조",
-      "차별화된 시장 동향"
+      "주식 시장은 활발하다.",
+      "채권 시장은 침체되었다.",
+      "두 시장 간 차이가 있다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "이란 결의안 없이 주가가 사상 최고치를 기록하는 이유는 무엇입니까? - J.P. 모건",
+    "original_title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
+    "publisher": "J.P. Morgan",
+    "summary": [
+      "주식 시장, 사상 최고치 기록",
+      "이란 문제 해결 없어도 상승",
+      "J.P. 모건의 분석 내용"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
