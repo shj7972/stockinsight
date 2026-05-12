@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 공동 발표",
-      "중동전쟁으로 경제압박 우려",
-      "경제협력 강화 필요성 강조"
+      "한중일 재정 장관들 공동 입장 발표",
+      "중동 전쟁으로 경제 위축 우려",
+      "경제 하방 압력에 대한 경각심 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업의 기여",
-      "중동 악재 영향 제한"
+      "한국 경제 1.7% 성장",
+      "반도체가 주효",
+      "중동 발 악재 극복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 시행 예정",
-      "중동 긴장 사태 영향 고려",
-      "신속한 대응 방침 유지"
+      "한국, 중동 긴장 속 안정 대책 배포",
+      "주식 시장 변동성 우려",
+      "신속한 조치로 안정 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
     "publisher": "blackrock.com",
     "summary": [
-      "시장 변동성 증가",
-      "금리 인상 우려",
-      "소비자 신뢰 회복"
+      "주식시장 안정세 유지",
+      "헤지펀드 투자 증가",
+      "금리 동결 전망 긍정적"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 정부의 시장 영향력 분석",
-      "2026년 시장 동향과 원인",
-      "U.S. Bank의 시장 전망 제시"
+      "트럼프 행정부의 주식시장 영향",
+      "2026년 시장 동향 분석",
+      "경제 성장 요소 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "오늘 주식 시장: 다우, S&P 500, 나스닥 선물은 월스트리트의 CPI 보고서에 대한 대비로 상승 - Yahoo Finance",
-    "original_title": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as Wall Street braces for CPI report - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdWNiVEFRQXptZV9LbHFodGlRNVNNRTQzMTFCZ0pjU3k2V3VHWEZlc2pTRkRFbEs3SFpDN0pIZGdiaUZzYW1mNWpwRjRGSHJqNlFYcHpnekIzM1ZWNldlcU12QmhCVGhrZl80VHc5M3VtLTNKdElVa01WMVlqS0h3SmNidzY0YXlWYVVBWjVwVzlkYmF0aXlMdkh2M2UxZ2lxUmFmU29fX015YVhjOGQ4MnNKNl9Sb1dyR2QtbFJpckZpX19qeHFFcEVEWGMzNk5zSmdkXzM4LUJZN1E?oc=5",
-    "publisher": "Yahoo Finance",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "다우, S&P 500, 나스닥 선물 상승",
-      "월가, CPI 보고서 대기 중",
-      "투자자들 긴장 상태"
+      "주식 시장 안정세 나타남",
+      "경제 성장 전망 개선",
+      "투자 심리 긍정적 회복"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
