@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 회담",
-      "중동전쟁으로 경제적 압박 우려",
-      "경제 방어책 논의"
+      "중동 전쟁으로 경제 압박 경고",
+      "한중일 재무장관 협력 강화",
+      "하락세 우려에 대한 대응 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
     "publisher": "조선일보",
     "summary": [
-      "반도체가 성장 이끌어",
-      "한국, 성장률 1위",
-      "중국을 제쳤다"
+      "반도체가 성장 주도",
+      "한국, 주요국 1위",
+      "中 제치고 우수한 성과"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 발표",
-      "중동 긴장 고조 우려",
-      "신속한 대응 계획 수립"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 속 경제 불안 해소",
+      "경제 방어책 적극적으로 마련"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "전쟁과 인플레이션이 경제에 타격",
-      "트럼프의 관세가 영향 미침",
-      "주식 시장은 계속 상승 중"
+      "전쟁과 인플레이션에 대한 우려",
+      "트럼프의 관세 영향",
+      "주식 시장 여전히 상승 중"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.1,
     "type": "해외"
   },
   {
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 아래 주식시장 동향",
-      "2026년 시장을 주도하는 요인",
-      "미국은행의 시장 분석"
+      "트럼프 행정부하 주식시장 분석",
+      "2026년 경제 동향 예측",
+      "주요 요인과 영향력 평가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "이번 주 경제 지표 발표",
-      "주요 경제 이슈 분석",
-      "시장 반응 주목"
+      "경제 지표 발표 예정",
+      "금리 변화 주목",
+      "소비자 신뢰 회복"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
