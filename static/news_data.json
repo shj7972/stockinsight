@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 경제 리스크 경고",
-      "중동 전쟁 영향 우려 표명",
-      "공동 대응 방안 논의 중"
+      "한국·중국·일본 재무장관 회담",
+      "중동전쟁으로 경제적 압박 우려",
+      "경제 방어책 논의"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
     "publisher": "조선일보",
     "summary": [
-      "한국 1분기 성장률 1위",
-      "반도체 산업 주도",
-      "中 제치고 성과"
+      "반도체가 성장 이끌어",
+      "한국, 성장률 1위",
+      "중국을 제쳤다"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 경제 영향 우려",
-      "조치로 시장 불안 완화 기대"
+      "한국, 시장 안정 조치 발표",
+      "중동 긴장 고조 우려",
+      "신속한 대응 계획 수립"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "전쟁과 인플레이션이 미국을 흔들다",
-      "트럼프의 관세 영향 분석",
-      "주식 시장은 상승세 유지"
+      "전쟁과 인플레이션이 경제에 타격",
+      "트럼프의 관세가 영향 미침",
+      "주식 시장은 계속 상승 중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "미국 주식만이 아닙니다. 일체 포함. 석유도 글로벌 시장을 움직이고 있습니다. - 뉴욕타임스",
-    "original_title": "It’s Not Just U.S. Stocks. A.I. and Oil Are Moving Global Markets, Too. - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3dKbGxjQ3E3VlhiNmRIR0RyWHlBQWdCNmxaS2RfaUMwdXFRWWJCM0xSZWhrV29lRW51UFNIY0x0NmNhNlhiVGxWeTB1dnpnSHNsZG5hVHU4dlJXajJOcm1aNTdhc1dxQ2FhTnRGQ2h0V0tjcGMwa3h6NHRfT21UUlNQSTdIeWVVQjRj?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "AI 기술이 시장에 영향 미침",
-      "유가 상승이 글로벌 시장에 영향",
-      "미국 주식 외 다른 요소도 중요"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
-    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "취업 시장은 경제에 중요한 영향.",
-      "고용 증가로 소비자 신뢰 상승.",
-      "임금 상승이 경제 성장 촉진."
+      "트럼프 행정부 아래 주식시장 동향",
+      "2026년 시장을 주도하는 요인",
+      "미국은행의 시장 분석"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "이번 주 경제 지표 발표",
+      "주요 경제 이슈 분석",
+      "시장 반응 주목"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
