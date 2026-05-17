@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무장관, 중동 전쟁 우려 언급",
-      "경제 하방 압력 공감대 형성",
-      "공동 대응 필요성 강조"
+      "중동 전쟁, 경제 하방 압력 우려",
+      "한국·중국·일본 금융장관 공동 의견",
+      "시장 안정성 중요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "반도체가 1분기 성장 주도",
-      "한국, 주요국 1위 기록",
-      "중국을 제치고 선두"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 실시 예정",
-      "중동 긴장 상황 반영",
-      "빠른 대응 필요성 강조"
+      "한국, 시장 안정 조치 시행",
+      "중동 긴장 상황 반응",
+      "신속한 대처 계획 발표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "한은, 기준금리 연 2.5% 7연속 동결…“중동 전쟁 불확실성 매우 높은 상황” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xTFRVQ2Y3TEFleTU4VmV2ZkxlUERYMnpUcGk4YS1yNWJ2UFBERW82VV9pd0QwMG5icmttcmUyajRHQlUyT2ZxZmxjc0R2NFdHVm1zWEhDanZ2dUZzc01zRlpnRTkxbWM?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "기준금리 2.5% 7회 연속 동결",
+      "중동 전쟁 불확실성 증가",
+      "경제 상황에 대한 우려 커짐"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,23 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWNBam1MNTNBbWdTdFZwNmF2eVZHb1U5bnFBTEdpU01DRzV0enRkN0FEdlprbjJ4Nmt0am1SdWdlZHpsb2ZqN2dnRmp1d2FBdE1RbU5fWnpNbHQ1OEhwanhzV0hFXzg0ZUZlS1lRVGhIUjZjZzFjTHRPUlZ4SDN2bnVKRXBqRXNRUzhBN2dHUVY5bEp2TE1ldTFOclVvY1g1YU42Y2piN0dzUlk?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "전쟁과 인플레이션이 미치고 있다",
-      "트럼프의 관세가 문제",
-      "주가가 계속 오르는 이유는?"
+      "전쟁과 인플레이션이 여전히 지속됨",
+      "트럼프의 관세가 경제에 영향",
+      "주식 시장은 강세 지속"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
-    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "구직 시장이 경제에 미치는 영향",
-      "고용 증가가 소비 증가를 촉진",
-      "출처: U.S. Bank"
+      "트럼프 행정부의 정책 영향",
+      "2026년 시장 전망",
+      "경제 지표 분석"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "경제 주요 지표 발표 예정",
-      "금융 정책 변화 예고",
-      "국제 시장 동향 주목"
+      "이번 주 경제 지표 발표 예정",
+      "금리 동결 가능성 언급",
+      "경제 성장 전망 긍정적"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
