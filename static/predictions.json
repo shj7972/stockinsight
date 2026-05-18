@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11 09:29 UTC",
+  "updated_at": "2026-05-18 09:48 UTC",
   "predictions": [
     {
       "ticker": "^IXIC",
@@ -8,8 +8,8 @@
       "direction": "하락",
       "direction_icon": "📉",
       "direction_color": "#f87171",
-      "confidence": 56.1,
-      "data_months": 361
+      "confidence": 61.7,
+      "data_months": 362
     },
     {
       "ticker": "^GSPC",
@@ -18,18 +18,18 @@
       "direction": "하락",
       "direction_icon": "📉",
       "direction_color": "#f87171",
-      "confidence": 55.2,
-      "data_months": 361
+      "confidence": 62.7,
+      "data_months": 362
     },
     {
       "ticker": "^KS11",
       "name": "KOSPI",
       "color": "#4ade80",
-      "direction": "상승",
-      "direction_icon": "📈",
-      "direction_color": "#4ade80",
-      "confidence": 55.0,
-      "data_months": 350
+      "direction": "하락",
+      "direction_icon": "📉",
+      "direction_color": "#f87171",
+      "confidence": 62.8,
+      "data_months": 351
     }
   ]
 }
