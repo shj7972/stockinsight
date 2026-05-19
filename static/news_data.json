@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제적 압박 우려",
-      "한중일 재무장관 공동 발언",
-      "안정적 대응 필요성 강조"
+      "한중일 재무장관 공동 성명",
+      "중동 전쟁의 경제적 압박 우려",
+      "하방 압력 리스크 논의"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "반도체가 성장률 주도",
-      "한국 1분기 1위",
-      "중국 제친 성과"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 호조가 주효",
-      "중동 악재에도 긍정적"
+      "1분기 한국 GDP 1.7% 성장",
+      "반도체 산업이 주도",
+      "중동 악재 영향 축소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
+    "summary": [
+      "남한, 시장 안정 조치 신속 시행",
+      "중동 긴장 속 경제 대응",
+      "무역 및 투자 보호 기대"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMk8yQm1FbFVIY2VXSlV4MG1ZdmRDLVJrNDVvR2d6UjNPX0l4OE9XVHdEalRfTW8tUkE2QXcxajJMemUydnQ5aEtaOVdoN25Mb2sxbXJRZjlCVFdlWmZhdTRYdjZKNHB4cEhqNG16cEtQX3BhMUh6VkdBSW1wM0Q0OWZhQWxTQ19FMDZpV2hnaGhUbl9USTFacEQ5N0VSN2VBT3VSN24yanFjZFV6Q3hXRm53ZzdCNWw5VEpLRlk0cVVwOEp2TnF0WGFBMzB5VVhNYVVJYzZySS03d2hfY29fTw?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "69조 달러 외국 투자 경고",
-      "미국 경제에 부담 우려",
-      "투자 증가 속도 주목 필요"
+      "외국 투자, 69조 달러 부담 경고",
+      "미경제에 부정적 영향 가능성",
+      "뉴욕 연준의 경고 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "이란, 오랜 전쟁 종결 후 주식시장 재개 도전 고려 - Al Jazeera",
-    "original_title": "Iran eyes challenging stock market reopening after lengthy war closure - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25DUDJ1Tzk4ZEtKbjdYLW5VOGhVWE5scWZZdWstaE5BVmdYQWJyNkhNbG51X0tqOXgwNElUOUFxWnBLOFFUSVptc254QnRiOEJZTHBCM2tNZE1sRHFQUU5tbEhkVVExeEVxcm9lRzRTYVNWY2xjcndCakJUbS1aQmRtUVphb0lNclpGMGxpWWRoNmFfVzFaTUlaY1lRSUdmTnNfaE1jVHFnVFRTNmNpejBFdlLSAboBQVVfeXFMUGZ4TmJwdWFCenlrM0dEZkRXaHlVWmFMRjVGR182RjlZWXZvbHhMbTlDUFBsVzhfUXpyeWZfZE85Yndqb3ZlNjlrRC1Xbkg5ZmJCTzRxSnJUcjBpSXFSVEF5YmpqR2M3NEFtel9rQWVEREJYSllVYmo4aWtaRFBiem4wMFJvOWJ2QXNmOFduWXNWM216UXN6RlJGVzVhUVBpQTg3VkI3MGI0QkhuWDBIQW1wZDN2X2oxUUhn?oc=5",
-    "publisher": "Al Jazeera",
-    "summary": [
-      "이란, 주식시장 재개 계획",
-      "전쟁으로 인한 폐쇄",
-      "도전적인 상황 예상"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -73,8 +59,22 @@
     "publisher": "Edward Jones",
     "summary": [
       "주식 시장 상승세 지속",
-      "경제 지표 호전",
+      "경제 지표 개선",
       "투자자 신뢰 회복"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부 하의 시장 분석",
+      "2026년 주식 시장 동향",
+      "U.S. Bank의 견해"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
