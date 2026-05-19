@@ -1,28 +1,15 @@
 [
   {
-    "title": "Finance chief Koo departs for Paris G7 meeting, London investment relations session - 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PUFhxYXgtVTdrd0tuTVl1TjdFZ1QxOV9XR2dOb2dHb1ZkajlESUNXamNHMG56UEJzWF9ZVk1oTVAtckt6WFJ6ODhHTWRyMlVZdUhRRUd0NlVkZnBNTzZhbw?oc=5",
-    "publisher": "네이트",
-    "summary": [
-      "재무장관 구, 파리 G7 회의 출국",
-      "런던 투자 관계 세션 예정",
-      "경제 협력 강화 기대"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
+      "중동 전쟁으로 경제적 압박 우려",
       "한중일 재무장관 공동 발언",
-      "중동 전쟁의 경제적 압박 우려",
-      "경제 안정 촉구 보도"
+      "안정적 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,51 +17,64 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
     "publisher": "조선일보",
     "summary": [
-      "한국, 반도체로 1분기 성장 1위",
-      "중국 제치고 주요국 최고 성과",
-      "경제 전망 긍정적"
+      "반도체가 성장률 주도",
+      "한국 1분기 1위",
+      "중국 제친 성과"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "고용 시장이 경제에 미치는 영향 - US Bank",
-    "original_title": "Job Market’s Effect on the Economy - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "고용 시장은 경제에 큰 영향 미침",
-      "실업률 감소가 소비 증가로 이어짐",
-      "기업 성장에 긍정적 신호 전달"
+      "1분기 경제 1.7% 성장",
+      "반도체 호조가 주효",
+      "중동 악재에도 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
+    "type": "국내"
   },
   {
-    "title": "시장 주도자 블로그: 중국 회담이 중단된 후 미국 시장이 하락했습니다 - 투자 주간",
-    "original_title": "Market Movers blog: US markets slump following standstill in China talks - Investment Week",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-    "publisher": "Investment Week",
+    "title": "뉴욕 연준, 69조 달러 외국인 투자 미국 경제에 '부담' 경고 - Fortune",
+    "original_title": "New York Fed warns about $69 trillion foreign investment ‘burden’ on U.S. economy - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMk8yQm1FbFVIY2VXSlV4MG1ZdmRDLVJrNDVvR2d6UjNPX0l4OE9XVHdEalRfTW8tUkE2QXcxajJMemUydnQ5aEtaOVdoN25Mb2sxbXJRZjlCVFdlWmZhdTRYdjZKNHB4cEhqNG16cEtQX3BhMUh6VkdBSW1wM0Q0OWZhQWxTQ19FMDZpV2hnaGhUbl9USTFacEQ5N0VSN2VBT3VSN24yanFjZFV6Q3hXRm53ZzdCNWw5VEpLRlk0cVVwOEp2TnF0WGFBMzB5VVhNYVVJYzZySS03d2hfY29fTw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "미국 시장 하락",
-      "중국과의 대화 중단",
-      "상황 불확실성 증가"
+      "69조 달러 외국 투자 경고",
+      "미국 경제에 부담 우려",
+      "투자 증가 속도 주목 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "이란 결의안 없이 주가가 사상 최고치를 기록하는 이유는 무엇입니까? - J.P. 모건",
-    "original_title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
-    "publisher": "J.P. Morgan",
+    "title": "이란, 오랜 전쟁 종결 후 주식시장 재개 도전 고려 - Al Jazeera",
+    "original_title": "Iran eyes challenging stock market reopening after lengthy war closure - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25DUDJ1Tzk4ZEtKbjdYLW5VOGhVWE5scWZZdWstaE5BVmdYQWJyNkhNbG51X0tqOXgwNElUOUFxWnBLOFFUSVptc254QnRiOEJZTHBCM2tNZE1sRHFQUU5tbEhkVVExeEVxcm9lRzRTYVNWY2xjcndCakJUbS1aQmRtUVphb0lNclpGMGxpWWRoNmFfVzFaTUlaY1lRSUdmTnNfaE1jVHFnVFRTNmNpejBFdlLSAboBQVVfeXFMUGZ4TmJwdWFCenlrM0dEZkRXaHlVWmFMRjVGR182RjlZWXZvbHhMbTlDUFBsVzhfUXpyeWZfZE85Yndqb3ZlNjlrRC1Xbkg5ZmJCTzRxSnJUcjBpSXFSVEF5YmpqR2M3NEFtel9rQWVEREJYSllVYmo4aWtaRFBiem4wMFJvOWJ2QXNmOFduWXNWM216UXN6RlJGVzVhUVBpQTg3VkI3MGI0QkhuWDBIQW1wZDN2X2oxUUhn?oc=5",
+    "publisher": "Al Jazeera",
     "summary": [
-      "주식 시장이 기록적인 고점",
-      "이란 문제 해결 안됨",
-      "투자자 신뢰 높은 상황"
+      "이란, 주식시장 재개 계획",
+      "전쟁으로 인한 폐쇄",
+      "도전적인 상황 예상"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "주식 시장 상승세 지속",
+      "경제 지표 호전",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
