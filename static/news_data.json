@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁의 경제적 압박 우려",
-      "하방 압력 리스크 논의"
+      "한국·중국·일본 재무장관 협력",
+      "중동 전쟁 경제적 하방 위험 언급",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "1분기 한국 GDP 1.7% 성장",
-      "반도체 산업이 주도",
-      "중동 악재 영향 축소"
+      "한국 경제 1.7% 성장",
+      "반도체 수출 증가",
+      "중동 악재 영향 적음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,26 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "남한, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 경제 대응",
-      "무역 및 투자 보호 기대"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감이 주요 원인",
+      "경제 불안 해소에 주력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "뉴욕 연준, 69조 달러 외국인 투자 미국 경제에 '부담' 경고 - Fortune",
-    "original_title": "New York Fed warns about $69 trillion foreign investment ‘burden’ on U.S. economy - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMk8yQm1FbFVIY2VXSlV4MG1ZdmRDLVJrNDVvR2d6UjNPX0l4OE9XVHdEalRfTW8tUkE2QXcxajJMemUydnQ5aEtaOVdoN25Mb2sxbXJRZjlCVFdlWmZhdTRYdjZKNHB4cEhqNG16cEtQX3BhMUh6VkdBSW1wM0Q0OWZhQWxTQ19FMDZpV2hnaGhUbl9USTFacEQ5N0VSN2VBT3VSN24yanFjZFV6Q3hXRm53ZzdCNWw5VEpLRlk0cVVwOEp2TnF0WGFBMzB5VVhNYVVJYzZySS03d2hfY29fTw?oc=5",
-    "publisher": "Fortune",
+    "title": "미국 주식은 채권 시장이 압력을 가한 후 기록보다 더 하락했습니다 - 워싱턴 포스트",
+    "original_title": "US stocks fall further from their records after bond markets crank up the pressure - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQzVJbjNIczFkUzhCTjBjZmNERnUyVXVNcDA3SE1WaTlYSnowSDNkV1FWWEhPSjRua1c1bExlcklNdVhsY1Jka0tFbGZoMW5KblZnYVV2RGRKV3hJS2tPaEZIQTI0STFKcmNEdVd2cWFtdnNJUk1LVjZaSGdQQXdMdXJLaHJEd3hqMk5CalE3TTFnOHZORUJzSGw1ZC0xckhyQmdqU3R4UUhFM1Uxc0RyWHVwcThVTm14czVoSGdMZGNsbXRfYmZval9B?oc=5",
+    "publisher": "The Washington Post",
     "summary": [
-      "외국 투자, 69조 달러 부담 경고",
-      "미경제에 부정적 영향 가능성",
-      "뉴욕 연준의 경고 강조"
+      "주식, 기록 대비 추가 하락",
+      "채권 시장 압박 증가",
+      "투자 심리 위축 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "전설적인 투자자 Jeremy Grantham은 AI가 경기 침체와 시장 붕괴를 막은 유일한 것이라고 말합니다 - Business Insider",
+    "original_title": "Legendary investor Jeremy Grantham says AI is the only thing that's prevented a recession and a market crash - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1llVmd6NjRuam5CS1JtdUdVRTJucW5kTWZDazBkQU0zYWdkMi1Bc2F5NHkwODFnRko1X1pnTzZRVVVXRDNZQjF5eVVDV3VYSjlwU1JuU2t0bWgyZnFkdFhQRkJMTHpoSVdLMUU0OFJpMjZvLVNuT1hDU19BNTZCS09oYWFBaUotLWlEVDd1N3hmVjFjbExHOW01d1ctRUVESlpSdWpvSQ?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "AI가 경기 후퇴를 막고 있다",
+      "투자자 Jeremy Grantham의 의견",
+      "시장 폭락이 예방되고 있다"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
@@ -60,21 +74,7 @@
     "summary": [
       "주식 시장 상승세 지속",
       "경제 지표 개선",
-      "투자자 신뢰 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부 하의 시장 분석",
-      "2026년 주식 시장 동향",
-      "U.S. Bank의 견해"
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
