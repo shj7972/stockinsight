@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 협력",
-      "중동 전쟁 경제적 하방 위험 언급",
-      "공동 대응 필요성 강조"
+      "한중일 재무장관의 공동 목소리",
+      "중동 전쟁으로 인한 경제 압박",
+      "경제적 리스크에 대한 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제 1.7% 성장",
-      "반도체 수출 증가",
-      "중동 악재 영향 적음"
+      "1분기 경제 성장률 1.7% 증가",
+      "반도체 산업의 기여",
+      "중동 악재 영향 감소"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장감이 주요 원인",
-      "경제 불안 해소에 주력"
+      "한국, 시장 안정 대책 조속 시행",
+      "중동 긴장 상황 속 대응",
+      "경제 영향 최소화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "조정 우려가 커지고 기록적인 랠리가 지정 학적 혼란을 무시하면서 주식은 압박을 받고 있습니다 - CNBC",
+    "original_title": "Stocks under pressure as correction fears grow and record rally defies geopolitical turmoil - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDhCUTZEU2pXVVZLci1CM2VKbXE4a2lZbnhHV3I2SXdFd2VtYnhEYmlDekRTbGswSUI5a0ZlTk04TmtQNjNQYjlTQ25OTjdTcGEzQVVmVWJNTlAyd3hCOXJsTDhmUG4zTElSdXgwT01GT3pFbzN0WnhGQjR4SmlDQWhBMFh3cGpWN3dSdDVMYlpCa2J4R0HSAZsBQVVfeXFMUFlUeE9oa3I0SHhxaDNYLTNERlNuazdIeEV4bnY2NFU3SG5HQTFQa0NyOGlfSERxWk5vcFljYS1jamNWOHZkY2UtaFJONlZjRHVXMC13STRxNDJRbFlKaWpkX2pGN09WcS1pdnJyMW1adzhoeFpSLXIzTUZIR2R4c1lEZUQ3Q3p3N2ZSQkl2MnpxLVQ3bDBaVkxOWWs?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "주식시장 하락 압력 증가",
+      "조정 우려 커지고 있음",
+      "지속적 상승세에 반발 심리"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
   },
   {
     "title": "미국 주식은 채권 시장이 압력을 가한 후 기록보다 더 하락했습니다 - 워싱턴 포스트",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQzVJbjNIczFkUzhCTjBjZmNERnUyVXVNcDA3SE1WaTlYSnowSDNkV1FWWEhPSjRua1c1bExlcklNdVhsY1Jka0tFbGZoMW5KblZnYVV2RGRKV3hJS2tPaEZIQTI0STFKcmNEdVd2cWFtdnNJUk1LVjZaSGdQQXdMdXJLaHJEd3hqMk5CalE3TTFnOHZORUJzSGw1ZC0xckhyQmdqU3R4UUhFM1Uxc0RyWHVwcThVTm14czVoSGdMZGNsbXRfYmZval9B?oc=5",
     "publisher": "The Washington Post",
     "summary": [
-      "주식, 기록 대비 추가 하락",
-      "채권 시장 압박 증가",
-      "투자 심리 위축 가능성"
+      "미국 주식, 기록보다 더 하락",
+      "채권 시장이 압박 강화",
+      "경제 불안감 증가 징후"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "전설적인 투자자 Jeremy Grantham은 AI가 경기 침체와 시장 붕괴를 막은 유일한 것이라고 말합니다 - Business Insider",
-    "original_title": "Legendary investor Jeremy Grantham says AI is the only thing that's prevented a recession and a market crash - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1llVmd6NjRuam5CS1JtdUdVRTJucW5kTWZDazBkQU0zYWdkMi1Bc2F5NHkwODFnRko1X1pnTzZRVVVXRDNZQjF5eVVDV3VYSjlwU1JuU2t0bWgyZnFkdFhQRkJMTHpoSVdLMUU0OFJpMjZvLVNuT1hDU19BNTZCS09oYWFBaUotLWlEVDd1N3hmVjFjbExHOW01d1ctRUVESlpSdWpvSQ?oc=5",
-    "publisher": "Business Insider",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "AI가 경기 후퇴를 막고 있다",
-      "투자자 Jeremy Grantham의 의견",
-      "시장 폭락이 예방되고 있다"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "주식 시장 상승세 지속",
-      "경제 지표 개선",
-      "투자자 신뢰 증가"
+      "트럼프 행정부의 시장 동향",
+      "2026년 주식 시장 요인",
+      "경제 전망에 대한 분석"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
