@@ -4,22 +4,22 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무 장관들, 한목소리로 합의",
-      "중동 전쟁으로 인한 경제 압박 우려",
-      "협력 필요성에 대한 인식 공유"
+      "한중일 재무장관 공동입장 발표",
+      "중동 전쟁으로 경제적 하방 위험",
+      "정상적인 경제 흐름 우려됨"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
+    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
+    "publisher": "조선일보",
     "summary": [
-      "1분기 GDP 1.7% 성장",
-      "반도체 산업 기여",
-      "중동 악재 영향 감소"
+      "1분기 한국 성장률 1위",
+      "반도체 산업 주도",
+      "중국 제치고 성과"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 조치 시행",
-      "시장 안정화 방안 발효",
-      "경제 영향 최소화 추진"
+      "중동 긴장에 따른 조치",
+      "시장 안정화 방안 시행",
+      "신속한 대응 의지 표명"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEJ0dFJKZVZ3NkdBSWNwTEhPWk5WZDJmdWMtb3hteW5zSTY0azdiaGFveVNKeVBBMUoydFlqeXZybDBONlJIbUFLYmpWWTktc012NG5hTXAycnBVZHZFNHhCb0gtcmttdTVPaE11UnFCRVVwXzMyclJCVl9TWnpHZjk0ZDNSOHZKVDBKNDNHZ2cwVGF0WEJOdzRjZXhRODJGdTVwdU9Fb0bSAa4BQVVfeXFMT2k5YUVtYmQyd3BkVmpNQ2JDNE9ZclJXN0NEUVRCd040S2hWNUJJUDgxT0pRTWo3WTc3OGQ5dUhuVEgyNlBxclVtdkFiZUlqUkU2OE9kdUQ0SGtsOWMzTGtCYmI1S1o3S2JaUWNRWjJYdUxNNzM5VHh2V0J1aGZCUXNhR0hvRloxbWRqdXYySWx2dENEbG4wNXhja2I2ZGtVdEhuUHJOU0tHZk1NUUV3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "이란 주식시장 재개",
+      "이란 증시 재개 소식",
       "장기 휴장 끝남",
-      "규제된 개방 방식"
+      "시장에 긍정적 영향 예상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDhCUTZEU2pXVVZLci1CM2VKbXE4a2lZbnhHV3I2SXdFd2VtYnhEYmlDekRTbGswSUI5a0ZlTk04TmtQNjNQYjlTQ25OTjdTcGEzQVVmVWJNTlAyd3hCOXJsTDhmUG4zTElSdXgwT01GT3pFbzN0WnhGQjR4SmlDQWhBMFh3cGpWN3dSdDVMYlpCa2J4R0HSAZsBQVVfeXFMUFlUeE9oa3I0SHhxaDNYLTNERlNuazdIeEV4bnY2NFU3SG5HQTFQa0NyOGlfSERxWk5vcFljYS1jamNWOHZkY2UtaFJONlZjRHVXMC13STRxNDJRbFlKaWpkX2pGN09WcS1pdnJyMW1adzhoeFpSLXIzTUZIR2R4c1lEZUQ3Q3p3N2ZSQkl2MnpxLVQ3bDBaVkxOWWs?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식 시장에 압박감 증가",
-      "조정 우려 커짐",
-      "지정학적 혼란에도 기록적 상승"
+      "주식 시장, 조정 우려 증가",
+      "기록적 상승세 지속",
+      "지정학적 혼란에도 불구하고"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "최고의 경제학자는 미국의 40% 경기 침체 위험에 대해 경종을 울리고 주식은 현실과 단절되어 있다고 경고합니다.",
-    "original_title": "Top economist sounds alarm on America’s 40% recession risk, warns stocks are disconnected from reality - Fox Business",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVFlDLUhFYXlyYk9PWXZ0WXlfM3F0MVppdktlVjN1NXAzMUhQSHExYWJYbWRyeUNSbFdHdTYzSUhtUnlqUHp0RHI0U1dTYnVIRGFGSTcxMmI0SW1RX2cyTWdJUWlvTTUyQ3hqZVVabGNJQlNhT2ZuRUExa2ozT085UE1WR1lhYmd4ZlBYcjMza0lDdjlsSExMX2Q5MTRaSG9LU3dBb0tJUEFOMzBrOS1Pc1dEc0xKVGp2akxZWnhkOFhhaGxjQTB30gHMAUFVX3lxTE5nWmhsekFxeTRJZGRkWllFRmNOcmlyY0x0c3M4M0dWQWs2RWRNZXgzcjBwMFhRaWllc2xtMVE3Rm1UMlNXWnYxVGR6bE1ibTJES2pkNEttWHhlcTFDaUhvdkROS3A0RFBvY2hrbkRCS0VBQWJxcVVWQm83WVc4bVMxckV0ekZiY0MtWE1WQ0VEZ2tjNDlMR202ZmFMeDlwRmUyaEFZZnhwbHpibGhsbnh4QWpiSXN5RVR5OUY4VUV3RkNiTlRvZjVMNkdUMw?oc=5",
-    "publisher": "Fox Business",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "미 경제의 40% 경기침체 위험 경고",
-      "주식 시장이 현실과 단절됨",
-      "전문가 심각한 우려 표명"
+      "트럼프 행정부 아래 주식시장 분석",
+      "2026년 시장 동향 예측",
+      "U.S. Bank의 투자 전략 언급"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
