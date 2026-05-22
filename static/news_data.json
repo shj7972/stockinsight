@@ -1,12 +1,25 @@
 [
   {
+    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
+    "publisher": "NK경제",
+    "summary": [
+      "북한, 녹색 채권 발행 가능성 제기",
+      "녹색 금융 적극 추진",
+      "녹색 경제 개발 목표"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무장관, 경제 위험 논의",
-      "중동 전쟁으로 하방 압력 우려",
-      "협력 강화 필요성 강조"
+      "한중일 재무장관 공동 입장 표명",
+      "중동 전쟁으로 경제 압박 우려",
+      "상호 협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,26 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 속 경제 대응 강화",
-      "금융시장 변동성 완화 목표"
+      "중동 긴장 속 시장 안정 조치",
+      "신속한 정부 대응 강조",
+      "경제 불안정성 완화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
+    "title": "분석: 중국 경제와 글로벌 시장에 미치는 영향 - U.S. Bank",
+    "original_title": "Analysis: China’s Economy and Its Influence on Global Markets - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV21GNVBpb2YtMmpMcTZoSVFfUUcxdU9WVkg4MDVUdVptZzRuTTllZ2hCVW9wRW5Ua19jUkJMN1pyUDNTcExHUEljY1JGakRhYWtjOE1yU29tUXk0T0xucTZIRVFUdnVaS0JsRTdncGEzczQ3RHl5ZW5RWmN0RTVaMVVXTEYyc2lqYl9kMkUtVGh4Q1JLcmZvMUxRVV9Xd2c?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "한국 경제 1분기 1.7% 성장",
-      "반도체 산업 기여 크게",
-      "중동의 악재 영향 제한"
+      "중국 경제 성장 둔화",
+      "글로벌 시장에 미치는 영향",
+      "미국과의 경제 관계 중요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "경제 지표 발표 예정",
-      "금융 정책 논의 진행",
-      "시장 변동성 증가 예상"
+      "이번 주 경제 데이터 발표",
+      "금리 인상 우려 여전",
+      "시장 반응 긍정적"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEJ0dFJKZVZ3NkdBSWNwTEhPWk5WZDJmdWMtb3hteW5zSTY0azdiaGFveVNKeVBBMUoydFlqeXZybDBONlJIbUFLYmpWWTktc012NG5hTXAycnBVZHZFNHhCb0gtcmttdTVPaE11UnFCRVVwXzMyclJCVl9TWnpHZjk0ZDNSOHZKVDBKNDNHZ2cwVGF0WEJOdzRjZXhRODJGdTVwdU9Fb0bSAa4BQVVfeXFMT2k5YUVtYmQyd3BkVmpNQ2JDNE9ZclJXN0NEUVRCd040S2hWNUJJUDgxT0pRTWo3WTc3OGQ5dUhuVEgyNlBxclVtdkFiZUlqUkU2OE9kdUQ0SGtsOWMzTGtCYmI1S1o3S2JaUWNRWjJYdUxNNzM5VHh2V0J1aGZCUXNhR0hvRloxbWRqdXYySWx2dENEbG4wNXhja2I2ZGtVdEhuUHJOU0tHZk1NUUV3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "이란 주식시장 재개됨",
-      "장기적인 중단 종료",
-      "통제된 운영 방식 적용"
+      "이란 주식시장 재개",
+      "주식 거래 재활성화",
+      "경제 회복 기대감"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "해외"
-  },
-  {
-    "title": "Charles Schwab 거시 전략 책임자는 미국 경제가 '진동'에 진입했다고 믿는 이유를 밝혔습니다.",
-    "original_title": "Charles Schwab head of macro strategy reveals why he believes the US economy has entered a 'vibepression' - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTV6SzVJMXZiRlYzVU9XQzd4M3VlZEdPRVoxR3NZTnRaQ2Vuakx0X25IWXdjLWNkSkJaUVhuWXlLblBGalc5VWVtaWhkWDFEMzVSY2ZDVWQ1RVQ4VFVTaEdwZXB0eF8tV0dlSkpyVktkbGxGaDdCVkhSVGJlM1VLYzRLU01mSldHVnNwUzlmWG96Z0NrTWg3U2xWbXJyeWEwbHFEcW45SG0yNmVhcmhWUmhmS0lCQQ?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "CJ의 경제는 'vibepression'에 접어듦",
-      "실업률 안정에도 소비자 심리 부정적",
-      "금리 인상 우려가 경제에 영향 미침"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
