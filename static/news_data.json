@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동입장 발표",
-      "중동 전쟁으로 경제적 하방 위험",
-      "정상적인 경제 흐름 우려됨"
+      "3국 재무장관, 경제 위험 논의",
+      "중동 전쟁으로 하방 압력 우려",
+      "협력 강화 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "1분기 한국 성장률 1위",
-      "반도체 산업 주도",
-      "중국 제치고 성과"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "중동 긴장에 따른 조치",
-      "시장 안정화 방안 시행",
-      "신속한 대응 의지 표명"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 속 경제 대응 강화",
+      "금융시장 변동성 완화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국 경제 1분기 1.7% 성장",
+      "반도체 산업 기여 크게",
+      "중동의 악재 영향 제한"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "경제 지표 발표 예정",
+      "금융 정책 논의 진행",
+      "시장 변동성 증가 예상"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "통제된 재개장으로 이란의 오랜 주식시장 폐쇄가 끝났다 - 알자지라",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEJ0dFJKZVZ3NkdBSWNwTEhPWk5WZDJmdWMtb3hteW5zSTY0azdiaGFveVNKeVBBMUoydFlqeXZybDBONlJIbUFLYmpWWTktc012NG5hTXAycnBVZHZFNHhCb0gtcmttdTVPaE11UnFCRVVwXzMyclJCVl9TWnpHZjk0ZDNSOHZKVDBKNDNHZ2cwVGF0WEJOdzRjZXhRODJGdTVwdU9Fb0bSAa4BQVVfeXFMT2k5YUVtYmQyd3BkVmpNQ2JDNE9ZclJXN0NEUVRCd040S2hWNUJJUDgxT0pRTWo3WTc3OGQ5dUhuVEgyNlBxclVtdkFiZUlqUkU2OE9kdUQ0SGtsOWMzTGtCYmI1S1o3S2JaUWNRWjJYdUxNNzM5VHh2V0J1aGZCUXNhR0hvRloxbWRqdXYySWx2dENEbG4wNXhja2I2ZGtVdEhuUHJOU0tHZk1NUUV3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "이란 증시 재개 소식",
-      "장기 휴장 끝남",
-      "시장에 긍정적 영향 예상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "조정 우려가 커지고 기록적인 랠리가 지정 학적 혼란을 무시하면서 주식은 압박을 받고 있습니다 - CNBC",
-    "original_title": "Stocks under pressure as correction fears grow and record rally defies geopolitical turmoil - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDhCUTZEU2pXVVZLci1CM2VKbXE4a2lZbnhHV3I2SXdFd2VtYnhEYmlDekRTbGswSUI5a0ZlTk04TmtQNjNQYjlTQ25OTjdTcGEzQVVmVWJNTlAyd3hCOXJsTDhmUG4zTElSdXgwT01GT3pFbzN0WnhGQjR4SmlDQWhBMFh3cGpWN3dSdDVMYlpCa2J4R0HSAZsBQVVfeXFMUFlUeE9oa3I0SHhxaDNYLTNERlNuazdIeEV4bnY2NFU3SG5HQTFQa0NyOGlfSERxWk5vcFljYS1jamNWOHZkY2UtaFJONlZjRHVXMC13STRxNDJRbFlKaWpkX2pGN09WcS1pdnJyMW1adzhoeFpSLXIzTUZIR2R4c1lEZUQ3Q3p3N2ZSQkl2MnpxLVQ3bDBaVkxOWWs?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "주식 시장, 조정 우려 증가",
-      "기록적 상승세 지속",
-      "지정학적 혼란에도 불구하고"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부 아래 주식시장 분석",
-      "2026년 시장 동향 예측",
-      "U.S. Bank의 투자 전략 언급"
+      "이란 주식시장 재개됨",
+      "장기적인 중단 종료",
+      "통제된 운영 방식 적용"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
+    "type": "해외"
+  },
+  {
+    "title": "Charles Schwab 거시 전략 책임자는 미국 경제가 '진동'에 진입했다고 믿는 이유를 밝혔습니다.",
+    "original_title": "Charles Schwab head of macro strategy reveals why he believes the US economy has entered a 'vibepression' - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTV6SzVJMXZiRlYzVU9XQzd4M3VlZEdPRVoxR3NZTnRaQ2Vuakx0X25IWXdjLWNkSkJaUVhuWXlLblBGalc5VWVtaWhkWDFEMzVSY2ZDVWQ1RVQ4VFVTaEdwZXB0eF8tV0dlSkpyVktkbGxGaDdCVkhSVGJlM1VLYzRLU01mSldHVnNwUzlmWG96Z0NrTWg3U2xWbXJyeWEwbHFEcW45SG0yNmVhcmhWUmhmS0lCQQ?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "CJ의 경제는 'vibepression'에 접어듦",
+      "실업률 안정에도 소비자 심리 부정적",
+      "금리 인상 우려가 경제에 영향 미침"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
