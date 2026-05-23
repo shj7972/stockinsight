@@ -1,25 +1,12 @@
 [
   {
-    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
-    "publisher": "NK경제",
-    "summary": [
-      "북한, 그린 본드 발행 검토 중",
-      "녹색 금융 적극 추진",
-      "경제 성장 전략으로 활용 가능"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁의 경제적 압박 우려",
-      "경제 안정성 확보 필요"
+      "한중일 재무장관, 경제 위험 공동 인식",
+      "중동전쟁으로 하방 압력 우려",
+      "위기 대응 방안 논의 예정"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,37 +17,36 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장에 대한 대응",
-      "경제 우려 심화 방지"
+      "한국, 중동 긴장 속 시장 대책 신속 시행",
+      "경제 안정 위한 정부의 대응 강조",
+      "시장 안정성 확보에 집중하는 모습"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
-    "title": "분석: 중국 경제와 글로벌 시장에 미치는 영향 - U.S. Bank",
-    "original_title": "Analysis: China’s Economy and Its Influence on Global Markets - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV21GNVBpb2YtMmpMcTZoSVFfUUcxdU9WVkg4MDVUdVptZzRuTTllZ2hCVW9wRW5Ua19jUkJMN1pyUDNTcExHUEljY1JGakRhYWtjOE1yU29tUXk0T0xucTZIRVFUdnVaS0JsRTdncGEzczQ3RHl5ZW5RWmN0RTVaMVVXTEYyc2lqYl9kMkUtVGh4Q1JLcmZvMUxRVV9Xd2c?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "중국 경제 성장률 둔화 우려",
-      "글로벌 시장에 미치는 영향",
-      "미중 무역 긴장 지속 가능성"
+      "1분기 경제 1.7% 성장",
+      "반도체 산업 기여",
+      "중동 악재 영향 최소화"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
   },
   {
-    "title": "소음 너머: 시장을 위한 탄탄한 기반 - invesco.com",
-    "original_title": "Above the Noise: Solid ground for markets - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkYzbUhqTGtuaWJVLWxqYmtnQndNb0JIM1J2Sk54RXNKTFBLcWFSeUVyU1ozdGtEWm9QLXRNWGVWSElvT2RXNWxHS1RJUmx3a1JPSmM5a1J3WjUwZUxYaDB6SUtMUnd3UXljbXlNZVY4MGxJQTUtYXhaTlh5a0NCMXFYLS0zdE0?oc=5",
-    "publisher": "invesco.com",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "시장 안정성 증가",
-      "투자 기회 확대",
-      "긍정적 경제 전망"
+      "트럼프 행정부의 시장 영향력",
+      "2026년 주요 경제 요인",
+      "주식 시장의 상승세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEYzdzI5UEpxYWJXM3dGdG92akFuMXJRc25icFRGS3hIYUFhREV5U0ZQQndmQlFRT0MtNnYyOXMxeENMVUdNTjJXdW8xNG9zTkRmNnpwcUQwSVBRd3IwY21NczRYaXYwMXJrWHN0NGNtX01tVGJ3bGpaQkoyRmh0SmxIZEZqTllwT1N6aksxMVVRdGhnT2NlSDVLcy0yZw?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
+      "미국 증시 상승 마감",
       "워시, 연준 의장 취임",
-      "미국 주식시장 상승",
-      "경제 회복 기대감 증대"
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "이번 주 경제 지표 발표",
+      "금리 동결 가능성 제기",
+      "소비자 신뢰도 변화 주목"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
