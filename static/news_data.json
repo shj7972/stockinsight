@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색 채권 발행 가능성 제기",
-      "녹색 금융 적극 추진",
-      "녹색 경제 개발 목표"
+      "북한, 그린 본드 발행 검토",
+      "녹색 경제 발전 촉진 중",
+      "녹색 금융 적극 지원"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 입장 표명",
-      "중동 전쟁으로 경제 압박 우려",
-      "상호 협력 필요성 강조"
+      "한일중 재무장관 회담",
+      "중동 전쟁의 경제 영향",
+      "하향 압력 위험 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "중동 긴장 속 시장 안정 조치",
-      "신속한 정부 대응 강조",
-      "경제 불안정성 완화 목표"
+      "한국, 중동 긴장 속 시장 안정조치 배포",
+      "신속한 대응으로 투자자 신뢰 회복",
+      "경제적 충격 최소화 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "Warsh가 연준의 지휘권을 잡은 후 미국 주식 시장은 상승 마감했습니다 - Anadolu Ajansı",
+    "original_title": "US stock markets close higher after Warsh takes Fed helm - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEYzdzI5UEpxYWJXM3dGdG92akFuMXJRc25icFRGS3hIYUFhREV5U0ZQQndmQlFRT0MtNnYyOXMxeENMVUdNTjJXdW8xNG9zTkRmNnpwcUQwSVBRd3IwY21NczRYaXYwMXJrWHN0NGNtX01tVGJ3bGpaQkoyRmh0SmxIZEZqTllwT1N6aksxMVVRdGhnT2NlSDVLcy0yZw?oc=5",
+    "publisher": "Anadolu Ajansı",
+    "summary": [
+      "미국 주식 시장 상승 마감",
+      "워시, Fed 의장 취임",
+      "긍정적 경제 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "분석: 중국 경제와 글로벌 시장에 미치는 영향 - U.S. Bank",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV21GNVBpb2YtMmpMcTZoSVFfUUcxdU9WVkg4MDVUdVptZzRuTTllZ2hCVW9wRW5Ua19jUkJMN1pyUDNTcExHUEljY1JGakRhYWtjOE1yU29tUXk0T0xucTZIRVFUdnVaS0JsRTdncGEzczQ3RHl5ZW5RWmN0RTVaMVVXTEYyc2lqYl9kMkUtVGh4Q1JLcmZvMUxRVV9Xd2c?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "중국 경제 성장 둔화",
+      "중국 경제 성장세 지속",
       "글로벌 시장에 미치는 영향",
-      "미국과의 경제 관계 중요"
+      "U.S. 경제와의 연결성"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
     "publisher": "Deloitte",
     "summary": [
-      "이번 주 경제 데이터 발표",
-      "금리 인상 우려 여전",
-      "시장 반응 긍정적"
+      "경제 지표 발표 주간",
+      "기업 실적에 주목",
+      "금리 동향 예상"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "통제된 재개장으로 이란의 오랜 주식시장 폐쇄가 끝났다 - 알자지라",
-    "original_title": "Controlled reopening ends Iran’s lengthy stock market shutdown - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEJ0dFJKZVZ3NkdBSWNwTEhPWk5WZDJmdWMtb3hteW5zSTY0azdiaGFveVNKeVBBMUoydFlqeXZybDBONlJIbUFLYmpWWTktc012NG5hTXAycnBVZHZFNHhCb0gtcmttdTVPaE11UnFCRVVwXzMyclJCVl9TWnpHZjk0ZDNSOHZKVDBKNDNHZ2cwVGF0WEJOdzRjZXhRODJGdTVwdU9Fb0bSAa4BQVVfeXFMT2k5YUVtYmQyd3BkVmpNQ2JDNE9ZclJXN0NEUVRCd040S2hWNUJJUDgxT0pRTWo3WTc3OGQ5dUhuVEgyNlBxclVtdkFiZUlqUkU2OE9kdUQ0SGtsOWMzTGtCYmI1S1o3S2JaUWNRWjJYdUxNNzM5VHh2V0J1aGZCUXNhR0hvRloxbWRqdXYySWx2dENEbG4wNXhja2I2ZGtVdEhuUHJOU0tHZk1NUUV3?oc=5",
-    "publisher": "Al Jazeera",
-    "summary": [
-      "이란 주식시장 재개",
-      "주식 거래 재활성화",
-      "경제 회복 기대감"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
