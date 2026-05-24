@@ -1,12 +1,25 @@
 [
   {
+    "title": "“환불해줘” 스타벅스 선불금 4200억 다 못 받아…직영이라 ‘규제 예외’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NUnlRZURPaUdqQnltZS1zd1pxa3h6dzNoZ1Qxa3BvWDFRalVhQzBZcUg1SGlHcGNIQXFQQnl3eDNSWU5Nc0hfeWlVZXRud191RHU1WmYxLUpYNENmY0hIMTFMTHQwX00?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "스타벅스 4200억 환불 미이행",
+      "직영점 규제로 예외 발생",
+      "소비자 불만 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국, 중국, 일본 재무장관 한목소리",
-      "중동 전쟁으로 경제 하방 압력 우려",
-      "경제 안정성 확보 필요성 강조"
+      "중동 전쟁의 경제 압박 우려",
+      "한국·중국·일본 장관 연대",
+      "공동 대응 방침 논의"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -18,25 +31,40 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장감 고조",
-      "경제 불안 요인 적극 대응"
+      "중동 긴장 속 불안한 시장에 대응",
+      "경제 안정화 의지 표명"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체가 주요 역할",
-      "중동 악재 영향 감소"
+      "시장 상승세 유지",
+      "투자자 신뢰 회복",
+      "경제 전망 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "국내"
+    "type": "해외"
+  },
+  {
+    "title": "사람들이 그렇게 기분이 나빴을 때 주식시장이 이렇게 좋았던 적은 없었다 - WSJ",
+    "original_title": "The Stock Market Has Never Been So Good When People Have Felt So Bad - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHZfTy0tT1hDTG03dW9sVjdmNTJNVVJOQzdZTXpNdHBwTWFZWnI5YnRoZDVzZWhMdzNtNGV1Tm5Fd1hLUHc0UzdEMFVSYzl2YUx2WHZXOUdwLVVCcGMyZEhKR2lHenhZSF9EcFFzblU5RG96UzE4aTFRZTdONDZ3bmV0Xzk?oc=5",
+    "publisher": "WSJ",
+    "summary": [
+      "주식시장이 좋아도 사람들은 불안",
+      "상황과 여론의 괴리 발생",
+      "경제 회복세 분석 필요"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "주식시장은 채권수익률 상승에 점점 더 취약해지고 있습니다 - Goldman Sachs",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ3c5Y2JnSFVZTTQ5SVg5MUdLZGZIS0dqdmxtRER4bkRBcEZfMW1tNHZCODFwZjU4S1k5ZmRVOHNOemlmUHV4UnE3bzBhd2tISEpoSUlRNENmTUh4dkdtVlJvZWt3VXAyZm1nbWZhVDEwdlowY0lFaFVzZGY2X093N01FUFNZZERrNWdFQWN1cU1GVTloZVA5b0dvSUhHTWVjMUpTMERxckcwTzlFbjhn?oc=5",
     "publisher": "Goldman Sachs",
     "summary": [
-      "주식 시장, 채권 금리에 취약해짐",
-      "골드만삭스의 경고 발표",
-      "금리 상승이 시장에 부담"
+      "주식시장이 채권금리에 취약해짐",
+      "골드만삭스의 분석 결과",
+      "투자자 경계감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 경제 동향",
-      "주식 시장의 성장 요인"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "소음 너머: 시장을 위한 탄탄한 기반 - invesco.com",
-    "original_title": "Above the Noise: Solid ground for markets - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkYzbUhqTGtuaWJVLWxqYmtnQndNb0JIM1J2Sk54RXNKTFBLcWFSeUVyU1ozdGtEWm9QLXRNWGVWSElvT2RXNWxHS1RJUmx3a1JPSmM5a1J3WjUwZUxYaDB6SUtMUnd3UXljbXlNZVY4MGxJQTUtYXhaTlh5a0NCMXFYLS0zdE0?oc=5",
-    "publisher": "invesco.com",
-    "summary": [
-      "시장이 안정적으로 보인다",
-      "투자자 신뢰 상승",
-      "경제 기초가 튼튼함"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
