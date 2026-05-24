@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 경제 위험 공동 인식",
-      "중동전쟁으로 하방 압력 우려",
-      "위기 대응 방안 논의 예정"
+      "한국, 중국, 일본 재무장관 한목소리",
+      "중동 전쟁으로 경제 하방 압력 우려",
+      "경제 안정성 확보 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 시장 대책 신속 시행",
-      "경제 안정 위한 정부의 대응 강조",
-      "시장 안정성 확보에 집중하는 모습"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감 고조",
+      "경제 불안 요인 적극 대응"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -31,12 +31,26 @@
     "publisher": "한겨레",
     "summary": [
       "1분기 경제 1.7% 성장",
-      "반도체 산업 기여",
-      "중동 악재 영향 최소화"
+      "반도체가 주요 역할",
+      "중동 악재 영향 감소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "주식시장은 채권수익률 상승에 점점 더 취약해지고 있습니다 - Goldman Sachs",
+    "original_title": "Stock Markets Are Increasingly Vulnerable to Rising Bond Yields - Goldman Sachs",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ3c5Y2JnSFVZTTQ5SVg5MUdLZGZIS0dqdmxtRER4bkRBcEZfMW1tNHZCODFwZjU4S1k5ZmRVOHNOemlmUHV4UnE3bzBhd2tISEpoSUlRNENmTUh4dkdtVlJvZWt3VXAyZm1nbWZhVDEwdlowY0lFaFVzZGY2X093N01FUFNZZERrNWdFQWN1cU1GVTloZVA5b0dvSUhHTWVjMUpTMERxckcwTzlFbjhn?oc=5",
+    "publisher": "Goldman Sachs",
+    "summary": [
+      "주식 시장, 채권 금리에 취약해짐",
+      "골드만삭스의 경고 발표",
+      "금리 상승이 시장에 부담"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
   },
   {
     "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부의 시장 영향력",
-      "2026년 주요 경제 요인",
-      "주식 시장의 상승세"
+      "트럼프 행정부의 시장 영향",
+      "2026년 경제 동향",
+      "주식 시장의 성장 요인"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "Warsh가 연준의 지휘권을 잡은 후 미국 주식 시장은 상승 마감했습니다 - Anadolu Ajansı",
-    "original_title": "US stock markets close higher after Warsh takes Fed helm - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEYzdzI5UEpxYWJXM3dGdG92akFuMXJRc25icFRGS3hIYUFhREV5U0ZQQndmQlFRT0MtNnYyOXMxeENMVUdNTjJXdW8xNG9zTkRmNnpwcUQwSVBRd3IwY21NczRYaXYwMXJrWHN0NGNtX01tVGJ3bGpaQkoyRmh0SmxIZEZqTllwT1N6aksxMVVRdGhnT2NlSDVLcy0yZw?oc=5",
-    "publisher": "Anadolu Ajansı",
+    "title": "소음 너머: 시장을 위한 탄탄한 기반 - invesco.com",
+    "original_title": "Above the Noise: Solid ground for markets - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkYzbUhqTGtuaWJVLWxqYmtnQndNb0JIM1J2Sk54RXNKTFBLcWFSeUVyU1ozdGtEWm9QLXRNWGVWSElvT2RXNWxHS1RJUmx3a1JPSmM5a1J3WjUwZUxYaDB6SUtMUnd3UXljbXlNZVY4MGxJQTUtYXhaTlh5a0NCMXFYLS0zdE0?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "미국 증시 상승 마감",
-      "워시, 연준 의장 취임",
-      "투자자 신뢰 회복"
+      "시장이 안정적으로 보인다",
+      "투자자 신뢰 상승",
+      "경제 기초가 튼튼함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "이번 주 경제 지표 발표",
-      "금리 동결 가능성 제기",
-      "소비자 신뢰도 변화 주목"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
