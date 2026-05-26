@@ -1,12 +1,25 @@
 [
   {
+    "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "스벅 불매운동 확산",
+      "제휴 카드사들에 리스크",
+      "긴장된 시장 반응"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 동맹 강화",
-      "중동 전쟁으로 경제 리스크 우려",
-      "협력 통한 해결 방안 모색"
+      "한중일 재무장관의 공동성명",
+      "중동 전쟁 영향 경고",
+      "경제 하방 압력 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,26 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "중동 긴장으로 시장 조치 시행",
-      "신속한 대응 필요성 강조",
-      "투자자 보호 목표"
+      "한국, 시장 안정 조치 발동",
+      "중동 긴장감 고조",
+      "신속한 대응 필요성 강조"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업이 기여",
-      "중동 악재 영향 줄어"
+      "주식 시장 강세 지속",
+      "경제 지표 긍정적 변화",
+      "투자 심리 회복세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
+    "sentiment_score": 0.75,
+    "type": "해외"
   },
   {
     "title": "주식시장은 채권수익률 상승에 점점 더 취약해지고 있습니다 - Goldman Sachs",
@@ -44,26 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ3c5Y2JnSFVZTTQ5SVg5MUdLZGZIS0dqdmxtRER4bkRBcEZfMW1tNHZCODFwZjU4S1k5ZmRVOHNOemlmUHV4UnE3bzBhd2tISEpoSUlRNENmTUh4dkdtVlJvZWt3VXAyZm1nbWZhVDEwdlowY0lFaFVzZGY2X093N01FUFNZZERrNWdFQWN1cU1GVTloZVA5b0dvSUhHTWVjMUpTMERxckcwTzlFbjhn?oc=5",
     "publisher": "Goldman Sachs",
     "summary": [
-      "주식 시장, 금리 상승에 취약",
-      "골드만삭스 분석 보고",
-      "채권 수익률 상승 우려"
+      "주식 시장은 채권 금리에 취약함",
+      "골드만삭스의 경고",
+      "금리 상승 위험 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "사람들이 기분이 너무 나빴을 때 주식시장이 이렇게 좋았던 적은 없었다 - WSJ",
-    "original_title": "The Stock Market Has Never Been So Good When People Have Felt So Bad - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHZfTy0tT1hDTG03dW9sVjdmNTJNVVJOQzdZTXpNdHBwTWFZWnI5YnRoZDVzZWhMdzNtNGV1Tm5Fd1hLUHc0UzdEMFVSYzl2YUx2WHZXOUdwLVVCcGMyZEhKR2lHenhZSF9EcFFzblU5RG96UzE4aTFRZTdONDZ3bmV0Xzk?oc=5",
-    "publisher": "WSJ",
-    "summary": [
-      "주식시장이 사상 최고 수준",
-      "사람들은 불만족감",
-      "경제와 시장 간의 괴리"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEYzdzI5UEpxYWJXM3dGdG92akFuMXJRc25icFRGS3hIYUFhREV5U0ZQQndmQlFRT0MtNnYyOXMxeENMVUdNTjJXdW8xNG9zTkRmNnpwcUQwSVBRd3IwY21NczRYaXYwMXJrWHN0NGNtX01tVGJ3bGpaQkoyRmh0SmxIZEZqTllwT1N6aksxMVVRdGhnT2NlSDVLcy0yZw?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "워시, 연준 의장 취임",
+      "워시가 Fed 의장에 취임",
       "미국 주식 시장 상승",
-      "투자자들 긍정 반응"
+      "시장에 긍정적인 반응"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
