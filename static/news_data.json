@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁에 경제 압박 우려",
-      "한중일 재무장관 공동 성명",
-      "시장 불확실성 증가 예상"
+      "세 나라 장관, 공동 성명 발표",
+      "중동 전쟁의 경제적 압력 경고",
+      "경제 불확실성 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동 확산 중",
+      "스벅 불매운동 확산",
       "제휴 카드사들 긴장",
-      "리스크 증가 우려"
+      "리스크 우려 상황"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,13 +30,41 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 추진",
-      "중동 긴장상태 영향",
-      "신속한 대응 계획"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장감이 원인",
+      "경제 불안 조기 대응 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "주간 시장 논평 - blackrock.com",
+    "original_title": "Weekly market commentary - blackrock.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "blackrock.com",
+    "summary": [
+      "시장 변동성이 지속되고 있음",
+      "투자 기회 확대 예고",
+      "경제 회복 조짐 관측"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장이 최고치를 기록하더라도 대부분의 미국인은 지출을 줄이고 있는 것으로 조사 결과 나타났습니다 - PBS",
+    "original_title": "Even as stock market hits highs, most Americans are cutting back on spending, survey shows - PBS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3lOel9RY3pfOFNlQ0x3WXpEZUtDSzhHQnR2QndTYlZiejA0NlFXT21aNng4b1I3STZUNW9ZM1dMYUdVWGs5WmR2akowRmFRWEh0YUZGQ0RmeThCM2xIMm84Tm1vcjBON01vXzhhb3RDLVVJQUVsd2ZrbVAxblQtbXZYaFlEY0t5T2hCV1hBT1YtRHhoRjMyYVFxSUtSa3pibENfUmpGa3lZUVZiRTRkeDZ4WHpHV3owNzNXZ3hwWU1xMjA?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "주식시장 고점에도 소비 감소",
+      "대부분 미국인 지출 줄여",
+      "경제 불안감 여전함"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -44,37 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 안정세",
-      "금리 인상 유예",
-      "소비자 신뢰 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장이 최고치를 경신하면서 미국인 3명 중 2명이 지출을 줄이고 있습니다.",
-    "original_title": "As U.S. stock market hits new highs, 2 of 3 Americans are cutting back on spending: survey - Investment Executive",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdENnWnZoZ0xZdUdTLTNtd25BNHhmQ1dlZjdTRW1LeFpXTE4tN2NlT0hWWnhpOVB4OVhXcU5HNXVwbmQxWV9TWnF5ZjUzS2J6VEs3bFU3c1EybUJCeVpJY3g4RmxEeEpuenJyQkxDT3ZibXdBNkFnRmVfbkdvelZBZGRldXI2NlFUVmpLLVlvZkR5RzlobFBkRG9UMXdjcEZQN2piQW0teTFBcUM2MVJRdUpXd05DdjZfN2Z5SnFZeW5yUUFkUWM4Qm5oX0d1LUhvME5Z?oc=5",
-    "publisher": "Investment Executive",
-    "summary": [
-      "미국 주식 시장 사상 최고치",
-      "3명 중 2명 소비 줄여",
-      "경제 불안감을 반영한 조사"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "트럼프 행정부의 시장 영향",
-      "2026년 주요 경제 동향",
-      "투자자 심리 긍정적"
+      "주식 시장 상승세 지속",
+      "경제 지표 개선",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
