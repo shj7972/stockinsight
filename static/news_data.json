@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁의 경제적 압력 우려",
-      "경제 안정 필요성 강조"
+      "한중일 재무장관, 경제위험 공감",
+      "중동 전쟁, 경제 하방 압력 우려",
+      "협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -18,8 +18,8 @@
     "publisher": "한겨레",
     "summary": [
       "스벅 불매운동 확산",
-      "카드사 리스크 우려",
-      "시장 긴장감 조성"
+      "카드사들 긴장감 고조",
+      "리스크 관리 필요성 대두"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 대응 조치 시행",
-      "시장 안정화 방안 신속 추진",
-      "경제 불안 우려에 대한 대응"
+      "한국, 중동 긴장 속 시장 안정 조치",
+      "신속한 대응 계획 발표",
+      "경제 불안 우려 해소 의도"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLXd4MllvVnNOVFBfNFd2ZVdWdm52VXFyZUU3SDBHcXhRck9EV0kxaElnX3hzdE1GUEZmeDBqSDA1RF8wR3ZiNk85bGtwNmZTc0drMWRGVnZOQjdYUTVsMjZwU3NPZ3FZSW14cDIxdTNSS1lLb1AyMFBiMVkxOU8tZjBtakNrd09BSXFyV1U4WFp6dw?oc=5",
     "publisher": "AP News",
     "summary": [
-      "미국 주식 시장 최고치 경신",
-      "3명 중 2명 소비 줄여",
-      "경제 불확실성 여전"
+      "미국 주식시장 사상 최고치",
+      "3명 중 2명 지출 감소",
+      "소비 위축 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "4월 주가 상승: 시장은 탄력성을 반영합니다 - invesco.com",
+    "original_title": "April stock advance: Markets reflect resiliency - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjUwaUFrbkJYdHF2WG90YmwxWVUzSl9qcTdNM1ZTelB0Rl9TbW03MlY4YTNnXzlnTTBENUlFalpESG9xM2FtX1RuWW1MSmZzbmkzSXdYUUN1RmVHRUVzNHlCZnk4Vm9ZRUdrc1o1b2xNTDVSQ1JYb25oQVJzc2xrTTlHUjUwUTJYbmdNRlZrakdRU1lE?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "주식 시장 상승세 지속",
-      "금리 인상 우려 완화",
-      "소비자 신뢰 지표 개선"
+      "4월 주식 시장 상승 긍정적",
+      "투자자 신뢰 회복",
+      "경제 회복세 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "이란 결의안 없이 주가가 사상 최고치를 기록하는 이유는 무엇입니까? - J.P. 모건",
+    "original_title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
+    "publisher": "J.P. Morgan",
     "summary": [
-      "2026년 시장, 트럼프 정책 영향",
-      "경제 성장 주도 요인 분석",
-      "주식 시장 긍정적 전망 유지"
+      "주식 시장 사상 최고치 경신",
+      "이란 문제 해결 없음",
+      "J.P. Morgan의 분석 결과"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
