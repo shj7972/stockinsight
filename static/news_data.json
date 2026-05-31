@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 하방 리스크 경고",
-      "한중일 재무장관 공동입장 발표",
-      "경제적 불안정 해소 노력 필요"
+      "한중일 재무장관 회담",
+      "중동 전쟁 영향 논의",
+      "경제 하락 위험 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동 확산 우려",
-      "카드사들 긴장 상태",
+      "스벅 불매운동 확산 중",
+      "제휴 카드사 긴장 상태",
       "리스크 관리 필요성 대두"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 영향",
-      "경제 불안정성 우려"
+      "한국, 시장 안정 조치 추진",
+      "중동 긴장 속 빠른 대응",
+      "경제 불안 최소화 계획"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "주식시장이 붕괴될 것인가? 투자자를 밤잠 못 이루게 만드는 5가지 위험 - US News Money",
-    "original_title": "Will the Stock Market Crash? 5 Risks Keeping Investors Awake at Night - U.S. News Money",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWk5OQUItYlZ0a3dDV0lIWVJZcVNhSm5sQXpKY052RGJNd1lwX25IZ2JJVW50WG44WGRLYXR3cG12bUF5NThuZlFMTkdGbHBONkdJYXpMSjVXeEJsMks1RnZXa3U2SC1PdmtYZ0ZJVEdaTDVXRFVCcWY1cDd0OUNRN0ZfYlI4NkRDRlpiZQ?oc=5",
-    "publisher": "U.S. News Money",
-    "summary": [
-      "증시 하락 우려 요인 5가지",
-      "투자자들 불안감 증대",
-      "시장 변동성 지속 가능성"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "S&P 500은 이익 증가로 인해 주가가 상승함에 따라 오를 것으로 예상됩니다 - Goldman Sachs",
@@ -59,25 +45,39 @@
     "publisher": "Goldman Sachs",
     "summary": [
       "S&P 500 상승 예상",
-      "수익 성장 주도",
-      "골드만삭스 전망"
+      "기업 실적 성장",
+      "주식 시장 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "분석: 이란 전쟁의 종식은 미국 불평등의 새로운 시대의 시작일 수도 있습니다 - CNBC",
-    "original_title": "Analysis: An end to the Iran war may be just the beginning of a new era of U.S. inequality - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRW1xY2thRFNhWXVsUUxKczV1MDd2QWFHSjFkVzZqcmJ0MjFVY2tBMFk5ZEsxSWd2bUN1dllkMm42cjZac2ZzcnA2MTNJU3ROcjZOVGNwblNvOU95QmxKVWhKRS14U0kyeDEtOHFKakdFZTM4QnFBMWtIaW96bjM5SzYtbm9IX195a3N5UEFDS3hjTDjSAZgBQVVfeXFMTmt4Z1JMcmNiV21hVnZYYVQ4WUxhRnRPdDlreHlablFyVXZDMndUeWIyeG9qS3d0cW1uQjZCNFJENFY2c3FhVFo3azU0Y29qbVhnb2JpLUtUN2F3VkFxRVBjSlJnOUZ3U29mVXl0d0hBdWdYdjR5LXh4aVhSdTEwVlpmZXZUVDRBRUFVSkJmZ0xVUUljWW9oc1o?oc=5",
-    "publisher": "CNBC",
+    "title": "'시한폭탄': 피터 쉬프(Peter Schiff)는 미국 주식 시장에 대해 엄중한 경고를 내렸고 '궁극적인 붕괴'가 가까워졌습니다 - Yahoo Finance",
+    "original_title": "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHI2Snh1SjNvbUh1Wm1OcjBncUpOMnhTd0dkZGE3OFNHbDdvUFpybUtqS1hfWFFHRmhLVV9GZFAwNTFNU3g0T3dUSlNpZlNPQWRfTEw3cHJFQm51NFZ0MG1zQnppdTBUWFVBbjZ5TXFibmtTN1RPYzlBX2pBSjNxdDNzMC1oQW9Od21qdlVkOXNIZG9tc1RjMmFzdw?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "이란 전쟁 종료는 새로운 출발?",
-      "미국 내 불평등 심화 우려",
-      "경제적 불확실성 증대 가능성"
+      "피터 쉬프 경고: 주식시장 위험",
+      "궁극적 붕괴 임박",
+      "시장 불안 요소 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
+    "summary": [
+      "이번 주 경제 지표 발표 예정",
+      "금리 변동 예측 증가",
+      "시장 반응 주목 필요"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
