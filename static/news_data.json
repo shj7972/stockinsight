@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동성명",
-      "중동 전쟁 경제 압박 우려",
-      "하락 위험에 대한 경고"
+      "한중일 재무장관, 공동 입장 발표",
+      "중동 전쟁, 경제 하방 압력 우려",
+      "협력 강화 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동이 확산 중이다.",
-      "제휴 카드사들 긴장 상태에 있다.",
-      "불매운동 리스크 우려 커지고 있다."
+      "스벅 불매운동 확산",
+      "제휴 카드사들 긴장",
+      "리스크 관리 필요"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 중동 긴장 속 시장 안정 조치",
-      "신속한 대책 시행 예정",
-      "경제 불안정성 해소 목표"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 속 경제 불안 조치",
+      "투자자 신뢰 회복 노력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "주식 시장 비관론자들이 놓칠 수 있는 것 - invesco.com",
+    "original_title": "What stock market pessimists may be missing - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "주식시장 회복 가능성 언급",
+      "낙관적 전망의 근거 제시",
+      "투자 전략 재조정 필요성 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "주간 시장 랩 - 에드워드 존스",
@@ -44,8 +58,8 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
     "publisher": "Edward Jones",
     "summary": [
-      "주식 시장 안정세 유지",
-      "경기 회복 신호 포착",
+      "주식시장 안정세 유지",
+      "미 경제 성장 긍정적",
       "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
@@ -53,28 +67,14 @@
     "type": "해외"
   },
   {
-    "title": "S&P 500은 이익 증가로 인해 주가가 상승함에 따라 오를 것으로 예상됩니다 - Goldman Sachs",
-    "original_title": "The S&P 500 Is Forecast to Climb as Earnings Growth Powers Stocks Higher - Goldman Sachs",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT21BbEYyM2ZUU1h5XzV5R2NBY1pOa056MUc5Q0xqbTFwYzg4cFFrMnk5bVBLcm4wQlhGb3lqTUJGYnlzLWRBZ0x5VXVJNWpHU0hIaEFxM2YtV1JJVHJxVTR4YUQtT3FzNXpWeTNYb29fTi1oQ295aDdyQXZlMjlXVmRMNkxBTTdtZjFKcHg5c1JKb0N5YTQzN0QtY2Y3YTF6R0R3bnpveHpjX25KRFBIVWJtbi1BTVE?oc=5",
-    "publisher": "Goldman Sachs",
-    "summary": [
-      "S&P 500 상승 전망",
-      "실적 성장 긍정적",
-      "골드만삭스 분석"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "'시한폭탄': 피터 쉬프(Peter Schiff)가 미국 주식 시장에 대해 엄중한 경고를 내렸고 '궁극적인 붕괴'가 가까워졌습니다 - Yahoo Finance",
+    "title": "'시한폭탄': 피터 쉬프(Peter Schiff)는 미국 주식 시장에 대해 엄중한 경고를 내렸고 '궁극적인 붕괴'가 가까워졌습니다 - Yahoo Finance",
     "original_title": "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHI2Snh1SjNvbUh1Wm1OcjBncUpOMnhTd0dkZGE3OFNHbDdvUFpybUtqS1hfWFFHRmhLVV9GZFAwNTFNU3g0T3dUSlNpZlNPQWRfTEw3cHJFQm51NFZ0MG1zQnppdTBUWFVBbjZ5TXFibmtTN1RPYzlBX2pBSjNxdDNzMC1oQW9Od21qdlVkOXNIZG9tc1RjMmFzdw?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "피터 쉬프, 주식 시장 경고",
-      "미국 주식 폭락 예상",
-      "위험이 임박했다고 경고"
+      "주식 시장의 위험 경고",
+      "최종 붕괴 임박",
+      "피터 Schiff의 우려 표명"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
