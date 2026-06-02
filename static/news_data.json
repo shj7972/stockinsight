@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국, 중국, 일본 재무장관 발언",
-      "중동 전쟁으로 인한 경제적 위험",
-      "경제 하락 압력에 대한 우려"
+      "한국·중국·일본 금융 장관 총회",
+      "중동 전쟁 경제적 리스크 경고",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동이 확산되고 있다",
-      "카드사들 긴장 상태",
-      "제휴 리스크 우려 증대"
+      "스벅 불매운동 확산",
+      "제휴 카드사들 긴장",
+      "리스크 우려가 커짐"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정책 신속 시행",
-      "중동 긴장감으로 인한 방안",
-      "경제 불안정성 대응 필요"
+      "한국, 시장 안정 조치 발표",
+      "중동 긴장으로 인한 우려",
+      "신속한 대응 계획 수립"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "주식 시장 비관론자들이 놓칠 수 있는 것 - invesco.com",
-    "original_title": "What stock market pessimists may be missing - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
-    "publisher": "invesco.com",
+    "title": "주식시장은 미국 경제가 과열되고 있음을 알아차릴 것인가? - 맛있는 라이브",
+    "original_title": "Will the Stock Market Notice the US Economy is Overheating? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODZfaWFhUmF4QjVaMUJVNGhwd2tKb0trSU1raWtpQzZGUFhEYkxQRzVOTWtqeVpjbi0wOExBQi1vdXlBVVEzMW05aTBvenZZOHo2clA0X0RoNGEwLWpXVUFLdm1CekRHdUM1T3dMOC01dVE5Qnd2Z1h5WFNMU1ExXzVkdEt1YjlRLXNsS2pucjBpMHRtUnRQd2hPZkNySkE?oc=5",
+    "publisher": "tastylive",
     "summary": [
-      "시장에 대한 부정적 관점은 한계가 있다.",
-      "긍정적 신호가 지속적으로 나타난다.",
-      "투자자의 기회가 확대되고 있다."
+      "미국 경제 과열 우려",
+      "주식시장 반응이 관건",
+      "투자자의 경계 필요"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "유가는 오르지만 월스트리트의 기록을 막을 만큼은 아니다 - The Washington Post",
-    "original_title": "Oil prices rise, but not by enough to keep Wall Street from more records - The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkxYQ0hfb3EzeDhXTUIxNHE2QWNNTlViaWN1Y2h0c0xDZjVnRnZqTjIxdktGZzVHa3NpMVVWcEE4ZkVYNHpSZUxfRUZmRGtpRXI2RVNGZ0hic3Y4THpyb3dZWlZVSnY5MHNLU3N0OU43eWlqMks1b3UtUjZYdlBEOEE0SHlPUFVsWE51X1JMV0tMNFIzeU92bU9NRzduNUNKNWRQY0xzdDl6bUVzRzNmSC1XM1RjSWg4SlNEalpLV0pDbGF1ck9DU2M5SDdWOWtv?oc=5",
-    "publisher": "The Washington Post",
+    "title": "경제적 부담 속에서 주식 시장에 투자하는 Suze Orman - CNN",
+    "original_title": "Suze Orman on investing in stock market amid Economic strain - CNN",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90a3pDbXFoUUgyUU1xSmdMNUt5d2JneUVWYVBwZnJVS2xta0tQMkJZLWFydW1ubXV4WG5XUGx0UG5sdENWekRFRVpKck5tWnJTLTRILWtyOHVqcTNMVW1DMzUxYXNyQnlqUV9lQkpSdE0?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "유가 상승",
-      "월 스트리트 기록 경신",
-      "시장 긍정적 반응"
+      "주식 투자 조언을 제공",
+      "경제적 긴장감 강조",
+      "신중한 접근 필요성 언급"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
+    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
+    "publisher": "Adam Tooze | Substack",
     "summary": [
-      "주식시장 소폭 상승",
-      "경제 지표 개선",
-      "투자자 신뢰 회복"
+      "미국 주식 시장 거품 집약",
+      "인공지능 관련 주식 중요성",
+      "전후 이란 경제 언급"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
