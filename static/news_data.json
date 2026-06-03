@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 금융 장관 총회",
-      "중동 전쟁 경제적 리스크 경고",
-      "공동 대응 필요성 강조"
+      "한중일 재무장관, 경제 우려 공감",
+      "중동 전쟁의 영향 경고",
+      "경제적 압박 증가 전망"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동 확산",
-      "제휴 카드사들 긴장",
-      "리스크 우려가 커짐"
+      "스벅 불매운동 확산 중",
+      "카드사들 리스크 우려",
+      "시장 긴장감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 발표",
-      "중동 긴장으로 인한 우려",
-      "신속한 대응 계획 수립"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장 고조 영향",
+      "경제 안정성 유지 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "상위 링크 1120 미국 주식 시장 버블 농도. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
+    "original_title": "Top Links 1120 US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80Nm9nektBeF93ejVuZ1F6SHI0bG1CTDUyZzd1WFFNQWVRXzhnMFJUQThYQ0daV1JxdDRVTVRkem5kakNLUUNHLVYzUDNuYTlpWTBSaVhpSHdKeUxwVUphRnNVSmN1X0pBbkVjSXNrUWh4NHYyaUhGdklB?oc=5",
+    "publisher": "Adam Tooze | Substack",
+    "summary": [
+      "미국 주식 시장 버블 우려",
+      "AI 관련 주식 집중",
+      "포스트 전후 이란 경제 논의"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "주식시장은 미국 경제가 과열되고 있음을 알아차릴 것인가? - 맛있는 라이브",
@@ -45,39 +59,25 @@
     "publisher": "tastylive",
     "summary": [
       "미국 경제 과열 우려",
-      "주식시장 반응이 관건",
-      "투자자의 경계 필요"
+      "주가 반응 여부",
+      "시장 불확실성 증가"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "최고 CEO들은 경기 침체에 대비하고 미국 경제가 향후 6개월 동안 악화될 것이라고 경고 - Fox Business",
+    "original_title": "Top CEOs brace for downturn, warn US economy will worsen in next 6 months - Fox Business",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb3JHM1JYSTB4WXNLbU03RUoyWlhleEhoc1M4Tm1qYlVya1RTdk1fNkNjSWxEWUdLUmlfSTRfWnlNb1V4UFBoMzZwWjlhVXJ2bXpWM1FOTFNFM3R1Z0w1cTZFY0t0TVB1ZnVzNmhfd2hnNnBOaTM3cE83OEZKempHaFdXS2hpR2FLWXdoYXFoZjZYWjkyUVlnTGJuQU5iN3NH0gGmAUFVX3lxTFAtSXZYV2ZKOWVVN0JfZ2toX0ptSklHakd6VElfWWJrdW1jTTZqeGRxOHVPYVo3b3dUVGtRX3ZoSWdNV1B5OHg5N2ZpbGdrTTR2NW5QeUt5bTlHaTJRSUJBR3M5SjRULXYwdGdtUkNoTFlnU1ZpUDlmTjU5VnFNQW5FZkFCRGI4X0VJVjB3c0xRaDB4VGxlWWNMU3BlR25WUk1Yblc4cnc?oc=5",
+    "publisher": "Fox Business",
+    "summary": [
+      "CEO들, 경기 침체 준비 중",
+      "미국 경제 악화 경고",
+      "향후 6개월 전망 부정적"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "경제적 부담 속에서 주식 시장에 투자하는 Suze Orman - CNN",
-    "original_title": "Suze Orman on investing in stock market amid Economic strain - CNN",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90a3pDbXFoUUgyUU1xSmdMNUt5d2JneUVWYVBwZnJVS2xta0tQMkJZLWFydW1ubXV4WG5XUGx0UG5sdENWekRFRVpKck5tWnJTLTRILWtyOHVqcTNMVW1DMzUxYXNyQnlqUV9lQkpSdE0?oc=5",
-    "publisher": "CNN",
-    "summary": [
-      "주식 투자 조언을 제공",
-      "경제적 긴장감 강조",
-      "신중한 접근 필요성 언급"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
-    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
-    "publisher": "Adam Tooze | Substack",
-    "summary": [
-      "미국 주식 시장 거품 집약",
-      "인공지능 관련 주식 중요성",
-      "전후 이란 경제 언급"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
