@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 경제 우려 공감",
-      "중동 전쟁의 영향 경고",
-      "경제적 압박 증가 전망"
+      "3국 재무장관, 중동 전쟁 우려 공유",
+      "경제 하방 압력에 대한 경각심",
+      "협력 강화 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "스벅 불매운동 확산 중",
-      "카드사들 리스크 우려",
-      "시장 긴장감 증가"
+      "스벅 불매운동 확산",
+      "제휴 카드사들 긴장",
+      "리스크 부담 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 고조 영향",
-      "경제 안정성 유지 목표"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감이 원인",
+      "경제 불안정 우려 해소 시도"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "주식 시장 비관론자들이 놓칠 수 있는 것 - invesco.com",
+    "original_title": "What stock market pessimists may be missing - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "시장 비관론자들의 오해",
+      "경제 지표의 긍정적 요인",
+      "투자 기회가 존재함"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
   },
   {
     "title": "상위 링크 1120 미국 주식 시장 버블 농도. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80Nm9nektBeF93ejVuZ1F6SHI0bG1CTDUyZzd1WFFNQWVRXzhnMFJUQThYQ0daV1JxdDRVTVRkem5kakNLUUNHLVYzUDNuYTlpWTBSaVhpSHdKeUxwVUphRnNVSmN1X0pBbkVjSXNrUWh4NHYyaUhGdklB?oc=5",
     "publisher": "Adam Tooze | Substack",
     "summary": [
-      "미국 주식 시장 버블 우려",
-      "AI 관련 주식 집중",
-      "포스트 전후 이란 경제 논의"
+      "미국 주식 시장 버블 집중",
+      "AI 관련 주식 주목",
+      "전후 이란 경제 언급"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -59,25 +73,11 @@
     "publisher": "tastylive",
     "summary": [
       "미국 경제 과열 우려",
-      "주가 반응 여부",
-      "시장 불확실성 증가"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "최고 CEO들은 경기 침체에 대비하고 미국 경제가 향후 6개월 동안 악화될 것이라고 경고 - Fox Business",
-    "original_title": "Top CEOs brace for downturn, warn US economy will worsen in next 6 months - Fox Business",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb3JHM1JYSTB4WXNLbU03RUoyWlhleEhoc1M4Tm1qYlVya1RTdk1fNkNjSWxEWUdLUmlfSTRfWnlNb1V4UFBoMzZwWjlhVXJ2bXpWM1FOTFNFM3R1Z0w1cTZFY0t0TVB1ZnVzNmhfd2hnNnBOaTM3cE83OEZKempHaFdXS2hpR2FLWXdoYXFoZjZYWjkyUVlnTGJuQU5iN3NH0gGmAUFVX3lxTFAtSXZYV2ZKOWVVN0JfZ2toX0ptSklHakd6VElfWWJrdW1jTTZqeGRxOHVPYVo3b3dUVGtRX3ZoSWdNV1B5OHg5N2ZpbGdrTTR2NW5QeUt5bTlHaTJRSUJBR3M5SjRULXYwdGdtUkNoTFlnU1ZpUDlmTjU5VnFNQW5FZkFCRGI4X0VJVjB3c0xRaDB4VGxlWWNMU3BlR25WUk1Yblc4cnc?oc=5",
-    "publisher": "Fox Business",
-    "summary": [
-      "CEO들, 경기 침체 준비 중",
-      "미국 경제 악화 경고",
-      "향후 6개월 전망 부정적"
+      "주식 시장 반응 예측",
+      "투자자 주의 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
