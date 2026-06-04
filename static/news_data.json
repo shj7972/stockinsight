@@ -1,55 +1,55 @@
 [
   {
-    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 할인 시대는 끝났다",
-      "지금이 투자 적기",
-      "한국 투자 매력 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "스벅 불매운동 확산 중",
-      "제휴 카드사들 긴장",
-      "리스크 관리 필요성 증가"
+      "한중일 재무장관 공동 성명",
+      "중동 전쟁 경제 영향 우려",
+      "하락 압박 리스크 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "1분기 성장률 한국 1위",
-      "반도체 산업 주도",
-      "중국 제쳐서 긍정적"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "유가는 다시 100달러로 상승했지만 미국 주식은 기록에 근접했습니다. - The Washington Post",
-    "original_title": "Oil prices climb back toward $100, but US stocks hang near their records - The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOGtkdUtMc1VaY0M4eXY4NzVMX2hTbS0xQkJtTXp2a2FqWndyelFRRURleHhFMlhvMmZ3eVNENjJIam53VHNxYmtSUVMxazJxQ2FUc3h3SmtCSUxKMjBzUkRpSWU4YVlqOW15NEMya3NLRmkxcDYwVkotYmZRQ256RFhCMDhRanpWMEowVzBFNFNDLW5RM19xMWM0LURhZ0llRDJDUlRfVzJtY0ZMNmVGczM0cElVX201QW5IY0xJeHRKMkFLei1WMlpxUQ?oc=5",
-    "publisher": "The Washington Post",
-    "summary": [
-      "유가가 100달러에 접근",
-      "미국 주식, 기록 근처 유지",
-      "시장 안정세 보임"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 상황 반영",
+      "경제적 불안 요소 제거 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - hani.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "hani.co.kr",
+    "summary": [
+      "1분기 경제 1.7% 성장",
+      "반도체 산업 활약",
+      "중동 악재 영향 감소"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
+    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
+    "publisher": "Adam Tooze | Substack",
+    "summary": [
+      "미국 주식 시장 거품 집중",
+      "AI 관련 주식 성장",
+      "전후 이란 경제와 파리 공동체"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 비관론자들의 시각 차이",
-      "긍정적인 경제 지표들",
-      "장기 투자 중요성 강조"
+      "주식 시장의 긍정적 신호",
+      "펀더멘털 강세 지속",
+      "중장기 투자 기회 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주간 시장 랩 - 에드워드 존스",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "주식시장은 미국 경제가 과열되고 있음을 알아차릴 것인가? - 맛있는 라이브",
+    "original_title": "Will the Stock Market Notice the US Economy is Overheating? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODZfaWFhUmF4QjVaMUJVNGhwd2tKb0trSU1raWtpQzZGUFhEYkxQRzVOTWtqeVpjbi0wOExBQi1vdXlBVVEzMW05aTBvenZZOHo2clA0X0RoNGEwLWpXVUFLdm1CekRHdUM1T3dMOC01dVE5Qnd2Z1h5WFNMU1ExXzVkdEt1YjlRLXNsS2pucjBpMHRtUnRQd2hPZkNySkE?oc=5",
+    "publisher": "tastylive",
     "summary": [
-      "주가 변동성 증가",
-      "금리 인상 우려",
-      "경기 회복 신호"
+      "미국 경제 과열 가능성",
+      "주식 시장 반응 주목",
+      "경제 지표 변화 예측"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
