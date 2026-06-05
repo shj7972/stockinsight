@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 중동 전쟁 우려 표명",
-      "경제 하방 압력에 공동 대응",
-      "위기 상황 속 협력 강조"
+      "한중일 재무장관 공동 성명",
+      "중동 전쟁으로 경제압박 우려",
+      "협력 강화를 모색"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
-    "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "스벅 불매운동 확산 중",
-      "카드사들 리스크 우려",
-      "시장 긴장감 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -31,53 +18,66 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장에 대응 방침",
-      "경제 불안 요소 제거 노력"
+      "중동 긴장감 고조",
+      "경제 불안 우려 속 대처"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
-    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
-    "publisher": "Adam Tooze | Substack",
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "미국 주식 시장 버블 집중 현상",
-      "AI 관련 주식의 성장 가능성",
-      "전후 이란 경제 및 파리 코뮌 연관"
+      "1분기 경제 성장률 1.7% 증가",
+      "반도체 산업이 주요 요인",
+      "중동 악재에 대한 저항력"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "오늘의 주식 시장: 투자자들이 일자리 보고서를 기다리면서 다우 선물 하락, 나스닥 하락 — 실시간 업데이트 - WSJ",
+    "original_title": "Stock Market Today: Dow Futures Flat, Nasdaq Down as Investors Await Jobs Report — Live Updates - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vNmhTYVNPRm9kWWQyVXhncFJndU5uamxtVzAwdUlIemhxcV9NRVhFQmVXWnJRUUxpM0RySGFUX2JEaDlybUZxM05rUlRDaW5MTmVMR1ZpLXdXMG9WckdETGxhQXlqc0dRazR1aEVPbnYwaEZXZjVwTjI2YjQ?oc=5",
+    "publisher": "WSJ",
+    "summary": [
+      "다우 선물, 변화 없음",
+      "나스닥 하락",
+      "투자자, 고용 보고서 기대"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "주식 시장 비관론자들이 놓칠 수 있는 것 - invesco.com",
-    "original_title": "What stock market pessimists may be missing - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FRVlKajFUV2ZUYzAxbzJqU3dGWE1lQUZOc0RHWTdWNHk1TEhRYWJreUNrSnRXUTJqM0NSVE1qVzJzeDFoc1hrYlN1UlBmUTMwazdUNGg5VWRaSnplSHNaSE1zOEZqdFVjaEVJS3RGMkdib3lZVHc?oc=5",
-    "publisher": "invesco.com",
+    "title": "S&P 500은 처음에는 SpaceX를 제외하지만 Elon Musk는 어쨌든 은퇴 저축을 위해 올 것입니다 - Fortune",
+    "original_title": "The S&P 500 will initially exclude SpaceX but Elon Musk is coming for your retirement savings anyway - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUktKSF84bU9BT0Y3V2xrU0ptaldFaEpxUUdzQlRubjUzNzAwMnpmZTNsQ0w2Yld0VWtNMVl1eGVRa29ldk92NGhCbDVrRjJOaF9Gdkd5YWdhRXJ1WUtmd3ZMUmxaVXRzZ0VVQ3ZTZE5xRW9PX05WckxfTkhrWkkwT3AySlozZw?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "주식 시장의 긍정적 신호",
-      "기업 실적이 개선되고 있음",
-      "낙관적인 투자 기회 존재"
+      "S&P 500, SpaceX 제외 예정",
+      "일론 머스크의 영향력 계속됨",
+      "퇴직금에 대한 우려 존재"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "오늘의 주식시장: 기술에 대한 열정이 둔화되면서 다우, S&P 500, 나스닥이 고용 보고서에서 앞서 나갈 것 - MarketWatch",
+    "original_title": "Stock Market Today: Dow, S&P 500 and Nasdaq set to fall ahead of jobs report as tech enthusiasm dulls - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcFFCd2s3eWh0N3FKT1kxT1Vlblphc1JIZk5JTXNMMlFsb1IwSTMwRDlpLS1KUXhTb0ZweHBIZ2tSZ2FmMGhjRWV6YjNTN19rNDh2M0M3Q21ibTZsV2Uza3Zuc1ZzUE5EUkpQNlNqYmM1Q1lKTzdieDdGMnM5VndVdTd2ekUtTXVCLWE2b0ZINWRsUTFxcFd4c01WTGxaYU1OU0dPX1ZlbGd1cGtSbTIzRkp5cEJsc01QanRib2ZrSHltWkFkV000c01fY1hNM2VnV3E4ZHEyNA?oc=5",
+    "publisher": "MarketWatch",
     "summary": [
-      "이번 주 경제 지표 발표",
-      "금리 동결 기대",
-      "소비자 신뢰도 증가"
+      "주식시장 하락 예상",
+      "기술주 열기 감소",
+      "고용 보고서 앞둠"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
