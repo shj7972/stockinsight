@@ -4,9 +4,22 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁 경제 영향 우려",
-      "하락 압박 리스크 경고"
+      "한중일 재무장관, 중동 전쟁 우려 표명",
+      "경제 하방 압력에 공동 대응",
+      "위기 상황 속 협력 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "‘스벅 불매운동’ 확산…제휴 맺은 카드사들, 리스크 떠안을까 긴장 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZcklYRElxVXBCVmRob1Ixck04M2JOS2k0aTcyVUs5eHBUc3U3YktIRFdseXo4aFNidVZLS3oxTlJReTh2bmw4cjFpWTREQXJTam9OUUhqam5xVGRHM05Ec1VubFRNQ28?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "스벅 불매운동 확산 중",
+      "카드사들 리스크 우려",
+      "시장 긴장감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -18,24 +31,11 @@
     "publisher": "알파경제",
     "summary": [
       "한국, 시장 안정 조치 신속 시행",
-      "중동 긴장 상황 반영",
-      "경제적 불안 요소 제거 목표"
+      "중동 긴장에 대응 방침",
+      "경제 불안 요소 제거 노력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - hani.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "hani.co.kr",
-    "summary": [
-      "1분기 경제 1.7% 성장",
-      "반도체 산업 활약",
-      "중동 악재 영향 감소"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
     "publisher": "Adam Tooze | Substack",
     "summary": [
-      "미국 주식 시장 거품 집중",
-      "AI 관련 주식 성장",
-      "전후 이란 경제와 파리 공동체"
+      "미국 주식 시장 버블 집중 현상",
+      "AI 관련 주식의 성장 가능성",
+      "전후 이란 경제 및 파리 코뮌 연관"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -59,25 +59,25 @@
     "publisher": "invesco.com",
     "summary": [
       "주식 시장의 긍정적 신호",
-      "펀더멘털 강세 지속",
-      "중장기 투자 기회 강조"
+      "기업 실적이 개선되고 있음",
+      "낙관적인 투자 기회 존재"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주식시장은 미국 경제가 과열되고 있음을 알아차릴 것인가? - 맛있는 라이브",
-    "original_title": "Will the Stock Market Notice the US Economy is Overheating? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODZfaWFhUmF4QjVaMUJVNGhwd2tKb0trSU1raWtpQzZGUFhEYkxQRzVOTWtqeVpjbi0wOExBQi1vdXlBVVEzMW05aTBvenZZOHo2clA0X0RoNGEwLWpXVUFLdm1CekRHdUM1T3dMOC01dVE5Qnd2Z1h5WFNMU1ExXzVkdEt1YjlRLXNsS2pucjBpMHRtUnRQd2hPZkNySkE?oc=5",
-    "publisher": "tastylive",
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
     "summary": [
-      "미국 경제 과열 가능성",
-      "주식 시장 반응 주목",
-      "경제 지표 변화 예측"
+      "이번 주 경제 지표 발표",
+      "금리 동결 기대",
+      "소비자 신뢰도 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
