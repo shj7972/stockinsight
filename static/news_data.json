@@ -5,8 +5,8 @@
     "publisher": "경향신문",
     "summary": [
       "한국 할인 시대는 끝났다",
-      "지금이 투자 황금기",
-      "Koo Yoon-chul의 긍정적 전망"
+      "투자하기 좋은 시기라고 주장",
+      "한국 경제 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 도입",
-      "중동 긴장감에 대한 대응책",
-      "경제 영향 최소화 목표"
+      "한국, 시장 안정 조치 시행 예정",
+      "중동 긴장 상황 반영",
+      "경제 안정성 유지 목표"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,37 +30,23 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "재무장관들이 공동 발표",
-      "중동 전쟁 여파 우려",
-      "경제 하방 압력 강조"
+      "3국 재무장관, 경제위험 경고",
+      "중동 전쟁 영향 우려 표명",
+      "협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "경제 성과 및 주식 시장 가치 평가에 대한 관찰 - Haver Analytics",
-    "original_title": "Observations about Economic Performance and Stock Market Valuations - Haver Analytics",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXBrNmJ0alM5d0JkbTlmalVGdGRvS2thSndfSUc1Wm1LWW90ajlYVU5iblRfanNqMjhjMWZBZU9Pc3JRWl92NkdqTWxha1pBWDN1dDc1SzlpdDZNX3NHdHdDNUFfRHFjMFVmWURERHhkSEM1RXBGdTAxMS1xMVpmWUhiMHFHVUYwZTZ5UmxEVlFqUlRBRlRmT1RqMkpQMDQ?oc=5",
-    "publisher": "Haver Analytics",
-    "summary": [
-      "경제 성장률 개선 신호",
-      "주가 평가 상승",
-      "투자 심리 회복"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "시청: AI 주식 시장에 거품이 있습니까? 터질 준비가 되어 있습니까? - BBC",
-    "original_title": "Watch: Is there an AI stock market bubble, and is it ready to burst? - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1SLU5zWXJjcGtXV0VHWVE4MHF5ZUhwSDlqay1hc29BVGU0XzB4eDlYMU1DZmcwT0Etb0VnM0VGeWQtQXpYYkZVYnoyclVha01CRzhXMzFVQQ?oc=5",
+    "title": "거대 기술에 대한 두려움이 월스트리트를 뒤흔들면서 미국 주식은 하락했습니다 - BBC",
+    "original_title": "US stocks slump as fears over Big Tech shake Wall Street - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md0VwQTBZMkZhcmhKQ1phZFhwVUJMcGxHVW5wMkU3YUFoY2thZnJTb1FoaWkweV9wTllaZU1WQ0ZTX1ZaR2FPdExEUnJjM1ptN2hiV3l4Tk9qZw?oc=5",
     "publisher": "BBC",
     "summary": [
-      "AI 주식 시장 버블 논의",
-      "버블 터질 가능성 언급",
-      "투자자 우려 증가"
+      "미국 주식, 큰 하락세 보임",
+      "빅테크에 대한 우려 확대",
+      "월가 불안감 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -73,8 +59,22 @@
     "publisher": "adamtooze.substack.com",
     "summary": [
       "미국 주식 시장 버블 집중",
-      "AI 관련 주식 분석",
-      "전후 이란 경제 및 파리 공산당"
+      "AI 관련 주식 성장",
+      "전후 이란 경제 분석"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "경제 성과 및 주식 시장 가치 평가에 대한 관찰 - Haver Analytics",
+    "original_title": "Observations about Economic Performance and Stock Market Valuations - Haver Analytics",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXBrNmJ0alM5d0JkbTlmalVGdGRvS2thSndfSUc1Wm1LWW90ajlYVU5iblRfanNqMjhjMWZBZU9Pc3JRWl92NkdqTWxha1pBWDN1dDc1SzlpdDZNX3NHdHdDNUFfRHFjMFVmWURERHhkSEM1RXBGdTAxMS1xMVpmWUhiMHFHVUYwZTZ5UmxEVlFqUlRBRlRmT1RqMkpQMDQ?oc=5",
+    "publisher": "Haver Analytics",
+    "summary": [
+      "경제 성장세 관찰",
+      "주식 시장 평가",
+      "인플레이션 영향 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
