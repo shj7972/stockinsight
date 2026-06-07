@@ -1,52 +1,66 @@
 [
   {
-    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한국 할인 시대는 끝났다",
-      "투자하기 좋은 시점",
-      "한국에 대한 신뢰 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "반도체가 1분기 성장 주도",
-      "한국, 성장률 1위 기록",
-      "중국 제치고 주요국 선두"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국, 중국, 일본 재무장관 공동성명",
-      "중동 전쟁이 경제에 미치는 영향 우려",
-      "하락 압박 리스크에 대한 경고"
+      "한중일 재무장관 회담 개최",
+      "중동 전쟁의 경제적 영향 우려",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
-    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
-    "publisher": "Adam Tooze | Substack",
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "미국 주식 시장 거품 집중",
-      "AI 관련 주식의 중요성",
-      "이란 전후 경제 분석"
+      "한국, 중동 긴장 속 시장 조치 시행",
+      "신속한 시장 안정 대책 발표",
+      "경제 불안정성 해소 의지 표명"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "1분기 경제 1.7% 성장",
+      "반도체 수출 증가",
+      "중동 악재 영향 감소"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "트럼프 행정부의 영향 분석",
+      "2026년 시장 동향 예측",
+      "U.S. Bank의 인사이트 제공"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁 100일: 차트로 보는 세계 시장과 경제에 미치는 영향 - CNBC",
+    "original_title": "100 days of the Iran war: How global markets and the economy have been affected, in charts - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0piOEJUaXBPd1ZyZ3BrRWdMbXlQZk1sUzZrMUY3N0pMYWFmLXAzZzVoREpZRGFnaHY2eFE1eUVjV3JjcEN3d3lkTFRKcmlqT2R2X2VJRjdBRXRleDFVM09tMDhrVlhmZ19RSk1yQXZ4RGhpZW1IeWJ6dGlqRGFQVm1nc0VaeURlU0Ew0gGQAUFVX3lxTE14ck9VTmJTN1Y1aHFmZkhpYjRkRkdva085ZEt4cEd5NHUwclRhdmRJcW8yM2pPSllqQUdRZFYwUTR0bWI3cUlzTjR4djZmSERFNkd6YUMzaEpxLUhMNHNWa0d6NWdUY1dIVDQ4alFxYkV6R3lYQ3dhWVRBV2xBX0xzWHBrdXdPNzJSUF9WUDlheA?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "이란 전쟁 100일 경과",
+      "글로벌 시장 영향 분석",
+      "경제 데이터 시각화 제공"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -59,25 +73,11 @@
     "publisher": "BBC",
     "summary": [
       "미국 주식 하락",
-      "빅테크 불안감 증가",
-      "월가 신뢰 하락"
+      "대형 테크기업 우려",
+      "월가 불안감 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "경제 성과 및 주식 시장 가치 평가에 대한 관찰 - Haver Analytics",
-    "original_title": "Observations about Economic Performance and Stock Market Valuations - Haver Analytics",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXBrNmJ0alM5d0JkbTlmalVGdGRvS2thSndfSUc1Wm1LWW90ajlYVU5iblRfanNqMjhjMWZBZU9Pc3JRWl92NkdqTWxha1pBWDN1dDc1SzlpdDZNX3NHdHdDNUFfRHFjMFVmWURERHhkSEM1RXBGdTAxMS1xMVpmWUhiMHFHVUYwZTZ5UmxEVlFqUlRBRlRmT1RqMkpQMDQ?oc=5",
-    "publisher": "Haver Analytics",
-    "summary": [
-      "경제 성장세 유지 전망",
-      "주식 시장 가치 상승",
-      "신뢰 회복 신호"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
