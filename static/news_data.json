@@ -5,24 +5,24 @@
     "publisher": "경향신문",
     "summary": [
       "한국 할인 시대는 끝났다",
-      "투자하기 좋은 시기라고 주장",
-      "한국 경제 긍정적 전망"
+      "투자하기 좋은 시점",
+      "한국에 대한 신뢰 상승"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
-    "publisher": "알파경제",
+    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
+    "publisher": "조선일보",
     "summary": [
-      "한국, 시장 안정 조치 시행 예정",
-      "중동 긴장 상황 반영",
-      "경제 안정성 유지 목표"
+      "반도체가 1분기 성장 주도",
+      "한국, 성장률 1위 기록",
+      "중국 제치고 주요국 선두"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무장관, 경제위험 경고",
-      "중동 전쟁 영향 우려 표명",
-      "협력 필요성 강조"
+      "한국, 중국, 일본 재무장관 공동성명",
+      "중동 전쟁이 경제에 미치는 영향 우려",
+      "하락 압박 리스크에 대한 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
+  },
+  {
+    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - 아담 투즈 | 서브스택",
+    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - Adam Tooze | Substack",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
+    "publisher": "Adam Tooze | Substack",
+    "summary": [
+      "미국 주식 시장 거품 집중",
+      "AI 관련 주식의 중요성",
+      "이란 전후 경제 분석"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "거대 기술에 대한 두려움이 월스트리트를 뒤흔들면서 미국 주식은 하락했습니다 - BBC",
@@ -44,26 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md0VwQTBZMkZhcmhKQ1phZFhwVUJMcGxHVW5wMkU3YUFoY2thZnJTb1FoaWkweV9wTllaZU1WQ0ZTX1ZaR2FPdExEUnJjM1ptN2hiV3l4Tk9qZw?oc=5",
     "publisher": "BBC",
     "summary": [
-      "미국 주식, 큰 하락세 보임",
-      "빅테크에 대한 우려 확대",
-      "월가 불안감 증가"
+      "미국 주식 하락",
+      "빅테크 불안감 증가",
+      "월가 신뢰 하락"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장 거품 집중. AI 관련 주식. 전후 이란 경제와 파리 코뮌. - adamtooze.substack.com",
-    "original_title": "US Stock Market Bubble Concentration. AI-related Stocks. Post-War Iranian Economy & The Paris Commune. - adamtooze.substack.com",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84ak9MWkhCNGxnWnJYSVZrc1JNQ1VkLXV6RlNwRHJTTWU0VXZCWnpyRi16SmhDZy1RbnVRbWYtbDRHaEw0LXExX0w5MmR2Slk4NElNNGk2MlRZTmh1NUZoQzU1WExIZkJkUU5qVG54Y2dzb05OVVY1Uw?oc=5",
-    "publisher": "adamtooze.substack.com",
-    "summary": [
-      "미국 주식 시장 버블 집중",
-      "AI 관련 주식 성장",
-      "전후 이란 경제 분석"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXBrNmJ0alM5d0JkbTlmalVGdGRvS2thSndfSUc1Wm1LWW90ajlYVU5iblRfanNqMjhjMWZBZU9Pc3JRWl92NkdqTWxha1pBWDN1dDc1SzlpdDZNX3NHdHdDNUFfRHFjMFVmWURERHhkSEM1RXBGdTAxMS1xMVpmWUhiMHFHVUYwZTZ5UmxEVlFqUlRBRlRmT1RqMkpQMDQ?oc=5",
     "publisher": "Haver Analytics",
     "summary": [
-      "경제 성장세 관찰",
-      "주식 시장 평가",
-      "인플레이션 영향 분석"
+      "경제 성장세 유지 전망",
+      "주식 시장 가치 상승",
+      "신뢰 회복 신호"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
