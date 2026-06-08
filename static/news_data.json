@@ -1,80 +1,80 @@
 [
   {
-    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한국 할인 시대는 끝났다",
-      "한국에 투자할 최적기",
-      "전망이 밝다"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "반도체가 이끈 1분기 성장률... 한국, 中 제치고 주요국 1위 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRE5qZEZHRWZWSW5LSnNYMDlZbVR0VGFVazZhOTZjUXRKUjFvQzNqOWxQaG9XeXkwVENxS2lIeU1qSWpDRDBFdjVQWk5qMlVkNGVyWGprR0RUZVRNYUtBdDVBQTVwUks1enU0VkpXSzVISmhQVDBjbVltZm1zUHlMam1CLWppeDVkaERV?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "한국, 1분기 성장률 1위",
-      "반도체 산업 주도",
-      "중국 제치고 주요국 선도"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국, 중국, 일본 재무장관 공동 입장",
-      "중동 전쟁으로 경제 하방 압력 우려",
-      "3국 협력이 중요하다는 의견"
+      "한국·중국·일본 재무장관 회의",
+      "중동 전쟁으로 경제 위험 언급",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "이란 전쟁 100일: 차트로 보는 세계 시장과 경제에 미치는 영향 - CNBC",
-    "original_title": "100 days of the Iran war: How global markets and the economy have been affected, in charts - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0piOEJUaXBPd1ZyZ3BrRWdMbXlQZk1sUzZrMUY3N0pMYWFmLXAzZzVoREpZRGFnaHY2eFE1eUVjV3JjcEN3d3lkTFRKcmlqT2R2X2VJRjdBRXRleDFVM09tMDhrVlhmZ19RSk1yQXZ4RGhpZW1IeWJ6dGlqRGFQVm1nc0VaeURlU0Ew0gGQAUFVX3lxTE14ck9VTmJTN1Y1aHFmZkhpYjRkRkdva085ZEt4cEd5NHUwclRhdmRJcW8yM2pPSllqQUdRZFYwUTR0bWI3cUlzTjR4djZmSERFNkd6YUMzaEpxLUhMNHNWa0d6NWdUY1dIVDQ4alFxYkV6R3lYQ3dhWVRBV2xBX0xzWHBrdXdPNzJSUF9WUDlheA?oc=5",
-    "publisher": "CNBC",
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "전 세계 시장 불안 요소 급증",
-      "원자재 가격 상승 지속",
-      "투자 심리 위축 현상 확인"
+      "한국, 시장 안정 대책 신속 시행",
+      "중동 긴장 속 불안 해소 기대",
+      "경제 안정성 회복 목표"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "1분기 경제 1.7% 성장",
+      "반도체 산업 영향 커",
+      "중동 악재 대응 성공"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
+    "summary": [
+      "주식 시장, 트럼프 행정부 영향",
+      "2026년 경제 동향 분석",
+      "투자자 심리 긍정적"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "이란-이스라엘 갈등, 월스트리트 불안 속에 아시아 증시 급락 - Al Jazeera",
+    "original_title": "Asia’s stock markets dive amid Iran-Israel conflict, Wall Street jitters - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOF9XLXpfNE5UN3FCQWNTVUNCX2dGWDNpTTNOMTFZZ3BMRkY1MWczQmNZMVdOMjdlS0dNOFpQbnlSR0tNWk5odG4xUWp1ZVZxVkxYRlpvVUZuay1jamt4V1dDSWgya0RWWmE2cUVES3lwWXBzc0F3enZ3cC1NWkpCNDVSeF9aYXRoUExEVUNWcjB2Szkyb2VoUEk5UDdPRW9ITzZzYy1sSzR0OUFRVmpuOHQxc9IBuAFBVV95cUxPaDJtMkxIeHZoNlBWOV9jbDdscUp5WDdhUG81ZVN5VmJScXc3aTFVZl9oTkFnb0Y0Z2QtLWUtUVhfOU85V1BUeVlLSk1zQUpWYVNTYWpHZUlsSnQ0RGdUSjFDSXZtZ2ZJdW9JZVJoVEdybzAzX2tucExKVDJWUDF1aWlPak9Ebi1NZnVBanNGb0VzNGh4SlQxenpta3gzVnpxdjBZQVoyOTAta3dSNkVRWWwyeER5MHRY?oc=5",
+    "publisher": "Al Jazeera",
+    "summary": [
+      "아시아 증시 급락",
+      "이란-이스라엘 갈등 영향",
+      "월가 불안감 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "거대 기술 기업에 대한 두려움이 월스트리트를 뒤흔들면서 미국 주식은 하락했습니다 - BBC",
-    "original_title": "US stocks slump as fears over Big Tech shake Wall Street - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md0VwQTBZMkZhcmhKQ1phZFhwVUJMcGxHVW5wMkU3YUFoY2thZnJTb1FoaWkweV9wTllaZU1WQ0ZTX1ZaR2FPdExEUnJjM1ptN2hiV3l4Tk9qZw?oc=5",
-    "publisher": "BBC",
+    "title": "주간 시장 랩 - 에드워드 존스",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "미국 주식 시장 하락",
-      "빅테크에 대한 우려",
-      "월스트리트 영향 받음"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "경제 성과 및 주식 시장 가치 평가에 대한 관찰 - Haver Analytics",
-    "original_title": "Observations about Economic Performance and Stock Market Valuations - Haver Analytics",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXBrNmJ0alM5d0JkbTlmalVGdGRvS2thSndfSUc1Wm1LWW90ajlYVU5iblRfanNqMjhjMWZBZU9Pc3JRWl92NkdqTWxha1pBWDN1dDc1SzlpdDZNX3NHdHdDNUFfRHFjMFVmWURERHhkSEM1RXBGdTAxMS1xMVpmWUhiMHFHVUYwZTZ5UmxEVlFqUlRBRlRmT1RqMkpQMDQ?oc=5",
-    "publisher": "Haver Analytics",
-    "summary": [
-      "경제 성장 전망 긍정적",
-      "주식 시장 가치 상승",
-      "투자 심리 개선"
+      "주식시장 안정세 보임",
+      "경제 지표 긍정적",
+      "투자자 심리 개선됨"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
