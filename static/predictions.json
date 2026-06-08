@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01 11:19 UTC",
+  "updated_at": "2026-06-08 10:24 UTC",
   "predictions": [
     {
       "ticker": "^IXIC",
@@ -8,7 +8,7 @@
       "direction": "하락",
       "direction_icon": "📉",
       "direction_color": "#f87171",
-      "confidence": 61.7,
+      "confidence": 62.8,
       "data_months": 362
     },
     {
@@ -18,7 +18,7 @@
       "direction": "하락",
       "direction_icon": "📉",
       "direction_color": "#f87171",
-      "confidence": 62.7,
+      "confidence": 66.1,
       "data_months": 362
     },
     {
@@ -28,7 +28,7 @@
       "direction": "하락",
       "direction_icon": "📉",
       "direction_color": "#f87171",
-      "confidence": 62.8,
+      "confidence": 64.9,
       "data_months": 351
     }
   ]
