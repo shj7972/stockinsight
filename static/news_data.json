@@ -5,8 +5,8 @@
     "publisher": "경향신문",
     "summary": [
       "한국 할인 시대는 끝났다",
-      "지금은 투자 황금기",
-      "한국 시장에 긍정적 전망"
+      "지금이 투자 적기다",
+      "한국 투자에 대한 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 발표",
-      "중동 긴장 속 대응 필요성",
-      "경제 불안정 역전 목표"
+      "한국, 시장 안정 조치 신속 실행",
+      "중동 긴장으로 인한 대응",
+      "경제 불안 해소 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "삼국 재무장관, 경제 위험 경고",
-      "중동 전쟁이 성장 압박",
-      "협력 필요성 강조"
+      "중동전쟁으로 경제 하방 압력 우려",
+      "한중일 재무장관 공동 의견",
+      "경제적 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhQWRtWXRLZkhITmpKLWRRWlpnVzFzcHVKU0lwRlZFS0o5UzI0X2lUcjl1VnIxUVpKNm5pTmhxZ21OQ3pVM0ZtQ2h2ZWtYSW9FbGx3YWZIcFNnY1Z4SE5NUFJqM1JUejBYVkszekt3RkktWVlhQzZV?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 하락 내러티브 재조명 필요",
-      "다양한 요인들이 작용",
-      "투자자 신뢰 유지 중요"
+      "시장 하락 해석이 틀릴 수 있다",
+      "경제 지표는 긍정적이다",
+      "장기 투자 관점이 중요하다"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "이란-이스라엘 갈등, 월스트리트 불안 속에 아시아 증시 급락 - Al Jazeera",
-    "original_title": "Asia’s stock markets dive amid Iran-Israel conflict, Wall Street jitters - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOF9XLXpfNE5UN3FCQWNTVUNCX2dGWDNpTTNOMTFZZ3BMRkY1MWczQmNZMVdOMjdlS0dNOFpQbnlSR0tNWk5odG4xUWp1ZVZxVkxYRlpvVUZuay1jamt4V1dDSWgya0RWWmE2cUVES3lwWXBzc0F3enZ3cC1NWkpCNDVSeF9aYXRoUExEVUNWcjB2Szkyb2VoUEk5UDdPRW9ITzZzYy1sSzR0OUFRVmpuOHQxc9IBuAFBVV95cUxPaDJtMkxIeHZoNlBWOV9jbDdscUp5WDdhUG81ZVN5VmJScXc3aTFVZl9oTkFnb0Y0Z2QtLWUtUVhfOU85V1BUeVlLSk1zQUpWYVNTYWpHZUlsSnQ0RGdUSjFDSXZtZ2ZJdW9JZVJoVEdybzAzX2tucExKVDJWUDF1aWlPak9Ebi1NZnVBanNGb0VzNGh4SlQxenpta3gzVnpxdjBZQVoyOTAta3dSNkVRWWwyeER5MHRY?oc=5",
-    "publisher": "Al Jazeera",
+    "title": "미국 주식시장 전망: 성장주와 가치주의 균형으로 복귀 - Morningstar",
+    "original_title": "US Stock Market Outlook: Returning to Balance of Growth and Value Stocks - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHJ3YVAyaDBnbGNiV2NGb0Vjbm1WRlFBdEI4WUhrb2FOazRoUkRYd3FQSE5xcVdldURMRExEeDhWNV9oWWV6RkwxT1gxdnVsbGw5bEVXUW9xTUpvTWQ3UVBMbXdVYnEwdUxWZlo4em1EOVJOZ0dzblNJNzV0Tjg0WVBxOGVnTDdpaG51RWo4YU5DcWkyRFIzQ00zUzJrUXU4azlaV01HUmo?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "아시아 주식시장 급락",
-      "이란-이스라엘 갈등 영향",
-      "월스트리트 불안감 지속"
+      "성장주와 가치주의 균형 회복",
+      "시장 안정화 조짐",
+      "투자자 신뢰 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "미국 경제는 파산을 향하고 있는가? – OpEd - 유라시아 리뷰",
-    "original_title": "Is The US Economy Headed For A Bust? – OpEd - Eurasia Review",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUXFreWRpMWZNLU5qQUlPTU1iVjZpdlRFaWVSQy1EdFdJdHVqTjJUMUlfekJKaUtyVGl1OG5BX0tXNmRKR2NNN2VHc3dqeElrOE1xdlNqbDVfNDBxWno5d2o0X1VmMEFDb0FnTmxpZWF3WDFqVjJGLWpVMlQzdnAzLUtremE1RWc?oc=5",
-    "publisher": "Eurasia Review",
+    "title": "트럼프는 일자리 창출 보고서에 주가가 하락하자 깜짝 놀랐다. Barclays, '우리가 경고 구역에 진입하는 이유' 설명 - Fortune",
+    "original_title": "Trump stunned as stocks fall on great jobs report. Barclays explains why ‘we are entering the warning zone - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzFEM3JzbDBaaTZDbGdyMEh6aDVXbzZEQ01GaTdXUW41NlExYy1pYmtPMEZ3dlZOam81YWRSam9qeDRVYlR2N0tic1VIdldVcDl5QzU2MTFhTkl2VXVoRDNldklPVzhhbElBSlR0U0N3Z2Z1cW1lSWwxOUJvcG1BY21oSFlUbEVRMkN0dA?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "미국 경제 성장 둔화 우려",
-      "인플레이션 지속 가능성",
-      "금리 인상 영향 분석"
+      "트럼프, 좋은 고용 보고서에 충격",
+      "주식 시장 하락, 경고 신호 들어서",
+      "바클레이즈, 경제 경고 구역 진입 설명"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
