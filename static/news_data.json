@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 할인 시대는 끝났다",
-      "지금이 투자 적기다",
-      "한국 투자에 대한 긍정적 전망"
+      "한국 할인이 과거의 일",
+      "한국 투자하기 좋은 시점",
+      "긍정적인 투자 환경 조성"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 실행",
-      "중동 긴장으로 인한 대응",
-      "경제 불안 해소 목표"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감으로 인한 영향",
+      "경제 안정성 유지 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -30,26 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동전쟁으로 경제 하방 압력 우려",
-      "한중일 재무장관 공동 의견",
-      "경제적 대응 필요성 강조"
+      "한중일 재무장관, 의견 일치",
+      "중동 전쟁으로 경제 압박 우려",
+      "협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "시장 침체 서술이 누락되었을 수 있습니다 - invesco.com",
-    "original_title": "Market downturn narratives may be missing the mark - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhQWRtWXRLZkhITmpKLWRRWlpnVzFzcHVKU0lwRlZFS0o5UzI0X2lUcjl1VnIxUVpKNm5pTmhxZ21OQ3pVM0ZtQ2h2ZWtYSW9FbGx3YWZIcFNnY1Z4SE5NUFJqM1JUejBYVkszekt3RkktWVlhQzZV?oc=5",
-    "publisher": "invesco.com",
+    "title": "AI 주식이 이익에서 손실로 바뀌면서 월스트리트 요요 - 워싱턴 포스트",
+    "original_title": "Wall Street yo-yos as AI stocks swing from gains to losses - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMjNRdWVTdG9MZVVzZElvLTZLMWlRUWRzcUY3elpsakw3aUFXQ2NWbzFoaWlrT3pNMUZkUXVTek5tdHJkM3JsTDRBTkpxbzF1RlJqSHBaT3VUMmN5anBGdld2dnY1N0RMTDJjMWdhVnpVMmNqVGJoXzUxVmVCeFoyX1VTSXhoeU9yd1FyV0Npb0c4djh3VW5NWUFFeWxLUVc3MHlWSGY5NWU3bGlGMjQ3eHRsTTREZmtCcGt0SHkyVVVpeFJX?oc=5",
+    "publisher": "The Washington Post",
     "summary": [
-      "시장 하락 해석이 틀릴 수 있다",
-      "경제 지표는 긍정적이다",
-      "장기 투자 관점이 중요하다"
+      "AI 주식 변동성이 크다",
+      "월스트리트 불안정한 모습",
+      "주가 상승과 하락 반복"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "미국인 63%, 도널드 트럼프의 경제 정책에 반대 - YouGov",
+    "original_title": "A record 63% of Americans disapprove of how Donald Trump is handling the economy - YouGov",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkllQVdxaUhNMEIzdVp0dElTVHVyZHIwODRsWUxlOWFnc3V1M3VRRjE4SEgxWVMzYWdjOHJhbV9nVXFIaGNKelp4aFlwODNmREpUOFRVUkpTSTQ1cWNvM0pBSUdIci1MMV90bktrbmZ6cW84VU01b0ZkNURLUU1uSWhaR0dHbnJ6NzJFa2NRRUh1RTNseDhmSWNwbEhLRFZEUUE4bUl5MFp4bEp0WE1nb1FNaS1GZndwRktON2l1UlR3T2syMjNKaE9qWUR5YXhXVFZSRnZBeFZLQWo5?oc=5",
+    "publisher": "YouGov",
+    "summary": [
+      "63% 미국인, 트럼프 경제 불만",
+      "최고의 반대율 기록",
+      "경제 정책에 대한 불만 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -59,25 +73,11 @@
     "publisher": "Morningstar",
     "summary": [
       "성장주와 가치주의 균형 회복",
-      "시장 안정화 조짐",
-      "투자자 신뢰 증가"
+      "시장 안정성 증가",
+      "투자자 신뢰 회복"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "트럼프는 일자리 창출 보고서에 주가가 하락하자 깜짝 놀랐다. Barclays, '우리가 경고 구역에 진입하는 이유' 설명 - Fortune",
-    "original_title": "Trump stunned as stocks fall on great jobs report. Barclays explains why ‘we are entering the warning zone - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzFEM3JzbDBaaTZDbGdyMEh6aDVXbzZEQ01GaTdXUW41NlExYy1pYmtPMEZ3dlZOam81YWRSam9qeDRVYlR2N0tic1VIdldVcDl5QzU2MTFhTkl2VXVoRDNldklPVzhhbElBSlR0U0N3Z2Z1cW1lSWwxOUJvcG1BY21oSFlUbEVRMkN0dA?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "트럼프, 좋은 고용 보고서에 충격",
-      "주식 시장 하락, 경고 신호 들어서",
-      "바클레이즈, 경제 경고 구역 진입 설명"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
