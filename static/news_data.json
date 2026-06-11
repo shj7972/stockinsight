@@ -1,15 +1,15 @@
 [
   {
-    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 할인 시대는 끝났다",
-      "투자하기 좋은 시점",
-      "한국 시장에 대한 긍정적 전망"
+      "한중일 재무장관 회의",
+      "중동 전쟁으로 경제 리스크",
+      "하락 압박 목소리 통일"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,50 +17,36 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 조치 신속 시행 예정",
-      "중동 긴장으로 시장 불안 심화",
-      "일시적 조치로 안정 노력 예상"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장 고조에 따른 조치",
+      "경제 불안 요소 감소 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한중일 재무장관 공동 발표",
-      "중동 전쟁 경제 압박 언급",
-      "경제 안정 필요성 강조"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "주식 지급 붐이 미국 경제의 고조를 증폭시킵니다 - Reuters",
-    "original_title": "Stock-pay boom amplifies US economic drumbeat - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR29LanFSSUx5ZkQ3MnVYVUVtYmJTcXBCRDFsRDhjZ1JiYjllZ1RGM25DcWEzaGhJdmVzQVVBWXJmeGd6cE9jbnNFRGg5czVzMFh2VDNVeGd6dDhCWThYYnpVLUtud19qSVoxQVNBTjdxYXB4Y2dNWFd2clZFT0RJTjJCaXhhSVI3Ui1aRTFTMUZ3VGM4b2x0TXpDOTBqazhXYVEtY1BsamRPZ3FWVklXOFZqc1o?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "주식 보상 증가 추세",
-      "미 경제 성장 강화",
-      "투자자 신뢰 높아짐"
+      "1분기 경제 1.7% 성장",
+      "반도체가 주요 촉진제",
+      "중동 악재 영향 축소"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
+    "type": "국내"
   },
   {
-    "title": "미국 주식시장 전망: 성장주와 가치주의 균형으로 회귀 - Morningstar",
-    "original_title": "US Stock Market Outlook: Returning to Balance of Growth and Value Stocks - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHJ3YVAyaDBnbGNiV2NGb0Vjbm1WRlFBdEI4WUhrb2FOazRoUkRYd3FQSE5xcVdldURMRExEeDhWNV9oWWV6RkwxT1gxdnVsbGw5bEVXUW9xTUpvTWQ3UVBMbXdVYnEwdUxWZlo4em1EOVJOZ0dzblNJNzV0Tjg0WVBxOGVnTDdpaG51RWo4YU5DcWkyRFIzQ00zUzJrUXU4azlaV01HUmo?oc=5",
+    "title": "다음 시장 로테이션 전에 고려해야 할 미국 주식 5개 - 모닝스타",
+    "original_title": "5 US Stocks to Consider Before the Next Market Rotation - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbXI0RUdwcVNUZFotMXAtZ2hFZ3ZfSFVFSUFYQjJkbW40UWRYNXVEVWRzdXFsUUZJOWQ5eUdEQlJNMy1HN2NFbkE3U3BSVHJGNE5SNjc4ZHFNdkpzLU80cXVQQnhHbFlab0k4RThhYUlpMld0Zk5VN0VVd01mMWdMSlN1WTF5WndIWFpXZDUtV2VSZDNzSS1B?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "성장주와 가치주 균형 회복",
-      "시장 안정성 확대 예상",
-      "투자자 심리 개선 추세"
+      "투자할 미국 주식 5종목 제안",
+      "시장 회전 전에 준비 필요",
+      "Morningstar의 분석 기반"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhQWRtWXRLZkhITmpKLWRRWlpnVzFzcHVKU0lwRlZFS0o5UzI0X2lUcjl1VnIxUVpKNm5pTmhxZ21OQ3pVM0ZtQ2h2ZWtYSW9FbGx3YWZIcFNnY1Z4SE5NUFJqM1JUejBYVkszekt3RkktWVlhQzZV?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 하락 이야기 재검토 필요",
-      "경제 불확실성 지속",
-      "투자자 신뢰 회복 전망"
+      "시장 하락 이야기의 오류 지적",
+      "다양한 요인 고려 필요",
+      "긍정적 전망 유지 지지"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.2,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "해설: 글로벌 위기로 인해 무너지기를 거부하는 경제 - Fort Worth Inc.",
+    "original_title": "Commentary: The Economy That Refuses To Be Broken by This Global Crisis - Fort Worth Inc.",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFJWTTgtUVRqOGhId1V6dnRrMVdFQS1yeUM4X1BqTWZmVTE5VTJIRHVYMXRsX0tBZ2trV2hOTFJHOE52cEJ5RC1UdXhxZkJCdmUxbXpFZi1PaDhYZ0ZJaC1mYWhHOUhXX3g3dm1jalNuU2FsQzI3bktkdUhrbTl4WVQ4TlI2ZnBYZ1B1elVjR25QRmF2ckl2VUxJWGI2Zw?oc=5",
+    "publisher": "Fort Worth Inc.",
+    "summary": [
+      "경제는 글로벌 위기에 강하다",
+      "회복력 있는 시장 구조",
+      "미래 전망이 밝다"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
