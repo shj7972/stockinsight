@@ -1,15 +1,15 @@
 [
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관들, 경제 압박 경고",
-      "중동 전쟁의 영향 논의",
-      "전례 없는 경제 하락 우려"
+      "한국 할인 시대는 끝났다",
+      "투자하기 좋은 시점",
+      "한국 시장에 대한 긍정적 전망"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,53 +17,53 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 방안 긴급 실시",
-      "중동 긴장으로 시장 우려",
-      "경제 안정화 목적의 조치"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "국내"
-  },
-  {
-    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국 경제 1분기 1.7% 증가",
-      "반도체 산업 영향 큼",
-      "중동 악재 영향 감소"
+      "한국, 시장 안정 조치 신속 시행 예정",
+      "중동 긴장으로 시장 불안 심화",
+      "일시적 조치로 안정 노력 예상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "미국 주식시장 전망: 성장주와 가치주의 균형으로 복귀 - Morningstar",
-    "original_title": "US Stock Market Outlook: Returning to Balance of Growth and Value Stocks - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHJ3YVAyaDBnbGNiV2NGb0Vjbm1WRlFBdEI4WUhrb2FOazRoUkRYd3FQSE5xcVdldURMRExEeDhWNV9oWWV6RkwxT1gxdnVsbGw5bEVXUW9xTUpvTWQ3UVBMbXdVYnEwdUxWZlo4em1EOVJOZ0dzblNJNzV0Tjg0WVBxOGVnTDdpaG51RWo4YU5DcWkyRFIzQ00zUzJrUXU4azlaV01HUmo?oc=5",
-    "publisher": "Morningstar",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "성장주와 가치주의 균형 회복",
-      "시장 전망 긍정적",
-      "투자 심리 개선됨"
+      "한중일 재무장관 공동 발표",
+      "중동 전쟁 경제 압박 언급",
+      "경제 안정 필요성 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "주식 지급 붐이 미국 경제의 고조를 증폭시킵니다 - Reuters",
+    "original_title": "Stock-pay boom amplifies US economic drumbeat - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR29LanFSSUx5ZkQ3MnVYVUVtYmJTcXBCRDFsRDhjZ1JiYjllZ1RGM25DcWEzaGhJdmVzQVVBWXJmeGd6cE9jbnNFRGg5czVzMFh2VDNVeGd6dDhCWThYYnpVLUtud19qSVoxQVNBTjdxYXB4Y2dNWFd2clZFT0RJTjJCaXhhSVI3Ui1aRTFTMUZ3VGM4b2x0TXpDOTBqazhXYVEtY1BsamRPZ3FWVklXOFZqc1o?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "주식 보상 증가 추세",
+      "미 경제 성장 강화",
+      "투자자 신뢰 높아짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "AI 주가는 유가가 3% 이상 하락하면서 지난 주 갑자기 급락한 후 회복되고 있습니다 - Fortune",
-    "original_title": "AI stocks are recovering after suddenly tanking last week as oil prices drop more than 3% - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbjk5OUQzYVFzckR1U0pMampYTS1fWjZwWG00WmdKVVFxc0lOUDUwY01hRmd0RGdqdF95X1BTNFVucHJwbzY0cmttTGs5MUpXcThXUTNTUkE4RFY1RmM4bGRFU2RyT3NIY3dyN29oTFQ4c3ZCY092SjEwNzM5YW1XZnBBdGxMZGs2U1p3?oc=5",
-    "publisher": "Fortune",
+    "title": "미국 주식시장 전망: 성장주와 가치주의 균형으로 회귀 - Morningstar",
+    "original_title": "US Stock Market Outlook: Returning to Balance of Growth and Value Stocks - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHJ3YVAyaDBnbGNiV2NGb0Vjbm1WRlFBdEI4WUhrb2FOazRoUkRYd3FQSE5xcVdldURMRExEeDhWNV9oWWV6RkwxT1gxdnVsbGw5bEVXUW9xTUpvTWQ3UVBMbXdVYnEwdUxWZlo4em1EOVJOZ0dzblNJNzV0Tjg0WVBxOGVnTDdpaG51RWo4YU5DcWkyRFIzQ00zUzJrUXU4azlaV01HUmo?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "AI 주식이 회복세를 보임",
-      "지난주 급락 후 반등",
-      "유가 3% 하락 영향"
+      "성장주와 가치주 균형 회복",
+      "시장 안정성 확대 예상",
+      "투자자 심리 개선 추세"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhQWRtWXRLZkhITmpKLWRRWlpnVzFzcHVKU0lwRlZFS0o5UzI0X2lUcjl1VnIxUVpKNm5pTmhxZ21OQ3pVM0ZtQ2h2ZWtYSW9FbGx3YWZIcFNnY1Z4SE5NUFJqM1JUejBYVkszekt3RkktWVlhQzZV?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "시장 하락 내러티브가 부족하다",
-      "경제 상황에 대한 잘못된 해석",
-      "신중한 접근이 필요하다"
+      "시장 하락 이야기 재검토 필요",
+      "경제 불확실성 지속",
+      "투자자 신뢰 회복 전망"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.2,
     "type": "해외"
   }
 ]
