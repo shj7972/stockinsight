@@ -1,12 +1,25 @@
 [
   {
+    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
+    "publisher": "르몽드디플로마티크",
+    "summary": [
+      "금융은 산업 생태계의 파트너다.",
+      "산업 설계에 금융의 역할 강조.",
+      "지속 가능한 발전 필요."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국 할인 시대는 끝났다.",
-      "투자에 좋은 시점이다.",
-      "한국 경제에 대한 신뢰 증가."
+      "한국 할인 시대 끝났다",
+      "한국 투자 최적기",
+      "경제 긍정적 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 속 경제 불안 원인",
-      "투자자 신뢰 회복 기대"
+      "한국, 시장 안정 조치 신속 시행",
+      "중동 긴장감 여파 우려",
+      "경제 안정성 강화 필요성 대두"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한중일 재무장관 회의 소집",
-      "중동 전쟁으로 경제 압력 우려",
-      "공동 대응 필요성 강조"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -44,9 +44,23 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
     "publisher": "marketplace.org",
     "summary": [
-      "주식 시장 안정적인 성과",
-      "투자자 신뢰 증가",
-      "경제 회복 전망 긍정적"
+      "주식 시장이 꾸준히 성장 중",
+      "경제 지표가 긍정적",
+      "투자자 신뢰 회복"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프가 이란에 대한 공격을 취소하고 평화협정을 선전하자 주식시장이 급등했다 - 알자지라",
+    "original_title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTFuU2M0cHZheWpCaXhYZGliRXdsUm1FYURCWXcwOE1IZ2N1ME1zVklRZmtDTGE3aFo2ZHItMmhQVUFueUlhSlBFclEyUEEzcFJZeVVWSkR4d1V6MUZXN3JlbXRuVUlYZ2FvYlA4V1BvTGlKd19GNmJ6Z2NvU0F6S19vZmMxM3VkSjhzU0RjNkpRbWJNNlZUbmVHUl9ONXRLN0JhVlhHWWtkZDl4YW1KcUdBUjgzVWPSAbwBQVVfeXFMTVZLR1Z2NlRNNkU4Q0ZSNnBPX2ZMM0RYODBydzFIVWJJdU5RNktqOFdKU3RsSTN4SGQ5R0JtVzRPeDJVTDZTbDg2MjB3eGt4Mk0tQlJ3YVZZWWRTRTdJRDRKdHpRUnNvSTVMaVdWWERicUwyTU02N2tDVXJPS1FtM2xQYVZaLUg4T19qMzhMS2ZFUDNnd0VVal9yYzRHeFZJZlJqcW5ST29LRzB5TGpyN3pMTExna2J4OG4yQ0I?oc=5",
+    "publisher": "Al Jazeera",
+    "summary": [
+      "트럼프, 이란 공격 중단 발표",
+      "주식시장 급등",
+      "평화 협상 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbXI0RUdwcVNUZFotMXAtZ2hFZ3ZfSFVFSUFYQjJkbW40UWRYNXVEVWRzdXFsUUZJOWQ5eUdEQlJNMy1HN2NFbkE3U3BSVHJGNE5SNjc4ZHFNdkpzLU80cXVQQnhHbFlab0k4RThhYUlpMld0Zk5VN0VVd01mMWdMSlN1WTF5WndIWFpXZDUtV2VSZDNzSS1B?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "다섯 가지 주식 추천",
-      "시장 회전 필요성 강조",
-      "투자자 지침 제공"
+      "미국 주식 5종목 제안",
+      "시장 회전 고려 필요",
+      "모닝스타 분석 제공"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
-    "summary": [
-      "경제 지표 발표 예정",
-      "中央은행 결정 영향",
-      "시장 반응 분석 필요"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
