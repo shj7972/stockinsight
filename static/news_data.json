@@ -1,52 +1,52 @@
 [
   {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
-    "summary": [
-      "재정은 산업 생태계 설계의 파트너",
-      "금융과 산업의 협력이 중요함",
-      "지속 가능한 발전을 위한 전략 필요"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
-    "title": "Koo Yoon-chul “The Korea discount is a thing of the past···now is the golden time to invest in Korea” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BZmNmWFRTZmdLXzd5MnBpeHFDUlFXR3VocjIwN2ZmeXladzRZd1hScnNiZ3BvbW1PWmpsbThPdlNhc2hZY1dJRF9QNmFPV193UkVvamxkV3RGYi1jSFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한국 할인 시대는 끝났다",
-      "투자 속황이 좋다",
-      "한국 투자 기회가 많다"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 그린본드 발행 검토 중",
-      "녹색 금융 활성화 추구",
-      "경제 발전 위한 전략임"
+      "북한, 그린본드 발행 가능성 검토",
+      "녹색 경제 개발 촉진 중",
+      "녹색 금융 적극 추진 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "IPO 물결은 역사적입니다. 오늘날의 시장도 마찬가지입니다. - J.P. 모건",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관 회담",
+      "중동 전쟁 우려 표명",
+      "경제 하방 압박 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
+    "publisher": "알파경제",
+    "summary": [
+      "한국, 시장 안정 조치 시행 예정",
+      "중동 긴장감 반영",
+      "경제적 안정 추구 시도"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "IPO 물결은 역사적입니다. 오늘날의 시장도 그렇습니다. - J.P. 모건",
     "original_title": "The IPO Wave Is Historic. So Is Today’s Market. - J.P. Morgan",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM19WWEhGWjQ3akRnWXdVY3FvWExYNkZHWFFSQTlfX0lzMUVCOHFBMGFXV3cySWJxM1dLbTNtdU1BVE1DVTZCNFB5QTN1UEs1VUJkWVdSZEUzbWttT2hBRTNGdGhjZElWSWFjS0puVjdSZ0tabXExY0dJbll0X2FhVHdOdTl3WGxqS2U1VmNiWm10U3NSVjR0UWg5MGY2VlBxNnVtd19UNXMxVDFrSk9yVUlwcjVzVWFucDV3OGxPR20?oc=5",
     "publisher": "J.P. Morgan",
     "summary": [
-      "IPO 물결이 역사적이다",
-      "현재 시장 상황 특이하다",
-      "J.P. Morgan의 분석"
+      "IPO 시장 역사적 성장",
+      "현재 시장도 유례없는 변화",
+      "투자자들에게 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
     "publisher": "marketplace.org",
     "summary": [
-      "주식 시장이 잘 수행 중",
-      "강한 기업 실적",
-      "낮은 금리 환경"
+      "주식시장이 강세를 보임",
+      "투자자 신뢰 증가",
+      "경제 지표 호조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "다음 시장 순환 전에 매수해야 할 5개 주식 - Morningstar",
-    "original_title": "5 Stocks to Buy Before the Next Market Rotation - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0NyaTN2NUo1YW1pUk8xeU1udVhvMmNhb2ttbWpUejVMVjRqUlRSQld1LWd0NV9jQkZ6dkV2ajV1Z3ZqZ3lGRTRMRDU0WjRNNy1za2RpNC12NVc2NHFOOEszV18tcF9KQUdDR0hVdlJ3T1lWaHVWYmRsQzdYajhJVTRqY0MtMGFIQWZNcA?oc=5",
-    "publisher": "Morningstar",
+    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
+    "original_title": "What’s happening this week in economics? - Deloitte",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+    "publisher": "Deloitte",
     "summary": [
-      "다음 시장 회전 위한 5가지 주식",
-      "Morningstar 추천 주식 분석",
-      "투자자에게 긍정적 신호"
+      "경제 지표 발표 예정",
+      "금리 변화 예상",
+      "주요 기업 실적 공개"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
