@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-06-15",
+      "generated_at": "2026-06-15T00:08:11",
+      "sector_top3": [
+        [
+          "Healthcare",
+          1.2056550267553043
+        ],
+        [
+          "Real Estate",
+          0.8768366980240012
+        ],
+        [
+          "Technology",
+          0.8517640829920453
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "market": "US",
+          "sector": "Technology",
+          "entry_price": 382.07,
+          "rsi": 41.4,
+          "bb_pos": 19.6,
+          "vol_ratio": 0.88,
+          "macd_positive": false,
+          "sector_zscore": 0.85,
+          "ensemble_score": 0.6757,
+          "model_scores": {
+            "rf": 0.7037,
+            "xgb": 0.9654,
+            "mlp": 0.5884,
+            "lstm": 0.4454
+          },
+          "final_score": 0.6869,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.9)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 26.21,
+          "rsi": 55.0,
+          "bb_pos": 84.9,
+          "vol_ratio": 1.13,
+          "macd_positive": true,
+          "sector_zscore": 1.21,
+          "ensemble_score": 0.5368,
+          "model_scores": {
+            "rf": 0.5569,
+            "xgb": 0.6111,
+            "mlp": 0.4321,
+            "lstm": 0.547
+          },
+          "final_score": 0.6162,
+          "signal_summary": "MACD 골든크로스 · 섹터 모멘텀 상위 (Z=+1.2)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "market": "US",
+          "sector": "Consumer Staples",
+          "entry_price": 121.04,
+          "rsi": 47.4,
+          "bb_pos": 49.1,
+          "vol_ratio": 0.55,
+          "macd_positive": true,
+          "sector_zscore": -0.2,
+          "ensemble_score": 0.5968,
+          "model_scores": {
+            "rf": 0.6656,
+            "xgb": 0.4154,
+            "mlp": 0.6984,
+            "lstm": 0.6078
+          },
+          "final_score": 0.5525,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "247540.KQ",
+          "name": "에코프로비엠",
+          "market": "KR",
+          "sector": "Materials",
+          "entry_price": 170000.0,
+          "rsi": 39.1,
+          "bb_pos": 23.1,
+          "vol_ratio": 0.88,
+          "macd_positive": false,
+          "sector_zscore": 0.51,
+          "ensemble_score": 0.7702,
+          "model_scores": {
+            "rf": 0.9047,
+            "xgb": 0.9908,
+            "mlp": 0.5243,
+            "lstm": 0.6612
+          },
+          "final_score": 0.7276,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "105560.KS",
+          "name": "KB금융",
+          "market": "KR",
+          "sector": "Financials",
+          "entry_price": 161200.0,
+          "rsi": 54.6,
+          "bb_pos": 76.2,
+          "vol_ratio": 1.06,
+          "macd_positive": true,
+          "sector_zscore": 0.71,
+          "ensemble_score": 0.6965,
+          "model_scores": {
+            "rf": 0.5848,
+            "xgb": 0.9452,
+            "mlp": 0.4985,
+            "lstm": 0.7575
+          },
+          "final_score": 0.6908,
+          "signal_summary": "MACD 골든크로스 · 섹터 양호 (Z=+0.7)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "005930.KS",
+          "name": "삼성전자",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 322500.0,
+          "rsi": 57.4,
+          "bb_pos": 65.0,
+          "vol_ratio": 0.96,
+          "macd_positive": false,
+          "sector_zscore": 0.85,
+          "ensemble_score": 0.6085,
+          "model_scores": {
+            "rf": 0.5861,
+            "xgb": 0.525,
+            "mlp": 0.5578,
+            "lstm": 0.7652
+          },
+          "final_score": 0.6398,
+          "signal_summary": "섹터 양호 (Z=+0.9)",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-06-12",
       "generated_at": "2026-06-12T00:19:27",
       "sector_top3": [
@@ -955,166 +1115,6 @@
           },
           "final_score": 0.6004,
           "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        }
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "generated_at": "2026-06-04T01:42:39",
-      "sector_top3": [
-        [
-          "Technology",
-          2.7679040165564888
-        ],
-        [
-          "Energy",
-          0.5619235299741397
-        ],
-        [
-          "Healthcare",
-          0.2914767992331848
-        ]
-      ],
-      "us_picks": [
-        {
-          "ticker": "XOM",
-          "name": "ExxonMobil",
-          "market": "US",
-          "sector": "Energy",
-          "entry_price": 152.53,
-          "rsi": 51.7,
-          "bb_pos": 55.9,
-          "vol_ratio": 0.82,
-          "macd_positive": false,
-          "sector_zscore": 0.56,
-          "ensemble_score": 0.6327,
-          "model_scores": {
-            "rf": 0.6101,
-            "xgb": 0.5774,
-            "mlp": 0.7238,
-            "lstm": 0.6194
-          },
-          "final_score": 0.635,
-          "signal_summary": "섹터 양호 (Z=+0.6)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "market": "US",
-          "sector": "Technology",
-          "entry_price": 427.34,
-          "rsi": 52.8,
-          "bb_pos": 60.1,
-          "vol_ratio": 0.97,
-          "macd_positive": true,
-          "sector_zscore": 2.77,
-          "ensemble_score": 0.4262,
-          "model_scores": {
-            "rf": 0.4644,
-            "xgb": 0.4982,
-            "mlp": 0.3312,
-            "lstm": 0.4112
-          },
-          "final_score": 0.5983,
-          "signal_summary": "MACD 골든크로스 · 섹터 모멘텀 상위 (Z=+2.8)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "market": "US",
-          "sector": "Consumer Discretionary",
-          "entry_price": 423.7,
-          "rsi": 53.6,
-          "bb_pos": 46.0,
-          "vol_ratio": 0.86,
-          "macd_positive": false,
-          "sector_zscore": -0.44,
-          "ensemble_score": 0.6764,
-          "model_scores": {
-            "rf": 0.5548,
-            "xgb": 0.9422,
-            "mlp": 0.4984,
-            "lstm": 0.7103
-          },
-          "final_score": 0.5907,
-          "signal_summary": "복합 기술적 신호",
-          "current_price": null,
-          "return_pct": null
-        }
-      ],
-      "kr_picks": [
-        {
-          "ticker": "066570.KS",
-          "name": "LG전자",
-          "market": "KR",
-          "sector": "Technology",
-          "entry_price": 335000.0,
-          "rsi": 68.3,
-          "bb_pos": 86.8,
-          "vol_ratio": 0.43,
-          "macd_positive": true,
-          "sector_zscore": 2.77,
-          "ensemble_score": 0.6826,
-          "model_scores": {
-            "rf": 0.6435,
-            "xgb": 0.8479,
-            "mlp": 0.7957,
-            "lstm": 0.4433
-          },
-          "final_score": 0.7778,
-          "signal_summary": "MACD 골든크로스 · 섹터 모멘텀 상위 (Z=+2.8)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "003670.KS",
-          "name": "포스코퓨처엠",
-          "market": "KR",
-          "sector": "Materials",
-          "entry_price": 219000.0,
-          "rsi": 41.4,
-          "bb_pos": 22.2,
-          "vol_ratio": 0.29,
-          "macd_positive": false,
-          "sector_zscore": -0.24,
-          "ensemble_score": 0.7039,
-          "model_scores": {
-            "rf": 0.7376,
-            "xgb": 0.9329,
-            "mlp": 0.5679,
-            "lstm": 0.5773
-          },
-          "final_score": 0.625,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "105560.KS",
-          "name": "KB금융",
-          "market": "KR",
-          "sector": "Financials",
-          "entry_price": 159100.0,
-          "rsi": 56.3,
-          "bb_pos": 75.6,
-          "vol_ratio": 0.37,
-          "macd_positive": true,
-          "sector_zscore": -0.3,
-          "ensemble_score": 0.6582,
-          "model_scores": {
-            "rf": 0.5239,
-            "xgb": 0.9589,
-            "mlp": 0.5941,
-            "lstm": 0.5558
-          },
-          "final_score": 0.5879,
-          "signal_summary": "MACD 골든크로스",
           "current_price": null,
           "return_pct": null
         }
