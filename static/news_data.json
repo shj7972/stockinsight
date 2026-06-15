@@ -1,12 +1,25 @@
 [
   {
+    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
+    "publisher": "르몽드디플로마티크",
+    "summary": [
+      "금융은 산업 생태계 디자인 파트너",
+      "산업과 금융 협력 필요성 강조",
+      "지속 가능한 발전 목표 지향"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 그린본드 발행 검토 중",
-      "녹색 금융 적극 추진",
-      "녹색 경제 발전 목표"
+      "북한, 녹색 금융 활성화 추진",
+      "녹색 채권 발행 가능성 검토",
+      "경제 발전을 위한 새로운 기회"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -17,67 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 공동 목소리",
-      "중동 전쟁으로 경제 위험 경고",
-      "경제 하방 압력 증가 우려"
+      "경제 압박 하향 우려 공유",
+      "중동 전쟁 영향 언급",
+      "한중일 협력 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "미국과 이란이 전쟁을 끝내기 위한 합의에 도달한 후 주식 선물이 급등: 실시간 업데이트-CNBC",
+    "original_title": "Stock futures jump after the U.S. and Iran reach a deal to end the war: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zbDM0VGZuUjNaUlp2czRlcU5ibmRvS1RMZ2hMUTctUEZ4bVZiaXhBLUZWenFLTnd0bi00WF9la2dCODNNcnpidUFya2ZfeXp0TktqSHJUc01aWUtBd3JnTUduZUQ5UktWWjBJVXpyQVRlWld4V0lr0gF8QVVfeXFMTVp6RkV3aEQ2WGpyR1VPaGhOcmdnakRaZnFxVkROc3BhN2VzazhiRW5kNWIyNmtiSmhJMEotbWJHT3IxUHlYMFg3aGpadHJMbTdRbjJ2OTNqTkkyTHBnTllaVUNyZ0Y1UldVQTdiX21aYmxQaXFrcUlIU2FYdA?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "미국과 이란, 전쟁 종식 합의",
+      "주식 선물 급등",
+      "시장 기대감 상승"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "미국 경제가 계속해서 역경을 이겨내는 이유 - BBC",
+    "original_title": "Why the US economy keeps defying the odds - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wU3NMbFVscjM1QUo0REs2bEdYWWI2UGFqZ0dYOW9nSExMeVVraEhUbnlZQ3dLMUw5WG11bHdNUWozS00taDhicDFGTFNNQXdzVkx1RHN0V3lWUQ?oc=5",
+    "publisher": "BBC",
+    "summary": [
+      "미국 경제의 강한 회복력",
+      "예상 외의 성장률",
+      "고용 시장의 안정성"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "임금이 하락하고 있습니다. 부가 급증하고 있습니다. 미국인들이 불행한 것은 당연합니다. - 뉴욕타임스",
+    "original_title": "Wages Are Falling. Wealth Is Surging. No Wonder Americans Are Unhappy. - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW9US0tOVWJCb0FOcFRMcU95QWp1bG5pTW9wdTNhNDYwZXZOcUlsYkZudEhycUN4SnEtSm5pem4ycTR0WHVMa19waW5md1A5bGxCTlFja0E1YWM4aWNYWXpFQ2F6WnJaamdjRFo2R21FLVFxOUF5VFZWNXUxY1RDeGphaVRXd3E4QlE?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "임금 하락",
+      "재산 증가",
+      "미국인 불만족"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
-    "title": "South Korea to Swiftly Deploy Market Stabilization Measures Amid Middle East Tensions - 알파경제",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PRVFaOE9aaVRQVWRRaDdzNmo0ZHR5WWhjb0I4NlY3aUZaTkx5RkNlVm0yS1lGdzBCTzRpUENwdGxnUDZrcExheTN0cC1sX0hzclFtY1ZQRmFPQ29ndmfSAW5BVV95cUxQY0xta2FBblpSaldXVTBuN1pmbGVTT2E4dnJWR1BtRm9oMlJKZjRlc0RUSzVmS0FpN04tWGJuMEpiTmRqdkIzcjIyVXNIQTVMZnppNjJqckFfQndGYnFUb0R4NWJMa2ltSWRCbEtIUQ?oc=5",
-    "publisher": "알파경제",
-    "summary": [
-      "한국, 시장 안정 대책 신속 시행",
-      "중동 긴장 고조",
-      "경제 불안 우려와 대응"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "IPO 물결은 역사적입니다. 오늘날의 시장도 마찬가지입니다. - J.P. 모건",
-    "original_title": "The IPO Wave Is Historic. So Is Today’s Market. - J.P. Morgan",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM19WWEhGWjQ3akRnWXdVY3FvWExYNkZHWFFSQTlfX0lzMUVCOHFBMGFXV3cySWJxM1dLbTNtdU1BVE1DVTZCNFB5QTN1UEs1VUJkWVdSZEUzbWttT2hBRTNGdGhjZElWSWFjS0puVjdSZ0tabXExY0dJbll0X2FhVHdOdTl3WGxqS2U1VmNiWm10U3NSVjR0UWg5MGY2VlBxNnVtd19UNXMxVDFrSk9yVUlwcjVzVWFucDV3OGxPR20?oc=5",
-    "publisher": "J.P. Morgan",
-    "summary": [
-      "역사적인 IPO 물결",
-      "현재 시장도 역사적",
-      "JP모건의 긍정적 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇일까? -marketplace.org",
-    "original_title": "Why does the stock market continue to perform well? - marketplace.org",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
-    "publisher": "marketplace.org",
-    "summary": [
-      "주식 시장 호조 지속 이유",
-      "투자자 신뢰 증가",
-      "경제 성장 가능성 높음"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "다음 시장 순환 전에 매수해야 할 5개 주식 - Morningstar",
-    "original_title": "5 Stocks to Buy Before the Next Market Rotation - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0NyaTN2NUo1YW1pUk8xeU1udVhvMmNhb2ttbWpUejVMVjRqUlRSQld1LWd0NV9jQkZ6dkV2ajV1Z3ZqZ3lGRTRMRDU0WjRNNy1za2RpNC12NVc2NHFOOEszV18tcF9KQUdDR0hVdlJ3T1lWaHVWYmRsQzdYajhJVTRqY0MtMGFIQWZNcA?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "시장 회전 대비 주식 추천",
-      "5개 주요 주식 소개",
-      "투자 전략 분석"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
