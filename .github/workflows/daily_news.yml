@@ -1,16 +1,10 @@
 name: Daily News Update v4
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
   schedule:
     - cron: '0 23 * * *' # 08:00 KST (23:00 UTC)
     - cron: '0 8 * * *'  # 17:00 KST (08:00 UTC)
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch: # Allow manual trigger only
 
 permissions:
   contents: write
@@ -23,12 +17,12 @@ jobs:
     steps:
       - name: Diagnostic
         run: |
-          echo "WORKFLOW_VERSION=2026-03-13-v4-REFACTORED"
+          echo "WORKFLOW_VERSION=2026-06-16-v4-FIXED"
           python --version
           pip --version
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -83,30 +77,29 @@ jobs:
               if not os.path.exists("static/news_data.json"):
                   print("ERROR: news_data.json does not exist!")
                   sys.exit(1)
-              
+
               with open("static/news_data.json", "r", encoding="utf-8") as f:
                   content = f.read()
                   if not content.strip():
                       print("ERROR: news_data.json is empty (0 bytes)!")
                       sys.exit(1)
                   d = json.loads(content)
-              
+
               print(f"News items found: {len(d)}")
               if len(d) == 0:
                   print("ERROR: news_data.json contains an empty list!")
                   sys.exit(1)
-              
-              # Check for changes
+
               new_hash = hashlib.md5(content.encode("utf-8")).hexdigest()
               old_hash = os.environ.get("OLD_HASH", "")
               print(f"Old Hash: {old_hash}")
               print(f"New Hash: {new_hash}")
-              
+
               if old_hash == new_hash:
                   print("WARNING: news_data.json content unchanged!")
               else:
                   print("SUCCESS: news_data.json was updated!")
-                  
+
           except Exception as e:
               print(f"ERROR validating news_data.json: {e}")
               sys.exit(1)
@@ -116,4 +109,22 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -f static/news_data.json
-          git diff --staged --quiet || (git commit -m "Auto-update news data [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git pull --rebase && git push)
+
+          # Only commit and push if there are staged changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update news data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+
+          # Retry push up to 3 times to handle concurrent run race conditions
+          for i in 1 2 3; do
+            echo "Push attempt $i..."
+            git pull --rebase origin master && git push && echo "Push succeeded." && exit 0
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
+
+          echo "ERROR: All push attempts failed."
+          exit 1
