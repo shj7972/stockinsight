@@ -73,18 +73,27 @@ def translate_text(text, target_lang='ko'):
         return text
 
 def get_index_data(ticker_symbol):
-    """Fetches index data for major indices."""
+    """Fetches index data for major indices.
+    
+    Uses period='5d' with dropna() to avoid NaN close prices that occur
+    when the current trading session is still open or data is not yet settled.
+    """
     try:
         ticker = yf.Ticker(ticker_symbol)
-        history = ticker.history(period="2d")
+        history = ticker.history(period="5d")
         if history is None or history.empty:
             return None, None, None
-        
-        current_price = history['Close'].iloc[-1]
-        prev_price = history['Close'].iloc[-2] if len(history) > 1 else current_price
+
+        # Drop rows where Close is NaN (can happen during active trading sessions)
+        close = history['Close'].dropna()
+        if close.empty:
+            return None, None, None
+
+        current_price = float(close.iloc[-1])
+        prev_price = float(close.iloc[-2]) if len(close) > 1 else current_price
         change = current_price - prev_price
         change_pct = (change / prev_price * 100) if prev_price != 0 else 0
-        
+
         return current_price, change, change_pct
     except Exception as e:
         return None, None, None
@@ -630,56 +639,60 @@ def get_sector_performance():
         spy_hist = spy.history(period="3mo")
         if spy_hist.empty or len(spy_hist) < 20:
             return []
-            
-        spy_close = spy_hist['Close']
-        spy_1m_return = (spy_close.iloc[-1] / spy_close.iloc[-20] - 1) * 100
-        spy_3m_return = (spy_close.iloc[-1] / spy_close.iloc[0] - 1) * 100
-        
+
+        # Drop NaN rows (last row may be NaN during active trading sessions)
+        spy_close = spy_hist['Close'].dropna()
+        if len(spy_close) < 20:
+            return []
+        spy_1m_return = (float(spy_close.iloc[-1]) / float(spy_close.iloc[-20]) - 1) * 100
+        spy_3m_return = (float(spy_close.iloc[-1]) / float(spy_close.iloc[0]) - 1) * 100
+
         # Fetch Sector Data
         tickers = list(sectors.keys())
         raw = yf.download(" ".join(tickers), period="3mo", progress=False, auto_adjust=True)
         if raw.empty:
             return []
-        
+
         # Normalize MultiIndex: yfinance 0.2.54+ returns MultiIndex columns
         if isinstance(raw.columns, pd.MultiIndex):
             data = raw['Close']
         else:
             data = raw[['Close']] if 'Close' in raw.columns else raw
-        
+
         for ticker, name in sectors.items():
             if ticker not in data:
                 continue
-                
-            series = data[ticker]
-            if len(series) < 20: 
+
+            # Drop NaN rows before accessing values
+            series = data[ticker].dropna()
+            if len(series) < 20:
                 continue
-            
-            curr = series.iloc[-1]
-            prev_1m = series.iloc[-20]
-            prev_3m = series.iloc[0]
-            
+
+            curr = float(series.iloc[-1])
+            prev_1m = float(series.iloc[-20])
+            prev_3m = float(series.iloc[0])
+
             pct_1m = (curr / prev_1m - 1) * 100
             pct_3m = (curr / prev_3m - 1) * 100
-            
+
             # Relative Strength (RS) vs SPY
             rs_1m = pct_1m - spy_1m_return
-            
+
             performance_data.append({
                 'ticker': ticker,
                 'name': name,
                 'return_1m': pct_1m,
                 'return_3m': pct_3m,
-                'rs_1m': rs_1m, # Relative Strength
+                'rs_1m': rs_1m,
                 'current_price': curr
             })
-            
+
         # Sort by 1M RS
         performance_data.sort(key=lambda x: x['rs_1m'], reverse=True)
-            
+
     except Exception as e:
         print(f"Sector Performance Error: {e}")
-        
+
     return performance_data
 
 def get_cycle_recommendation(cycle_type):
@@ -935,32 +948,36 @@ def get_sector_top_stocks(cycle_bullish_sectors):
         return []
         
     try:
-        raw3 = yf.download(" ".join(candidates), period="2d", progress=False, auto_adjust=True)
+        # Use period='5d' so we have enough data even if last row is NaN
+        raw3 = yf.download(" ".join(candidates), period="5d", progress=False, auto_adjust=True)
         if raw3.empty:
             return []
-            
+
         data = raw3['Close'] if isinstance(raw3.columns, pd.MultiIndex) else (raw3[['Close']] if 'Close' in raw3.columns else raw3)
         for ticker in candidates:
             if ticker not in data:
                 continue
-                
-            series = data[ticker]
+
+            # Drop NaN rows (last row may be NaN during active trading sessions)
+            series = data[ticker].dropna()
             if len(series) < 2:
                 continue
-                
-            change_pct = (series.iloc[-1] / series.iloc[-2] - 1) * 100
-            
+
+            curr_price = float(series.iloc[-1])
+            prev_price = float(series.iloc[-2])
+            change_pct = (curr_price / prev_price - 1) * 100
+
             top_picks.append({
                 'ticker': ticker,
-                'price': series.iloc[-1],
+                'price': curr_price,
                 'change_pct': change_pct,
-                'sector': next((k for k,v in constituents.items() if ticker in v), "Unknown")
+                'sector': next((k for k, v in constituents.items() if ticker in v), "Unknown")
             })
-            
+
         # Sort by best performance today
         top_picks.sort(key=lambda x: x['change_pct'], reverse=True)
-        return top_picks[:6] # Top 6
-        
+        return top_picks[:6]  # Top 6
+
     except Exception as e:
         print(f"Top Stocks Error: {e}")
         return []
