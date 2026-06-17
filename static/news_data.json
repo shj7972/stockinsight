@@ -1,42 +1,56 @@
 [
   {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
+    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
+    "publisher": "NK경제",
     "summary": [
-      "금융은 산업 생태계 설계의 동반자",
-      "산업 혁신을 지원해야 한다",
-      "협력 통한 지속 가능성 강조"
+      "북한, 그린본드 발행 가능성 검토",
+      "지속 가능한 경제 발전 강조",
+      "그린 금융 활성화 추진 중"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "1분기 한국 경제 1.7% 급반등…반도체가 중동 악재 눌렀다 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Y2xDcThmd2hnam80SHQ3VlIzNjQ3Rmw3N29CSmx3SUQ4SnlrbklqYmNMUk1peUNZdUN0LVVPdU9IM0xZU01rNVNBeFc2bjJGc2FHZlNZQUlseE9tMkUwR0FyOWxqcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "1분기 경제 성장률 1.7% 증가",
+      "반도체 산업이 주요 역할",
+      "중동 악재 영향 미미"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "Government Revamps KSP Program to Expand Overseas Opportunities for Korean Companies - Korea IT Times",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JRzZmODV5QlUtUEFSelBIV1NVOXREd0pzbF9hY2FJblp5WVVOcHFFNVlodzY3WGVLNURCbkc5R3A2NXNlbWFHYlpQWXo0bnlLWEhQR0kyWHFKYTA0b3dwZkYwcXk5VktPVFJqWmFZTGg?oc=5",
-    "publisher": "Korea IT Times",
+    "title": "금융자산 10억 이상 ‘한국 부자’는 47.6만명…‘부동산보다 주식이 유망’ - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VOFZBeXZ2U0E2aTdJN05WQUYweDBBWEw0bXpLcHY0SzI2N2VHYWNCRjJkRTlMNktpYTdjVFRVdk5lN096ZW4yTVllU2tLQ1VVQURUeEJMZ3FuR3Z2YWFvYkJaRUlieFU?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "KSP 프로그램 개편 소식",
-      "해외 진출 기회 확대",
-      "한국 기업 지원 강화"
+      "한국 부자 47.6만명",
+      "부동산보다 주식 선호",
+      "금융자산 10억 이상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
+    "title": "오늘 미국 주식 시장: 공장 데이터가 경기 냉각 신호를 보내면서 S&P 500 선물 하락 - Yahoo Finance",
+    "original_title": "US Stock Market Today: S&P 500 Futures Slip As Factory Data Signals Cooling Economy - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlE4SkI5NzhtVk5fQzA4aGJDRjVPRXMyWDU5djdHY1Q3MXRVbWZ3T3dqQXk1WEppdC1wbDBxVjBNdk41M29BX0RrYi1qUy1Vel9mS2VzZW9EaGV3bGN4bGoyaURPWTJkY3h3SG5Pem53TWFjMjhaa0tYY180WUxWUXZ0dFNuQURoam1JTWpTQ1p3QQ?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "한중일 재무장관 긴급 회의 개최",
-      "중동 전쟁으로 경제 압박 증가",
-      "공동 대응 필요성에 합의"
+      "S&P 500 선물 하락",
+      "공장 데이터 둔화 신호",
+      "경제 냉각 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "국내"
+    "type": "해외"
   },
   {
     "title": "미국-이란 협정으로 에너지 혼란 종식에 대한 희망 불러일으키면서 미국 증시 급등 - Al Jazeera",
@@ -44,40 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식 시장 급등",
-      "미국-이란 협정 긍정적",
-      "에너지 혼란 해소 기대"
+      "미국 주식 시장 상승",
+      "미국-이란 거래 기대감",
+      "에너지 혼란 종식 희망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇일까? -marketplace.org",
-    "original_title": "Why does the stock market continue to perform well? - marketplace.org",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
-    "publisher": "marketplace.org",
+    "title": "트럼프 행정부 하의 주식시장: 2026년 시장을 주도하는 것은 무엇인가? - 미국 은행",
+    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
+    "publisher": "U.S. Bank",
     "summary": [
-      "강한 기업 실적 지속",
-      "금리 안정화 기대",
-      "투자자 신뢰 증가"
+      "트럼프 행정부 주식시장 동향",
+      "2026년 시장 전망 분석",
+      "주요 경제 요인 설명"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "RBC 웰스 매니지먼트(RBC Wealth Management)는 기업 실적이 개선되고 경제가 견고해지면서 미국 주식시장이 우려의 벽을 오르고 있다고 밝혔다 - PR Newswire",
-    "original_title": "U.S. stock market climbs the wall of worry as corporate earnings brighten and economy holds firm, RBC Wealth Management suggests - PR Newswire",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSXM4SkZRdDdpemt5VFRmSVBLcExCeE1fLThGdlVzZXRTem5pNDdqZF9hZGdXal9WZGtNd1p5Uk1KemJRMlEzZklxRFEzYjFMZlhtTHBfM0gtbkVWWjI5aTk0WkZ6OG1BMnp6U2gtSVM1ay03TF84N0t1dzdZWTRJT3hXR2Z6VnlZOHJ1X0tGZ2NXZ0xUYVZQLXk4OFUwa2dBQUtuNVJXTWNXNDV1OWtSak1QeU1TUUN5Z0lsN1RyNGoxTzlIVTZkVFFMMUh4Yzk0aGtISUx1VUZxUU5YLS1DaUV4Q0F2TkcyZ2ZlSjQ4RktjOXVnUHVNcEJuejJhYXdsUFp1cFpCLWRxd0Nwd3c?oc=5",
-    "publisher": "PR Newswire",
-    "summary": [
-      "미국 주식시장 상승 중",
-      "기업 실적 개선",
-      "경제 안정적 유지"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
