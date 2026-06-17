@@ -2781,6 +2781,40 @@ async def sitemap():
         <priority>0.9</priority>
     </url>
 """
+
+    # Extended high-search-volume stock URLs (not in main candidates list)
+    SITEMAP_EXTRA_US = [
+        "SOFI", "RIVN", "LCID", "NIO", "BABA", "PDD", "SNOW", "RBLX",
+        "HOOD", "AFRM", "UPST", "SMCI", "ARM", "AVGO", "TSM",
+    ]
+    SITEMAP_EXTRA_KR = [
+        "003550.KS",  # LG
+        "096770.KS",  # SK이노베이션
+        "017670.KS",  # SK텔레콤
+        "066570.KS",  # LG전자
+        "030200.KS",  # KT
+        "316140.KS",  # 우리금융지주
+        "323410.KS",  # 카카오뱅크
+        "034730.KS",  # SK
+        "011170.KS",  # 롯데케미칼
+        "000810.KS",  # 삼성화재
+        "086520.KQ",  # 에코프로
+        "196170.KQ",  # 알테오젠
+        "028300.KQ",  # HLB
+        "035900.KQ",  # JYP Ent.
+        "352820.KQ",  # 하이브
+    ]
+    existing_ticks = {t for t, _ in US_CANDIDATES + KR_CANDIDATES}
+    for tick in SITEMAP_EXTRA_US + SITEMAP_EXTRA_KR:
+        if tick not in existing_ticks:
+            sitemap_xml += f"""    <url>
+        <loc>{base_url}/stock/{tick}</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.85</priority>
+    </url>
+"""
+
     
     # Add dated daily report permalinks
     for dr_date in _recent_dr_dates(30):
