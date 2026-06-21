@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZNVI1dVhoeW04TUx5V3M2RmxhWUQ2Q05tSjZYWGtMRW1SUjJia045ZGZBQ2RscGtnczlTOWlkajUyRGdOd19ETWM3YWU1ZlZiQm5iVHNxdXQ2QTBDTkdpMTNxSGRVU2t0NkJHTFp3?oc=5",
     "publisher": "알파경제",
     "summary": [
-      "한국, IMD 경쟁력 6위 상승",
-      "세계 21위 기록",
-      "경제적 전망 긍정적"
+      "한국, IMD 경쟁력 지수 21위",
+      "순위 6단계 상승",
+      "경제 경쟁력 개선 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,22 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융, 산업 생태계 설계의 파트너 역할",
-      "생태계 발전에 필수적 금융 전략 제안",
-      "재정 지원으로 혁신 촉진 필요성 강조"
+      "금융, 산업 생태계 설계 동반자 필요",
+      "산업 발전 위해 협력 중요",
+      "금융 혁신의 역할 강조"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
-    "publisher": "한겨레",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "신용대출 1조 원 증가",
-      "주담대 금리 7.3% 도달",
-      "빚투 영향 커짐"
+      "한중일 재무장관 공동성명",
+      "중동 전쟁의 경제적 압박",
+      "경제 위험에 대한 공감대 형성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식 시장 상승",
-      "미국-이란 합의 기대",
-      "에너지 혼란 종료 예상"
+      "미국 주식시장 급등",
+      "미국-이란 합의 기대감",
+      "에너지 혼란 종료 희망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -59,8 +59,8 @@
     "publisher": "Yahoo Finance",
     "summary": [
       "S&P 500 선물 하락",
-      "공장 데이터 둔화 신호",
-      "경제 Cooling 우려"
+      "제조업 데이터 둔화",
+      "경제 냉각 신호"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObnpIdThRU1U5eEs5M2lRRlctRjZwSXU0UG80VmlsOEhlNG1HV2NLSk1SNTR1STNLT0lLNll5R1I3VmEwc3F6M1lUSzNUS3FDdExId3M4aExqVVZOTnliTXJlMXRabGRGbkZzWjBkUzhiOTJPZXJ5eEpJWVZDYzB5aWZqYkFzLTVZMmY4?oc=5",
     "publisher": "Barron's",
     "summary": [
-      "외교 정책은 주식시장에 영향받지 말아야",
-      "트럼프의 주장은 잘못됨",
-      "경제 정책은 더 중요한 요소"
+      "트럼프의 의견은 잘못됐다",
+      "주식시장 외교에 영향을 주지 말아야",
+      "정책은 시장 변동에 의존하지 않아야"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
