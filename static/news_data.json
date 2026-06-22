@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계의 파트너 필요",
-      "산업 디자인을 위한 자금 조달 중요",
-      "협력을 통해 지속 가능성 추구"
+      "재정, 산업 생태계 설계 동반자 필요",
+      "산업 혁신에 대한 투자의 중요성 강조",
+      "환경 지속 가능성 고려한 금융 필요"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -18,8 +18,8 @@
     "publisher": "알파경제",
     "summary": [
       "한국, IMD 경쟁력 지수 21위",
-      "6단계 상승",
-      "경제 전망 긍정적"
+      "순위 6계단 상승",
+      "경제 전반에 긍정적 신호"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -31,11 +31,11 @@
     "publisher": "경향신문",
     "summary": [
       "한중일 재무장관 회담 개최",
-      "중동 전쟁 경제 압박 우려",
-      "경제적 협력 필요성 강조"
+      "중동 전쟁의 경제적 위험 언급",
+      "공동 대응 방침 합의"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식 시장 상승",
-      "미국-이란 거래 기대감",
-      "에너지 혼란 종식 가능성"
+      "미국 증시 급등",
+      "미국-이란 협상 기대",
+      "에너지 혼란 해소 희망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "도널드 트럼프가 틀렸다. 주식시장이 절대로 외교정책을 결정해서는 안 된다. - 배런의",
-    "original_title": "Donald Trump Has It Wrong. The Stock Market Should Never Determine Foreign Policy. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObnpIdThRU1U5eEs5M2lRRlctRjZwSXU0UG80VmlsOEhlNG1HV2NLSk1SNTR1STNLT0lLNll5R1I3VmEwc3F6M1lUSzNUS3FDdExId3M4aExqVVZOTnliTXJlMXRabGRGbkZzWjBkUzhiOTJPZXJ5eEpJWVZDYzB5aWZqYkFzLTVZMmY4?oc=5",
-    "publisher": "Barron's",
+    "title": "오랫동안 연준 의장을 역임한 앨런 그린스펀(Alan Greenspan)이 100세의 나이로 사망했습니다. - ABC News - 속보, 최신 뉴스 및 비디오",
+    "original_title": "Alan Greenspan, longtime chairman of the Federal Reserve, dies at 100 - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYXo0WUNLQWNxTy02eEJtSF9VQTM1eUtvMWtXMndXeWJPUkNRcldqZndPN1M1LVJJWjFzRVVhbm5GbWw5UXpucEUxVnhaZTlfUk9RUmFzS0NLbVJrTnNHT2pIelllN1lGb084emdnQVJSdTFoMmR4T01USGF3clZqaXdzcF9aZXgyaHFTVWdrNVYxdmNZMkw4SUhURk5aYjF0MURKZWZtQdIBrAFBVV95cUxPNDV2VVR1UnlORldBUXo3aUltVTV5N3JzODdDSWhmWHJraG40d0prZEZSQUQ3QjFERXQ5Y0NlU2pMZjlJZ1hrc1pDTTcteUpRMUNVUFhtd3RXRnRhQldBX0FjSGlTZTZyRkU1M1FYVUlEMDJaMW9MVFNvcXY4UzU5MURWZXhqb2xQZ0VHX1Z4ODY1VjdPbktwSlVDMF9haTltdHh4dFRmWUJJVFhK?oc=5",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
     "summary": [
-      "트럼프의 외교정책 접근법 비판",
-      "주식시장은 외교와 무관해야",
-      "경제의 안정성 우선시 필요"
+      "그린스펀, Fed 의장으로 유명해",
+      "100세에 세상 떠나다",
+      "경제 정책에 큰 영향 미침"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "오늘 미국 주식 시장: 공장 데이터가 경기 냉각 신호를 보내면서 S&P 500 선물 하락 - Yahoo Finance",
-    "original_title": "US Stock Market Today: S&P 500 Futures Slip As Factory Data Signals Cooling Economy - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlE4SkI5NzhtVk5fQzA4aGJDRjVPRXMyWDU5djdHY1Q3MXRVbWZ3T3dqQXk1WEppdC1wbDBxVjBNdk41M29BX0RrYi1qUy1Vel9mS2VzZW9EaGV3bGN4bGoyaURPWTJkY3h3SG5Pem53TWFjMjhaa0tYY180WUxWUXZ0dFNuQURoam1JTWpTQ1p3QQ?oc=5",
-    "publisher": "Yahoo Finance",
+    "title": "주식 시장이 얼마나 좋은지 보고 놀랐다면 Jamie Dimon도 마찬가지입니다 - Fortune",
+    "original_title": "If you're surprised by how well the stock market is doing, so is Jamie Dimon - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ05ONS1uRV9SZGFzOG5BLVZIbFpsXzdQQTlKRGU3Y29qMEtHTldXMDJBaWF2WHVnTUhpZFBrWXNnTDVyOUdoMnE1NFIyVzJmOTNCajJUQmZCWDVRUW5wX0R0VHRickpJN08yNEVNalNaVHdIenppUUFYNUg3NjFVaDMxLVVvYURiOC1kaUFrNENmUmtCREw0?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "S&P 500 선물 하락",
-      "제조업 데이터 둔화 신호",
-      "경제 냉각 우려"
+      "주식 시장, 다소 예상 밖의 호조",
+      "제이미 다몬도 놀람",
+      "시장 전망에 대한 불확실성"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.2,
     "type": "해외"
   }
 ]
