@@ -1,25 +1,12 @@
 [
   {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
-    "summary": [
-      "금융은 산업 생태계 파트너 역할 필요",
-      "산업 디자인에 금융의 참여 중요",
-      "경제의 지속 가능성 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무장관, 중동 전쟁 우려 표명",
-      "경제적 하방 압력 강조",
-      "단합된 대응 필요성 언급"
+      "한중일 재무장관 회의 개최",
+      "중동 전쟁 경제적 압박 우려",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -27,16 +14,43 @@
   },
   {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiWDltekRSaE1za0FHTFJITWxDR1AzVHJEUTJwU1hCbXdpZUVTLVdHOFJVYnpJRm92LVhxeFY2UlVhcnNMdlFSTF9ka1BPRUxPOFgzY1JYSnhYMTlwV08wUGpzaFM1b1pReldj0gFuQVVfeXFMTlBSU2k3WWdnQVdBbDl5LXNva0YtajZHSjA1WVFFUkFUZDdPTndoZmQ2OUxuS0dKaFBwamlyUjN0Nk1MMnVxU2NWQlFLOC1VbzFmZEZYWExhMDQ5YjRVUXFlUW12TGtJTWhueHFWX3c?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색채권 발행 고려",
-      "친환경 경제 개발 촉진",
-      "녹색 금융 적극적 추진"
+      "북한, 녹색 채권 발행 검토",
+      "녹색 금융 적극 추진",
+      "녹색 경제 발전 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "신용대출 1조 증가",
+      "주담대 금리 7.3% 도달",
+      "빚투 영향 확대"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "시장에서 2분 | 미국 정보 - Charles Schwab International",
+    "original_title": "2 Minutes on the Markets | U.S. Insights - Charles Schwab International",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiM1VZM016M2J3aUdZbnJCV0NNZE90RDhqQmZTOC1ibkN6cnlsVzNtMzFQdDlsMGlBbDdSd05KYjcxUG56QjRjU0UwR0QtZURsVV80TFRDSlBxT0FoTHdZNjdteTl1ODlKaUVURXRPeWoyU1VtSVlOY0dVTQ?oc=5",
+    "publisher": "Charles Schwab International",
+    "summary": [
+      "미국 시장 동향 분석",
+      "단기 전망 소개",
+      "경제 지표 업데이트"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "외국인 매수로 미국 주식 가치가 14조 달러 증가 - Forbes",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQczhjcFJyTG9KekZOMmZ3bWdBcG1jblFsQjZSa05UWldfWVNuUXJiSzNLRXNwVm5pT1dHNHE0OFJ6TFdCNnFCQ0Z1ZXF4Qnp0emY1bGF0ZXdDeC0wdlBhVlkzMHJhVGtvcWhLRWZmbTRBRUlhYVp4c2xKSU83MEFob2dobzVkM0RQeC1tVFhRWTZiRF83azFVSVVKbGN3dEdlSlUxazV3?oc=5",
     "publisher": "Forbes",
     "summary": [
-      "외국인 투자로 14조 달러 증가",
+      "외국인 매수로 14조 달러 증가",
       "미국 주식 가치 상승",
-      "시장 신뢰도 높아짐"
+      "글로벌 투자자 매력 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "KPMG의 최고 이코노미스트는 미국 경제가 특히 주식시장 조정에 취약하다고 경고했습니다.",
-    "original_title": "KPMG's top economist warns the US economy is especially vulnerable to a stock market correction - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1lmczROTkh1WnZEdHdJY0JDRGlIYk5ZWFBsODBQQWgwdXc0dkpiNkZ4MTMtVWJ3WDRib2R0b0piOURpcEZZazRIdi1tYTh5YlMybmxQM0xpTjBFNFlnZHNSY2Y2NDJ3bkQ2N29mM1NNV1QzLTZ4V01FWVh3ZlFCVGlxV3JsOEtuX3BadF9HS015UzhZWUttNVVrVmZJSktZNnVVcUY2aw?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "미국 경제, 주식시장 조정 취약",
-      "KPMG 경제학자 경고",
-      "부정적 시장 전망"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇입니까? -marketplace.org",
+    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇일까? -marketplace.org",
     "original_title": "Why does the stock market continue to perform well? - marketplace.org",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
     "publisher": "marketplace.org",
     "summary": [
-      "주식 시장 강세 지속 이유",
-      "투자자 신뢰 증가",
-      "경제 성장 전망 긍정적"
+      "주식 시장은 계속해서 상승 중이다.",
+      "투자자 신뢰가 회복되었다.",
+      "경기 회복 기대감이 높다."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
