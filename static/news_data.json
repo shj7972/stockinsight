@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재무는 산업 생태계 설계에 기여해야",
-      "산업과 재무 협력의 중요성 강조",
-      "지속 가능한 발전을 위한 접근 필요"
+      "금융은 산업 생태계 설계 파트너여야",
+      "산업 생태계 협력의 중요성 강조",
+      "지속 가능한 금융 모델 제안"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 회의",
-      "중동 전쟁으로 경제 하방 압력",
-      "정상적인 의견 일치"
+      "중동 전쟁, 경제 하방 압력 우려",
+      "한중일 재무장관 공동 성명",
+      "정세 불안정성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색 채권 발행 가능성 언급",
-      "녹색 금융 적극 추진 중",
-      "녹색 경제 발전 목표 설정"
+      "북한, 그린 본드 발행 가능성 검토",
+      "녹색 금융 적극 촉진",
+      "녹색 경제 발전 목표 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
   },
   {
-    "title": "오늘의 주식 시장: 기술주 매도세가 심화되면서 나스닥 선물 하락 — 실시간 업데이트 - WSJ",
-    "original_title": "Stock Market Today: Nasdaq Futures Fall as Tech Selloff Deepens — Live Updates - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1FXVTFneFp1clJtNnM1RTFSd3NyeDBabDdGLXRtRDE5TXhvRXhyYTBGVjhoS1ZSSDdZbGdsRW5MY09qb2ZvSHRYTnZzYlZtV3NXc0tFcHdiMFR3blNNY1dHbV9yR0c3OHdMR3ZOR0VZNWRkNWJaNVlrb0FWSVB1UVJWbTRKdk0?oc=5",
+    "title": "주식 상승이 새로운 우려와 충돌 - WSJ",
+    "original_title": "Stock Rally Collides With a New Slate of Worries - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnk3WWktNHRhd1ozMVdZazN4Q1cyMUY0OFBpRjZzT2FsRFdPRkNPbmdJRS1KdkFud19tb0lpN0p4WVMybDFDaG9tblFxU1RZVVN3Q2FhUW1WVWlnV2pzSEV0YjktT1o2bVljS1RrbGQwbXJXTjE4YXZ2TzVRLWY4cGcza3k1N0hIZFprVmVGWDNxaGhFU3Rz?oc=5",
     "publisher": "WSJ",
     "summary": [
-      "나스닥 선물 하락",
-      "기술주 매도 심화",
-      "시장 불안감 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "Take Five: 침착함을 유지할 시간 - Reuters",
-    "original_title": "Take Five: Time to keep your cool - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcXhwLV90UDZaNEhJNHQ4THhveS1zZnpxSDc4NE9YWFFMck9DMHRMeVRGaTdQVUxjUDZSNGFLRmVNWXhQc2JqT1Nabi1MSzVZb2MybE4wb3V0bm8zU18wdGNlTDlkY1I5bU1iUGZoa2lERENYNDVKSzVBNzJweG5ZQ1QtNHJEV2xCSWRWSQ?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "시장 안정을 유지해야 함",
-      "투자자에게 신중함 요구",
-      "급변 상황 대응 중요"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "기술주 매도세가 심화되면서 나스닥 선물 하락 - WSJ",
-    "original_title": "Nasdaq Futures Slip as Tech Selloff Deepens - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLUpmajZKaHk4blJ5M0dQRFRpVXNUN3c0ejlsRFJWa2xXUDFsMm9PUUhsX0hTR2VnbkdieWdkbXI3QXRuRzdYZ2hmSUdvYzRYaGNQVUZORUg2LVJlOEN3d2VxNzhGOVB4alZNeEFSdWFsam40N3piNHNidldVTjZfSW9PUnJodE1MOFUteVhpcFI?oc=5",
-    "publisher": "WSJ",
-    "summary": [
-      "나스닥 선물 하락",
-      "기술주 매도 심화",
-      "시장 불안감 증가"
+      "주식 랠리, 새로운 우려와 마주하다",
+      "투자자 심리 변화 관찰",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "오늘 주식 시장: 유가 폭락으로 기술주 패퇴 후 다우, S&P 500, 나스닥 반등 - Yahoo Finance",
+    "original_title": "Stock market today: Dow, S&P 500, Nasdaq rebound after tech rout as oil prices tumble - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcW43ODU1NDlIWTdFT2JjQnJNVkN5dy1nRTJnZHBIYWpPX0VsOEluQ1BDSVluOXRsdDRRRHh6eWhCZHJOSF91bnhVNnJTanBYZTk2cF9mLVliY0xNend5TkV6X2tPUUpJRGNKQ2dJaHFVRUNWS2tQaEJpcU96M0tfRVJBbjRfM3FiN2xuQ1hfVzBvV2JjSkJwazhpTVFhUjJMMU9hWnRSUURqX1pDMDRVU3NBQzhuVTlBMWxUQVpKWXlDTU51TFhrS0JZTTNSSVpR?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "다우, S&P 500, 나스닥 반등",
+      "기술주 하락 후 회복",
+      "유가 급락"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "트럼프가 이란을 폭파하자 주식시장이 급락했다; 워시한 외모, 채용 보고서 마감 - Investor's Business Daily",
+    "original_title": "Stock Market Skids As Trump Blasts Iran; Warsh Appearance, Jobs Report Due - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZmRjNHVBaVpnMnI4OTJ4My1KaE9pcDJHNktUMTM3dFdCNUh5a2tUVDg5bTEzazd5RTBBbGwxdVlUYW9lSW94V0hyRkFRV09CMzdXX1dXNGszR19ia00wblh5ZUhhRzhRc3ZYbnBfam45amZlWXBlS3NWVVNqaEpoUjRlaXJXR1hadGJvc3pXV0c0NFZVM3Bzc0lzT014cU1ZeUMwLUVlMUplNHhrOEl4R2V5LVA?oc=5",
+    "publisher": "Investor's Business Daily",
+    "summary": [
+      "주식시장 하락",
+      "트럼프, 이란 비난",
+      "워시 출연 및 고용 보고서 대기"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
