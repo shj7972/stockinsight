@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODZVX3VqMXVRdEJPc2JaUV8wajg1TU1jRTg1TkRLel9wLWEzbEJ0VUNTTGJ2WF9sbUl5QW5HZVhvUVc2RmItSmd1MUZkS2RDTW9RX3FKRWpoRTBjQlZ5RVlFR1JvNG1UM2NXNUpiclVKUVIxeTl6bEIwdUwtSDZUTFNWcDh3RkMtM3V3?oc=5",
     "publisher": "조선일보",
     "summary": [
-      "외국인 47조원 순매도",
-      "역대급 '셀 코리아' 상황",
-      "시장 불안 심화"
+      "외국인 47조원 순매도 기록",
+      "역대급 '셀 코리아' 현상 발생",
+      "증시 하락 우려 커져"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계 동반자",
-      "산업 혁신을 위한 금융 역할 강조",
-      "파트너십 필요성 인식"
+      "금융은 산업 생태계 설계 파트너",
+      "산업과 금융 협력 필요",
+      "산업 혁신의 핵심 역할 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 하방 압력 우려",
-      "한중일 재무장관, 공동 대응 강조",
-      "정상 회담 필요성 언급"
+      "한중일 재무장관 협력 강화",
+      "중동전쟁의 경제적 압박",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "AI가 주식시장에 활력을 불어넣었습니다. 이제 경제가 활성화되고 있습니다. - 마켓워치",
-    "original_title": "AI turbocharged the stock market. Now it’s firing up the economy. - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalVEM2tTc3dpUTNXMlNJV2J3U0lEdm1YRS1BZ29DRkdXSjl4LS1FSkVEM0NobklfV2xKRm94a0pVWmlfRlR0Sm5IMEhuTURFTVE3ay1hZk9UXzJoU2JiUVJIcmx5cDlfT3Z0ek1WRnZZTjB1aGJEMXRZaFhJbVJVbHJDWTY5TDBLWjRLQUZCcEU5UVcwVHdHVHR3OXNlTnZ0bXRPRmgzRFA?oc=5",
-    "publisher": "MarketWatch",
-    "summary": [
-      "AI가 주식 시장을 활성화함",
-      "경제 성장에 기여하고 있음",
-      "투자자 신뢰 높아짐"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "Jeremy Grantham은 '이것은 미국 역사상 가장 비싼 시장'이라고 말합니다 - CNBC",
@@ -59,11 +45,11 @@
     "publisher": "CNBC",
     "summary": [
       "미국 역사상 가장 비싼 시장",
-      "Jeremy Grantham의 발언",
-      "경기 과열 우려"
+      "제레미 그랜섬의 경고",
+      "투자자 대비 신중해야 함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "주간 경제 데이터 발표 예정",
-      "고용 및 생산성 지표 주목",
-      "시장 반응에 영향 가능"
+      "주요 경제지표 발표 예정",
+      "재정 지표에 주목",
+      "시장의 반응 예측 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "AI가 주식시장에 활력을 불어넣었습니다. 이제 경제가 활성화되고 있습니다. - 마켓워치",
+    "original_title": "AI turbocharged the stock market. Now it’s firing up the economy. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalVEM2tTc3dpUTNXMlNJV2J3U0lEdm1YRS1BZ29DRkdXSjl4LS1FSkVEM0NobklfV2xKRm94a0pVWmlfRlR0Sm5IMEhuTURFTVE3ay1hZk9UXzJoU2JiUVJIcmx5cDlfT3Z0ek1WRnZZTjB1aGJEMXRZaFhJbVJVbHJDWTY5TDBLWjRLQUZCcEU5UVcwVHdHVHR3OXNlTnZ0bXRPRmgzRFA?oc=5",
+    "publisher": "MarketWatch",
+    "summary": [
+      "AI가 주식시장을 활성화함",
+      "경제에 긍정적 영향 미침",
+      "AI의 잠재력 증가 주목"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
