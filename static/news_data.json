@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODZVX3VqMXVRdEJPc2JaUV8wajg1TU1jRTg1TkRLel9wLWEzbEJ0VUNTTGJ2WF9sbUl5QW5HZVhvUVc2RmItSmd1MUZkS2RDTW9RX3FKRWpoRTBjQlZ5RVlFR1JvNG1UM2NXNUpiclVKUVIxeTl6bEIwdUwtSDZUTFNWcDh3RkMtM3V3?oc=5",
     "publisher": "조선일보",
     "summary": [
-      "외국인 47조원 순매도 기록",
-      "역대급 '셀 코리아' 현상 발생",
-      "증시 하락 우려 커져"
+      "외국인 47조원 순매도",
+      "역대급 '셀 코리아' 현상",
+      "금융시장 우려 증대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계 파트너",
-      "산업과 금융 협력 필요",
-      "산업 혁신의 핵심 역할 강조"
+      "금융은 산업 생태계 설계의 파트너",
+      "산업 발전에 금융의 역할 강조",
+      "협력 기반의 발전 필요성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 협력 강화",
-      "중동전쟁의 경제적 압박",
-      "공동 대응 필요성 강조"
+      "한국·중국·일본 재무장관 회담",
+      "중동 전쟁으로 경제 하방 압력 경고",
+      "일치된 목소리로 대응 필요 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajR3eDA3OVB0aHV4aWx4ak1lM2RlTUNJek16dmx4RWo5NFIzY1JsdWRvM1FDckxxYU1FNmVlWWl6MWM4WVUwYjg3dDZpX2I2emtVaHJNTm44RE8xaGZPcmZSODRpY0dHdWV4czlDbjhXNDNYUzFBQzFsMDBpSWdkR0ZCaXdwd1gtZlFOOG9XSmxESzlfMmtGc3BjVHNocUV4WGI4UjR4NmE5OUxZZldHM9IBtgFBVV95cUxQbV9MYlRYcFRzS0hlQS1nOGZmMEo3RDlfWG1JeTJtaTU2VExHdXR4VGlQQlNkU0VnNFVBVUtvQ0lPY1JVOEJoLVRoZDkxbUctUXJCalI3eVB4NldvSzJ0TEtOdEM5Qkl0bkVoQy1CSmdmblkwNWdITGVpUHlnVW1pMmhWWndHQXM2UjhHYldZWU5iSkF5bTlCU2tkVHBtcjRRQy1ZMUNIbjNjbV9Ua0lDdGNndm54dw?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "미국 역사상 가장 비싼 시장",
-      "제레미 그랜섬의 경고",
-      "투자자 대비 신중해야 함"
+      "그레셈, 현재 시장은 비쌈",
+      "역대 가장 비싼 시장 주장",
+      "투자자 주의 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "해외"
   },
   {
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "주요 경제지표 발표 예정",
-      "재정 지표에 주목",
-      "시장의 반응 예측 필요"
+      "주간 경제 데이터 발표 예정",
+      "소비자 신뢰 지수 주목",
+      "고용 데이터 중요성 강조"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalVEM2tTc3dpUTNXMlNJV2J3U0lEdm1YRS1BZ29DRkdXSjl4LS1FSkVEM0NobklfV2xKRm94a0pVWmlfRlR0Sm5IMEhuTURFTVE3ay1hZk9UXzJoU2JiUVJIcmx5cDlfT3Z0ek1WRnZZTjB1aGJEMXRZaFhJbVJVbHJDWTY5TDBLWjRLQUZCcEU5UVcwVHdHVHR3OXNlTnZ0bXRPRmgzRFA?oc=5",
     "publisher": "MarketWatch",
     "summary": [
-      "AI가 주식시장을 활성화함",
-      "경제에 긍정적 영향 미침",
-      "AI의 잠재력 증가 주목"
+      "AI, 주식시장 상승 촉진",
+      "경제 성장에 기여",
+      "투자자 신뢰 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
