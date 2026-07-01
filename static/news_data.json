@@ -5,8 +5,8 @@
     "publisher": "르몽드디플로마티크",
     "summary": [
       "금융, 산업 생태계 설계 파트너 필요",
-      "산업 금융의 중요성 강조",
-      "협력 모델 제안"
+      "산업 협력 통한 혁신 강조",
+      "지속 가능성 위한 투자 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회담 진행",
-      "중동 전쟁이 경제에 미치는 영향",
-      "경제 하방 압력 우려 표명"
+      "한중일 재무장관, 경제 의견 일치",
+      "중동 전쟁으로 하향 압력 우려",
+      "협력 강화 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색채권 발행 의사 표명",
-      "녹색 금융 적극 추진",
-      "지속가능한 경제 개발 목표"
+      "북한, 녹색채권 발행 가능성 검토",
+      "녹색 금융 적극 추진 의지",
+      "친환경 경제 발전 목표 설정"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승, 일부 부유하게함",
-      "대다수는 고통받고 있음",
-      "부의 불균형 심화"
+      "주식 시장 랠리로 일부만 부유해짐",
+      "다수는 경제적 고통을 겪음",
+      "양극화가 심화되고 있음"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "긍정적인 경제 데이터 속에 TSX 상승세, 미국 시장도 상승세 - Yahoo! 캐나다 재무",
+    "original_title": "TSX edges higher amid positive economic data, U.S. markets also gain ground - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTEFUdk5PdElBSmxBcnhsaGpqeXhaeWlaalBMa21TZDJYaVo0R1VjVTRERm9ERU02Zk5iN3NqMFFJZFFHZmY0T3BlbE9HcW85NVpidldTUU02Ylc4N01UU3dQMmhDUzVPMXl5VlRBc1Mzd0RDcV9xSkJGMHl0aHNXYlhsQQ?oc=5",
+    "publisher": "Yahoo! Finance Canada",
+    "summary": [
+      "TSX 상승, 긍정적 경제 데이터",
+      "미국 시장도 상승세",
+      "전반적인 경제 회복 기미"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "경제에 좋지만 주식에 악영향",
-      "금리 인상 우려",
-      "성장 둔화 가능성"
+      "미국 경제에 좋은 것이 주식에 나쁨",
+      "경제 성장과 주가의 괴리",
+      "투자자 우려 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장: 경제 회복력이 월스트리트의 고평가와 충돌 - The Economic Times",
-    "original_title": "US Stock Market: Economic resilience collides with expensive valuations on Wall Street - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWk9uMjlWa2J2RDB5QnBDNWU5ME4wX3dFaGlLUXAxbVljdVAxb1RXX203ejdBZDJZYks5WHFaa3FXbDRnVlhmdHdKaGhHYndhQU1id1RSUFBJaldER0pWRFE2aGhOcjRhMGlJY1prVjdnYmlYQ0lNRmlJNkllUXdYTmdvdENVdWxHbHdSMlVxTzFUaTZqTi1tdzNQRW0tUHRtVDE5LWZVcHhVVncza0Q4SG1UOE1IWmRZNXZHenpZUkhRd2pNVFhVdzVmb2lJV3Q1YkdoY2RPZy1uMTF0eG9TTHNheEtMUHlxV0UzUFltOUZycTVR0gH6AUFVX3lxTFBuWm81VTFGTlBELXNycGtLeFB0WF8zZGxZRjZxSVVvNVdaVzRDNWFQVlZzb1dxM3lsb29iYkw5ZUR2eVI4T2NQNktobzRBX3F3RFo5bkZsc1Q4MnBNTTFZbW05VjRBQXNnYzBYeXZBUmMwYzVHTkpGWVFiVFlWcXc1cldFZFlkQmFObk9TU2VQSk5pbkd6Y3oweDdhX0R5LVhTZzNoczU0R25jbjlGaGNST295T0xPQloyNVVaMlJxYzZzbWREZXllYlhpVGpNT0toYl9YaVpBOTdzdnh3RnBDVldRZERGRzU1TDg1MWgxa2ZqbVR4bC1ELUE?oc=5",
-    "publisher": "The Economic Times",
-    "summary": [
-      "미국 경제는 탄력성을 보임",
-      "월스트리트 밸류에이션 비쌈",
-      "두 요소 충돌 중"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
