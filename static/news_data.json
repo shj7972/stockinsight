@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관의 공동 입장",
-      "중동 전쟁 경제 영향 우려",
-      "하락 압력에 대한 경고"
+      "한중일 재무장관 회담",
+      "중동 전쟁의 경제적 압박",
+      "경제적 위험에 대한 공감"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재정은 산업 생태계 설계의 파트너",
-      "금융의 혁신적 역할 강조",
-      "협력으로 지속 가능성 추구"
+      "금융, 산업 생태계 설계의 파트너 필요",
+      "재정 지원 통한 혁신 촉진 강조",
+      "협력적 접근 방식의 중요성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 그린 본드 발행 검토",
-      "친환경 금융 적극 추진",
-      "녹색 경제 발전 강조"
+      "북한, 그린본드 발행 가능성 검토",
+      "친환경 금융 적극 추진 중",
+      "경제 성장 위한 노력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
-  },
-  {
-    "title": "2026년 상반기 주식시장이 급등한 이유는 무엇일까? 전문가 설명 - ABC 뉴스 - 속보, 최신 뉴스 및 비디오",
-    "original_title": "Why did the stock market soar in the first half of 2026? Experts explain - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHpHRFBsaldOdE9hQTJsRDFPZ2ZBc1dHQ1hleE1tRl9oWFhpT2hSZ1hWSGZ6d1hneXBVemRaTzlZWXpoMVp2UU4xckFVb0VYWmxtX2Q0OXZmdjB3UVZVS0hwdko3anA3Y3BKTGI4TE1YZXl3N0E5dUh0d0VrLUFoWVIwVDFiTlY2dWJrUDNRLWlNd0RoLUHSAZsBQVVfeXFMT2NHNW9oSDRDeVE1Y1cxb3dMU2hEb3k1eGJNcjVBcHc0X3RwNExjTHFWZHFDUzFTUzNvR0dRZVRxNy1UcGl0eXFnMEpWeEZmR2RZZ2hMck5qb2ZwTTNGTmdETkZZY3RybW4zaU56dG1UNURacmFvUnNyYy1kV2NZVXF4Zmt5SmVFNFY1XzJXalI4OV92Uk5aVE5DTmM?oc=5",
-    "publisher": "ABC News - Breaking News, Latest News and Videos",
-    "summary": [
-      "2026년 상반기 주식 시장 급등",
-      "전문가 의견 반영",
-      "경제 회복세 지속"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승이 불평등 확대",
-      "일부는 부유해지고 나머지는 고통",
-      "시장 활황에 대한 불만 증가"
+      "주식 시장 상승, 일부 부자 만들어냄",
+      "하지만 많은 사람은 어려움 겪고 있어",
+      "불평등 심화 우려가 크다"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "긍정적인 경제 데이터 속에 TSX 상승세, 미국 시장도 상승세 - Yahoo! 캐나다 재무",
-    "original_title": "TSX edges higher amid positive economic data, U.S. markets also gain ground - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTEFUdk5PdElBSmxBcnhsaGpqeXhaeWlaalBMa21TZDJYaVo0R1VjVTRERm9ERU02Zk5iN3NqMFFJZFFHZmY0T3BlbE9HcW85NVpidldTUU02Ylc4N01UU3dQMmhDUzVPMXl5VlRBc1Mzd0RDcV9xSkJGMHl0aHNXYlhsQQ?oc=5",
-    "publisher": "Yahoo! Finance Canada",
+    "title": "2026년 상반기 주식시장이 급등한 이유는 무엇일까? 전문가 설명 - ABC 뉴스 - 속보, 최신 뉴스 및 비디오",
+    "original_title": "Why did the stock market soar in the first half of 2026? Experts explain - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHpHRFBsaldOdE9hQTJsRDFPZ2ZBc1dHQ1hleE1tRl9oWFhpT2hSZ1hWSGZ6d1hneXBVemRaTzlZWXpoMVp2UU4xckFVb0VYWmxtX2Q0OXZmdjB3UVZVS0hwdko3anA3Y3BKTGI4TE1YZXl3N0E5dUh0d0VrLUFoWVIwVDFiTlY2dWJrUDNRLWlNd0RoLUHSAZsBQVVfeXFMT2NHNW9oSDRDeVE1Y1cxb3dMU2hEb3k1eGJNcjVBcHc0X3RwNExjTHFWZHFDUzFTUzNvR0dRZVRxNy1UcGl0eXFnMEpWeEZmR2RZZ2hMck5qb2ZwTTNGTmdETkZZY3RybW4zaU56dG1UNURacmFvUnNyYy1kV2NZVXF4Zmt5SmVFNFY1XzJXalI4OV92Uk5aVE5DTmM?oc=5",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
     "summary": [
-      "TSX 상승",
-      "긍정적 경제 데이터",
-      "미국 시장도 상승"
+      "2026년 상반기 주식시장 상승",
+      "전문가들의 분석 제공",
+      "경기 회복 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "현재 미국 경제에 좋은 것이 주식에는 좋지 않을 수도 있다 - Reuters",
+    "original_title": "What's good for the US economy now may not be good for stocks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "미국 경제에 긍정적 요소 존재",
+      "하지만 주식시장에는 부정적 영향",
+      "경기와 주식 시장의 상관관계 약화"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
