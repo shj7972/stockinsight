@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-07-02",
+      "generated_at": "2026-07-02T00:06:32",
+      "sector_top3": [
+        [
+          "Healthcare",
+          1.3513441113856823
+        ],
+        [
+          "Financials",
+          1.2520196393924823
+        ],
+        [
+          "Industrials",
+          0.7999398974316329
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 23.88,
+          "rsi": 32.9,
+          "bb_pos": 11.8,
+          "vol_ratio": 1.01,
+          "macd_positive": false,
+          "sector_zscore": 1.35,
+          "ensemble_score": 0.5961,
+          "model_scores": {
+            "rf": 0.8101,
+            "xgb": 0.8386,
+            "mlp": 0.3305,
+            "lstm": 0.4051
+          },
+          "final_score": 0.6686,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 모멘텀 상위 (Z=+1.4)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "NEE",
+          "name": "NextEra Energy",
+          "market": "US",
+          "sector": "Utilities",
+          "entry_price": 86.37,
+          "rsi": 45.7,
+          "bb_pos": 53.4,
+          "vol_ratio": 0.81,
+          "macd_positive": true,
+          "sector_zscore": 0.33,
+          "ensemble_score": 0.6484,
+          "model_scores": {
+            "rf": 0.6718,
+            "xgb": 0.9087,
+            "mlp": 0.4442,
+            "lstm": 0.5689
+          },
+          "final_score": 0.6289,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 섹터 양호 (Z=+0.3)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "market": "US",
+          "sector": "Financials",
+          "entry_price": 1019.61,
+          "rsi": 46.7,
+          "bb_pos": 22.8,
+          "vol_ratio": 0.69,
+          "macd_positive": false,
+          "sector_zscore": 1.25,
+          "ensemble_score": 0.534,
+          "model_scores": {
+            "rf": 0.4472,
+            "xgb": 0.7409,
+            "mlp": 0.5483,
+            "lstm": 0.3997
+          },
+          "final_score": 0.6177,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 모멘텀 상위 (Z=+1.3)",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "028260.KS",
+          "name": "삼성물산",
+          "market": "KR",
+          "sector": "Industrials",
+          "entry_price": 434000.0,
+          "rsi": 46.8,
+          "bb_pos": 27.2,
+          "vol_ratio": 1.15,
+          "macd_positive": false,
+          "sector_zscore": 0.8,
+          "ensemble_score": 0.6978,
+          "model_scores": {
+            "rf": 0.5917,
+            "xgb": 0.8647,
+            "mlp": 0.6408,
+            "lstm": 0.694
+          },
+          "final_score": 0.6985,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "086520.KQ",
+          "name": "에코프로",
+          "market": "KR",
+          "sector": "Materials",
+          "entry_price": 93000.0,
+          "rsi": 37.4,
+          "bb_pos": 1.7,
+          "vol_ratio": 2.32,
+          "macd_positive": false,
+          "sector_zscore": -0.38,
+          "ensemble_score": 0.7264,
+          "model_scores": {
+            "rf": 0.7468,
+            "xgb": 0.9687,
+            "mlp": 0.5362,
+            "lstm": 0.6539
+          },
+          "final_score": 0.6298,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 거래량 급증 ×2.3",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "005930.KS",
+          "name": "삼성전자",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 314500.0,
+          "rsi": 48.4,
+          "bb_pos": 28.5,
+          "vol_ratio": 0.82,
+          "macd_positive": false,
+          "sector_zscore": -1.21,
+          "ensemble_score": 0.7642,
+          "model_scores": {
+            "rf": 0.7163,
+            "xgb": 0.9289,
+            "mlp": 0.7173,
+            "lstm": 0.6944
+          },
+          "final_score": 0.5944,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-07-01",
       "generated_at": "2026-07-01T00:04:57",
       "sector_top3": [
@@ -955,166 +1115,6 @@
           },
           "final_score": 0.7001,
           "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+0.8)",
-          "current_price": null,
-          "return_pct": null
-        }
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "generated_at": "2026-06-22T00:12:17",
-      "sector_top3": [
-        [
-          "Technology",
-          1.4493440826807111
-        ],
-        [
-          "Industrials",
-          1.2225614598547305
-        ],
-        [
-          "Materials",
-          0.706524657858679
-        ]
-      ],
-      "us_picks": [
-        {
-          "ticker": "NEE",
-          "name": "NextEra Energy",
-          "market": "US",
-          "sector": "Utilities",
-          "entry_price": 86.75,
-          "rsi": 48.1,
-          "bb_pos": 66.4,
-          "vol_ratio": 1.59,
-          "macd_positive": true,
-          "sector_zscore": -0.14,
-          "ensemble_score": 0.6826,
-          "model_scores": {
-            "rf": 0.6693,
-            "xgb": 0.8937,
-            "mlp": 0.5449,
-            "lstm": 0.6226
-          },
-          "final_score": 0.6174,
-          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 거래량 증가세",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "JNJ",
-          "name": "J&J",
-          "market": "US",
-          "sector": "Healthcare",
-          "entry_price": 228.39,
-          "rsi": 45.1,
-          "bb_pos": 34.8,
-          "vol_ratio": 2.36,
-          "macd_positive": true,
-          "sector_zscore": 0.14,
-          "ensemble_score": 0.6444,
-          "model_scores": {
-            "rf": 0.6722,
-            "xgb": 0.7971,
-            "mlp": 0.5811,
-            "lstm": 0.5273
-          },
-          "final_score": 0.6119,
-          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 볼린저 하단 탈출 · 거래량 급증 ×2.4",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "WMT",
-          "name": "Walmart",
-          "market": "US",
-          "sector": "Consumer Staples",
-          "entry_price": 117.18,
-          "rsi": 38.6,
-          "bb_pos": 34.0,
-          "vol_ratio": 1.33,
-          "macd_positive": true,
-          "sector_zscore": -0.36,
-          "ensemble_score": 0.6981,
-          "model_scores": {
-            "rf": 0.7135,
-            "xgb": 0.8827,
-            "mlp": 0.5097,
-            "lstm": 0.6863
-          },
-          "final_score": 0.6117,
-          "signal_summary": "RSI 과매도 진입 · MACD 골든크로스 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        }
-      ],
-      "kr_picks": [
-        {
-          "ticker": "105560.KS",
-          "name": "KB금융",
-          "market": "KR",
-          "sector": "Financials",
-          "entry_price": 158300.0,
-          "rsi": 49.6,
-          "bb_pos": 49.0,
-          "vol_ratio": 1.38,
-          "macd_positive": true,
-          "sector_zscore": 0.7,
-          "ensemble_score": 0.6793,
-          "model_scores": {
-            "rf": 0.7565,
-            "xgb": 0.9949,
-            "mlp": 0.3822,
-            "lstm": 0.5836
-          },
-          "final_score": 0.6782,
-          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 섹터 양호 (Z=+0.7)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "066570.KS",
-          "name": "LG전자",
-          "market": "KR",
-          "sector": "Technology",
-          "entry_price": 211500.0,
-          "rsi": 45.5,
-          "bb_pos": 26.5,
-          "vol_ratio": 0.75,
-          "macd_positive": false,
-          "sector_zscore": 1.45,
-          "ensemble_score": 0.5905,
-          "model_scores": {
-            "rf": 0.446,
-            "xgb": 0.6038,
-            "mlp": 0.6472,
-            "lstm": 0.6649
-          },
-          "final_score": 0.6721,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 모멘텀 상위 (Z=+1.4)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "051910.KS",
-          "name": "LG화학",
-          "market": "KR",
-          "sector": "Materials",
-          "entry_price": 338000.0,
-          "rsi": 45.1,
-          "bb_pos": 37.2,
-          "vol_ratio": 1.01,
-          "macd_positive": true,
-          "sector_zscore": 0.71,
-          "ensemble_score": 0.6389,
-          "model_scores": {
-            "rf": 0.6242,
-            "xgb": 0.9219,
-            "mlp": 0.3698,
-            "lstm": 0.6397
-          },
-          "final_score": 0.6502,
-          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 섹터 양호 (Z=+0.7)",
           "current_price": null,
           "return_pct": null
         }
