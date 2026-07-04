@@ -4,12 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 협력 강화",
-      "중동 전쟁의 경제적 위험",
-      "경제 하방 압박 우려"
+      "한국·중국·일본 재무장관 회의",
+      "중동 전쟁의 경제 리스크",
+      "경제 불확실성 공동 인식"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
+    "publisher": "르몽드디플로마티크",
+    "summary": [
+      "금융은 산업 생태계 파트너",
+      "산업 디자인 중요성 강조",
+      "협력 통한 성장 솔루션 필요"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,25 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색 채권 발행 고려",
-      "녹색 금융 적극 추진",
-      "녹색 경제 개발 목표"
+      "북한, 녹색 채권 발행 가능성 검토",
+      "녹색 경제 개발 촉진 중",
+      "녹색 금융에 대한 관심 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "신용대출 1조 증가",
-      "주담대 금리 7.3% 도달",
-      "빚투 영향 강화"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 상승으로 일부 부유해져",
-      "대다수는 어려움 겪어",
-      "시장 불공평 문제 제기"
+      "주식 상승이 일부에겐 부자 만들고",
+      "대다수는 불만과 고통 느껴",
+      "불균형한 부의 분배 문제 지적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "월스트리트에 대한 신생 기업의 도전을 테스트하기 위해 텍사스 증권 거래소가 월요일 거래를 시작합니다 - The Texas Tribune",
-    "original_title": "Texas Stock Exchange to launch trading on Monday, in test of upstart’s challenge to Wall Street - The Texas Tribune",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU003QUV5QXY4OVdIQU1nd3Y2NENsb0Q0VUdxV3pjVVBWYm1jbVc1NWMySzZpRlcwbnZBajdkMFJoVGR6Um5PLV9LN3RkUllSdXdVZ0tTOGt0RnFzRXJGSEh1Wnh3NF9OTGktbzZ1YTBrZnh5MXRHYkJtME4zVVExWFFn?oc=5",
-    "publisher": "The Texas Tribune",
+    "title": "텍사스 증권 거래소, 월스트리트에 대한 신생 기업의 도전을 테스트하기 위해 월요일 거래를 시작합니다 - KVUE",
+    "original_title": "Texas Stock Exchange to launch trading on Monday in test of upstart’s challenge to Wall Street - KVUE",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVUVhOGZ2M0xkeFlWdnB0WUVVaGRvakpYbEpmcTBVMkRSNVNBQkRkMFFtRllLVUNJdG95RHA3RTdHX0IyUzRfdVJubnRWclFXMEt3TjVzS1lzSVJIdWY5YkFOOFVLcGk5RGFXRS1FbTFaaUluUGZabHU0TUlPZU1PbERyeVB2MnBNSW1EUnlDZUFKVUg2emd4anFPVUNhaDFUcDFYYTNzUFd2SS1HdW1WMWpVS250OWc?oc=5",
+    "publisher": "KVUE",
     "summary": [
-      "텍사스 증권거래소가 월요일에 개장",
-      "월가에 도전하는 신생 기업",
-      "시장 경쟁 촉진 기대"
+      "텍사스 증권거래소 월요일 개장",
+      "워싱턴 월가에 도전하는 상황",
+      "신생기관의 시험대"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "이번 주 경제계에는 무슨 일이 일어나고 있나요? - 딜로이트",
-    "original_title": "What’s happening this week in economics? - Deloitte",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
-    "publisher": "Deloitte",
+    "title": "현재 미국 경제에 좋은 것이 주식에는 좋지 않을 수도 있다 - Reuters",
+    "original_title": "What's good for the US economy now may not be good for stocks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "경제 지표 발표 예정",
-      "금리 변화 주목",
-      "시장 반응 분석"
+      "미국 경제와 주식의 불일치",
+      "현재 경제가 긍정적일 수 있음",
+      "주식시장에 부정적 영향 가능성"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
