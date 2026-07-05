@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회의 개최",
-      "중동 전쟁 경제 영향 우려",
-      "공동 대응 필요성 강조"
+      "한중일 재무장관, 경과 우려 표명",
+      "중동 전쟁의 경제적 영향 논의",
+      "경기 하방 압력에 대한 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -18,11 +18,11 @@
     "publisher": "르몽드디플로마티크",
     "summary": [
       "금융은 산업 생태계 설계 파트너",
-      "산업 혁신을 위한 금융 역할 강조",
-      "협력적 접근 필요성 언급"
+      "협력적 접근 방식 강조",
+      "지속 가능성 중요성 언급"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색 채권 발행 검토",
-      "녹색 경제 발전 강조",
-      "환경 금융 활성화 노력"
+      "북한, 녹색채권 발행 가능성 보도",
+      "녹색금융 적극 추진 중",
+      "녹색 경제 발전 목표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "미국 경제와 주식 간 괴리 발생",
-      "경제 호조가 주식에 부담",
-      "투자자 우려 확산"
+      "경제 호전이 주식에 부정적일 수 있다.",
+      "주식 시장과 경제의 관계 변화.",
+      "현재 경제 지표 주의 필요."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "'트럼프 경제는 급등하고 있다': 미국 대통령, 독립을 앞두고 증시 상승과 감세 언급 - The Times of India",
-    "original_title": "'The Trump economy is soaring': US President cites stock market rally and tax cuts ahead of Independence - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQOXhHOU9aR2tmclRzLVF3cnZwU3E1bFdtX0E5VTA5Sk1meVk0N2QyME9ZOFduZnBvdDBmblR3SnRxdnlkc3hYZE5kMGlsOERUaXZUVXA2Uk1vVzRzRU44SHU0RG9ZaUQ5SEtnSmpEeXJkWkwzdC1Na0ZZR0lTOUJPMUplSFNsTkQtN3RRbkQ5YWhIODNqbU1IYUd1RHNzbVJ6UVpEV1FMc3pVTmE4OFRLTTlBUldvaTFWWldDU0dwaDZpa1dSUWpmQWh4b2ZfLUprVVVyX0plV1JodFpxWWhVaS1vZ3pLMFNXbmF6eXRXTmZULVFvNWJqRUE0cHFIT2Z6YXdrSU5RUFJlQ04tYjVWVUhDeGdKbVczN3dReVZvb1NCTkJKc3fSAasCQVVfeXFMTVA4dXExNGlneEpncERPOGs5Z2MwQkF2X0FGMHhaR1l6NjRTTFFFZWtGcXQ5TmV2LTgtaWtLZ1JJR29yYTFWZW1uZ3F5Mk1KMDMtenlNS1ExR1BGMzkwZ2E5T1B5cnpMbFd1Y1lrOE91YWNlOFpiVEZ2MzVodXNkbWFIUzNOQnhkUHlrYjE2ZldJdlljN19kSThwamFQd3BacFQxdkFNSWdiRndhSTNvUFpwNGtFZXVRYnB2ZjF1OWltMGh4WWpfeVUxRjZ0NVpCWnJUNmVsREY5dGRabnphcncxYzFHMHhGejNVYURGblNnb1lhU0lEbmkxTTFVeXNNNWN5d21YdjBUaTVCR01iQzBpYVJKZndxWV9pck91dmI4OVltcENKSXVQdXc?oc=5",
-    "publisher": "The Times of India",
-    "summary": [
-      "트럼프 경제 급성장 주장",
-      "주식 시장 랠리 언급",
-      "세금 감면 효과 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
     "publisher": "marketplace.org",
     "summary": [
-      "주식 시장이 계속 상승 중",
-      "긍정적 경제 지표",
-      "투자자 신뢰 증가"
+      "주식 시장이 지속적으로 상승 중",
+      "긍정적인 경제 지표 발표",
+      "투자자 신뢰 회복 중"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "월스트리트에 대한 신생 기업의 도전을 테스트하기 위해 텍사스 증권 거래소가 월요일 거래를 시작합니다 - The Texas Tribune",
+    "original_title": "Texas Stock Exchange to launch trading on Monday in test of upstart’s challenge to Wall Street - The Texas Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU003QUV5QXY4OVdIQU1nd3Y2NENsb0Q0VUdxV3pjVVBWYm1jbVc1NWMySzZpRlcwbnZBajdkMFJoVGR6Um5PLV9LN3RkUllSdXdVZ0tTOGt0RnFzRXJGSEh1Wnh3NF9OTGktbzZ1YTBrZnh5MXRHYkJtME4zVVExWFFn?oc=5",
+    "publisher": "The Texas Tribune",
+    "summary": [
+      "텍사스 증권거래소 월요일 개장",
+      "워싱턴에 도전하는 스타트업",
+      "새로운 시장 경쟁 기대감"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
