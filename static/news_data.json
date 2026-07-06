@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관, 경과 우려 표명",
-      "중동 전쟁의 경제적 영향 논의",
-      "경기 하방 압력에 대한 경고"
+      "한중일 재무장관 공동성명 발표",
+      "중동 전쟁의 경제적 영향 우려",
+      "하향 압력 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계 파트너",
-      "협력적 접근 방식 강조",
-      "지속 가능성 중요성 언급"
+      "금융과 산업 생태계의 협력 필요",
+      "지속 가능한 발전 강조",
+      "혁신을 통한 경쟁력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색채권 발행 가능성 보도",
-      "녹색금융 적극 추진 중",
-      "녹색 경제 발전 목표"
+      "북한, 녹색채권 발행 검토",
+      "녹색 금융 적극 추진",
+      "경제 발전 위한 전략 마련"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "경제 호전이 주식에 부정적일 수 있다.",
-      "주식 시장과 경제의 관계 변화.",
-      "현재 경제 지표 주의 필요."
+      "경제에 좋은 것이 주식에 나쁨",
+      "주식 시장의 변동성 증가",
+      "투자에 대한 신중함 필요"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
-    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇일까? -marketplace.org",
-    "original_title": "Why does the stock market continue to perform well? - marketplace.org",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
-    "publisher": "marketplace.org",
+    "title": "미국 탄생 250주년을 맞아 미국 경제를 낙관해야 하는 10가지 이유 - Fox Business",
+    "original_title": "10 reasons to be bullish on America's economy as the nation turns 250 years old - Fox Business",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWnItOTJMNDdoM2FHS0hpYjItZ3ZuQmR4bE15ei04R01neTA1TWJVT1JWNUdBanIwU29UT3dvTGhhbEhmUXNkQXBCYnFOZzFBc3lKeXJDUzdJbThaLWliYlBPaGpBUGN3WXJGMHY1ZTBaYnFsSzFuZU04c24wRWRUSGJDdXFMODc3Y1FuY0pjbWpHQXhIRmp6QlRrQWQ3djTSAaQBQVVfeXFMTkJHdGpiZ0ljMElkNmtVald3TjZOd2tsLUx6azlMOEJBVU1BM3RMbnZ2VGxHbVhUbURFXzY5QjZLdVVQN05uTDg1a1RtZWQ0bG9VV2Q4QUxYeWxKX1BIaFZMTHZTR3dyRjMzdTFjMTh4WldxRHh0VnZqakFqWk5BTUE1Mi1YTWJvTklRSHJWYTFZblVZYWVmTi0xMlJLRnNQeUVVV0E?oc=5",
+    "publisher": "Fox Business",
     "summary": [
-      "주식 시장이 지속적으로 상승 중",
-      "긍정적인 경제 지표 발표",
-      "투자자 신뢰 회복 중"
+      "미국 경제의 성장 가능성",
+      "250주년 긍정적 평가",
+      "혁신과 발전 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "월스트리트에 대한 신생 기업의 도전을 테스트하기 위해 텍사스 증권 거래소가 월요일 거래를 시작합니다 - The Texas Tribune",
-    "original_title": "Texas Stock Exchange to launch trading on Monday in test of upstart’s challenge to Wall Street - The Texas Tribune",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU003QUV5QXY4OVdIQU1nd3Y2NENsb0Q0VUdxV3pjVVBWYm1jbVc1NWMySzZpRlcwbnZBajdkMFJoVGR6Um5PLV9LN3RkUllSdXdVZ0tTOGt0RnFzRXJGSEh1Wnh3NF9OTGktbzZ1YTBrZnh5MXRHYkJtME4zVVExWFFn?oc=5",
-    "publisher": "The Texas Tribune",
+    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇입니까? -marketplace.org",
+    "original_title": "Why does the stock market continue to perform well? - marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
+    "publisher": "marketplace.org",
     "summary": [
-      "텍사스 증권거래소 월요일 개장",
-      "워싱턴에 도전하는 스타트업",
-      "새로운 시장 경쟁 기대감"
+      "주식 시장 강세 지속 이유",
+      "경제 지표 호조",
+      "투자자 신뢰 상승"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
