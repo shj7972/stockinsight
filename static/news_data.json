@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동성명 발표",
-      "중동 전쟁의 경제적 영향 우려",
-      "하향 압력 대응 필요성 강조"
+      "한중일 재무장관 공동 발언",
+      "중동 전쟁의 경제적 압박 우려",
+      "경제 안정성 확보의 필요성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
-    "summary": [
-      "금융과 산업 생태계의 협력 필요",
-      "지속 가능한 발전 강조",
-      "혁신을 통한 경쟁력 강화"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,13 +17,54 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한, 녹색채권 발행 검토",
-      "녹색 금융 적극 추진",
-      "경제 발전 위한 전략 마련"
+      "북한, 그린 본드 발행 검토",
+      "녹색 경제 발전 추진",
+      "녹색 금융 활성화 의지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "신용대출 1조 원 증가",
+      "주담대 금리 7.3%에 도달",
+      "빚투 영향 커져"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "오늘 주식 시장: 기록적인 주간 이후 S&P 500, 나스닥, 다우 선물 상승 - Yahoo Finance",
+    "original_title": "Stock market today: S&P 500, Nasdaq, Dow futures climb after record-setting week - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY18wb0pOSlhyNk1jSU1HSmJZZm0xY0RNc0xmTkhfTEg4RFNsQV85dnBzUzJqQ0IxMENFWElUUG95S1JlWVRDNm9xYy13ek1lOG5WaFdZVU43OV9KVmx1N2JqR1owamlTa2FIOWdEdHBVU0RvakxnTlJhazV0WTNfRWp4SU1RMkpJUjEzOUNzckJDREd0Sk9DbQ?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "S&P 500, Nasdaq, Dow 선물 상승",
+      "기록적인 주간 성과",
+      "투자자들 긍정적 반응"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "중국의 다양한 주식시장은 중국 경제의 축소판을 보여준다 - 사우스차이나모닝포스트",
+    "original_title": "China’s divergent stock market displays a microcosm of the nation’s economy - South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSzZOQWNIczRYV29icXp3c080QlV0TnJmLW1DSWpuX0tDdS16YV8wY3Q4UXFIZUd6VmhMeHZxZEZMS0luUkRjaFRjOExqbWdiZHhvbjVubFFMWGE0bDE5YV9SZm1adWlRSm0zVkN2QmpGb2tUOW9obG9hb0ZwZTN6NE40YmJpSXJ2bGdtM29PT1J6XzNneG85a3VTVUx2M1kyS1lZZ1o0TmNRbWVWS3JqeC1wLVhVSUl1aU1WSTdpR1VMWEdYWjJuMFNENWF2aHdoTllXaXVmc0rSAdgBQVVfeXFMT1NTbGM0Z2NPYTItNkYtWGdLTDBBaUNINThjcDN6eHQ1ZjJ0X1FQZUZHSDZBbWs2Wjd0eDZYNUo0NGJnQmJXRlNwT2EzQmhGY0k0QWlfWXhwdHEzSzJ3NWtVWU9IdFlFWFZMeE9obE5uWWZXMTZjMXR3czZzdmxfWldSSEI4V3c3cktWeWZGRF9BQVpLQ2VsdzdFR1FhcnhBVHVhemQtSmFQaG82dk90UTdCZ09ZcGN5bXYtSTVBQVhhcXB5THk0SnQ1UHJKT2hiUmhmTWMyVHlK?oc=5",
+    "publisher": "South China Morning Post",
+    "summary": [
+      "중국 주식 시장의 양극화",
+      "경제의 축소판 반영",
+      "투자자 심리의 변화"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "현재 미국 경제에 좋은 것이 주식에는 좋지 않을 수도 있다 - Reuters",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "경제에 좋은 것이 주식에 나쁨",
-      "주식 시장의 변동성 증가",
-      "투자에 대한 신중함 필요"
+      "미국 경제와 주식 시장의 괴리",
+      "경제 성장에도 주식 하락 가능",
+      "금리 인상이 시장에 영향 줄 수 있어"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "미국 탄생 250주년을 맞아 미국 경제를 낙관해야 하는 10가지 이유 - Fox Business",
-    "original_title": "10 reasons to be bullish on America's economy as the nation turns 250 years old - Fox Business",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWnItOTJMNDdoM2FHS0hpYjItZ3ZuQmR4bE15ei04R01neTA1TWJVT1JWNUdBanIwU29UT3dvTGhhbEhmUXNkQXBCYnFOZzFBc3lKeXJDUzdJbThaLWliYlBPaGpBUGN3WXJGMHY1ZTBaYnFsSzFuZU04c24wRWRUSGJDdXFMODc3Y1FuY0pjbWpHQXhIRmp6QlRrQWQ3djTSAaQBQVVfeXFMTkJHdGpiZ0ljMElkNmtVald3TjZOd2tsLUx6azlMOEJBVU1BM3RMbnZ2VGxHbVhUbURFXzY5QjZLdVVQN05uTDg1a1RtZWQ0bG9VV2Q4QUxYeWxKX1BIaFZMTHZTR3dyRjMzdTFjMTh4WldxRHh0VnZqakFqWk5BTUE1Mi1YTWJvTklRSHJWYTFZblVZYWVmTi0xMlJLRnNQeUVVV0E?oc=5",
-    "publisher": "Fox Business",
-    "summary": [
-      "미국 경제의 성장 가능성",
-      "250주년 긍정적 평가",
-      "혁신과 발전 지속"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "주식시장이 계속해서 좋은 성과를 내는 이유는 무엇입니까? -marketplace.org",
-    "original_title": "Why does the stock market continue to perform well? - marketplace.org",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2JyR25yNUxISFBydnhLLW5fTWs3VUdLSjVwLWMyTjhjQ0VVeTlYY19fWjZsSERoU3dWdFFTZ3JGU290ZmZGTGxWOE1ObFpIX0xybzRqMzZSWmdjWkZ1NTN3UHZxdHZBanFkM3FsNE9DQmpKNkN4cmRvdk96QTB4THFsRUJQdDRGOV9xSXRVV3lNZjdwNmNyRXB4UQ?oc=5",
-    "publisher": "marketplace.org",
-    "summary": [
-      "주식 시장 강세 지속 이유",
-      "경제 지표 호조",
-      "투자자 신뢰 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
