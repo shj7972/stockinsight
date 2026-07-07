@@ -2,65 +2,65 @@
   "picks_history": [
     {
       "date": "2026-07-07",
-      "generated_at": "2026-07-07T00:08:11",
+      "generated_at": "2026-07-07T23:56:59",
       "sector_top3": [
         [
           "Financials",
-          1.3080331145322077
-        ],
-        [
-          "Industrials",
-          1.0873595643302507
+          1.2801998688953118
         ],
         [
           "Healthcare",
-          0.9726896360464926
+          1.2732010795755724
+        ],
+        [
+          "Utilities",
+          0.6822650318872991
         ]
       ],
       "us_picks": [
+        {
+          "ticker": "CAT",
+          "name": "Caterpillar",
+          "market": "US",
+          "sector": "Industrials",
+          "entry_price": 940.12,
+          "rsi": 47.9,
+          "bb_pos": 37.8,
+          "vol_ratio": 0.93,
+          "macd_positive": false,
+          "sector_zscore": 0.59,
+          "ensemble_score": 0.7492,
+          "model_scores": {
+            "rf": 0.7224,
+            "xgb": 0.9425,
+            "mlp": 0.6245,
+            "lstm": 0.7073
+          },
+          "final_score": 0.7189,
+          "signal_summary": "RSI 중립~반등 · 섹터 양호 (Z=+0.6)",
+          "current_price": null,
+          "return_pct": null
+        },
         {
           "ticker": "FCX",
           "name": "Freeport",
           "market": "US",
           "sector": "Materials",
-          "entry_price": 61.0,
-          "rsi": 42.0,
-          "bb_pos": 22.5,
-          "vol_ratio": 0.8,
+          "entry_price": 59.33,
+          "rsi": 38.6,
+          "bb_pos": 13.7,
+          "vol_ratio": 0.95,
           "macd_positive": false,
-          "sector_zscore": 0.19,
-          "ensemble_score": 0.7572,
+          "sector_zscore": 0.17,
+          "ensemble_score": 0.7316,
           "model_scores": {
-            "rf": 0.7918,
-            "xgb": 0.9706,
-            "mlp": 0.5678,
-            "lstm": 0.6987
+            "rf": 0.7032,
+            "xgb": 0.8708,
+            "mlp": 0.6806,
+            "lstm": 0.6718
           },
-          "final_score": 0.6944,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "UNH",
-          "name": "UnitedHealth",
-          "market": "US",
-          "sector": "Healthcare",
-          "entry_price": 417.99,
-          "rsi": 59.3,
-          "bb_pos": 69.9,
-          "vol_ratio": 0.87,
-          "macd_positive": false,
-          "sector_zscore": 0.97,
-          "ensemble_score": 0.5956,
-          "model_scores": {
-            "rf": 0.612,
-            "xgb": 0.6919,
-            "mlp": 0.4504,
-            "lstm": 0.6281
-          },
-          "final_score": 0.6399,
-          "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+1.0)",
+          "final_score": 0.6747,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
           "current_price": null,
           "return_pct": null
         },
@@ -69,21 +69,21 @@
           "name": "NextEra Energy",
           "market": "US",
           "sector": "Utilities",
-          "entry_price": 87.44,
-          "rsi": 50.1,
-          "bb_pos": 67.5,
-          "vol_ratio": 0.85,
+          "entry_price": 88.47,
+          "rsi": 54.0,
+          "bb_pos": 83.1,
+          "vol_ratio": 0.91,
           "macd_positive": true,
-          "sector_zscore": 0.13,
-          "ensemble_score": 0.6572,
+          "sector_zscore": 0.68,
+          "ensemble_score": 0.664,
           "model_scores": {
-            "rf": 0.6607,
-            "xgb": 0.7528,
-            "mlp": 0.5865,
-            "lstm": 0.6289
+            "rf": 0.5755,
+            "xgb": 0.9009,
+            "mlp": 0.5933,
+            "lstm": 0.5864
           },
-          "final_score": 0.6198,
-          "signal_summary": "MACD 골든크로스",
+          "final_score": 0.666,
+          "signal_summary": "MACD 골든크로스 · 섹터 양호 (Z=+0.7)",
           "current_price": null,
           "return_pct": null
         }
@@ -94,21 +94,21 @@
           "name": "삼성전자",
           "market": "KR",
           "sector": "Technology",
-          "entry_price": 318000.0,
-          "rsi": 50.0,
-          "bb_pos": 37.4,
-          "vol_ratio": 0.8,
+          "entry_price": 296000.0,
+          "rsi": 45.4,
+          "bb_pos": 15.1,
+          "vol_ratio": 1.08,
           "macd_positive": false,
-          "sector_zscore": -0.08,
-          "ensemble_score": 0.8202,
+          "sector_zscore": -1.26,
+          "ensemble_score": 0.859,
           "model_scores": {
-            "rf": 0.862,
-            "xgb": 0.9715,
-            "mlp": 0.7624,
-            "lstm": 0.685
+            "rf": 0.8802,
+            "xgb": 0.9654,
+            "mlp": 0.8915,
+            "lstm": 0.6989
           },
-          "final_score": 0.7185,
-          "signal_summary": "복합 기술적 신호",
+          "final_score": 0.6568,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 근접",
           "current_price": null,
           "return_pct": null
         },
@@ -117,21 +117,21 @@
           "name": "삼성물산",
           "market": "KR",
           "sector": "Industrials",
-          "entry_price": 449500.0,
-          "rsi": 50.0,
-          "bb_pos": 40.4,
-          "vol_ratio": 0.77,
+          "entry_price": 424500.0,
+          "rsi": 46.3,
+          "bb_pos": 23.5,
+          "vol_ratio": 0.74,
           "macd_positive": false,
-          "sector_zscore": 1.09,
-          "ensemble_score": 0.5931,
+          "sector_zscore": 0.59,
+          "ensemble_score": 0.6442,
           "model_scores": {
-            "rf": 0.5105,
-            "xgb": 0.5665,
+            "rf": 0.5022,
+            "xgb": 0.7636,
             "mlp": 0.6567,
-            "lstm": 0.639
+            "lstm": 0.6542
           },
-          "final_score": 0.6467,
-          "signal_summary": "RSI 중립~반등 · 섹터 모멘텀 상위 (Z=+1.1)",
+          "final_score": 0.6454,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.6)",
           "current_price": null,
           "return_pct": null
         },
@@ -140,20 +140,20 @@
           "name": "하나금융지주",
           "market": "KR",
           "sector": "Financials",
-          "entry_price": 124800.0,
-          "rsi": 56.7,
-          "bb_pos": 70.0,
-          "vol_ratio": 0.66,
+          "entry_price": 126900.0,
+          "rsi": 58.9,
+          "bb_pos": 76.3,
+          "vol_ratio": 1.07,
           "macd_positive": true,
-          "sector_zscore": 1.31,
-          "ensemble_score": 0.4787,
+          "sector_zscore": 1.28,
+          "ensemble_score": 0.5288,
           "model_scores": {
-            "rf": 0.4926,
-            "xgb": 0.4317,
-            "mlp": 0.4335,
-            "lstm": 0.5568
+            "rf": 0.5279,
+            "xgb": 0.5438,
+            "mlp": 0.4679,
+            "lstm": 0.5757
           },
-          "final_score": 0.5832,
+          "final_score": 0.6162,
           "signal_summary": "MACD 골든크로스 · 섹터 모멘텀 상위 (Z=+1.3)",
           "current_price": null,
           "return_pct": null
