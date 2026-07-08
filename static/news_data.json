@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회의",
-      "중동 전쟁으로 경제적 하락 압박",
-      "한목소리로 우려 표명"
+      "한중일 재무장관 공동 성명",
+      "중동 전쟁의 경제적 압박",
+      "위험에 대한 우려 표명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계의 파트너다",
-      "산업 통합의 중요성 강조",
-      "지속 가능한 발전 필요성 언급"
+      "금융, 산업 생태계 설계 파트너 필요",
+      "산업 협력 강조",
+      "지속 가능성 중요성 제기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "South Korea Ranks 21st in IMD Competitiveness Index, Rising Six Spots - 알파경제",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZNVI1dVhoeW04TUx5V3M2RmxhWUQ2Q05tSjZYWGtMRW1SUjJia045ZGZBQ2RscGtnczlTOWlkajUyRGdOd19ETWM3YWU1ZlZiQm5iVHNxdXQ2QTBDTkdpMTNxSGRVU2t0NkJHTFp3?oc=5",
-    "publisher": "알파경제",
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한국, IMD 경쟁력 21위",
-      "6계단 상승",
-      "경제 전망 긍정적"
+      "신용대출 1조원 증가",
+      "주담대 금리 7.3% 도달",
+      "빚투 영향 커짐"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY18wb0pOSlhyNk1jSU1HSmJZZm0xY0RNc0xmTkhfTEg4RFNsQV85dnBzUzJqQ0IxMENFWElUUG95S1JlWVRDNm9xYy13ek1lOG5WaFdZVU43OV9KVmx1N2JqR1owamlTa2FIOWdEdHBVU0RvakxnTlJhazV0WTNfRWp4SU1RMkpJUjEzOUNzckJDREd0Sk9DbQ?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "S&P 500, Nasdaq, Dow 선물 상승",
-      "기록적인 주간 성과",
-      "투자자들 긍정적 반응"
+      "선물 거래가 상승세를 보임",
+      "S&P 500, Nasdaq 기록 경신",
+      "시장 분위기 긍정적임"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장이 일부를 부자 만들고 있음",
-      "일반인은 이를 불행하게 느끼고 있음",
-      "투자 불평등이 심화되고 있음"
+      "주식 시장 상승으로 일부는 부자",
+      "대부분은 불만족스럽다",
+      "불균형한 부의 분배 문제"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "현재 미국 경제에 좋은 것이 주식에는 좋지 않을 수도 있다 - Reuters",
-    "original_title": "What's good for the US economy now may not be good for stocks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ21jX0N4VV9fTkxyc3hQd2JHMjJ2aHNrUHVzc19TQW9oMzkwNVg5eGFNdnR5MDR1WklXS08yZEh4aFJtNmNBbnVRNldjSzJLdEVlcmRBYVROU3Q1YVRJQjE3WGFMSC01SnB6dEVoN3N6VnRad1RONkJPMnlQNTNiMEZxWWl3NzVldTlvV1FsNmZ4bGNWX1NYQQ?oc=5",
-    "publisher": "Reuters",
+    "title": "주식 시장: 석유와 금 가격은 앞으로 문제가 있을 것이라고 말하고 있습니까? - 맛있는 라이브",
+    "original_title": "Stock Market: Are Oil and Gold Prices Saying There's Trouble Ahead? - tastylive",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObnhZWExWOFl1ckpoVGJPUndlVGtHY3hIY05Qa08yWmFsSkVwZVRVcXRYeF83UXRXWnZEMTVjbVNjbzBYaHZ1cmFTYmVadGJMeWtadkhMTEJCZy1nbS1sbjZoWmhlUE1vcnNEb2YzLWlWTUlxU3NNZXRFTmNmeWtWQ3RYNFpLR3d4OXRvOEFrTnZFRGxkaFFaNXB6RV9yam5iMG9zV1I0NEg?oc=5",
+    "publisher": "tastylive",
     "summary": [
-      "미국 경제는 긍정적 신호",
-      "주식 시장은 부정적 반응",
-      "상반된 경제-주식 교차 지표"
+      "유가 상승이 경제 불안 신호",
+      "금값 상승에 대한 우려",
+      "투자자들 경계심 증가"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
