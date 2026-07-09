@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁의 경제적 압박",
-      "위험에 대한 우려 표명"
+      "한국·중국·일본 재무장관 통합 발언",
+      "중동 전쟁으로 경제 위험 우려",
+      "하락 압박에 대한 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융, 산업 생태계 설계 파트너 필요",
-      "산업 협력 강조",
-      "지속 가능성 중요성 제기"
+      "금융이 산업 생태계 설계 파트너 필요",
+      "협력을 통한 지속가능한 발전 강조",
+      "금융의 역할 재정의 필요성 제기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "신용대출 1조원 증가",
+      "신용대출 1조 원 증가",
       "주담대 금리 7.3% 도달",
-      "빚투 영향 커짐"
+      "빚투 영향 확대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "텍사스 증권 거래소, 월스트리트에 대한 신생기업의 도전을 테스트하기 위해 거래 개시 - 휴스턴 퍼블릭 미디어",
+    "original_title": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
+    "publisher": "Houston Public Media",
+    "summary": [
+      "텍사스 증권거래소 개설",
+      "월가 도전의 시험",
+      "신규 상장으로 경쟁 시작"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
+    "type": "해외"
   },
   {
     "title": "오늘 주식 시장: 기록적인 주간 이후 S&P 500, 나스닥, 다우 선물 상승 - Yahoo Finance",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY18wb0pOSlhyNk1jSU1HSmJZZm0xY0RNc0xmTkhfTEg4RFNsQV85dnBzUzJqQ0IxMENFWElUUG95S1JlWVRDNm9xYy13ek1lOG5WaFdZVU43OV9KVmx1N2JqR1owamlTa2FIOWdEdHBVU0RvakxnTlJhazV0WTNfRWp4SU1RMkpJUjEzOUNzckJDREd0Sk9DbQ?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "선물 거래가 상승세를 보임",
-      "S&P 500, Nasdaq 기록 경신",
-      "시장 분위기 긍정적임"
+      "S&P 500, Nasdaq, 다우 선물 상승",
+      "지난주 기록적 성과",
+      "투자 심리 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승으로 일부는 부자",
-      "대부분은 불만족스럽다",
-      "불균형한 부의 분배 문제"
+      "주식 시장 상승이 일부 부유케 해",
+      "대다수는 어렵게 느껴져",
+      "불평등 심화 우려 제기"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "주식 시장: 석유와 금 가격은 앞으로 문제가 있을 것이라고 말하고 있습니까? - 맛있는 라이브",
-    "original_title": "Stock Market: Are Oil and Gold Prices Saying There's Trouble Ahead? - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObnhZWExWOFl1ckpoVGJPUndlVGtHY3hIY05Qa08yWmFsSkVwZVRVcXRYeF83UXRXWnZEMTVjbVNjbzBYaHZ1cmFTYmVadGJMeWtadkhMTEJCZy1nbS1sbjZoWmhlUE1vcnNEb2YzLWlWTUlxU3NNZXRFTmNmeWtWQ3RYNFpLR3d4OXRvOEFrTnZFRGxkaFFaNXB6RV9yam5iMG9zV1I0NEg?oc=5",
-    "publisher": "tastylive",
-    "summary": [
-      "유가 상승이 경제 불안 신호",
-      "금값 상승에 대한 우려",
-      "투자자들 경계심 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
