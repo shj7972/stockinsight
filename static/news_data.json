@@ -1,15 +1,28 @@
 [
   {
+    "title": "Korea, Mongolia expand cooperation in critical minerals, AI, finance - 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iNmRRYlp2S2Q1ZllYU2lQOEhVNkt6a2FnVllDV2xqT1ZHRWRGVDVmcnB6eFU5ZUxaNnNPVG95RXJPbmF3TUlGN0JtWmRNeEFTR2xtVFhGdF9Eb0dFZHhZSw?oc=5",
+    "publisher": "네이트",
+    "summary": [
+      "한국과 몽골, 광물 협력 강화",
+      "AI 분야 협력 확대",
+      "금융 협력 증진 예정"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 장관 공동 발표",
-      "중동 전쟁의 경제적 위험 언급",
-      "하향 압박에 대한 우려 표명"
+      "한중일 재무장관 한목소리",
+      "중동 전쟁 우려 표명",
+      "경제 압박 증가 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,39 +30,26 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융, 산업 생태계 설계의 파트너",
-      "산업 생태계 혁신 필요성 강조",
-      "금융의 역할 확대 주장"
+      "금융은 산업 생태계 파트너이어야",
+      "산업 생태계 설계 중요성 강조",
+      "금융과 산업 간 협력 필요"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
-    "publisher": "한겨레",
+    "title": "트럼프는 주식시장을 자신의 점수판으로 삼지만, 많은 미국인들은 게임에 참여하지도 않습니다 - Reuters",
+    "original_title": "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "신용대출 1조원 증가",
-      "주담대 금리 7.3% 도달",
-      "빚투 열풍 지속"
+      "트럼프, 주식시장을 강하게 홍보",
+      "대부분 미국인은 주식에 참여하지 않음",
+      "주식 시장에 대한 관심 부족"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "텍사스 증권 거래소, 월스트리트에 대한 신생기업의 도전을 테스트하기 위해 거래 개시 - 휴스턴 퍼블릭 미디어",
-    "original_title": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
-    "publisher": "Houston Public Media",
-    "summary": [
-      "텍사스 증시 거래 시작",
-      "월가에 도전하는 신생 기업",
-      "시장 경쟁 심화 예상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
     "publisher": "NPR",
     "summary": [
-      "이란과의 긴장감 증가",
-      "글로벌 경제 불확실성 심화",
-      "경제에 부정적인 영향 우려"
+      "이란과의 긴장이 경제에 불안 요소 추가",
+      "세계 경제는 이미 불안정한 상황",
+      "시장의 불확실성이 증가하고 있음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
-    "original_title": "The stock market rally that’s making some people rich and everyone else miserable - CNN",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
-    "publisher": "CNN",
+    "title": "텍사스 증권 거래소, 월스트리트에 대한 신생기업의 도전을 테스트하기 위해 거래 개시 - 휴스턴 퍼블릭 미디어",
+    "original_title": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
+    "publisher": "Houston Public Media",
     "summary": [
-      "주식 시장 랠리가 이어지고 있다",
-      "일부는 부자가 되고 있다",
-      "대부분은 불행함을 느끼고 있다"
+      "텍사스 증권거래소 출범",
+      "월스트리트에 도전장",
+      "거래 시작으로 테스트 진행"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
