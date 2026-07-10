@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회담",
-      "중동 전쟁의 경제적 위험",
-      "경제 회복 위한 공동 대응"
+      "한국·중국·일본 장관 공동 발표",
+      "중동 전쟁의 경제적 위험 언급",
+      "하향 압박에 대한 우려 표명"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융, 산업 생태계 설계의 파트너 필요",
-      "산업 혁신을 위한 자금 조달 중요",
-      "지속 가능성 중심의 금융 전략 강조"
+      "금융, 산업 생태계 설계의 파트너",
+      "산업 생태계 혁신 필요성 강조",
+      "금융의 역할 확대 주장"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "신용대출 1조 증가",
+      "신용대출 1조원 증가",
       "주담대 금리 7.3% 도달",
-      "빚투 현상 심화"
+      "빚투 열풍 지속"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "이란과의 긴장은 이미 불안정한 세계 경제에 새로운 불확실성을 더합니다 - NPR",
-    "original_title": "Tensions with Iran add fresh uncertainty to an already shaky global economy - NPR",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
-    "publisher": "NPR",
-    "summary": [
-      "이란과의 긴장, 경제 불확실성 증가",
-      "글로벌 경제, 이미 불안정한 상태",
-      "새로운 위기, 시장의 우려 커짐"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "텍사스 증권 거래소, 월스트리트에 대한 신생기업의 도전을 테스트하기 위해 거래 개시 - 휴스턴 퍼블릭 미디어",
@@ -58,23 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
     "publisher": "Houston Public Media",
     "summary": [
-      "텍사스 주식 거래소 출범",
-      "월스트리트 도전",
-      "신생 기업에 대한 관심 증가"
+      "텍사스 증시 거래 시작",
+      "월가에 도전하는 신생 기업",
+      "시장 경쟁 심화 예상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "트럼프의 이란 공격 발언이 시장을 뒤흔들고 브렌트유가 2주 최고치를 기록 - Al Jazeera",
-    "original_title": "Trump’s Iran strike comments shake markets, Brent crude hits two-week high - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUjZSYVRjTmNGNGRvOTlRSzhta0pUZmxvTUZQZ2tNWjVxdVVxY3BOQ0ZLM3lJLTBPSzVQVDg3ZFhmT2RkZmJSUlRnODI4U3hVZXFRNHRsck1udDRZRVZtdEU5R3VXbzBJNEl4cUljdGt0b0FMYmFQYzQ0SUtsOWJTdVRtWGxxLVFLT2ZYaFBXNm5ZNVB0YlBFNnVleDlITmpqb0JwTDk5Xy10eVU4aWVFcFBsbDhGQdIBuwFBVV95cUxQRGV4ZEdvVEdvODRXUHJuNTFmQnFCcGxIWVNNRmhBN095RTJHMHZGTGFmemRaajdHenhxeEVkMW1EdDR2YjVydm1fR2NJSGxYeWFaWHRfZEw3XzM4bDBFZ09YcVJpNVcwQ3JRLVpNSmhHMUZWeHI0NkhHWF95cUoxc0lsNUNpdWNScHlFRnNlbXJINFppNUQ0Q3d6S3RLNjdqZlZpUlVtUHFSLXVNb2FfNGVTc2VYMTFpWjJR?oc=5",
-    "publisher": "Al Jazeera",
+    "title": "이란과의 긴장은 이미 불안정한 세계 경제에 새로운 불확실성을 더합니다 - NPR",
+    "original_title": "Tensions with Iran add fresh uncertainty to an already shaky global economy - NPR",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
+    "publisher": "NPR",
     "summary": [
-      "트럼프의 이란 공격 발언",
-      "시장 동요 발생",
-      "브렌트유 가격 상승"
+      "이란과의 긴장감 증가",
+      "글로벌 경제 불확실성 심화",
+      "경제에 부정적인 영향 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
+    "original_title": "The stock market rally that’s making some people rich and everyone else miserable - CNN",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
+    "publisher": "CNN",
+    "summary": [
+      "주식 시장 랠리가 이어지고 있다",
+      "일부는 부자가 되고 있다",
+      "대부분은 불행함을 느끼고 있다"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
