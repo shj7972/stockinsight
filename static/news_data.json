@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iNmRRYlp2S2Q1ZllYU2lQOEhVNkt6a2FnVllDV2xqT1ZHRWRGVDVmcnB6eFU5ZUxaNnNPVG95RXJPbmF3TUlGN0JtWmRNeEFTR2xtVFhGdF9Eb0dFZHhZSw?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국과 몽골, 광물 협력 강화",
-      "AI 분야 협력 확대",
-      "금융 협력 증진 예정"
+      "한국과 몽골, 주요 광물 협력",
+      "AI 분야 협력 강화",
+      "금융 분야 협력 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 한목소리",
-      "중동 전쟁 우려 표명",
-      "경제 압박 증가 경고"
+      "한중일 재무장관 공동발표",
+      "중동 전쟁의 경제적 영향 우려",
+      "머지않은 미래의 불확실성 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 파트너이어야",
-      "산업 생태계 설계 중요성 강조",
-      "금융과 산업 간 협력 필요"
+      "재정은 산업 생태계 설계의 파트너",
+      "산업과 금융의 협력 강조",
+      "지속 가능한 발전 필요성 언급"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
+  },
+  {
+    "title": "주식시장과 경제가 일치하지 않는 것처럼 보이는 이유 - CNBC",
+    "original_title": "Why the stock market and economy may seem out of sync - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "주식시장과 경제의 괴리 현상",
+      "경제 지표와 주식 가격 차이",
+      "투자 심리의 영향 분석"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
   },
   {
     "title": "트럼프는 주식시장을 자신의 점수판으로 삼지만, 많은 미국인들은 게임에 참여하지도 않습니다 - Reuters",
@@ -44,37 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "트럼프, 주식시장을 강하게 홍보",
-      "대부분 미국인은 주식에 참여하지 않음",
-      "주식 시장에 대한 관심 부족"
+      "트럼프, 주식시장을 경기판으로 활용",
+      "많은 미국인들은 주식에 참여하지 않음",
+      "시장과 경제에 대한 접근성 차이"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.4,
     "type": "해외"
   },
   {
-    "title": "이란과의 긴장은 이미 불안정한 세계 경제에 새로운 불확실성을 더합니다 - NPR",
-    "original_title": "Tensions with Iran add fresh uncertainty to an already shaky global economy - NPR",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lrWS1DSHFVdzNGdU1TcnJqNHpEYmxFU1J4T3prS09QaGNpTGE1SlA5LXZabUZIYXdaSWNuQjZZemxKMzlrbUV5dTh1OGZSSUFvdkNsX0prYlhNajAxNV9YRmwwQTIxcTgyV0xIeWpHVVZnejBJU3dnTnpQNW81SlNfek5IdjY2c29HdmdBUmhYTTBqMUtYdWRYTQ?oc=5",
-    "publisher": "NPR",
+    "title": "위험 신호 아님: 시장-경제 단절 - Chase Bank",
+    "original_title": "Not a red flag: The market-economy disconnect - Chase Bank",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
+    "publisher": "Chase Bank",
     "summary": [
-      "이란과의 긴장이 경제에 불안 요소 추가",
-      "세계 경제는 이미 불안정한 상황",
-      "시장의 불확실성이 증가하고 있음"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "텍사스 증권 거래소, 월스트리트에 대한 신생기업의 도전을 테스트하기 위해 거래 개시 - 휴스턴 퍼블릭 미디어",
-    "original_title": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
-    "publisher": "Houston Public Media",
-    "summary": [
-      "텍사스 증권거래소 출범",
-      "월스트리트에 도전장",
-      "거래 시작으로 테스트 진행"
+      "시장과 경제 간의 괴리 분석",
+      "경고 신호 아님",
+      "긍정적 전망 유지"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
