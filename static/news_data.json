@@ -1,12 +1,12 @@
 [
   {
     "title": "Korea, Mongolia expand cooperation in critical minerals, AI, finance - 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iNmRRYlp2S2Q1ZllYU2lQOEhVNkt6a2FnVllDV2xqT1ZHRWRGVDVmcnB6eFU5ZUxaNnNPVG95RXJPbmF3TUlGN0JtWmRNeEFTR2xtVFhGdF9Eb0dFZHhZSw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국과 몽골, 광물 협력 강화",
-      "AI 분야 협력 증진",
-      "금융 분야 협력 확장"
+      "한국과 몽골의 협력 확대",
+      "주요 광물, AI 분야 협력",
+      "금융 분야 협력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 압박 우려",
-      "한중일 재무장관 공동 입장",
-      "위기 대응 협력 강화 필요"
+      "한중일 재무장관 협력 발언",
+      "중동 전쟁의 경제적 압박",
+      "결속된 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재정은 산업 생태계 설계의 파트너",
-      "금융과 산업 협력 필요성 강조",
-      "새로운 생태계 혁신 제안"
+      "금융은 산업 생태계 설계의 파트너",
+      "산업 발전 위해 협력 필요",
+      "혁신과 투자 촉진 중요"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "주식 시장과 경제의 괴리 발생",
-      "경기 회복과 주식 상승 간 불일치",
-      "투자 심리와 경제 지표의 차이"
+      "주식시장과 경제 비동조 문제",
+      "투자자 심리의 영향",
+      "경제지표와 시장 반응 차이"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장의 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
-    "original_title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-    "publisher": "Goldman Sachs",
-    "summary": [
-      "미국 주식시장 과도한 평가?",
-      "골드만삭스의 우려",
-      "기본 요인보다 벨류에이션 높아"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "트럼프, 주식시장을 경기판으로 활용",
-      "대다수 미국인은 주식 투자 안 해",
-      "경제 불균형 문제 지적"
+      "트럼프, 증시를 경기판으로 사용",
+      "대다수 미국인은 주식시장 불참",
+      "금융 시장 불균형 문제 지적"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식시장의 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
+    "original_title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+    "publisher": "Goldman Sachs",
+    "summary": [
+      "미국 주식 평가 과대화 우려",
+      "골드만삭스 분석 보고서",
+      "경제 펀더멘털과의 괴리"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
