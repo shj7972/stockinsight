@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한-몽, 핵심 광물 협력 확대",
-      "AI 분야 협력 강화",
-      "금융 부문 협력 증대"
+      "한국과 몽골, 핵심 광물 협력 강화",
+      "AI 분야 협력 확대",
+      "금융 분야 협력 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 발언",
-      "중동 전쟁으로 경제 압박 우려",
-      "협력 필요성 강조"
+      "한중일 재무장관 연합 발언",
+      "중동 전쟁으로 경제 압박",
+      "위험 경감 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
+    "title": "South Korea Ranks 21st in IMD Competitiveness Index, Rising Six Spots - 알파경제",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZNVI1dVhoeW04TUx5V3M2RmxhWUQ2Q05tSjZYWGtMRW1SUjJia045ZGZBQ2RscGtnczlTOWlkajUyRGdOd19ETWM3YWU1ZlZiQm5iVHNxdXQ2QTBDTkdpMTNxSGRVU2t0NkJHTFp3?oc=5",
+    "publisher": "알파경제",
     "summary": [
-      "산업 생태계 설계에 재정 협력 필요",
-      "금융과 산업의 융합 강조",
-      "지속 가능한 발전 목표 제시"
+      "한국, IMD 경쟁력 지수 21위",
+      "6계단 상승",
+      "경제 개선 기대감 상승"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -44,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "경제와 주식 시장의 불일치",
-      "주식 시장 과대평가 가능성",
-      "회복세의 지속성 의문"
+      "주식시장과 경제의 비동조 문제",
+      "투자자 심리의 영향",
+      "경제 지표의 불확실성"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "미국 주식시장의 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
+    "original_title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+    "publisher": "Goldman Sachs",
+    "summary": [
+      "미국 주식 시장 과대 평가 우려",
+      "기초 펀더멘털 초과 여부 분석",
+      "골드만 삭스의 시장 전망"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "트럼프, 주식 시장을 점수판으로 사용",
-      "많은 미국인들은 시장에 참여 안함",
-      "주식 시장과 경제 간의 간극 존재"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "미국 주식시장 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
-    "original_title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-    "publisher": "Goldman Sachs",
-    "summary": [
-      "미국 주식가치가 과대평가?",
-      "펀더멘털과의 격차 문제",
-      "골드만삭스의 경고"
+      "트럼프, 주식을 점수판으로 사용",
+      "대다수 미국인, 주식 시장에 미비 참여",
+      "경제 성장과 주식 시장 간의 괴리 나타남"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
