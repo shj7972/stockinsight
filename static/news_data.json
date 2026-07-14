@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국-몽골 협력 확대",
-      "중추광물 및 AI 분야",
-      "금융 분야 협력 강화"
+      "한국과 몽골, 광물 협력 강화",
+      "AI 분야 협력 확대",
+      "금융 분야 협력 진전"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무장관, 공동 성명 발표",
-      "중동 전쟁으로 경제 하방 압력",
-      "협력 필요성 강조"
+      "한국·중국·일본 재무장관 공동 대화",
+      "중동 전쟁의 경제적 위험 언급",
+      "하락 압력 우려 표명"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계의 파트너",
-      "산업과 금융의 협력 필요",
-      "지속 가능한 성장 강조"
+      "금융, 산업 생태계 설계의 파트너다.",
+      "산업 혁신에 금융의 역할 강조.",
+      "지속 가능성 위한 협력 필요."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "미국 주식시장의 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
-    "original_title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-    "publisher": "Goldman Sachs",
-    "summary": [
-      "주식 시장 가치가 과도하게 상승",
-      "기본 요소와 불일치",
-      "경제 전망에 대한 우려"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
   },
   {
     "title": "위험 신호 아님: 시장-경제 단절 - Chase Bank",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
     "publisher": "Chase Bank",
     "summary": [
-      "시장과 경제 간 괴리 존재",
-      "빨간 플래그 아님",
-      "긍정적인 전망 유지"
+      "시장과 경제 간 불일치 언급",
+      "경기 둔화 경고 없음",
+      "안정적인 시장 전망 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "주식시장은 계속 상승하고 있습니다. 그러나 미국 경제는 더 느린 속도로 움직이고 있다 - International Business Times",
-    "original_title": "The Stock Market Keeps Climbing. But the U.S. Economy is Moving at a Slower Pace - International Business Times",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTDRCQ1d3QVZRNTY4NEkyYmF2YVZ6a19XVTI0eFhUUWlQMHI0S3RSWUdrcmItU1hvYTFudzdQZTBfc3k1ZkJjN3NfZHE2R0t1MldWVmtPMkhUc1pnSy1qbE12YmwyUXFFQk5zT1Q1dFN5ZkZUMGtWRExMY0lFampSWjBaUnV6a0c1WmFrRmpOamp2T3c?oc=5",
-    "publisher": "International Business Times",
+    "title": "Goldman Sachs CEO, 미국 경제가 AI 시장 '과속 방지턱'을 극복할 수 있다고 말 - GS 주가는 기록적인 분기 이후 사상 최고치를 기록 - Stocktwits",
+    "original_title": "Goldman Sachs CEO Says US Economy Can Weather AI Market 'Speed Bumps' – GS Stock Hits All-Time High After Record Quarter - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSjhLeHBFY3JZMzVQelZfMUtBYlpfSXFHVHQzaHFXUkVrbm1TWlJsMzB6dW9pcmliYVNJOWFZbkx6QV90V1VXQy1McTYyOTRMNTNpckM5a1hHZDcyWmE0NFN2R0R4c09BLTJ6VzJmaUhlSTcxOWxlNldOZWJjbGFpNXBWNWNrUERXQTRhdFpMQmNia3l4Z2dDLU4tR1hmVUJVV2hUZEZ4UElQRXRYbVZuTzYtenZYanZ5bXJZVHYzU1R5R1dv?oc=5",
+    "publisher": "Stocktwits",
     "summary": [
-      "주식 시장은 계속 상승 중",
-      "미국 경제는 둔화되고 있어",
-      "경제 속도가 느려지고 있음"
+      "골드만삭스 CEO, AI 시장 진통 극복 가능",
+      "GS 주가 사상 최고치 기록",
+      "분기 실적, 역대급 증가"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "오늘의 주식시장 : 대형 은행들의 분기 실적이 미국 경제의 강세를 점하고 있음 - marketscreener.com",
+    "original_title": "Stock Market Today : Big Banks' Bumper Quarter Points to Strong U.S. Economy - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYklwUlFSNmFBT2h2UlJPNXh0SUk2THNncEZFU3laRGEzbjBvalJSeWl3a0pKWFp4OS1wT3VJZ29seE9mMlRvQWRSbGl3dFJiWXNiX2xWYlVrUU9scGNYdVpUdTI1VDV4cTR4UnRvNWFvNklJYkhYVzhyaEo1dlR4WkVjbGJRcTE3ZEQwLXJBbjluSGpSX3lxbXBYUE9PVEk1MmV2UkRRd21UMmRrUjNNQXc1cjFGSW9Pa2FFeU9jbW1RZUU?oc=5",
+    "publisher": "marketscreener.com",
+    "summary": [
+      "대형은행, 분기 실적 호조",
+      "강한 미국 경제 신호",
+      "주식시장 긍정적 반응"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
