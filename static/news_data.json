@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국과 몽골의 협력 확대",
-      "중요 광물 및 AI 분야",
-      "금융 협력 강화"
+      "한국-몽골 협력 확대",
+      "중추광물 및 AI 분야",
+      "금융 분야 협력 강화"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 발언",
-      "중동 전쟁으로 경제 하방 압력 우려",
-      "3국 협력의 중요성 강조"
+      "3국 재무장관, 공동 성명 발표",
+      "중동 전쟁으로 경제 하방 압력",
+      "협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계의 파트너다.",
-      "산업 생태계의 미래에 중요한 역할.",
-      "협력이 필요하다, 지속가능한 발전 위해."
+      "금융은 산업 생태계 설계의 파트너",
+      "산업과 금융의 협력 필요",
+      "지속 가능한 성장 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "주식시장과 경제가 일치하지 않는 것처럼 보이는 이유 - CNBC",
-    "original_title": "Why the stock market and economy may seem out of sync - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "주식시장과 경제의 불일치",
-      "투자 심리의 변동성",
-      "경제 지표와 시장 반응 차이"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
   },
   {
     "title": "미국 주식시장의 가치평가가 펀더멘탈을 앞지르고 있습니까? - 골드만삭스",
@@ -58,26 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
     "publisher": "Goldman Sachs",
     "summary": [
-      "미국 주식 시장 가치 과대 평가?",
-      "기초 체력보다 높을 수도",
-      "골드만삭스의 분석 결과"
+      "주식 시장 가치가 과도하게 상승",
+      "기본 요소와 불일치",
+      "경제 전망에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "3분기 미국 주식시장 전망: 투자자들은 균형 잡힌 위험과 선택적 기회에 직면해 있습니다 - Morningstar",
-    "original_title": "Q3 US Stock Market Outlook: Investors Face Balanced Risks, Selective Opportunities - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbVVlelJzaEJaTFA0WS0zVUxhOUEtVGJxOFgzQThBNkc2LVhIVFNUTndQZFRyZFdBMUhqb3ZGdW93NXBLUkZQNjZUdjVsREdnbG5QNkQ5eFZxbHJ3eTh5X3ZZREZRckd6SVU5MVhqb1BlcjJxMlRiRW5ZUWxNbGxoMmtoM1pfYzdSOXc1TEtjYkE1NE1COEtyTW9QT3FvbjBuWTB4U0F4Mng2UV91bURtNzdvYlRuaG9RSTF1bnhkenNYQ1U?oc=5",
-    "publisher": "Morningstar",
+    "title": "위험 신호 아님: 시장-경제 단절 - Chase Bank",
+    "original_title": "Not a red flag: The market-economy disconnect - Chase Bank",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
+    "publisher": "Chase Bank",
     "summary": [
-      "균형 잡힌 위험과 기회",
-      "선택적 투자 필요",
-      "전망에 대한 신중한 접근"
+      "시장과 경제 간 괴리 존재",
+      "빨간 플래그 아님",
+      "긍정적인 전망 유지"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "주식시장은 계속 상승하고 있습니다. 그러나 미국 경제는 더 느린 속도로 움직이고 있다 - International Business Times",
+    "original_title": "The Stock Market Keeps Climbing. But the U.S. Economy is Moving at a Slower Pace - International Business Times",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTDRCQ1d3QVZRNTY4NEkyYmF2YVZ6a19XVTI0eFhUUWlQMHI0S3RSWUdrcmItU1hvYTFudzdQZTBfc3k1ZkJjN3NfZHE2R0t1MldWVmtPMkhUc1pnSy1qbE12YmwyUXFFQk5zT1Q1dFN5ZkZUMGtWRExMY0lFampSWjBaUnV6a0c1WmFrRmpOamp2T3c?oc=5",
+    "publisher": "International Business Times",
+    "summary": [
+      "주식 시장은 계속 상승 중",
+      "미국 경제는 둔화되고 있어",
+      "경제 속도가 느려지고 있음"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "해외"
   }
 ]
