@@ -1,12 +1,25 @@
 [
   {
+    "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "하이닉스, 美서 40조 조달",
+      "환율 하락 기대감 확산",
+      "경제에 긍정적 영향 예상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁으로 경제 위기 경고",
-      "한국·중국·일본 재무장관 의견 일치",
-      "하향 압박 우려 표명"
+      "한국·중국·일본 재무장관 회의",
+      "중동 전쟁으로 경제 위기 우려",
+      "공조 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,22 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국-몽골 협력 확대",
-      "중요 광물 분야 협업",
-      "AI 및 금융 진전"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
-    "publisher": "르몽드디플로마티크",
-    "summary": [
-      "금융의 역할은 산업 생태계 설계",
-      "산업과 금융의 협력 필요",
-      "지속 가능한 성장 지향"
+      "한국과 몽골, 광물 협력 확대",
+      "AI 분야 협력 강화",
+      "금융 분야 협력 진행"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,37 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
     "publisher": "Chase Bank",
     "summary": [
-      "시장과 경제 간의 불일치",
-      "우려할 필요 없음",
-      "지속적인 성장 전망"
+      "시장은 안정적이다.",
+      "경제지표는 긍정적이다.",
+      "투자자 신뢰 유지된다."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
-    "original_title": "The stock market rally that’s making some people rich and everyone else miserable - CNN",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
-    "publisher": "CNN",
+    "title": "수요일 거래에서 S&P/TSX 종합 상승, 미국 주식 시장도 상승 - BNN Bloomberg",
+    "original_title": "S&P/TSX composite up in Wednesday trading, U.S. stock markets also higher - BNN Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjdZYm42N0ZyWGlJS1haQXZBYVJ5Z01hYUhtOFlVWEJnbnpzTTE5dkE5QTdhZVp0cnIzengwaGpNelY4SndGMkRpRVRCZ1BLYV84Qm92SmF3WGtvelN0SC1TdlhJZ1lVcTZmXzBQUXh5UFNROF9QMkV6WFNDTWNSempGVDZ0aThzOE1jSlh1WjBVRFB0UklJZXUwNmQyampITG0xUXAzNzNnajhLeHJ4S3ExU0N3OV9UakRN?oc=5",
+    "publisher": "BNN Bloomberg",
     "summary": [
-      "주식 시장 랠리로 일부가 부자  ",
-      "다수는 불만 사항 증가 ",
-      "경제 양극화 현상 심화 "
+      "S&P/TSX 지수가 상승",
+      "미국 주식시장도 상승",
+      "전반적인 긍정적 흐름"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "오늘의 주식시장 : 대형 은행들의 분기 실적이 미국 경제의 강세를 시사합니다 - marketscreener.com",
-    "original_title": "Stock Market Today : Big Banks' Bumper Quarter Points to Strong U.S. Economy - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYklwUlFSNmFBT2h2UlJPNXh0SUk2THNncEZFU3laRGEzbjBvalJSeWl3a0pKWFp4OS1wT3VJZ29seE9mMlRvQWRSbGl3dFJiWXNiX2xWYlVrUU9scGNYdVpUdTI1VDV4cTR4UnRvNWFvNklJYkhYVzhyaEo1dlR4WkVjbGJRcTE3ZEQwLXJBbjluSGpSX3lxbXBYUE9PVEk1MmV2UkRRd21UMmRrUjNNQXc1cjFGSW9Pa2FFeU9jbW1RZUU?oc=5",
-    "publisher": "marketscreener.com",
+    "title": "Bank of America 이익은 상업 대출 증가와 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
+    "original_title": "Bank of America profit jumps 27% amid commercial loan growth and 'strong consumer spending' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemk5ek9vcUNoOTRyOWVKazItY1JzZXN0YU44Ml9lQXFlbE1YeEloc3l6eHhDRVdvLVVzdnhiSmxMdnl5S1RsUGlrN0g1a2dIc09XWE9SWkNyQ1I2QTBTdHROVHlNM2ZnRURmeU54MDRfdDR3NmtLQ1J2cklfMmpIX21sR1gxYmRCbk56RURyQ041TktDaGljb3ZZRFlVUUVvcmhfRV9HQktNWkR6VVJPSTJ0S3V3NlpjajNXd0tMc0RUeDhvY1RMcHpVWXU1NHlpRmdCemtKd2RsY00?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "대형은행 실적 호조",
-      "미국 경제 강세 신호",
-      "주식 시장 긍정적 반응"
+      "뱅크 오브 아메리카, 27% 이익 증가",
+      "상업 대출 성장",
+      "소비자 지출 강세"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
