@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "하이닉스, 美서 40조 조달",
-      "환율 하락 기대감 확산",
-      "경제에 긍정적 영향 예상"
+      "하이닉스, 미국서 40조 조달",
+      "환율 하락 기대감 커져",
+      "연쇄하락 효과 예상"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 회의",
-      "중동 전쟁으로 경제 위기 우려",
-      "공조 필요성 강조"
+      "한국, 중국, 일본 재무장관 의견 일치",
+      "중동 전쟁으로 인한 경제적 압박 우려",
+      "위험 요인에 대한 공동 대응 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mQTdfeS1hNVIzTFdiTVkxWUFXTlNMNXQ3LURRM1lxandKUnJlTWg5OERDdGdJVDNiMXdnVWlvLUtvZ1hGRE1XbFNVZllmMHZFcmRr?oc=5",
     "publisher": "네이트",
     "summary": [
-      "한국과 몽골, 광물 협력 확대",
+      "한국과 몽골, 중요한 광물 협력 확대",
       "AI 분야 협력 강화",
-      "금융 분야 협력 진행"
+      "금융 분야 협력 증진"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,36 +44,36 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
     "publisher": "Chase Bank",
     "summary": [
-      "시장은 안정적이다.",
-      "경제지표는 긍정적이다.",
-      "투자자 신뢰 유지된다."
+      "시장과 경제의 괴리 설명",
+      "위기 신호 아님",
+      "긍정적 전망 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "수요일 거래에서 S&P/TSX 종합 상승, 미국 주식 시장도 상승 - BNN Bloomberg",
-    "original_title": "S&P/TSX composite up in Wednesday trading, U.S. stock markets also higher - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjdZYm42N0ZyWGlJS1haQXZBYVJ5Z01hYUhtOFlVWEJnbnpzTTE5dkE5QTdhZVp0cnIzengwaGpNelY4SndGMkRpRVRCZ1BLYV84Qm92SmF3WGtvelN0SC1TdlhJZ1lVcTZmXzBQUXh5UFNROF9QMkV6WFNDTWNSempGVDZ0aThzOE1jSlh1WjBVRFB0UklJZXUwNmQyampITG0xUXAzNzNnajhLeHJ4S3ExU0N3OV9UakRN?oc=5",
-    "publisher": "BNN Bloomberg",
+    "title": "미국 주식 시장: Fed Beige Book은 인플레이션이 완화되면서 경제가 개선된다는 신호를 보냈지만 연료비와 관세는 r - The Economic Times",
+    "original_title": "US Stock Market: Fed Beige Book signals improving economy as inflation eases, but fuel costs and tariffs r - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORm80eFluR0FVSl92Vkk4cDR6aGN2Z2ZGQmVncmhXVlYtREgtWWtUZ3ZXVWhGWWNESzViWlRXOEF1aTYtV0MtUUVxZi1xVGFYVW5Nd05PM2dLbTNXZlJFMTlSLUpFTEZjTFFfdV9hQzI2amVWVVpVei1SLXQtTWc3b3dsVXZjMzJSZlVRajZvS3BtTUhYUktGS2R2ekhjdGYtMlU1MHA5UUtKSzlUeVVKUWtid2hGRlR5dWdjWDdPR1pGbjRJdktxN2lycHphMV93RmNnTzBXb2hIX0NINEVlYWhuajNlcVVVVEhHMUhZa0N0R0dTbXlEeHpLMjFpTTRKUEhFZEFYODJtUjJ5Ym9lSmxjM2d5ZGY1S19HMNIBogJBVV95cUxNVG1PZHRTX0g5ZzA2bDZCZHRTT0RSbzltWUJxUDh6OUh6d0NwZk5NTFdaTGRSR0NmZUpzRVJXcjEyQnY1bnNPU1NqZkcwUlMwZm56dTNORGxIRWozTm8zVWJaLUwxdmxSUXFyMmZDTFYzSXNsRlZMUzNmbHZZU05Fc21rLVM1M3lXaGFKOFZsQUVZNWtEcWNkTVdIT096MExvczhTcWFuZVVMeEJRYWNJU1BqdU11RnlISUhNdFo0ZXAwNllNVlhJWVRKQi1QZHlCcGszNl9KeG1rd2lNU2piYkwtU2hUazdmYTg4aDdNWkZic2JPRFEyS01HblBVZjM2UlFDQklRYVVaTV9uN3ZIcFVLLUY1aHhmakFmNEFVWFlNZw?oc=5",
+    "publisher": "The Economic Times",
     "summary": [
-      "S&P/TSX 지수가 상승",
-      "미국 주식시장도 상승",
-      "전반적인 긍정적 흐름"
+      "경제 개선 신호",
+      "인플레이션 완화",
+      "연료비와 관세 우려"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
-    "title": "Bank of America 이익은 상업 대출 증가와 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
+    "title": "Bank of America 이익은 상업 대출 성장과 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
     "original_title": "Bank of America profit jumps 27% amid commercial loan growth and 'strong consumer spending' - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemk5ek9vcUNoOTRyOWVKazItY1JzZXN0YU44Ml9lQXFlbE1YeEloc3l6eHhDRVdvLVVzdnhiSmxMdnl5S1RsUGlrN0g1a2dIc09XWE9SWkNyQ1I2QTBTdHROVHlNM2ZnRURmeU54MDRfdDR3NmtLQ1J2cklfMmpIX21sR1gxYmRCbk56RURyQ041TktDaGljb3ZZRFlVUUVvcmhfRV9HQktNWkR6VVJPSTJ0S3V3NlpjajNXd0tMc0RUeDhvY1RMcHpVWXU1NHlpRmdCemtKd2RsY00?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "뱅크 오브 아메리카, 27% 이익 증가",
-      "상업 대출 성장",
+      "뱅크 오브 아메리카 이익 27% 증가",
+      "상업 대출 증가",
       "소비자 지출 강세"
     ],
     "sentiment": "POSITIVE",
