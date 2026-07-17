@@ -1,28 +1,28 @@
 [
   {
-    "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "하이닉스, 미국서 40조 조달 성공",
-      "환율 하락 기대감 조성",
-      "경제 회복에 긍정적 전망"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동성명 발표",
-      "중동 전쟁으로 경제 압박 우려",
-      "우려사항에 대한 공감대 형성"
+      "한국·중국·일본 재무장관 회의",
+      "중동전쟁으로 경제 압박 우려",
+      "공동 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "하이닉스, 미국서 40조 원 조달",
+      "환율 하락 기대감 커져",
+      "경제에 긍정적 영향 예상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계의 파트너다",
-      "지속 가능성 있는 금융 필요",
-      "산업 발전과 금융 협력 강조"
+      "재정, 산업 생태계 설계에 필요",
+      "파트너십을 통한 협력 강조",
+      "지속 가능성 위한 공조 필요"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "거시 화폐: 주식 시장과 미국 경제의 문제점 발견 - DeliciousLive",
-    "original_title": "Macro Money: Stock Markets and the US Economy Problem Found - tastylive",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdm9KNC02ejNGQndiNklLOFRPS0pHSFYzNE9idHQySFp2WjUyeXNyOVk1VFU2TzNGRlFmRDRuQllqRFhYYmhwZmJsN2IyS1lmTkxhSEEyakxVRnYySHQyOEpkZXUyZ0JxVjBjb1J5bzI3NFE1cnFKTXVKeVc4M05WRWxSMUJEeGRkVHU3NVZGZWpjUnpzek4xUDdHSXkySFVpMHlGNUtJbjc1OGQwZDMzUzJUUDNWTU14RmZaNlpTZw?oc=5",
-    "publisher": "tastylive",
+    "title": "경제 전망이 악화되고 트럼프가 비난을 받고 있다고 CNBC 조사 결과 - CNBC",
+    "original_title": "Economic outlook is worsening and Trump is getting blamed, CNBC survey finds - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzgxVnpIaExreFhtVzI2S2xwMDBPaW41dGZ6THBUOVdUclZyX1VJMlJTalU3eC1BakZrdEJBbG5QMmRzbFl0dkJsMzFXbGFpUWI0YWtFVXpSQlNDQkhfc3JOSk5fUDRxei10NkFSSkZ5cUo1Rk51MVJYWVhtZzV2cWpsTGN5dTNZTnllbFhVRzB5LVB4RmZUWnQ1R0RiR1NnTWk3Y3RCdVBabDFiZnd0ZmtB0gG3AUFVX3lxTE4ycktBTE9XNFpHSXF0aUk3d3RYcjdGOUwyR2dEeS1yWVNQSGltUkl5MTR1SlhWTGUzY25URm84eHRNQ0paY25JYW1LdlpPeGoxT0hGa0gwMUxnaGlLXzFpdmhmT21GVW9zeTRySVJLRl83aHo3TlB0ZmUxX0xLWXIyRXplSVQyYy1tRG5QWWtBdzBlMW9ZOF8yNWg0eVdHMVc1a3B2RVJIclliX0ttRVA3WFByR1dEVQ?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "주식 시장의 문제 발견",
-      "미국 경제에 영향",
-      "미래 전망 불확실"
+      "경제 전망 악화",
+      "트럼프에 대한 비난 증가",
+      "CNBC 조사 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Bank of America 이익은 상업 대출 증가와 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
+    "title": "Bank of America 이익은 상업 대출 성장과 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
     "original_title": "Bank of America profit jumps 27% amid commercial loan growth and 'strong consumer spending' - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemk5ek9vcUNoOTRyOWVKazItY1JzZXN0YU44Ml9lQXFlbE1YeEloc3l6eHhDRVdvLVVzdnhiSmxMdnl5S1RsUGlrN0g1a2dIc09XWE9SWkNyQ1I2QTBTdHROVHlNM2ZnRURmeU54MDRfdDR3NmtLQ1J2cklfMmpIX21sR1gxYmRCbk56RURyQ041TktDaGljb3ZZRFlVUUVvcmhfRV9HQktNWkR6VVJPSTJ0S3V3NlpjajNXd0tMc0RUeDhvY1RMcHpVWXU1NHlpRmdCemtKd2RsY00?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "뱅크오브아메리카, 이익 27% 증가",
-      "상업 대출 증가",
-      "소비자 지출 강세"
+      "뱅크 오브 아메리카 이익 27% 증가",
+      "상업 대출 성장",
+      "강한 소비지출 효과"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "위험 신호 아님: 시장-경제 단절 - Chase Bank",
-    "original_title": "Not a red flag: The market-economy disconnect - Chase Bank",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
-    "publisher": "Chase Bank",
+    "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
+    "original_title": "The stock market rally that’s making some people rich and everyone else miserable - CNN",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "시장과 경제 간 괴리 존재",
-      "투자자들에게 우려안됨",
-      "시장 긍정적인 전망 유지"
+      "주식 시장 상승세가 일부를 부유하게",
+      "대다수는 불행한 상황",
+      "불균형한 부의 분배 문제"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
