@@ -1,23 +1,10 @@
 [
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한국·중국·일본 재무장관 회의",
-      "중동전쟁으로 경제 압박 우려",
-      "공동 대응 필요성 강조"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
     "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "하이닉스, 미국서 40조 원 조달",
+      "하이닉스, 40조 원 조달 성공",
       "환율 하락 기대감 커져",
       "경제에 긍정적 영향 예상"
     ],
@@ -26,13 +13,26 @@
     "type": "국내"
   },
   {
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관 회담",
+      "중동 전쟁의 경제적 위험",
+      "공동 대응 필요성 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
     "title": "Ham Young-joo: “Finance Must Be a Partner Designing Industrial Ecosystems” - 르몽드디플로마티크",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재정, 산업 생태계 설계에 필요",
-      "파트너십을 통한 협력 강조",
-      "지속 가능성 위한 공조 필요"
+      "산업 생태계 설계에 금융의 역할 강조",
+      "금융이 파트너로서의 중요성 역설",
+      "산업과 금융의 협력 필요성 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -53,31 +53,31 @@
     "type": "해외"
   },
   {
-    "title": "Bank of America 이익은 상업 대출 성장과 '강한 소비자 지출'로 인해 27% 증가 - Yahoo Finance",
-    "original_title": "Bank of America profit jumps 27% amid commercial loan growth and 'strong consumer spending' - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemk5ek9vcUNoOTRyOWVKazItY1JzZXN0YU44Ml9lQXFlbE1YeEloc3l6eHhDRVdvLVVzdnhiSmxMdnl5S1RsUGlrN0g1a2dIc09XWE9SWkNyQ1I2QTBTdHROVHlNM2ZnRURmeU54MDRfdDR3NmtLQ1J2cklfMmpIX21sR1gxYmRCbk56RURyQ041TktDaGljb3ZZRFlVUUVvcmhfRV9HQktNWkR6VVJPSTJ0S3V3NlpjajNXd0tMc0RUeDhvY1RMcHpVWXU1NHlpRmdCemtKd2RsY00?oc=5",
-    "publisher": "Yahoo Finance",
-    "summary": [
-      "뱅크 오브 아메리카 이익 27% 증가",
-      "상업 대출 성장",
-      "강한 소비지출 효과"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
     "title": "일부 사람들을 부자로 만들고 다른 사람들을 비참하게 만드는 주식 시장 상승 - CNN",
     "original_title": "The stock market rally that’s making some people rich and everyone else miserable - CNN",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승세가 일부를 부유하게",
-      "대다수는 불행한 상황",
+      "주식 시장 상승, 일부만 대박",
+      "다수는 경제적 고통 호소",
       "불균형한 부의 분배 문제"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁은 세계 경제의 단층을 드러낸다 - PubAffairs Bruxelles",
+    "original_title": "The Iran war exposes the global economy’s fault lines - PubAffairs Bruxelles",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWpjb0hXdXJoNlg0SzVybWdsWUx2YjVrYVdwYUZVcFFMX3dmTlJRTzExcHRSNFF4em9rRHBoSHhYbnNqa3B5blRPVXdXTGtiZzZSbi1zcWJLY2JMeTVUcHNXRlpacDJfcXJDVkNpQzFRVFpIcXJtbU1CSmtGc0VvN0pfY1BzeF93VVY1Q044UGVPQS1yMEl5UGxueUNwS3NmQ1QxY0x5OXM?oc=5",
+    "publisher": "PubAffairs Bruxelles",
+    "summary": [
+      "이란 전쟁이 글로벌 경제의 취약점 노출",
+      "세계 경제의 새로운 긴장감 발생",
+      "국제 무역에 미치는 부정적 영향 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
