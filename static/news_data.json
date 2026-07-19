@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 공동성명",
       "중동 전쟁으로 경제 압박 우려",
-      "긴밀한 경제 협력 강조"
+      "한중일 재무장관 일치된 목소리",
+      "위험 대응 방안 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "하이닉스, 미국서 40조 원 조달",
+      "하이닉스, 미국서 40조 조달",
       "환율 하락 기대감 형성",
-      "투자 환경 개선 신호"
+      "시장 반응 긍정적"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융, 산업 생태계 설계 파트너 필요",
-      "협업 통한 지속 가능한 발전 강조",
-      "산업과 금융의 통합 필요성 제기"
+      "금융은 산업 생태계 설계의 파트너",
+      "산업 혁신 지원 필요",
+      "공공-민간 협력 강조"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -45,8 +45,8 @@
     "publisher": "CNBC",
     "summary": [
       "경제 전망 악화",
-      "트럼프가 비난받고 있음",
-      "설문조사 결과 기반"
+      "트럼프에게 책임 전가",
+      "CNBC 조사 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "주간 경제 데이터 발표 예정",
-      "소비자 지출 둔화 우려",
-      "고용 지표 주목 필요"
+      "이번 주 경제 지표 발표 예정",
+      "금리 인상 가능성 고려",
+      "소비자 신뢰도 주목"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승에 부유한 사람들",
-      "대부분은 불만족 느낀다",
-      "불평등 심화하는 상황"
+      "주식 시장 상승, 일부 부자 만들어",
+      "대부분은 불만과 고통에 직면",
+      "불균형한 부의 분배 문제 제기"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
