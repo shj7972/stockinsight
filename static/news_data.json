@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "중동 전쟁이 경제에 부정적 영향",
-      "한국, 중국, 일본 재무장관 합의",
-      "경제 압박 완화 필요성 강조"
+      "한중일, 중동 전쟁 우려 표명",
+      "경제 압박 위험 공감",
+      "협력 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "하이닉스, 미국서 40조 조달",
-      "환율 하락 기대감 커짐",
-      "경제 긍정적 반응 예상"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -30,9 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계의 파트너",
-      "산업과 금융의 협력 강조",
-      "지속 가능성 위한 혁신 촉진"
+      "재무가 산업 생태계 설계의 파트너 역할",
+      "산업 성장과 혁신의 중요성 강조",
+      "재무와 산업의 협력 필요성 언급"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "미국서 40조 조달한 하이닉스…환율 ‘연쇄하락 고리’ 기대감 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "하이닉스, 40조 원 조달 성공",
+      "환율 하락 기대감 언급",
+      "경제에 긍정적 영향 예상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzgxVnpIaExreFhtVzI2S2xwMDBPaW41dGZ6THBUOVdUclZyX1VJMlJTalU3eC1BakZrdEJBbG5QMmRzbFl0dkJsMzFXbGFpUWI0YWtFVXpSQlNDQkhfc3JOSk5fUDRxei10NkFSSkZ5cUo1Rk51MVJYWVhtZzV2cWpsTGN5dTNZTnllbFhVRzB5LVB4RmZUWnQ1R0RiR1NnTWk3Y3RCdVBabDFiZnd0ZmtB0gG3AUFVX3lxTE4ycktBTE9XNFpHSXF0aUk3d3RYcjdGOUwyR2dEeS1yWVNQSGltUkl5MTR1SlhWTGUzY25URm84eHRNQ0paY25JYW1LdlpPeGoxT0hGa0gwMUxnaGlLXzFpdmhmT21GVW9zeTRySVJLRl83aHo3TlB0ZmUxX0xLWXIyRXplSVQyYy1tRG5QWWtBdzBlMW9ZOF8yNWg0eVdHMVc1a3B2RVJIclliX0ttRVA3WFByR1dEVQ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "경제 전망이 악화되고 있음",
-      "트럼프가 비난받고 있음",
-      "CNBC 조사 결과"
+      "경제 전망 악화",
+      "트럼프에게 책임 전가",
+      "여론 조사 결과"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "이번 주 경제 데이터 발표 주목",
-      "고용 및 인플레이션 지표 분석 필요",
-      "연준 정책 방향성에 영향 줄 가능성"
+      "주간 경제 데이터 예측",
+      "시장 반응 주목",
+      "금리 변화 가능성 논의"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "일부는 부유해지고, 다른 이들은 고통받음",
-      "주식 울타리의 불균형 문제",
-      "시장 상승이 일부에만 혜택 줌"
+      "주식 시장 상승에 불만 있는 사람들",
+      "부유한 투자자와 고통받는 다수",
+      "시장 회복의 불균형 문제"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
