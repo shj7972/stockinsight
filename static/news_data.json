@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일, 중동 전쟁 우려 표명",
-      "경제 압박 위험 공감",
-      "협력 필요성 강조"
+      "한중일 재무장관 공동 성명",
+      "중동 전쟁의 경제적 위험 언급",
+      "내려가는 경제 압력 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재무가 산업 생태계 설계의 파트너 역할",
-      "산업 성장과 혁신의 중요성 강조",
-      "재무와 산업의 협력 필요성 언급"
+      "산업 생태계 설계에 금융 역할 강조",
+      "재정적 파트너십 필요성 언급",
+      "지속 가능한 발전 방향 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DR1d0YXNMS2xFSTRmZkpmUjhHQVpseFpwQnYwdVBJdWZ1N2N5RjBodGM4ZHFaTmtYTmtzOG45MTVXOW41QjR6Q0xtRktpSDVNOTRTRmRIUkd4QVp6SUFmWnJrUnJoTGM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "하이닉스, 40조 원 조달 성공",
-      "환율 하락 기대감 언급",
-      "경제에 긍정적 영향 예상"
+      "하이닉스, 미국서 40조 조달",
+      "환율 하락 기대감",
+      "경제 회복 기조 예상"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
-  },
-  {
-    "title": "경제 전망이 악화되고 트럼프가 비난을 받고 있다고 CNBC 조사 결과 - CNBC",
-    "original_title": "Economic outlook is worsening and Trump is getting blamed, CNBC survey finds - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzgxVnpIaExreFhtVzI2S2xwMDBPaW41dGZ6THBUOVdUclZyX1VJMlJTalU3eC1BakZrdEJBbG5QMmRzbFl0dkJsMzFXbGFpUWI0YWtFVXpSQlNDQkhfc3JOSk5fUDRxei10NkFSSkZ5cUo1Rk51MVJYWVhtZzV2cWpsTGN5dTNZTnllbFhVRzB5LVB4RmZUWnQ1R0RiR1NnTWk3Y3RCdVBabDFiZnd0ZmtB0gG3AUFVX3lxTE4ycktBTE9XNFpHSXF0aUk3d3RYcjdGOUwyR2dEeS1yWVNQSGltUkl5MTR1SlhWTGUzY25URm84eHRNQ0paY25JYW1LdlpPeGoxT0hGa0gwMUxnaGlLXzFpdmhmT21GVW9zeTRySVJLRl83aHo3TlB0ZmUxX0xLWXIyRXplSVQyYy1tRG5QWWtBdzBlMW9ZOF8yNWg0eVdHMVc1a3B2RVJIclliX0ttRVA3WFByR1dEVQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "경제 전망 악화",
-      "트럼프에게 책임 전가",
-      "여론 조사 결과"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
   },
   {
     "title": "이번 주(7월 20~24일) 경제 데이터에서 주목해야 할 사항 - Kiplinger",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
     "publisher": "Kiplinger",
     "summary": [
-      "주간 경제 데이터 예측",
-      "시장 반응 주목",
-      "금리 변화 가능성 논의"
+      "주간 경제 데이터 발표 예정",
+      "소비자 신뢰 지표 주목",
+      "고용 지표 개선 기대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승에 불만 있는 사람들",
-      "부유한 투자자와 고통받는 다수",
-      "시장 회복의 불균형 문제"
+      "주식 시장 상승세가 두 극단적 반응",
+      "부유한 사람들과 불행한 다수",
+      "경제 불균형 심화 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "위험 신호 아님: 시장-경제 단절 - Chase Bank",
+    "original_title": "Not a red flag: The market-economy disconnect - Chase Bank",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2pBUWlzOUZSaHh2UVRkTkNkSWJ3OG4wMzg0ZXJaUU93dUNBaXR0TlVzN0NtSVlBX1pQOXI2N18tQkN2dEJjeVNreE54UUQycTdoMlBsNm9MaDVLM3ZOQklNZG9fb3hXRmFGXzhKNkZhR2xNZkF0SzBaOTVWUzdlM3Y0OVpEcERzYTRzcjYyUGVmdG50NkVCeTk5M2Q?oc=5",
+    "publisher": "Chase Bank",
+    "summary": [
+      "시장과 경제 간 불일치 분석",
+      "레드 플래그 없음",
+      "긍정적인 시장 전망"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
