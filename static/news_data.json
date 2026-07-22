@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 공동 성명",
-      "중동 전쟁의 경제 영향 경고",
-      "하향 압박 우려 표명"
+      "각국 재무장관, 경제 위험 우려",
+      "중동 전쟁 영향 강조",
+      "협력 필요성 재확인"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 설계의 파트너 필요성",
-      "산업과 금융의 협력이 중요하다고 강조",
-      "지속 가능한 발전을 위한 혁신 요구"
+      "금융과 산업 생태계의 협력 필요",
+      "산업 혁신 위한 금융의 역할 강조",
+      "지속 가능성 추구하는 금융 관점 제시"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "신용대출 3일 만에 1조 증가",
-      "주담대 금리 7.3% 최고치",
-      "빚투 열풍 지속 중"
+      "신용대출 1조 원 증가",
+      "주담대 금리 최고 7.3%",
+      "빚투로 인한 영향"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "전쟁으로 인한 경제 영향 우려",
-      "주식시장 불안정성 증가",
-      "원자재 가격 상승 가능성"
+      "미국-이란 전쟁 재발 우려",
+      "주식 시장 영향 가능성",
+      "경제 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NcWM0cEJLc1NtZFpWdm1DWDBiazdWcWNTRjc4Wk5sN2hYaW16R1R0M1NsTTZ6dFpoTExnV0FhZ3ZZNkJPdXZRZEIzSXlrRkVaSmptZXhkWWlpckFSaWtJcWN4VWdBbHB5RHpuY2huXzdNYjVaNkx2T3NfZnVydw?oc=5",
     "publisher": "The Atlantic",
     "summary": [
-      "AI 버블은 독특한 특성을 가짐",
-      "기술 혁신과 투자 증가",
-      "지속 가능성에 대한 우려"
+      "AI 버블, 일반적이지 않다",
+      "기술과 경제의 영향력",
+      "산업재편의 가능성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wTnVnQTZObVBiRWNaVmMwNHFDandIeHBjbDRnc182d2VPcnVOeHp5alN2LVBGSjFZTkE5RmpLXzRMcDVlU0MwbGRBYnd6SWptRGtZYkNPYjNjWnlab1ZwUUFLT0c2dE1UUVBIaA?oc=5",
     "publisher": "CNN",
     "summary": [
-      "주식 시장 상승으로 일부 부자",
-      "대부분은 불만 가득",
-      "불평등 심화 현상"
+      "주식 시장 상승에 따른 불평등",
+      "일부 투자자 부유해짐",
+      "대중은 불만족 느껴짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
