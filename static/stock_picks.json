@@ -2,19 +2,19 @@
   "picks_history": [
     {
       "date": "2026-07-23",
-      "generated_at": "2026-07-23T00:00:45",
+      "generated_at": "2026-07-23T23:59:52",
       "sector_top3": [
         [
           "Energy",
-          2.491888733994451
+          2.2543000582701764
         ],
         [
           "Financials",
-          0.7338938760050461
+          0.9419950958486123
         ],
         [
           "Healthcare",
-          0.6277920435388532
+          0.7647420666003515
         ]
       ],
       "us_picks": [
@@ -23,21 +23,21 @@
           "name": "Eli Lilly",
           "market": "US",
           "sector": "Healthcare",
-          "entry_price": 1163.01,
-          "rsi": 51.0,
-          "bb_pos": 34.4,
-          "vol_ratio": 0.54,
+          "entry_price": 1185.87,
+          "rsi": 55.2,
+          "bb_pos": 49.1,
+          "vol_ratio": 0.67,
           "macd_positive": false,
-          "sector_zscore": 0.63,
-          "ensemble_score": 0.6287,
+          "sector_zscore": 0.76,
+          "ensemble_score": 0.6645,
           "model_scores": {
-            "rf": 0.686,
-            "xgb": 0.795,
-            "mlp": 0.5033,
-            "lstm": 0.5305
+            "rf": 0.7118,
+            "xgb": 0.906,
+            "mlp": 0.4928,
+            "lstm": 0.5475
           },
-          "final_score": 0.6372,
-          "signal_summary": "볼린저 하단 탈출 · 섹터 양호 (Z=+0.6)",
+          "final_score": 0.6725,
+          "signal_summary": "섹터 양호 (Z=+0.8)",
           "current_price": null,
           "return_pct": null
         },
@@ -46,21 +46,21 @@
           "name": "Goldman Sachs",
           "market": "US",
           "sector": "Financials",
-          "entry_price": 1098.2,
-          "rsi": 56.4,
-          "bb_pos": 74.2,
-          "vol_ratio": 0.74,
-          "macd_positive": true,
-          "sector_zscore": 0.73,
-          "ensemble_score": 0.6043,
+          "entry_price": 1074.72,
+          "rsi": 52.1,
+          "bb_pos": 59.2,
+          "vol_ratio": 0.87,
+          "macd_positive": false,
+          "sector_zscore": 0.94,
+          "ensemble_score": 0.5906,
           "model_scores": {
-            "rf": 0.6098,
-            "xgb": 0.6575,
-            "mlp": 0.5274,
-            "lstm": 0.6224
+            "rf": 0.6432,
+            "xgb": 0.5918,
+            "mlp": 0.5171,
+            "lstm": 0.6102
           },
-          "final_score": 0.6281,
-          "signal_summary": "MACD 골든크로스 · 섹터 양호 (Z=+0.7)",
+          "final_score": 0.6341,
+          "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+0.9)",
           "current_price": null,
           "return_pct": null
         },
@@ -69,20 +69,20 @@
           "name": "Intel",
           "market": "US",
           "sector": "Technology",
-          "entry_price": 102.62,
-          "rsi": 43.5,
-          "bb_pos": 28.6,
-          "vol_ratio": 0.73,
+          "entry_price": 100.23,
+          "rsi": 41.9,
+          "bb_pos": 26.6,
+          "vol_ratio": 1.2,
           "macd_positive": false,
-          "sector_zscore": -0.93,
-          "ensemble_score": 0.6918,
+          "sector_zscore": -0.97,
+          "ensemble_score": 0.7939,
           "model_scores": {
-            "rf": 0.6615,
-            "xgb": 0.7545,
-            "mlp": 0.6959,
-            "lstm": 0.6554
+            "rf": 0.7823,
+            "xgb": 0.9824,
+            "mlp": 0.7081,
+            "lstm": 0.7026
           },
-          "final_score": 0.5642,
+          "final_score": 0.6329,
           "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
           "current_price": null,
           "return_pct": null
@@ -94,21 +94,21 @@
           "name": "셀트리온",
           "market": "KR",
           "sector": "Healthcare",
-          "entry_price": 170100.0,
-          "rsi": 44.7,
-          "bb_pos": 19.1,
-          "vol_ratio": 0.63,
+          "entry_price": 172200.0,
+          "rsi": 47.4,
+          "bb_pos": 33.8,
+          "vol_ratio": 0.69,
           "macd_positive": false,
-          "sector_zscore": 0.63,
-          "ensemble_score": 0.6781,
+          "sector_zscore": 0.76,
+          "ensemble_score": 0.6273,
           "model_scores": {
-            "rf": 0.7801,
-            "xgb": 0.9809,
-            "mlp": 0.4446,
-            "lstm": 0.5067
+            "rf": 0.7237,
+            "xgb": 0.8276,
+            "mlp": 0.475,
+            "lstm": 0.4829
           },
-          "final_score": 0.6718,
-          "signal_summary": "RSI 중립~반등 · MACD 반등 임박 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.6)",
+          "final_score": 0.6465,
+          "signal_summary": "RSI 중립~반등 · MACD 반등 임박 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.8)",
           "current_price": null,
           "return_pct": null
         },
@@ -117,43 +117,43 @@
           "name": "KB금융",
           "market": "KR",
           "sector": "Financials",
-          "entry_price": 175100.0,
-          "rsi": 55.7,
-          "bb_pos": 63.6,
-          "vol_ratio": 0.53,
+          "entry_price": 176300.0,
+          "rsi": 56.7,
+          "bb_pos": 64.4,
+          "vol_ratio": 0.65,
           "macd_positive": false,
-          "sector_zscore": 0.73,
-          "ensemble_score": 0.5941,
+          "sector_zscore": 0.94,
+          "ensemble_score": 0.5884,
           "model_scores": {
-            "rf": 0.5344,
-            "xgb": 0.9226,
-            "mlp": 0.46,
-            "lstm": 0.4596
+            "rf": 0.4278,
+            "xgb": 0.8609,
+            "mlp": 0.4905,
+            "lstm": 0.5743
           },
-          "final_score": 0.6209,
-          "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+0.7)",
+          "final_score": 0.6325,
+          "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+0.9)",
           "current_price": null,
           "return_pct": null
         },
         {
-          "ticker": "012330.KS",
-          "name": "현대모비스",
+          "ticker": "051910.KS",
+          "name": "LG화학",
           "market": "KR",
-          "sector": "Consumer Discretionary",
-          "entry_price": 513000.0,
-          "rsi": 49.6,
-          "bb_pos": 86.9,
-          "vol_ratio": 1.34,
+          "sector": "Materials",
+          "entry_price": 271500.0,
+          "rsi": 45.6,
+          "bb_pos": 55.3,
+          "vol_ratio": 0.79,
           "macd_positive": true,
-          "sector_zscore": -0.76,
-          "ensemble_score": 0.668,
+          "sector_zscore": -0.89,
+          "ensemble_score": 0.6873,
           "model_scores": {
-            "rf": 0.6539,
-            "xgb": 0.904,
-            "mlp": 0.4859,
-            "lstm": 0.6282
+            "rf": 0.6796,
+            "xgb": 0.7893,
+            "mlp": 0.6241,
+            "lstm": 0.6564
           },
-          "final_score": 0.5605,
+          "final_score": 0.5643,
           "signal_summary": "RSI 중립~반등 · MACD 골든크로스",
           "current_price": null,
           "return_pct": null
