@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회의 개최",
-      "중동 전쟁으로 경제 우려",
-      "하향 압박 리스크 공유"
+      "한국·중국·일본 재무장관 공동성명",
+      "중동 전쟁으로 경제 압박 우려",
+      "상황 모니터링과 협력 강화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "금융은 산업 생태계 디자인의 파트너",
-      "산업과 금융의 협력 필요성 강조",
-      "지속 가능한 발전을 위한 역할 제시"
+      "재정은 산업 생태계 설계의 파트너다.",
+      "산업과 재정의 협력이 중요하다.",
+      "지속 가능한 발전을 위한 전략 필요."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "신용대출 1조 급증",
-      "주담대 금리 7.3%로 상승",
-      "빚투 영향 분석 필요"
+      "신용대출 1조원 증가",
+      "주담대 금리 7.3% 도달",
+      "투자 열풍 징후"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,12 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "주식과 경제 A.I. 호황 의존",
-      "A.I. 발전, 투자 신뢰 증가",
-      "시장 성장 기대감 상승"
+      "주식과 경제 AI 붐에 의존 증가",
+      "AI가 시장 성장 촉진",
+      "투자자들의 기대감 상승"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "전쟁 격화가 주식시장에 영향",
-      "에너지 가격 상승 가능성",
-      "정치적 불안정성 증가 우려"
+      "미국-이란 전쟁 재점화 우려",
+      "시장 및 경제에 영향 예상",
+      "특정 섹터 변동성 증가 가능성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "한국 주식시장 호황을 설명하다 - 미국경제연구소 -",
-    "original_title": "Explaining South Korea’s Stock Market Boom - Korea Economic Institute of America -",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zSDN5Y0x6ZDZPNThLcDR1VXJITlNsSExkZXVlbDRFVzhZOFoyX2t0dWNMTmpGbWN4MkdoT0tjWFZTY1d5UEdlU2g0eWpfVGlzZVlHdTdUcm43aVVudDdraFJTZWZmeUU2ZGZJZHRGZkNQVEJJZjJR?oc=5",
-    "publisher": "Korea Economic Institute of America -",
+    "title": "미국인 5명 중 2명은 주식시장이 상위 1%에게만 영향을 미친다고 믿습니다 - The Guardian",
+    "original_title": "Two in five Americans believe stock market only serves the top 1% - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3VWRjhCM1Y1c2pSNEdNdTVCXzlfeHFwNE51eDAwbHpubHNzQ192Y2Z4Wi1UTEFRREZ5anB3M1NYbUl3dkJoaEVybkFjVWNOS1gwVTRsMWJCbzZCTXI3MDlnTnpRTzZmQUJRTGphM3RFVGxYcWR6QTVSTnc5bzNrMVJ3?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "한국 주식시장 급등 원인 분석",
-      "글로벌 투자 증가 영향",
-      "정책 지원이 주요 요인"
+      "미국인 40%가 주식시장 불신",
+      "주식시장이 1%만을 위한 것",
+      "경제 불평화 심화 예상"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
