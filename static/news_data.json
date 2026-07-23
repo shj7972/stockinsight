@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 공동성명",
-      "중동 전쟁으로 경제 압박 우려",
-      "상황 모니터링과 협력 강화"
+      "한중일 재무장관 회의 개최",
+      "중동 전쟁의 경제 압박 우려",
+      "연대된 대응 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVm54c2pJU1E3eGVta2hiMkJvYkctSmZEOW5oeWhqeU9MYnVicElYcDhQa3JKQ2RQUlpPUFI2aWVuaVI4N2ZhZTlIUldFbkdTM1JkQkZ6cF9VWEpLQjRIT3N4TTVEaVVfaXfSAW5BVV95cUxPSldiZndQTnM3aFlSSVZjZS1aaVdyMS05VFRtRUJiSnJEZXZXVXo1Y2gtREdoVTRtRzdXbXFrV0RhRXhZZHg0TW02X0UwZnlHYV9BemhDRlRXRl90d1UzdWdJUXJrd1JzdDY4cG9ZQQ?oc=5",
     "publisher": "르몽드디플로마티크",
     "summary": [
-      "재정은 산업 생태계 설계의 파트너다.",
-      "산업과 재정의 협력이 중요하다.",
-      "지속 가능한 발전을 위한 전략 필요."
+      "금융, 산업 생태계 설계의 파트너 필요",
+      "산업 발전과 금융의 협력 강조",
+      "지속 가능한 경제 모델 추구"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "신용대출 1조원 증가",
-      "주담대 금리 7.3% 도달",
-      "투자 열풍 징후"
+      "신용대출, 단 사흘 만에 1조 증가",
+      "주담대 금리, 최고 7.3% 기록",
+      "빚투 현상 다시 부각"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
-  },
-  {
-    "title": "주식과 경제는 점점 더 AI에 의존하고 있습니다. 붐 - 뉴욕 타임즈",
-    "original_title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "주식과 경제 AI 붐에 의존 증가",
-      "AI가 시장 성장 촉진",
-      "투자자들의 기대감 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "해외"
   },
   {
     "title": "미국-이란 전쟁이 다시 가열되면서 주식시장과 경제의 이러한 부분이 영향을 받을 수 있다 - CNBC",
@@ -58,12 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "미국-이란 전쟁 재점화 우려",
-      "시장 및 경제에 영향 예상",
-      "특정 섹터 변동성 증가 가능성"
+      "전쟁 긴장감으로 시장 영향 우려",
+      "특정 섹터의 변동성 증가",
+      "경제 회복세에 부정적 요소 가능"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "주식과 경제는 점점 더 AI에 의존하고 있습니다. 붐 - 뉴욕 타임즈",
+    "original_title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "AI 붐이 주식에 영향 미침",
+      "경제 성장에 기여하는 경향",
+      "투자자 신뢰도 증가"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3VWRjhCM1Y1c2pSNEdNdTVCXzlfeHFwNE51eDAwbHpubHNzQ192Y2Z4Wi1UTEFRREZ5anB3M1NYbUl3dkJoaEVybkFjVWNOS1gwVTRsMWJCbzZCTXI3MDlnTnpRTzZmQUJRTGphM3RFVGxYcWR6QTVSTnc5bzNrMVJ3?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국인 40%가 주식시장 불신",
-      "주식시장이 1%만을 위한 것",
-      "경제 불평화 심화 예상"
+      "미국인 40% 시장이 1%에만 유익하다고 여김",
+      "일반 대중의 시장에 대한 불신 증대",
+      "경제적 불평등 우려가 커지고 있음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
