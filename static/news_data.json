@@ -1,28 +1,28 @@
 [
   {
-    "title": "한국 반도체 저승사자 모건스탠리 \"요즘 자숙 모드\" 이유는 - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVzODMtM0d6bXUyTFNxZmlSakZHMW02T29nODgtVzAyc2c2cmtzN2ViWDRNN0Rua2dwVUZfckIxbVdEQzB3cFJLVkl4TUxvaXZxMmFIVnBQeGFHaXRES19DSjNQUjBubC1NRlZ1ZUdlcXJXblNVbU4yZ0FLd3RkNkVFZ1BQUmZibnA0?oc=5",
-    "publisher": "조선일보",
-    "summary": [
-      "모건스탠리 자숙 모드 진입",
-      "한국 반도체 시장 우려",
-      "향후 전망에 대한 지적"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
     "title": "Finance chief raises growth outlook as South Korea nears $40,000 per-capita income - 네이트",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYS1Jid1U3NUVidXlIVnowd1BEVl93a256LVBTZE5KRWhQT3ZNQ2l1SXFiLW5PSEMyYXhqcS00VHRzZV8zQ1dLWTNINWQzN1N4aksxUTJpSm5xRGI3OTA5aQ?oc=5",
     "publisher": "네이트",
     "summary": [
       "재무장관, 성장 전망 상향 조정",
-      "한국, 4만 달러 소득 근접",
-      "경제 호조 신호 감지"
+      "한국, 4만 달러 소득에 근접",
+      "경제 회복 기대감 커짐"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "한국 반도체 저승사자 모건스탠리 \"요즘 자숙 모드\" 이유는 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVzODMtM0d6bXUyTFNxZmlSakZHMW02T29nODgtVzAyc2c2cmtzN2ViWDRNN0Rua2dwVUZfckIxbVdEQzB3cFJLVkl4TUxvaXZxMmFIVnBQeGFHaXRES19DSjNQUjBubC1NRlZ1ZUdlcXJXblNVbU4yZ0FLd3RkNkVFZ1BQUmZibnA0?oc=5",
+    "publisher": "조선일보",
+    "summary": [
+      "모건스탠리, 한국 반도체 주목",
+      "현재 자숙 모드 진입",
+      "시장 상황에 대한 우려 표명"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "3국 재무 장관 회담",
-      "중동 전쟁의 경제 압박",
-      "공동 대응 필요성 강조"
+      "중동 전쟁, 경제 압박 우려 공감",
+      "한국·중국·일본 재무장관 협의",
+      "시장 불안 요소 공유"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "주식과 경제는 점점 더 AI에 의존하고 있습니다. 붐 - 뉴욕 타임즈",
-    "original_title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "주식이 AI 붐에 의존 증가",
-      "경제 성장에 긍정적 영향",
-      "투자자들 기대감 상승"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "미국-이란 전쟁이 다시 가열되면서 주식시장과 경제의 이러한 부분이 영향을 받을 수 있다 - CNBC",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "전쟁으로 인한 주식시장 영향 우려",
-      "원자재 가격 상승 가능성",
-      "투자자 불안감 증가"
+      "미국-이란 전쟁 재발 우려",
+      "주식 시장에 영향 미칠 가능성",
+      "경제 부문 변동성 증가 예상"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3VWRjhCM1Y1c2pSNEdNdTVCXzlfeHFwNE51eDAwbHpubHNzQ192Y2Z4Wi1UTEFRREZ5anB3M1NYbUl3dkJoaEVybkFjVWNOS1gwVTRsMWJCbzZCTXI3MDlnTnpRTzZmQUJRTGphM3RFVGxYcWR6QTVSTnc5bzNrMVJ3?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "미국인 40%는 주식시장 불신",
-      "주식시장은 상위 1%에 유리",
-      "투자 불평등 우려 증가"
+      "미국인 40%가 주식시장 불신",
+      "사람들이 상위 1% 편향 인식",
+      "경제 불평등 우려 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "이란 전쟁, 관세는 회복력 있는 미국 경제에 새로운 위험을 증가시킨다 - 워싱턴 포스트",
+    "original_title": "Iran war, tariffs raise new risks for a resilient U.S. economy - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZERrdThNdjQxcE5icld5alRtRm1mbjNYSXpYR0dEWkRreTJkc2MyMTRiZk9TSlpkejBINVdPN1NfVU43MktNLWRlOS1ubTBTdzBIUlppTDFmejVuT1hKb0Z1dDVGcDlGV0R3VGQzS3FXR0ZRS2xGanktLXQ1UFVsX18tSnMzeWdCRGdTNTJJTlNmek5WUHBPd0djRDhJR1V5bHZOR09SRy0?oc=5",
+    "publisher": "The Washington Post",
+    "summary": [
+      "이란 전쟁의 리스크 증가",
+      "관세로 인한 경제 부담",
+      "미국 경제는 여전히 탄탄함"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
