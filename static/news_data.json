@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhbDZySGhNYnptaVZsazJZcFZHc2gteVlJRXFvSUpkUDA1ZUppWXRTaGlYRUZqMVR5dXp3NjV3b1RaUnB2UTlRNXBjX2piLXU3N1JDNzViMkJVN2MzbTMzMEk2WFdqLXM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "코스피 출렁임 지속 가능성 분석",
-      "구조적 변화 영향 소견",
-      "시장 안정성 우려 지적"
+      "코스피 출렁임 지속 가능성 언급",
+      "구조적 변화 분석",
+      "향후 시장 전망 불확실성"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한국·중국·일본 재무장관 회의",
-      "중동 전쟁의 경제적 위험 경고",
-      "경제 하방 압력에 합의"
+      "한중일 재무장관 의견 일치",
+      "중동 전쟁 경제 영향 우려",
+      "하락 압력 리스크 경고"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -30,40 +30,26 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYS1Jid1U3NUVidXlIVnowd1BEVl93a256LVBTZE5KRWhQT3ZNQ2l1SXFiLW5PSEMyYXhqcS00VHRzZV8zQ1dLWTNINWQzN1N4aksxUTJpSm5xRGI3OTA5aQ?oc=5",
     "publisher": "네이트",
     "summary": [
-      "재정 수장이 성장 전망 상향",
-      "한국, 4만 달러 임박",
-      "경제 활력 기대감 증대"
+      "재무부 장관, 성장 전망 상향 조정",
+      "한국, 4만 달러 소득에 근접",
+      "경제 성장 기대감 증가"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "미국 주식 시장의 다음 방향과 지금 무엇을 사야 할지 - 모닝스타",
-    "original_title": "Where the US Stock Market May Be Heading Next and What to Buy Now - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
+    "title": "주식시장의 다음 방향과 지금 무엇을 사야 할지 - 모닝스타",
+    "original_title": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTQ0SUZMQ1ZvdjVVZzFqd2dPYUowaWxrcjRHY0FrMW1XMEdycldIMFd1Qm50cGI3YkJYekZFamtxSlR1QVlRemU0dFZOZm42SFdER3FyaFJTLVBySU9iS3VrMWdoXzZueHdQUTA1ZGQxbHhpTFg5dEx6Rm15aXdwTWt3TUFzWkxNVEFMeVFOQ3VwMWFsUlRuUDFzZjA?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "미국 주식 시장 전망 분석",
-      "현재 투자할 종목 추천",
-      "경제 회복 징후 발견"
+      "주식 시장 전망 분석",
+      "매수 추천 종목 제시",
+      "시장 조정 가능성 언급"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "주간 시장 논평 - BlackRock",
-    "original_title": "Weekly market commentary - BlackRock",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "BlackRock",
-    "summary": [
-      "주식 시장이 상승세를 보임",
-      "글로벌 경제 회복 중",
-      "투자자 신뢰 증가"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "AI 호황이 주식과 경제에 긍정적",
-      "증시 상승세 관측",
-      "AI 투자가 경제 성장 주도"
+      "주가, AI 붐에 의존 증가",
+      "경제에 긍정적 영향",
+      "AI 기술 발전 기대감"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "미국-이란 전쟁이 다시 가열되면서 주식시장과 경제의 이러한 부분이 영향을 받을 수 있다 - CNBC",
+    "original_title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYkFrMThCMDFmd0ZVeEJTTktSaU1TVGE1UkcwY0JlTUc5bXZmZ1FrVmRUalAyQVZVUnk0TnNieG8zMDdVSkdEYjh4LWFCZE1jREdISTRWYTQ1WVQwanktZV9GS0c2YkVPdGlZNzdxMjRMRHZsMlHSAXtBVV95cUxPaDRCaDVoTXFMRHc4bmtPSVZwNTZHR2NRVjdIRHBydHdGOEt2cVNrWkFDWEVFakM2aFVsZGg4RW5qNmN1b1VBdzc2Qi1paWx4eWhna1ZrWDl2TTltQUtJLW1GN0c0bHExakJJdXE1aS1BZjh2OUViaGktalk?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "미국-이란 전쟁 재점화 우려",
+      "주식시장 영향 가능성",
+      "경제 부문 변동성 증가"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
