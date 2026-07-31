@@ -1,28 +1,15 @@
 [
   {
-    "title": "출렁이는 코스피, 앞으로도 계속된다?…구조적 변화 결과로 분석 - 한겨레",
+    "title": "출렁이는 코스피, 앞으로도 계속된다?…구조적 변화 결과로 분석 - hani.co.kr",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhbDZySGhNYnptaVZsazJZcFZHc2gteVlJRXFvSUpkUDA1ZUppWXRTaGlYRUZqMVR5dXp3NjV3b1RaUnB2UTlRNXBjX2piLXU3N1JDNzViMkJVN2MzbTMzMEk2WFdqLXM?oc=5",
-    "publisher": "한겨레",
+    "publisher": "hani.co.kr",
     "summary": [
-      "코스피 변동성 지속 예상",
-      "구조적 변화의 영향",
-      "시장 불확실성 증가"
+      "코스피, 불안정한 흐름 지속",
+      "구조적 변화가 주요 원인",
+      "앞으로도 변동성 예측"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한·중·일 재무장관 발표",
-      "중동 전쟁 경제 압박 우려",
-      "경제 협력 필요성 강조"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -31,11 +18,24 @@
     "publisher": "네이트",
     "summary": [
       "재무장관, 성장 전망 상향 조정",
-      "한국, 40,000달러에 근접",
-      "경제 성장에 긍정적인 신호"
+      "한국, 4만 달러 평균소득 근접",
+      "경제 긍정적 동향 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "한국 반도체 저승사자 모건스탠리 \"요즘 자숙 모드\" 이유는 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVzODMtM0d6bXUyTFNxZmlSakZHMW02T29nODgtVzAyc2c2cmtzN2ViWDRNN0Rua2dwVUZfckIxbVdEQzB3cFJLVkl4TUxvaXZxMmFIVnBQeGFHaXRES19DSjNQUjBubC1NRlZ1ZUdlcXJXblNVbU4yZ0FLd3RkNkVFZ1BQUmZibnA0?oc=5",
+    "publisher": "조선일보",
+    "summary": [
+      "모건스탠리, 반도체 시장 자숙 중",
+      "시장 전망 불확실성 커짐",
+      "투자자들 신중한 접근 필요"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "미국 주식시장 전망",
-      "추천 투자 종목",
-      "경제 동향 분석"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "해외"
-  },
-  {
-    "title": "월스트리트, 마이크로소프트의 급등으로 상승 마감 - Reuters",
-    "original_title": "Wall Street ends sharply higher, lifted by soaring Microsoft - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTkwycXd5d3BqNDVILVR4WkY3UERXYktQdm13QlEwNkd3MXF6Nm9EcTdWNEQ0dmIyV2lPOTFqaU9icm1kYTVoaFIyS3ZUSTRqLWI5THZ0TjM3WEp3aE5XV28zUTBzWkJzcURDNC1Jb21GeXE4eGJjU2tvbkNCR1Qxc2VTeFJPNlFLS0tydFBYdS1ZUnJoWUJqajF4akF0S2NE?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "월스트리트, 크게 상승 마감",
-      "마이크로소프트 주가 급등",
-      "시장 전반에 긍정적 영향"
+      "미국 주식 시장의 향후 방향성",
+      "추천할 투자 종목",
+      "시장 분석과 전망"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "AI 거품이 터지면 경제도 무너질 수 있다 - The Boston Globe",
-    "original_title": "The AI bubble could burst — and take the economy with it - The Boston Globe",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTDhqWmwwVF80ZW85OGRHaVVVS0hFb0lYSDRUdjMyZ01ReXZmeElVdzBFeGRBQ0RsYVhZai1wNFNLV2k5d0RWbnlJTElMUElGYzFYYU5UOFNkeWJKUGh2UW9fbDVIVGZvR2szaThReFdZVEphbk5ST20zQWUtXzdZSTEyUQ?oc=5",
-    "publisher": "The Boston Globe",
+    "title": "흔들리는 미국 주식시장, 고용보고서, 큰 실적 주간에 직면 By Reuters - Investing.com",
+    "original_title": "Teetering US stock market faces jobs report, big earnings week By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcU5sUGZUMXFOWXlFOFZPX3RqcFU2dVZkN0xjTFJRbjBPdENZVzl0ZFdzSWRoZTBtVFNLUkROay1OcGdEVXMzTU5pTVlCTzliZXViXzViRGZRMUNPaUZPNXl3a0JZbW5ZQVdhSVAyQVRwSUdUaFI4dWRhS2ExN2FFQjdNY01aS1UySENCVUZub1ZjTmNOaDlreW5Vb3NJN0x5Qk40M2JYRWhTazJlaGVxQ2p0OA?oc=5",
+    "publisher": "Investing.com",
     "summary": [
-      "AI 버블이 경제에 위험",
-      "버블 붕괴 우려",
-      "경제적 영향 미칠 수 있음"
+      "미국 주식 시장 불안정",
+      "고용 보고서 발표 예고",
+      "중요한 기업 실적 발표 주간"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "미국 소비자 신뢰 - 컨퍼런스 보드",
+    "original_title": "US Consumer Confidence - The Conference Board",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55NEtKdEpyWFB2eWJwRlBkWGlkZFlMdXA3MENDbkRqLXJwa1RBNC1DZVMyajMxWXlab0VYbWFyT0Mzc3p2UHlOOU1jVG5DZkNkeFNxcnRBZHdub1dpa0hiNWNpRTZkLXhNcHdVNw?oc=5",
+    "publisher": "The Conference Board",
+    "summary": [
+      "소비자 신뢰도 상승",
+      "경제 회복 기대감",
+      "향후 소비 증가 예상"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
