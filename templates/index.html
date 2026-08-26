@@ -130,6 +130,15 @@
     </div>
 </div>
 
+<!-- 종목 분석 페이지 인아티클 광고 (콘텐츠 상단, 높은 가시성) -->
+<ins class="adsbygoogle"
+     style="display:block;min-height:100px;margin:1rem auto;max-width:100%;"
+     data-ad-client="ca-pub-2947913248390883"
+     data-ad-slot="3456789012"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 <!-- Tabs -->
 <div class="tabs-container">
     <div class="tabs">
@@ -214,6 +223,39 @@
             · 과거 데이터 분석 결과이며, 미래 수익을 보장하지 않습니다.<br>
             · 금융투자상품은 원금 손실이 발생할 수 있습니다.<br>
             · 투자 결정 전 충분한 검토와 필요 시 전문 금융 자문을 받으시기 바랍니다.
+        </div>
+    </div>
+
+    <!-- 관련 종목 추천 (내부 링크 구조 개선) -->
+    <div class="glass-panel" style="padding:1rem 1.25rem;margin-top:1rem;">
+        <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.65rem;">
+            <span style="font-size:0.85rem;">🔗</span>
+            <span style="font-size:0.82rem;font-weight:700;color:#e2e8f0;">관련 종목 둘러보기</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+            {% for tick, name in us_tickers[:5] %}
+            {% if tick != stock_data.ticker %}
+            <a href="/stock/{{ tick }}" class="ticker-btn" style="font-size:0.75rem;">{{ name }} ({{ tick }})</a>
+            {% endif %}
+            {% endfor %}
+            {% for tick, name in kr_tickers[:3] %}
+            <a href="/stock/{{ tick }}" class="ticker-btn" style="font-size:0.75rem;">{{ name }} ({{ tick }})</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- 관련 투자 도구 (내부 링크) -->
+    <div class="glass-panel" style="padding:1rem 1.25rem;margin-top:0.75rem;">
+        <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.65rem;">
+            <span style="font-size:0.85rem;">🛠️</span>
+            <span style="font-size:0.82rem;font-weight:700;color:#e2e8f0;">유용한 투자 도구</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+            <a href="/compare" class="ticker-btn" style="font-size:0.75rem;">종목 비교하기</a>
+            <a href="/dividend-calculator" class="ticker-btn" style="font-size:0.75rem;">배당금 계산기</a>
+            <a href="/compound-calculator" class="ticker-btn" style="font-size:0.75rem;">복리 계산기</a>
+            <a href="/target-price-calculator" class="ticker-btn" style="font-size:0.75rem;">목표가 계산기</a>
+            <a href="/fear-greed-index" class="ticker-btn" style="font-size:0.75rem;">공포/탐욕 지수</a>
         </div>
     </div>
 </div>
@@ -522,6 +564,18 @@
 {% endif %}
 
 {% endif %}{# end else (no stock_data) #}
+
+<!-- 홈페이지 인피드 광고 (콘텐츠 사이) -->
+{% if not stock_data %}
+<ins class="adsbygoogle"
+     style="display:block;min-height:120px;margin:1.5rem auto;max-width:100%;"
+     data-ad-client="ca-pub-2947913248390883"
+     data-ad-slot="2345678901"
+     data-ad-format="fluid"
+     data-ad-layout="in-article"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% endif %}
 
 <!-- ── 기능 카드 & 자동완성 스타일 ── -->
 <style>

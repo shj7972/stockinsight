@@ -24,6 +24,13 @@
     <meta name="google-adsense-account" content="ca-pub-2947913248390883">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2947913248390883"
         crossorigin="anonymous"></script>
+    <!-- 구글 애드센스 자동 광고 -->
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2947913248390883",
+            enable_page_level_ads: true
+        });
+    </script>
     <meta name="description"
         content="{% block meta_description %}60개+ 인기 종목 AI 실시간 분석 | 매수·매도 신호, 차트 패턴, 뉴스 감성분석까지 무료 제공 - 지금 확인하세요{% endblock %}">
     <meta name="keywords"
@@ -35,6 +42,13 @@
     <meta property="og:url" content="https://stock-insight.app{% block og_url %}{% endblock %}">
     <meta property="og:image" content="https://stock-insight.app{{ og_image if og_image else '/static/og-image.png' }}">
     <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="Stock Insight AI">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% block twitter_title %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock Insight AI{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}60개+ 인기 종목 AI 실시간 분석 · 차트 패턴 · 뉴스 감성분석 · 투자 전략까지 무료로 확인하세요{% endblock %}">
+    <meta name="twitter:image" content="https://stock-insight.app/static/og-image.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/static/favicon.png">
@@ -45,6 +59,10 @@
 
     <title>{% block title %}주식 AI 분석 | 실시간 매수·매도 신호 무료 확인 - Stock Insight AI{% endblock %}</title>
 
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.plot.ly" crossorigin>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,12 +71,12 @@
         rel="stylesheet">
 
     <!-- Preload Custom CSS -->
-    <link rel="preload" href="/static/styles.css?v=5" as="style">
+    <link rel="preload" href="/static/styles.css?v=6" as="style">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/static/styles.css?v=5">
+    <link rel="stylesheet" href="/static/styles.css?v=6">
 
-    <!-- Plotly - Latest version -->
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <!-- Plotly - Latest version (non-blocking: defer) -->
+    <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -82,6 +100,22 @@
                 "@type": "ImageObject",
                 "url": "https://stock-insight.app/static/og-image.png"
             }
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Stock Insight AI",
+        "url": "https://stock-insight.app",
+        "logo": "https://stock-insight.app/static/og-image.png",
+        "description": "AI 기반 실시간 주식 분석 및 투자 조언 플랫폼",
+        "sameAs": [],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "url": "https://stock-insight.app"
         }
     }
     </script>
@@ -262,6 +296,15 @@
 
 
             {% block content %}{% endblock %}
+
+            <!-- 콘텐츠 하단 디스플레이 광고 -->
+            <ins class="adsbygoogle"
+                 style="display:block;min-height:90px;margin:1.5rem auto;max-width:100%;overflow:hidden;"
+                 data-ad-client="ca-pub-2947913248390883"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
             <div class="footer-banner"
                 style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin: 2rem 0;">

@@ -6,7 +6,7 @@
     <!-- 메인 페이지 -->
     <url>
         <loc>https://stock-insight.app/</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -14,67 +14,109 @@
     <!-- 주요 기능 페이지 -->
     <url>
         <loc>https://stock-insight.app/daily-report</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://stock-insight.app/tools</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://stock-insight.app/yield-calculator</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/per-calculator</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/target-price-calculator</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/compound-calculator</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/dividend-calculator</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/bep-calculator</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://stock-insight.app/reit-explorer</loc>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/fear-greed-index</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/exchange-rate</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/etf-explorer</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/sector-analysis</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/sentiment-analysis</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/economic-indicators</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/compare</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/portfolio-simulator</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/blog</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -82,43 +124,43 @@
     <!-- 미국 인기 주식 (clean URL) -->
     <url>
         <loc>https://stock-insight.app/stock/AAPL</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/MSFT</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/GOOGL</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/AMZN</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/NVDA</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/TSLA</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/META</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -126,25 +168,25 @@
     <!-- 한국 인기 주식 (clean URL) -->
     <url>
         <loc>https://stock-insight.app/stock/005930.KS</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/000660.KS</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/035420.KS</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/stock/035720.KS</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -152,13 +194,13 @@
     <!-- 법적/정보 페이지 -->
     <url>
         <loc>https://stock-insight.app/privacy-policy</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://stock-insight.app/terms-of-service</loc>
-        <lastmod>2026-03-02</lastmod>
+        <lastmod>2026-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>

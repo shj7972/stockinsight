@@ -1838,3 +1838,53 @@ body.light-mode .loader-text {
 body.light-mode .scroll-top-btn {
     box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
+
+/* ── 애드센스 광고 컨테이너 ── */
+.ad-container {
+    text-align: center;
+    overflow: hidden;
+}
+ins.adsbygoogle {
+    background: transparent !important;
+}
+/* 광고 로딩 전 최소 높이 확보로 CLS 방지 */
+ins.adsbygoogle[data-ad-format="auto"] {
+    min-height: 90px;
+}
+
+/* ── 소셜 공유 버튼 공통 ── */
+.blog-share-btn, .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem 0.65rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    color: #94a3b8;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.blog-share-btn:hover, .share-btn:hover {
+    background: rgba(56,189,248,0.1);
+    border-color: rgba(56,189,248,0.3);
+    color: #38bdf8;
+}
+.share-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    background: none;
+    border: none;
+    color: #e2e8f0;
+    font-size: 0.82rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.15s;
+}
+.share-menu-item:hover {
+    background: rgba(56,189,248,0.1);
+}
