@@ -33,6 +33,28 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 app = FastAPI(title="Stock Insight AI")
 
+# HEAD 요청 허용 — Googlebot은 리디렉션/크롤링 검증 시 HEAD를 사용함.
+# uvicorn/FastAPI는 GET 전용 라우트에 HEAD를 자동 허용하지 않아 405를 반환하고,
+# 그 결과 Search Console에서 '리디렉션 오류'로 색인 실패가 반복됨 (2026-09-07 확인).
+# ASGI 레벨에서 처리: HEAD → GET으로 바꿔 실행하고, 응답 바디는 비우되
+# content-length 헤더는 실제 GET 응답 길이를 그대로 유지(HTTP HEAD 표준).
+class HeadToGetMiddleware:
+    def __init__(self, app):
+        self.app = app
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] == "http" and scope["method"] == "HEAD":
+            async def send_wrapper(message):
+                if message["type"] == "http.response.body":
+                    message = {**message, "body": b"", "more_body": message.get("more_body", False)}
+                await send(message)
+            scope = {**scope, "method": "GET"}
+            await self.app(scope, receive, send_wrapper)
+        else:
+            await self.app(scope, receive, send)
+
+app.add_middleware(HeadToGetMiddleware)
+
 # Static files and templates with absolute paths
 app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
 templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
