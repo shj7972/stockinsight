@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-import openai
 import os
 import json
 import random
 import time
+import urllib.request
 from datetime import datetime
 from deep_translator import GoogleTranslator
 
@@ -24,22 +24,23 @@ def clean_html(html_content):
         script.extract()
     return soup.get_text()[:2000] # Limit char count for token saving
 
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+
 def summarize_with_ai(title, content):
     """
-    Uses OpenAI to summarize the news and analyze sentiment.
+    Uses Google Gemini (free tier) to summarize the news and analyze sentiment.
     """
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_AI_API_KEY") or os.getenv("OPENAI_API_KEY")
     if not api_key:
         return {
-            "summary": ["AI 요약 기능을 사용하려면 API 키가 필요합니다.", "OpenAI API 키를 설정해주세요.", "기사 원문을 참고하세요."],
+            "summary": ["AI 요약 기능을 사용하려면 API 키가 필요합니다.", "GEMINI_API_KEY를 설정해주세요.", "기사 원문을 참고하세요."],
             "sentiment": "Neutral",
             "score": 0
         }
 
-    client = openai.OpenAI(api_key=api_key)
-    
     prompt = f"""
-    You are a financial news analyst. 
+    You are a financial news analyst.
     Analyze the following news article:
     Title: {title}
     Content: {content}
@@ -48,28 +49,46 @@ def summarize_with_ai(title, content):
     1. Summarize the key points in exactly 3 bullet points in Korean. Each point must be under 50 characters.
     2. Analyze the sentiment (POSITIVE, NEGATIVE, NEUTRAL) regarding the market/economy.
 
-    Output format (JSON):
+    Output JSON only (no markdown, no code fences):
     {{
         "summary": ["Point 1", "Point 2", "Point 3"],
-        "sentiment": "POSITIVE", 
-        "sentiment_score": 0.8  (Range -1.0 to 1.0)
+        "sentiment": "POSITIVE",
+        "sentiment_score": 0.8
     }}
     """
 
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "maxOutputTokens": 800,
+            "temperature": 0.3
+        }
+    }
+
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": prompt}],
-            response_format={"type": "json_object"}
+        req = urllib.request.Request(
+            GEMINI_URL,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "x-goog-api-key": api_key}
         )
-        result = json.loads(response.choices[0].message.content)
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            body = json.loads(resp.read())
+        text = body["candidates"][0]["content"]["parts"][0]["text"]
+        # Strip accidental markdown fences if present
+        text_clean = text.strip()
+        if text_clean.startswith("```"):
+            text_clean = text_clean.split("```", 2)[1]
+            if text_clean.startswith("json"):
+                text_clean = text_clean[4:]
+        result = json.loads(text_clean.strip())
         return {
             "summary": result.get("summary", ["요약 실패"]),
             "sentiment": result.get("sentiment", "Neutral"),
             "score": result.get("sentiment_score", 0)
         }
     except Exception as e:
-        print(f"AI Error: {e}")
+        print(f"AI Error (Gemini): {e}")
         return {
             "summary": ["AI 요약 생성 중 오류 발생.", "잠시 후 다시 시도해주세요.", "원문을 확인하세요."],
             "sentiment": "Neutral",
