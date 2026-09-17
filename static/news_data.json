@@ -1,28 +1,15 @@
 [
   {
-    "title": "Korea pledges policy funds for Uzbek regional partnerships - 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40bWgya1daenlVcDJMRzFZUXVSZTF5NWduTUt0ZW40Q2Fhd1I2cVZoR0NSRmRYcDBXRmx2ZDdvTXZMMmFPaV9JZjRxV05IOUt2dEFV?oc=5",
-    "publisher": "네이트",
+    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - nkeconomy.com",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
+    "publisher": "nkeconomy.com",
     "summary": [
-      "한국, 우즈벡 지역 협력에 정책 자금 지원 약속",
-      "양국 간 경제 및 지역 파트너십 강화 기대",
-      "우즈베키스탄과의 전략적 협력 확대 추진"
+      "북한의 그린본드 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 녹색금융 적극 추진 중",
+      "북한 매체가 보도한 친환경 경제 성장 정책"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
-    "publisher": "NK경제",
-    "summary": [
-      "북한이 그린본드를 발행할 것인지에 대한 관심이 집중됨",
-      "녹색 경제 발전을 위해 그린 페이낸스를 적극 추진 중",
-      "북한 매체가 친환경 경제 성장과 자금 조달을 강조함"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
@@ -30,9 +17,22 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
     "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국에 대담한 제2차 금융 개혁이 시급함",
-      "국내 언론 코리아중앙일보가 금융 개혁 필요성 보도",
-      "경제 성장을 위한 새로운 금융 정책 추진 촉구"
+      "한국은 현재 과감한 제2의 금융개혁이 절실함",
+      "국내 금융 시장의 구조적 변화와 혁신 필요",
+      "지속 가능한 성장을 위한 금융 정책 제언"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "국내"
+  },
+  {
+    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "IMF, 한국 성장률 전망치 1.9%로 상향 조정",
+      "AI 거품 붕괴 시 발생할 금융 리스크 경고",
+      "경제 성장 개선과 함께 잠재적 위협 지적"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미 연준, 기준금리 추가 인상 단행",
-      "향후 추가 금리 인상 가능성 시사",
-      "소식에 미 증시 하락세 기록"
+      "미 연준, 기준금리 인상 단행",
+      "추가 금리 인상 가능성 시사",
+      "소식 직후 미국 증시 하락세"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "'Goldilocks is breaking down': Why one bank says potential for the market's best-case scenario is fading - Business Insider",
-    "original_title": "'Goldilocks is breaking down': Why one bank says potential for the market's best-case scenario is fading - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUN0aEhLTWZiZWtKYW5RWkRzZHJJaVZoaExQS2t5LXBWVnFUUVBDU3k2Vm9aekNrS01MXzZ5aTFEYm9GS09KdFotdlV0OExudm1CUHNpQWhvZGltd0FiWWR1ZFlNOUF5RUJ6TzBTTDVvVEpTaHVDRlRMa29uZDRVVXkzYlYyUUxKY3NmVEp1blk0M29iZU54bjdER09lc1VsdHdrcEgweWc?oc=5",
-    "publisher": "Business Insider",
+    "title": "A stronger dollar and rising yields: How the Fed’s rate hike could hit global markets - CNBC",
+    "original_title": "A stronger dollar and rising yields: How the Fed’s rate hike could hit global markets - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcGJ6Q21DNEtiYWstRzJmajd5aURLNjNyR1RJYTFmUmZPZElZcDdFOXZwVHgtMVkybDBLaTFMVnQ3WWZXUVhBeDVwQ3ZkTjdiZEZMU0dPVlRqYkNwQVZjN3RLeE56TDc3dUZEcmFfdzNmb3p4YjRhOXVHZGZKX25QVFUzODBtNnlocnfSAY8BQVVfeXFMTW9iUTVqVi0zVnB2Ym9URW96RFpQNlZnZXNaZWRoNG9LdFRSZlFaeTM5U2kyTnpSZF9VMVdXLW1Ecm8xY0xmYXYyakFOcVJCTklvVlhqTHdoME0tMHFMRndvMDc1NEZ0RzhpMk5HWUo5bnVCU2luMFhpTTNzLXY4eUNNTmxieWVwRzhhYnFLWFU?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "시장의 긍정적 시나리오인 골디락스가 약화되고 있음",
-      "최적의 경제 상황에 대한 기대감이 점차 사라지는 중",
-      "주요 은행이 시장의 향후 전망에 대해 경고를 제기함"
+      "미 연준의 금리 인상이 글로벌 시장에 미치는 영향 분석",
+      "달러 강세와 국채 금리 상승이 주요 시장 리스크로 작용",
+      "세계 경제 전반에 걸친 잠재적 충격 가능성 대두"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmcwS01EcUI0YWxEZ3JjZFJKSXlPUXVVNE12b3NMd0FtX0p5ckVmRHhEdTNYMUpNSVVfT0ZqVjNkZUhkTWVrSGloV2dJY3JhYWw5bEtrZy0xd3NXTVdJbXR0RFllMEJCbWRyOHFkOXdpR0Fzb0E?oc=5",
     "publisher": "CNN",
     "summary": [
-      "미국 10년물 국채 금리가 5%를 돌파했습니다.",
-      "미국 경제와 금융 시장에 중요한 분수령이 될 것입니다.",
-      "시장 참여자들의 긴장감이 고조되고 있습니다."
+      "10년물 미 국채 금리가 5%를 기록했습니다.",
+      "미국 경제와 시장에 중요한 분수령이 되고 있습니다.",
+      "금융 시장에 미치는 영향이 주목받고 있습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
