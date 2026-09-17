@@ -24,7 +24,7 @@ def clean_html(html_content):
         script.extract()
     return soup.get_text()[:2000] # Limit char count for token saving
 
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 def summarize_with_ai(title, content):
