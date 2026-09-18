@@ -4,12 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 녹색 채권을 발행할 것인지에 대한 관심이 집중됨",
-      "북한은 '녹색 경제 발전'을 위한 녹색 금융을 적극 추진 중",
-      "친환경적 경제 개발을 향한 북한의 행보가 주목받고 있음"
+      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 금융 정책 적극 추진 중",
+      "친환경 금융을 통한 경제 성장 도모 전망"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
+    "type": "국내"
+  },
+  {
+    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - 월드투데이",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kTHc1a0FmblExbnBhc0dQV2JsVk5DTjdvVWk2c3I3SEdaMEY4Vkp6UmYwNjhXcXJQejl6Yl8yb1FUck5sSFBkMXdvZkw2dDRmT1dVQ0N5dFFIYXdzZGhEVVNMbmNlS1IxVEkzUlpOOA?oc=5",
+    "publisher": "월드투데이",
+    "summary": [
+      "새마을금고, 사회적경제조직에 375억 원 지원",
+      "사회적 연대 경제 조직의 재정 안정성 강화",
+      "상생 금융 확대를 통한 지역경제 활성화 도모"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,22 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
     "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국은 현재 과감한 제2차 금융개혁이 절실히 필요함",
-      "경제 성장을 위한 금융 부문의 근본적 변화 요구",
-      "코리아중앙데일리에서 금융개혁의 시급성을 보도함"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "국내"
-  },
-  {
-    "title": "IMF raises the growth forecast for South Korea to 1.9%… warns of “financial risks if the AI bubble bursts” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ja0FyNkdrdTZTeFZDcXRWVnFaQVhSSXNoMGJvZUtfX1M3VzRBZmVxcnlhRm5OQ1RCcTh4WDhVbEhqaUdtTDdpX1doUXZfbkV0RklCSDQzeVZ0ZUVPaWc?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "IMF, 한국 성장률 전망치 1.9%로 상향 조정",
-      "AI 버블 붕괴 시 발생할 금융 리스크 경고",
-      "경제 성장 기대와 잠재적 시장 위험 공존"
+      "한국은 현재 과감한 제2차 금융개혁이 시급함",
+      "경제 성장을 위한 금융 부문의 근본적 변화 필요",
+      "코리아 디스카운트 해소 위한 금융 정책 촉구"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -44,23 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 연준, 기준금리 인상 단행",
-      "추가 금리 인상 가능성 시사",
-      "금리 인상 여파로 미 증시 하락"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "해외"
-  },
-  {
-    "title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets - CNN",
-    "original_title": "10-year Treasury yield hits 5%, critical threshold for US economy and markets - CNN",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmcwS01EcUI0YWxEZ3JjZFJKSXlPUXVVNE12b3NMd0FtX0p5ckVmRHhEdTNYMUpNSVVfT0ZqVjNkZUhkTWVrSGloV2dJY3JhYWw5bEtrZy0xd3NXTVdJbXR0RFllMEJCbWRyOHFkOXdpR0Fzb0E?oc=5",
-    "publisher": "CNN",
-    "summary": [
-      "미국 10년물 국채 금리가 5%를 돌파했습니다.",
-      "미국 경제와 금융 시장에 중요한 분수령이 될 것입니다.",
-      "시장 참여자들의 긴장감이 고조되고 있습니다."
+      "미 연준이 기준금리를 인상했습니다.",
+      "추가 금리 인상 가능성을 시사했습니다.",
+      "이로 인해 미국 주식시장이 하락했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -74,10 +60,24 @@
     "summary": [
       "2026년 시장을 능가하는 미국 주식 조명",
       "모닝스타가 분석한 의외의 우수 종목들",
-      "투자자들의 관심이 집중되는 종목 트렌드"
+      "투자자들의 관심이 집중되는 시장 동향"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "해외"
+  },
+  {
+    "title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
+    "original_title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRXFaclNiZTBzSDFvd19uMS1feHpESHo5T28zdklJUF9UN25yNEE5ZXFHVy14T01fTVRQOFJTWVdiOU9PRmtyRWtTbTlMQ0cxc2Q0MUt5Sm92MFNHTl9kUS1IX09FcTBkU2xWMDNHZ3p2UXlYb3ZtTUE2ZUN4dGNKRkhBa0kteXFGSHc?oc=5",
+    "publisher": "NBC News",
+    "summary": [
+      "폐쇄적인 AI 경제가 미국 경제 성장을 견인 중임",
+      "AI 주도 성장이 타 산업을 소외시킬 위험이 있음",
+      "경제 전반의 불균형과 격차 확대 우려가 제기됨"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
