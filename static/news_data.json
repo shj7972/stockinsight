@@ -5,21 +5,21 @@
     "publisher": "NK경제",
     "summary": [
       "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 금융 정책 적극 추진 중",
-      "친환경 금융을 통한 경제 성장 도모 전망"
+      "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
+      "북한 매체가 강조한 친환경 경제 성장 정책"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - 월드투데이",
+    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - iworldtoday.com",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kTHc1a0FmblExbnBhc0dQV2JsVk5DTjdvVWk2c3I3SEdaMEY4Vkp6UmYwNjhXcXJQejl6Yl8yb1FUck5sSFBkMXdvZkw2dDRmT1dVQ0N5dFFIYXdzZGhEVVNMbmNlS1IxVEkzUlpOOA?oc=5",
-    "publisher": "월드투데이",
+    "publisher": "iworldtoday.com",
     "summary": [
-      "새마을금고, 사회적경제조직에 375억 원 지원",
-      "사회적 연대 경제 조직의 재정 안정성 강화",
-      "상생 금융 확대를 통한 지역경제 활성화 도모"
+      "새마을금고, 사회적경제 조직에 375억 원 지원",
+      "사회 및 연대경제 활성화를 위한 금융 지원",
+      "취약계층 및 지역사회 상생 금융 확대"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
     "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국은 현재 과감한 제2차 금융개혁이 시급함",
-      "경제 성장을 위한 금융 부문의 근본적 변화 필요",
-      "코리아 디스카운트 해소 위한 금융 정책 촉구"
+      "한국은 현재 과감한 제2차 금융 개혁이 필요함",
+      "기존 금융 체질 개선을 위한 시급한 조치 요구",
+      "경제 성장을 위한 새로운 금융 전략 시급함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -45,39 +45,39 @@
     "publisher": "PBS",
     "summary": [
       "미 연준이 기준금리를 인상했습니다.",
-      "추가 금리 인상 가능성을 시사했습니다.",
-      "이로 인해 미국 주식시장이 하락했습니다."
+      "추가적인 금리 인상 가능성을 시사했습니다.",
+      "소식 여파로 미국 증시가 하락했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "The Surprising US Stocks Beating the Market in 2026 - Morningstar",
-    "original_title": "The Surprising US Stocks Beating the Market in 2026 - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeTZ1MTdGVFJHaG4wZU5leHdyb2NoOUN6V1FrZTVlNTc0dno3Ym5HTEY1YW9UVkxWTEw2Wl9mbnI4X2MtcXhmY2M3Z3Q1eGlrUHRFMWZYRmpELU9JZk1TNDJTSjZaZHFjOURDaV9UeWFoNU9BaFRQMVJPaElyMTAxbjRwVzZHdk00RU9QUA?oc=5",
-    "publisher": "Morningstar",
+    "title": "The real reason for Trump’s pedal-to-the-metal approach on AI - CNN",
+    "original_title": "The real reason for Trump’s pedal-to-the-metal approach on AI - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PemxCQl85dWNFR3hXZk5sZ1Nia3JlQ3JLMG5VMmVqbUNkYXZTLTV6NG1MdVVfRHl6TV93RWdFX1cybC1rZHQ0M1UtOWRjeG8tREVueFFuc0FDUDlGT1cxT1JxT0Q4dw?oc=5",
+    "publisher": "CNN",
     "summary": [
-      "2026년 시장을 능가하는 미국 주식 조명",
-      "모닝스타가 분석한 의외의 우수 종목들",
-      "투자자들의 관심이 집중되는 시장 동향"
+      "트럼프의 공격적인 AI 정책 배경 분석",
+      "CNN이 보도한 AI 산업 가속화 전략",
+      "미국 경제 및 기술 시장에 미칠 영향"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
-    "original_title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRXFaclNiZTBzSDFvd19uMS1feHpESHo5T28zdklJUF9UN25yNEE5ZXFHVy14T01fTVRQOFJTWVdiOU9PRmtyRWtTbTlMQ0cxc2Q0MUt5Sm92MFNHTl9kUS1IX09FcTBkU2xWMDNHZ3p2UXlYb3ZtTUE2ZUN4dGNKRkhBa0kteXFGSHc?oc=5",
-    "publisher": "NBC News",
+    "title": "The Surprising US Stocks Beating the Market in 2026 - Morningstar",
+    "original_title": "The Surprising US Stocks Beating the Market in 2026 - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMHFGQ0JJVXVjR1lzQlF3aDgxM19oR3A5dHRYb2xhSmEyU09IZjFmLXNvOTBaemdEcTZQVWR3M1BGTVhIMXVSblFlNG5QVGtINXFINTZtTVJZYkhJUVhfLXkzYTdsYVdTUk9RdE9NblR2eklMWXpVZm9VV0sxS1VtOC1PZmtUbVowQUpuNQ?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "폐쇄적인 AI 경제가 미국 경제 성장을 견인 중임",
-      "AI 주도 성장이 타 산업을 소외시킬 위험이 있음",
-      "경제 전반의 불균형과 격차 확대 우려가 제기됨"
+      "모닝스타가 2026년 시장을 주도할 미국 주식을 조명함",
+      "예상외의 종목들이 시장 수익률을 상회하고 있음",
+      "투자자들의 관심이 새로운 주도주로 이동 중임"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.65,
     "type": "해외"
   }
 ]
