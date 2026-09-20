@@ -5,8 +5,8 @@
     "publisher": "경향신문",
     "summary": [
       "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크에 대한 공동 대응을 논의했습니다."
+      "중동 전쟁으로 인한 하방 압력 리스크를 우려했습니다.",
+      "경제적 불확실성에 대한 공동 대응이 예상됩니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -18,25 +18,39 @@
     "publisher": "NK경제",
     "summary": [
       "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "친환경 경제 발전을 위한 녹색 금융 적극 추진 중",
-      "북한 매체가 강조한 친환경 경제 성장 정책"
+      "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
+      "북한의 친환경적 경제 개발 정책 행보 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Korea pledges policy funds for Uzbek regional partnerships - 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vR2k3SmJVZVdDeUpCM1BYd1ZBQ1E3REN4ako1cXZXdGhzSl8zQVhfVkhUd2VlazJxdF9mYkpROGUxYlFQMUZCR2xyNE9Nb29HYW5OVHBBVGxMN0hSQlZ1MA?oc=5",
-    "publisher": "네이트",
+    "title": "Korea needs a bold second financial reform now - Korea JoongAng Daily",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
+    "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국 정부 우즈베크 지역 협력 정책자금 지원",
-      "양국 간 경제 및 지역 파트너십 강화 기대",
-      "우즈베키스탄과의 전략적 경제 협력 확대"
+      "한국은 대담한 제2차 금융개혁이 시급함",
+      "금융 부문의 혁신과 변화 필요성 강조",
+      "경제 성장을 위한 새로운 금융 정책 촉구"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
+  },
+  {
+    "title": "Are global stock markets heading for a crash? - The Guardian",
+    "original_title": "Are global stock markets heading for a crash? - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHc2YlptSXlySkpublJrRVZzcXh1b1ZyYXVCZW1seDZKdGdRVmpqSEgtVjFKS2s5MjUzZi1uNlhjTWtHaU5qQldoc2dMUDdVYThkQk1YZjZFUXJGZFN0QU5pWlQ2dWFKSnJOUF92bTJzR0p3d3dFNEdMakpuUFRHLVBRd01qWElKNHBBa0hNb3FWLW5tb2htcUl6eXltTjdtay1iTFA1T2g?oc=5",
+    "publisher": "The Guardian",
+    "summary": [
+      "글로벌 증시가 폭락 위기에 직면했는지 분석",
+      "가디언지가 글로벌 주식시장 전망을 조명함",
+      "세계 증시의 향방에 대한 우려와 의문 제기"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 연준이 기준금리를 인상했습니다.",
-      "추가 금리 인상 가능성을 시사했습니다.",
-      "이로 인해 미국 증시가 하락세를 보였습니다."
+      "미 연준, 기준금리 인상 단행",
+      "추가 금리 인상 가능성 시사",
+      "소식 직후 미국 증시 하락세"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PemxCQl85dWNFR3hXZk5sZ1Nia3JlQ3JLMG5VMmVqbUNkYXZTLTV6NG1MdVVfRHl6TV93RWdFX1cybC1rZHQ0M1UtOWRjeG8tREVueFFuc0FDUDlGT1cxT1JxT0Q4dw?oc=5",
     "publisher": "CNN",
     "summary": [
-      "트럼프의 AI 산업 가속화 전략 분석",
-      "미국 AI 정책의 급격한 변화 전망",
-      "CNN이 보도한 AI 추진 배경 조명"
+      "트럼프의 AI 산업 가속화 정책 분석",
+      "미국 AI 경쟁력 강화를 위한 행보",
+      "CNN이 보도한 트럼프 AI 전략의 배경"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
-    "original_title": "The insular AI economy is driving U.S. growth but risks leaving everyone else behind - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRXFaclNiZTBzSDFvd19uMS1feHpESHo5T28zdklJUF9UN25yNEE5ZXFHVy14T01fTVRQOFJTWVdiOU9PRmtyRWtTbTlMQ0cxc2Q0MUt5Sm92MFNHTl9kUS1IX09FcTBkU2xWMDNHZ3p2UXlYb3ZtTUE2ZUN4dGNKRkhBa0kteXFGSHc?oc=5",
-    "publisher": "NBC News",
-    "summary": [
-      "폐쇄적인 AI 경제가 미국 경제 성장을 견인 중임",
-      "AI 주도 성장이 타 산업을 소외시킬 위험이 있음",
-      "경제 전반의 양극화 우려가 커지고 있는 상황임"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
     "type": "해외"
   }
 ]
