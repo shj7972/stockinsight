@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 녹색채권 발행 여부에 대한 관심을 모으고 있음",
-      "녹색 경제 발전을 위해 녹색 금융을 적극 추진 중임",
-      "친환경적 경제 개발 정책을 대내외로 강조하고 있음"
+      "북한이 그린본드를 발행할 가능성에 대한 보도",
+      "녹색 경제 발전을 위한 그린파이낸스 적극 추진",
+      "북한의 친환경 금융 정책 도입 움직임 주목"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -22,48 +22,34 @@
       "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - iworldtoday.com",
+    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - 월드투데이",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kTHc1a0FmblExbnBhc0dQV2JsVk5DTjdvVWk2c3I3SEdaMEY4Vkp6UmYwNjhXcXJQejl6Yl8yb1FUck5sSFBkMXdvZkw2dDRmT1dVQ0N5dFFIYXdzZGhEVVNMbmNlS1IxVEkzUlpOOA?oc=5",
-    "publisher": "iworldtoday.com",
+    "publisher": "월드투데이",
     "summary": [
-      "새마을금고, 사회적경제 조직에 375억 원 지원",
-      "사회 및 연대경제 활성화를 위한 금융 지원",
-      "취약 부문 성장을 돕는 상생금융 행보 강화"
+      "새마을금고, 사회적경제조직에 375억 원 지원",
+      "사회적 연대 경제 조직의 재정 안정성 강화",
+      "상생 금융 실천을 통한 지역 경제 활성화 기여"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "국내"
+  },
+  {
+    "title": "Why the bull market has kept defying the bears - invesco.com",
+    "original_title": "Why the bull market has kept defying the bears - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYUw2TG4xVTFDaXpad3p2aEpLbjlHRC1hOUhXSFFhREROT2NkLUxpMXBOZlNERHRNQVRXV0Q3bkhxREF1ZlBQVVRhN0NPemMzdENqNmFYZUFpY216Y2Y2THdyRGZURnAxdGowcktzS1NKSHJTR0hZVUZvdmx0ZDBwSHdjRU4?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "강세장이 약세장의 예상을 계속 뛰어넘는 이유 분석",
+      "인베스코가 제공하는 시장 상승세 지속의 배경",
+      "투자자들이 주목해야 할 강세장의 핵심 동력"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
-    "type": "국내"
-  },
-  {
-    "title": "Are global stock markets heading for a crash? - theguardian.com",
-    "original_title": "Are global stock markets heading for a crash? - theguardian.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHc2YlptSXlySkpublJrRVZzcXh1b1ZyYXVCZW1seDZKdGdRVmpqSEgtVjFKS2s5MjUzZi1uNlhjTWtHaU5qQldoc2dMUDdVYThkQk1YZjZFUXJGZFN0QU5pWlQ2dWFKSnJOUF92bTJzR0p3d3dFNEdMakpuUFRHLVBRd01qWElKNHBBa0hNb3FWLW5tb2htcUl6eXltTjdtay1iTFA1T2g?oc=5",
-    "publisher": "theguardian.com",
-    "summary": [
-      "글로벌 주식시장 폭락 가능성에 대한 의문 제기",
-      "가디언지가 보도한 세계 증시의 향방",
-      "현재 시장의 하락 위험성에 대한 분석 필요"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "original_title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "미 연준이 기준금리를 인상했습니다.",
-      "추가 금리 인상 가능성을 시사했습니다.",
-      "이로 인해 미국 주식시장이 하락했습니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -73,11 +59,25 @@
     "publisher": "MarketWatch",
     "summary": [
       "디젤 가격의 사상 최고치 경신",
-      "증시와 경제 전반의 취약성 노출",
-      "에너지 가격 상승이 주는 압박"
+      "주식시장과 경제의 취약점 노출",
+      "시장 전반에 미치는 악영향 경고"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.85,
+    "type": "해외"
+  },
+  {
+    "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
+    "original_title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "미 연준, 기준금리 인상 단행",
+      "추가 금리 인상 가능성 시사",
+      "소식 직후 미국 증시 하락세"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
     "type": "해외"
   }
 ]
