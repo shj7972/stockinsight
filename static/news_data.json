@@ -1,18 +1,5 @@
 [
   {
-    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
-    "publisher": "NK경제",
-    "summary": [
-      "북한이 그린본드를 발행할 가능성에 대한 보도",
-      "녹색 경제 발전을 위한 그린파이낸스 적극 추진",
-      "북한의 친환경 금융 정책 도입 움직임 주목"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "국내"
-  },
-  {
     "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
@@ -22,20 +9,33 @@
       "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.3,
     "type": "국내"
   },
   {
-    "title": "Saemaul Geumgo to Provide KRW 37.5 Billion in Financial Support for Social and Solidarity Economy Organizations - 월드투데이",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kTHc1a0FmblExbnBhc0dQV2JsVk5DTjdvVWk2c3I3SEdaMEY4Vkp6UmYwNjhXcXJQejl6Yl8yb1FUck5sSFBkMXdvZkw2dDRmT1dVQ0N5dFFIYXdzZGhEVVNMbmNlS1IxVEkzUlpOOA?oc=5",
-    "publisher": "월드투데이",
+    "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
+    "publisher": "NK경제",
     "summary": [
-      "새마을금고, 사회적경제조직에 375억 원 지원",
-      "사회적 연대 경제 조직의 재정 안정성 강화",
-      "상생 금융 실천을 통한 지역 경제 활성화 기여"
+      "북한의 그린본드 발행 가능성에 대한 관심 증대",
+      "녹색 경제 발전을 위한 그린핀테크 적극 추진 중",
+      "북한 매체가 강조한 친환경 경제 개발 정책"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "국내"
+  },
+  {
+    "title": "Korea needs a bold second financial reform now - Korea JoongAng Daily",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
+    "publisher": "Korea JoongAng Daily",
+    "summary": [
+      "한국은 현재 과감한 제2차 금융 개혁이 필요함",
+      "경제 성장을 위한 금융 부문의 혁신 촉구",
+      "코리아 중앙일보가 지적한 금융 개혁의 시급성"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
@@ -44,26 +44,26 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYUw2TG4xVTFDaXpad3p2aEpLbjlHRC1hOUhXSFFhREROT2NkLUxpMXBOZlNERHRNQVRXV0Q3bkhxREF1ZlBQVVRhN0NPemMzdENqNmFYZUFpY216Y2Y2THdyRGZURnAxdGowcktzS1NKSHJTR0hZVUZvdmx0ZDBwSHdjRU4?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "강세장이 약세장의 예상을 계속 뛰어넘는 이유 분석",
-      "인베스코가 제공하는 시장 상승세 지속의 배경",
-      "투자자들이 주목해야 할 강세장의 핵심 동력"
+      "강세장이 약세장의 예상을 계속 깨고 있음",
+      "인베스코가 분석한 강세장 유지의 배경",
+      "투자자들의 비관론 속에서도 시장은 성장"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
     "type": "해외"
   },
   {
-    "title": "Record diesel prices are exposing pain points in the stock market and economy - MarketWatch",
-    "original_title": "Record diesel prices are exposing pain points in the stock market and economy - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaF9SS3J2Tm5BemNRUUpDQnpPOW5tcWU1QUxtNTdXR2lEUE1YMjZxTXNINkRYQlIwTjZXcFQ4LUtHTng2dGZmdjdMc0RHaTRZUFZzVGtTY01BQjZzOFM5dVQyNjlHZU5NY3hYc21Ua2N0V21LUXNWVzdYaXlrOU0xX1RZbkN5eHRkRVBvY19wd0JxQXJNc3h6eXQ2X2lwX1NLckxKMXhic2lXQjFMUGhOdmc1SDNDZDFldUxoUw?oc=5",
-    "publisher": "MarketWatch",
+    "title": "What’s Next for Stocks After the US Fed Rate Hike - Morningstar",
+    "original_title": "What’s Next for Stocks After the US Fed Rate Hike - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHN3VU95ckdUT3ljVmNuQ09xMTFtanNPN2lHb2tCVXJzNUp0WXNESnVUb0pybWJaM1JqNUt3ZkU0T2dRM3BiSmpIWmJFazBTODE0bURMeXdibjFNM1Ita3hac0tPazROV0xzdGJOWkhjNENCcUNiQUkwSHo5eVVCTUxwVjV4dTVtQ1pUektR?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "디젤 가격의 사상 최고치 경신",
-      "주식시장과 경제의 취약점 노출",
-      "시장 전반에 미치는 악영향 경고"
+      "미 연준의 금리 인상 발표 이후 주식시장 동향 분석",
+      "투자자들이 주목해야 할 향후 증시 전망과 전략",
+      "모닝스타가 제시하는 금리 인상기 자산 관리 팁"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.85,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미 연준, 기준금리 인상 단행",
-      "추가 금리 인상 가능성 시사",
-      "소식 직후 미국 증시 하락세"
+      "미국 연준이 기준금리를 인상했습니다.",
+      "추가 금리 인상 가능성을 시사했습니다.",
+      "이로 인해 미국 증시가 하락세를 보였습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
