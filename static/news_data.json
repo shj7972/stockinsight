@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 시사"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,40 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 그린본드 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 그린 페이낸스 적극 추진",
-      "북한 경제 매체의 관련 동향 보도 진행"
+      "북한이 그린본드를 발행할 것인지에 대한 관심이 집중됨",
+      "녹색 경제 발전을 위해 녹색 금융을 적극적으로 추진 중",
+      "북한 매체들을 통해 관련 동향이 지속적으로 보도됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Korea needs a bold second financial reform now - Korea JoongAng Daily",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
-    "publisher": "Korea JoongAng Daily",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "한국은 현재 과감한 제2차 금융 개혁이 필요함",
-      "경제 성장을 위한 금융 부문의 혁신 촉구",
-      "코리아 중앙일보가 지적한 금융 개혁의 시급성"
+      "한국은행 기준금리 3.00%로 인상 결정",
+      "연속 금리 인상인 백투백 인상 현실화",
+      "통화 긴축 기조 지속에 대한 시장 주목"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
-  },
-  {
-    "title": "What’s Next for US Stocks After the Fed Rate Hike - Morningstar",
-    "original_title": "What’s Next for US Stocks After the Fed Rate Hike - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZko0WU1kUWFDbVBBaXdJT09qeTFSY000SVlCd3diMHFVMjNodUtGWFlBMUtkdmZSRmlmTnRmWXBYaGlpbHVpOTdyZHN2QjNMampxSTM3czM0VE5MMlk4OU1kVUFsUkZhMHBxYXJhbFlpNnQzLVgteXNySXplRkFDVVRHUHNha182TmJNUDRB?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "미 연준 금리 인상 발표",
-      "미국 주식 시장의 향후 전망 분석",
-      "모닝스타의 투자 전략 제시"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
   },
   {
     "title": "Are global stock markets heading for a crash? - The Guardian",
@@ -58,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHc2YlptSXlySkpublJrRVZzcXh1b1ZyYXVCZW1seDZKdGdRVmpqSEgtVjFKS2s5MjUzZi1uNlhjTWtHaU5qQldoc2dMUDdVYThkQk1YZjZFUXJGZFN0QU5pWlQ2dWFKSnJOUF92bTJzR0p3d3dFNEdMakpuUFRHLVBRd01qWElKNHBBa0hNb3FWLW5tb2htcUl6eXltTjdtay1iTFA1T2g?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "글로벌 주식시장 폭락 가능성 제기",
-      "가디언지가 보도한 증시 전망 분석",
-      "세계 증시의 향후 방향성에 대한 우려"
+      "글로벌 증시가 붕괴 위기인지 분석함",
+      "가디언지가 보도한 세계 증시 전망",
+      "주식 시장의 향후 방향성에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미 연준, 기준금리 추가 인상 단행",
-      "향후 추가 금리 인상 가능성 시사",
-      "소식 여파로 미국 증시 하락세 기록"
+      "미 연준이 기준금리를 인상했습니다.",
+      "추가 금리 인상 가능성을 시사했습니다.",
+      "이로 인해 미국 주식시장이 하락했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "Billionaire investor Howard Marks says don't dump stocks because you're worried about soaring US debt - Business Insider",
+    "original_title": "Billionaire investor Howard Marks says don't dump stocks because you're worried about soaring US debt - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYml3OE5uUTM1T3FZZTZuTHFQTUxZUWZtcW1mSDZjeHVFN2xDX3hLMTBKTnVHMjBEU3VKOGpHazBRVExfZWtTeU5lUURQN1ZDajYxOEdaUlBEZXJtOTZTX3E4Ylljd04xRE1Cb2xMSXlFNzViVUZQaUlTM19XZWstamppTFVCYXdmQThYY1p2NDlVck1KUkc1c3JLRlo5U2c?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "억만장자 투자자 하워드 막스의 조언",
+      "미국 부채 우려로 주식을 매도하지 말 것",
+      "장기적 관점에서 주식 보유 유지 강조"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
     "type": "해외"
   }
 ]
