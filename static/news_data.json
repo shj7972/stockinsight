@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
+      "한·중·일 재무장관 회의 개최",
       "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 논의"
+      "3국이 경제 리스크에 공동 대응 목소리"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,26 +17,54 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 그린본드 발행 가능성에 대한 관심 증대",
-      "친환경 경제 발전을 위한 녹색금융 적극 추진 중",
-      "북한 경제 매체의 관련 동향 보도 및 분석"
+      "북한이 그린본드를 발행할 것인지에 대한 관심이 집중됨",
+      "녹색경제 발전을 위해 녹색금융을 적극적으로 추진 중",
+      "북한 경제 매체 NK경제에서 관련 내용을 보도함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Korea needs a bold second financial reform now - Korea JoongAng Daily",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
-    "publisher": "Korea JoongAng Daily",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "한국 경제의 과감한 제2금융개혁 필요성 대두",
-      "현재 금융 시스템의 구조적 변화 요구",
-      "지속 가능한 성장을 위한 금융 혁신 시급"
+      "한국은행 기준금리 3.00%로 결정",
+      "연속 금리 인상인 백투백 인상 현실화",
+      "금리 인상으로 인한 경제 영향 주목"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "Here's what happens to the economy when Treasury yields soar like they are now - CNBC",
+    "original_title": "Here's what happens to the economy when Treasury yields soar like they are now - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2s3WlB5UEZOTGdybXRJVlNxdlNKZEpTakdLZm8xX3lic1NrNEh2UUxwRWZsOGlPTW85ckREQ25UREF2ZmNtZmZ3ejRTT3ZyYXF6Q21XdElVZzFCN2o3R19wRHJfZ2FlZm5YbHZMTHoxQWdJb0dDVG9YMUlqWUF0R3FKV3haUEJoTS1Ia0pZOUZoYXRG0gGaAUFVX3lxTE8wdW9JZC1kMGZHcTVycVJDbW5TT18tTnlGN1FmQjZheTlham5nU1Eya1JRZm0xbnBpSWF0VEpNSTZFMVRoSkszUXBmSlpHY0VNcHpuTW5NUnhBMEdPWXRvMlFIWkdnMWY1TElSUmlic3RvU3BlR09UZ1U1QXV3cGhfQkh3emg2RTNHR3QzM0V3SlZ3akV6R05WT0E?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "미국 국채 금리가 급등세를 보이고 있습니다.",
+      "상승하는 국채 금리는 경제에 큰 영향을 미칩니다.",
+      "금융 시장의 변동성과 투자자 우려가 커지고 있습니다."
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "A new measure of financial conditions shows the US economy heading for a rough patch - Business Insider",
+    "original_title": "A new measure of financial conditions shows the US economy heading for a rough patch - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObEpyVGFseTdhVFQ2WVNFdnk1eWFpd3VVYjFmY1JlWmRLUkdTcGxLSGVNVW02VjBNWFJ5ZVcyNGg1V0dPLTQxb2tjMUhvWldZUEVaQ0NXT2hmMXdTWHAzQUJCQ0JKeFlvTGI1dXBrbGZ0Qkt6ai1JbWFqUWc5bHhXRmhhQmtoSjUweXI4ZW1ia25YenBrV2JHcWNpbDdobkdSenczanpGR2hYZUU?oc=5",
+    "publisher": "Business Insider",
+    "summary": [
+      "새로운 금융 여건 지표가 발표됨",
+      "미국 경제가 난관에 봉착할 전망",
+      "비즈니스 인사이더가 보도함"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "Are global stock markets heading for a crash? - The Guardian",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHc2YlptSXlySkpublJrRVZzcXh1b1ZyYXVCZW1seDZKdGdRVmpqSEgtVjFKS2s5MjUzZi1uNlhjTWtHaU5qQldoc2dMUDdVYThkQk1YZjZFUXJGZFN0QU5pWlQ2dWFKSnJOUF92bTJzR0p3d3dFNEdMakpuUFRHLVBRd01qWElKNHBBa0hNb3FWLW5tb2htcUl6eXltTjdtay1iTFA1T2g?oc=5",
     "publisher": "The Guardian",
     "summary": [
-      "글로벌 증시가 폭락 위기에 직면했는지 분석",
-      "가디언지가 글로벌 주식시장의 향방을 조명",
-      "시장 침체 가능성에 대한 우려와 전망 제기"
+      "글로벌 증시가 붕괴 위기인지 분석하는 보도",
+      "가디언지가 세계 주식 시장의 향방에 의문 제기",
+      "향후 주식 시장의 하락 가능성에 대한 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "What’s Next for Stocks After the US Fed Rate Hike - Morningstar",
-    "original_title": "What’s Next for Stocks After the US Fed Rate Hike - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHN3VU95ckdUT3ljVmNuQ09xMTFtanNPN2lHb2tCVXJzNUp0WXNESnVUb0pybWJaM1JqNUt3ZkU0T2dRM3BiSmpIWmJFazBTODE0bURMeXdibjFNM1Ita3hac0tPazROV0xzdGJOWkhjNENCcUNiQUkwSHo5eVVCTUxwVjV4dTVtQ1pUektR?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "미 연준의 금리 인상 단행",
-      "금리 인상 이후 증시 전망 분석",
-      "모닝스타의 향후 투자 전략 제시"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "original_title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "미국 연준, 기준금리 인상 단행",
-      "추가 금리 인상 가능성 시사",
-      "금리 인상 여파로 미 증시 하락"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.3,
     "type": "해외"
   }
 ]
