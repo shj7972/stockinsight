@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-09-25",
+      "generated_at": "2026-09-25T01:09:31",
+      "sector_top3": [
+        [
+          "Materials",
+          NaN
+        ],
+        [
+          "Communication Services",
+          NaN
+        ],
+        [
+          "Energy",
+          NaN
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "CAT",
+          "name": "Caterpillar",
+          "market": "US",
+          "sector": "Industrials",
+          "entry_price": 812.02,
+          "rsi": 48.8,
+          "bb_pos": 64.2,
+          "vol_ratio": 1.18,
+          "macd_positive": true,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.6601,
+          "model_scores": {
+            "rf": 0.5402,
+            "xgb": 0.9148,
+            "mlp": 0.5915,
+            "lstm": 0.5939
+          },
+          "final_score": 0.7621,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 148.08,
+          "rsi": 57.9,
+          "bb_pos": 51.9,
+          "vol_ratio": 0.98,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.6553,
+          "model_scores": {
+            "rf": 0.6915,
+            "xgb": 0.7519,
+            "mlp": 0.6218,
+            "lstm": 0.5559
+          },
+          "final_score": 0.7587,
+          "signal_summary": "복합 기술적 신호",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "CVX",
+          "name": "Chevron",
+          "market": "US",
+          "sector": "Energy",
+          "entry_price": 205.51,
+          "rsi": 49.4,
+          "bb_pos": 35.1,
+          "vol_ratio": 0.83,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.5601,
+          "model_scores": {
+            "rf": 0.5823,
+            "xgb": 0.4111,
+            "mlp": 0.6227,
+            "lstm": 0.6242
+          },
+          "final_score": 0.6921,
+          "signal_summary": "RSI 중립~반등",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "034730.KS",
+          "name": "SK",
+          "market": "KR",
+          "sector": "Industrials",
+          "entry_price": 611000.0,
+          "rsi": 58.2,
+          "bb_pos": 87.3,
+          "vol_ratio": 1.0,
+          "macd_positive": true,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.7343,
+          "model_scores": {
+            "rf": 0.7078,
+            "xgb": 0.9531,
+            "mlp": 0.6673,
+            "lstm": 0.6091
+          },
+          "final_score": 0.814,
+          "signal_summary": "MACD 골든크로스",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "086790.KS",
+          "name": "하나금융지주",
+          "market": "KR",
+          "sector": "Financials",
+          "entry_price": 133100.0,
+          "rsi": 48.0,
+          "bb_pos": 12.5,
+          "vol_ratio": 0.86,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.6637,
+          "model_scores": {
+            "rf": 0.7524,
+            "xgb": 0.9692,
+            "mlp": 0.4648,
+            "lstm": 0.4685
+          },
+          "final_score": 0.7646,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "196170.KQ",
+          "name": "알테오젠",
+          "market": "KR",
+          "sector": "Healthcare",
+          "entry_price": 250000.0,
+          "rsi": 35.5,
+          "bb_pos": 20.0,
+          "vol_ratio": 0.41,
+          "macd_positive": false,
+          "sector_zscore": NaN,
+          "ensemble_score": 0.6628,
+          "model_scores": {
+            "rf": 0.7844,
+            "xgb": 0.8378,
+            "mlp": 0.5274,
+            "lstm": 0.5017
+          },
+          "final_score": 0.764,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-09-24",
       "generated_at": "2026-09-24T01:06:13",
       "sector_top3": [
@@ -954,166 +1114,6 @@
             "lstm": 0.4947
           },
           "final_score": 0.7731,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
-          "current_price": null,
-          "return_pct": null
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "generated_at": "2026-09-16T01:07:45",
-      "sector_top3": [
-        [
-          "Materials",
-          NaN
-        ],
-        [
-          "Communication Services",
-          NaN
-        ],
-        [
-          "Energy",
-          NaN
-        ]
-      ],
-      "us_picks": [
-        {
-          "ticker": "GS",
-          "name": "Goldman Sachs",
-          "market": "US",
-          "sector": "Financials",
-          "entry_price": 988.45,
-          "rsi": 39.5,
-          "bb_pos": 0.0,
-          "vol_ratio": 1.22,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.6998,
-          "model_scores": {
-            "rf": 0.8781,
-            "xgb": 0.9729,
-            "mlp": 0.3808,
-            "lstm": 0.5673
-          },
-          "final_score": 0.7899,
-          "signal_summary": "RSI 과매도 진입 · MACD 반등 임박 · 볼린저 하단 근접",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "AVGO",
-          "name": "Broadcom",
-          "market": "US",
-          "sector": "Technology",
-          "entry_price": 344.72,
-          "rsi": 34.3,
-          "bb_pos": 0.0,
-          "vol_ratio": 1.26,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.6941,
-          "model_scores": {
-            "rf": 0.8003,
-            "xgb": 0.943,
-            "mlp": 0.5126,
-            "lstm": 0.5204
-          },
-          "final_score": 0.7859,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "MRK",
-          "name": "Merck",
-          "market": "US",
-          "sector": "Healthcare",
-          "entry_price": 144.85,
-          "rsi": 52.0,
-          "bb_pos": 34.1,
-          "vol_ratio": 0.67,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.667,
-          "model_scores": {
-            "rf": 0.6639,
-            "xgb": 0.8692,
-            "mlp": 0.5643,
-            "lstm": 0.5705
-          },
-          "final_score": 0.7669,
-          "signal_summary": "볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        }
-      ],
-      "kr_picks": [
-        {
-          "ticker": "005930.KS",
-          "name": "삼성전자",
-          "market": "KR",
-          "sector": "Technology",
-          "entry_price": 250750.0,
-          "rsi": 45.7,
-          "bb_pos": 22.5,
-          "vol_ratio": 0.12,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.771,
-          "model_scores": {
-            "rf": 0.7286,
-            "xgb": 0.9501,
-            "mlp": 0.7735,
-            "lstm": 0.6317
-          },
-          "final_score": 0.8397,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "034730.KS",
-          "name": "SK",
-          "market": "KR",
-          "sector": "Industrials",
-          "entry_price": 547500.0,
-          "rsi": 45.2,
-          "bb_pos": 27.2,
-          "vol_ratio": 0.16,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.7226,
-          "model_scores": {
-            "rf": 0.6454,
-            "xgb": 0.9042,
-            "mlp": 0.6563,
-            "lstm": 0.6843
-          },
-          "final_score": 0.8058,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "196170.KQ",
-          "name": "알테오젠",
-          "market": "KR",
-          "sector": "Healthcare",
-          "entry_price": 252750.0,
-          "rsi": 36.1,
-          "bb_pos": 7.4,
-          "vol_ratio": 0.14,
-          "macd_positive": false,
-          "sector_zscore": NaN,
-          "ensemble_score": 0.6536,
-          "model_scores": {
-            "rf": 0.6873,
-            "xgb": 0.792,
-            "mlp": 0.6518,
-            "lstm": 0.4832
-          },
-          "final_score": 0.7575,
           "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
           "current_price": null,
           "return_pct": null
