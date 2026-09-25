@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "한중일 재무장관이 중동 전쟁의 경제적 위험성에 공감했습니다.",
+      "하방 경제 압력 리스크에 대해 한목소리를 냈습니다.",
+      "3국 간 경제 및 금융 안정을 위한 협력을 시사했습니다."
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,53 +17,53 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "북한의 그린본드 발행 가능성에 대한 관심 증대",
+      "녹색 경제 발전을 위한 그린파이낸스 적극 추진",
+      "북한 경제의 친환경 금융 도입 움직임 보도"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Won reaches 17-year low against dollar - 동아일보",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zQy1NbDJGYXFxNC13UFFWU2JCaUpGM09QSnk3bUttWXU2QXhqUjE3OXJMdG9TVWlNWE91Z0FGS0RVMjVCTDlfdkFXX1c1TVBlQVBodnJDZlJiTXBxODctTnBzaGp3dw?oc=5",
-    "publisher": "동아일보",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "한국은행 기준금리 3.00%로 인상",
+      "연속 금리 인상인 '백투백' 인상 현실화",
+      "통화 긴축 기조 지속에 대한 시장 주목"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "Here's what happens to the economy when Treasury yields soar like they are now - cnbc.com",
-    "original_title": "Here's what happens to the economy when Treasury yields soar like they are now - cnbc.com",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2s3WlB5UEZOTGdybXRJVlNxdlNKZEpTakdLZm8xX3lic1NrNEh2UUxwRWZsOGlPTW85ckREQ25UREF2ZmNtZmZ3ejRTT3ZyYXF6Q21XdElVZzFCN2o3R19wRHJfZ2FlZm5YbHZMTHoxQWdJb0dDVG9YMUlqWUF0R3FKV3haUEJoTS1Ia0pZOUZoYXRG0gGaAUFVX3lxTE8wdW9JZC1kMGZHcTVycVJDbW5TT18tTnlGN1FmQjZheTlham5nU1Eya1JRZm0xbnBpSWF0VEpNSTZFMVRoSkszUXBmSlpHY0VNcHpuTW5NUnhBMEdPWXRvMlFIWkdnMWY1TElSUmlic3RvU3BlR09UZ1U1QXV3cGhfQkh3emg2RTNHR3QzM0V3SlZ3akV6R05WT0E?oc=5",
-    "publisher": "cnbc.com",
+    "title": "Fed rate hike cycles have a history of denting US stock prices - Reuters",
+    "original_title": "Fed rate hike cycles have a history of denting US stock prices - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmR3cTBOOVhRdHBUaGJ0Z0lBY09RNlFCRm9nSkl3bVpTM3lzN3pMTTlZVVJvdnFyT3FzQXZUZ0NLWXUzbGtLQnRFaFlWNmVNUHJnbHcwbjEwbDBvTG1sQkIzdUN4a3d4RW5VcjlKeVhRSUh4TTJXdW92NkE2eDNVTGJOdlBnZHEyQVpVWnIyMk9EQnBEd1l5SjNnREtobGw5bkRGVw?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "연준 금리 인상기는 미 주가 하락 역사",
+      "금리 인상이 증시에 미치는 영향 분석",
+      "과거 통계 기반 미 증시 타격 경고"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
     "type": "해외"
   },
   {
-    "title": "What’s Next for US Stocks After the Fed Rate Hike - Morningstar",
-    "original_title": "What’s Next for US Stocks After the Fed Rate Hike - Morningstar",
+    "title": "What’s Next for US Stocks After the Fed Rate Hike - global.morningstar.com",
+    "original_title": "What’s Next for US Stocks After the Fed Rate Hike - global.morningstar.com",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZko0WU1kUWFDbVBBaXdJT09qeTFSY000SVlCd3diMHFVMjNodUtGWFlBMUtkdmZSRmlmTnRmWXBYaGlpbHVpOTdyZHN2QjNMampxSTM3czM0VE5MMlk4OU1kVUFsUkZhMHBxYXJhbFlpNnQzLVgteXNySXplRkFDVVRHUHNha182TmJNUDRB?oc=5",
-    "publisher": "Morningstar",
+    "publisher": "global.morningstar.com",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "미 연준의 금리 인상 발표 이후 미국 증시 전망 분석",
+      "금리 인상이 향후 주식 시장에 미칠 영향 점검",
+      "글로벌 금융 시장의 향후 투자 방향성 제시"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYUw2TG4xVTFDaXpad3p2aEpLbjlHRC1hOUhXSFFhREROT2NkLUxpMXBOZlNERHRNQVRXV0Q3bkhxREF1ZlBQVVRhN0NPemMzdENqNmFYZUFpY216Y2Y2THdyRGZURnAxdGowcktzS1NKSHJTR0hZVUZvdmx0ZDBwSHdjRU4?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "강세장이 약세장의 예상을 계속 뛰어넘는 이유 분석",
-      "인베스코가 전하는 시장의 지속적인 상승 요인",
-      "투자자들의 비관론을 잠재운 강세장의 배경 설명"
+      "약세론자의 예상에도 강세장이 지속된 이유 분석",
+      "인베스코가 조명한 증시 상승세의 동력",
+      "시장 참여자들의 지속적인 관심과 회복력"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "해외"
   }
 ]
