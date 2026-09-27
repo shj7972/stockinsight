@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크 대응을 위해 긴밀히 공조하기로 함"
+      "한중일 재무장관이 중동 전쟁의 경제적 리스크에 우려 표명",
+      "경제 하방 압력 위험에 대해 한목소리로 공동 대응 시사",
+      "중동발 위기가 3국 경제에 미칠 악영향에 대한 경계감 고조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 그린본드를 발행할지에 대한 관심이 집중되고 있음",
-      "녹색 경제 발전을 위해 녹색 금융을 적극 추진 중임",
-      "북한의 친환경 경제 정책 행보가 주목받고 있음"
+      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 금융 정책 적극 추진 중",
+      "친환경 금융을 통한 경제 성장 도모 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -31,26 +31,12 @@
     "publisher": "서울신문",
     "summary": [
       "한국은행 기준금리 3.00%로 인상 결정",
-      "연속 금리 인상인 백투백 인상 현실화",
-      "통화 긴축 기조 지속에 대한 시장 주목"
+      "연속적인 금리 인상인 백투백 인상 현실화",
+      "통화 긴축 기조 지속 및 물가 안정 도모"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
-  },
-  {
-    "title": "Wall St Week Ahead: Jobs report, inflation data to test US rate path, economic strength - reuters.com",
-    "original_title": "Wall St Week Ahead: Jobs report, inflation data to test US rate path, economic strength - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
-    "publisher": "reuters.com",
-    "summary": [
-      "미국 고용보고서와 물가 지표 발표 임박",
-      "금리 경로와 경제 건전성을 시험할 주요 주간",
-      "월가 증시에 큰 영향을 미칠 경제 데이터 대기"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
   },
   {
     "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
@@ -60,7 +46,7 @@
     "summary": [
       "미 연준, 기준금리 인상 단행",
       "추가 금리 인상 가능성 시사",
-      "소식에 미국 증시 하락세 기록"
+      "소식 직후 미국 증시 하락세"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -74,10 +60,24 @@
     "summary": [
       "강세장이 약세장의 예상을 계속 뛰어넘은 이유 분석",
       "인베스코가 전하는 최근 증시 상승세의 주요 동인",
-      "시장 비관론에도 불구하고 지속되는 상승장 배경"
+      "시장 비관론에도 불구하고 랠리가 지속되는 배경"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment_score": 0.75,
+    "type": "해외"
+  },
+  {
+    "title": "US stocks end barely changed on a newly shaky Wall Street after a couple reversals - Audacy",
+    "original_title": "US stocks end barely changed on a newly shaky Wall Street after a couple reversals - Audacy",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVlVam55Smw1MEpndVFpNnhJMnlVbkEwN3czRnlUdWdFMUZuakpsSWNiRzlvbmJWWDE3T2pjUHp0OUVoQ1Y0bnVFMzh0UUMteGQ3OGs5T3lyRTkxWVR3d24yd3dUWm0yei1GSkwtaC1VVENYc29JU3JHTXJvaGp4TjNGSmt2Zy01VlQ2Yklvby0xcmZzdzJlQzVFejMyOFJDbzF6ZTJIcHFDRThaQklyLXo0T21kaVM5bmJV?oc=5",
+    "publisher": "Audacy",
+    "summary": [
+      "미국 증시가 혼조세 끝에 보합세로 마감했습니다.",
+      "월스트리트 시장이 최근 불안정한 모습을 보였습니다.",
+      "주가 변동성이 커지며 투자자들의 경계감이 높아졌습니다."
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
