@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 회의 개최",
-      "중동 전쟁으로 인한 경제 하방 압력 우려 공감",
-      "경제 리스크 대응을 위해 한목소리 강조"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -17,40 +17,26 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 그린본드 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 그린핀테크 적극 추진",
-      "북한 매체가 보도한 친환경 금융 정책 동향"
+      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 금융 정책 적극 추진 중",
+      "북한 경제 매체의 녹색 금융 관련 보도 내용"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
-    "publisher": "서울신문",
+    "title": "Korea needs a bold second financial reform now - Korea JoongAng Daily",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
+    "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국은행 기준금리 3.00%로 인상 결정",
-      "연속 금리 인상인 백투백 인상 현실화",
-      "통화 긴축 기조 지속에 대한 시장 주목"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "Wall St Week Ahead Jobs report, inflation data to test US rate path, economic strength - Reuters",
-    "original_title": "Wall St Week Ahead Jobs report, inflation data to test US rate path, economic strength - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "미국 고용보고서와 물가 지표 발표 임박",
-      "금리 경로와 경제 건전성을 시험할 예정",
-      "월스트리트의 향후 방향성에 큰 영향 미칠 것"
+      "한국은 현재 과감한 제2차 금융 개혁이 필요함",
+      "경제 성장을 위한 금융 부문의 혁신 촉구",
+      "코리아 중앙일보가 지적한 금융 개혁의 시급성"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
+    "type": "국내"
   },
   {
     "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
@@ -58,23 +44,37 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
     "publisher": "PBS",
     "summary": [
-      "미국 연준이 기준금리를 인상했습니다.",
+      "미 연준이 기준금리를 인상했습니다.",
       "추가 금리 인상 가능성을 시사했습니다.",
-      "이로 인해 미국 증시가 하락했습니다."
+      "이로 인해 미국 주식시장이 하락했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "What to Expect in Markets This Week: Latest US Inflation, Jobs Data; Micron, CarMax Report - Investopedia",
-    "original_title": "What to Expect in Markets This Week: Latest US Inflation, Jobs Data; Micron, CarMax Report - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUFFrR2lJSXVYME5xcS15M2wzWl9UZUxHSzFSRGc5OXFXSUc0cENNOTUyc0x4NzJhMzJOSzBaMkhFYjh2X2lkNzdtZmNfSHh5Y203SmNhdEt5bnNFUGVNRy1KM0tPbTZFWEdXZElxOVJSbTBMN1FiVG54V2h6eGhWQjAwWlVMRkphRmNxWGRDYmZsYjVtUFp2dG1pM0RZSDBWNFhIX1FKZnZNY1ZIck1NUHhQbjAyb0YyX19OZzgzY1ZaUQ?oc=5",
-    "publisher": "Investopedia",
+    "title": "“Oil Exports Choked Off, Economy Nearing Its Limit”: U.S. Confident Economic Pressure on Iran Is Working, Expects Financial Markets to Stabilize After War - economy.ac",
+    "original_title": "“Oil Exports Choked Off, Economy Nearing Its Limit”: U.S. Confident Economic Pressure on Iran Is Working, Expects Financial Markets to Stabilize After War - economy.ac",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8ySTFFMlJoZENTM005UjFQcy1pYk1nMWREUW9ZZHBXOF90WlhXMGJ1bnR6b3RSckRqbXF1cy11c2ljN05rLVFueXh2RjZLR2dRYXdjTDZ1TQ?oc=5",
+    "publisher": "economy.ac",
     "summary": [
-      "이번 주 미국 인플레이션 및 고용 지표 발표 예정",
-      "마이크론과 카맥스 등의 기업 실적 발표 주목",
-      "시장 방향성을 결정할 주요 경제 데이터 대기"
+      "미국은 대이란 경제 압박이 효과를 내고 있다고 확신함",
+      "이란의 원유 수출이 차단되고 경제가 한계에 다다름",
+      "전쟁 종결 후 금융시장이 안정될 것으로 예상함"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
+    "type": "해외"
+  },
+  {
+    "title": "Where the US Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+    "original_title": "Where the US Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
+    "publisher": "Morningstar",
+    "summary": [
+      "미국 주식 시장의 향후 방향성 전망",
+      "현재 시점에서 매수해야 할 종목 분석",
+      "모닝스타가 제시하는 투자 전략 정보"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
