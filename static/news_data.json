@@ -9,7 +9,7 @@
       "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 금융 정책 적극 추진 중",
-      "북한 경제 매체의 녹색 금융 관련 보도 내용"
+      "북한의 그린본드 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 그린 페이낸스 적극 추진",
+      "북한 경제 매체의 관련 동향 보도 진행"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3NPc1NRdVFpOExZQldtQTdIdHI4N3NmY05GLWVLSmJKald2NFhOSGp3YnRQOExoM3RwQ1d0dXBmU2RMcTNVWkV1aWZOZkZORVNpOE9xaDgwMFlvbWZoQjNmWHJXYTR0d2lqZmZnTmcxUV9NT2QwX1M4QWRXMGJjZ1ZVTDNoekZNR2dfWVFOd1ppSzlsdm4xOVZYNnU1cWs?oc=5",
     "publisher": "Korea JoongAng Daily",
     "summary": [
-      "한국은 현재 과감한 제2차 금융 개혁이 필요함",
-      "경제 성장을 위한 금융 부문의 혁신 촉구",
-      "코리아 중앙일보가 지적한 금융 개혁의 시급성"
+      "한국은 현재 과감한 제2차 금융 개혁이 시급함",
+      "경제 성장을 위해 금융 부문의 대수술 필요",
+      "코리아 디스카운트 해소를 위한 정책 촉구"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -53,31 +53,31 @@
     "type": "해외"
   },
   {
-    "title": "“Oil Exports Choked Off, Economy Nearing Its Limit”: U.S. Confident Economic Pressure on Iran Is Working, Expects Financial Markets to Stabilize After War - economy.ac",
-    "original_title": "“Oil Exports Choked Off, Economy Nearing Its Limit”: U.S. Confident Economic Pressure on Iran Is Working, Expects Financial Markets to Stabilize After War - economy.ac",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8ySTFFMlJoZENTM005UjFQcy1pYk1nMWREUW9ZZHBXOF90WlhXMGJ1bnR6b3RSckRqbXF1cy11c2ljN05rLVFueXh2RjZLR2dRYXdjTDZ1TQ?oc=5",
-    "publisher": "economy.ac",
+    "title": "Pressure from the bond market hits a new level, and US stocks slide on worries about inflation - AP News",
+    "original_title": "Pressure from the bond market hits a new level, and US stocks slide on worries about inflation - AP News",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU0pyZ1RfQnM4UlAxVHEwS0NWbEpsOXh5akFKNUF6ZVJ1T3B3bjJsNmtSUEhzcFRqZzlldHlEU1Q2TUs4eFdNNVFtM1JlNDBUTFkzaGtQeGxEWVN6Mko2VnhFd2xaYU1fcXNnYUNaNFRyU1VVd19jWWJkWDhhUEZRdHlELUpKQ1NmMjRmSDlnVlpHQQ?oc=5",
+    "publisher": "AP News",
     "summary": [
-      "미국은 대이란 경제 압박이 효과를 내고 있다고 확신함",
-      "이란의 원유 수출이 차단되고 경제가 한계에 다다름",
-      "전쟁 종결 후 금융시장이 안정될 것으로 예상함"
+      "채권 시장 압박이 새로운 수준에 도달함",
+      "인플레이션 우려로 인해 미국 주가가 하락함",
+      "경제에 대한 불안감이 시장 전반에 확산됨"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.85,
     "type": "해외"
   },
   {
-    "title": "Where the US Stock Market May Be Heading Next and What to Buy Now - Morningstar",
-    "original_title": "Where the US Stock Market May Be Heading Next and What to Buy Now - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
-    "publisher": "Morningstar",
+    "title": "Why the bull market has kept defying the bears - invesco.com",
+    "original_title": "Why the bull market has kept defying the bears - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYUw2TG4xVTFDaXpad3p2aEpLbjlHRC1hOUhXSFFhREROT2NkLUxpMXBOZlNERHRNQVRXV0Q3bkhxREF1ZlBQVVRhN0NPemMzdENqNmFYZUFpY216Y2Y2THdyRGZURnAxdGowcktzS1NKSHJTR0hZVUZvdmx0ZDBwSHdjRU4?oc=5",
+    "publisher": "invesco.com",
     "summary": [
-      "미국 주식 시장의 향후 방향성 전망",
-      "현재 시점에서 매수해야 할 종목 분석",
-      "모닝스타가 제시하는 투자 전략 정보"
+      "약세론자들의 예상과 달리 강세장이 지속되는 이유 분석",
+      "인베스코가 전하는 시장의 회복력과 상승 동력 배경",
+      "증시를 지탱하는 주요 요인들에 대한 심층적인 고찰"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
