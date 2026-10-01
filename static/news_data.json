@@ -1,15 +1,15 @@
 [
   {
-    "title": "일본은행 ‘빅스텝’ 전망까지…2년 전 ‘앤캐리 청산’ 증시 폭락 또? - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zMTFaMU1idW9zM1FHRzV6VDBadnlrVXVsTnlXS3phNE1yZ1Myc0h3bjZWNXlfOWhHMjdxT0pEcmROODJMdkIzQm1JbUhHUDlETW0ySFJjbC1VWXN5UU9sZTlYdm4yRTQ?oc=5",
+    "title": "[단독] 고금리 덮친 중소기업, 대출 연체액 9조 넘어…4년 새 4배 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nenpyMDBpSjcyUml0SzM4MlpsMGRjUUI0MzY0THEwbDJlMno1dEh6ekdUcmdDNXcxMnFkM2Jyanl2b0FjanBoRFc3RHZpa1pRdXBFYk5kdDJiWjh0aUpETXE0LThKbjg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "일본은행의 금리 인상 '빅스텝' 전망 대두",
-      "2년 전 발생한 '엔캐리 청산' 악몽 재현 우려",
-      "글로벌 증시 폭락 가능성에 대한 시장 경계감"
+      "중소기업 대출 연체액 9조 원을 돌파함",
+      "고금리 장기화 타격으로 4년 만에 4배 증가",
+      "취약 부문 중심의 금융 부실 우려 심화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -18,8 +18,8 @@
     "publisher": "NK경제",
     "summary": [
       "북한이 그린본드를 발행할 것인지에 대한 관심이 집중됨",
-      "녹색경제 발전을 위해 녹색금융을 적극적으로 추진 중",
-      "북한 경제 매체 NK경제에서 관련 내용을 보도함"
+      "녹색 경제 발전을 위해 그린 파이낸스를 적극 추진 중",
+      "북한 매체가 관련 내용을 보도하며 경제 변화 주목"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -39,45 +39,45 @@
     "type": "국내"
   },
   {
-    "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - reuters.com",
-    "original_title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
-    "publisher": "reuters.com",
+    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
+    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
+    "publisher": "Liberty Street Economics",
     "summary": [
-      "S&P 500 지수는 소폭 하락했습니다.",
-      "나스닥 지수는 상승세를 기록했습니다.",
-      "물가 상승률이 완화된 모습을 보였습니다."
+      "미국 주식시장의 지경제적 리스크 분석",
+      "글로벌 경제 환경 변화와 시장 영향",
+      "투자자의 지정학적 리스크 대응 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Most US stocks fall after the bond market cranks the pressure even higher - Boston Herald",
-    "original_title": "Most US stocks fall after the bond market cranks the pressure even higher - Boston Herald",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOEFMMUNDSFM0YXptNkctQnRJQmNBR3hzN0xOZ05vMjNlZUtYWTRoMEZ1TmlkR3M4VnIySklxcDJjYXhScTJsNTJUZ2dVaFdzQ1pjbkNFejAtVG05blc4bkdTVlE5MGg5bWRjTGMtZ0hXM1k4ZnpZTmQ5M0hjWlJUWlZubW0?oc=5",
-    "publisher": "Boston Herald",
+    "title": "Why Is the U.S. Stock Market Outpacing Europe’s? - Kellogg Insight",
+    "original_title": "Why Is the U.S. Stock Market Outpacing Europe’s? - Kellogg Insight",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkU5U1ZuOVdaT0VvU3lzY2hUekY3MzJuMEF4SUNQdTFzM0RENUJKTUF3c3h1SThUMVRzdkpCSjVCc00yaVFqc0sxTlhVRWpTT1lQN1J1SXQwVHBpMmZVcHZXSV9oV3c3azh6QktLMnBfSmxzWW1OZEp3WVl0NnpUU3lUbFNsclQ0em9IcXZSekR1VzhCTDItZmdR?oc=5",
+    "publisher": "Kellogg Insight",
     "summary": [
-      "미국 주식 대부분이 하락세를 기록했습니다.",
-      "채권 시장의 압박이 주가 하락의 원인입니다.",
-      "보스턴 헤럴드에서 관련 소식을 보도했습니다."
+      "미국 주식시장이 유럽보다 뛰어난 성과를 기록 중임",
+      "양 지역 간의 수익률 격차 원인을 분석함",
+      "켈로그 인사이트에서 관련 경제 이슈를 조명함"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Wall Street swirls after data show inflation isn't as bad as thought, while the US economy is better - Beloit Daily News",
-    "original_title": "Wall Street swirls after data show inflation isn't as bad as thought, while the US economy is better - Beloit Daily News",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbTRSRlR3TjljYjBSS3FrOXdDRVU3TDJUWTNfNF85aHZ5VnRzWHRGaWl6X2x1MW9JbWlvbF9zY1Ixd2NHZlVzM09TQUpYcWduVUpVUG9ONzVwT3F3cURyYzdEOWFOb0lHamdCcnJrSHpCeGpHaDVObnl2N2FfdXBQSGhrSW9sTVdwVGZBUW42eTZMMjVyN2tFbGVMSVZWeHFfWDc0VXZZTWt3MGUwb2Z4NjVVNENlVVNLTFEzMUExRWV5b2ZvN1RqbE9RalJ4Mk9ZMV8xNmNSUDltSmV5a1VBdVhEUFZmb0NnS1ZKaUJhdUIxMG8zaHRYeGRlSUlfT2YxYVdac1daSDdzRTdPR1E?oc=5",
-    "publisher": "Beloit Daily News",
+    "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - Reuters",
+    "original_title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "월스트리트가 인플레이션 완화 데이터로 요동쳤습니다.",
-      "미국 경제가 예상보다 양호한 상태를 보였습니다.",
-      "인플레이션 우려가 줄고 경제 지표가 개선되었습니다."
+      "S&P 500 지수는 소폭 하락했습니다.",
+      "나스닥 지수는 상승세를 기록했습니다.",
+      "완만한 물가 상승 데이터가 발표되었습니다."
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
