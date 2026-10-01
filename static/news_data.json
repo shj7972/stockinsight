@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "일본은행의 금리 인상 '빅스텝' 전망 대두",
-      "2년 전 발생한 앤캐리 청산 증시 폭락 재현 우려",
-      "글로벌 금융 시장에 미칠 파장에 대한 경계감 확산"
+      "2년 전 발생한 '엔캐리 청산' 악몽 재현 우려",
+      "글로벌 증시 폭락 가능성에 대한 시장 경계감"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -17,67 +17,67 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 녹색채권 발행을 검토할지 관심이 집중됨",
-      "녹색 경제 발전을 위해 녹색금융을 적극 추진 중",
-      "NK경제에서 북한의 친환경 경제 정책 동향 보도"
+      "북한이 그린본드를 발행할 것인지에 대한 관심이 집중됨",
+      "녹색경제 발전을 위해 녹색금융을 적극적으로 추진 중",
+      "북한 경제 매체 NK경제에서 관련 내용을 보도함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - khan.co.kr",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "khan.co.kr",
+    "publisher": "경향신문",
     "summary": [
       "한중일 재무장관이 한목소리를 냈습니다.",
       "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크 대응을 위해 긴밀히 공조하기로 했습니다."
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "original_title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
-    "publisher": "PBS",
+    "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - reuters.com",
+    "original_title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
+    "publisher": "reuters.com",
     "summary": [
-      "미 연준, 기준금리 추가 인상 단행",
-      "향후 추가 금리 인상 가능성 시사",
-      "소식 여파로 미국 증시 하락세 기록"
+      "S&P 500 지수는 소폭 하락했습니다.",
+      "나스닥 지수는 상승세를 기록했습니다.",
+      "물가 상승률이 완화된 모습을 보였습니다."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "U.S. futures dragged lower as oil prices and Treasury yields climb - BNN Bloomberg",
-    "original_title": "U.S. futures dragged lower as oil prices and Treasury yields climb - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSlBfQUdZT3JZeWItX1RzZU5GUTVsR1JrQWpCM1N6dW1raXZsSDJIZ1MzdmN3S0lyMmlHVzBRM2tBMUl5QWVmX1FvVE9tVTBOMldnbnZjQ2g2Q2ljVnM3S3pJZjA3VlRaVDRpY2R1SVJIWVZ2UjdsQkgxLXplLXVhSE1KR3BjQ1NUNWpfc01sNUp0SG5Fc1o2RXpscndvOEVPQVM2Y04yYmQtdC1uWHVPbEdn?oc=5",
-    "publisher": "BNN Bloomberg",
+    "title": "Most US stocks fall after the bond market cranks the pressure even higher - Boston Herald",
+    "original_title": "Most US stocks fall after the bond market cranks the pressure even higher - Boston Herald",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOEFMMUNDSFM0YXptNkctQnRJQmNBR3hzN0xOZ05vMjNlZUtYWTRoMEZ1TmlkR3M4VnIySklxcDJjYXhScTJsNTJUZ2dVaFdzQ1pjbkNFejAtVG05blc4bkdTVlE5MGg5bWRjTGMtZ0hXM1k4ZnpZTmQ5M0hjWlJUWlZubW0?oc=5",
+    "publisher": "Boston Herald",
     "summary": [
-      "미국 선물 지수가 하락세를 기록했습니다.",
-      "유가가 상승하며 시장에 부담을 주었습니다.",
-      "국채 금리 상승도 하락 압력으로 작용했습니다."
+      "미국 주식 대부분이 하락세를 기록했습니다.",
+      "채권 시장의 압박이 주가 하락의 원인입니다.",
+      "보스턴 헤럴드에서 관련 소식을 보도했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Opinion | There’s a New Threat to Your Personal Finances - The New York Times",
-    "original_title": "Opinion | There’s a New Threat to Your Personal Finances - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iRERWSFRsbkRRTVJJM3A3UHh4blRnb0VqSW84ZTRHOENiVUgzdmt0aE52RzN6bzZBTDBKdzdIYXVrbG5sT1hRX2dRV291anpUajRSYmFxbnppLXNPNEIySUtiWEhJTlFOZEprN3FsMlVnSlkyblJ5aQ?oc=5",
-    "publisher": "The New York Times",
+    "title": "Wall Street swirls after data show inflation isn't as bad as thought, while the US economy is better - Beloit Daily News",
+    "original_title": "Wall Street swirls after data show inflation isn't as bad as thought, while the US economy is better - Beloit Daily News",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbTRSRlR3TjljYjBSS3FrOXdDRVU3TDJUWTNfNF85aHZ5VnRzWHRGaWl6X2x1MW9JbWlvbF9zY1Ixd2NHZlVzM09TQUpYcWduVUpVUG9ONzVwT3F3cURyYzdEOWFOb0lHamdCcnJrSHpCeGpHaDVObnl2N2FfdXBQSGhrSW9sTVdwVGZBUW42eTZMMjVyN2tFbGVMSVZWeHFfWDc0VXZZTWt3MGUwb2Z4NjVVNENlVVNLTFEzMUExRWV5b2ZvN1RqbE9RalJ4Mk9ZMV8xNmNSUDltSmV5a1VBdVhEUFZmb0NnS1ZKaUJhdUIxMG8zaHRYeGRlSUlfT2YxYVdac1daSDdzRTdPR1E?oc=5",
+    "publisher": "Beloit Daily News",
     "summary": [
-      "개인 재정을 위협하는 새로운 요인이 등장했습니다.",
-      "뉴욕타임스 오피니언을 통해 관련 위험이 제기되었습니다.",
-      "금융 소비자의 주의와 대비가 요구되는 상황입니다."
+      "월스트리트가 인플레이션 완화 데이터로 요동쳤습니다.",
+      "미국 경제가 예상보다 양호한 상태를 보였습니다.",
+      "인플레이션 우려가 줄고 경제 지표가 개선되었습니다."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
