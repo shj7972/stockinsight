@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nenpyMDBpSjcyUml0SzM4MlpsMGRjUUI0MzY0THEwbDJlMno1dEh6ekdUcmdDNXcxMnFkM2Jyanl2b0FjanBoRFc3RHZpa1pRdXBFYk5kdDJiWjh0aUpETXE0LThKbjg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "중소기업 대출 연체액이 9조원을 돌파했습니다.",
-      "고금리 장기화의 여파로 4년 만에 4배 급증했습니다.",
-      "취약 부문을 중심으로 경제적 타격이 커지고 있습니다."
+      "고금리로 중소기업 대출 연체액 9조원 돌파",
+      "4년 만에 연체 규모가 무려 4배로 급증",
+      "한계 상황에 직면한 중소기업 부실 우려 심화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.9,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -19,7 +19,7 @@
     "summary": [
       "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
       "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
-      "북한 경제 및 환경 관련 새로운 금융 동향 시사"
+      "북한 매체가 강조한 친환경 경제 성장 전략"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 회담 개최",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "3국 간 경제 리스크 공동 대응 공감대 형성"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크 대응에 대한 협력을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -44,23 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "증권시장과 경제를 지탱하는 강력하지만 취약한 힘",
-      "뉴욕타임스가 보도한 현재 경제 상황의 불안정성",
-      "주가와 경제 성장의 이면에 숨겨진 위험 요인들"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
-    "type": "해외"
-  },
-  {
-    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
-    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
-    "publisher": "Liberty Street Economics",
-    "summary": [
-      "미국 주식시장의 지오이코노믹 리스크 분석",
-      "글로벌 경제 분절화가 증시에 미치는 영향",
-      "투자자들의 지정학적 위험 대응 전략 제시"
+      "증시와 경제를 지탱하는 강력한 힘이 존재함",
+      "이러한 부양력은 동시에 매우 취약한 상태임",
+      "시장 안정성의 지속 가능성에 대한 우려 제기"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkU5U1ZuOVdaT0VvU3lzY2hUekY3MzJuMEF4SUNQdTFzM0RENUJKTUF3c3h1SThUMVRzdkpCSjVCc00yaVFqc0sxTlhVRWpTT1lQN1J1SXQwVHBpMmZVcHZXSV9oV3c3azh6QktLMnBfSmxzWW1OZEp3WVl0NnpUU3lUbFNsclQ0em9IcXZSekR1VzhCTDItZmdR?oc=5",
     "publisher": "Kellogg Insight",
     "summary": [
-      "미국 주식시장이 유럽보다 뛰어난 성과를 기록 중임",
-      "양 지역 간의 수익률 격차 원인을 분석함",
-      "켈로그 인사이트에서 시장 성과 차이를 조명함"
+      "미국 주식시장이 유럽보다 높은 성과를 기록 중임",
+      "양 지역 간의 시장 성과 격차 원인을 분석함",
+      "투자 관점에서 두 시장의 구조적 차이를 조명함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
+    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
+    "publisher": "Liberty Street Economics",
+    "summary": [
+      "미국 주식시장의 지오이경제학적 리스크 분석",
+      "글로벌 경제 환경 변화와 시장 영향 탐색",
+      "투자자들의 지정학적 위험 대응 전략 제시"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
