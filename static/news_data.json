@@ -1,15 +1,28 @@
 [
   {
-    "title": "[단독] 고금리 덮친 중소기업, 대출 연체액 9조 넘어…4년 새 4배 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nenpyMDBpSjcyUml0SzM4MlpsMGRjUUI0MzY0THEwbDJlMno1dEh6ekdUcmdDNXcxMnFkM2Jyanl2b0FjanBoRFc3RHZpa1pRdXBFYk5kdDJiWjh0aUpETXE0LThKbjg?oc=5",
+    "title": "하나은행, ‘AI 에이전트 활용’ 추정 해킹 공격으로 89명 개인정보 유출 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdkZmSDY0V1RvcjBoZ3FOb0JMT2ZkWVU2dE92M1lacllRMFZ3WGxaMkExX3l3eFRQZVl0OW9FckZMVWREMTdEdnNGRmN5SXAzQkE1R1FnWlIwa0swVllZMi03ZDRfVXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "고금리로 중소기업 대출 연체액 9조원 돌파",
-      "4년 만에 연체 규모가 무려 4배로 급증",
-      "한계 상황에 직면한 중소기업 부실 우려 심화"
+      "하나은행이 AI 에이전트 활용 해킹 공격을 받음",
+      "해킹 공격으로 인해 총 89명의 개인정보 유출 발생",
+      "금융권 보안 및 AI 활용 리스크에 대한 우려 증대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.2,
+    "type": "국내"
+  },
+  {
+    "title": "해킹 사고 잇따르자…당국 “외부 노출 전산시스템 빠짐없이 점검하라” - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PUEF0TGQtbHZWOUIwVlc1X2ZPNHp5NGZ6RmhFUXBocXl2MC1nVHVtVldjTldzUXZxc3lLUFV3RDIwaE5FcFd4Rm1VcDNHVkpsU2RBa0J4WGtMZUE5UEhuTm4tMWFnclc5Y0hqTHZxRmhBRjdlRnlrSWl3?oc=5",
+    "publisher": "서울신문",
+    "summary": [
+      "잇따른 해킹 사고에 금융당국이 대응에 나섰다",
+      "외부에 노출된 전산시스템의 전면 점검을 지시했다",
+      "보안 취약점을 사전에 차단하기 위한 조치이다"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -19,23 +32,10 @@
     "summary": [
       "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
       "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
-      "북한 매체가 강조한 친환경 경제 성장 전략"
+      "북한 경제 및 환경 관련 새로운 금융 동향 보도"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "국내"
-  },
-  {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크 대응에 대한 협력을 논의했습니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "증시와 경제를 지탱하는 강력한 힘이 존재함",
-      "이러한 부양력은 동시에 매우 취약한 상태임",
-      "시장 안정성의 지속 가능성에 대한 우려 제기"
+      "증권시장과 경제를 지탱하는 강력한 힘이 존재함",
+      "해당 요인은 강력하지만 동시에 취약한 특성을 가짐",
+      "뉴욕타임스가 이에 대한 경제적 분석을 보도함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkU5U1ZuOVdaT0VvU3lzY2hUekY3MzJuMEF4SUNQdTFzM0RENUJKTUF3c3h1SThUMVRzdkpCSjVCc00yaVFqc0sxTlhVRWpTT1lQN1J1SXQwVHBpMmZVcHZXSV9oV3c3azh6QktLMnBfSmxzWW1OZEp3WVl0NnpUU3lUbFNsclQ0em9IcXZSekR1VzhCTDItZmdR?oc=5",
     "publisher": "Kellogg Insight",
     "summary": [
-      "미국 주식시장이 유럽보다 높은 성과를 기록 중임",
+      "미국 주식시장이 유럽보다 우수한 성과를 기록 중임",
       "양 지역 간의 시장 성과 격차 원인을 분석함",
-      "투자 관점에서 두 시장의 구조적 차이를 조명함"
+      "켈로그 인사이트에서 관련 경제 현상을 조명함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
-    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
+    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - libertystreeteconomics.newyorkfed.org",
+    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - libertystreeteconomics.newyorkfed.org",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
-    "publisher": "Liberty Street Economics",
+    "publisher": "libertystreeteconomics.newyorkfed.org",
     "summary": [
-      "미국 주식시장의 지오이경제학적 리스크 분석",
-      "글로벌 경제 환경 변화와 시장 영향 탐색",
-      "투자자들의 지정학적 위험 대응 전략 제시"
+      "미국 주식시장의 지오에코노믹 리스크 분석",
+      "뉴욕 연방준비은행의 경제 블로그 리포트",
+      "글로벌 경제 환경 변화와 시장 영향 탐색"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
