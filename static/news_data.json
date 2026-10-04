@@ -4,25 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdkZmSDY0V1RvcjBoZ3FOb0JMT2ZkWVU2dE92M1lacllRMFZ3WGxaMkExX3l3eFRQZVl0OW9FckZMVWREMTdEdnNGRmN5SXAzQkE1R1FnWlIwa0swVllZMi03ZDRfVXc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "하나은행이 AI 에이전트 활용 해킹 공격을 받음",
-      "해킹 공격으로 인해 총 89명의 개인정보 유출 발생",
-      "금융권 보안 및 AI 활용 리스크에 대한 우려 증대"
+      "하나은행이 AI 에이전트 추정 해킹 공격을 받음",
+      "해당 공격으로 인해 89명의 개인정보가 유출됨",
+      "금융 보안 및 AI 활용 리스크에 대한 우려 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
-    "title": "해킹 사고 잇따르자…당국 “외부 노출 전산시스템 빠짐없이 점검하라” - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PUEF0TGQtbHZWOUIwVlc1X2ZPNHp5NGZ6RmhFUXBocXl2MC1nVHVtVldjTldzUXZxc3lLUFV3RDIwaE5FcFd4Rm1VcDNHVkpsU2RBa0J4WGtMZUE5UEhuTm4tMWFnclc5Y0hqTHZxRmhBRjdlRnlrSWl3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "잇따른 해킹 사고에 금융당국이 대응에 나섰다",
-      "외부에 노출된 전산시스템의 전면 점검을 지시했다",
-      "보안 취약점을 사전에 차단하기 위한 조치이다"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -30,12 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
-      "북한 경제 및 환경 관련 새로운 금융 동향 보도"
+      "북한이 그린본드를 발행할 가능성에 대한 분석이 제기됨",
+      "북한이 녹색 경제 발전을 위한 녹색 금융을 적극 추진 중",
+      "친환경 경제 정책과 관련된 북한의 행보에 관심이 집중됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "국내"
+  },
+  {
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관이 중동 전쟁에 따른 경제 리스크 우려",
+      "경제 하방 압력 리스크에 대해 한목소리를 냄",
+      "중동 사태의 경제적 파장에 대한 공동 대응 시사"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "증권시장과 경제를 지탱하는 강력한 힘이 존재함",
-      "해당 요인은 강력하지만 동시에 취약한 특성을 가짐",
-      "뉴욕타임스가 이에 대한 경제적 분석을 보도함"
+      "주식과 경제를 지탱하는 강력하면서도 취약한 힘",
+      "현재 시장을 지지하는 요인의 잠재적 위험 분석",
+      "뉴욕타임스가 보도한 경제 및 증시 관련 진단"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Why Is the U.S. Stock Market Outpacing Europe’s? - Kellogg Insight",
-    "original_title": "Why Is the U.S. Stock Market Outpacing Europe’s? - Kellogg Insight",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkU5U1ZuOVdaT0VvU3lzY2hUekY3MzJuMEF4SUNQdTFzM0RENUJKTUF3c3h1SThUMVRzdkpCSjVCc00yaVFqc0sxTlhVRWpTT1lQN1J1SXQwVHBpMmZVcHZXSV9oV3c3azh6QktLMnBfSmxzWW1OZEp3WVl0NnpUU3lUbFNsclQ0em9IcXZSekR1VzhCTDItZmdR?oc=5",
-    "publisher": "Kellogg Insight",
+    "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - Reuters",
+    "original_title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
+    "publisher": "Reuters",
     "summary": [
-      "미국 주식시장이 유럽보다 우수한 성과를 기록 중임",
-      "양 지역 간의 시장 성과 격차 원인을 분석함",
-      "켈로그 인사이트에서 관련 경제 현상을 조명함"
+      "S&P 500 지수는 소폭 하락했습니다.",
+      "나스닥 지수는 상승세를 기록했습니다.",
+      "물가 상승률이 완만하게 나타났습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - libertystreeteconomics.newyorkfed.org",
-    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - libertystreeteconomics.newyorkfed.org",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
-    "publisher": "libertystreeteconomics.newyorkfed.org",
+    "title": "Most US stocks fall after the bond market cranks the pressure higher - Union-Bulletin",
+    "original_title": "Most US stocks fall after the bond market cranks the pressure higher - Union-Bulletin",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktHbDFTanFsdkJZc24yRTNMYzg4dzladDU2cTc2ZVBDS1dlUzNYRzRZbXZJYnNiSUl6S1hQYzBFSGsydll6a0hMM0pXTXRCVFRjbzBHNEtZcDBkeTN3NFJkTW8yeHg1R2kxYlJUS3pTZW53ZkpZVVpUaGRlUFpHUDBPV3FQS1ZYZDJWVUtmTFFnRHRIdHY5emJTY1pSczdaaTgwUGp6UTBrRDh6ckFsemdTMGtuNW9OY0QzaFNsZmlvVFdOTllLeG9rbnplWjFSM1FreW5Dc2ZlLTBKSXROZS1uLXhBYmEzckpmVk9YWkNEUQ?oc=5",
+    "publisher": "Union-Bulletin",
     "summary": [
-      "미국 주식시장의 지오에코노믹 리스크 분석",
-      "뉴욕 연방준비은행의 경제 블로그 리포트",
-      "글로벌 경제 환경 변화와 시장 영향 탐색"
+      "채권 시장 압박으로 미국 주식 대부분 하락",
+      "금리 상승이 증시에 하방 압력으로 작용함",
+      "투자 심리 위축으로 시장 변동성 확대"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
