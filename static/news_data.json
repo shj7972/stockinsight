@@ -1,28 +1,28 @@
 [
   {
-    "title": "하나은행, ‘AI 에이전트 활용’ 추정 해킹 공격으로 89명 개인정보 유출 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdkZmSDY0V1RvcjBoZ3FOb0JMT2ZkWVU2dE92M1lacllRMFZ3WGxaMkExX3l3eFRQZVl0OW9FckZMVWREMTdEdnNGRmN5SXAzQkE1R1FnWlIwa0swVllZMi03ZDRfVXc?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "하나은행이 AI 에이전트 추정 해킹 공격을 받음",
-      "해당 공격으로 인해 89명의 개인정보가 유출됨",
-      "금융 보안 및 AI 활용 리스크에 대한 우려 증대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
       "북한이 그린본드를 발행할 가능성에 대한 분석이 제기됨",
-      "북한이 녹색 경제 발전을 위한 녹색 금융을 적극 추진 중",
-      "친환경 경제 정책과 관련된 북한의 행보에 관심이 집중됨"
+      "북한이 녹색 경제 발전을 위한 금융 정책을 적극 추진 중",
+      "친환경 경제 개발과 관련된 북한의 행보에 관심이 집중됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "국내"
+  },
+  {
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "사흘 만에 신용대출 1조원 급증",
+      "투자 목적의 빚투 현상 확산",
+      "주택담보대출 금리 최고 7.3% 기록"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 중동 전쟁에 따른 경제 리스크 우려",
-      "경제 하방 압력 리스크에 대해 한목소리를 냄",
-      "중동 사태의 경제적 파장에 대한 공동 대응 시사"
+      "한중일 재무장관이 중동 전쟁 리스크를 한목소리로 우려함",
+      "중동 전쟁으로 인한 경제 하방 압력 위험성 지적",
+      "3국 재무장관이 경제 안정을 위해 긴밀히 공조하기로 함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "주식과 경제를 지탱하는 강력하면서도 취약한 힘",
-      "현재 시장을 지지하는 요인의 잠재적 위험 분석",
-      "뉴욕타임스가 보도한 경제 및 증시 관련 진단"
+      "증권시장과 경제를 지탱하는 강력한 힘이 존재합니다.",
+      "해당 지지력은 현재 강력하지만 동시에 매우 취약합니다.",
+      "시장의 지속성과 경제 안정성에 대한 우려가 큽니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -59,25 +59,25 @@
     "publisher": "Reuters",
     "summary": [
       "S&P 500 지수는 소폭 하락했습니다.",
-      "나스닥 지수는 상승세를 기록했습니다.",
-      "물가 상승률이 완만하게 나타났습니다."
+      "나스닥은 상승세를 기록했습니다.",
+      "물가가 완만하게 상승한 것으로 나타났습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Most US stocks fall after the bond market cranks the pressure higher - Union-Bulletin",
-    "original_title": "Most US stocks fall after the bond market cranks the pressure higher - Union-Bulletin",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktHbDFTanFsdkJZc24yRTNMYzg4dzladDU2cTc2ZVBDS1dlUzNYRzRZbXZJYnNiSUl6S1hQYzBFSGsydll6a0hMM0pXTXRCVFRjbzBHNEtZcDBkeTN3NFJkTW8yeHg1R2kxYlJUS3pTZW53ZkpZVVpUaGRlUFpHUDBPV3FQS1ZYZDJWVUtmTFFnRHRIdHY5emJTY1pSczdaaTgwUGp6UTBrRDh6ckFsemdTMGtuNW9OY0QzaFNsZmlvVFdOTllLeG9rbnplWjFSM1FreW5Dc2ZlLTBKSXROZS1uLXhBYmEzckpmVk9YWkNEUQ?oc=5",
-    "publisher": "Union-Bulletin",
+    "title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
+    "original_title": "U.S. stocks slip after the Fed raises interest rates, hints more hikes may be on the way - PBS",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0o4SEFnLXVuc0pFakhWQXNrNVdZOFBqTmZsR3dlMlFFZEluX2VWbEJPOGJkRkZ6a2tfaHZySVdpaVhYZk1aeGZFdjM2UExoOGMxc1BDbkcwUVFMaElEXzBUb2ItX1hmRVkxWjhHanJyV3ppMGJFcjhNY3BVYlZMNFVCemRaSW94Z1hBZy0yNmd3R29KMEppZThtNmxWaERxa3hfZzZ4WU5BV3AzN19xSTY0OEZwQmwzdGVSWC1SNNIBxAFBVV95cUxNQ3ZKZVFHbHpRSEo2cGs4RjlfMG1UdURsamh2Y3ExeEVkZzdmaGQ3OElrd0FpclpvUGQ1MFlKSHZ2VGFOc1hVN3ZmSVc4aGhIY3hvVm5UUlY0emc2bFNyU3ZGU0RFckhMekh6WE5FeklHLU9uUGZNOVZCQWJPdnctcTNJTmpTOGp0Q3ZVUjEzSWROc0V6VE1lY2hLLWNJWUlwTkEwQkJ1SVVtRlZrYlg5QUxoZEZFOFFzMXgwbkNPNzgzdlRa?oc=5",
+    "publisher": "PBS",
     "summary": [
-      "채권 시장 압박으로 미국 주식 대부분 하락",
-      "금리 상승이 증시에 하방 압력으로 작용함",
-      "투자 심리 위축으로 시장 변동성 확대"
+      "미국 연준이 기준금리를 인상했습니다.",
+      "추가 금리 인상 가능성을 시사했습니다.",
+      "이로 인해 미국 증시가 하락했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
