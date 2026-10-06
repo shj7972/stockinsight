@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 녹색 채권을 발행할 것인지에 대한 관심이 집중됨",
-      "녹색 경제 발전을 위해 녹색 금융을 적극적으로 추진 중",
-      "북한의 친환경 경제 정책 및 금융 행보에 대한 보도"
+      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 친환경 금융 적극 추진 중",
+      "북한 경제 및 환경 관련 새로운 금융動向 시사"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -18,11 +18,11 @@
     "publisher": "한겨레",
     "summary": [
       "사흘 만에 신용대출 1조원 급증",
-      "빚을 내 투자하는 빚투 현상 확산",
+      "투자 목적의 빚투 현상 확산",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 중동 전쟁의 경제적 리스크에 우려 표명",
-      "경제 하방 압력 위험에 대해 3국이 한목소리를 냄",
-      "중동 사태로 인한 경제 영향 공동 대응 필요성 강조"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크 대응에 대한 협력을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
     "publisher": "invesco.com",
     "summary": [
-      "상승하는 국채 금리와 주식 시장의 회복력 분석",
-      "금리 인상 속 주식 시장의 지속 가능성 고찰",
-      "인베스코가 제시하는 주식 시장 전망과 금리 영향"
+      "상승하는 국채 금리와 주식 시장의 회복력 논의",
+      "금리 인상 속에서 주식의 지속 가능성 분석",
+      "인베스코가 제시하는 증시 전망과 관련 리스크"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - nytimes.com",
-    "original_title": "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - nytimes.com",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
-    "publisher": "nytimes.com",
+    "title": "Five reasons India's stock market is sinking even when its economy is growing - bbc.com",
+    "original_title": "Five reasons India's stock market is sinking even when its economy is growing - bbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13eUZFdTFjQUFKSmQ5OVpacTRkRmhOOFFwSU5WTUkwdG13ZGZiLUk4T3BvYUlXZi05YWRldWFQRzlaZ24xTWhCdnhLWW53bHlJYUh6aGl5UjVHUjg?oc=5",
+    "publisher": "bbc.com",
     "summary": [
-      "주식과 경제를 지탱하는 강력하면서도 취약한 힘",
-      "현재 시장을 떠받치는 요인의 불안정성 지적",
-      "경제 전반에 미치는 잠재적 위험 요소 분석"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
-    "original_title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWFg2TFB2blpUQWk3U0w4eUJ6dXVCbFl0Q1pNb0k0cGtGeWFCZWd4a0NqeXdnWnBRb1VUNi1OQkFWZFBGcVZoRndVcDVLV0dUOFhiVVdzdFo2c2tFZFkyYXNTY28zSnJqZDJIWFFmUWgyT2NTMHBZSXphTW1rdnVkWlMwVlI3QzRfaWxjci1LY0xQRlp2dUFINU44NjlSMkpHYkx6Z0hDU2xENXNQdXRZ?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "미국 증시는 보합세를 기록 중입니다.",
-      "채권 시장은 큰 폭의 동요를 보였습니다.",
-      "시장의 주요 지표를 담은 차트 7선입니다."
+      "인도 경제 성장에도 주식시장은 하락세를 보임",
+      "주식시장 하락의 원인 다섯 가지가 분석됨",
+      "경제 성장과 주식시장 간의 괴리가 발생함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "More swings for bond yields rattle financial markets worldwide - PBS",
+    "original_title": "More swings for bond yields rattle financial markets worldwide - PBS",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjVnUHRMT1hta0t4WHB0RzAzWFEyQUxQTVE3VW9SWVpEZEo5TURhQWRpNXlZR0M1VWhnVUxNWDZtV0pEajQyekQ4dzVQdUF5WDNQWHBCZTd1VlZlalRNMHdPT2FFS3A1VWN4c01qVHQ5U1NPelhTS0d3S1NmY1lvSTU1OTFzZXdCMDBxM1I1RVhhWk1iNGV1c3lfSUFCbGh20gGmAUFVX3lxTE9lcFBsc051bnpGQ0o1QjVuTEtySko2ZW1DOXRNQWlYVG1sQ2d3RDZaSU1rZUdRMVp3TTB6WUtzaEdzRWhEQ1FzM3piYWJEVWhPazlmcFEzWlVGSFZBVFJVQ2Q2UmxGY1IwV2dJTGhxU0w2NU9Yckp2bGFvSDZhdGh6MnlhY0V3VzNTLUxwM2ppUVZuYjRreWJ3ajJPNlZ5dm1rNkJTaWc?oc=5",
+    "publisher": "PBS",
+    "summary": [
+      "채권 금리의 급격한 변동성 확대",
+      "전 세계 금융시장의 불안감 증대",
+      "투자자들의 위험 관리 필요성 대두"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
