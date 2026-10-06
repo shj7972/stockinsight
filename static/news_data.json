@@ -1,55 +1,55 @@
 [
   {
-    "title": "하나은행, ‘AI 에이전트 활용’ 추정 해킹 공격으로 89명 개인정보 유출 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdkZmSDY0V1RvcjBoZ3FOb0JMT2ZkWVU2dE92M1lacllRMFZ3WGxaMkExX3l3eFRQZVl0OW9FckZMVWREMTdEdnNGRmN5SXAzQkE1R1FnWlIwa0swVllZMi03ZDRfVXc?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "하나은행이 AI 에이전트 추정 해킹 공격을 받음",
-      "해당 공격으로 인해 89명의 개인정보가 유출됨",
-      "금융 보안 및 AI 활용 리스크에 대한 우려 증가"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
-    "title": "해킹 사고 잇따르자…당국 “외부 노출 전산시스템 빠짐없이 점검하라” - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PUEF0TGQtbHZWOUIwVlc1X2ZPNHp5NGZ6RmhFUXBocXl2MC1nVHVtVldjTldzUXZxc3lLUFV3RDIwaE5FcFd4Rm1VcDNHVkpsU2RBa0J4WGtMZUE5UEhuTm4tMWFnclc5Y0hqTHZxRmhBRjdlRnlrSWl3?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "잇따른 해킹 사고에 당국이 대응에 나섰습니다.",
-      "외부에 노출된 전산시스템의 전수 점검을 지시했습니다.",
-      "보안 취약점에 대한 철저한 관리가 요구됩니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
-    "type": "국내"
-  },
-  {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
-      "북한 경제 및 환경 관련 새로운 금융 동향 시사"
+      "북한이 녹색 채권을 발행할 것인지에 대한 관심이 집중됨",
+      "녹색 경제 발전을 위해 녹색 금융을 적극적으로 추진 중",
+      "북한의 친환경 경제 정책 및 금융 행보에 대한 보도"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
-    "original_title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWFg2TFB2blpUQWk3U0w4eUJ6dXVCbFl0Q1pNb0k0cGtGeWFCZWd4a0NqeXdnWnBRb1VUNi1OQkFWZFBGcVZoRndVcDVLV0dUOFhiVVdzdFo2c2tFZFkyYXNTY28zSnJqZDJIWFFmUWgyT2NTMHBZSXphTW1rdnVkWlMwVlI3QzRfaWxjci1LY0xQRlp2dUFINU44NjlSMkpHYkx6Z0hDU2xENXNQdXRZ?oc=5",
-    "publisher": "Morningstar",
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "미국 주식 시장은 보합세를 유지하고 있습니다.",
-      "채권 시장은 큰 변동성과 충격을 겪고 있습니다.",
-      "시장 상황을 보여주는 7개의 차트가 공개됐습니다."
+      "사흘 만에 신용대출 1조원 급증",
+      "빚을 내 투자하는 빚투 현상 확산",
+      "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관이 중동 전쟁의 경제적 리스크에 우려 표명",
+      "경제 하방 압력 위험에 대해 3국이 한목소리를 냄",
+      "중동 사태로 인한 경제 영향 공동 대응 필요성 강조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "Can stocks stay resilient with higher Treasury yields? - invesco.com",
+    "original_title": "Can stocks stay resilient with higher Treasury yields? - invesco.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
+    "publisher": "invesco.com",
+    "summary": [
+      "상승하는 국채 금리와 주식 시장의 회복력 분석",
+      "금리 인상 속 주식 시장의 지속 가능성 고찰",
+      "인베스코가 제시하는 주식 시장 전망과 금리 영향"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
     "publisher": "nytimes.com",
     "summary": [
-      "증권시장과 경제를 지탱하는 강력한 힘의 존재",
-      "그 힘이 가진 구조적 취약성과 위험성 시사",
-      "시장 안정성의 지속 가능성에 대한 의문 제기"
+      "주식과 경제를 지탱하는 강력하면서도 취약한 힘",
+      "현재 시장을 떠받치는 요인의 불안정성 지적",
+      "경제 전반에 미치는 잠재적 위험 요소 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
-    "original_title": "Navigating Geoeconomic Risk in the U.S. Stock Market - Liberty Street Economics",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVEwbEZyLWJuQXQ2OVdxaEdXb19HNVdYbUFybFNDeC1OSFVTUUhWaU1iUUFYSWlBSG1hYzloRHBIVTJKNkdTWGNUWmx5ejhIWF90Q0gzOG1LV1E2VEUtR2c0R0JYbzhpSzVweGVjUVN1YzllOU1kWGtIcmU5aFNsc2Jubm5jSi12X2ItVG9rU0V1YWpIRzVidkRValA2WHpDdHNWWlRlU2Ezdw?oc=5",
-    "publisher": "Liberty Street Economics",
+    "title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
+    "original_title": "7 Charts on US Markets: Stocks Tread Water While the Bond Market Shudders - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWFg2TFB2blpUQWk3U0w4eUJ6dXVCbFl0Q1pNb0k0cGtGeWFCZWd4a0NqeXdnWnBRb1VUNi1OQkFWZFBGcVZoRndVcDVLV0dUOFhiVVdzdFo2c2tFZFkyYXNTY28zSnJqZDJIWFFmUWgyT2NTMHBZSXphTW1rdnVkWlMwVlI3QzRfaWxjci1LY0xQRlp2dUFINU44NjlSMkpHYkx6Z0hDU2xENXNQdXRZ?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "미국 주식시장의 지경제학적 리스크 분석",
-      "글로벌 경제 환경 변화와 시장 영향 탐색",
-      "투자자들의 리스크 관리 전략 제시"
+      "미국 증시는 보합세를 기록 중입니다.",
+      "채권 시장은 큰 폭의 동요를 보였습니다.",
+      "시장의 주요 지표를 담은 차트 7선입니다."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "해외"
   }
 ]
