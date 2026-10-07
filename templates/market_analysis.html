@@ -107,6 +107,26 @@
         </div>
     </a>
 
+    <!-- 현실 괴리 탐지 (Reality Gap) -->
+    <a href="/reality-gap" style="text-decoration: none;" id="card-reality-gap">
+        <div class="glass-panel market-hub-card reality-gap-card">
+            <div class="hub-card-icon">⚖️</div>
+            <div class="hub-card-body">
+                <div class="hub-card-title">현실 괴리 탐지</div>
+                <div class="hub-card-desc">
+                    주가와 실제 펀더멘털이 반대로 움직이는 종목을 찾아냅니다.
+                    주가 하락 + 실적 개선 = 저평가 후보, 주가 상승 + 실적 악화 = 과열 경계.
+                </div>
+                <div class="hub-card-tags">
+                    <span class="hub-tag">Reality Gap</span>
+                    <span class="hub-tag">저평가 탐지</span>
+                    <span class="hub-tag">분기 실적</span>
+                </div>
+                <div class="hub-card-cta">분석 보기 →</div>
+            </div>
+        </div>
+    </a>
+
 </div>
 
 <!-- 시장 분석 활용 가이드 -->
@@ -179,12 +199,14 @@
     .sector-card::before    { background: radial-gradient(circle at top left, rgba(251,191,36,0.08), transparent 60%); }
     .sentiment-card::before { background: radial-gradient(circle at top left, rgba(167,139,250,0.08), transparent 60%); }
     .economic-card::before  { background: radial-gradient(circle at top left, rgba(74,222,128,0.08), transparent 60%); }
+    .reality-gap-card::before { background: radial-gradient(circle at top left, rgba(56,189,248,0.08), transparent 60%); }
 
     .market-hub-card:hover { transform: translateY(-5px); box-shadow: 0 12px 32px rgba(0,0,0,0.3); }
     .fear-greed-card:hover { border-color: rgba(239,68,68,0.4); }
     .sector-card:hover     { border-color: rgba(251,191,36,0.4); }
     .sentiment-card:hover  { border-color: rgba(167,139,250,0.4); }
     .economic-card:hover   { border-color: rgba(74,222,128,0.4); }
+    .reality-gap-card:hover { border-color: rgba(56,189,248,0.4); }
     .market-hub-card:hover::before { opacity: 1; }
 
     .hub-card-icon {

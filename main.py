@@ -1866,6 +1866,83 @@ async def economic_indicators_page(request: Request):
         })
 
 
+@app.get("/reality-gap", response_class=HTMLResponse)
+async def reality_gap_page(request: Request):
+    """Reality Gap Score — 주가 vs 펀더멘털 괴리 탐지 (GHA가 매일 계산한 스냅샷 렌더)"""
+    import plotly.graph_objects as go
+    import json as _json
+
+    path = os.path.join(BASE_DIR, "static", "reality_gap.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = _json.load(f)
+    except Exception as e:
+        logger.warning(f"reality_gap.json 로드 실패: {e}")
+        data = {"stocks": [], "total_stocks": 0, "generated_at_kst": "", "summary": {}}
+
+    stocks = data.get("stocks", [])
+    pos_stocks = [s for s in stocks if s.get("label") == "positive_gap"][:6]
+    neg_stocks = [s for s in stocks if s.get("label") == "negative_gap"][:6]
+
+    # 산점도 (X=가격모멘텀, Y=펀더멘털모멘텀, 색=label)
+    scatter_html = ""
+    if stocks:
+        fig = go.Figure()
+        groups = {
+            "positive_gap":   ("💎 저평가 후보",  "#4ade80"),
+            "negative_gap":   ("⚠️ 과열 경계",    "#f87171"),
+            "aligned":        ("일치",            "#475569"),
+        }
+        for label, (label_name, color) in groups.items():
+            pts = [s for s in stocks if s.get("label") == label]
+            if not pts:
+                continue
+            fig.add_trace(go.Scatter(
+                x=[s["price_raw"] for s in pts],
+                y=[s["fund_raw"] for s in pts],
+                mode="markers+text" if label != "aligned" else "markers",
+                text=[s["name"] for s in pts] if label != "aligned" else None,
+                textposition="top center",
+                textfont=dict(size=9, color=color),
+                name=label_name,
+                marker=dict(size=11, color=color, opacity=0.85,
+                            line=dict(width=1, color="rgba(255,255,255,0.25)")),
+                customdata=[[s["name"], s["ticker"], s["score"]] for s in pts],
+                hovertemplate="%{customdata[0]} (%{customdata[1]})<br>Score: %{customdata[2]:+.0f}<extra></extra>",
+            ))
+        # 4분면 구분선 + 라벨
+        fig.add_hline(y=0, line=dict(color="rgba(148,163,184,0.3)", dash="dash"), layer="below")
+        fig.add_vline(x=0, line=dict(color="rgba(148,163,184,0.3)", dash="dash"), layer="below")
+        fig.add_annotation(x=-1.55, y=-0.99, text="↙ 주약↓·펀더↓", showarrow=False, font=dict(color="#64748b", size=10))
+        fig.add_annotation(x=1.55, y=0.99, text="↗ 주약↑·펀더↑", showarrow=False, font=dict(color="#64748b", size=10))
+        fig.add_annotation(x=-1.55, y=0.99, text="💎 Positive Gap (저평가 후보)", showarrow=False, font=dict(color="#4ade80", size=11))
+        fig.add_annotation(x=1.55, y=-0.99, text="⚠️ Negative Gap (과열 경계)", showarrow=False, font=dict(color="#f87171", size=11))
+        fig.update_layout(
+            title="가격 모멘텀 vs 펀더멘털 모멘텀",
+            template="plotly_dark",
+            paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="#94a3b8", family="Inter"),
+            margin=dict(l=30, r=30, t=40, b=40),
+            xaxis=dict(title="가격 모멘텀 (20/60일, 섹터 대비)", gridcolor="rgba(148,163,184,0.08)", zerolinecolor="rgba(148,163,184,0.3)"),
+            yaxis=dict(title="펀더멘털 모멘텀 (매출/영업/마진/FCF)", gridcolor="rgba(148,163,184,0.08)", zerolinecolor="rgba(148,163,184,0.3)"),
+            showlegend=True, legend=dict(orientation="h", yanchor="bottom", y=1.02),
+            height=520,
+        )
+        scatter_html = plotly.utils.PlotlyJSONEncoder().to_json(fig) if False else fig.to_html(full_html=False, include_plotlyjs="cdn", config={"displayModeBar": False})
+
+    return templates.TemplateResponse("reality_gap.html", {
+        "request": request,
+        "selected_ticker": "",
+        "us_tickers": get_popular_tickers(US_CANDIDATES, 'us'),
+        "kr_tickers": get_popular_tickers(KR_CANDIDATES, 'kr'),
+        "data": data,
+        "pos_stocks": pos_stocks,
+        "neg_stocks": neg_stocks,
+        "scatter_html": scatter_html,
+        "og_image":       "/static/og-image.png",
+    })
+
+
 @app.get("/market-analysis", response_class=HTMLResponse)
 async def market_analysis_hub(request: Request):
     """Market Analysis Hub Page"""
@@ -2769,6 +2846,12 @@ async def sitemap():
         <lastmod>{today}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{base_url}/reality-gap</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>{base_url}/compare</loc>

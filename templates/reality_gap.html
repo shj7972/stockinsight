@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}현실 괴리 탐지 (Reality Gap) | 주가 vs 실적 괴리 종목 찾기{% endblock %}
+{% block meta_description %}주가는 떨어지는데 실적은 좋아지는 기업, 주가는 오르는데 실적은 나빠지는 기업을 Reality Gap Score로 찾아냅니다. 미국 42종 + 한국 26종 무료 분석{% endblock %}
+{% block og_title %}현실 괴리 탐지 - Reality Gap Score{% endblock %}
+{% block og_description %}주가 모멘텀과 펀더멘털 모멘텀의 괴리를 측정해 저평가/과열 종목을 발굴합니다{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <!-- 브레드크럼 -->
+    <nav style="margin-bottom: 1rem; font-size: 0.82rem; color: #64748b; display: flex; align-items: center; gap: 0.4rem;">
+        <a href="/market-analysis" style="color: #38bdf8; text-decoration: none;">🔬 시장 분석</a>
+        <span>›</span>
+        <span style="color: #94a3b8;">⚖️ 현실 괴리 탐지</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h2 style="margin: 0; font-size: 1.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <span style="font-size: 2.2rem;">⚖️</span> 현실 괴리 탐지 (Reality Gap Score)
+        </h2>
+        <p style="color: #94a3b8; margin-top: 0.5rem; font-size: 1.1rem;">
+            주가와 실적·산업 데이터가 반대로 움직이는 종목을 찾아냅니다.
+            주가 하락 + 실적 개선 = <b style="color:#4ade80">저평가 후보</b>,
+            주가 상승 + 실적 악화 = <b style="color:#f87171">과열 경계</b>.
+        </p>
+        <p style="color:#64748b; font-size:0.82rem; margin-top:0.6rem;">
+            대상: 미국 42종 + 한국 26종 (총 {{ data.total_stocks }}종) · 갱신: {{ data.generated_at_kst }} · 기준: 분기 실적 + 주가 20/60일 모멘텀
+        </p>
+    </div>
+
+    {% if pos_stocks or neg_stocks %}
+    <!-- Positive Gap 카드 -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem; border-color: rgba(74,222,128,0.25);">
+        <h3 style="margin:0 0 0.3rem 0; font-size:1.3rem; color:#4ade80; display:flex; align-items:center; gap:0.6rem;">
+            💎 Positive Gap — 저평가 후보
+        </h3>
+        <p style="color:#94a3b8; font-size:0.9rem; margin:0 0 1rem 0;">주가는 약세인데 펀더멘털은 개선 중. 시장이 아직 반영하지 않은 실적 개선 가능성.</p>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem;">
+            {% for s in pos_stocks %}
+            <div style="border:1px solid rgba(74,222,128,0.2); border-radius:12px; padding:1rem; background:rgba(74,222,128,0.04);">
+                <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.4rem;">
+                    <a href="/stock/{{ s.ticker }}" style="font-weight:bold; color:#e2e8f0; font-size:1.05rem; text-decoration:none;">
+                        {{ s.name }} <span style="color:#64748b; font-weight:normal; font-size:0.8rem;">{{ s.ticker }}</span>
+                    </a>
+                    <span style="font-size:1.3rem; font-weight:900; color:#4ade80;">{{ "%+.0f"|format(s.score) }}</span>
+                </div>
+                <div style="font-size:0.8rem; color:#94a3b8; display:flex; flex-wrap:wrap; gap:0.4rem 1rem;">
+                    <span>매출 YoY {% if s.rev_yoy is not none %}<b style="color:#4ade80">{{ "%+.1f"|format(s.rev_yoy) }}%</b>{% else %}N/A{% endif %}</span>
+                    <span>영업 YoY {% if s.op_yoy is not none %}<b style="color:#4ade80">{{ "%+.1f"|format(s.op_yoy) }}%</b>{% else %}N/A{% endif %}</span>
+                    <span>20일 주가 <b style="color:{{ '#4ade80' if s.p20 and s.p20 > 0 else '#f87171' }}">{{ "%+.1f"|format(s.p20 or 0) }}%</b></span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if neg_stocks %}
+    <!-- Negative Gap 카드 -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem; border-color: rgba(248,113,113,0.25);">
+        <h3 style="margin:0 0 0.3rem 0; font-size:1.3rem; color:#f87171; display:flex; align-items:center; gap:0.6rem;">
+            ⚠️ Negative Gap — 과열 경계
+        </h3>
+        <p style="color:#94a3b8; font-size:0.9rem; margin:0 0 1rem 0;">주가는 강한데 펀더멘털은 악화 중. 상승의 근거가 약화되고 있어 리스크 관리 필요.</p>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem;">
+            {% for s in neg_stocks %}
+            <div style="border:1px solid rgba(248,113,113,0.2); border-radius:12px; padding:1rem; background:rgba(248,113,113,0.04);">
+                <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.4rem;">
+                    <a href="/stock/{{ s.ticker }}" style="font-weight:bold; color:#e2e8f0; font-size:1.05rem; text-decoration:none;">
+                        {{ s.name }} <span style="color:#64748b; font-weight:normal; font-size:0.8rem;">{{ s.ticker }}</span>
+                    </a>
+                    <span style="font-size:1.3rem; font-weight:900; color:#f87171;">{{ "%+.0f"|format(s.score) }}</span>
+                </div>
+                <div style="font-size:0.8rem; color:#94a3b8; display:flex; flex-wrap:wrap; gap:0.4rem 1rem;">
+                    <span>매출 YoY {% if s.rev_yoy is not none %}<b style="color:#f87171">{{ "%+.1f"|format(s.rev_yoy) }}%</b>{% else %}N/A{% endif %}</span>
+                    <span>영업 YoY {% if s.op_yoy is not none %}<b style="color:#f87171">{{ "%+.1f"|format(s.op_yoy) }}%</b>{% else %}N/A{% endif %}</span>
+                    <span>20일 주가 <b style="color:{{ '#4ade80' if s.p20 and s.p20 > 0 else '#f87171' }}">{{ "%+.1f"|format(s.p20 or 0) }}%</b></span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Scatter Chart -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h3 style="margin:0 0 1rem 0; font-size:1.2rem; color:#e2e8f0;">📌 가격 vs 펀더멘털 분포도</h3>
+        <p style="color:#64748b; font-size:0.82rem; margin-bottom:1rem;">
+            좌상단(가격↓·펀더멘털↑) = Positive Gap 영역 · 우하단(가격↑·펀더멘털↓) = Negative Gap 영역
+        </p>
+        <div style="overflow-x:auto;">
+            {{ scatter_html | safe }}
+        </div>
+    </div>
+
+    <!-- 전체 표 -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h3 style="margin:0 0 1rem 0; font-size:1.2rem; color:#e2e8f0;">📋 전체 종목 ({{ data.stocks|length }}종)</h3>
+        <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:0.85rem;">
+                <thead>
+                    <tr style="border-bottom:1px solid rgba(255,255,255,0.1); color:#94a3b8;">
+                        <th style="padding:0.5rem; text-align:left;">종목</th>
+                        <th style="padding:0.5rem; text-align:right;">Score</th>
+                        <th style="padding:0.5rem; text-align:right;">매출YoY</th>
+                        <th style="padding:0.5rem; text-align:right;">영업YoY</th>
+                        <th style="padding:0.5rem; text-align:right;">20일</th>
+                        <th style="padding:0.5rem; text-align:right;">60일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in data.stocks %}
+                    <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                        <td style="padding:0.5rem;">
+                            <a href="/stock/{{ s.ticker }}" style="color:#e2e8f0; text-decoration:none;">{{ s.name }}</a>
+                            <span style="color:#475569; font-size:0.75rem;">{{ s.ticker }}{% if s.market == 'KR' %} 🇰🇷{% endif %}</span>
+                        </td>
+                        <td style="padding:0.5rem; text-align:right; font-weight:bold; color:{{ '#4ade80' if s.score >= 35 else ('#f87171' if s.score <= -35 else '#94a3b8') }}">{{ "%+.0f"|format(s.score) }}</td>
+                        <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{% if s.rev_yoy is not none %}{{ "%+.0f"|format(s.rev_yoy) }}%{% else %}—{% endif %}</td>
+                        <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{% if s.op_yoy is not none %}{{ "%+.0f"|format(s.op_yoy) }}%{% else %}—{% endif %}</td>
+                        <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{{ "%+.1f"|format(s.p20 or 0) }}%</td>
+                        <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{{ "%+.1f"|format(s.p60 or 0) }}%</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 설명/FAQ -->
+    <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <h3 style="margin:0 0 0.8rem 0; font-size:1.2rem; color:#e2e8f0;">💡 Reality Gap Score는 어떻게 계산되나?</h3>
+        <div style="color:#94a3b8; font-size:0.88rem; line-height:1.7;">
+            <p><b style="color:#e2e8f0">가격 모멘텀</b> — 최근 20일·60일 주가 수익률을 섹터 내 상대 순위로 변환합니다.</p>
+            <p><b style="color:#e2e8f0">펀더멘털 모멘텀</b> — 최근 분기 매출 YoY(40%), 영업이익 YoY(30%), 마진 개선(15%), FCF 증가(15%)를 반영합니다. 영업이익이 적자에서 흑자로 전환하면 가중치를 2배로 둡니다.</p>
+            <p><b style="color:#e2e8f0">Score</b> = 펀더멘털 강세 − 가격 강세. <b style="color:#4ade80">+35 이상</b>이면 저평가 후보, <b style="color:#f87171">−35 이하</b>면 과열 경계로 분류합니다.</p>
+            <p style="font-size:0.8rem; color:#64748b; margin-top:0.8rem;">
+                유의사항: 분기 실적 기반이라 변화는 분기 단위로 나타납니다. 유사기업(분기 매출 300억/300만달러 미만)은 왜곡 방지를 위해 일부 항목이 N/A로 표시됩니다.
+                본 지표는 데이터 기반 참고 정보이며 투자 권유가 아닙니다.
+            </p>
+        </div>
+    </div>
+
+</div> <!-- content-wrapper -->
+{% endblock %}
