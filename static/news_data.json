@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한의 녹색 채권 발행 가능성에 대한 관심 집중",
-      "녹색 경제 발전을 위한 친환경 금융 적극 추진 중",
-      "북한 경제 및 환경 관련 새로운 금융動向 시사"
+      "북한이 녹색 채권 발행에 나설지 관심이 집중됨",
+      "녹색 경제 발전을 위한 금융 정책을 적극 추진 중",
+      "북한 경제 매체가 친환경 금융 도입 가능성 시사"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
@@ -22,7 +22,7 @@
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크 대응에 대한 협력을 논의했습니다."
+      "한중일 재무장관이 중동 전쟁에 따른 경제 리스크 우려 공유",
+      "경제적 하방 압력 위험에 대해 한목소리로 공동 대응 시사",
+      "중동 지역 분쟁이 글로벌 경제에 미칠 영향 주시"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "Can stocks stay resilient with higher Treasury yields? - invesco.com",
-    "original_title": "Can stocks stay resilient with higher Treasury yields? - invesco.com",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
-    "publisher": "invesco.com",
+    "title": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally - The Guardian",
+    "original_title": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmNydTJJRjhlaHZkMm1FYXBxeTNkcXRnLTA1S2YtNWhicmVhc2txU3pfb0p4NmFfVzRRQUdaRVhaUXROMy15a2VSOWZVV3oyTTF3TWZ4MEg3dkJOcTRBUzBIdEJJcXZMeWdBR0FsMHY1UldtTnV5bVRuWDBhQU16WXlkbmtpVzdCWDl3?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "상승하는 국채 금리와 주식 시장의 회복력 논의",
-      "금리 인상 속에서 주식의 지속 가능성 분석",
-      "인베스코가 제시하는 증시 전망과 관련 리스크"
+      "S&P 500과 나스닥이 사상 최고치를 경신했습니다.",
+      "AI 반도체 관련 주의 랠리가 증시를 견인했습니다.",
+      "테크놀로지 부문의 강세가 시장 상승을 주도했습니다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.9,
+    "type": "해외"
+  },
+  {
+    "title": "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - The New York Times",
+    "original_title": "The Powerful Yet Fragile Force Propping Up Stocks and the Economy - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iVFo0X183d0hLTDdCZU9jamhyTFIxY3RIWmZYNWVfQlQ2TkVPbXRuMS1rM2hEUWtrOU8xRjBQWlV1MHMtRWFqWWVlSXIzOEtnRE9ua3l1NEpSaFFRcGZndTkwU2xUU2pLZ19ISjJ0alE5Mk50enlNZHYyb1c?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "증권시장과 경제를 지탱하는 강력한 힘이 존재합니다.",
+      "해당 지지력은 현재 강력하지만 동시에 취약한 상태입니다.",
+      "시장의 지속 가능성에 대한 우려가 제기되고 있습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Five reasons India's stock market is sinking even when its economy is growing - bbc.com",
-    "original_title": "Five reasons India's stock market is sinking even when its economy is growing - bbc.com",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13eUZFdTFjQUFKSmQ5OVpacTRkRmhOOFFwSU5WTUkwdG13ZGZiLUk4T3BvYUlXZi05YWRldWFQRzlaZ24xTWhCdnhLWW53bHlJYUh6aGl5UjVHUjg?oc=5",
-    "publisher": "bbc.com",
+    "title": "US stocks hit record high, shrugging off bond market turmoil - WQOW",
+    "original_title": "US stocks hit record high, shrugging off bond market turmoil - WQOW",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdGplcFF2OUpBay1pVVVpWEthb2F3NXZFRUJYQlo1SHV0WnNEbnB6WWZ4YkIzT2NlUnBtS0NxS1hhX1FkbkY5dkRxQ3dsUnBhTmtKUkdMSnFranpCQVBBN0g0Z3pQcGNuaDZWdHR2MkhSOG94OG4zbDNvNk5vbVZfNnNXWTZJU0lCWnZuZVhDNGpIRHRxWWEyOUdRWEdqOU8zTGs2TkdUaWZhRDJkQVBFeFM2MVN5ZkdhQVdhU2s4WXZBbVFaSkV1YS0wWnBiaEhvSTNwdmpWSE56WnVpRFl5UG0zSzlEUXNNVlpuUVhBbUZDNW8?oc=5",
+    "publisher": "WQOW",
     "summary": [
-      "인도 경제 성장에도 주식시장은 하락세를 보임",
-      "주식시장 하락의 원인 다섯 가지가 분석됨",
-      "경제 성장과 주식시장 간의 괴리가 발생함"
+      "미국 주식 시장이 사상 최고치를 경신했습니다.",
+      "채권 시장의 혼란 속에서도 상승세를 유지했습니다.",
+      "투자자들은 채권 시장 불안을 무시하는 모습을 보였습니다."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "More swings for bond yields rattle financial markets worldwide - PBS",
-    "original_title": "More swings for bond yields rattle financial markets worldwide - PBS",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjVnUHRMT1hta0t4WHB0RzAzWFEyQUxQTVE3VW9SWVpEZEo5TURhQWRpNXlZR0M1VWhnVUxNWDZtV0pEajQyekQ4dzVQdUF5WDNQWHBCZTd1VlZlalRNMHdPT2FFS3A1VWN4c01qVHQ5U1NPelhTS0d3S1NmY1lvSTU1OTFzZXdCMDBxM1I1RVhhWk1iNGV1c3lfSUFCbGh20gGmAUFVX3lxTE9lcFBsc051bnpGQ0o1QjVuTEtySko2ZW1DOXRNQWlYVG1sQ2d3RDZaSU1rZUdRMVp3TTB6WUtzaEdzRWhEQ1FzM3piYWJEVWhPazlmcFEzWlVGSFZBVFJVQ2Q2UmxGY1IwV2dJTGhxU0w2NU9Yckp2bGFvSDZhdGh6MnlhY0V3VzNTLUxwM2ppUVZuYjRreWJ3ajJPNlZ5dm1rNkJTaWc?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "채권 금리의 급격한 변동성 확대",
-      "전 세계 금융시장의 불안감 증대",
-      "투자자들의 위험 관리 필요성 대두"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
