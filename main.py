@@ -619,6 +619,12 @@ def _render_dashboard(request: Request, ticker: str = ""):
     # Blog posts for dashboard
     blog_posts = get_blog_posts()[:3] if not ticker else []
 
+    # Reality Gap 요약 (메인 위젯용, 실패해도 페이지는 정상)
+    try:
+        rg_data = _get_reality_gap_summary()
+    except Exception:
+        rg_data = None
+
     return templates.TemplateResponse("index.html", {
         "request": request,
         "indices_data": indices_data,
@@ -628,9 +634,21 @@ def _render_dashboard(request: Request, ticker: str = ""):
         "blog_posts": blog_posts,
         "us_tickers": us_tickers,
         "kr_tickers": kr_tickers,
+        "reality_gap_data": rg_data,
         "selected_ticker": ticker,
         "og_image": og_image
     })
+
+
+def _get_reality_gap_summary():
+    """메인 대시보드용 Reality Gap 요약 (JSON 캐시 재사용, 실패 시 None)"""
+    import json as _json
+    try:
+        with open(os.path.join(BASE_DIR, "static", "reality_gap.json"), encoding="utf-8") as f:
+            return _json.load(f)
+    except Exception as e:
+        logger.warning(f"reality_gap.json 로드 실패: {e}")
+        return None
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request, ticker: str = ""):

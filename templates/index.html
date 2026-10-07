@@ -453,6 +453,17 @@
             </div>
         </a>
 
+        <!-- Reality Gap (신규, NEW 배지) -->
+        <a href="/reality-gap" style="text-decoration:none;">
+            <div class="feature-card" style="--fc:rgba(74,222,128,0.35);position:relative;">
+                <div style="position:absolute;top:0.55rem;right:0.55rem;background:linear-gradient(135deg,#22c55e,#4ade80);color:#052e16;font-size:0.6rem;font-weight:700;padding:0.1rem 0.45rem;border-radius:20px;">NEW</div>
+                <div class="fc-icon">⚖️</div>
+                <div class="fc-title">Reality Gap</div>
+                <div class="fc-desc">주가와 펀더멘털의 괴리 탐지 — 저평가 후보와 과열 경계 신호</div>
+                <div class="fc-sub">{% if reality_gap_data %}💎 {{ reality_gap_data.summary.positive_count }} 저평가 · ⚠️ {{ reality_gap_data.summary.negative_count }} 과열{% endif %}</div>
+            </div>
+        </a>
+
         <!-- 투자 도구 -->
         <a href="/tools" style="text-decoration:none;">
             <div class="feature-card" style="--fc:rgba(251,146,60,0.3);">
