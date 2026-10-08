@@ -1,10 +1,7 @@
 name: Reality Gap Score (daily)
 
 on:
-  schedule:
-    # 23:30 UTC Sun–Thu = 08:30 KST Mon–Fri (UTC+9)
-    - cron: '30 23 * * 0,1,2,3,4'
-  workflow_dispatch: # 수동 트리거 허용
+  workflow_dispatch: # 수동 트리거 전용 — 일일 런은 로컬 맥미니 크론(reality_gap_local.sh) 담당 (GHA IP 레이트리밋 우회)
 
 permissions:
   contents: write
