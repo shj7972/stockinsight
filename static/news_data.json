@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
-      "북한이 녹색 채권을 발행할 것인지에 대한 관심이 집중됨",
-      "녹색 경제 발전을 위한 녹색 금융을 적극적으로 추진 중",
-      "북한의 친환경 경제 정책 및 금융 동향에 관한 보도"
+      "북한의 그린본드 발행 가능성에 대한 관심 집중",
+      "녹색 경제 발전을 위한 녹색 금융 적극 추진 중",
+      "북한 매체를 통해 관련 경제 동향 보도됨"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
@@ -17,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 증가",
-      "빚투 열풍으로 가계부채 급증",
+      "사흘 만에 신용대출 1조원 급증",
+      "빚을 내 투자하는 빚투 현상 심화",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크에 대한 공동 대응을 논의했습니다."
+      "한·중·일 재무장관 회의 개최",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "경제 리스크 대응을 위해 한목소리 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGVpQWRLR19SM1hhdGdPN2RwTXl0LWhrVU5TRUpvc0ltbEhjazZObHpMRGx0NVBydTZldHlTYTNCV0RKUUY2R1YwUEFqWXdTNkxtS0FJbUkwLXh4NGRpeUhmZlNNVU52TzM0OW1vUFRpZUJmLVFCSU1ySlpLVHBPWGRyT2FLWENwNXg5cEN2c2JRVFJRMDF3akJuUVVENHpHczhzX3B0dm_SAa4BQVVfeXFMUHZJa1dVeDE2cGhpZXlYUGRGbjZzbWdZMjl0VzdWSmZFbzFKYjVvWmd3b0pZVEdEU3J5ckpyQ0ZDQTR3ODJybFB0S2VjMmg4QlpqWmFQNW9Pc0t5eDF0NlNFMkl6UDdGbUV4aDhNVm1Rd3B1cEhBNFpLMWx2VE1nZlVUejRZVjFkV3gtbFRrV1ZoUjZNSmxYcjdmZHZ5VGZyWFYyeWdvWFJBem5mTjl3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식시장이 사상 최고치를 경신했습니다.",
+      "미국 주식 시장이 사상 최고치를 경신했습니다.",
       "투자자들의 인공지능(AI) 낙관론이 지속되고 있습니다.",
-      "AI 관련 투자 열기가 증시 상승을 견인했습니다."
+      "알자지라는 AI 열풍이 증시 상승을 견인한다고 분석했습니다."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.85,
@@ -59,25 +59,25 @@
     "publisher": "Bloomberg.com",
     "summary": [
       "거시경제 호조 속 대형 기술주가 다시 시장을 주도하고 있음",
-      "블룸버그가 보도한 미국 증시 내 메가캡 주도의 장세 부활",
-      "경제 성장세와 함께 대형주의 시장 지배력 재확인"
+      "블룸버그가 보도한 메가캡 중심의 시장 재편 흐름",
+      "경제 성장세와 함께 대형주의 영향력 확대 지속"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.75,
     "type": "해외"
   },
   {
-    "title": "Stock Market Today: Dow Jones, Nasdaq 100 Futures Decline as Iran Mocks US Economy, Trump Sparks Bipartis - Benzinga",
-    "original_title": "Stock Market Today: Dow Jones, Nasdaq 100 Futures Decline as Iran Mocks US Economy, Trump Sparks Bipartis - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQbERJUmRRcVU3MU5HYk5HNE5xNHR1UGE0a2dtRkV3VWs0OUcya3NUcGxWdlU4LTRsVm5tR0RjVHpUU3o4bUpLQlMxTWZIWUU3M0hEVExnYUt0ai1PUGJHR25RMjMzTi02aG12SDh1bDUwWnRmRE5YV0FCdGQtdlB1MkpTcVFNS2kxYXZWUExYYnRyN0MzSVljUkxQVEJtcUtzU3RVakhDSkszbDNldHJFTnZlR2tVNGtPdVA4RGg4UTZjT1dOZEZnaWtBSmZueXJHQWRsUld4Z1F5R3ZpQXVnemZmbW5mQkFHcXQ5SWstcGxCOFhKb1EzWjRFMmhpRENZVUMyRFFSMm54anh0SjRtczluWkFGQjZHRy02amRB?oc=5",
-    "publisher": "Benzinga",
+    "title": "Can stocks stay resilient with higher Treasury yields? - Invesco",
+    "original_title": "Can stocks stay resilient with higher Treasury yields? - Invesco",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
+    "publisher": "Invesco",
     "summary": [
-      "이란의 미국 경제 비난으로 증시 선물 하락",
-      "다우존스와 나스닥 100 선물 동반 약세",
-      "트럼프 관련 정치적 이슈가 시장에 영향"
+      "상승하는 국채 금리와 주식 시장의 회복력 논의",
+      "인베스코가 전하는 채권 금리 영향 분석",
+      "높아진 국채 금리 속 주가 방어력 점검"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
