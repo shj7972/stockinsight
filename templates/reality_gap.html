@@ -25,7 +25,7 @@
             주가 상승 + 실적 악화 = <b style="color:#f87171">과열 경계</b>.
         </p>
         <p style="color:#64748b; font-size:0.82rem; margin-top:0.6rem;">
-            대상: 미국 42종 + 한국 26종 (총 {{ data.total_stocks }}종) · 갱신: {{ data.generated_at_kst }} · 기준: 분기 실적 + 주가 20/60일 모멘텀
+            대상: 미국 42종 + 한국 26종 (총 {{ data.total_stocks }}종) · 갱신: {{ data.generated_at_kst }} · 기준: 분기 실적 + 주가 20/60일 모멘텀 + 섹터 RS 보정
         </p>
     </div>
 
@@ -107,6 +107,7 @@
                         <th style="padding:0.5rem; text-align:right;">영업YoY</th>
                         <th style="padding:0.5rem; text-align:right;">20일</th>
                         <th style="padding:0.5rem; text-align:right;">60일</th>
+                        <th style="padding:0.5rem; text-align:right;" title="종목 섹터의 상대강도 (US: 섹터 ETF, KR: 섹터 동종업종 평균)">섹터RS 20일</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -121,6 +122,7 @@
                         <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{% if s.op_yoy is not none %}{{ "%+.0f"|format(s.op_yoy) }}%{% else %}—{% endif %}</td>
                         <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{{ "%+.1f"|format(s.p20 or 0) }}%</td>
                         <td style="padding:0.5rem; text-align:right; color:#94a3b8;">{{ "%+.1f"|format(s.p60 or 0) }}%</td>
+                        <td style="padding:0.5rem; text-align:right; {% if s.sector_rs20 is defined and s.sector_rs20 is not none and s.sector_rs20 > 0 %}color:#4ade80{% elif s.sector_rs20 is defined and s.sector_rs20 is not none %}color:#f87171{% else %}color:#475569{% endif %}">{% if s.sector_rs20 is defined and s.sector_rs20 is not none %}{{ "%+.0f"|format(s.sector_rs20) }}%p{% else %}—{% endif %}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -134,7 +136,8 @@
         <div style="color:#94a3b8; font-size:0.88rem; line-height:1.7;">
             <p><b style="color:#e2e8f0">가격 모멘텀</b> — 최근 20일·60일 주가 수익률을 섹터 내 상대 순위로 변환합니다.</p>
             <p><b style="color:#e2e8f0">펀더멘털 모멘텀</b> — 최근 분기 매출 YoY(40%), 영업이익 YoY(30%), 마진 개선(15%), FCF 증가(15%)를 반영합니다. 영업이익이 적자에서 흑자로 전환하면 가중치를 2배로 둡니다.</p>
-            <p><b style="color:#e2e8f0">Score</b> = 펀더멘털 강세 − 가격 강세. <b style="color:#4ade80">+35 이상</b>이면 저평가 후보, <b style="color:#f87171">−35 이하</b>면 과열 경계로 분류합니다.</p>
+            <p><b style="color:#e2e8f0">섹터 RS 보조지표 (v2)</b> — 종목이 속한 섹터의 상대강도를 반영합니다. 미국은 섹터 ETF의 SPY 대비 수익률, 한국은 같은 섹터 동종업종 평균의 KOSPI 대비 수익률을 사용하며, 펀더멘털과 같은 방향일 때 점수를 최대 ±3점 미세 보정합니다.</p>
+            <p><b style="color:#e2e8f0">Score</b> = 펀더멘털 강세 − 가격 강세 (+ 섹터 RS 보정). <b style="color:#4ade80">+35 이상</b>이면 저평가 후보, <b style="color:#f87171">−35 이하</b>면 과열 경계로 분류합니다.</p>
             <p style="font-size:0.8rem; color:#64748b; margin-top:0.8rem;">
                 유의사항: 분기 실적 기반이라 변화는 분기 단위로 나타납니다. 유사기업(분기 매출 300억/300만달러 미만)은 왜곡 방지를 위해 일부 항목이 N/A로 표시됩니다.
                 본 지표는 데이터 기반 참고 정보이며 투자 권유가 아닙니다.

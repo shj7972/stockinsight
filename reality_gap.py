@@ -242,7 +242,13 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
     if fund_raw is None:
         return None
     gap = fund_raw - price_raw   # -2 ~ +2 범위
-    score = max(-CLIP_LIMIT, min(CLIP_LIMIT, round(gap * SCORE_SCALE * 1.28, 1)))   # ±100 클리핑
+    # v2: 섹터 RS 보조 — 같은 방향일 때만 ±3 이내 미세 보정 (점수 왜곡 최소화)
+    rs = fetch_sector_rs(sector, market)
+    rs_adj = 0.0
+    if rs["rs20"] is not None:
+        rs_raw = math.tanh(rs["rs20"] / 15)   # ±15%p에서 포화
+        rs_adj = 0.10 * rs_raw   # 최대 ±0.10 → 점수 ±3 이내
+    score = max(-CLIP_LIMIT, min(CLIP_LIMIT, round((gap + rs_adj) * SCORE_SCALE * 1.28, 1)))   # ±100 클리핑
 
     if score >= POSITIVE_GAP_LINE:
         label = "positive_gap"     # 저평가 후보
@@ -269,6 +275,7 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
         "margin_chg": _r1(f["margin_chg"]),
         "fcf_growth": _r1(f["fcf_growth"]),
         "peg": _r1(f["peg"]),
+        "sector_rs20": rs["rs20"] if rs else None,
     }
 
 
@@ -352,3 +359,71 @@ if __name__ == "__main__":
     print("\n=== Negative Gap TOP 5 (주가↑+펀더멘털↓ = 과열 경계) ===")
     for s in neg:
         print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
+
+# ── v2: 섹터 ETF RS 보조지표 ────────────────────────────────────────────────
+def fetch_sector_rs(sector: str, market: str) -> dict:
+    """종목 섹터의 ETF 상대강도(RS) 수집.
+    - US: yfinance 섹터 ETF 11종 vs SPY
+    - KR: 한 섹터 유니버스 내 종목 수익률 평균 vs KOSPI(^KS11)
+    반환: {"rs20": %p, "rs60": %p} (None 가능)
+    """
+    out = {"rs20": None, "rs60": None}
+    try:
+        if market == "US":
+            etf = SECTOR_ETF_US.get(sector)
+            if not etf:
+                return out
+            h = yf.download([etf, "SPY"], period="95d", progress=False, auto_adjust=True)
+            if h.empty:
+                return out
+            close = h["Close"] if isinstance(h.columns, pd.MultiIndex) else h
+            if etf not in close or "SPY" not in close:
+                return out
+            e, s = close[etf].dropna(), close["SPY"].dropna()
+            idx = e.index.intersection(s.index)
+            e, s = e.loc[idx], s.loc[idx]
+            if len(e) < 61:
+                return out
+            s20 = (e.iloc[-1] / e.iloc[-21] - 1) * 100 - (s.iloc[-1] / s.iloc[-21] - 1) * 100
+            s60 = (e.iloc[-1] / e.iloc[-61] - 1) * 100 - (s.iloc[-1] / s.iloc[-61] - 1) * 100
+            out["rs20"], out["rs60"] = round(float(s20), 2), round(float(s60), 2)
+        else:
+            # KR: 같은 섹터 유니버스 종목들의 평균 수익률 vs KOSPI
+            peers = [t for t, n, sec in KR_UNIVERSE if sec == sector]
+            if len(peers) < 2:
+                return out
+            h = yf.download(peers + ["^KS11"], period="95d", progress=False, auto_adjust=True)
+            if h.empty:
+                return out
+            close = h["Close"] if isinstance(h.columns, pd.MultiIndex) else h
+            if "^KS11" not in close:
+                return out
+            kospi = close["^KS11"].dropna()
+            r20s, r60s = [], []
+            base_k20 = kospi.iloc[-21] if len(kospi) > 20 else None
+            base_k60 = kospi.iloc[-61] if len(kospi) > 60 else None
+            for t in peers:
+                if t not in close:
+                    continue
+                ser = close[t].dropna()
+                if len(ser) < 61:
+                    continue
+                if base_k20 is not None and len(kospi) > 20:
+                    r20s.append((ser.iloc[-1] / ser.iloc[-21] - 1) * 100 - (kospi.iloc[-1] / base_k20 - 1) * 100)
+                if base_k60 is not None:
+                    r60s.append((ser.iloc[-1] / ser.iloc[-61] - 1) * 100 - (kospi.iloc[-1] / base_k60 - 1) * 100)
+            if r20s:
+                out["rs20"] = round(float(sum(r20s) / len(r20s)), 2)
+            if r60s:
+                out["rs60"] = round(float(sum(r60s) / len(r60s)), 2)
+    except Exception as e:
+        logger.debug(f"sector RS 실패 ({sector}/{market}): {e}")
+    return out
+
+
+SECTOR_ETF_US = {
+    "Technology": "XLK", "Healthcare": "XLV", "Financials": "XLF",
+    "Energy": "XLE", "Consumer Discretionary": "XLY", "Consumer Staples": "XLP",
+    "Industrials": "XLI", "Materials": "XLB", "Utilities": "XLU",
+    "Real Estate": "XLRE", "Communication Services": "XLC",
+}
