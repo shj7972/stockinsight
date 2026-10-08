@@ -32,8 +32,15 @@ jobs:
 
       - name: Run Reality Gap engine
         run: |
-          echo "Reality Gap 스캔 시작..."
-          python reality_gap.py || { echo "실패: $?"; exit 1; }
+          echo "Reality Gap 스캔 시작 (시도 1)..."
+          if python reality_gap.py; then
+            echo "성공"
+          else
+            echo "실패 — 60초 후 재시도"
+            sleep 60
+            echo "Reality Gap 스캔 (시도 2)..."
+            python reality_gap.py || { echo "재시도 실패: $?"; exit 1; }
+          fi
 
       - name: Verify output
         shell: python

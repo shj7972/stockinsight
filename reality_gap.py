@@ -254,7 +254,14 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
     # v2: 섹터 RS 보조 — 같은 방향일 때만 ±3 이내 미세 보정 (점수 왜곡 최소화)
     rs = fetch_sector_rs(sector, market)
     # v3: 애널리스트 기대 심리 레이어 (라벨 세분화용, 점수에는 영향 없음)
-    exp = fetch_expectations(ticker, p["last"])
+    try:
+        exp = fetch_expectations(ticker, p["last"])
+    except Exception:
+        try:
+            time.sleep(2)
+            exp = fetch_expectations(ticker, p["last"])
+        except Exception:
+            exp = {"rec": None, "upside": None, "n_analysts": None}
     exp_class = classify_expectation(exp["rec"], exp["upside"], p["p20"])
     rs_adj = 0.0
     if rs["rs20"] is not None:
@@ -313,8 +320,19 @@ def run(update_history: bool = True) -> dict:
 
     results = []
     t0 = time.time()
+    consecutive_errors = 0
     for ticker, name, sector, market in universe:
-        r = compute_stock(ticker, name, sector, market)
+        r = None
+        try:
+            r = compute_stock(ticker, name, sector, market)
+            consecutive_errors = 0
+        except Exception as e:
+            consecutive_errors += 1
+            logger.warning(f"{ticker} 계산 실패 (에러 누적 {consecutive_errors}): {e}")
+            if consecutive_errors >= 4:
+                logger.warning("연속 실패 4건 — 레이트리밋 추정, 20초 백오프")
+                time.sleep(20)
+                consecutive_errors = 0
         if r:
             results.append(r)
         time.sleep(0.5)   # rate limit 배려 (v2/v3 콜량 증가로 0.2→0.5 확대)
@@ -381,12 +399,18 @@ if __name__ == "__main__":
         print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
 
 # ── v2: 섹터 ETF RS 보조지표 ────────────────────────────────────────────────
+_RS_CACHE = {}
+
 def fetch_sector_rs(sector: str, market: str) -> dict:
-    """종목 섹터의 ETF 상대강도(RS) 수집.
+    """종목 섹터의 ETF 상대강도(RS) 수집. 섹터당 1회 계산 후 캐시 재사용 (v3 안정화).
     - US: yfinance 섹터 ETF 11종 vs SPY
     - KR: 한 섹터 유니버스 내 종목 수익률 평균 vs KOSPI(^KS11)
     반환: {"rs20": %p, "rs60": %p} (None 가능)
     """
+    key = f"{market}:{sector}"
+    if key in _RS_CACHE:
+        return _RS_CACHE[key]
+
     out = {"rs20": None, "rs60": None}
     try:
         if market == "US":
@@ -438,6 +462,7 @@ def fetch_sector_rs(sector: str, market: str) -> dict:
                 out["rs60"] = round(float(sum(r60s) / len(r60s)), 2)
     except Exception as e:
         logger.debug(f"sector RS 실패 ({sector}/{market}): {e}")
+    _RS_CACHE[key] = out
     return out
 
 
