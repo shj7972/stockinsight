@@ -387,17 +387,6 @@ def run(update_history: bool = True) -> dict:
     return output
 
 
-if __name__ == "__main__":
-    out = run()
-    pos = [s for s in out["stocks"] if s["label"] == "positive_gap"][:5]
-    neg = [s for s in out["stocks"] if s["label"] == "negative_gap"][:5]
-    print("\n=== Positive Gap TOP 5 (주가↓+펀더멘털↑ = 저평가 후보) ===")
-    for s in pos:
-        print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
-    print("\n=== Negative Gap TOP 5 (주가↑+펀더멘털↓ = 과열 경계) ===")
-    for s in neg:
-        print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
-
 # ── v2: 섹터 ETF RS 보조지표 ────────────────────────────────────────────────
 _RS_CACHE = {}
 
@@ -512,3 +501,15 @@ def classify_expectation(rec, upside, p20) -> str:
     if strong_price and rec > 2.5:    # 주가 강한데 애널리스트 중립 이하 → 테마 자금 의심
         return "theme_premium"
     return "none"
+
+
+if __name__ == "__main__":
+    out = run()
+    pos = [s for s in out["stocks"] if s["label"] == "positive_gap"][:5]
+    neg = [s for s in out["stocks"] if s["label"] == "negative_gap"][:5]
+    print("\n=== Positive Gap TOP 5 (주가↓+펀더멘털↑ = 저평가 후보) ===")
+    for s in pos:
+        print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
+    print("\n=== Negative Gap TOP 5 (주가↑+펀더멘털↓ = 과열 경계) ===")
+    for s in neg:
+        print(f"{s['name']} ({s['ticker']}) score={s['score']:+.0f} — 펀더멘털 {s['fund_raw']:+.2f} / 가격 {s['price_raw']:+.2f}")
