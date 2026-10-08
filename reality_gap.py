@@ -330,12 +330,12 @@ def run(update_history: bool = True) -> dict:
             consecutive_errors += 1
             logger.warning(f"{ticker} 계산 실패 (에러 누적 {consecutive_errors}): {e}")
             if consecutive_errors >= 4:
-                logger.warning("연속 실패 4건 — 레이트리밋 추정, 20초 백오프")
-                time.sleep(20)
+                logger.warning("연속 실패 4건 — 레이트리밋 추정, 60초 백오프")
+                time.sleep(60)
                 consecutive_errors = 0
         if r:
             results.append(r)
-        time.sleep(0.5)   # rate limit 배려 (v2/v3 콜량 증가로 0.2→0.5 확대)
+        time.sleep(1.5)   # rate limit 배려 (GHA runner IP 단속 대응: v2/v3 콜량 기반 0.5→1.5)
 
     # 섹터 내 순위 추가 (산점도/표에서 상대 비교용)
     try:
