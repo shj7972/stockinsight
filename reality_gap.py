@@ -244,6 +244,9 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
     gap = fund_raw - price_raw   # -2 ~ +2 범위
     # v2: 섹터 RS 보조 — 같은 방향일 때만 ±3 이내 미세 보정 (점수 왜곡 최소화)
     rs = fetch_sector_rs(sector, market)
+    # v3: 애널리스트 기대 심리 레이어 (라벨 세분화용, 점수에는 영향 없음)
+    exp = fetch_expectations(ticker, p["last"])
+    exp_class = classify_expectation(exp["rec"], exp["upside"], p["p20"])
     rs_adj = 0.0
     if rs["rs20"] is not None:
         rs_raw = math.tanh(rs["rs20"] / 15)   # ±15%p에서 포화
@@ -256,6 +259,9 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
         label = "negative_gap"     # 과열 경계
     else:
         label = "aligned"
+    # v3: 기대 심리 세분화 — 주가 강세 + 애널리스트 회의적 = 테마 프리미엄 (과열과 구분)
+    if exp_class == "theme_premium" and label == "negative_gap":
+        label = "theme_premium"
 
     return {
         "ticker": ticker,
@@ -276,6 +282,10 @@ def compute_stock(ticker: str, name: str, sector: str, market: str):
         "fcf_growth": _r1(f["fcf_growth"]),
         "peg": _r1(f["peg"]),
         "sector_rs20": rs["rs20"] if rs else None,
+        "exp_rec": exp["rec"],
+        "exp_upside": exp["upside"],
+        "exp_n": exp["n_analysts"],
+        "exp_class": exp_class,
     }
 
 
@@ -326,6 +336,7 @@ def run(update_history: bool = True) -> dict:
         "date": today,
         "positive_count": sum(1 for r in results if r["label"] == "positive_gap"),
         "negative_count": sum(1 for r in results if r["label"] == "negative_gap"),
+        "theme_count": sum(1 for r in results if r["label"] == "theme_premium"),
         "avg_score": round(sum(r["score"] for r in results) / max(1, len(results)), 1),
     }
     history = [h for h in history if h["date"] != today][:HISTORY_MAX - 1]
@@ -427,3 +438,43 @@ SECTOR_ETF_US = {
     "Industrials": "XLI", "Materials": "XLB", "Utilities": "XLU",
     "Real Estate": "XLRE", "Communication Services": "XLC",
 }
+
+
+# ── v3: 애널리스트 기대 심리 레이어 ────────────────────────────────────────
+def fetch_expectations(ticker: str, last_price: float) -> dict:
+    """애널리스트 합의 데이터 (yfinance 무료).
+    반환: {"rec": 1~5 (낮을수록 매수), "upside": %, "n_analysts": int}
+    커버리지 없으면 None 필드."""
+    out = {"rec": None, "upside": None, "n_analysts": None}
+    try:
+        info = yf.Ticker(ticker).info
+        rec = info.get("recommendationMean")
+        tgt = info.get("targetMeanPrice")
+        n = info.get("numberOfAnalystOpinions")
+        if rec is not None:
+            out["rec"] = round(float(rec), 2)
+        if n is not None:
+            out["n_analysts"] = int(n)
+        if tgt is not None and last_price and last_price > 0:
+            out["upside"] = round((float(tgt) / last_price - 1) * 100, 1)
+    except Exception as e:
+        logger.debug(f"{ticker} expectations 실패: {e}")
+    return out
+
+
+def classify_expectation(rec, upside, p20) -> str:
+    """기대 심리 vs 주가 동반 여부 분류 (에코프로비엠 같은 테마성 케이스 구분용).
+    - analysts_confirmed: 주가 강세 + 애널리스트 매수 + 목표가 여유 — 기대 심리 검증됨
+    - theme_premium: 주가 강세 + 애널리스트 중립/회의적 — 실적 미검증 상승 (테마 자금)
+    - none: 판단 불가"
+    """
+    if rec is None or upside is None or p20 is None:
+        return "none"
+    strong_price = p20 > 10           # 20일 +10% 이상
+    bullish_rec = rec <= 2.0          # 매수 쪽 합의
+    roomy_upside = upside > 10        # 목표가 여유 10%+
+    if strong_price and bullish_rec and roomy_upside:
+        return "analysts_confirmed"
+    if strong_price and rec > 2.5:    # 주가 강한데 애널리스트 중립 이하 → 테마 자금 의심
+        return "theme_premium"
+    return "none"

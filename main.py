@@ -1901,6 +1901,7 @@ async def reality_gap_page(request: Request):
     stocks = data.get("stocks", [])
     pos_stocks = [s for s in stocks if s.get("label") == "positive_gap"][:6]
     neg_stocks = [s for s in stocks if s.get("label") == "negative_gap"][:6]
+    theme_stocks = [s for s in stocks if s.get("label") == "theme_premium"][:6]
 
     # 산점도 (X=가격모멘텀, Y=펀더멘털모멘텀, 색=label)
     scatter_html = ""
@@ -1908,6 +1909,7 @@ async def reality_gap_page(request: Request):
         fig = go.Figure()
         groups = {
             "positive_gap":   ("💎 저평가 후보",  "#4ade80"),
+            "theme_premium":  ("🎢 테마 프리미엄", "#facc15"),
             "negative_gap":   ("⚠️ 과열 경계",    "#f87171"),
             "aligned":        ("일치",            "#475569"),
         }
@@ -1956,6 +1958,7 @@ async def reality_gap_page(request: Request):
         "data": data,
         "pos_stocks": pos_stocks,
         "neg_stocks": neg_stocks,
+        "theme_stocks": theme_stocks,
         "scatter_html": scatter_html,
         "og_image":       "/static/og-image.png",
     })
