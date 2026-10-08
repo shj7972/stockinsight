@@ -79,6 +79,7 @@ def _safe_yoy(curr, base, min_base):
 
 def fetch_fundamentals(ticker: str, market: str) -> dict:
     """yfinance로 펀더멘털 모멘텀 원시값 수집. 종목당 ~1~2초."""
+    global _ticker_cache
     min_base = MIN_BASE_US if market == "US" else MIN_BASE_REVENUE
     out = {
         "rev_yoy": None, "op_yoy": None, "margin_chg": None,
@@ -86,7 +87,7 @@ def fetch_fundamentals(ticker: str, market: str) -> dict:
         "gross_margin": None, "peg": None,
     }
     try:
-        t = yf.Ticker(ticker)
+        t = _get_ticker(ticker)
         info = t.info
         out["rev_growth_info"] = _pct(info.get("revenueGrowth"))
         out["earn_growth_info"] = _pct(info.get("earningsGrowth"))
@@ -126,7 +127,7 @@ def fetch_fundamentals(ticker: str, market: str) -> dict:
 
         # FCF 트렌드 (최근 4분기 FCF 합 vs 이전 4분기)
         try:
-            cf = yf.Ticker(ticker).quarterly_cashflow
+            cf = t.quarterly_cashflow
             fc_row = _find_row(cf, ["Free Cash Flow"])
             if fc_row:
                 fcf = cf.loc[fc_row].dropna()
@@ -146,7 +147,7 @@ def fetch_price_momentum(ticker: str) -> dict:
     """20일/60일 수익률."""
     out = {"p20": None, "p60": None, "last": None}
     try:
-        t = yf.Ticker(ticker)
+        t = _get_ticker(ticker)
         h = t.history(period="75d")
         if h is None or h.empty:
             return out
@@ -164,6 +165,14 @@ def fetch_price_momentum(ticker: str) -> dict:
 
 
 # ── 유틸 ───────────────────────────────────────────────────────────────────
+_TICKER_CACHE = {}
+
+def _get_ticker(ticker: str):
+    """yf.Ticker 객체 캐시 — 동일 종복 생성 방지 (API 콜/크래시 감소)"""
+    if ticker not in _TICKER_CACHE:
+        _TICKER_CACHE[ticker] = yf.Ticker(ticker)
+    return _TICKER_CACHE[ticker]
+
 def _find_row(df: pd.DataFrame, keywords: list):
     for kw in keywords:
         matches = [i for i in df.index if kw in str(i)]
@@ -308,7 +317,7 @@ def run(update_history: bool = True) -> dict:
         r = compute_stock(ticker, name, sector, market)
         if r:
             results.append(r)
-        time.sleep(0.2)   # rate limit 배려
+        time.sleep(0.5)   # rate limit 배려 (v2/v3 콜량 증가로 0.2→0.5 확대)
 
     # 섹터 내 순위 추가 (산점도/표에서 상대 비교용)
     try:
@@ -447,7 +456,7 @@ def fetch_expectations(ticker: str, last_price: float) -> dict:
     커버리지 없으면 None 필드."""
     out = {"rec": None, "upside": None, "n_analysts": None}
     try:
-        info = yf.Ticker(ticker).info
+        info = _get_ticker(ticker).info
         rec = info.get("recommendationMean")
         tgt = info.get("targetMeanPrice")
         n = info.get("numberOfAnalystOpinions")
