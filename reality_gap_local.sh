@@ -10,10 +10,11 @@ echo "=== Reality Gap 로컬 런 $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$LOG"
 # 1) 최신 유지
 git pull --rebase origin master >> "$LOG" 2>&1 || echo "pull 실패 (계속)" >> "$LOG"
 
-# 2) 계산 (재시도 2회)
+# 2) 계산 (재시도 2회 — 각 시도 전 코드 최신화: 코드 fix 중 재시도 경쟁 방어)
 RUN_OK=0
 for i in 1 2; do
-  echo "--- 시도 $i ---" >> "$LOG"
+  echo "--- 시도 $i (코드 갱신 후) ---" >> "$LOG"
+  git pull --rebase origin master >> "$LOG" 2>&1 || echo "재시도 전 pull 실패 (계속)" >> "$LOG"
   if python3 reality_gap.py >> "$LOG" 2>&1; then
     RUN_OK=1
     break
