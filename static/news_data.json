@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 시사"
+      "한중일 재무장관이 중동 전쟁의 경제적 위험성에 공감함",
+      "하방 경제 압력 리스크에 대해 한목소리를 냄",
+      "3국 장관이 경제 상황에 대한 공동 대응을 논의함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -31,11 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "사흘 만에 신용대출 1조원 급증",
-      "빚을 내 투자하는 빚투 현상 심화",
+      "빚을 내어 투자하는 빚투 현상 심화",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGVpQWRLR19SM1hhdGdPN2RwTXl0LWhrVU5TRUpvc0ltbEhjazZObHpMRGx0NVBydTZldHlTYTNCV0RKUUY2R1YwUEFqWXdTNkxtS0FJbUkwLXh4NGRpeUhmZlNNVU52TzM0OW1vUFRpZUJmLVFCSU1ySlpLVHBPWGRyT2FLWENwNXg5cEN2c2JRVFJRMDF3akJuUVVENHpHczhzX3B0dm_SAa4BQVVfeXFMUHZJa1dVeDE2cGhpZXlYUGRGbjZzbWdZMjl0VzdWSmZFbzFKYjVvWmd3b0pZVEdEU3J5ckpyQ0ZDQTR3ODJybFB0S2VjMmg4QlpqWmFQNW9Pc0t5eDF0NlNFMkl6UDdGbUV4aDhNVm1Rd3B1cEhBNFpLMWx2VE1nZlVUejRZVjFkV3gtbFRrV1ZoUjZNSmxYcjdmZHZ5VGZyWFYyeWdvWFJBem5mTjl3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식시장이 사상 최고치를 경신함",
-      "투자자들의 인공지능(AI) 낙관론이 지속됨",
-      "알자지라 등 주요 매체에서 이를 보도함"
+      "미국 주식 시장이 사상 최고치를 경신했습니다.",
+      "투자자들의 인공지능(AI) 낙관론이 지속되고 있습니다.",
+      "알자지라 등 외신이 관련 소식을 보도했습니다."
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "Can stocks stay resilient with higher Treasury yields? - Invesco",
-    "original_title": "Can stocks stay resilient with higher Treasury yields? - Invesco",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
-    "publisher": "Invesco",
+    "title": "AI-centered US stock bull market nears four-year anniversary By Reuters - Investing.com",
+    "original_title": "AI-centered US stock bull market nears four-year anniversary By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbkY3RkQ0VHFxSUE5SUVrRHppSUZjMlpOOFpnVHo1cVVSUlJYeFdzbkY0eVJSSmh2dnBuQzhMcTdRMEZpOEYyazJELXNnN1lyUkZJODZfYVZwX05mc1FkZnRmYVZXdUxld1g1bktUWTBjS1dkRGFlVldiMW9qWDBaU1g3SzY3bHBQb3pGeUVNU1NTeVdETUh0SENfUjFhXzVJampjSVpTNm5mc2g4U0FR?oc=5",
+    "publisher": "Investing.com",
     "summary": [
-      "상승하는 국채 금리와 주식 시장의 회복력 분석",
-      "인베스코가 제시하는 주식 시장 전망과 금리 영향",
-      "고금리 환경 속 주식 시장의 지속 가능성 점검"
+      "AI 중심 미국 증시 강세장이 4주년을 앞두고 있음",
+      "인공지능 기술이 지속적인 주가 상승을 견인 중",
+      "로이터 통신을 통해 관련 시장 동향이 보도됨"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
-    "title": "Megacaps Are Back in Charge in Hot-Running Economy - Bloomberg.com",
-    "original_title": "Megacaps Are Back in Charge in Hot-Running Economy - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdlg1SlFBSmRLSEEwTE14QjQ5ejQtYVZhUk9nTXk0c1E2YUlqc1hqcnFtb2hTemppdHNtTXpwY1phejh6WHJ0T2lBU2h6Qm85N3lJczdQNlgxa0pKc0FPTHBMMjZYWmZ4YktKQ0FRX3p5c0hKS0N6SXdpTlFjeVJKbXE4d0x3Zzc1NjdKWVE4R2ZqUDctaklYRDdUc010Z2dvM3FhdjJ1M2tZZjZNVl9wZU1rMjdmc2VMM3doeWVR?oc=5",
-    "publisher": "Bloomberg.com",
+    "title": "US economy and Wall Street increasingly dependent on AI amid concerns over circularity - World Socialist Web Site",
+    "original_title": "US economy and Wall Street increasingly dependent on AI amid concerns over circularity - World Socialist Web Site",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tQWYzM041YUhka244WXB3Z1pZc1hsVVBZVVpPX2szVFYwZlk5NFRNekwwRVRSZFNRcEhKV1VMT0VBM21QOEZiRDViTDNVLTFfUldCd1UyekwtMTlIZnVXR252RU5fTDR0?oc=5",
+    "publisher": "World Socialist Web Site",
     "summary": [
-      "거시경제 호조 속 대형 기술주가 다시 주도권을 잡음",
-      "메가캡 기업들의 시장 지배력이 재확인됨",
-      "투자자들의 관심이 다시 대형주로 집중되는 추세"
+      "미국 경제와 월스트리트의 인공지능 의존도 심화",
+      "인공지능 투자 열풍의 순환성 구조에 대한 우려 제기",
+      "자본주의 경제 전반의 잠재적 리스크 확대 가능성"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
