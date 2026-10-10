@@ -1,25 +1,12 @@
 [
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한중일 재무장관이 중동 전쟁의 경제적 위험성에 공감함",
-      "하방 경제 압력 리스크에 대해 한목소리를 냄",
-      "3국 장관이 경제 상황에 대한 공동 대응을 논의함"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
     "title": "Will North Korea Issue Green Bonds?... “Actively Promoting Green Finance for Green Economic Development” - NK경제",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTFpNV0RhWmFKOXVaY1BOUFRDOXJDSGpsVFZFWk42LUhVd1BVN1lNa25YT2RqZEJsajFqNEltSzZiTEJFRmVPendzNEZDWWd2NGtudmJxR0tuN3hfZkZUdk5UOTIxZldmcWfSAW5BVV95cUxOUFJTaTdZZ2dBV0FsOXktc29rRi1qNkdKMDVZUUVSQVRkN09Od2hmZDY5TG5LR0poUHBqaXJSM3Q2TUwydXFTY1ZCUUs4LVVvMWZkRlhYTGEwNDliNFVRcWVRbXZMa0lNaG54cVZfdw?oc=5",
     "publisher": "NK경제",
     "summary": [
       "북한의 그린본드 발행 가능성에 대한 관심 집중",
-      "녹색경제 발전을 위한 녹색금융 적극 추진 중",
-      "북한 매체를 통해 관련 경제 동향 보도됨"
+      "친환경 경제 발전을 위한 녹색금융 적극 추진 중",
+      "북한 경제 매체의 관련 동향 보도 및 분석"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -31,11 +18,24 @@
     "publisher": "한겨레",
     "summary": [
       "사흘 만에 신용대출 1조원 급증",
-      "빚을 내어 투자하는 빚투 현상 심화",
+      "빚을 내 투자하는 '빚투' 열풍 심화",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
+    "type": "국내"
+  },
+  {
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "publisher": "서울신문",
+    "summary": [
+      "한국은행 기준금리 3.00%로 인상 결정",
+      "연속 금리 인상인 '백투백' 인상 현실화",
+      "금리 인상으로 인한 경제적 영향 주목"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGVpQWRLR19SM1hhdGdPN2RwTXl0LWhrVU5TRUpvc0ltbEhjazZObHpMRGx0NVBydTZldHlTYTNCV0RKUUY2R1YwUEFqWXdTNkxtS0FJbUkwLXh4NGRpeUhmZlNNVU52TzM0OW1vUFRpZUJmLVFCSU1ySlpLVHBPWGRyT2FLWENwNXg5cEN2c2JRVFJRMDF3akJuUVVENHpHczhzX3B0dm_SAa4BQVVfeXFMUHZJa1dVeDE2cGhpZXlYUGRGbjZzbWdZMjl0VzdWSmZFbzFKYjVvWmd3b0pZVEdEU3J5ckpyQ0ZDQTR3ODJybFB0S2VjMmg4QlpqWmFQNW9Pc0t5eDF0NlNFMkl6UDdGbUV4aDhNVm1Rd3B1cEhBNFpLMWx2VE1nZlVUejRZVjFkV3gtbFRrV1ZoUjZNSmxYcjdmZHZ5VGZyWFYyeWdvWFJBem5mTjl3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식 시장이 사상 최고치를 경신했습니다.",
+      "미국 주식시장이 사상 최고치를 경신했습니다.",
       "투자자들의 인공지능(AI) 낙관론이 지속되고 있습니다.",
       "알자지라 등 외신이 관련 소식을 보도했습니다."
     ],
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbkY3RkQ0VHFxSUE5SUVrRHppSUZjMlpOOFpnVHo1cVVSUlJYeFdzbkY0eVJSSmh2dnBuQzhMcTdRMEZpOEYyazJELXNnN1lyUkZJODZfYVZwX05mc1FkZnRmYVZXdUxld1g1bktUWTBjS1dkRGFlVldiMW9qWDBaU1g3SzY3bHBQb3pGeUVNU1NTeVdETUh0SENfUjFhXzVJampjSVpTNm5mc2g4U0FR?oc=5",
     "publisher": "Investing.com",
     "summary": [
-      "AI 중심 미국 증시 강세장이 4주년을 앞두고 있음",
-      "인공지능 기술이 지속적인 주가 상승을 견인 중",
-      "로이터 통신을 통해 관련 시장 동향이 보도됨"
+      "AI 중심 미국 주식 강세장이 4주년을 앞두고 있음",
+      "인공지능 기술이 증시 성장을 강력하게 견인함",
+      "로이터 통신이 미국 증시의 장기 상승세를 조명함"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "해외"
   },
   {
-    "title": "US economy and Wall Street increasingly dependent on AI amid concerns over circularity - World Socialist Web Site",
-    "original_title": "US economy and Wall Street increasingly dependent on AI amid concerns over circularity - World Socialist Web Site",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tQWYzM041YUhka244WXB3Z1pZc1hsVVBZVVpPX2szVFYwZlk5NFRNekwwRVRSZFNRcEhKV1VMT0VBM21QOEZiRDViTDNVLTFfUldCd1UyekwtMTlIZnVXR252RU5fTDR0?oc=5",
-    "publisher": "World Socialist Web Site",
+    "title": "The U.S. Economy Just Delivered Bad News. History Says It Could Be Good News for the S&P 500. - The Motley Fool",
+    "original_title": "The U.S. Economy Just Delivered Bad News. History Says It Could Be Good News for the S&P 500. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0xVUE9fOVdlWlF0YndWQUdXWExhQkZsd0NHaVRjc1NmT3VTVWRHYVhoS2pjLWdqMFR6a0RMOTJCYUx1RmhJdjNmSkFTUVp0VnRfY3kwSkg0ZmxSbk5rTEFwOGNPMDZlZm9EQ2o1TDdCZU9FdVliZmFIMmVtV3A2X2JjTFBHM25rRXJKVmlnMFlhWUhzci1B?oc=5",
+    "publisher": "The Motley Fool",
     "summary": [
-      "미국 경제와 월스트리트의 인공지능 의존도 심화",
-      "인공지능 투자 열풍의 순환성 구조에 대한 우려 제기",
-      "자본주의 경제 전반의 잠재적 리스크 확대 가능성"
+      "미국 경제가 나쁜 소식을 발표했습니다.",
+      "역사적으로 이는 S&P 500에 호재였습니다.",
+      "증시에 긍정적인 반전이 기대됩니다."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
