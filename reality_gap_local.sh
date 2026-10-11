@@ -7,6 +7,13 @@ cd /Users/mac/.openclaw/workspace/stockinsight
 LOG=/tmp/reality_gap_local.log
 echo "=== Reality Gap 로컬 런 $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$LOG"
 
+# 0) 휴장이면 실행 스킵 (어제 종가 복제 커밋 방지 — 2026-10-09 한글날 교훈)
+KR_DAY=$(python3 ../scripts/market_days.py kr 2>/dev/null || echo "UNKNOWN")
+if [[ "$KR_DAY" == HOLIDAY* ]]; then
+  echo "SKIP: 한국 휴장 (${KR_DAY#HOLIDAY|}) — 계산·커밋 중단" >> "$LOG"
+  exit 0
+fi
+
 # 1) 최신 유지
 git pull --rebase origin master >> "$LOG" 2>&1 || echo "pull 실패 (계속)" >> "$LOG"
 

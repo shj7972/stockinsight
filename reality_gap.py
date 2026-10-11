@@ -350,7 +350,21 @@ def run(update_history: bool = True) -> dict:
     results.sort(key=lambda x: x["score"], reverse=True)
 
     # 히스토리 누적 (최근 30일)
-    today = datetime.now().strftime("%Y-%m-%d")
+    # 휴장(공휴일/주말)이면 어제(직전 영업일) 날짜로 업서트 — 팬텀(어제 종가 복제) 방지
+    # 2026-10-09 한글날: '2026-10-09' 팬텀 히스토리가 잡힌 문제 수정
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
+    _t = datetime.now()
+    try:
+        from market_days import is_kr_trading_day, last_kr_trading_day
+        _ok, _ = is_kr_trading_day(_t.date())
+        today = _t.strftime("%Y-%m-%d") if _ok else last_kr_trading_day(_t.date()).strftime("%Y-%m-%d")
+    except Exception:
+        # 라이브러리 미설치 등 → 주말만 뒤로 탐색 (최소 방어)
+        _d2 = _t.date()
+        while _d2.weekday() >= 5:
+            _d2 -= datetime.timedelta(days=1)
+        today = _d2.strftime("%Y-%m-%d")
     history = []
     prev = None
     if OUTPUT_FILE and os.path.exists(OUTPUT_FILE) and update_history:
