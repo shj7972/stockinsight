@@ -5,8 +5,8 @@
     "publisher": "NK경제",
     "summary": [
       "북한의 그린본드 발행 가능성에 대한 관심 집중",
-      "녹색경제 발전을 위한 녹색금융 적극 추진 중",
-      "북한 경제 및 환경 관련 새로운 금융 동향"
+      "녹색경제 발전을 위한 녹색금융 추진 중",
+      "북한 매체의 친환경 금융 정책 강조 보도"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "단 사흘 만에 신용대출 1조원 급증",
-      "빚을 내어 투자하는 빚투 현상 확산",
-      "주택담보대출 금리가 최고 7.3%까지 치솟음"
+      "사흘 만에 신용대출 1조원 급증",
+      "빚투 열풍으로 가계부채 증가 우려",
+      "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -31,22 +31,36 @@
     "publisher": "서울신문",
     "summary": [
       "한국은행 기준금리 0.25%P 인상",
-      "기준금리 인상은 3년 6개월 만의 조치",
-      "통화 긴축 기조 지속에 대한 시장 관심"
+      "3년 6개월 만에 이루어진 금리 인상 조치",
+      "통화 정책의 긴축 기조 전환 반영"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.6,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "The stock market ≠ the economy ✋ - TKer by Sam Ro",
-    "original_title": "The stock market ≠ the economy ✋ - TKer by Sam Ro",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UZWtFRl9CNzZRblN1RDA0NFBDc1NRaHlVdjVISENMUFJrRWNMVVZ5aUpqd0xvcTc5Slh0cHFpTVFVa3pzWS1hTGtTOHptN1Bua3A5bjV6SF96el82Um1WalNrSlVXTU9naGdXTzNtUQ?oc=5",
-    "publisher": "TKer by Sam Ro",
+    "title": "Is the US economy as narrow as its stock market? - Financial Times",
+    "original_title": "Is the US economy as narrow as its stock market? - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
+    "publisher": "Financial Times",
     "summary": [
-      "주식 시장과 실물 경제는 동일하지 않습니다.",
-      "증권 시장의 움직임은 경제와 다를 수 있습니다.",
-      "투자 시 경제와 주가를 구분해 봐야 합니다."
+      "미국 경제가 주식시장처럼 편중되어 있는지 분석",
+      "소수 종목 중심의 증시와 실물 경제의 연관성 고찰",
+      "파이낸셜타임스의 미국 경제 집중도 진단 기사"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Q4 2026 US Stock Market Outlook: Individual Stock Selection Looks Increasingly Important - Morningstar",
+    "original_title": "Q4 2026 US Stock Market Outlook: Individual Stock Selection Looks Increasingly Important - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZWZxeEVFcDlDcmNNLXlYamRyMW9MWXdONk1EYzdVWmhxbE1Wemx5OF9zdFJfYmp6eFRvZ3N2ZmRNS200cXYxWWduMmxkcDlsREZIVm9TNE5Kd244R09jOGJkUnJnYjliMVh2S0hpZXAzWFRDdWQtbVdLY0RfSHd0Y3Q2M3FTV2l6SEFmeENDN3FyYVJaM0hjWFdveF8tTkpEVVJXLV8yOXlqMGM1TnMtZFk3b0UxUW9yVzV0Mk5Ub2lSdHZ6VGN2NzZuUHE?oc=5",
+    "publisher": "Morningstar",
+    "summary": [
+      "2026년 4분기 미국 주식시장 전망 발표",
+      "개별 종목 선택의 중요성이 점차 커지고 있음",
+      "모닝스타가 분석한 시장 전략 리포트"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "AI 중심 미국 주식 시장이 4주년을 앞두고 있습니다.",
-      "인공지능 테마가 증시 강세장을 지속적으로 견인 중입니다.",
-      "로이터 통신이 미국 증시의 AI 랠리 장세를 조명했습니다."
+      "AI 중심 미국 증시 강세장이 4주년을 앞두고 있음",
+      "로이터 통신이 최근 AI 관련 주가 흐름을 조명함",
+      "기술주 주도의 지속적인 시장 성장세가 주목받음"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "US stock market hits all-time high as investors continue to bet on AI - Al Jazeera",
-    "original_title": "US stock market hits all-time high as investors continue to bet on AI - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGVpQWRLR19SM1hhdGdPN2RwTXl0LWhrVU5TRUpvc0ltbEhjazZObHpMRGx0NVBydTZldHlTYTNCV0RKUUY2R1YwUEFqWXdTNkxtS0FJbUkwLXh4NGRpeUhmZlNNVU52TzM0OW1vUFRpZUJmLVFCSU1ySlpLVHBPWGRyT2FLWENwNXg5cEN2c2JRVFJRMDF3akJuUVVENHpHczhzX3B0dm_SAa4BQVVfeXFMUHZJa1dVeDE2cGhpZXlYUGRGbjZzbWdZMjl0VzdWSmZFbzFKYjVvWmd3b0pZVEdEU3J5ckpyQ0ZDQTR3ODJybFB0S2VjMmg4QlpqWmFQNW9Pc0t5eDF0NlNFMkl6UDdGbUV4aDhNVm1Rd3B1cEhBNFpLMWx2VE1nZlVUejRZVjFkV3gtbFRrV1ZoUjZNSmxYcjdmZHZ5VGZyWFYyeWdvWFJBem5mTjl3?oc=5",
-    "publisher": "Al Jazeera",
-    "summary": [
-      "미국 주식시장이 사상 최고치를 경신함",
-      "투자자들의 인공지능(AI) 낙관론이 지속됨",
-      "알자지라 등 주요 매체에서 이를 보도함"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
     "type": "해외"
   }
 ]
