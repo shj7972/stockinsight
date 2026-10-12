@@ -6,7 +6,7 @@
     "summary": [
       "북한의 그린본드 발행 가능성에 대한 관심 집중",
       "녹색경제 발전을 위한 녹색금융 적극 추진 중",
-      "북한 매체를 통한 관련 동향 보도 및 분석"
+      "북한 경제 및 환경 관련 새로운 금융 동향"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "투자 목적의 빚투 현상 확산",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "단 사흘 만에 신용대출 1조원 급증",
+      "빚을 내어 투자하는 빚투 현상 확산",
+      "주택담보대출 금리가 최고 7.3%까지 치솟음"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 0.25%P 인상 단행",
-      "기준금리 인상은 3년 6개월 만의 일임",
-      "통화 긴축 기조 지속 및 물가 안정 도모"
+      "한국은행 기준금리 0.25%P 인상",
+      "기준금리 인상은 3년 6개월 만의 조치",
+      "통화 긴축 기조 지속에 대한 시장 관심"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": 0.6,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UZWtFRl9CNzZRblN1RDA0NFBDc1NRaHlVdjVISENMUFJrRWNMVVZ5aUpqd0xvcTc5Slh0cHFpTVFVa3pzWS1hTGtTOHptN1Bua3A5bjV6SF96el82Um1WalNrSlVXTU9naGdXTzNtUQ?oc=5",
     "publisher": "TKer by Sam Ro",
     "summary": [
-      "주식시장과 실물경제는 서로 다릅니다.",
-      "경제 지표와 주가 움직임은 일치하지 않습니다.",
-      "시장을 볼 때 경제와 구분해서 봐야 합니다."
+      "주식 시장과 실물 경제는 동일하지 않습니다.",
+      "증권 시장의 움직임은 경제와 다를 수 있습니다.",
+      "투자 시 경제와 주가를 구분해 봐야 합니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -59,8 +59,8 @@
     "publisher": "Reuters",
     "summary": [
       "AI 중심 미국 주식 시장이 4주년을 앞두고 있습니다.",
-      "인공지능 테마가 지속적으로 증시 상승을 견인했습니다.",
-      "로이터 통신이 최근 미국 증시의 강세장을 조명했습니다."
+      "인공지능 테마가 증시 강세장을 지속적으로 견인 중입니다.",
+      "로이터 통신이 미국 증시의 AI 랠리 장세를 조명했습니다."
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -72,7 +72,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGVpQWRLR19SM1hhdGdPN2RwTXl0LWhrVU5TRUpvc0ltbEhjazZObHpMRGx0NVBydTZldHlTYTNCV0RKUUY2R1YwUEFqWXdTNkxtS0FJbUkwLXh4NGRpeUhmZlNNVU52TzM0OW1vUFRpZUJmLVFCSU1ySlpLVHBPWGRyT2FLWENwNXg5cEN2c2JRVFJRMDF3akJuUVVENHpHczhzX3B0dm_SAa4BQVVfeXFMUHZJa1dVeDE2cGhpZXlYUGRGbjZzbWdZMjl0VzdWSmZFbzFKYjVvWmd3b0pZVEdEU3J5ckpyQ0ZDQTR3ODJybFB0S2VjMmg4QlpqWmFQNW9Pc0t5eDF0NlNFMkl6UDdGbUV4aDhNVm1Rd3B1cEhBNFpLMWx2VE1nZlVUejRZVjFkV3gtbFRrV1ZoUjZNSmxYcjdmZHZ5VGZyWFYyeWdvWFJBem5mTjl3?oc=5",
     "publisher": "Al Jazeera",
     "summary": [
-      "미국 주식 시장이 사상 최고치를 경신함",
+      "미국 주식시장이 사상 최고치를 경신함",
       "투자자들의 인공지능(AI) 낙관론이 지속됨",
       "알자지라 등 주요 매체에서 이를 보도함"
     ],
