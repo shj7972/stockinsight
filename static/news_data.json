@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "빚을 내 투자하는 '빚투' 열풍 심화",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "사흘 만에 신용대출 1조 원 증가",
+      "투자 목적의 '빚투' 열풍 확산",
+      "주택담보대출 금리는 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리가 3.00%로 결정되었습니다.",
-      "연속 금리 인상인 '백투백' 인상이 현실화되었습니다.",
-      "서울신문에서 관련 소식을 속보로 보도했습니다."
+      "한국은행 기준금리 3.00%로 결정",
+      "연속 금리 인상인 백투백 인상 현실화",
+      "통화 긴축 기조 지속에 따른 시장 영향 주목"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -31,11 +31,11 @@
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "현재의 주가 강세가 과연 이유 있는 상승인지 분석함",
-      "한겨레를 통해 증시의 향방과 배경에 대한 관심이 집중됨"
+      "이번 주가 상승세가 이유 있는 강세인지 분석이 제기됨",
+      "향후 증시의 지속 가능성과 배경에 관심이 집중됨"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -44,23 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlVaaGszXzJ0LTVhOEk1bHlBT3dvRkRTWVFfS1NKWmt5Z0xsN3NTUTM4MEJzelMwYmYzcjJxNFBLZThJeDJDUHFKZEJteGcwc1lDOURCTDdiN3lrbDVwaTM5dUxiMVQ0T0JXeDdLdFMzLWFIemgxU3FsUzBvR1d6U25qWC1kTy1udTFWVzFKSkp5Zw?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "미국 주식과 채권 금리가 동반 상승 중입니다.",
-      "두 자산의 동시 상승 배경에 관심이 쏠립니다.",
-      "모닝스타가 이 현상의 원인을 분석했습니다."
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "The Stock Market Is Not The Economy - Benzinga",
-    "original_title": "The Stock Market Is Not The Economy - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVl9Wc2EtcUxLWXJ1VG5NSTJsUFJabkw1cHFicnpDZzhiVENoMGdNUEFiNXNXRGo1ZGNxay1nc213OExRRGJTYjM5MVpWZXpfYl9kN3NKalE4TmNZVG1QbGdTMk83clBPSC1mZGtYUEVoR2FBUWFtaWFTQUJXRDVYVVpkUnpPWXRlaVow?oc=5",
-    "publisher": "Benzinga",
-    "summary": [
-      "주식시장과 실물경제는 서로 다름",
-      "주가 상승이 경제 호황을 의미 안 함",
-      "시장과 경제의 괴리 현상 지적"
+      "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
+      "상승세의 원인과 배경에 대한 시장의 분석 필요",
+      "투자자들에게 새로운 자산 배분 전략 요구됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -72,9 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 주식시장이 지나치게 편중되어 있는지 분석",
-      "미국 경제의 구조적 폭넓음에 대한 의문 제기",
-      "증시와 실제 경제 상황의 상관관계 고찰"
+      "미국 주식시장의 편중 현상 분석",
+      "경제 전반의 건전성과 시장 비교",
+      "소수 대형주 중심 성장의 지속성"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "type": "해외"
+  },
+  {
+    "title": "The Stock Market Is Not The Economy - Benzinga",
+    "original_title": "The Stock Market Is Not The Economy - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVl9Wc2EtcUxLWXJ1VG5NSTJsUFJabkw1cHFicnpDZzhiVENoMGdNUEFiNXNXRGo1ZGNxay1nc213OExRRGJTYjM5MVpWZXpfYl9kN3NKalE4TmNZVG1QbGdTMk83clBPSC1mZGtYUEVoR2FBUWFtaWFTQUJXRDVYVVpkUnpPWXRlaVow?oc=5",
+    "publisher": "Benzinga",
+    "summary": [
+      "주식시장과 실물경제는 다릅니다.",
+      "벤징가에서 보도한 금융 분석 기사입니다.",
+      "경제 지표와 증시를 분리해 봐야 합니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
