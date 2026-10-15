@@ -1,15 +1,28 @@
 [
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "title": "AI 거품론, ‘닷컴 버블’ 재림인가…코스피, 7거래일 연속·총 20.7% 폭락 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조 원 증가",
-      "투자 목적의 '빚투' 열풍 확산",
-      "주택담보대출 금리는 최고 7.3% 기록"
+      "AI 거품론으로 인한 닷컴 버블 우려 확산",
+      "코스피 지수가 7거래일 연속 하락세 기록",
+      "총 20.7%의 급격한 폭락 장세 연출"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.1,
+    "type": "국내"
+  },
+  {
+    "title": "SK, 솔리다임 중복상장 따져보니…총수는 이득, 주주는 손해 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "SK의 솔리다임 중복 상장 추진 논란",
+      "총수 일가는 이득을 보는 구조임",
+      "일반 주주들은 손해를 볼 우려가 큼"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,39 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 3.00%로 결정",
-      "연속 금리 인상인 백투백 인상 현실화",
-      "통화 긴축 기조 지속에 따른 시장 영향 주목"
+      "한국은행 기준금리가 3.00%로 결정되었습니다.",
+      "'백투백' 금리 인상이 현실화되었습니다.",
+      "통화 긴축 기조가 지속되고 있습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
-    "publisher": "한겨레",
+    "title": "Tech market sell-off deepens amid fears over US inflation and AI debt - The Guardian",
+    "original_title": "Tech market sell-off deepens amid fears over US inflation and AI debt - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORElLSHBNa1VvRjk5dmRWaE5HR21Hd3JwY0tBX19SRUpOOTZTd2RlV2tDN3RVa1lPd0NZU2tUQVBCMWxtclJpeE5jZzlYNUtGaXdIeFFBR0xsSmVVQ1lreURiLTFOcjN6eTZHZzdmM19aNzZUSHB1dGFlcFlVX0gxckN6NDFMemNnbnZWOVVBYTFMZDl4QWI2cFFUQ2JpckFqSVk5eTU2cU9wcHpBQnZaQTVRYVZSTFhVbVE?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "이번 주가 상승세가 이유 있는 강세인지 분석이 제기됨",
-      "향후 증시의 지속 가능성과 배경에 관심이 집중됨"
+      "미국 인플레이션 우려로 테크주 매도세 심화",
+      "AI 관련 부채 우려가 기술 시장 하락 유도",
+      "가디언지가 전한 글로벌 기술주 시장 불안"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
-    "type": "국내"
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
+    "type": "해외"
   },
   {
-    "title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "original_title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlVaaGszXzJ0LTVhOEk1bHlBT3dvRkRTWVFfS1NKWmt5Z0xsN3NTUTM4MEJzelMwYmYzcjJxNFBLZThJeDJDUHFKZEJteGcwc1lDOURCTDdiN3lrbDVwaTM5dUxiMVQ0T0JXeDdLdFMzLWFIemgxU3FsUzBvR1d6U25qWC1kTy1udTFWVzFKSkp5Zw?oc=5",
-    "publisher": "Morningstar",
+    "title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
+    "original_title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
-      "상승세의 원인과 배경에 대한 시장의 분석 필요",
-      "투자자들에게 새로운 자산 배분 전략 요구됨"
+      "월스트리트에서 미국 경제 취약성 우려가 확산됨",
+      "견조해 보이던 경제가 실제로는 더 취약할 수 있음",
+      "향후 시장 전망에 대한 경계감이 커지고 있음"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,23 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 주식시장의 편중 현상 분석",
-      "경제 전반의 건전성과 시장 비교",
-      "소수 대형주 중심 성장의 지속성"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "type": "해외"
-  },
-  {
-    "title": "The Stock Market Is Not The Economy - Benzinga",
-    "original_title": "The Stock Market Is Not The Economy - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVl9Wc2EtcUxLWXJ1VG5NSTJsUFJabkw1cHFicnpDZzhiVENoMGdNUEFiNXNXRGo1ZGNxay1nc213OExRRGJTYjM5MVpWZXpfYl9kN3NKalE4TmNZVG1QbGdTMk83clBPSC1mZGtYUEVoR2FBUWFtaWFTQUJXRDVYVVpkUnpPWXRlaVow?oc=5",
-    "publisher": "Benzinga",
-    "summary": [
-      "주식시장과 실물경제는 다릅니다.",
-      "벤징가에서 보도한 금융 분석 기사입니다.",
-      "경제 지표와 증시를 분리해 봐야 합니다."
+      "미국 주식시장이 지나치게 편중되어 있는지 분석",
+      "미국 경제의 구조적 폭과 주식시장 비교",
+      "시장 집중도가 실제 경제 상황을 대변하는가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
