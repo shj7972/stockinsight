@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론으로 인한 닷컴 버블 우려 확산",
-      "코스피 지수가 7거래일 연속 하락세 기록",
-      "총 20.7%의 급격한 폭락 장세 연출"
+      "AI 거품론 확산으로 시장 우려 증대",
+      "닷컴 버블 재림 우려가 투자 심리 악화",
+      "코스피 7거래일 연속 하락해 20.7% 폭락"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": -0.9,
     "type": "국내"
   },
   {
@@ -17,39 +17,39 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "SK의 솔리다임 중복 상장 추진 논란",
-      "총수 일가는 이득을 보는 구조임",
-      "일반 주주들은 손해를 볼 우려가 큼"
+      "SK 솔리다임 중복상장 논란 발생",
+      "총수일가는 이득을 얻는 구조",
+      "일반 주주들은 손해를 보는 구조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "title": "[속보] 한국은행 기준금리 0.25%P 인상…3년 6개월 만 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리가 3.00%로 결정되었습니다.",
-      "'백투백' 금리 인상이 현실화되었습니다.",
-      "통화 긴축 기조가 지속되고 있습니다."
+      "한국은행 기준금리 0.25%P 인상 단행",
+      "기준금리 인상은 3년 6개월 만에 이루어짐",
+      "통화 긴축 기조 지속에 대한 시장 관심 집중"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "Tech market sell-off deepens amid fears over US inflation and AI debt - The Guardian",
-    "original_title": "Tech market sell-off deepens amid fears over US inflation and AI debt - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORElLSHBNa1VvRjk5dmRWaE5HR21Hd3JwY0tBX19SRUpOOTZTd2RlV2tDN3RVa1lPd0NZU2tUQVBCMWxtclJpeE5jZzlYNUtGaXdIeFFBR0xsSmVVQ1lreURiLTFOcjN6eTZHZzdmM19aNzZUSHB1dGFlcFlVX0gxckN6NDFMemNnbnZWOVVBYTFMZDl4QWI2cFFUQ2JpckFqSVk5eTU2cU9wcHpBQnZaQTVRYVZSTFhVbVE?oc=5",
-    "publisher": "The Guardian",
+    "title": "Cracks are beginning to show in the stock market as doubts about AI investments grow - NBC News",
+    "original_title": "Cracks are beginning to show in the stock market as doubts about AI investments grow - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
+    "publisher": "NBC News",
     "summary": [
-      "미국 인플레이션 우려로 테크주 매도세 심화",
-      "AI 관련 부채 우려가 기술 시장 하락 유도",
-      "가디언지가 전한 글로벌 기술주 시장 불안"
+      "AI 투자 의구심으로 주식시장에 균열 조짐이 보임",
+      "NBC 뉴스는 AI 관련 투자 우려를 집중 보도함",
+      "증시 내 AI 열풍에 대한 회의론이 확산되는 중임"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,23 +58,23 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "월스트리트에서 미국 경제 취약성 우려가 확산됨",
-      "견조해 보이던 경제가 실제로는 더 취약할 수 있음",
-      "향후 시장 전망에 대한 경계감이 커지고 있음"
+      "월스트리트에서 미국 경제 취약성 우려가 커지고 있음",
+      "겉보기와 달리 미국 경제가 위험에 노출된 상태임",
+      "시장 전문가들이 향후 경제 상황을 불안하게 전망함"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Is the US economy as narrow as its stock market? - Financial Times",
-    "original_title": "Is the US economy as narrow as its stock market? - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
-    "publisher": "Financial Times",
+    "title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
+    "original_title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlVaaGszXzJ0LTVhOEk1bHlBT3dvRkRTWVFfS1NKWmt5Z0xsN3NTUTM4MEJzelMwYmYzcjJxNFBLZThJeDJDUHFKZEJteGcwc1lDOURCTDdiN3lrbDVwaTM5dUxiMVQ0T0JXeDdLdFMzLWFIemgxU3FsUzBvR1d6U25qWC1kTy1udTFWVzFKSkp5Zw?oc=5",
+    "publisher": "Morningstar",
     "summary": [
-      "미국 주식시장이 지나치게 편중되어 있는지 분석",
-      "미국 경제의 구조적 폭과 주식시장 비교",
-      "시장 집중도가 실제 경제 상황을 대변하는가"
+      "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
+      "금리 상승 배경과 시장에 미치는 영향 분석 필요",
+      "투자자들의 자산 배분 전략 변화 가능성 대두"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
