@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론 확산으로 시장 우려 증대",
-      "닷컴 버블 재림 우려가 투자 심리 악화",
-      "코스피 7거래일 연속 하락해 20.7% 폭락"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "SK 솔리다임 중복상장 논란 발생",
-      "총수일가는 이득을 얻는 구조",
-      "일반 주주들은 손해를 보는 구조"
+      "SK의 솔리다임 중복상장 논란 발생",
+      "총수에게는 이익이나 주주에게는 손해",
+      "일반 주주 권익 침해 우려 제기됨"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 0.25%P 인상…3년 6개월 만 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 0.25%P 인상 단행",
-      "기준금리 인상은 3년 6개월 만에 이루어짐",
-      "통화 긴축 기조 지속에 대한 시장 관심 집중"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -44,40 +44,40 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "AI 투자 의구심으로 주식시장에 균열 조짐이 보임",
-      "NBC 뉴스는 AI 관련 투자 우려를 집중 보도함",
-      "증시 내 AI 열풍에 대한 회의론이 확산되는 중임"
+      "AI 투자 회의론으로 증시에 균열 발생",
+      "주식 시장에서 AI 관련 우려 확산",
+      "투자자들의 AI 투자 수익성 의문 증가"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
-    "original_title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
-    "publisher": "Fortune",
+    "title": "Fed's Warsh sees US economic tailwinds, mum on rate-path view - Yahoo Finance",
+    "original_title": "Fed's Warsh sees US economic tailwinds, mum on rate-path view - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPemNtU3Jvcm41VWJOb1FWWXh3MzlCeUdDNTlZaklWa0RPeFlJLXhxcXBESUY4OW9naXc2a05KNlF1VUFUNFFkcjZZZ1loQ3NialpnMW5mdTdWRUdLZEN6TVNkN29aVHB3eEhqT3YtQl9ncHpOM25hcUstMU5KX1hKWHhxZ0RXaDRRMzROWTZnbnRBRlk?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "월스트리트에서 미국 경제 취약성 우려가 커지고 있음",
-      "겉보기와 달리 미국 경제가 위험에 노출된 상태임",
-      "시장 전문가들이 향후 경제 상황을 불안하게 전망함"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "original_title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlVaaGszXzJ0LTVhOEk1bHlBT3dvRkRTWVFfS1NKWmt5Z0xsN3NTUTM4MEJzelMwYmYzcjJxNFBLZThJeDJDUHFKZEJteGcwc1lDOURCTDdiN3lrbDVwaTM5dUxiMVQ0T0JXeDdLdFMzLWFIemgxU3FsUzBvR1d6U25qWC1kTy1udTFWVzFKSkp5Zw?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
-      "금리 상승 배경과 시장에 미치는 영향 분석 필요",
-      "투자자들의 자산 배분 전략 변화 가능성 대두"
+      "연준의 워시, 미국 경제의 순풍 관측",
+      "금리 인하 경로에 대해서는 언급 회피",
+      "야후 파이낸스 관련 경제 뉴스 보도"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Is the US economy as narrow as its stock market? - Financial Times",
+    "original_title": "Is the US economy as narrow as its stock market? - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
+    "publisher": "Financial Times",
+    "summary": [
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
+    ],
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "해외"
   }
 ]
