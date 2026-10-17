@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론 확산으로 시장 우려 증대",
-      "닷컴 버블 재림에 대한 불안감 고조",
-      "코스피 7거래일 연속 총 20.7% 폭락"
+      "AI 거품론으로 인한 시장 불안감 확산",
+      "코스피 7거래일 연속 하락세 기록",
+      "총 20.7% 폭락하며 닷컴 버블 재림 우려"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -18,24 +18,24 @@
     "publisher": "한겨레",
     "summary": [
       "SK 솔리다임 중복상장 논란 발생",
-      "총수 일가는 이득을 얻는 구조",
-      "일반 주주들은 손해를 보는 구조"
+      "총수 일가에는 이익이 되는 구조",
+      "일반 주주들에게는 손해라는 분석"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
-    "publisher": "서울신문",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "한국은행이 기준금리를 3.00%로 결정함",
-      "연속 금리 인상인 '백투백' 인상이 현실화됨",
-      "통화 긴축 기조가 지속되는 모습을 보임"
+      "한중일 재무장관이 중동 전쟁의 경제적 위험성에 공감함",
+      "하방 경제 압력 리스크에 대해 한목소리를 냄",
+      "경제 안정을 위한 3국 간의 긴밀한 공조를 강조함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "증시에서 AI 투자 우려로 균열 발생",
-      "인공지능 투자 열풍에 대한 회의론 대두",
-      "주식 시장의 불안정한 조짐 확산"
+      "AI 투자에 대한 의구심이 커지고 있습니다",
+      "주식 시장에 균열 조짐이 나타나고 있습니다",
+      "NBC 뉴스가 시장의 불안 요인을 보도했습니다"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
-    "original_title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaC1kZ3BadTRtNzZPdmw0UzNSSHNNTHh3cGltTWJvQ0hHanZaeWhoTDFrSG5GdnNkU2NRamJ3OXF6VVVtdDRncGJtdnpKemJQeHpqbTZFaFVOMUgtOFhNYnU5UFlFbTdtUWZ0SGhMVEtZVnYtMHFQTUlCZG5yN2txMnJjTklQWWtrYTFkS1JTeGRqNkNMa2Vra19qYk5XVzZ2V3pjZnczVERFb0pOOTFaQzZmaThwQ0RSRXM1VA?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "IMF 총재, AI와 전쟁 위험 대응 위한 협력 촉구",
-      "미국 경제의 강력한 성장 모멘텀에 긍정적 평가",
-      "글로벌 경제 안정을 위한 국제적 공조 필요성 강조"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 경제가 주식시장처럼 편중되어 있는지 의문 제기",
-      "소수 대형주 중심의 시장 집중도가 실물 경제와 유사한가",
-      "파이낸셜타임스가 보도한 미 경제 구조에 대한 분석"
+      "미국 주식시장의 편중 현상에 대한 의문 제기",
+      "주식시장과 실제 경제 상황의 괴리 분석",
+      "소수 종목 집중이 경제 전체를 대변하는지 고찰"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
+    "original_title": "Suddenly, Wall Street is worried that the U.S. economy is more ‘vulnerable’ than it looks - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjBoMGROS1lUT0Zfc3Y1YVRzcVJyUmVPaDZ2dHd5U25ZZUtfNzNHOXVTaUN0UVNEcEpLNm5neGowdTJjNE5YVEplaTVPT3lBTlpSUG1CdGs5WHduU2ZpdkQ3aWxWeUFvUTVoZHFjeS1nRC1HVDJyTUIwSm9pYWdEU3RiMGVWbTk2ZURXZWFCbkJKeHREQko0dE5ZQUVPcElvTjhyZlRUdmlhM0xDTHU0QklrNHBUemZX?oc=5",
+    "publisher": "Fortune",
+    "summary": [
+      "월스트리트가 미국 경제의 취약성에 대해 우려하고 있음",
+      "겉보기와 달리 경제가 예상보다 더 위험할 수 있다는 분석",
+      "금융 시장에서 경제 전망에 대한 불안감이 확산되는 중"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
