@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론으로 인한 시장 불안감 확산",
+      "AI 거품론과 닷컴 버블 우려 대두",
       "코스피 7거래일 연속 하락세 기록",
-      "총 20.7% 폭락하며 닷컴 버블 재림 우려"
+      "지수 총 20.7% 폭락하며 큰 충격"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "SK 솔리다임 중복상장 논란 발생",
-      "총수 일가에는 이익이 되는 구조",
-      "일반 주주들에게는 손해라는 분석"
+      "SK의 솔리다임 중복상장 추진 분석",
+      "총수 일가는 이득을 얻는 구조임",
+      "일반 주주들은 손해를 볼 우려가 큼"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 중동 전쟁의 경제적 위험성에 공감함",
-      "하방 경제 압력 리스크에 대해 한목소리를 냄",
-      "경제 안정을 위한 3국 간의 긴밀한 공조를 강조함"
+      "한중일 재무장관이 한목소리를 냄",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "경제 리스크 대응 공조 방안 논의"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.3,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
     "publisher": "NBC News",
     "summary": [
-      "AI 투자에 대한 의구심이 커지고 있습니다",
-      "주식 시장에 균열 조짐이 나타나고 있습니다",
-      "NBC 뉴스가 시장의 불안 요인을 보도했습니다"
+      "AI 투자 회의론으로 주식 시장에 균열이 생기고 있음",
+      "인공지능 관련 과잉 투자에 대한 우려가 확산되는 중",
+      "NBC 뉴스가 전하는 최근 주식 시장의 불안한 동향"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5",
     "publisher": "Financial Times",
     "summary": [
-      "미국 주식시장의 편중 현상에 대한 의문 제기",
-      "주식시장과 실제 경제 상황의 괴리 분석",
-      "소수 종목 집중이 경제 전체를 대변하는지 고찰"
+      "미국 경제가 증시처럼 좁은 구조인지 분석",
+      "파이낸셜타임스가 제기한 시장 집중도 의문",
+      "증시와 실물 경제의 상관관계 평가"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -74,10 +74,10 @@
     "summary": [
       "월스트리트가 미국 경제의 취약성에 대해 우려하고 있음",
       "겉보기와 달리 경제가 예상보다 더 위험할 수 있다는 분석",
-      "금융 시장에서 경제 전망에 대한 불안감이 확산되는 중"
+      "시장에서 미국 경제 하락 가능성에 대한 경계감 확산"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "해외"
   }
 ]
