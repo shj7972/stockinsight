@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론과 닷컴 버블 재림 우려 확산",
-      "코스피 지수 7거래일 연속 하락세 기록",
-      "지수 총 20.7% 폭락으로 시장 충격"
+      "AI 거품론으로 인한 시장 불안감 확산",
+      "코스피 지수가 7거래일 연속으로 하락",
+      "고점 대비 총 20.7% 폭락 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.9,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 논의"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,26 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "SK 솔리다임 중복상장 논란 발생",
+      "총수 일가는 이득을 얻는 구조",
+      "일반 주주들은 손해를 보는 상황"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
-    "title": "Cracks are beginning to show in the stock market as doubts about AI investments grow - NBC News",
-    "original_title": "Cracks are beginning to show in the stock market as doubts about AI investments grow - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
-    "publisher": "NBC News",
+    "title": "A small group of AI companies are creating a lopsided US economy - ABC News & Headlines – Australian Broadcasting Corporation",
+    "original_title": "A small group of AI companies are creating a lopsided US economy - ABC News & Headlines – Australian Broadcasting Corporation",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkZ2aU5Ub216UFRkTHRZVndfX1NSVUNicjBGYkt0QzlCcGE3MEFjeXd2VUs5TVQwMGg1NHZWalc4SUtBRlJzOWthUEM2Zm12YlJSTTk0b0QzV2Nocl9ndDdBLWV6aktlSXRsNFB0Vk1PSmVLd2VTNFoyWHR6VkdxeXFsVDh5WlVDaklz?oc=5",
+    "publisher": "ABC News & Headlines – Australian Broadcasting Corporation",
     "summary": [
-      "AI 투자 회의론으로 증시에 균열 발생",
-      "주식 시장에서 AI 관련 우려 확산 중",
-      "인공지능 투자에 대한 의구심 증가"
+      "소수 AI 기업이 미국 경제를 왜곡하고 있음",
+      "AI 산업 집중으로 경제 불균형 심화",
+      "일부 대형 기업 중심의 경제 구조 형성"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
+    "original_title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaC1kZ3BadTRtNzZPdmw0UzNSSHNNTHh3cGltTWJvQ0hHanZaeWhoTDFrSG5GdnNkU2NRamJ3OXF6VVVtdDRncGJtdnpKemJQeHpqbTZFaFVOMUgtOFhNYnU5UFlFbTdtUWZ0SGhMVEtZVnYtMHFQTUlCZG5yN2txMnJjTklQWWtrYTFkS1JTeGRqNkNMa2Vra19qYk5XVzZ2V3pjZnczVERFb0pOOTFaQzZmaThwQ0RSRXM1VA?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "IMF 총재, AI와 전쟁 위험 대응 협력 촉구",
+      "미국 경제의 강력한 모멘텀에 대한 기대감 표명",
+      "글로벌 경제 안정을 위한 국제 공조 강조"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -59,25 +73,11 @@
     "publisher": "Morningstar",
     "summary": [
       "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
-      "금리 상승과 증시 강세의 동반 배경에 대한 분석",
-      "투자자들 사이에서 거시경제 향방에 대한 관심 집중"
+      "금리 동반 상승의 원인과 배경 분석 필요",
+      "투자자들에게 혼란을 주는 시장 상황 지속"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "AI-centered US stock bull market nears four-year anniversary - Reuters",
-    "original_title": "AI-centered US stock bull market nears four-year anniversary - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
-    ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
     "type": "해외"
   }
 ]
