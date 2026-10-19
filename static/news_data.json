@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "AI 거품론으로 인한 시장 불안감 확산",
-      "코스피 지수가 7거래일 연속으로 하락",
-      "고점 대비 총 20.7% 폭락 기록"
+      "코스피 7거래일 연속 하락세 기록",
+      "총 20.7% 폭락하며 닷컴 버블 우려 제기"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크에 대한 공동 대응을 논의했습니다."
+      "한·중·일 재무장관 회의 개최",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "3국 간 경제 리스크 공동 대응 공감대 형성"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -32,24 +32,38 @@
     "summary": [
       "SK 솔리다임 중복상장 논란 발생",
       "총수 일가는 이득을 얻는 구조",
-      "일반 주주들은 손해를 보는 상황"
+      "일반 주주들은 손해를 입는 양상"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "A small group of AI companies are creating a lopsided US economy - ABC News & Headlines – Australian Broadcasting Corporation",
-    "original_title": "A small group of AI companies are creating a lopsided US economy - ABC News & Headlines – Australian Broadcasting Corporation",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkZ2aU5Ub216UFRkTHRZVndfX1NSVUNicjBGYkt0QzlCcGE3MEFjeXd2VUs5TVQwMGg1NHZWalc4SUtBRlJzOWthUEM2Zm12YlJSTTk0b0QzV2Nocl9ndDdBLWV6aktlSXRsNFB0Vk1PSmVLd2VTNFoyWHR6VkdxeXFsVDh5WlVDaklz?oc=5",
-    "publisher": "ABC News & Headlines – Australian Broadcasting Corporation",
+    "title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
+    "original_title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTkxY2UxQ1F2UE5NX1EwMV91Sy1ma1loNnRXVzdoZTQ5T3ZvWElVVml0QUFRSUZQRkxiMUtjUVAyOTRJaEw2bzFIX0JTYmVxWUpJMzFySVhobDVSOUNVcUdzS0R0RnBLcHNzV0xoMFVmeU5EdU53MUE3V2V6aXhVeUt2VXpCdlhudjRPYkpYOFVYdm1ELVlLR2ZPRV9JUQ?oc=5",
+    "publisher": "Business Insider",
     "summary": [
-      "소수 AI 기업이 미국 경제를 왜곡하고 있음",
-      "AI 산업 집중으로 경제 불균형 심화",
-      "일부 대형 기업 중심의 경제 구조 형성"
+      "골드만삭스, 방어주 23개 선정",
+      "경제 성장 둔화 및 강세장 난항 직면",
+      "시장 불안 속 방어적 투자 전략 제안"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
+    "type": "해외"
+  },
+  {
+    "title": "Why Canadian investors should worry about the Jekyll-and-Hyde U.S. economy - Financial Post",
+    "original_title": "Why Canadian investors should worry about the Jekyll-and-Hyde U.S. economy - Financial Post",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeGszRWlza09PUHJ4ZDRaV0ZVU0lFX0VGZktJV25ESFlzanRTQWQzQUF1MU9teUR5RlptWERhUVViakRScVJiOTZwU0pNdG03bnMtbV85cnN0aE8xOVR0cFg0d3JFTWtTQkNtdDFpMkpCVFBJREJkZWQyWldDbXNvZkpYeFhTcUtNU0E?oc=5",
+    "publisher": "Financial Post",
+    "summary": [
+      "미국 경제의 양면성이 캐나다 투자자들에게 우려를 줌",
+      "지킬 앤 하이드 같은 미국 경제의 혼란스러운 상황",
+      "캐나다 투자자가 주목해야 할 미국 시장의 변동성"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaC1kZ3BadTRtNzZPdmw0UzNSSHNNTHh3cGltTWJvQ0hHanZaeWhoTDFrSG5GdnNkU2NRamJ3OXF6VVVtdDRncGJtdnpKemJQeHpqbTZFaFVOMUgtOFhNYnU5UFlFbTdtUWZ0SGhMVEtZVnYtMHFQTUlCZG5yN2txMnJjTklQWWtrYTFkS1JTeGRqNkNMa2Vra19qYk5XVzZ2V3pjZnczVERFb0pOOTFaQzZmaThwQ0RSRXM1VA?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "IMF 총재, AI와 전쟁 위험 대응 협력 촉구",
-      "미국 경제의 강력한 모멘텀에 대한 기대감 표명",
-      "글로벌 경제 안정을 위한 국제 공조 강조"
+      "IMF 총재가 AI와 전쟁 위험에 대한 협력을 촉구함",
+      "미국 경제의 강력한 모멘텀이 긍정적으로 평가됨",
+      "글로벌 경제 리스크 속에서 국제 공조 강조"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "original_title": "Why Are US Stock and Bond Yields Rising at the Same Time? - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcGhHbDdZeWF5S3Bxa1VnamcxZFJPc21FRzZHX3ZmQm9wSGpmSWRMOE93UXBhWktMOHZwNTdOaW42XzNfYzd0Y3hvYm1tQjZDMWJDbjJmLUlaSkl3Z29QYTJvemJwSVJ0QkJSN3gxYk1KYlZMbFowa3dMd1cxT2U3Tzk3QTNaX1FUYV9QMTRCeUl2Zw?oc=5",
-    "publisher": "Morningstar",
-    "summary": [
-      "미국 주식과 채권 금리가 동시에 상승하는 현상 발생",
-      "금리 동반 상승의 원인과 배경 분석 필요",
-      "투자자들에게 혼란을 주는 시장 상황 지속"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.6,
     "type": "해외"
   }
 ]
