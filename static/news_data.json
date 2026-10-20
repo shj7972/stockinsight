@@ -5,11 +5,11 @@
     "publisher": "한겨레",
     "summary": [
       "AI 거품론으로 인한 시장 불안감 확산",
-      "코스피 7거래일 연속 하락세 기록",
-      "총 20.7% 폭락하며 닷컴 버블 우려 제기"
+      "코스피 7거래일 연속으로 큰 폭 하락",
+      "닷컴 버블 재림 우려로 총 20.7% 폭락"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": -0.95,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 회의 개최",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "3국 간 경제 리스크 공동 대응 공감대 형성"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크 대응을 위해 긴밀히 공조하기로 했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -32,24 +32,38 @@
     "summary": [
       "SK 솔리다임 중복상장 논란 발생",
       "총수 일가는 이득을 얻는 구조",
-      "일반 주주들은 손해를 입는 양상"
+      "일반 주주들은 손해를 보는 상황"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
-    "title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
-    "original_title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
+    "title": "Are we there yet? Bull market may have more miles - Invesco",
+    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
+    "publisher": "Invesco",
+    "summary": [
+      "인베스코, 현재 강세장이 더 지속될 것으로 전망",
+      "투자자들 사이에서 강세장 지속 여부에 대한 관심 집중",
+      "시장 상승세가 아직 끝나지 않았다는 분석 제기"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
+    "type": "해외"
+  },
+  {
+    "title": "Goldman Sachs says buy these 23 defensive stocks as the economy and bull market struggle - Business Insider",
+    "original_title": "Goldman Sachs says buy these 23 defensive stocks as the economy and bull market struggle - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTkxY2UxQ1F2UE5NX1EwMV91Sy1ma1loNnRXVzdoZTQ5T3ZvWElVVml0QUFRSUZQRkxiMUtjUVAyOTRJaEw2bzFIX0JTYmVxWUpJMzFySVhobDVSOUNVcUdzS0R0RnBLcHNzV0xoMFVmeU5EdU53MUE3V2V6aXhVeUt2VXpCdlhudjRPYkpYOFVYdm1ELVlLR2ZPRV9JUQ?oc=5",
     "publisher": "Business Insider",
     "summary": [
-      "골드만삭스, 방어주 23개 선정",
-      "경제 성장 둔화 및 강세장 난항 직면",
-      "시장 불안 속 방어적 투자 전략 제안"
+      "골드만삭스가 방어주 23개 매수를 추천했습니다.",
+      "현재 경제와 강세장이 어려움을 겪고 있습니다.",
+      "시장 불확실성에 대비한 투자 전략입니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": 0.3,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeGszRWlza09PUHJ4ZDRaV0ZVU0lFX0VGZktJV25ESFlzanRTQWQzQUF1MU9teUR5RlptWERhUVViakRScVJiOTZwU0pNdG03bnMtbV85cnN0aE8xOVR0cFg0d3JFTWtTQkNtdDFpMkpCVFBJREJkZWQyWldDbXNvZkpYeFhTcUtNU0E?oc=5",
     "publisher": "Financial Post",
     "summary": [
-      "미국 경제의 양면성이 캐나다 투자자들에게 우려를 줌",
-      "지킬 앤 하이드 같은 미국 경제의 혼란스러운 상황",
-      "캐나다 투자자가 주목해야 할 미국 시장의 변동성"
+      "미국 경제의 이중적 모습이 캐나다 투자자들에게 우려를 줌",
+      "지킬 앤 하이드 같은 미국 경제 상황에 대한 분석 필요",
+      "캐나다 금융 시장에 미치는 잠재적 위험 요인 점검 시급"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
-    "original_title": "IMF chief urges cooperation on AI and war risks, as US hails economic momentum - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaC1kZ3BadTRtNzZPdmw0UzNSSHNNTHh3cGltTWJvQ0hHanZaeWhoTDFrSG5GdnNkU2NRamJ3OXF6VVVtdDRncGJtdnpKemJQeHpqbTZFaFVOMUgtOFhNYnU5UFlFbTdtUWZ0SGhMVEtZVnYtMHFQTUlCZG5yN2txMnJjTklQWWtrYTFkS1JTeGRqNkNMa2Vra19qYk5XVzZ2V3pjZnczVERFb0pOOTFaQzZmaThwQ0RSRXM1VA?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "IMF 총재가 AI와 전쟁 위험에 대한 협력을 촉구함",
-      "미국 경제의 강력한 모멘텀이 긍정적으로 평가됨",
-      "글로벌 경제 리스크 속에서 국제 공조 강조"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.6,
+    "sentiment_score": 0.3,
     "type": "해외"
   }
 ]
