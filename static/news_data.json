@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론으로 인한 시장 불안감 확산",
-      "코스피 7거래일 연속으로 큰 폭 하락",
-      "닷컴 버블 재림 우려로 총 20.7% 폭락"
+      "AI 거품론으로 인한 닷컴 버블 우려 확산",
+      "코스피 지수 7거래일 연속 하락세 기록",
+      "총 20.7%의 급격한 폭락 장세 연출"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.95,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -17,26 +17,54 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크 대응을 위해 긴밀히 공조하기로 했습니다."
+      "한·중·일 재무장관 회의 개최",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "경제 리스크 대응을 위해 한목소리 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "SK, 솔리다임 중복상장 따져보니…총수는 이득, 주주는 손해 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
-    "publisher": "한겨레",
+    "title": "[속보] 한국은행 기준금리 0.25%P 인상…3년 6개월 만 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "SK 솔리다임 중복상장 논란 발생",
-      "총수 일가는 이득을 얻는 구조",
-      "일반 주주들은 손해를 보는 상황"
+      "한국은행 기준금리 0.25%P 인상 단행",
+      "금리 인상은 3년 6개월 만에 이루어짐",
+      "물가 안정 및 통화정책 정상화 조치"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
+    "original_title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTJjZlFNWXdfZ01zUTRBaVhuTExJREhXcDhoc0xSLWJJWDJ1dWtMN3BPbnpsZVNPZjNEOEFZR3lrc052WXkxcVVJOHB0ZDZ0RE5RaGxlcTFZWk9UcnRIUThtWHJWaEpDTTNnY3JxTzlGbVZhOXVKYXhCeXVtQktFUlN4X1BFbVl5NklhV3gtVmZFOEVIMW9VUUZlOWk3QTQ3QTVmVmlyMnY0NVJ1ZmFZ?oc=5",
+    "publisher": "CNBC",
+    "summary": [
+      "미국 주식시장이 K자형 양극화를 보이고 있음",
+      "중국 경제 역시 K자형 회복 양상을 나타냄",
+      "피터슨연구소 아담 포센의 경제 진단 내용"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Weekly market wrap - Edward Jones",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "에드워드 존스의 주간 시장 동향 보고서입니다.",
+      "한 주간의 글로벌 금융 시장 흐름을 요약했습니다.",
+      "주요 경제 지표와 증시 움직임을 다룹니다."
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
   },
   {
     "title": "Are we there yet? Bull market may have more miles - Invesco",
@@ -44,40 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
     "publisher": "Invesco",
     "summary": [
-      "인베스코, 현재 강세장이 더 지속될 것으로 전망",
-      "투자자들 사이에서 강세장 지속 여부에 대한 관심 집중",
-      "시장 상승세가 아직 끝나지 않았다는 분석 제기"
+      "인베스코, 현재 강세장이 더 지속될 것으로 전망함",
+      "추가적인 상승 여력이 남아있는 것으로 분석됨",
+      "시장 참여자들에게 긍정적인 투자 신호를 제공함"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "Goldman Sachs says buy these 23 defensive stocks as the economy and bull market struggle - Business Insider",
-    "original_title": "Goldman Sachs says buy these 23 defensive stocks as the economy and bull market struggle - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTkxY2UxQ1F2UE5NX1EwMV91Sy1ma1loNnRXVzdoZTQ5T3ZvWElVVml0QUFRSUZQRkxiMUtjUVAyOTRJaEw2bzFIX0JTYmVxWUpJMzFySVhobDVSOUNVcUdzS0R0RnBLcHNzV0xoMFVmeU5EdU53MUE3V2V6aXhVeUt2VXpCdlhudjRPYkpYOFVYdm1ELVlLR2ZPRV9JUQ?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "골드만삭스가 방어주 23개 매수를 추천했습니다.",
-      "현재 경제와 강세장이 어려움을 겪고 있습니다.",
-      "시장 불확실성에 대비한 투자 전략입니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
-    "type": "해외"
-  },
-  {
-    "title": "Why Canadian investors should worry about the Jekyll-and-Hyde U.S. economy - Financial Post",
-    "original_title": "Why Canadian investors should worry about the Jekyll-and-Hyde U.S. economy - Financial Post",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeGszRWlza09PUHJ4ZDRaV0ZVU0lFX0VGZktJV25ESFlzanRTQWQzQUF1MU9teUR5RlptWERhUVViakRScVJiOTZwU0pNdG03bnMtbV85cnN0aE8xOVR0cFg0d3JFTWtTQkNtdDFpMkpCVFBJREJkZWQyWldDbXNvZkpYeFhTcUtNU0E?oc=5",
-    "publisher": "Financial Post",
-    "summary": [
-      "미국 경제의 이중적 모습이 캐나다 투자자들에게 우려를 줌",
-      "지킬 앤 하이드 같은 미국 경제 상황에 대한 분석 필요",
-      "캐나다 금융 시장에 미치는 잠재적 위험 요인 점검 시급"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.85,
     "type": "해외"
   }
 ]
