@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론으로 인한 닷컴 버블 우려 확산",
-      "코스피 지수 7거래일 연속 하락세 기록",
-      "총 20.7%의 급격한 폭락 장세 연출"
+      "AI 거품론과 닷컴 버블 우려 확산",
+      "코스피 7거래일 연속 하락세 기록",
+      "지수 총 20.7% 폭락하며 큰 타격"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 회의 개최",
+      "한중일 재무장관 회의 개최",
       "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크 대응을 위해 한목소리 강조"
+      "경제 리스크 대응을 위한 한목소리 공조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 0.25%P 인상 단행",
-      "금리 인상은 3년 6개월 만에 이루어짐",
-      "물가 안정 및 통화정책 정상화 조치"
+      "한국은행 기준금리 0.25%P 인상",
+      "3년 6개월 만에 금리 인상 단행",
+      "통화정책 정상화 기조 본격화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "US Stock Futures Advance on AI Earnings Boost: Markets Wrap - Bloomberg.com",
+    "original_title": "US Stock Futures Advance on AI Earnings Boost: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRDhCbnUwbzFqRTZQb2ZQWmtIWGtBam9ENEc4ak5nNEktMm16NlA0TXJQalJpb1I0X1BDVG9rbVh1d0k1TGU0ZjRabE1IVVNCTmhRM19QQlYtdk9JYkVaQ0xRNXJXSldPenRydmpsczhmX3V6elA2Tmo4MWJrTXphQ0wyNnlDRVM2eGUzeF94MlZBN1NN?oc=5",
+    "publisher": "Bloomberg.com",
+    "summary": [
+      "미국 주가지수 선물이 상승세를 기록했습니다.",
+      "인공지능(AI) 관련 실적이 성장을 견인했습니다.",
+      "시장은 AI 실적 호조에 긍정적으로 반응했습니다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.85,
+    "type": "해외"
   },
   {
     "title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
@@ -44,26 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTJjZlFNWXdfZ01zUTRBaVhuTExJREhXcDhoc0xSLWJJWDJ1dWtMN3BPbnpsZVNPZjNEOEFZR3lrc052WXkxcVVJOHB0ZDZ0RE5RaGxlcTFZWk9UcnRIUThtWHJWaEpDTTNnY3JxTzlGbVZhOXVKYXhCeXVtQktFUlN4X1BFbVl5NklhV3gtVmZFOEVIMW9VUUZlOWk3QTQ3QTVmVmlyMnY0NVJ1ZmFZ?oc=5",
     "publisher": "CNBC",
     "summary": [
-      "미국 주식시장이 K자형 양극화를 보이고 있음",
-      "중국 경제 역시 K자형 회복 양상을 나타냄",
-      "피터슨연구소 아담 포센의 경제 진단 내용"
+      "미국 증시는 K자형 양극화 양상을 보임",
+      "중국 경제는 K자형 구조적 침체 진단",
+      "피터슨국제경제연구소 아담 포센 소장 분석"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Weekly market wrap - Edward Jones",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
-    "summary": [
-      "에드워드 존스의 주간 시장 동향 보고서입니다.",
-      "한 주간의 글로벌 금융 시장 흐름을 요약했습니다.",
-      "주요 경제 지표와 증시 움직임을 다룹니다."
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -73,11 +73,11 @@
     "publisher": "Invesco",
     "summary": [
       "인베스코, 현재 강세장이 더 지속될 것으로 전망함",
-      "추가적인 상승 여력이 남아있는 것으로 분석됨",
-      "시장 참여자들에게 긍정적인 투자 신호를 제공함"
+      "투자자들 사이에서 강세장 고점 도달 여부 관심 집중",
+      "시장 상승세가 추가로 이어질 가능성이 제기됨"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
