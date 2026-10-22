@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 거품론 확산으로 시장 우려 증대",
-      "코스피 7거래일 연속 하락세 기록",
-      "총 20.7% 폭락하며 큰 충격 발생"
+      "AI 거품론 확산으로 닷컴 버블 우려 제기",
+      "코스피 지수 7거래일 연속 하락세 기록",
+      "누적 하락 폭 20.7%로 급락세 시현"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 시사"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -30,26 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 0.25%P 인상 단행",
-      "금리 인상은 3년 6개월 만에 이루어진 조치임",
-      "통화 긴축 기조 지속에 대한 시장 관심 집중"
+      "한국은행 기준금리 0.25%P 인상",
+      "기준금리 인상은 3년 6개월 만의 조치",
+      "통화 긴축 기조 지속 및 경제 대응"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "Are we there yet? Bull market may have more miles - Invesco",
-    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
-    "publisher": "Invesco",
+    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
+    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
+    "publisher": "FocusEconomics",
     "summary": [
-      "인베스코, 현재 강세장이 더 지속될 것으로 전망",
-      "투자자들 사이에서 강세장 지속 여부에 대한 관심 고조",
-      "추가적인 상승 여력이 남아있다는 분석 제기"
+      "최근 주식시장 불안감이 포착됨",
+      "미국 경제에 미칠 영향 분석",
+      "포커스에코노믹스의 경제 전망"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
+    "type": "해외"
+  },
+  {
+    "title": "Weekly market commentary - BlackRock",
+    "original_title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "BlackRock",
+    "summary": [
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "투자 전략 및 경제 전망 제시"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -59,25 +73,11 @@
     "publisher": "CNBC",
     "summary": [
       "미국은 K자형 주식시장을 보이고 있음",
-      "중국은 K자형 경제 구조를 형성 중임",
-      "피터슨국제경제연구소 아담 포센의 분석"
+      "중국은 K자형 경제 구조를 형성함",
+      "피예(PIE)의 아담 포센이 분석함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
-    "original_title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTkxY2UxQ1F2UE5NX1EwMV91Sy1ma1loNnRXVzdoZTQ5T3ZvWElVVml0QUFRSUZQRkxiMUtjUVAyOTRJaEw2bzFIX0JTYmVxWUpJMzFySVhobDVSOUNVcUdzS0R0RnBLcHNzV0xoMFVmeU5EdU53MUE3V2V6aXhVeUt2VXpCdlhudjRPYkpYOFVYdm1ELVlLR2ZPRV9JUQ?oc=5",
-    "publisher": "Business Insider",
-    "summary": [
-      "골드만삭스, 방어주 23개 종목 선정",
-      "경기 둔화 및 약세장 대응 전략 제시",
-      "투자자들에게 안정적인 포트폴리오 권장"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
     "type": "해외"
   }
 ]
