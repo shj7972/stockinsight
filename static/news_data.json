@@ -1,15 +1,15 @@
 [
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "title": "AI 거품론, ‘닷컴 버블’ 재림인가…코스피, 7거래일 연속·총 20.7% 폭락 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "투자 목적의 빚투 현상 확산",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "AI 거품론과 닷컴 버블 재림 우려 확산",
+      "코스피 지수 7거래일 연속 하락세 기록",
+      "누적 하락 폭 20.7%로 급락세 연출"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.0,
     "type": "국내"
   },
   {
@@ -19,37 +19,51 @@
     "summary": [
       "한·중·일 재무장관 회의 개최",
       "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크 대응을 위해 한목소리 강조"
+      "경제 리스크에 한목소리로 공동 대응 공감"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 0.25%P 인상…3년 6개월 만 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fSk9NWVF2RlI5dW5DT3daUTdmVkJ5WU5RUy1RQzU1ZDFDeEZHTjF4NHZFMHpNV1U3NVJsUGtxNHg1YXlab0tPd1N1bFRFbzZ4SkxNNU5SVVlFU2wwb0psdHdZVFlJN1NfYU1CVy1VYy1xUUo1d25hMmpn?oc=5",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 0.25%P 인상",
-      "3년 6개월 만에 이루어진 금리 인상",
-      "서울신문 속보로 관련 소식 전달"
+      "한국은행 기준금리 3.00%로 결정",
+      "백투백(연속) 금리 인상 현실화",
+      "통화 긴축 기조 지속 강화됨"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
   },
   {
-    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
-    "publisher": "FocusEconomics",
+    "title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
+    "original_title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTJjZlFNWXdfZ01zUTRBaVhuTExJREhXcDhoc0xSLWJJWDJ1dWtMN3BPbnpsZVNPZjNEOEFZR3lrc052WXkxcVVJOHB0ZDZ0RE5RaGxlcTFZWk9UcnRIUThtWHJWaEpDTTNnY3JxTzlGbVZhOXVKYXhCeXVtQktFUlN4X1BFbVl5NklhV3gtVmZFOEVIMW9VUUZlOWk3QTQ3QTVmVmlyMnY0NVJ1ZmFZ?oc=5",
+    "publisher": "CNBC",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "미국은 K자형 주식시장을 보이고 있음",
+      "중국은 K자형 경제 구조를 형성함",
+      "피예(PIE)의 아담 포센이 분석함"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Are we there yet? Bull market may have more miles - Invesco",
+    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
+    "publisher": "Invesco",
+    "summary": [
+      "인베스코, 강세장이 지속될 가능성 시사",
+      "현재의 강세장에 추가 상승 여력이 있음",
+      "시장 전망에 대해 긍정적인 시각 유지"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.85,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVpLWm9ka2huZWRrcHJqWVQwdUZwMllfX1NRSFBfZWNMdzk0ZGVzem0xWVJRUUNkcmpKQ3pmMEdUdUFJakRSRFVra21VRVlEWGM2Zl8zU09qNlBSRmdlc2RqTmxCTW0tLThfT0xYTmQzeHBPbEU1Nl9HSEZ5S3pPeVBILTdpYUdteTF5bVN5VnYzbUFhR21oWWNPaDU?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "미국 시장이 단 하나의 AI 투자에 집중됨",
-      "AI 기술의 실질적 경제적 성과는 수십 년 소요",
-      "현재 시장의 과도한 집중 현상에 대한 우려 제기"
+      "미국 시장이 단 하나의 AI 베팅에 과도하게 집중됨",
+      "AI 기술의 실제 경제적 수익은 수십 년이 걸릴 전망",
+      "현재의 AI 열풍과 장기적 현실 간의 괴리 존재"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
-    "original_title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTJjZlFNWXdfZ01zUTRBaVhuTExJREhXcDhoc0xSLWJJWDJ1dWtMN3BPbnpsZVNPZjNEOEFZR3lrc052WXkxcVVJOHB0ZDZ0RE5RaGxlcTFZWk9UcnRIUThtWHJWaEpDTTNnY3JxTzlGbVZhOXVKYXhCeXVtQktFUlN4X1BFbVl5NklhV3gtVmZFOEVIMW9VUUZlOWk3QTQ3QTVmVmlyMnY0NVJ1ZmFZ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "미국 증시는 K자형 양극화 양상을 보임",
-      "중국 경제는 K자형 구조적 침체에 직면함",
-      "피터슨국제경제연구소 아담 포센의 분석임"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
