@@ -5,7 +5,7 @@
     "publisher": "한겨레",
     "summary": [
       "사흘 만에 신용대출 1조원 급증",
-      "투자 목적의 빚투 현상 확산",
+      "투자자들의 빚투 현상 심화",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관 회의 개최",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크 대응을 위해 한목소리 강조"
+      "한중일 재무장관이 중동 전쟁의 경제적 위험을 한목소리로 우려함",
+      "중동 분쟁으로 인한 경제 하방 압력 리스크에 공동 대응 주목",
+      "3국 장관 회담을 통해 경제 안보 및 리스크 관리 공조 강화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 3.00%로 결정",
-      "연속적인 기준금리 인상 현실화",
-      "통화 긴축 기조 지속 강화"
+      "한국은행 기준금리가 3.00%로 결정되었습니다.",
+      "연속 금리 인상인 '백투백' 인상이 현실화되었습니다.",
+      "서울신문에서 관련 소식을 속보로 보도했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "Stock Market Investors Just Got Bad News About President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
+    "original_title": "Stock Market Investors Just Got Bad News About President Trump's Economy. History Says This Could Happen Next. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNmJPS0lqcGZGeG5xcFFranJCWkFrR1liczJkZTdvTlZIdWJ1elVJUUdHNlRJWUZJMnJzeVBNY3QzWk1KNjJraXJYQWkwOXUwX2o2Sm5KVWxscTNIbno2Ujh0eTViZzgtZWhWb3VtUUhST21RVmRWRDdKWl9QR2hDN2ZrclBzRVp0cjYxR0lXWHZnUUsxUFU2TTVtT3RlWGxkdjI5bUFNZGNVbmJpYnc?oc=5",
+    "publisher": "The Motley Fool",
+    "summary": [
+      "트럼프 경제 관련 투자자들에게 나쁜 소식 전해짐",
+      "역사적 데이터를 통해 향후 시장 전망 분석",
+      "주식 시장에 미칠 잠재적 영향에 대한 우려"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "해외"
   },
   {
     "title": "How Worried Should We Be About the Economy? Let’s Look at 2008. - The New York Times",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "현재 경제 상황에 대해 2008년 위기와 비교 분석함",
-      "경제 전망에 대한 시장의 우려와 불안감을 다룸",
-      "뉴욕타임스가 보도한 거시경제 리스크 점검 기사"
+      "현재 경제 상황에 대한 우려가 커지고 있습니다.",
+      "2008년 글로벌 금융위기와 현 경제를 비교합니다.",
+      "과거 위기로부터 현재 경제의 위험을 진단합니다."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -59,25 +73,11 @@
     "publisher": "Invesco",
     "summary": [
       "인베스코, 현재 강세장이 더 지속될 것으로 전망",
-      "투자자들 사이에서 강세장 지속 여부에 대한 관심 증가",
-      "시장 상승세가 추가로 이어질 가능성 제기"
+      "투자자들 사이에서 강세장 지속 여부에 대한 관심 집중",
+      "추가적인 상승 여력이 있을 것이라는 분석 제기"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
-    "type": "해외"
-  },
-  {
-    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
-    "publisher": "FocusEconomics",
-    "summary": [
-      "최근 주식시장 변동성 확대",
-      "미국 경제에 미치는 영향 분석",
-      "향후 경제 전망에 대한 관심"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
