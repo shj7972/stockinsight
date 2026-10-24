@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냈습니다.",
-      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
-      "경제 리스크 대응에 대한 협력을 논의했습니다."
+      "한중일 재무장관 회의 개최",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "경제 리스크 대응을 위해 한목소리 강조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,13 +30,27 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리가 3.00%로 결정되었습니다.",
-      "연속 금리 인상인 '백투백' 인상이 현실화되었습니다.",
-      "서울신문에서 관련 소식을 속보로 보도했습니다."
+      "한국은행 기준금리 3.00%로 결정",
+      "연속적인 기준금리 인상 현실화",
+      "통화 긴축 기조 지속 강화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
     "type": "국내"
+  },
+  {
+    "title": "How Worried Should We Be About the Economy? Let’s Look at 2008. - The New York Times",
+    "original_title": "How Worried Should We Be About the Economy? Let’s Look at 2008. - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
+    "publisher": "The New York Times",
+    "summary": [
+      "현재 경제 상황에 대해 2008년 위기와 비교 분석함",
+      "경제 전망에 대한 시장의 우려와 불안감을 다룸",
+      "뉴욕타임스가 보도한 거시경제 리스크 점검 기사"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
   },
   {
     "title": "Are we there yet? Bull market may have more miles - Invesco",
@@ -44,12 +58,12 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
     "publisher": "Invesco",
     "summary": [
-      "인베스코가 현재 강세장의 지속 가능성을 전망함",
-      "투자자들 사이에서 강세장 종료 여부에 대한 관심 집중",
-      "시장에 추가적인 상승 여력이 남아있다는 분석 제기"
+      "인베스코, 현재 강세장이 더 지속될 것으로 전망",
+      "투자자들 사이에서 강세장 지속 여부에 대한 관심 증가",
+      "시장 상승세가 추가로 이어질 가능성 제기"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.8,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
     "publisher": "FocusEconomics",
     "summary": [
-      "최근 주식시장 변동성 확대 발생",
-      "미국 경제에 미칠 영향 분석 필요",
-      "경제 전문가들의 향후 전망 주목"
+      "최근 주식시장 변동성 확대",
+      "미국 경제에 미치는 영향 분석",
+      "향후 경제 전망에 대한 관심"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
-    "original_title": "U.S. has a K-shaped stock market, China a K-shaped economy: PIIE's Adam Posen - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTJjZlFNWXdfZ01zUTRBaVhuTExJREhXcDhoc0xSLWJJWDJ1dWtMN3BPbnpsZVNPZjNEOEFZR3lrc052WXkxcVVJOHB0ZDZ0RE5RaGxlcTFZWk9UcnRIUThtWHJWaEpDTTNnY3JxTzlGbVZhOXVKYXhCeXVtQktFUlN4X1BFbVl5NklhV3gtVmZFOEVIMW9VUUZlOWk3QTQ3QTVmVmlyMnY0NVJ1ZmFZ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "미국 주식시장이 K형태로 양극화됨",
-      "중국 경제 역시 K형태로 분화 중임",
-      "피터슨연구소 아담 포센의 분석임"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
     "type": "해외"
   }
 ]
