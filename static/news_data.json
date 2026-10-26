@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
+      "한중일 재무장관 회의 개최",
       "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 시사"
+      "3국 간의 긴밀한 공조 필요성 강조"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "이번 주가 강세가 정당한 이유가 있는지 분석함",
-      "투자자들 사이에서 시장 상승에 대한 기대와 의문 공존"
+      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
+      "이번 주가 상승세가 이유 있는 강세인지 분석이 요구됨",
+      "한겨레를 통해 현재 증시 상황에 대한 진단이 보도됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -30,27 +30,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "한국은행 기준금리 3.00%로 결정",
-      "연속 금리 인상인 백투백 인상 현실화",
-      "통화 긴축 기조 지속에 따른 시장 영향 주목"
+      "한국은행 기준금리가 3.00%로 결정되었습니다.",
+      "연속 금리 인상인 '백투백' 인상이 현실화되었습니다.",
+      "통화 긴축 기조가 지속되고 있습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
     "type": "국내"
-  },
-  {
-    "title": "Are we there yet? Bull market may have more miles - Invesco",
-    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
-    "publisher": "Invesco",
-    "summary": [
-      "인베스코, 현재 강세장이 더 지속될 것으로 전망함",
-      "추가적인 상승 여력이 남아있다는 분석을 제기함",
-      "시장 참여자들 사이에서 강세장 지속 기대감 확산"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "해외"
   },
   {
     "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
@@ -59,25 +45,39 @@
     "publisher": "FocusEconomics",
     "summary": [
       "최근 주식시장 변동성 확대 발생",
-      "주가 하락이 미 경제에 미칠 영향 분석",
-      "향후 경제 전망에 대한 불확실성 증대"
+      "미국 경제에 미칠 영향 분석",
+      "향후 경제 전망에 대한 관심 집중"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "How Worried Should We Be About the Economy? Let’s Look at 2008. - The New York Times",
-    "original_title": "How Worried Should We Be About the Economy? Let’s Look at 2008. - The New York Times",
+    "title": "There May Be More Peril in the U.S. Markets Than Meets the Eye - The New York Times",
+    "original_title": "There May Be More Peril in the U.S. Markets Than Meets the Eye - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "현재 경제 상황에 대한 우려가 커지고 있습니다.",
-      "2008년 글로벌 금융위기와 현 경제를 비교합니다.",
-      "과거 위기로부터 현재 경제의 위험을 진단합니다."
+      "미국 시장에 숨겨진 위험이 존재합니다.",
+      "겉보기보다 경제적 불안 요인이 많습니다.",
+      "투자자들의 주의 깊은 시장 분석이 필요합니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.7,
+    "type": "해외"
+  },
+  {
+    "title": "US tech stocks tumble as investors fret over AI spending - Al Jazeera",
+    "original_title": "US tech stocks tumble as investors fret over AI spending - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2xmdU1Ga0VLeGtTMlBVN0tjdEZYUmNHYTZIZnRNWjBRVUs2SGUxU0pKdDRpSGpyZC1ESDNGdDZ2OWQ2UTNjcmQ3RWJtVVpCaXNDOElGQ2lUVHJEdDRIR2VRdXFYZkl0Vm1TX2o4VDVNb2pSNnFpSHNXc2dqbXBIVFU5NGcyc3BWSzZqSXpZMFdKMENIaUFZNjhXdjJnalRObzR30gGoAUFVX3lxTFAzbm1pU1E3Y2ZjTVRTZTk1QzhHVmtaWmNReEJTbENyWHRaOEhqWWQ4Y01VTFdXeE9aaEhzMVJfdVBLckxzMFlqeTlSSDNCM2hkdGhJYjB0ZHZRWW9uak14RUJ6cW42b2lMbW1oYmxkU3d6UjNnUTRxdkRoaFFrT0FNbU8tcnFrWS1lNVNmUV85ZkF1U21qajdpYXFKeXU0T0JVM1Npb0tjTQ?oc=5",
+    "publisher": "Al Jazeera",
+    "summary": [
+      "미국 기술주 주가가 큰 폭으로 하락했습니다.",
+      "투자자들이 AI 관련 지출에 대해 우려하고 있습니다.",
+      "알자지라 등 외신이 관련 시장 동향을 보도했습니다."
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
