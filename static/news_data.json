@@ -1,15 +1,15 @@
 [
   {
-    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
+    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "고유가와 고금리 위험에 다시 직면함",
-      "경제와 시장에 부정적인 영향 우려",
-      "거시경제 불확실성 확대 및 대응 필요"
+      "2028년까지 한국 경상 흑자 지속 전망",
+      "GDP 대비 경상 흑자 비율 20% 상회 예상",
+      "한겨레 보도를 통해 경제 성장성 주목"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "원·달러 환율 11개월 만에 1300원대로 하락",
-      "코스피 지수 5% 급락하여 6471 기록",
-      "환율 하락에도 불구하고 국내 증시는 크게 위축"
+      "환율이 11개월 만에 1300원대로 하락함",
+      "코스피 지수가 5% 급락하여 6471을 기록함",
+      "환율 하락과 주가 폭락이 동시 발생함"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "반도체 슈퍼사이클 향방은…마이크론 실적 앞 ‘변동성’ 역대 최고치 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQTRFT3htd3NGV3QxUEZQMjlwVzRPSWFQOWFqMWhwNUZkNks1Q1Q1Tks2UEdDcnowdVUwb1g4N2I2VVZxV0VwZktXT3VMbVFrTGItQm5YaXNaUGlYc0c3cnlpT09FdGM?oc=5",
+    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "반도체 슈퍼사이클 향방에 대한 관심이 집중됨",
-      "마이크론 실적 발표를 앞두고 시장 변동성 확대",
-      "역대 최고 수준의 시장 변동성을 기록함"
+      "한국 경제가 고유가와 고금리 위험에 직면했습니다.",
+      "복합적인 경제 위기 요인이 다시 부각되고 있습니다.",
+      "시장 및 거시경제 안정성에 대한 우려가 커집니다."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.9,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0lvdS1PdFB1M1ZVRTRTOHhJamg1MHFiU2dvaGpRSXRtLWFYQWhBWXU5T3BTbi1jYUhOdjIxOTZ6M05JSkZFVDhFTFhlN1Z4X0hydUFfbXAtbzBzSUIxZTJ2TWdCd0tQRnhTZUo4clR5SEpzRnNfYUJUMkJBM0Y2OHNmR0dRTE9jRHhGTV9KOVViQlByT2FFTTI3WUpJZkU?oc=5",
     "publisher": "Fortune",
     "summary": [
-      "골드만삭스, AI 경제적 기여도가 정점에 접근 중이라고 진단",
-      "아폴로, 빅테크 외 기업에서 AI 재정적 성과 없다고 분석",
-      "미국 경제에 대한 AI의 영향력과 실효성 논란 심화"
+      "골드만삭스, 미국 경제 내 AI 부양 효과 정점 임박",
+      "아폴로, 빅테크 외 기업에서 AI 재무적 성과 미미 분석",
+      "인공지능 투자 열풍의 실효성에 대한 회의론 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
@@ -58,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "미국 시장에 숨겨진 위험이 존재합니다.",
-      "겉보기보다 심각한 시장의 위험성 경고",
-      "투자자들의 주의가 요구되는 상황입니다."
+      "미국 시장에 숨겨진 위험이 존재할 수 있음",
+      "투자자들이 보지 못하는 시장의 위험성 경고",
+      "뉴욕 타임스가 보도한 미국 시장의 불안 요소"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
@@ -74,10 +74,10 @@
     "summary": [
       "최근 주식시장 변동성 확대 발생",
       "주가 하락이 미 경제에 미칠 영향 분석",
-      "경제 성장세와 시장 불안 관계 집중"
+      "경제 전망에 대한 불확실성 증가"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
