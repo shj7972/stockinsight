@@ -1,55 +1,55 @@
 [
   {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
+    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 논의"
+      "고유가와 고금리 위험에 다시 직면함",
+      "경제와 시장에 부정적인 영향 우려",
+      "거시경제 불확실성 확대 및 대응 필요"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
+    "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "현재의 강세장이 타당한 이유가 있는지 분석 중",
-      "증시의 지속 가능성과 상승 동력에 관심 집중"
+      "원·달러 환율 11개월 만에 1300원대로 하락",
+      "코스피 지수 5% 급락하여 6471 기록",
+      "환율 하락에도 불구하고 국내 증시는 크게 위축"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "반도체 슈퍼사이클 향방은…마이크론 실적 앞 ‘변동성’ 역대 최고치 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQTRFT3htd3NGV3QxUEZQMjlwVzRPSWFQOWFqMWhwNUZkNks1Q1Q1Tks2UEdDcnowdVUwb1g4N2I2VVZxV0VwZktXT3VMbVFrTGItQm5YaXNaUGlYc0c3cnlpT09FdGM?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "반도체 슈퍼사이클 향방에 대한 관심이 집중됨",
+      "마이크론 실적 발표를 앞두고 시장 변동성 확대",
+      "역대 최고 수준의 시장 변동성을 기록함"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
-    "publisher": "서울신문",
+    "title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
+    "original_title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0lvdS1PdFB1M1ZVRTRTOHhJamg1MHFiU2dvaGpRSXRtLWFYQWhBWXU5T3BTbi1jYUhOdjIxOTZ6M05JSkZFVDhFTFhlN1Z4X0hydUFfbXAtbzBzSUIxZTJ2TWdCd0tQRnhTZUo4clR5SEpzRnNfYUJUMkJBM0Y2OHNmR0dRTE9jRHhGTV9KOVViQlByT2FFTTI3WUpJZkU?oc=5",
+    "publisher": "Fortune",
     "summary": [
-      "한국은행 기준금리 3.00%로 인상 결정",
-      "연속적인 금리 인상인 백투백 인상 현실화",
-      "통화당국의 긴축 기조 지속에 따른 시장 변화"
+      "골드만삭스, AI 경제적 기여도가 정점에 접근 중이라고 진단",
+      "아폴로, 빅테크 외 기업에서 AI 재정적 성과 없다고 분석",
+      "미국 경제에 대한 AI의 영향력과 실효성 논란 심화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "국내"
-  },
-  {
-    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
-    "publisher": "FocusEconomics",
-    "summary": [
-      "최근 주식시장 불안감이 고조됨",
-      "이러한 변동성이 미국 경제에 미칠 영향 분석",
-      "전문가들 사이 향후 경기 전망에 대한 관심 집중"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "미국 시장에 숨겨진 위험이 존재할 수 있음",
-      "뉴욕타임스가 보도한 시장 분석 기사임",
-      "현재 시장 상황에 대한 신중한 접근 필요"
+      "미국 시장에 숨겨진 위험이 존재합니다.",
+      "겉보기보다 심각한 시장의 위험성 경고",
+      "투자자들의 주의가 요구되는 상황입니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "Are we there yet? Bull market may have more miles - Invesco",
-    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
-    "publisher": "Invesco",
+    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
+    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
+    "publisher": "FocusEconomics",
     "summary": [
-      "인베스코, 현재 강세장이 더 지속될 것으로 전망함",
-      "추가적인 상승 여력이 남아있다는 분석을 제기함",
-      "증시의 지속적인 성장에 대한 긍정적 시각 유지"
+      "최근 주식시장 변동성 확대 발생",
+      "주가 하락이 미 경제에 미칠 영향 분석",
+      "경제 성장세와 시장 불안 관계 집중"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.3,
     "type": "해외"
   }
 ]
