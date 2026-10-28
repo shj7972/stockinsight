@@ -4,80 +4,80 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "GDP 대비 경상 흑자 비율 20% 상회 예상",
-      "한겨레 보도를 통해 경제 성장성 주목"
+      "2028년까지 한국 경상수지 흑자 지속 전망",
+      "경상수지 흑자 규모 GDP 대비 20% 상회할 것",
+      "한겨레 보도를 통해 경제적 긍정 신호 전달"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
-    "title": "환율 11개월 만에 1300원대로↓…코스피 5% 급락해 6471 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ULUFVWnVxOFlERXgwRTB0SUUwZzdjaUxNN1hQUHR4MW95VjZlcVQ2WFUxMTZUN1pGa2h3YndxdHdOWmVLZHVlSGUyY25tNjBGdzR2S0lBdno5Tm01UXpqenFfWHlSc2M?oc=5",
-    "publisher": "한겨레",
+    "title": "[속보] 한국은행 기준금리 3.00% 결정…‘백투백’ 인상 현실화 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OV0tOQVFlMFQxRm8yUVZLekFVc0lMbThiMHgyNTl0UFNBV1B5RVoybXR5dHVMQUk4ejE0TkVzSXFBMjRkSkU3ZHFTM0I3WVdEQ0VTVVZiV1R6QXo1UDN5MUtiNkZDSXZjdTh1YWNRUDRJcXVOQnBrYlZR?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "환율이 11개월 만에 1300원대로 하락함",
-      "코스피 지수가 5% 급락하여 6471을 기록함",
-      "환율 하락과 주가 폭락이 동시 발생함"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "국내"
-  },
-  {
-    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "한국 경제가 고유가와 고금리 위험에 직면했습니다.",
-      "복합적인 경제 위기 요인이 다시 부각되고 있습니다.",
-      "시장 및 거시경제 안정성에 대한 우려가 커집니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.9,
-    "type": "국내"
-  },
-  {
-    "title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
-    "original_title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0lvdS1PdFB1M1ZVRTRTOHhJamg1MHFiU2dvaGpRSXRtLWFYQWhBWXU5T3BTbi1jYUhOdjIxOTZ6M05JSkZFVDhFTFhlN1Z4X0hydUFfbXAtbzBzSUIxZTJ2TWdCd0tQRnhTZUo4clR5SEpzRnNfYUJUMkJBM0Y2OHNmR0dRTE9jRHhGTV9KOVViQlByT2FFTTI3WUpJZkU?oc=5",
-    "publisher": "Fortune",
-    "summary": [
-      "골드만삭스, 미국 경제 내 AI 부양 효과 정점 임박",
-      "아폴로, 빅테크 외 기업에서 AI 재무적 성과 미미 분석",
-      "인공지능 투자 열풍의 실효성에 대한 회의론 확산"
+      "한국은행 기준금리 3.00%로 결정",
+      "연속 금리 인상인 백투백 인상 현실화",
+      "통화 긴축 기조 지속에 따른 시장 영향 주목"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.6,
-    "type": "해외"
+    "type": "국내"
   },
   {
-    "title": "There May Be More Peril in the U.S. Markets Than Meets the Eye - The New York Times",
-    "original_title": "There May Be More Peril in the U.S. Markets Than Meets the Eye - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhaOEp0cXJmVGhjZnc5ampxRFFuelZOWndNUFJnVjg0Tm1KMUdJa1luTWNLQVhIZkhpRHNXeUFzQ0xaX0VVVlRUVTRTQjJJcVNHem9QN1FqNlhBamVLZzV2cmszeFpZUkx5YVVVOThQbkN0cExTQTBxR0cxWFNyZG9KQmM?oc=5",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관이 중동 전쟁 리스크를 한목소리로 우려함",
+      "경제적 하방 압력 위험에 대한 공동 대응 필요성 공감",
+      "3국 간의 경제 및 금융 협력 강화 방안 논의"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "China Steps In to Rescue Stocks, But the Market Continues to Fall - The New York Times",
+    "original_title": "China Steps In to Rescue Stocks, But the Market Continues to Fall - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ2lQbjlZLVRyTkphZVhyRDlLWHI3RGk3U3NJTWNOMXEyVG8xVkQtU2wtNGRDUDVrcEc4ZlJVem5heHlWUVExYmtOOVE2MFBNX1kyYm90RHp4OTNaWEJVanhlTm1rVC1zUEFQYVBKSHpPS2M0QzZxM2g2d1RRNDNSV3NxNlh5amZZZ2tv?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "미국 시장에 숨겨진 위험이 존재할 수 있음",
-      "투자자들이 보지 못하는 시장의 위험성 경고",
-      "뉴욕 타임스가 보도한 미국 시장의 불안 요소"
+      "중국 정부의 증시 부양책 시행",
+      "지속적인 주식 시장 하락세",
+      "투자자들의 불안감 해소 실패"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "original_title": "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
-    "publisher": "FocusEconomics",
+    "title": "Weekly market commentary - BlackRock",
+    "original_title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "BlackRock",
     "summary": [
-      "최근 주식시장 변동성 확대 발생",
-      "주가 하락이 미 경제에 미칠 영향 분석",
-      "경제 전망에 대한 불확실성 증가"
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "투자 전략 및 경제 전망 제공"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Weekly market wrap - Edward Jones",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "에드워드 존스의 주간 시장 동향 보고서입니다.",
+      "한 주간의 주요 금융 시장 흐름을 요약했습니다.",
+      "글로벌 증시 및 경제 지표 변화를 다룹니다."
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
