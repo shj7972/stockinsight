@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상수지 흑자 지속 전망",
+      "2028년까지 한국 경상 흑자 지속 전망",
       "경상 흑자 규모 GDP 대비 20% 상회할 것",
-      "한겨레 등 주요 언론에서 관련 내용 보도"
+      "국내 경제 및 대외 건전성 긍정적 지표"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
+      "주가가 3000 고지를 향해 상승세를 보이고 있음",
+      "이번 주가 강세가 정당한 이유가 있는지 분석 필요",
       "한겨레를 통해 증시의 향방에 대한 관심이 집중됨"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
@@ -30,26 +30,26 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제가 고유가와 고금리 위험에 다시 직면함",
-      "에너지 가격 상승과 금리 부담이 경제에 악영향 우려",
-      "대내외 경제 불확실성이 커지며 대응책 마련 필요"
+      "한국 경제가 고유가와 고금리 위험에 직면함",
+      "에너지 가격 상승과 금리 부담이 커지는 상황",
+      "경제 성장에 대한 부정적 영향 우려 증대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg.com",
-    "original_title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOckZtMHgyQlBXVEpmTjgyR0pwR0U5YnZyaG5DaVNBODZCeEJIUnlrM1VpdDlQeFRFcEVZeEgxSDJvdks0aU01NXVyVnF3U1NuNmZ1SXA1dFItb3RsbGItX3pkMWJFb0lnd0NFLVNUVTJYSEVMeFFnX0VuSV9KT1BpaDNTZ2xWWHNULUNmTzlZazdFY0lrbDRN?oc=5",
-    "publisher": "Bloomberg.com",
+    "title": "Weekly market commentary - BlackRock",
+    "original_title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "BlackRock",
     "summary": [
-      "AI가 미국 경제에 미치는 영향 분석",
-      "블룸버그에서 AI의 경제 기여도 조명",
-      "미국 경제 내 AI 역할의 중요성 평가"
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "투자자를 위한 주간 경제 전망"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment_score": 0.0,
     "type": "해외"
   },
   {
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ2lQbjlZLVRyTkphZVhyRDlLWHI3RGk3U3NJTWNOMXEyVG8xVkQtU2wtNGRDUDVrcEc4ZlJVem5heHlWUVExYmtOOVE2MFBNX1kyYm90RHp4OTNaWEJVanhlTm1rVC1zUEFQYVBKSHpPS2M0QzZxM2g2d1RRNDNSV3NxNlh5amZZZ2tv?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "중국 정부가 증시 부양책을 시행했습니다.",
-      "그럼에도 불구하고 주식 시장은 하락세를 지속했습니다.",
-      "투자자들의 불안감이 해소되지 않는 모습입니다."
+      "중국 정부의 주식시장 부양책 시행",
+      "부양 조치에도 불구하고 증시 하락 지속",
+      "투자자들의 시장 회복 기대감 약화"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
     "type": "해외"
   },
   {
-    "title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
-    "original_title": "AI’s boost to the U.S. economy is nearing its peak, Goldman says, as Apollo finds ‘zero financial payoff’ outside Big Tech - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0lvdS1PdFB1M1ZVRTRTOHhJamg1MHFiU2dvaGpRSXRtLWFYQWhBWXU5T3BTbi1jYUhOdjIxOTZ6M05JSkZFVDhFTFhlN1Z4X0hydUFfbXAtbzBzSUIxZTJ2TWdCd0tQRnhTZUo4clR5SEpzRnNfYUJUMkJBM0Y2OHNmR0dRTE9jRHhGTV9KOVViQlByT2FFTTI3WUpJZkU?oc=5",
-    "publisher": "Fortune",
+    "title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg",
+    "original_title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOckZtMHgyQlBXVEpmTjgyR0pwR0U5YnZyaG5DaVNBODZCeEJIUnlrM1VpdDlQeFRFcEVZeEgxSDJvdks0aU01NXVyVnF3U1NuNmZ1SXA1dFItb3RsbGItX3pkMWJFb0lnd0NFLVNUVTJYSEVMeFFnX0VuSV9KT1BpaDNTZ2xWWHNULUNmTzlZazdFY0lrbDRN?oc=5",
+    "publisher": "Bloomberg",
     "summary": [
-      "골드만삭스, 미국 경제 내 AI 성장세가 정점에 근접",
-      "아폴로, 빅테크 외 기업에서 AI 재무적 성과 없다고 분석",
-      "AI 투자에 대한 경제적 효과 논란 가중"
+      "미국 경제에서 AI의 기여도 분석",
+      "블룸버그가 보도한 AI 경제 영향력",
+      "생성형 AI의 실질적 경제 효과 조명"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
