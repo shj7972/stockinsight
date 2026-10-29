@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "이번 주가 강세가 정당한 이유가 있는지 분석 필요",
-      "한겨레를 통해 증시의 향방에 대한 관심이 집중됨"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -30,26 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제가 고유가와 고금리 위험에 직면함",
-      "에너지 가격 상승과 금리 부담이 커지는 상황",
-      "경제 성장에 대한 부정적 영향 우려 증대"
+      "한국 경제가 고유가와 고금리 위험에 직면했습니다.",
+      "복합적인 경제 위기 요인이 다시 부각되고 있습니다.",
+      "시장과 경제에 부정적인 영향이 우려됩니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
-    "title": "Weekly market commentary - BlackRock",
-    "original_title": "Weekly market commentary - BlackRock",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "BlackRock",
+    "title": "US stock index futures pare losses after economic data - Yahoo Finance",
+    "original_title": "US stock index futures pare losses after economic data - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0NkZ2lRVmxUTy1QUnQ0UjE1aVNXWEZ2ZngwYXpKNld4N1BrTEUxdVhHM0lBQXFCTFVmV0RwYVFlZGlDcERaRTVEYXp5MVN1Z2NhUnJjdXNnVFk5VF82a1pFNnp0ckFpRVpNbms3eEFlOGI3NzVadzFGYnk3ZS1SR25JRTF1cU9oSXl0M2Nn?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "블랙록의 주간 시장 논평 발표",
-      "글로벌 금융 시장 동향 분석",
-      "투자자를 위한 주간 경제 전망"
+      "미국 주가지수 선물 가격이 하락폭을 만회함",
+      "경제 지표 발표 이후 시장 반응이 나타남",
+      "야후 파이낸스에서 관련 소식을 보도함"
     ],
     "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "US Stocks Climb Higher During Election Months. Should You Adjust Your Portfolio? - Morningstar",
+    "original_title": "US Stocks Climb Higher During Election Months. Should You Adjust Your Portfolio? - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmdBcmFTcWFYVFFGMlAzOWw2ZVNiYU5aZlYyQkJpVkdMbEwyMTJNM0dBY3lRdGl3WHBDU1NuOGotYno2Q1k2a05idXVrOGxqWExJWWtlNUh0ZkVFSDhLd0xmUzhTTU0yeXpRM2NGS1p6LUlCYko0MVJ2aGRyRm94TnhvNHc0NHRmRWphT25iUnh4M01sbzEzcDM1aXpGQ2Y2V3V3ajd5ZF82bmQ4cHJCYUZLSVBEZFNxaDk4bF9GcHU?oc=5",
+    "publisher": "Morningstar",
+    "summary": [
+      "미국 주식은 대선 달에 상승하는 경향이 있습니다.",
+      "포트폴리오를 조정해야 할지 고민되는 시기입니다.",
+      "모닝스타가 관련 투자 전략을 분석했습니다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "해외"
   },
   {
@@ -58,26 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ2lQbjlZLVRyTkphZVhyRDlLWHI3RGk3U3NJTWNOMXEyVG8xVkQtU2wtNGRDUDVrcEc4ZlJVem5heHlWUVExYmtOOVE2MFBNX1kyYm90RHp4OTNaWEJVanhlTm1rVC1zUEFQYVBKSHpPS2M0QzZxM2g2d1RRNDNSV3NxNlh5amZZZ2tv?oc=5",
     "publisher": "The New York Times",
     "summary": [
-      "중국 정부의 주식시장 부양책 시행",
-      "부양 조치에도 불구하고 증시 하락 지속",
-      "투자자들의 시장 회복 기대감 약화"
+      "중국 정부가 증시 부양책을 발표했습니다.",
+      "그럼에도 불구하고 주식 시장은 하락세를 지속했습니다.",
+      "투자자들의 불안감이 해소되지 않는 모습입니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
-    "type": "해외"
-  },
-  {
-    "title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg",
-    "original_title": "Just How Much Is AI Contributing to the US Economy? - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOckZtMHgyQlBXVEpmTjgyR0pwR0U5YnZyaG5DaVNBODZCeEJIUnlrM1VpdDlQeFRFcEVZeEgxSDJvdks0aU01NXVyVnF3U1NuNmZ1SXA1dFItb3RsbGItX3pkMWJFb0lnd0NFLVNUVTJYSEVMeFFnX0VuSV9KT1BpaDNTZ2xWWHNULUNmTzlZazdFY0lrbDRN?oc=5",
-    "publisher": "Bloomberg",
-    "summary": [
-      "미국 경제에서 AI의 기여도 분석",
-      "블룸버그가 보도한 AI 경제 영향력",
-      "생성형 AI의 실질적 경제 효과 조명"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
