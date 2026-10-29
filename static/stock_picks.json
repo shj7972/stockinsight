@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-10-29",
+      "generated_at": "2026-10-29T02:07:06",
+      "sector_top3": [
+        [
+          "Energy",
+          1.0126037910628316
+        ],
+        [
+          "Healthcare",
+          0.8091526857606277
+        ],
+        [
+          "Consumer Staples",
+          0.8031197837300921
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "UNH",
+          "name": "UnitedHealth",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 407.1,
+          "rsi": 57.2,
+          "bb_pos": 66.0,
+          "vol_ratio": 0.65,
+          "macd_positive": true,
+          "sector_zscore": 0.81,
+          "ensemble_score": 0.7373,
+          "model_scores": {
+            "rf": 0.8255,
+            "xgb": 0.9491,
+            "mlp": 0.5118,
+            "lstm": 0.6628
+          },
+          "final_score": 0.7268,
+          "signal_summary": "MACD 골든크로스 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "XOM",
+          "name": "ExxonMobil",
+          "market": "US",
+          "sector": "Energy",
+          "entry_price": 182.02,
+          "rsi": 67.2,
+          "bb_pos": 78.9,
+          "vol_ratio": 1.1,
+          "macd_positive": true,
+          "sector_zscore": 1.01,
+          "ensemble_score": 0.6721,
+          "model_scores": {
+            "rf": 0.6797,
+            "xgb": 0.9548,
+            "mlp": 0.5394,
+            "lstm": 0.5146
+          },
+          "final_score": 0.6964,
+          "signal_summary": "MACD 골든크로스 · 섹터 모멘텀 상위 (Z=+1.0)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "market": "US",
+          "sector": "Consumer Discretionary",
+          "entry_price": 254.6,
+          "rsi": 50.1,
+          "bb_pos": 47.2,
+          "vol_ratio": 0.97,
+          "macd_positive": false,
+          "sector_zscore": 0.39,
+          "ensemble_score": 0.6656,
+          "model_scores": {
+            "rf": 0.7027,
+            "xgb": 0.9071,
+            "mlp": 0.5309,
+            "lstm": 0.5218
+          },
+          "final_score": 0.645,
+          "signal_summary": "MACD 반등 임박 · 섹터 양호 (Z=+0.4)",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "196170.KQ",
+          "name": "알테오젠",
+          "market": "KR",
+          "sector": "Healthcare",
+          "entry_price": 218000.0,
+          "rsi": 37.0,
+          "bb_pos": 22.8,
+          "vol_ratio": 0.32,
+          "macd_positive": false,
+          "sector_zscore": 0.81,
+          "ensemble_score": 0.6663,
+          "model_scores": {
+            "rf": 0.6401,
+            "xgb": 0.8883,
+            "mlp": 0.5759,
+            "lstm": 0.5608
+          },
+          "final_score": 0.6771,
+          "signal_summary": "RSI 과매도 진입 · MACD 반등 임박 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "097950.KS",
+          "name": "CJ제일제당",
+          "market": "KR",
+          "sector": "Consumer Staples",
+          "entry_price": 170000.0,
+          "rsi": 35.1,
+          "bb_pos": 13.6,
+          "vol_ratio": 0.26,
+          "macd_positive": false,
+          "sector_zscore": 0.8,
+          "ensemble_score": 0.5923,
+          "model_scores": {
+            "rf": 0.7162,
+            "xgb": 0.8802,
+            "mlp": 0.466,
+            "lstm": 0.3069
+          },
+          "final_score": 0.6248,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "009150.KS",
+          "name": "삼성전기",
+          "market": "KR",
+          "sector": "Technology",
+          "entry_price": 1217000.0,
+          "rsi": 43.6,
+          "bb_pos": 34.9,
+          "vol_ratio": 0.62,
+          "macd_positive": false,
+          "sector_zscore": -1.46,
+          "ensemble_score": 0.7967,
+          "model_scores": {
+            "rf": 0.7403,
+            "xgb": 0.9821,
+            "mlp": 0.7433,
+            "lstm": 0.7213
+          },
+          "final_score": 0.5978,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "generated_at": "2026-10-28T02:02:05",
       "sector_top3": [
@@ -955,166 +1115,6 @@
           },
           "final_score": 0.7542,
           "signal_summary": "RSI 과매도 진입 · MACD 반등 임박 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "generated_at": "2026-10-20T01:35:58",
-      "sector_top3": [
-        [
-          "Energy",
-          2.065215918561317
-        ],
-        [
-          "Consumer Staples",
-          1.0379183052139527
-        ],
-        [
-          "Healthcare",
-          0.5574338003978838
-        ]
-      ],
-      "us_picks": [
-        {
-          "ticker": "MRK",
-          "name": "Merck",
-          "market": "US",
-          "sector": "Healthcare",
-          "entry_price": 143.63,
-          "rsi": 47.8,
-          "bb_pos": 34.6,
-          "vol_ratio": 1.12,
-          "macd_positive": false,
-          "sector_zscore": 0.56,
-          "ensemble_score": 0.5585,
-          "model_scores": {
-            "rf": 0.5868,
-            "xgb": 0.5691,
-            "mlp": 0.5165,
-            "lstm": 0.5616
-          },
-          "final_score": 0.5828,
-          "signal_summary": "RSI 중립~반등 · MACD 반등 임박 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.6)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "market": "US",
-          "sector": "Consumer Discretionary",
-          "entry_price": 368.06,
-          "rsi": 50.6,
-          "bb_pos": 45.4,
-          "vol_ratio": 1.12,
-          "macd_positive": false,
-          "sector_zscore": 0.2,
-          "ensemble_score": 0.5618,
-          "model_scores": {
-            "rf": 0.3642,
-            "xgb": 0.765,
-            "mlp": 0.3925,
-            "lstm": 0.7255
-          },
-          "final_score": 0.5585,
-          "signal_summary": "복합 기술적 신호",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "market": "US",
-          "sector": "Technology",
-          "entry_price": 92.03,
-          "rsi": 34.7,
-          "bb_pos": 8.2,
-          "vol_ratio": 1.01,
-          "macd_positive": false,
-          "sector_zscore": -1.49,
-          "ensemble_score": 0.7241,
-          "model_scores": {
-            "rf": 0.6555,
-            "xgb": 0.8152,
-            "mlp": 0.7239,
-            "lstm": 0.702
-          },
-          "final_score": 0.5448,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
-          "current_price": null,
-          "return_pct": null
-        }
-      ],
-      "kr_picks": [
-        {
-          "ticker": "096770.KS",
-          "name": "SK이노베이션",
-          "market": "KR",
-          "sector": "Energy",
-          "entry_price": 150100.0,
-          "rsi": 51.0,
-          "bb_pos": 46.6,
-          "vol_ratio": 0.28,
-          "macd_positive": false,
-          "sector_zscore": 2.07,
-          "ensemble_score": 0.5447,
-          "model_scores": {
-            "rf": 0.5547,
-            "xgb": 0.6083,
-            "mlp": 0.405,
-            "lstm": 0.6106
-          },
-          "final_score": 0.6813,
-          "signal_summary": "섹터 모멘텀 상위 (Z=+2.1)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "009150.KS",
-          "name": "삼성전기",
-          "market": "KR",
-          "sector": "Technology",
-          "entry_price": 1130000.0,
-          "rsi": 32.4,
-          "bb_pos": 3.6,
-          "vol_ratio": 0.29,
-          "macd_positive": false,
-          "sector_zscore": -1.49,
-          "ensemble_score": 0.8943,
-          "model_scores": {
-            "rf": 0.844,
-            "xgb": 0.9909,
-            "mlp": 0.9048,
-            "lstm": 0.8374
-          },
-          "final_score": 0.664,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "196170.KQ",
-          "name": "알테오젠",
-          "market": "KR",
-          "sector": "Healthcare",
-          "entry_price": 226500.0,
-          "rsi": 37.7,
-          "bb_pos": 18.4,
-          "vol_ratio": 0.27,
-          "macd_positive": false,
-          "sector_zscore": 0.56,
-          "ensemble_score": 0.511,
-          "model_scores": {
-            "rf": 0.5999,
-            "xgb": 0.2958,
-            "mlp": 0.6064,
-            "lstm": 0.5418
-          },
-          "final_score": 0.5495,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.6)",
           "current_price": null,
           "return_pct": null
         }
