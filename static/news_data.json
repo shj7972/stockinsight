@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상수지 흑자 지속 전망",
-      "경상수지 흑자 규모 GDP 대비 20% 상회 예상",
-      "국가 경제 건전성과 대외 부문 긍정적 평가"
+      "2028년까지 한국 경상 흑자 지속 전망",
+      "GDP 대비 경상 흑자 비율 20% 상회 예상",
+      "한겨레 보도를 통해 경제 성장성 주목"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
@@ -17,39 +17,53 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제가 고유가와 고금리 위험에 직면함",
-      "에너지 가격 상승과 금리 부담이 커지는 상황",
-      "복합적인 경제 위기 가능성에 대한 우려 제기"
+      "한국 경제가 고유가와 고금리 위험에 직면했습니다.",
+      "복합적인 경제 위기 요인이 다시 부각되고 있습니다.",
+      "시장 및 거시경제에 부정적 영향이 우려됩니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": 0.9,
     "type": "국내"
   },
   {
-    "title": "“빚 갚으려면 이것 말고는”…‘고소득의 덫’ 배달노동자의 역설 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1udDBTSEwwTjJTNDVwenhIeldmcjZsMkliQjhyNVc0cDFLVmVHNEtZNy1YS1ZpSGY2UjA2elFpUFRKM1A1bHUzcWFJRzlUV0VTNlA4TG5UM1Mtb2tGTEhTdDdIUDFxX0U?oc=5",
+    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "배달 노동자의 고소득 이면에 빚의 악순환이 존재함",
-      "빚을 갚기 위해 고강도 노동을 지속하는 역설적 상황",
-      "안정적 수입 대신 위험한 노동 환경에 내몰리는 현실"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
-    "title": "A potentially historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
-    "original_title": "A potentially historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
+    "title": "Historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
+    "original_title": "Historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakJIM3NiandmOHg1SXNhT2JpcXZBNzNiaGU5U2o3dW5oLWphdUhSaG1COFNIVTBPSWFSaDBLUGRUTW1HX2QtUC16aFdBMS02UjVZNFBsMjJMU0pkazJCRmhXUGVyZm1tMWFKUWZVa3pSc2lBNlN4SzhmemVFRzBzVExRR0pkN3JSa0N1bjIxX05JbDBJOW1DcEVsbFhaZGhYTXZlOEdFcU1ENVlhdGZGX2l6bnJPR2hHbXc?oc=5",
     "publisher": "Anchorage Daily News",
     "summary": [
-      "알파벳 주가가 역사적인 급락을 기록함",
-      "이로 인해 미국 증시 전체가 하락 압력을 받음",
-      "빅테크 기업의 부진이 시장에 충격을 줌"
+      "알파벳 주가가 역사적인 하락을 기록했습니다.",
+      "이로 인해 미국 전체 증시가 하락세를 보였습니다.",
+      "시장에 부정적인 영향을 미친 주요 사건입니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.85,
+    "type": "해외"
+  },
+  {
+    "title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
+    "original_title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "탄탄한 소비 지출이 3분기 미국 경제 견인",
+      "인공지능(AI) 관련 투자가 성장에 기여",
+      "미국 경제가 견조한 성장세를 유지함"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.85,
     "type": "해외"
   },
   {
@@ -60,21 +74,7 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "향후 투자 전략 및 전망 제시"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "US stock index futures pare losses after economic data - Yahoo Finance",
-    "original_title": "US stock index futures pare losses after economic data - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0NkZ2lRVmxUTy1QUnQ0UjE1aVNXWEZ2ZngwYXpKNld4N1BrTEUxdVhHM0lBQXFCTFVmV0RwYVFlZGlDcERaRTVEYXp5MVN1Z2NhUnJjdXNnVFk5VF82a1pFNnp0ckFpRVpNbms3eEFlOGI3NzVadzFGYnk3ZS1SR25JRTF1cU9oSXl0M2Nn?oc=5",
-    "publisher": "Yahoo Finance",
-    "summary": [
-      "미국 주가지수 선물 하락 폭 축소",
-      "경제 지표 발표 이후 시장 반응",
-      "투자자들의 경제 데이터 주시"
+      "투자 전략 및 경제 전망 제시"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
