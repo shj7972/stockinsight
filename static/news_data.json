@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWE9iWEhZa1cxNmktVFVmZGhoVkdfcDQ0OWRjdnNPczRsRThYUjQ4RjhxR0VPVWdjUE5qSmxMUGZiT0FjRkpJNnQ5Ti1Vd01qRGpHU0RRY2c1azhWNnROa0FubUk5aGc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 투자자의 국내 증시 이탈이 9월에도 지속됨",
-      "외국인이 국내 증시에서 총 26.7조 원을 순매도함",
-      "지속되는 셀 코리아 현상으로 국내 시장 우려 증대"
+      "외국인 투자자의 한국 증시 이탈이 9월에도 지속됨",
+      "국내 주식시장에서 총 26조 7천억 원의 자금이 유출됨",
+      "외국인의 지속적인 매도세로 국내 증시 우려 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상수지 흑자 지속 전망",
-      "경상수지 흑자 규모 GDP 대비 20% 상회 예상",
-      "한겨레 보도를 통해 경제 성장 가능성 시사"
+      "2028년까지 한국 경상 흑자 지속 전망",
+      "경상 흑자 규모 GDP 대비 20% 상회할 것",
+      "한겨레 보도를 통해 경제 성장 기대감 표명"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -31,12 +31,26 @@
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
-      "한겨레를 통해 증시의 향방에 대한 관심이 집중됨"
+      "이번 주가 상승세가 이유 있는 강세인지 분석이 요구됨",
+      "한겨레를 통해 현재 증시 상황에 대한 진단이 보도됨"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
     "type": "국내"
+  },
+  {
+    "title": "Equities and bond yields dip with AI jitters and economic data in focus - Reuters",
+    "original_title": "Equities and bond yields dip with AI jitters and economic data in focus - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "AI 관련 우려로 주식과 채권 수익률 하락",
+      "시장 참가자들 주요 경제 데이터에 주목",
+      "글로벌 증시 및 금리 동반 약세 기록"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "해외"
   },
   {
     "title": "Weekly market commentary - BlackRock",
@@ -46,24 +60,10 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "투자 전략 및 경제 전망 제시"
+      "투자 전략 및 경제 전망 제공"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
-    "original_title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "탄탄한 소비 지출이 3분기 미국 경제 견인",
-      "인공지능(AI) 관련 투자가 성장에 기여",
-      "로이터 통신이 전한 미국 경제의 호조세"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
     "type": "해외"
   },
   {
@@ -72,9 +72,9 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakJIM3NiandmOHg1SXNhT2JpcXZBNzNiaGU5U2o3dW5oLWphdUhSaG1COFNIVTBPSWFSaDBLUGRUTW1HX2QtUC16aFdBMS02UjVZNFBsMjJMU0pkazJCRmhXUGVyZm1tMWFKUWZVa3pSc2lBNlN4SzhmemVFRzBzVExRR0pkN3JSa0N1bjIxX05JbDBJOW1DcEVsbFhaZGhYTXZlOEdFcU1ENVlhdGZGX2l6bnJPR2hHbXc?oc=5",
     "publisher": "Anchorage Daily News",
     "summary": [
-      "알파벳 주가가 역사적인 하락을 기록했습니다.",
-      "이로 인해 미국 전체 증시가 하락세를 보였습니다.",
-      "빅테크 기업의 부진이 시장에 악영향을 미쳤습니다."
+      "알파벳 주가 역사적 급락 발생",
+      "미국 증시 전체의 하락세 주도",
+      "시장 전반에 부정적 영향 미침"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.85,
