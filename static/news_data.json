@@ -1,41 +1,41 @@
 [
   {
+    "title": "“북한, 코인 17조원 훔쳤다”…북한은 어떻게 ‘세계 1위 코인 도둑’이 됐나 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "북한이 암호화폐 17조 원을 탈취함",
+      "북한은 세계 1위의 코인 도둑으로 지목됨",
+      "사이버 범죄를 통한 자금 탈취 수법 집중 조명"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
+    "type": "국내"
+  },
+  {
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
+    "summary": [
+      "한중일 재무장관이 중동 전쟁의 경제적 파급 위험 경고",
+      "경제 하방 압력 리스크에 대해 한목소리로 우려 표명",
+      "3국 장관의 공조와 경제 안정을 위한 소통 강화"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.3,
+    "type": "국내"
+  },
+  {
     "title": "외국인 ‘셀 코리아’ 9월에도 계속…국내 증시에서 26.7조 빼갔다 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWE9iWEhZa1cxNmktVFVmZGhoVkdfcDQ0OWRjdnNPczRsRThYUjQ4RjhxR0VPVWdjUE5qSmxMUGZiT0FjRkpJNnQ5Ti1Vd01qRGpHU0RRY2c1azhWNnROa0FubUk5aGc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 투자자의 한국 증시 이탈이 9월에도 지속됨",
-      "국내 주식시장에서 총 26조 7천억 원의 자금이 유출됨",
-      "외국인의 지속적인 매도세로 국내 증시 우려 증대"
+      "외국인 투자자의 국내 증시 이탈이 9월에도 지속됨",
+      "외국인이 국내 증시에서 총 26.7조 원을 순매도함",
+      "한국 증시에 대한 외국인의 '셀 코리아' 기조가 이어짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
-    "type": "국내"
-  },
-  {
-    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "경상 흑자 규모 GDP 대비 20% 상회할 것",
-      "한겨레 보도를 통해 경제 성장 기대감 표명"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
-    "type": "국내"
-  },
-  {
-    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "이번 주가 상승세가 이유 있는 강세인지 분석이 요구됨",
-      "한겨레를 통해 현재 증시 상황에 대한 진단이 보도됨"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "AI 관련 우려로 주식과 채권 수익률 하락",
-      "시장 참가자들 주요 경제 데이터에 주목",
-      "글로벌 증시 및 금리 동반 약세 기록"
+      "AI 관련 우려로 주식과 국채 금리가 하락함",
+      "투자자들의 관심이 경제 지표 발표에 집중됨",
+      "글로벌 증시와 채권 시장의 변동성 확대"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "Weekly market commentary - BlackRock",
-    "original_title": "Weekly market commentary - BlackRock",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "BlackRock",
-    "summary": [
-      "블랙록의 주간 시장 논평 발표",
-      "글로벌 금융 시장 동향 분석",
-      "투자 전략 및 경제 전망 제공"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment_score": 0.3,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakJIM3NiandmOHg1SXNhT2JpcXZBNzNiaGU5U2o3dW5oLWphdUhSaG1COFNIVTBPSWFSaDBLUGRUTW1HX2QtUC16aFdBMS02UjVZNFBsMjJMU0pkazJCRmhXUGVyZm1tMWFKUWZVa3pSc2lBNlN4SzhmemVFRzBzVExRR0pkN3JSa0N1bjIxX05JbDBJOW1DcEVsbFhaZGhYTXZlOEdFcU1ENVlhdGZGX2l6bnJPR2hHbXc?oc=5",
     "publisher": "Anchorage Daily News",
     "summary": [
-      "알파벳 주가 역사적 급락 발생",
-      "미국 증시 전체의 하락세 주도",
-      "시장 전반에 부정적 영향 미침"
+      "알파벳 주가가 역사적인 낙폭을 기록함",
+      "알파벳의 급락으로 미국 증시가 하락함",
+      "테크주의 부진이 전체 시장에 악영향을 미침"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.85,
+    "sentiment_score": 0.2,
+    "type": "해외"
+  },
+  {
+    "title": "Are we there yet? Bull market may have more miles - Invesco",
+    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
+    "publisher": "Invesco",
+    "summary": [
+      "인베스코, 강세장이 지속될 가능성 언급",
+      "현재의 상승세가 더 이어질 여력이 있음",
+      "증시의 추가적인 상승 가능성 시사"
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.8,
     "type": "해외"
   }
 ]
