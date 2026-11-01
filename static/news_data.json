@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "북한이 암호화폐 17조 원을 탈취함",
-      "북한은 세계 1위의 코인 도둑으로 지목됨",
-      "사이버 범죄를 통한 자금 탈취 수법 집중 조명"
+      "북한이 암호화폐 17조원을 탈취함",
+      "세계 1위의 코인 도둑으로 자리매김",
+      "암호화폐 보안의 취약성을 보여줌"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 중동 전쟁의 경제적 파급 위험 경고",
-      "경제 하방 압력 리스크에 대해 한목소리로 우려 표명",
-      "3국 장관의 공조와 경제 안정을 위한 소통 강화"
+      "한중일 재무장관이 한목소리를 냄",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "경제 리스크에 대한 공동 대응 시사"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -32,52 +32,52 @@
     "summary": [
       "외국인 투자자의 국내 증시 이탈이 9월에도 지속됨",
       "외국인이 국내 증시에서 총 26.7조 원을 순매도함",
-      "한국 증시에 대한 외국인의 '셀 코리아' 기조가 이어짐"
+      "지속되는 '셀 코리아' 현상으로 국내 증시 우려 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "Equities and bond yields dip with AI jitters and economic data in focus - Reuters",
-    "original_title": "Equities and bond yields dip with AI jitters and economic data in focus - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
+    "title": "Weekly market wrap - Edward Jones",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
+    "summary": [
+      "에드워드 존스의 주간 시장 동향 보고서입니다.",
+      "한 주간의 글로벌 및 국내 금융시장을 정리했습니다.",
+      "주요 경제 지표와 증시 흐름을 요약했습니다."
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Weekly market commentary - BlackRock",
+    "original_title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "BlackRock",
+    "summary": [
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "향후 경제 전망 및 투자 전략"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
+    "original_title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "AI 관련 우려로 주식과 국채 금리가 하락함",
-      "투자자들의 관심이 경제 지표 발표에 집중됨",
-      "글로벌 증시와 채권 시장의 변동성 확대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.3,
-    "type": "해외"
-  },
-  {
-    "title": "Historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
-    "original_title": "Historic drop for Alphabet’s stock drags US market lower - Anchorage Daily News",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakJIM3NiandmOHg1SXNhT2JpcXZBNzNiaGU5U2o3dW5oLWphdUhSaG1COFNIVTBPSWFSaDBLUGRUTW1HX2QtUC16aFdBMS02UjVZNFBsMjJMU0pkazJCRmhXUGVyZm1tMWFKUWZVa3pSc2lBNlN4SzhmemVFRzBzVExRR0pkN3JSa0N1bjIxX05JbDBJOW1DcEVsbFhaZGhYTXZlOEdFcU1ENVlhdGZGX2l6bnJPR2hHbXc?oc=5",
-    "publisher": "Anchorage Daily News",
-    "summary": [
-      "알파벳 주가가 역사적인 낙폭을 기록함",
-      "알파벳의 급락으로 미국 증시가 하락함",
-      "테크주의 부진이 전체 시장에 악영향을 미침"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "해외"
-  },
-  {
-    "title": "Are we there yet? Bull market may have more miles - Invesco",
-    "original_title": "Are we there yet? Bull market may have more miles - Invesco",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXlhSUhXWWFVWTVSNUVHdnkzN091M0MwQjBYZUVMa2FaVEVfNzZHTTlYNzdtcERCdkt2QUlsWjFhRUNDQ2RRb0h4SlRhTjhvM3VMMVN5OGtnS0tVMnNGdXBNVWU5dVdaUW95aUZpQWhDNVc3clZHc2JPZ2tzUHl4YlQySQ?oc=5",
-    "publisher": "Invesco",
-    "summary": [
-      "인베스코, 강세장이 지속될 가능성 언급",
-      "현재의 상승세가 더 이어질 여력이 있음",
-      "증시의 추가적인 상승 가능성 시사"
+      "탄탄한 소비 지출로 3분기 미국 경제 성장",
+      "인공지능(AI) 관련 투자가 경제 성장 견인",
+      "미국 경제의 견고한 3분기 성과 확인"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "해외"
   }
 ]
