@@ -1,69 +1,55 @@
 [
   {
-    "title": "‘AI 버블’ 논란 핵심은 데이터센터…미국 내 건설 유예·금지 415곳 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wajk2MVo5dUFZbzhxRlR1T0UybmZZanB4My1oSUlNa0hCVTlEbGxKbEx0QmtOWWFDT3lJSlY3SnVkVTBzTURwVkY4SXFwNk5hZ2NOV1M4NlhQbFNIdGVOdVJrbjZ2Y0k?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "AI 버블 논란의 핵심은 데이터센터임",
-      "미국 내 데이터센터 건설 유예 및 금지",
-      "전국적으로 415곳에서 건설 제한 조치"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
-    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
-    "publisher": "경향신문",
-    "summary": [
-      "한·중·일 재무장관, 중동 전쟁의 경제 하방 리스크 우려",
-      "경제적 타격 가능성에 대해 세 나라가 한목소리 내",
-      "중동 분쟁이 미칠 경제적 파장에 공동 대응 시사"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
-    "type": "국내"
-  },
-  {
     "title": "외국인 ‘셀 코리아’ 9월에도 계속…국내 증시에서 26.7조 빼갔다 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWE9iWEhZa1cxNmktVFVmZGhoVkdfcDQ0OWRjdnNPczRsRThYUjQ4RjhxR0VPVWdjUE5qSmxMUGZiT0FjRkpJNnQ5Ti1Vd01qRGpHU0RRY2c1azhWNnROa0FubUk5aGc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 투자자의 국내 증시 매도세가 9월에도 지속됨",
-      "외국인이 국내 증시에서 총 26.7조 원을 순매도함",
-      "지속되는 '셀 코리아' 현상으로 국내 증시 우려 증대"
+      "외국인 투자자의 한국 증시 이탈이 9월에도 지속됨",
+      "국내 주식시장에서 총 26조 7천억 원 규모가 유출됨",
+      "외인 '셀 코리아' 현상으로 국내 증시 하방 압력 가중"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "Weekly market wrap - Edward Jones",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "블록체인은 멀쩡한데 8.4조 털렸다… 바이낸스 해킹 5대 궁금증 - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
+    "publisher": "서울신문",
     "summary": [
-      "에드워드 존스의 주간 시장 동향 보고서입니다.",
-      "한 주간의 주요 금융 시장 흐름을 요약했습니다.",
-      "글로벌 증시 및 경제 지표 변화를 다룹니다."
+      "블록체인 기술은 안전하나 8.4조원 규모 해킹 발생",
+      "바이낸스 해킹 사건과 관련한 5가지 주요 궁금증 제기",
+      "보안 취약점과 가상자산 거래소의 위험성 시사"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.1,
+    "type": "국내"
   },
   {
-    "title": "Midterm US elections, earnings, jobs data loom for AI-wary stock market By Reuters - Investing.com",
-    "original_title": "Midterm US elections, earnings, jobs data loom for AI-wary stock market By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNzVkRGtNSlJEMERYVldsRDdpdjE5U1J4eWQwNDRsNkpPR0pudjZfbi00QUZ3UmEyV3J6R2FqRTZQOVdsMXpDb1Z6Zi14SHdOa2o4dlFObm80VnJmOTJ6cVFBVTlKSUJ3T2N4ME1iSDhHRUcxX3pXUGdZQzAtOXNlTUtNd1dCVUhld3RfUmNDVTNmRlk3X19xdWRpUHR6RjZ1T2JkU3Bway1iZFNvdGxna1hPSkF3M216QlNXdw?oc=5",
-    "publisher": "Investing.com",
+    "title": "“북한, 코인 17조원 훔쳤다”…북한은 어떻게 ‘세계 1위 코인 도둑’이 됐나 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
+    "publisher": "한겨레",
     "summary": [
-      "미국 중간선거와 실적 발표가 시장에 대기 중",
-      "고용 지표 발표를 앞두고 주식시장 경계감 확산",
-      "인공지능(AI) 관련 우려가 시장에 영향 미침"
+      "북한이 암호화폐 17조 원을 탈취함",
+      "세계 1위의 코인 도둑으로 자리매김함",
+      "사이버 범죄를 통한 자금 조달 심각"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
+    "type": "국내"
+  },
+  {
+    "title": "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
+    "original_title": "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVlEWkkyN3lYZG41WXJvcl9pNWlKYW5VNjdmb1lHYkNGVHpmT1BHLWVDUFQydFNra3JIeVlfVFh5ZzhoTzRfMVdwZ2didmtGZ0hGZDN6ZmtTbUk5b2lIb3JfZ2poRld3R1BCM28zLUlHUnlZcHJQMXp3S01PTGNBSmxRN1pYMThUZXQtbHBHaU5CWnhTMFF6VTFidG05QzdQTnVJYmJiZl9YQTFxX3ZhWExjN0NZOUpTWjFTaUh5WUFSem9MdW1Z?oc=5",
+    "publisher": "Reuters",
+    "summary": [
+      "10월 AI 관련 주가 하락세 기록",
+      "미국 주식시장의 전반적 회복력 시험대",
+      "로이터 통신이 관련 시장 동향 보도"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.4,
     "type": "해외"
   },
   {
@@ -75,6 +61,20 @@
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
       "투자 전략 및 경제 전망 제시"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "How US Midterms Could Move Stock Markets, Oil Prices And India's Exports - NDTV",
+    "original_title": "How US Midterms Could Move Stock Markets, Oil Prices And India's Exports - NDTV",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXFpVERoSjJOLTJ6ZFZDM0J4ZHFIcHQwcE5iSE1XUWk0S1g1TTN2OFZFbDN5MFdjWU8tV0ZBUnAxRGV6NXZVY3hKZlpaRV92bnh5VWY5NjJBam9QOTNHenZZUnl2MnN5UW5fUDdRVm1mMjVva2tZdWhSeFlBWjg2WlFaMlY0bkNKZkU2MDlRNDR1ZFhUT3BYZVEtZW9Jc3l3ZGU4cEVLTjVYVkN1RUZLWEQ5SV9NQ2fSAb8BQVVfeXFMTUNUeDZVLVBMS042OU91ODk4S1ZjMHJReUJvdUdaZGYwR0xBZFVYZjdsNk8zaEtJWVUzcFRNWFREMEx3WFQ4ajNFWHVBZ09JQnR5Q0FNSTcyclFwQ1lxLXk3UVpIOTl2YzVFYWJnd1Mza01leTM0WWlWTER2ZmFhdjBkT3NZYTdoZmhmMlFkbnV1QWJzNHc5eVBCbjVHd0otUmVGbDNOaEVSSHJjeTNnOTRPYUltYUNMYnpWdlhQdEk?oc=5",
+    "publisher": "NDTV",
+    "summary": [
+      "미국 중간선거가 주식시장에 미치는 영향 분석",
+      "중간선거 결과에 따른 유가 변동 가능성",
+      "미국 선거가 인도 수출에 미치는 영향 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
