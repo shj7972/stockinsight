@@ -1,15 +1,15 @@
 [
   {
-    "title": "“북한, 코인 17조원 훔쳤다”…북한은 어떻게 ‘세계 1위 코인 도둑’이 됐나 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
+    "title": "‘AI 버블’ 논란 핵심은 데이터센터…미국 내 건설 유예·금지 415곳 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wajk2MVo5dUFZbzhxRlR1T0UybmZZanB4My1oSUlNa0hCVTlEbGxKbEx0QmtOWWFDT3lJSlY3SnVkVTBzTURwVkY4SXFwNk5hZ2NOV1M4NlhQbFNIdGVOdVJrbjZ2Y0k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "북한이 암호화폐 17조원을 탈취함",
-      "세계 1위의 코인 도둑으로 자리매김",
-      "암호화폐 보안의 취약성을 보여줌"
+      "AI 버블 논란의 핵심은 데이터센터임",
+      "미국 내 데이터센터 건설 유예 및 금지",
+      "전국적으로 415곳에서 건설 제한 조치"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한중일 재무장관이 한목소리를 냄",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "경제 리스크에 대한 공동 대응 시사"
+      "한·중·일 재무장관, 중동 전쟁의 경제 하방 리스크 우려",
+      "경제적 타격 가능성에 대해 세 나라가 한목소리 내",
+      "중동 분쟁이 미칠 경제적 파장에 공동 대응 시사"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": -0.7,
     "type": "국내"
   },
   {
@@ -30,7 +30,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWE9iWEhZa1cxNmktVFVmZGhoVkdfcDQ0OWRjdnNPczRsRThYUjQ4RjhxR0VPVWdjUE5qSmxMUGZiT0FjRkpJNnQ5Ti1Vd01qRGpHU0RRY2c1azhWNnROa0FubUk5aGc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 투자자의 국내 증시 이탈이 9월에도 지속됨",
+      "외국인 투자자의 국내 증시 매도세가 9월에도 지속됨",
       "외국인이 국내 증시에서 총 26.7조 원을 순매도함",
       "지속되는 '셀 코리아' 현상으로 국내 증시 우려 증대"
     ],
@@ -45,8 +45,22 @@
     "publisher": "Edward Jones",
     "summary": [
       "에드워드 존스의 주간 시장 동향 보고서입니다.",
-      "한 주간의 글로벌 및 국내 금융시장을 정리했습니다.",
-      "주요 경제 지표와 증시 흐름을 요약했습니다."
+      "한 주간의 주요 금융 시장 흐름을 요약했습니다.",
+      "글로벌 증시 및 경제 지표 변화를 다룹니다."
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "Midterm US elections, earnings, jobs data loom for AI-wary stock market By Reuters - Investing.com",
+    "original_title": "Midterm US elections, earnings, jobs data loom for AI-wary stock market By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNzVkRGtNSlJEMERYVldsRDdpdjE5U1J4eWQwNDRsNkpPR0pudjZfbi00QUZ3UmEyV3J6R2FqRTZQOVdsMXpDb1Z6Zi14SHdOa2o4dlFObm80VnJmOTJ6cVFBVTlKSUJ3T2N4ME1iSDhHRUcxX3pXUGdZQzAtOXNlTUtNd1dCVUhld3RfUmNDVTNmRlk3X19xdWRpUHR6RjZ1T2JkU3Bway1iZFNvdGxna1hPSkF3M216QlNXdw?oc=5",
+    "publisher": "Investing.com",
+    "summary": [
+      "미국 중간선거와 실적 발표가 시장에 대기 중",
+      "고용 지표 발표를 앞두고 주식시장 경계감 확산",
+      "인공지능(AI) 관련 우려가 시장에 영향 미침"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -60,24 +74,10 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "향후 경제 전망 및 투자 전략"
+      "투자 전략 및 경제 전망 제시"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
-    "original_title": "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
-    "publisher": "Reuters",
-    "summary": [
-      "탄탄한 소비 지출로 3분기 미국 경제 성장",
-      "인공지능(AI) 관련 투자가 경제 성장 견인",
-      "미국 경제의 견고한 3분기 성과 확인"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
     "type": "해외"
   }
 ]
