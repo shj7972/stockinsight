@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWE9iWEhZa1cxNmktVFVmZGhoVkdfcDQ0OWRjdnNPczRsRThYUjQ4RjhxR0VPVWdjUE5qSmxMUGZiT0FjRkpJNnQ5Ti1Vd01qRGpHU0RRY2c1azhWNnROa0FubUk5aGc?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "외국인 투자자의 한국 증시 이탈이 9월에도 지속됨",
-      "국내 주식시장에서 총 26조 7천억 원 규모가 유출됨",
-      "외인 '셀 코리아' 현상으로 국내 증시 하방 압력 가중"
+      "외국인 투자자들의 국내 증시 이탈이 9월에도 지속됨",
+      "외국인이 국내 증시에서 26.7조 원을 순매도함",
+      "지속되는 셀 코리아 현상으로 국내 증시 우려 증대"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "블록체인 기술은 안전하나 8.4조원 규모 해킹 발생",
-      "바이낸스 해킹 사건과 관련한 5가지 주요 궁금증 제기",
-      "보안 취약점과 가상자산 거래소의 위험성 시사"
+      "블록체인은 안전하나 바이낸스에서 8.4조원 해킹 발생",
+      "대규모 자금 탈취 사건에 대한 5대 주요 궁금증 분석",
+      "가상자산 거래소의 보안 취약점과 신뢰성 문제 제기"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "“북한, 코인 17조원 훔쳤다”…북한은 어떻게 ‘세계 1위 코인 도둑’이 됐나 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
-    "publisher": "한겨레",
+    "title": "Korea·China·Japan finance ministers speak with one voice on “downward economic pressure risks stemming from the Middle East war” - 경향신문",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
+    "publisher": "경향신문",
     "summary": [
-      "북한이 암호화폐 17조 원을 탈취함",
-      "세계 1위의 코인 도둑으로 자리매김함",
-      "사이버 범죄를 통한 자금 조달 심각"
+      "한·중·일 재무장관 회의 개최",
+      "중동 전쟁으로 인한 경제 하방 압력 우려",
+      "3국 재무장관의 한목소리 대응 공조"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -46,7 +46,7 @@
     "summary": [
       "10월 AI 관련 주가 하락세 기록",
       "미국 주식시장의 전반적 회복력 시험대",
-      "로이터 통신이 관련 시장 동향 보도"
+      "투자자들의 AI 테마 신중론 대두"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.4,
@@ -67,17 +67,17 @@
     "type": "해외"
   },
   {
-    "title": "How US Midterms Could Move Stock Markets, Oil Prices And India's Exports - NDTV",
-    "original_title": "How US Midterms Could Move Stock Markets, Oil Prices And India's Exports - NDTV",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXFpVERoSjJOLTJ6ZFZDM0J4ZHFIcHQwcE5iSE1XUWk0S1g1TTN2OFZFbDN5MFdjWU8tV0ZBUnAxRGV6NXZVY3hKZlpaRV92bnh5VWY5NjJBam9QOTNHenZZUnl2MnN5UW5fUDdRVm1mMjVva2tZdWhSeFlBWjg2WlFaMlY0bkNKZkU2MDlRNDR1ZFhUT3BYZVEtZW9Jc3l3ZGU4cEVLTjVYVkN1RUZLWEQ5SV9NQ2fSAb8BQVVfeXFMTUNUeDZVLVBMS042OU91ODk4S1ZjMHJReUJvdUdaZGYwR0xBZFVYZjdsNk8zaEtJWVUzcFRNWFREMEx3WFQ4ajNFWHVBZ09JQnR5Q0FNSTcyclFwQ1lxLXk3UVpIOTl2YzVFYWJnd1Mza01leTM0WWlWTER2ZmFhdjBkT3NZYTdoZmhmMlFkbnV1QWJzNHc5eVBCbjVHd0otUmVGbDNOaEVSSHJjeTNnOTRPYUltYUNMYnpWdlhQdEk?oc=5",
-    "publisher": "NDTV",
+    "title": "A lasting AI sell-off is one of the biggest risks to the economy, BofA warns - Yahoo Finance",
+    "original_title": "A lasting AI sell-off is one of the biggest risks to the economy, BofA warns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONzFqNmIybWdUa2M0bF9hbHgtX2Q1cjhrckVOU2ZmVzF6RnJReERCUEtFV0xFUW1JV3BJQ1BNUFdSR1UzNDJLRVk4c2xtaVg1bGhxZUEtc2liYzZ1akxzWnVqV2ZlUUpNa1FtSUR1RUVYUU5aT05Zcm5xbVVFQlY4ZDRYcXBsMWo1eFR4V0I4NjI0MlVLdW5SMUlobklOYVhZWEZKYkxCQ3M3TEhvVTJCYjZHblFoVTh6aEJETkpqM0pHVUNhR0RXOHNCQ2E?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "미국 중간선거가 주식시장에 미치는 영향 분석",
-      "중간선거 결과에 따른 유가 변동 가능성",
-      "미국 선거가 인도 수출에 미치는 영향 전망"
+      "뱅크오브아메리카(BofA)가 AI 매도세를 경고함",
+      "지속적인 AI 매도세는 경제의 주요 위험 요소임",
+      "AI 거품 붕괴 우려가 경제에 미칠 타격을 강조함"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
     "type": "해외"
   }
 ]
