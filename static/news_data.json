@@ -4,25 +4,25 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "블록체인 기술은 안전하나 8.4조원 규모 해킹 발생",
-      "바이낸스 해킹 사건과 관련한 5가지 주요 궁금증 제기",
-      "가상자산 거래소의 보안 취약성과 안전성 우려 확산"
+      "블록체인 기술은 안전하나 바이낸스에서 대규모 해킹 발생",
+      "약 8조 4천억 원 상당의 자산이 탈취되어 충격",
+      "바이낸스 해킹 사건과 관련된 5가지 주요 의혹 제기"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
     "type": "국내"
   },
   {
-    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
+    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "한국 경제가 고유가와 고금리 위험에 다시 직면함",
-      "에너지 가격 상승과 금리 부담이 경제에 악영향",
-      "복합적인 경제 위기 요인에 대한 대응이 시급함"
+      "2028년까지 한국 경상수지 흑자 지속 전망",
+      "경상수지 흑자 규모 GDP 대비 20% 상회 예상",
+      "국내 경제 및 대외 건전성에 긍정적 영향 기대"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -30,54 +30,54 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
+      "사흘 만에 신용대출 1조원 급증",
+      "투자자들의 빚투 현상 심화",
+      "주택담보대출 금리 최고 7.3% 기록"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
+    "type": "국내"
+  },
+  {
+    "title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
+    "original_title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkpVS2U5RVFxaEtXOFd1Q2RQWEdZd0x6c1g5bTJtTnZBR3kya185cnZOTkFCTW83eDE4aUNvVk91NmV1ckltdVUxZXZkczY0R3hrRFZOSzJld1lHWEkxdDlQX0dwaWJiZE9pY0xod1pFUEJaTnkxdjY4bGp2Unk0YjJoMWNOTzlDS2RmeXhpaDRESWVrTnFTVGxsYmVPZGYwMkZnaWtUZ2I0MEVvVkRyWExNNDlXTTFIVUFuWEJwVm5mUXBaUFBjadIBzgFBVV95cUxNaDRuLTR0Q01OVG5fQTA0eG9waUVBQXVPN0NhSmdIVW1MdnpxaFowejV3dGRaamVmOWpvaVVlNEh5YlBUUTZsRjRZRzdHUnlsZThXeC1WelhvREEtOW5McGZOUE41RlhiQ2F2eVAxWmVONW9vTElYV2F5dHkteWJBeDR3NzRkVU5GSHY3Y3dsYmtzVi1jb1hCT3Y3VkU5bWl6MVA0OGY5ZEY2WTR2UDdVaHpua19uYkFIRWNRYjRFY3Qxc3QwSXhrZUd4WEcxUQ?oc=5",
+    "publisher": "PBS",
+    "summary": [
       "AI 요약 생성 중 오류 발생.",
       "잠시 후 다시 시도해주세요.",
       "원문을 확인하세요."
     ],
     "sentiment": "Neutral",
     "sentiment_score": 0,
-    "type": "국내"
+    "type": "해외"
   },
   {
-    "title": "US Midterms: How Markets Are Reacting to Democrat Victory - Morningstar",
-    "original_title": "US Midterms: How Markets Are Reacting to Democrat Victory - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOREE3c3RRX0czclVYM1dmTExmOUFIdWhSeGtvV0xSbDhMbThGUzBGV1UyU3BBeEZUdU1Pb0RhMm5NMl9PQmxzbXRza3lyU0poM3BETHhnaXlwLWZQWTBRY051cE9CYzhlWm5TeDFhaDB3V2VGb1ZJMkp0dmh1UkdMZlVJTTBtbkQ0MU03TVhrNTRUMmlTOENmb3A1RTlhaW8?oc=5",
-    "publisher": "Morningstar",
+    "title": "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
+    "original_title": "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMnZRT0MyRlJQZFBrYkRoNTB5LV84MXFhZmlpeGhadldPTUtqTnpHQ0RrTDR0eXZPRzQxeURDeTFudHhha0VoUFk4MjJfZ0hjRnp0cFFGUXFGeHd4cFNXSzF4N195TWtGMGdHbkZ6NTdzVWs4bnR3bTVMOUl4MWw5a2VUaWFVaElkOS1QZnh0Z2NOWUZOak83NUNXVFljX1k?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "미 중간선거 민주당 승리",
-      "시장 반응에 대한 분석",
-      "모닝스타의 시장 전망 보도"
+      "미국 중간선거 이후 트럼프의 '레임덕' 상황 분석",
+      "트럼프의 정치적 입지 약화가 세계 경제에 미치는 영향",
+      "글로벌 경제에 대한 향후 불확실성과 전망 다룸"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
-    "original_title": "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVlEWkkyN3lYZG41WXJvcl9pNWlKYW5VNjdmb1lHYkNGVHpmT1BHLWVDUFQydFNra3JIeVlfVFh5ZzhoTzRfMVdwZ2didmtGZ0hGZDN6ZmtTbUk5b2lIb3JfZ2poRld3R1BCM28zLUlHUnlZcHJQMXp3S01PTGNBSmxRN1pYMThUZXQtbHBHaU5CWnhTMFF6VTFidG05QzdQTnVJYmJiZl9YQTFxX3ZhWExjN0NZOUpTWjFTaUh5WUFSem9MdW1Z?oc=5",
+    "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble - Reuters",
+    "original_title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "10월 AI 관련 주가 급락 발생",
-      "미국 주식 시장의 전반적 회복력 시험",
-      "투자자들의 리스크 관리 중요성 대두"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
-    "type": "해외"
-  },
-  {
-    "title": "How Wall Street analysts think the midterms could affect the stock market - CBS News",
-    "original_title": "How Wall Street analysts think the midterms could affect the stock market - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKNExSNUh0clVZWHY5bmZ0dGVxMHFBT25FbU9ybTZ1MElfRHhNN1hKSFhja1J4VTZPT0ttMkprWVVMWEhKMVdlTHVwVWRQMS1ZMkkzQ1YwZmpHQ184QjJud1ZQVk9GeGJxWUotMjhhMHpFTW5nMXNmQXFqdFo?oc=5",
-    "publisher": "CBS News",
-    "summary": [
-      "중간선거가 주식시장에 미치는 영향 분석",
-      "월스트리트 애널리스트들의 전망 조명",
-      "향후 경제 및 증시 흐름에 대한 관심"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "해외"
   }
 ]
