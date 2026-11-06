@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "블록체인은 안전하나 바이낸스에서 8.4조 원 피해 발생",
-      "해킹 사건과 관련된 5가지 주요 궁금증 집중 분석",
-      "가상자산 거래소의 보안 취약성에 대한 우려 증대"
+      "블록체인은 안전하나 바이낸스에서 8.4조원 규모 해킹 발생",
+      "대규모 가상자산 탈취 사건에 대한 5대 주요 궁금증 제기",
+      "보안 취약점과 거래소 안전성에 대한 우려 확산"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
@@ -18,52 +18,38 @@
     "publisher": "한겨레",
     "summary": [
       "북한이 암호화폐 17조 원을 탈취함",
-      "북한이 세계 1위의 코인 해킹 주체로 부상",
-      "사이버 범죄를 통한 북한의 자금 확보 실태 고발"
+      "북한은 세계 1위의 코인 도둑으로 부상함",
+      "사이버 범죄를 통한 자금 조달 실태 고발"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "‘AI 버블’ 논란 핵심은 데이터센터…미국 내 건설 유예·금지 415곳 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wajk2MVo5dUFZbzhxRlR1T0UybmZZanB4My1oSUlNa0hCVTlEbGxKbEx0QmtOWWFDT3lJSlY3SnVkVTBzTURwVkY4SXFwNk5hZ2NOV1M4NlhQbFNIdGVOdVJrbjZ2Y0k?oc=5",
+    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 버블 논란의 핵심은 데이터센터에 집중됨",
-      "미국 내 데이터센터 건설 유예 및 금지 415곳",
-      "인프라 구축 제동으로 인한 시장 우려 확산"
+      "2028년까지 한국 경상 흑자 지속 전망",
+      "GDP 대비 경상 흑자 비중 20% 상회 예상",
+      "국내 경제 및 대외 건전성 긍정적 지표"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
     "title": "US stock markets see worst day since 2025 - Anadolu Ajansı",
     "original_title": "US stock markets see worst day since 2025 - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWpXOEpSbWNpWDRRLWNJRTlWNFRPX25idkI3alNPX21vNVduUC1mTjlXbF9hbmctM25kTUppNmdIRFhrazE3VXFTblVYV09TcnFDNDZmVkQwTldpYnVRZmdaaXQ1RmExdExMMTZMd0IxSUpxdlJLc3IwU2J5czkwLW1kLWs?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUmtiXzNpWDR2b014bGdBQW9qYzZwandyOXIzdDVmNlVSX0lmQVhGc3R5elYwYmo0TC1tcm4zUjZjUWoxa0xWbDV2Q1M1QVNYUGhxbEpRWnFhMkZ0aWpiQ3hwWlVpM3p3Vl9PTjkxcUFWSVdSUVlBTGFrWGR4ZFdSLWFNeFh2TzJlZVE?oc=5",
     "publisher": "Anadolu Ajansı",
     "summary": [
-      "미국 주식 시장이 큰 하락세를 기록했습니다.",
+      "미국 주식시장이 큰 하락세를 기록했습니다.",
       "2025년 이후 최악의 하루를 보냈습니다.",
-      "아나돌루 통신이 관련 소식을 보도했습니다."
+      "투자 심리가 급격하게 위축되었습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
-    "type": "해외"
-  },
-  {
-    "title": "How do changing interest rates affect the stock market in 2026 - U.S. Bank",
-    "original_title": "How do changing interest rates affect the stock market in 2026 - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
-    "publisher": "U.S. Bank",
-    "summary": [
-      "2026년 금리 변화가 증시에 미치는 영향 분석",
-      "미국 은행이 전하는 금리와 주식시장 관계",
-      "금리 변동에 따른 투자 전략 가이드 제공"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment_score": -0.9,
     "type": "해외"
   },
   {
@@ -74,10 +60,24 @@
     "summary": [
       "브렌트유 가격이 배럴당 95달러 아래로 하락함",
       "미국 증시가 급등하며 다우지수가 1500포인트 폭등함",
-      "유가 하락이 증시 상승의 주요 동력으로 작용함"
+      "유가 하락이 증시 상승의 주요 원인으로 작용함"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.9,
+    "type": "해외"
+  },
+  {
+    "title": "Markets realise they hate America’s blue wave - The Economist",
+    "original_title": "Markets realise they hate America’s blue wave - The Economist",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNODVqQ2FhbW1EcUJEQjhfQlJnTV9tTEYtd2FXOHBoeE5LZGF1UmR1QzJ4TjBRVXNvU25SczJqT3pjOTl2UUhGZ0J5YjlDNG1aRzFVM25PZEpSeFh3M0o4czNTYWREa2hScHJsMU9VcTNRMWtRQ3JjaGloLU5EdkNCenltQXlubzFVU2lLR1Nxb244Q3VpenlFU1ZqWTUybGNINnVZTjB3?oc=5",
+    "publisher": "The Economist",
+    "summary": [
+      "시장 참여자들이 미국의 블루 웨이브를 싫어함",
+      "민주당의 압승이 시장에 부정적 영향 미침",
+      "정치적 변화에 따른 경제적 우려 증대"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
