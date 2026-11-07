@@ -1,15 +1,28 @@
 [
   {
+    "title": "커지는 AI 해킹 위협…금융권 580여개사 보안 전수점검 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83RDhiN0JaWXJQTmdGNEFXQlRkSWp5Vm9kUURuN0VYTDg0RUtwbUcyN2xkeXNZelZSNlJYME9JVUR0dXJBcWNXZVo2dXpKLUx6emJpalNuZWFCcS1SZ2pSOE1ITTliOEU?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "증가하는 AI 해킹 위협에 대응 필요",
+      "금융권 580여 개사 대상 보안 전수점검 실시",
+      "사이버 보안 강화 및 리스크 선제적 관리"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.3,
+    "type": "국내"
+  },
+  {
     "title": "블록체인은 멀쩡한데 8.4조 털렸다… 바이낸스 해킹 5대 궁금증 - 서울신문",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "블록체인은 안전하나 바이낸스에서 8.4조원 규모 해킹 발생",
-      "대규모 가상자산 탈취 사건에 대한 5대 주요 궁금증 제기",
-      "보안 취약점과 거래소 안전성에 대한 우려 확산"
+      "블록체인은 안전하나 바이낸스에서 8.4조 원 피해 발생",
+      "바이낸스 해킹 사건과 관련한 5가지 주요 궁금증 제기",
+      "보안의 중요성과 가상자산 거래소의 취약점 부각"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -18,63 +31,50 @@
     "publisher": "한겨레",
     "summary": [
       "북한이 암호화폐 17조 원을 탈취함",
-      "북한은 세계 1위의 코인 도둑으로 부상함",
-      "사이버 범죄를 통한 자금 조달 실태 고발"
+      "북한은 세계 1위의 코인 도둑으로 지목됨",
+      "국제 사회의 암호화폐 보안 위협이 대두됨"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
-    "publisher": "한겨레",
+    "title": "The Midterms Rattled AI Stocks. Here’s What to Watch in the Broader Economy. - Council on Foreign Relations",
+    "original_title": "The Midterms Rattled AI Stocks. Here’s What to Watch in the Broader Economy. - Council on Foreign Relations",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmFpVS01Q3l5T29kbVQ3aDFZcjhnRmNaano4c1hXdHJTYnB3bFJXakY2V2w3U044VmhSd29JaWV6ZUUxbVFEUGV0Z3dHaXo4TVJpZXBCYnVXLU5jZGxzc0dhNkxFZUVyWFZQVk55R0RFdl9adjItMUkyMG9TVG9IQkV2Tk5YN2hadk1qcFJ3dDFicXlMMlhzSGVDV3JuM0gzQXRJeQ?oc=5",
+    "publisher": "Council on Foreign Relations",
     "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "GDP 대비 경상 흑자 비중 20% 상회 예상",
-      "국내 경제 및 대외 건전성 긍정적 지표"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
-    "type": "국내"
-  },
-  {
-    "title": "US stock markets see worst day since 2025 - Anadolu Ajansı",
-    "original_title": "US stock markets see worst day since 2025 - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUmtiXzNpWDR2b014bGdBQW9qYzZwandyOXIzdDVmNlVSX0lmQVhGc3R5elYwYmo0TC1tcm4zUjZjUWoxa0xWbDV2Q1M1QVNYUGhxbEpRWnFhMkZ0aWpiQ3hwWlVpM3p3Vl9PTjkxcUFWSVdSUVlBTGFrWGR4ZFdSLWFNeFh2TzJlZVE?oc=5",
-    "publisher": "Anadolu Ajansı",
-    "summary": [
-      "미국 주식시장이 큰 하락세를 기록했습니다.",
-      "2025년 이후 최악의 하루를 보냈습니다.",
-      "투자 심리가 급격하게 위축되었습니다."
+      "중간선거가 AI 관련 주가에 큰 충격을 주었습니다.",
+      "광범위한 경제 지표와 동향에 주목해야 합니다.",
+      "외교협회(CFR)에서 관련 분석을 보도했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
-    "title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
-    "original_title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkpVS2U5RVFxaEtXOFd1Q2RQWEdZd0x6c1g5bTJtTnZBR3kya185cnZOTkFCTW83eDE4aUNvVk91NmV1ckltdVUxZXZkczY0R3hrRFZOSzJld1lHWEkxdDlQX0dwaWJiZE9pY0xod1pFUEJaTnkxdjY4bGp2Unk0YjJoMWNOTzlDS2RmeXhpaDRESWVrTnFTVGxsYmVPZGYwMkZnaWtUZ2I0MEVvVkRyWExNNDlXTTFIVUFuWEJwVm5mUXBaUFBjadIBzgFBVV95cUxNaDRuLTR0Q01OVG5fQTA0eG9waUVBQXVPN0NhSmdIVW1MdnpxaFowejV3dGRaamVmOWpvaVVlNEh5YlBUUTZsRjRZRzdHUnlsZThXeC1WelhvREEtOW5McGZOUE41RlhiQ2F2eVAxWmVONW9vTElYV2F5dHkteWJBeDR3NzRkVU5GSHY3Y3dsYmtzVi1jb1hCT3Y3VkU5bWl6MVA0OGY5ZEY2WTR2UDdVaHpua19uYkFIRWNRYjRFY3Qxc3QwSXhrZUd4WEcxUQ?oc=5",
-    "publisher": "PBS",
+    "title": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com",
+    "original_title": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "브렌트유 가격이 배럴당 95달러 아래로 하락함",
-      "미국 증시가 급등하며 다우지수가 1500포인트 폭등함",
-      "유가 하락이 증시 상승의 주요 원인으로 작용함"
+      "미국 증시 급락세가 진정되었습니다.",
+      "저가 매수세가 유입되며 지지를 형성했습니다.",
+      "블룸버그가 시장 동향을 보도했습니다."
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.9,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Markets realise they hate America’s blue wave - The Economist",
-    "original_title": "Markets realise they hate America’s blue wave - The Economist",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNODVqQ2FhbW1EcUJEQjhfQlJnTV9tTEYtd2FXOHBoeE5LZGF1UmR1QzJ4TjBRVXNvU25SczJqT3pjOTl2UUhGZ0J5YjlDNG1aRzFVM25PZEpSeFh3M0o4czNTYWREa2hScHJsMU9VcTNRMWtRQ3JjaGloLU5EdkNCenltQXlubzFVU2lLR1Nxb244Q3VpenlFU1ZqWTUybGNINnVZTjB3?oc=5",
-    "publisher": "The Economist",
+    "title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
+    "original_title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5",
+    "publisher": "The Guardian",
     "summary": [
-      "시장 참여자들이 미국의 블루 웨이브를 싫어함",
-      "민주당의 압승이 시장에 부정적 영향 미침",
-      "정치적 변화에 따른 경제적 우려 증대"
+      "미국 테크주 주가 하락세 기록",
+      "AI 거품 붕괴 우려 확산",
+      "가디언지가 시장 동향 분석"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.7,
