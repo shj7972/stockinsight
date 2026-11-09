@@ -1,41 +1,41 @@
 [
   {
-    "title": "블록체인은 멀쩡한데 8.4조 털렸다… 바이낸스 해킹 5대 궁금증 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
-    "publisher": "서울신문",
-    "summary": [
-      "블록체인 자체는 안전하나 8.4조 원 해킹 발생",
-      "바이낸스 해킹 사건에 대한 5가지 주요 궁금증",
-      "보안의 허점을 파고든 대규모 가상자산 탈취 사건"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
-    "type": "국내"
-  },
-  {
-    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "경상 흑자 규모 GDP 대비 20% 상회할 것",
-      "한겨레 보도를 통해 경제 전망 분석 제기"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "현재의 시장 강세가 타당한 이유가 있는지 분석 중",
-      "투자자들의 기대감과 시장의 방향성에 관심 집중"
+      "이번 상승세가 타당한 근거가 있는지 분석이 제기됨",
+      "증시의 향후 방향성과 강세 지속 여부에 관심이 집중됨"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
+    "type": "국내"
+  },
+  {
+    "title": "미 재무부 국내 은행 7곳에 전화 “대북제재 지켜라” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUVRDaEFFRVl1RXM4ZmxfNDBYQmMwZUwxeVNocHpOcFZnX1pNOFFWMTdkM2pLc0NKRkRHN0NzeTJZM21jNUMtREVXWnU2dDNiTFdlSUlHYkFJVzgyMHBGcjltME1Mdw?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "미 재무부, 국내 은행 7곳에 유선 접촉",
+      "철저한 대북제재 준수를 강력히 요구함",
+      "한반도 금융 리스크 및 긴장감 고조"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "사흘 만에 신용대출 1조원 급증",
+      "투자자들의 빚투 현상 심화",
+      "주택담보대출 금리 최고 7.3% 기록"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmFpVS01Q3l5T29kbVQ3aDFZcjhnRmNaano4c1hXdHJTYnB3bFJXakY2V2w3U044VmhSd29JaWV6ZUUxbVFEUGV0Z3dHaXo4TVJpZXBCYnVXLU5jZGxzc0dhNkxFZUVyWFZQVk55R0RFdl9adjItMUkyMG9TVG9IQkV2Tk5YN2hadk1qcFJ3dDFicXlMMlhzSGVDV3JuM0gzQXRJeQ?oc=5",
     "publisher": "Council on Foreign Relations",
     "summary": [
-      "중간선거가 AI 주식 시장에 큰 충격을 주었습니다.",
-      "광범위한 경제 지표와 동향을 주시해야 합니다.",
-      "외교협회(CFR)에서 관련 경제 분석을 다뤘습니다."
+      "중간선거가 AI 관련 주가에 큰 충격을 주었습니다.",
+      "미국 경제 전반의 주요 관전 포인트를 분석합니다.",
+      "외교협회(CFR)에서 경제 동향을 보도했습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOUUxZDUzd0xuR1o2YW11a0Nqcy0yZUtiMzlNU1VsRWIxMDVubDNLZHh6MWUwT1NDYnVwajFLdVMxdEs4RGlRdmlGR29DbjQ1MGJ3LURkN3BIUFZvNV9UVVI0OThfYWUyMFVqdkRNUTBXQkVpeWNqNGdza0hIWFZrTWVYZTNUS2o4VmJhMkVwXzlkWEUxNE03OWZIdEdpTzl2d0hReXpXbGM4Mk9qSHZJNnBXejU4Y0Q2d3IwbUVmMTJ5bGs2YURn?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "중간선거 후 미국 증시 상승은 역사적 징표임",
-      "이번 중간선거 이후에도 주가 상승할 것인가",
-      "현재 시장 상황이 과거와 다른지 분석 필요"
+      "중간선거 이후 미국 증시는 항상 상승하는 경향이 있었습니다.",
+      "이번에도 역사적 패턴이 반복될지 투자자들의 관심이 집중됩니다.",
+      "현재의 경제 상황이 과거와 달라 우려가 제기되고 있습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
-    "original_title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5",
-    "publisher": "The Guardian",
+    "title": "Weekly market wrap - Edward Jones",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "미국 테크주 주가 하락세 기록",
-      "인공지능(AI) 버블 붕괴 우려 대두",
-      "가디언지가 보도한 시장 분석 내용"
+      "에드워드 존스의 주간 시장 동향 보고서입니다.",
+      "한 주간의 주요 금융 시장 흐름을 정리했습니다.",
+      "글로벌 증시 및 경제 지표 변화를 다룹니다."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
