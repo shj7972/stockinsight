@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KcnQzRzdxbm1lSWNGOVlIRVAxb3h1RkdsMVk5TWxYMU15aGloSnBXZVZJeDAwOGJqQmNLY2tqNTVfSVlJUG1MUGVZdC1ZSG5XbG9ZLUtRUmZ2Ui1wdjZCOC1iamVMTmhDVThyUVVWRmdQQklCdFVHQkJB?oc=5",
     "publisher": "서울신문",
     "summary": [
-      "블록체인 자체는 안전하나 바이낸스에서 대규모 해킹 발생",
-      "약 8.4조 원에 달하는 막대한 자산 탈취 피해 발생",
-      "사건의 원인과 배경에 대한 5가지 주요 궁금증 제기"
+      "블록체인 자체는 안전하나 8.4조 원 해킹 발생",
+      "바이낸스 해킹 사건에 대한 5가지 주요 궁금증",
+      "보안의 허점을 파고든 대규모 가상자산 탈취 사건"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.1,
@@ -17,25 +17,25 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상수지 흑자 지속 전망",
-      "경상수지 흑자 규모 GDP 대비 20% 상회할 것",
-      "한겨레 보도를 통해 경제적 긍정 신호 전달"
+      "2028년까지 한국 경상 흑자 지속 전망",
+      "경상 흑자 규모 GDP 대비 20% 상회할 것",
+      "한겨레 보도를 통해 경제 전망 분석 제기"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.85,
+    "sentiment_score": 0.8,
     "type": "국내"
   },
   {
-    "title": "“북한, 코인 17조원 훔쳤다”…북한은 어떻게 ‘세계 1위 코인 도둑’이 됐나 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fN29ab0xIblEzbHVzaEFXM2FzRGF2ZFhpdG5EbklRR2tsdHNKSE1qZ01mR1BaSHg3YVpSWDFKbGFoWFg3bGFibkl4R242WldtNzAwRnE4Ums3ZzlzcVN1M3o0QWxnUm8?oc=5",
+    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "북한이 암호화폐 17조 원을 탈취함",
-      "북한이 세계 1위 코인 도둑으로 부상함",
-      "암호화폐 보안 및 해킹 피해 우려 증대"
+      "주가가 3000 고지를 향해 상승세를 보이고 있음",
+      "현재의 시장 강세가 타당한 이유가 있는지 분석 중",
+      "투자자들의 기대감과 시장의 방향성에 관심 집중"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -44,26 +44,12 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmFpVS01Q3l5T29kbVQ3aDFZcjhnRmNaano4c1hXdHJTYnB3bFJXakY2V2w3U044VmhSd29JaWV6ZUUxbVFEUGV0Z3dHaXo4TVJpZXBCYnVXLU5jZGxzc0dhNkxFZUVyWFZQVk55R0RFdl9adjItMUkyMG9TVG9IQkV2Tk5YN2hadk1qcFJ3dDFicXlMMlhzSGVDV3JuM0gzQXRJeQ?oc=5",
     "publisher": "Council on Foreign Relations",
     "summary": [
-      "중간선거가 AI 관련 주가에 큰 충격을 주었습니다.",
-      "미국 경제 전반의 주요 관전 포인트를 분석합니다.",
-      "외교협회(CFR)가 관련 경제 동향을 보도했습니다."
+      "중간선거가 AI 주식 시장에 큰 충격을 주었습니다.",
+      "광범위한 경제 지표와 동향을 주시해야 합니다.",
+      "외교협회(CFR)에서 관련 경제 분석을 다뤘습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
-    "original_title": "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkpVS2U5RVFxaEtXOFd1Q2RQWEdZd0x6c1g5bTJtTnZBR3kya185cnZOTkFCTW83eDE4aUNvVk91NmV1ckltdVUxZXZkczY0R3hrRFZOSzJld1lHWEkxdDlQX0dwaWJiZE9pY0xod1pFUEJaTnkxdjY4bGp2Unk0YjJoMWNOTzlDS2RmeXhpaDRESWVrTnFTVGxsYmVPZGYwMkZnaWtUZ2I0MEVvVkRyWExNNDlXTTFIVUFuWEJwVm5mUXBaUFBjadIBzgFBVV95cUxNaDRuLTR0Q01OVG5fQTA0eG9waUVBQXVPN0NhSmdIVW1MdnpxaFowejV3dGRaamVmOWpvaVVlNEh5YlBUUTZsRjRZRzdHUnlsZThXeC1WelhvREEtOW5McGZOUE41RlhiQ2F2eVAxWmVONW9vTElYV2F5dHkteWJBeDR3NzRkVU5GSHY3Y3dsYmtzVi1jb1hCT3Y3VkU5bWl6MVA0OGY5ZEY2WTR2UDdVaHpua19uYkFIRWNRYjRFY3Qxc3QwSXhrZUd4WEcxUQ?oc=5",
-    "publisher": "PBS",
-    "summary": [
-      "미국 주식시장이 급등세를 기록했습니다.",
-      "다우 지수가 1,500포인트 폭등했습니다.",
-      "브렌트유 가격이 95달러 아래로 떨어졌습니다."
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.9,
     "type": "해외"
   },
   {
@@ -72,12 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOUUxZDUzd0xuR1o2YW11a0Nqcy0yZUtiMzlNU1VsRWIxMDVubDNLZHh6MWUwT1NDYnVwajFLdVMxdEs4RGlRdmlGR29DbjQ1MGJ3LURkN3BIUFZvNV9UVVI0OThfYWUyMFVqdkRNUTBXQkVpeWNqNGdza0hIWFZrTWVYZTNUS2o4VmJhMkVwXzlkWEUxNE03OWZIdEdpTzl2d0hReXpXbGM4Mk9qSHZJNnBXejU4Y0Q2d3IwbUVmMTJ5bGs2YURn?oc=5",
     "publisher": "Reuters",
     "summary": [
-      "중간선거 후 미국 주식시장은 항상 상승했습니다.",
-      "이번 중간선거 이후에도 상승세가 이어질지 주목됩니다.",
-      "역사적 패턴과 현재 시장 상황의 차이점을 분석합니다."
+      "중간선거 후 미국 증시 상승은 역사적 징표임",
+      "이번 중간선거 이후에도 주가 상승할 것인가",
+      "현재 시장 상황이 과거와 다른지 분석 필요"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
+    "original_title": "US tech stock rout: is the AI bubble bursting? - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5",
+    "publisher": "The Guardian",
+    "summary": [
+      "미국 테크주 주가 하락세 기록",
+      "인공지능(AI) 버블 붕괴 우려 대두",
+      "가디언지가 보도한 시장 분석 내용"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
     "type": "해외"
   }
 ]
