@@ -6,37 +6,65 @@
     "summary": [
       "2028년까지 한국 경상 흑자 지속 전망",
       "경상 흑자 규모 GDP 대비 20% 상회할 것",
-      "국내 경제 및 대외 건전성 긍정적 지표"
+      "한겨레 보도를 통해 경제 성장 기대감 반영"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
-    "title": "미 재무부 국내 은행 7곳에 전화 “대북제재 지켜라” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUVRDaEFFRVl1RXM4ZmxfNDBYQmMwZUwxeVNocHpOcFZnX1pNOFFWMTdkM2pLc0NKRkRHN0NzeTJZM21jNUMtREVXWnU2dDNiTFdlSUlHYkFJVzgyMHBGcjltME1Mdw?oc=5",
+    "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "미 재무부, 국내 은행 7곳에 전화 접촉",
-      "대북제재 준수를 엄격히 요구함",
-      "한미 간 금융 분야 제재 공조 강화"
+      "역대급 실적에도 피크아웃 공포 확산",
+      "코스피 지수가 이틀 만에 10% 폭락",
+      "증시 하락으로 인한 투자심리 악화"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.9,
     "type": "국내"
   },
   {
-    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
+    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "현재의 주가 상승세가 이유 있는 강세인지 분석 중",
-      "투자자들 사이에서 시장 전망에 대한 관심이 집중됨"
+      "사흘 만에 신용대출 1조원 급증",
+      "투자자들의 빚투 현상 심화",
+      "주택담보대출 금리 최고 7.3% 기록"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.7,
+    "type": "국내"
+  },
+  {
+    "title": "US stock markets close midweek higher - Anadolu Ajansı",
+    "original_title": "US stock markets close midweek higher - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGNybTFRMkRKd0dWX3l2dDM3Ml9rTTl5eTlMM2dCVGFTWVR2d3htMUJQd0hUNkQ4cy1UbE1LSkJUMzRoOWVfTGMzUnVBSXVwTS0zMDhlLUk5ZjZZTUQ1U1MwX2Q3b3RFbmNzcEhKckZSdmNvWXpsZ3dZMGpKbHRoQjlwSmM?oc=5",
+    "publisher": "Anadolu Ajansı",
+    "summary": [
+      "미국 주식 시장이 주중 상승 마감했습니다.",
+      "아나돌루 통신사가 관련 소식을 보도했습니다.",
+      "투자 심리에 긍정적인 영향을 미쳤습니다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
+    "type": "해외"
+  },
+  {
+    "title": "The AI Boom's Two Engines - Peterson Institute for International Economics",
+    "original_title": "The AI Boom's Two Engines - Peterson Institute for International Economics",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNMUtuR0JoRnh3SldHOW45Wmt4elVFMlFPUTl2dW9WdVBhcUNHS3N1enRUeVR6aHBvdzROVFZCbHZ4a1ZsR3l6UkotZ1Blc3ZweWltZFFncFV3UkFNZ3NLMFdkRUN5UjBUaTVSNU1tcXRhM1NkVk1pbXFmTQ?oc=5",
+    "publisher": "Peterson Institute for International Economics",
+    "summary": [
+      "AI 붐의 두 가지 핵심 동력 분석",
+      "경제 및 시장에 미치는 영향 고찰",
+      "피터슨 국제경제연구소의 통찰"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
-    "type": "국내"
+    "type": "해외"
   },
   {
     "title": "Weekly market commentary - BlackRock",
@@ -46,35 +74,7 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "투자자를 위한 주간 경제 전망"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "How the Iran War Is Pressuring the US Economy? - WANA News Agency",
-    "original_title": "How the Iran War Is Pressuring the US Economy? - WANA News Agency",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QcXFDOWhpUnF0WVBYRVZ3MGl3Q21KYVRoMVItaFZGa0JVaGtnQzZuenJyYVJLSmRqUm05bkdWUnA0ZW5MMms5OHhKQ2FJNkpvX1JfVThZWWMxWllKWGJLb21MSFU2RTZLVmhtVHQ2WlRvWk0?oc=5",
-    "publisher": "WANA News Agency",
-    "summary": [
-      "이란 전쟁이 미국 경제에 압박을 가하고 있음",
-      "WANA 뉴스 통신이 관련 영향 보도",
-      "지정학적 갈등으로 인한 경제적 불안정성 증대"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "해외"
-  },
-  {
-    "title": "Why the stock market and economy may seem out of sync - CNBC",
-    "original_title": "Why the stock market and economy may seem out of sync - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
-    "publisher": "CNBC",
-    "summary": [
-      "주식 시장과 실물 경제의 괴리 현상 분석",
-      "경제 지표와 주가 흐름이 다른 이유 설명",
-      "투자자들이 혼란을 겪는 배경 조명"
+      "향후 투자 전략 및 전망 제시"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
