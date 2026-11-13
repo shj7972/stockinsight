@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "경상 흑자 규모가 GDP 대비 20% 상회할 것",
-      "한겨레를 통해 관련 경제 전망 보도됨"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -18,11 +18,11 @@
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "현재의 강세 흐름이 정당한 이유가 있는지 분석 중",
-      "증시 상승세의 지속 가능성에 관심이 집중됨"
+      "이번 상승세가 타당한 근거가 있는지 분석이 필요함",
+      "증시의 향후 방향성과 강세 지속 여부에 관심이 집중됨"
     ],
     "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "투자자들의 빚투 현상 심화",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -46,24 +46,10 @@
     "summary": [
       "주식시장과 실물 경제의 괴리 현상을 분석함",
       "주식시장이 경제 전체를 대변하는지 의문 제기",
-      "NPR 경제 팟캐스트의 시장 경제 분석 내용"
+      "NPR 경제 팟캐스트에서 다룬 시장과 경제의 관계"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy - The New York Times",
-    "original_title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQWJtRi1PaGtpX0Rjd0phWUU4T0tjNlVZMzlXVGpGTmpTR0dVNDZSOWh4UExvaGhsejltMDhkdDRTNjAxMnhscWRoVHl5OWw3UVhqa3VuWlNSWm0yOXE0aHhWeEJxdUhHUGJ4NWM4RHdJdTBKTTd6MkdFdmJwcU9iVnc5dUJaU1k1Y0tzTUs1cXo?oc=5",
-    "publisher": "The New York Times",
-    "summary": [
-      "엔비디아 CEO 젠슨 황이 퇴출됨",
-      "미국 경제 AI 붐의 핵심 인물이었음",
-      "뉴욕타임스가 관련 소식을 보도함"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -74,10 +60,24 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "투자 전략 및 경제 전망 제시"
+      "향후 경제 전망 및 투자 전략"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
+    "type": "해외"
+  },
+  {
+    "title": "US stock markets close midweek higher - Anadolu Ajansı",
+    "original_title": "US stock markets close midweek higher - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGNybTFRMkRKd0dWX3l2dDM3Ml9rTTl5eTlMM2dCVGFTWVR2d3htMUJQd0hUNkQ4cy1UbE1LSkJUMzRoOWVfTGMzUnVBSXVwTS0zMDhlLUk5ZjZZTUQ1U1MwX2Q3b3RFbmNzcEhKckZSdmNvWXpsZ3dZMGpKbHRoQjlwSmM?oc=5",
+    "publisher": "Anadolu Ajansı",
+    "summary": [
+      "미국 주식 시장이 주중 거래에서 상승 마감했습니다.",
+      "아나돌루 통신이 관련 시장 동향을 보도했습니다.",
+      "투자 심리가 전반적으로 긍정적인 흐름을 보였습니다."
+    ],
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
