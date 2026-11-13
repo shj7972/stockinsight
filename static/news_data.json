@@ -5,8 +5,8 @@
     "publisher": "한겨레",
     "summary": [
       "2028년까지 한국 경상 흑자 지속 전망",
-      "GDP 대비 경상 흑자 비율 20% 상회 예상",
-      "한겨레 관련 경제 보도 내용 발표"
+      "경상 흑자 규모가 GDP 대비 20% 상회할 것",
+      "한겨레를 통해 관련 경제 전망 보도됨"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.8,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "주가가 3000 고지를 향해 상승세를 보이고 있음",
+      "현재의 강세 흐름이 정당한 이유가 있는지 분석 중",
+      "증시 상승세의 지속 가능성에 관심이 집중됨"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.75,
     "type": "국내"
   },
   {
@@ -30,40 +30,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "사흘 만에 신용대출 1조원 급증",
+      "투자자들의 빚투 현상 심화",
+      "주택담보대출 금리 최고 7.3% 기록"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
-    "title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "original_title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGNybTFRMkRKd0dWX3l2dDM3Ml9rTTl5eTlMM2dCVGFTWVR2d3htMUJQd0hUNkQ4cy1UbE1LSkJUMzRoOWVfTGMzUnVBSXVwTS0zMDhlLUk5ZjZZTUQ1U1MwX2Q3b3RFbmNzcEhKckZSdmNvWXpsZ3dZMGpKbHRoQjlwSmM?oc=5",
-    "publisher": "Anadolu Ajansı",
+    "title": "So … is the stock market the economy now? : The Indicator from Planet Money - NPR",
+    "original_title": "So … is the stock market the economy now? : The Indicator from Planet Money - NPR",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjJFYXl6WGIwWnFQUmVwS1BOQmRYZ1FPVTBtMVFqc3lWMHBZeGRham9neU92cEN5OEVXdTA1eGZWNkpKUFhDcTdjLWtRTUJnQ21WVEJ0bnMzaWROYVNPNm1wcHNfc3RzMnRPYkNUS3p3RFRSaUgxZnZaZlYxajN6dDlTUHkxU09Cd2Qw?oc=5",
+    "publisher": "NPR",
     "summary": [
-      "미국 주식 시장이 주중 거래에서 상승 마감했습니다.",
-      "아나돌루 통신사가 관련 경제 소식을 보도했습니다.",
-      "투자 심리가 긍정적인 방향으로 작용했습니다."
+      "주식시장과 실물 경제의 괴리 현상을 분석함",
+      "주식시장이 경제 전체를 대변하는지 의문 제기",
+      "NPR 경제 팟캐스트의 시장 경제 분석 내용"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "The AI Boom's Two Engines - Peterson Institute for International Economics",
-    "original_title": "The AI Boom's Two Engines - Peterson Institute for International Economics",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNMUtuR0JoRnh3SldHOW45Wmt4elVFMlFPUTl2dW9WdVBhcUNHS3N1enRUeVR6aHBvdzROVFZCbHZ4a1ZsR3l6UkotZ1Blc3ZweWltZFFncFV3UkFNZ3NLMFdkRUN5UjBUaTVSNU1tcXRhM1NkVk1pbXFmTQ?oc=5",
-    "publisher": "Peterson Institute for International Economics",
+    "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy - The New York Times",
+    "original_title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQWJtRi1PaGtpX0Rjd0phWUU4T0tjNlVZMzlXVGpGTmpTR0dVNDZSOWh4UExvaGhsejltMDhkdDRTNjAxMnhscWRoVHl5OWw3UVhqa3VuWlNSWm0yOXE0aHhWeEJxdUhHUGJ4NWM4RHdJdTBKTTd6MkdFdmJwcU9iVnc5dUJaU1k1Y0tzTUs1cXo?oc=5",
+    "publisher": "The New York Times",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "엔비디아 CEO 젠슨 황이 퇴출됨",
+      "미국 경제 AI 붐의 핵심 인물이었음",
+      "뉴욕타임스가 관련 소식을 보도함"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   },
   {
@@ -72,12 +72,12 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
     "publisher": "BlackRock",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "투자 전략 및 경제 전망 제시"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   }
 ]
