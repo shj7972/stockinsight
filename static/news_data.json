@@ -1,28 +1,15 @@
 [
   {
-    "title": "“2028년까지 한국 경상 흑자, GDP 대비 20% 넘을 것” - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NGp5eWNUZGxCWGR3aElFUnZMZDFrazRiYmNSSmp0YXZCS05fT251MGl3b2prdTA3VVZMM2llNnhPTS1rUFU0QU1uRGNVdWc1LVU2SWNjZEl3elBzVGgySkV2Sm5jSFU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "2028년까지 한국 경상 흑자 지속 전망",
-      "GDP 대비 경상 흑자 비율 20% 상회 예상",
-      "한겨레 관련 경제 보도 내용 발표"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.8,
-    "type": "국내"
-  },
-  {
     "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "현재의 주가 상승세가 이유 있는 강세인지 분석 중",
-      "한겨레를 통해 증시의 향방에 대한 관심이 집중됨"
+      "이번 상승세가 타당한 근거가 있는지 분석이 필요함",
+      "증시의 향후 방향성과 강세 지속 여부에 관심 집중"
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
@@ -30,13 +17,40 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "투자 목적의 빚투 현상 확산",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "단 사흘 만에 신용대출 1조원 증가",
+      "빚투 열풍으로 가계부채 증가세 우려",
+      "주택담보대출 금리 최고 7.3%까지 치솟아"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.85,
     "type": "국내"
+  },
+  {
+    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "한국 경제가 고유가와 고금리 위험에 다시 직면함",
+      "에너지 가격 상승과 금리 부담이 커지는 상황임",
+      "거시경제 안정성에 대한 우려가 확산되는 중임"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.2,
+    "type": "국내"
+  },
+  {
+    "title": "U.S. midterms: Citi breaks down implications for economy and markets - Yahoo Finance",
+    "original_title": "U.S. midterms: Citi breaks down implications for economy and markets - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVi1uQlFNV3lQRm9DMWZ6SDZYMFlEazBlX2hVcktQblhjS3lIVTdvQmJzTW1EVHlIRmkzSUdTRVBiSVl1cFo0c3A0b0Q3OTR5aDdiVjRiNUI1WHNyaHJlcUZJUmRHUVdoRXh4M1diRnR6VVJJS1R6enRKS0J6NjBRVWV6cVRGMFpTZ3dlY3kyVWRxVnh2NmZJ?oc=5",
+    "publisher": "Yahoo Finance",
+    "summary": [
+      "씨티그룹, 미국 중간선거 결과 분석 발표",
+      "경제 및 금융 시장에 미칠 영향 진단",
+      "향후 정책 변화에 따른 시장 대응 주목"
+    ],
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
   },
   {
     "title": "Are Investors Expecting Too Much from the US Stock Market? - Morningstar",
@@ -44,9 +58,9 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZkRnLXo1RExYWUhTeXI4MkhXb1EyWjZjMzdyOVJSLTZUdWNwQlF0ay1rTnJKNkhhOU14VDRhQTNzZGlTS0xzY0tobEh5bE51Q0pVRDYxMGVyeFluRGRsVTFLekYxT09hRUhFZVpVNk1zSl93Z0VrcGxuWHJkcDI5ZWU1X1drN0ZuYnRnSVJ1ajRMMTFvbEtaOA?oc=5",
     "publisher": "Morningstar",
     "summary": [
-      "미국 주식시장에 대한 기대치가 과도한지 분석",
-      "투자자들의 높은 기대 수익률과 현실 점검",
-      "모닝스타가 제기한 증시 전망과 투자자 심리"
+      "미국 주식 시장에 대한 과도한 기대감 제기",
+      "투자자들의 수익 기대치가 현실적인지 분석",
+      "모닝스타가 전하는 미국 증시 투자 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -64,20 +78,6 @@
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "original_title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGNybTFRMkRKd0dWX3l2dDM3Ml9rTTl5eTlMM2dCVGFTWVR2d3htMUJQd0hUNkQ4cy1UbE1LSkJUMzRoOWVfTGMzUnVBSXVwTS0zMDhlLUk5ZjZZTUQ1U1MwX2Q3b3RFbmNzcEhKckZSdmNvWXpsZ3dZMGpKbHRoQjlwSmM?oc=5",
-    "publisher": "Anadolu Ajansı",
-    "summary": [
-      "미국 주식 시장이 주중 상승 마감했습니다.",
-      "주요 지수들이 긍정적인 흐름을 보였습니다.",
-      "아나돌루 통신이 해당 소식을 보도했습니다."
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
     "type": "해외"
   }
 ]
