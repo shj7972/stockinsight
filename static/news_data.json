@@ -1,28 +1,15 @@
 [
   {
-    "title": "다시 직면한 ‘고유가-고금리’ 위험 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xdC1GNjVmZk5aZ0x6RlhGREVoT3ZoWGpnR093NEZwdXFPMWZ5aHpGMGdZTnVCQmQ2RGYzRkY5TVIwWksxaWU1VDdJM2t3d19pQmxQTHJvV1BsZlppbk50YWtMbjhqbEk?oc=5",
+    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "고유가와 고금리 위험이 다시 대두됨",
-      "한국 경제에 부정적 영향 우려됨",
-      "시장 환경의 불확실성이 커지는 중"
+      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
+      "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
+      "증시의 지속 가능성과 상승 동력에 대한 관심 집중"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
-    "type": "국내"
-  },
-  {
-    "title": "역대급 실적 누른 ‘피크아웃’ 공포…코스피 이틀 새 10% 폭락 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIR21ZbjFCX1RQSWgzd1NTWXBqMkFEb0JKQjVPVm5tTzEzSFIzZTByd2otd2ZQUERETmZ3cXlZajlCUWVUbVR4VzVnV0g5a01fX25fMmVRbWcwYjhNaGVfOEtQS2xWVEU?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "역대급 실적에도 피크아웃 공포 확산",
-      "코스피 지수가 이틀 만에 10% 폭락",
-      "시장 전반에 걸쳐 투자 심리 급격히 위축"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.1,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "국내"
   },
   {
@@ -30,8 +17,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "빚투 열풍으로 가계부채 증가 우려",
+      "사흘 만에 신용대출 1조 원 증가",
+      "빚을 내서 투자하는 빚투 현상 확산",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
@@ -39,31 +26,44 @@
     "type": "국내"
   },
   {
-    "title": "U.S. midterms: Citi breaks down implications for economy and markets - Yahoo Finance",
-    "original_title": "U.S. midterms: Citi breaks down implications for economy and markets - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVi1uQlFNV3lQRm9DMWZ6SDZYMFlEazBlX2hVcktQblhjS3lIVTdvQmJzTW1EVHlIRmkzSUdTRVBiSVl1cFo0c3A0b0Q3OTR5aDdiVjRiNUI1WHNyaHJlcUZJUmRHUVdoRXh4M1diRnR6VVJJS1R6enRKS0J6NjBRVWV6cVRGMFpTZ3dlY3kyVWRxVnh2NmZJ?oc=5",
+    "title": "미 재무부 국내 은행 7곳에 전화 “대북제재 지켜라” - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUVRDaEFFRVl1RXM4ZmxfNDBYQmMwZUwxeVNocHpOcFZnX1pNOFFWMTdkM2pLc0NKRkRHN0NzeTJZM21jNUMtREVXWnU2dDNiTFdlSUlHYkFJVzgyMHBGcjltME1Mdw?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "미 재무부가 국내 7대 은행에 직접 연락함",
+      "철저한 대북제재 준수를 강력히 요구함",
+      "한미 간 금융 분야 공조 압박이 거세짐"
+    ],
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
+    "type": "국내"
+  },
+  {
+    "title": "Peter Schiff Warns US Economy is in ‘Final Stages’ of Collapse, Says AI Boom is Masking Broader Recession Risk: 'The Whole Thing Can Implode' - Yahoo Finance",
+    "original_title": "Peter Schiff Warns US Economy is in ‘Final Stages’ of Collapse, Says AI Boom is Masking Broader Recession Risk: 'The Whole Thing Can Implode' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVnp2RXJOMlR5Nm1OWkoxeDB0UmlvRWMybzJzSnJ2TFBlNURqS19PWDc2X2p2ZE55Q1pJZVVoVUVZWWRZeHN1N1JDTko5WUdPX2h3QWg5Xzc5N2JSd3RyTExYWG96Uy1aa3Ntdm5yeFVWSG11ZXJfYnhkSVdwZHBYclNVQjZvRHhOZDNXMldnclo?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "미국 중간선거 결과가 경제에 미치는 영향 분석",
-      "씨티그룹의 경제 및 시장 전망 제시",
-      "향후 정책 변화에 따른 투자 전략 점검"
+      "피터 시프가 미국 경제가 붕괴 최종 단계라고 경고함",
+      "AI 붐이 광범위한 경기 침체 위험을 숨기고 있음",
+      "전체 경제 시스템이 폭발할 수 있다고 주장함"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.9,
     "type": "해외"
   },
   {
-    "title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "original_title": "US stock markets close midweek higher - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGNybTFRMkRKd0dWX3l2dDM3Ml9rTTl5eTlMM2dCVGFTWVR2d3htMUJQd0hUNkQ4cy1UbE1LSkJUMzRoOWVfTGMzUnVBSXVwTS0zMDhlLUk5ZjZZTUQ1U1MwX2Q3b3RFbmNzcEhKckZSdmNvWXpsZ3dZMGpKbHRoQjlwSmM?oc=5",
-    "publisher": "Anadolu Ajansı",
+    "title": "Weekly market wrap - Edward Jones",
+    "original_title": "Weekly market wrap - Edward Jones",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+    "publisher": "Edward Jones",
     "summary": [
-      "미국 주식 시장이 주중 거래에서 상승 마감했습니다.",
-      "아나돌루 통신사가 관련 경제 소식을 보도했습니다.",
-      "투자 심리가 긍정적인 방향으로 작용했습니다."
+      "에드워드 존스의 주간 시장 동향 보고서입니다.",
+      "한 주간의 주요 금융 시장 흐름을 정리했습니다.",
+      "글로벌 증권 및 경제 상황을 요약했습니다."
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
     "type": "해외"
   },
   {
@@ -74,7 +74,7 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "투자 전략 및 경제 전망 제시"
+      "향후 경제 전망 및 투자 전략"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
