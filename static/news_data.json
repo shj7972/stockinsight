@@ -6,10 +6,10 @@
     "summary": [
       "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
       "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
-      "증시의 지속 가능성과 상승 동력에 대한 관심 집중"
+      "증시의 지속 가능성과 추가 상승 여력에 관심 집중"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.7,
     "type": "국내"
   },
   {
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조 원 증가",
-      "빚을 내서 투자하는 빚투 현상 확산",
+      "사흘 만에 신용대출 1조원 급증",
+      "투자자들의 빚투 현상 심화",
       "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.85,
     "type": "국내"
   },
   {
@@ -30,12 +30,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUVRDaEFFRVl1RXM4ZmxfNDBYQmMwZUwxeVNocHpOcFZnX1pNOFFWMTdkM2pLc0NKRkRHN0NzeTJZM21jNUMtREVXWnU2dDNiTFdlSUlHYkFJVzgyMHBGcjltME1Mdw?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "미 재무부가 국내 7대 은행에 직접 연락함",
-      "철저한 대북제재 준수를 강력히 요구함",
-      "한미 간 금융 분야 공조 압박이 거세짐"
+      "미 재무부, 국내 은행 7곳에 유선 연락",
+      "대북제재 철저 준수를 강력히 요구함",
+      "한미 간 대북 금융 제재 공조 강화됨"
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
+    "sentiment_score": -0.4,
     "type": "국내"
   },
   {
@@ -44,9 +44,9 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVnp2RXJOMlR5Nm1OWkoxeDB0UmlvRWMybzJzSnJ2TFBlNURqS19PWDc2X2p2ZE55Q1pJZVVoVUVZWWRZeHN1N1JDTko5WUdPX2h3QWg5Xzc5N2JSd3RyTExYWG96Uy1aa3Ntdm5yeFVWSG11ZXJfYnhkSVdwZHBYclNVQjZvRHhOZDNXMldnclo?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "피터 시프가 미국 경제가 붕괴 최종 단계라고 경고함",
-      "AI 붐이 광범위한 경기 침체 위험을 숨기고 있음",
-      "전체 경제 시스템이 폭발할 수 있다고 주장함"
+      "피터 시프, 미국 경제가 붕괴 최종 단계라고 경고",
+      "AI 붐이 광범위한 경기 침체 위험을 가리고 있음",
+      "경제 전반이 언제든 폭발할 수 있다고 주장"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -60,24 +60,24 @@
     "summary": [
       "에드워드 존스의 주간 시장 동향 보고서입니다.",
       "한 주간의 주요 금융 시장 흐름을 정리했습니다.",
-      "글로벌 증권 및 경제 상황을 요약했습니다."
+      "글로벌 증시 및 경제 지표 변화를 다룹니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Weekly market commentary - BlackRock",
-    "original_title": "Weekly market commentary - BlackRock",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-    "publisher": "BlackRock",
+    "title": "Why the AI trade is a macro trade: the risks to the US economy - investingLive",
+    "original_title": "Why the AI trade is a macro trade: the risks to the US economy - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkNjY1pXMzhWUGsyTFFFM1ItaEsyTHNTQmVwMVRnZ25xbUdNREVxYjJpVzhpa281eW9XQXVCNXNMQ1NfSVlVV3JhMG5VRE5EYUlFbHFZOTludk9MT1BqdzZNbnphUi1ZaTJiSFV3QlJvTWU5ZEZfVXhmSG83c0NWX25CcTk1UHFaYTZ0MUo0R2VlRlhzS19tQ1o1elIyTmM?oc=5",
+    "publisher": "investingLive",
     "summary": [
-      "블랙록의 주간 시장 논평 발표",
-      "글로벌 금융 시장 동향 분석",
-      "향후 경제 전망 및 투자 전략"
+      "AI 거래는 단순한 기술주를 넘어선 거시 경제 이슈입니다.",
+      "미국 경제에 미치는 AI 관련 잠재적 리스크를 분석합니다.",
+      "투자 시장에서 거시 경제 관점의 AI 접근이 중요합니다."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.6,
     "type": "해외"
   }
 ]
