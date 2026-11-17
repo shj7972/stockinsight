@@ -4,12 +4,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "AI 요약 생성 중 오류 발생.",
-      "잠시 후 다시 시도해주세요.",
-      "원문을 확인하세요."
+      "단 사흘 만에 신용대출 1조원 증가",
+      "빚투 열풍으로 가계부채 위험 고조",
+      "주택담보대출 금리 최고 7.3% 기록"
     ],
-    "sentiment": "Neutral",
-    "sentiment_score": 0,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.8,
     "type": "국내"
   },
   {
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQTRFT3htd3NGV3QxUEZQMjlwVzRPSWFQOWFqMWhwNUZkNks1Q1Q1Tks2UEdDcnowdVUwb1g4N2I2VVZxV0VwZktXT3VMbVFrTGItQm5YaXNaUGlYc0c3cnlpT09FdGM?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "반도체 슈퍼사이클 향방에 대한 관심이 집중됨",
-      "마이크론 실적 발표를 앞두고 시장 변동성 확대",
-      "역대 최고 수준의 변동성으로 투자자 주의 필요"
+      "반도체 슈퍼사이클 향방에 시장 관심이 집중됨",
+      "마이크론 실적 발표를 앞두고 변동성 역대 최고치",
+      "향후 반도체 시장의 방향성에 대한 불확실성 증대"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -31,8 +31,8 @@
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
-      "증시의 지속적인 상승 가능성에 대한 관심이 집중됨"
+      "이번 주가 상승세가 이유 있는 강세인지 분석이 제기됨",
+      "증시의 향후 방향성과 펀더멘털에 대한 관심이 집중됨"
     ],
     "sentiment": "POSITIVE",
     "sentiment_score": 0.7,
@@ -46,24 +46,24 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "향후 경제 전망 및 투자 전략"
+      "투자 전략 및 경제 전망 제시"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Warsh says Fed examining whether AI will boost or jolt US economy - CFO Dive",
-    "original_title": "Warsh says Fed examining whether AI will boost or jolt US economy - CFO Dive",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1IxWERCQnUxYUVCbXB5NUs1WnREUkxraFR4UHZ4cnp4ODVEdFdmelEzejNMNkdaa1k0TkF2UWtrN0ZwaFFyTS1GME5veEY3N2FNbzFWZ2tkTlVWUTV3MWhweWdNVTNKb1BZSnI1S05PQjJDNmJQcEJhSmgzN0tLUnZUNE5uTHNuR0xxa2trMU9rTk9DcGtTY1hOT1JWUjg?oc=5",
-    "publisher": "CFO Dive",
+    "title": "Peter Schiff Warns US Economy is in ‘Final Stages’ of Collapse, Says AI Boom is Masking Broader Recession Risk: 'The Whole Thing Can Implode' - Yahoo Finance",
+    "original_title": "Peter Schiff Warns US Economy is in ‘Final Stages’ of Collapse, Says AI Boom is Masking Broader Recession Risk: 'The Whole Thing Can Implode' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVnp2RXJOMlR5Nm1OWkoxeDB0UmlvRWMybzJzSnJ2TFBlNURqS19PWDc2X2p2ZE55Q1pJZVVoVUVZWWRZeHN1N1JDTko5WUdPX2h3QWg5Xzc5N2JSd3RyTExYWG96Uy1aa3Ntdm5yeFVWSG11ZXJfYnhkSVdwZHBYclNVQjZvRHhOZDNXMldnclo?oc=5",
+    "publisher": "Yahoo Finance",
     "summary": [
-      "연준, AI가 미국 경제에 미칠 영향 분석 중",
-      "AI가 경제에 호재일지 충격일지 검토",
-      "워시 전 연준 이사 관련 CFO Dive 보도"
+      "피터 시프가 미국 경제가 붕괴 최종 단계라고 경고함",
+      "AI 붐이 광범위한 경기 침체 위험을 숨기고 있음",
+      "전체 경제 시스템이 폭발할 수 있다고 주장함"
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.9,
     "type": "해외"
   },
   {
@@ -73,8 +73,8 @@
     "publisher": "Edward Jones",
     "summary": [
       "에드워드 존스의 주간 시장 동향 보고서입니다.",
-      "한 주간의 글로벌 금융시장 동향을 요약했습니다.",
-      "주식 및 경제 관련 주요 흐름을 전달합니다."
+      "한 주간의 주요 금융 시장 흐름을 정리했습니다.",
+      "글로벌 증권 및 경제 상황을 요약했습니다."
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
