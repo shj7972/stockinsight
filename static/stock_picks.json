@@ -1,6 +1,166 @@
 {
   "picks_history": [
     {
+      "date": "2026-11-18",
+      "generated_at": "2026-11-18T04:01:58",
+      "sector_top3": [
+        [
+          "Consumer Staples",
+          1.0346297741177115
+        ],
+        [
+          "Real Estate",
+          0.7900761980639316
+        ],
+        [
+          "Healthcare",
+          0.7689897136733688
+        ]
+      ],
+      "us_picks": [
+        {
+          "ticker": "GS",
+          "name": "Goldman Sachs",
+          "market": "US",
+          "sector": "Financials",
+          "entry_price": 877.52,
+          "rsi": 43.3,
+          "bb_pos": 19.4,
+          "vol_ratio": 0.85,
+          "macd_positive": true,
+          "sector_zscore": 0.47,
+          "ensemble_score": 0.6594,
+          "model_scores": {
+            "rf": 0.6965,
+            "xgb": 0.9506,
+            "mlp": 0.4039,
+            "lstm": 0.5866
+          },
+          "final_score": 0.6465,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.5)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck",
+          "market": "US",
+          "sector": "Healthcare",
+          "entry_price": 143.37,
+          "rsi": 45.0,
+          "bb_pos": 24.7,
+          "vol_ratio": 0.77,
+          "macd_positive": false,
+          "sector_zscore": 0.77,
+          "ensemble_score": 0.613,
+          "model_scores": {
+            "rf": 0.6547,
+            "xgb": 0.7685,
+            "mlp": 0.4013,
+            "lstm": 0.6278
+          },
+          "final_score": 0.6368,
+          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "FCX",
+          "name": "Freeport",
+          "market": "US",
+          "sector": "Materials",
+          "entry_price": 55.3,
+          "rsi": 31.0,
+          "bb_pos": 2.9,
+          "vol_ratio": 1.16,
+          "macd_positive": false,
+          "sector_zscore": -0.03,
+          "ensemble_score": 0.6566,
+          "model_scores": {
+            "rf": 0.5721,
+            "xgb": 0.8328,
+            "mlp": 0.4695,
+            "lstm": 0.7519
+          },
+          "final_score": 0.607,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접",
+          "current_price": null,
+          "return_pct": null
+        }
+      ],
+      "kr_picks": [
+        {
+          "ticker": "196170.KQ",
+          "name": "알테오젠",
+          "market": "KR",
+          "sector": "Healthcare",
+          "entry_price": 170600.0,
+          "rsi": 30.2,
+          "bb_pos": 17.2,
+          "vol_ratio": 0.4,
+          "macd_positive": false,
+          "sector_zscore": 0.77,
+          "ensemble_score": 0.6931,
+          "model_scores": {
+            "rf": 0.7988,
+            "xgb": 0.9275,
+            "mlp": 0.597,
+            "lstm": 0.4492
+          },
+          "final_score": 0.6928,
+          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.8)",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "003670.KS",
+          "name": "포스코퓨처엠",
+          "market": "KR",
+          "sector": "Materials",
+          "entry_price": 162600.0,
+          "rsi": 45.5,
+          "bb_pos": 35.8,
+          "vol_ratio": 0.41,
+          "macd_positive": true,
+          "sector_zscore": -0.03,
+          "ensemble_score": 0.7085,
+          "model_scores": {
+            "rf": 0.6669,
+            "xgb": 0.8671,
+            "mlp": 0.7201,
+            "lstm": 0.5798
+          },
+          "final_score": 0.6434,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스",
+          "current_price": null,
+          "return_pct": null
+        },
+        {
+          "ticker": "034730.KS",
+          "name": "SK",
+          "market": "KR",
+          "sector": "Industrials",
+          "entry_price": 481000.0,
+          "rsi": 46.7,
+          "bb_pos": 42.2,
+          "vol_ratio": 0.48,
+          "macd_positive": true,
+          "sector_zscore": -0.25,
+          "ensemble_score": 0.6638,
+          "model_scores": {
+            "rf": 0.5974,
+            "xgb": 0.8317,
+            "mlp": 0.5001,
+            "lstm": 0.7261
+          },
+          "final_score": 0.5961,
+          "signal_summary": "RSI 중립~반등 · MACD 골든크로스",
+          "current_price": null,
+          "return_pct": null
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "generated_at": "2026-11-17T04:57:47",
       "sector_top3": [
@@ -955,166 +1115,6 @@
           },
           "final_score": 0.6195,
           "signal_summary": "RSI 과매도 진입 · 볼린저 하단 탈출",
-          "current_price": null,
-          "return_pct": null
-        }
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "generated_at": "2026-11-09T02:23:14",
-      "sector_top3": [
-        [
-          "Healthcare",
-          0.9544537759010691
-        ],
-        [
-          "Consumer Staples",
-          0.8562242960482787
-        ],
-        [
-          "Materials",
-          0.6357680127268092
-        ]
-      ],
-      "us_picks": [
-        {
-          "ticker": "FCX",
-          "name": "Freeport",
-          "market": "US",
-          "sector": "Materials",
-          "entry_price": 59.42,
-          "rsi": 31.4,
-          "bb_pos": 9.4,
-          "vol_ratio": 1.33,
-          "macd_positive": false,
-          "sector_zscore": 0.64,
-          "ensemble_score": 0.7276,
-          "model_scores": {
-            "rf": 0.7927,
-            "xgb": 0.8556,
-            "mlp": 0.4893,
-            "lstm": 0.7726
-          },
-          "final_score": 0.707,
-          "signal_summary": "RSI 과매도 진입 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.6)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "JNJ",
-          "name": "J&J",
-          "market": "US",
-          "sector": "Healthcare",
-          "entry_price": 276.22,
-          "rsi": 59.4,
-          "bb_pos": 83.6,
-          "vol_ratio": 1.09,
-          "macd_positive": true,
-          "sector_zscore": 0.95,
-          "ensemble_score": 0.6395,
-          "model_scores": {
-            "rf": 0.6198,
-            "xgb": 0.7684,
-            "mlp": 0.5571,
-            "lstm": 0.6127
-          },
-          "final_score": 0.6692,
-          "signal_summary": "MACD 골든크로스 · 섹터 양호 (Z=+1.0)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "TSLA",
-          "name": "Tesla",
-          "market": "US",
-          "sector": "Consumer Discretionary",
-          "entry_price": 358.22,
-          "rsi": 42.4,
-          "bb_pos": 20.2,
-          "vol_ratio": 0.92,
-          "macd_positive": false,
-          "sector_zscore": 0.59,
-          "ensemble_score": 0.6096,
-          "model_scores": {
-            "rf": 0.6973,
-            "xgb": 0.8253,
-            "mlp": 0.4535,
-            "lstm": 0.4624
-          },
-          "final_score": 0.6209,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 탈출 · 섹터 양호 (Z=+0.6)",
-          "current_price": null,
-          "return_pct": null
-        }
-      ],
-      "kr_picks": [
-        {
-          "ticker": "196170.KQ",
-          "name": "알테오젠",
-          "market": "KR",
-          "sector": "Healthcare",
-          "entry_price": 170900.0,
-          "rsi": 24.4,
-          "bb_pos": 0.0,
-          "vol_ratio": 4.43,
-          "macd_positive": false,
-          "sector_zscore": 0.95,
-          "ensemble_score": 0.6918,
-          "model_scores": {
-            "rf": 0.8098,
-            "xgb": 0.9449,
-            "mlp": 0.4558,
-            "lstm": 0.5569
-          },
-          "final_score": 0.7058,
-          "signal_summary": "RSI 강한 과매도 · 볼린저 하단 근접 · 거래량 급증 ×4.4 · 섹터 양호 (Z=+1.0)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "086790.KS",
-          "name": "하나금융지주",
-          "market": "KR",
-          "sector": "Financials",
-          "entry_price": 117300.0,
-          "rsi": 43.6,
-          "bb_pos": 43.9,
-          "vol_ratio": 0.38,
-          "macd_positive": true,
-          "sector_zscore": 0.47,
-          "ensemble_score": 0.722,
-          "model_scores": {
-            "rf": 0.638,
-            "xgb": 0.9786,
-            "mlp": 0.6083,
-            "lstm": 0.663
-          },
-          "final_score": 0.6905,
-          "signal_summary": "RSI 중립~반등 · MACD 골든크로스 · 섹터 양호 (Z=+0.5)",
-          "current_price": null,
-          "return_pct": null
-        },
-        {
-          "ticker": "003670.KS",
-          "name": "포스코퓨처엠",
-          "market": "KR",
-          "sector": "Materials",
-          "entry_price": 157500.0,
-          "rsi": 43.1,
-          "bb_pos": 18.0,
-          "vol_ratio": 0.45,
-          "macd_positive": false,
-          "sector_zscore": 0.64,
-          "ensemble_score": 0.585,
-          "model_scores": {
-            "rf": 0.5138,
-            "xgb": 0.768,
-            "mlp": 0.4668,
-            "lstm": 0.5916
-          },
-          "final_score": 0.6072,
-          "signal_summary": "RSI 중립~반등 · 볼린저 하단 근접 · 섹터 양호 (Z=+0.6)",
           "current_price": null,
           "return_pct": null
         }
