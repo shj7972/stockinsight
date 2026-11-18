@@ -1,44 +1,5 @@
 [
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "단 사흘 만에 신용대출 1조원 증가",
-      "빚투 열풍으로 가계부채 위험 고조",
-      "주택담보대출 금리 최고 7.3% 기록"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.8,
-    "type": "국내"
-  },
-  {
-    "title": "반도체 슈퍼사이클 향방은…마이크론 실적 앞 ‘변동성’ 역대 최고치 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQTRFT3htd3NGV3QxUEZQMjlwVzRPSWFQOWFqMWhwNUZkNks1Q1Q1Tks2UEdDcnowdVUwb1g4N2I2VVZxV0VwZktXT3VMbVFrTGItQm5YaXNaUGlYc0c3cnlpT09FdGM?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "반도체 슈퍼사이클 향방에 시장 관심이 집중됨",
-      "마이크론 실적 발표를 앞두고 변동성 역대 최고치",
-      "향후 반도체 시장의 방향성에 대한 불확실성 증대"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "국내"
-  },
-  {
-    "title": "‘3000 고지’ 바라보는 주가…‘이유 있는 강세’인가 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
-    "publisher": "한겨레",
-    "summary": [
-      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "이번 주가 상승세가 이유 있는 강세인지 분석이 제기됨",
-      "증시의 향후 방향성과 펀더멘털에 대한 관심이 집중됨"
-    ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.7,
-    "type": "국내"
-  },
-  {
     "title": "Weekly market commentary - BlackRock",
     "original_title": "Weekly market commentary - BlackRock",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
@@ -46,7 +7,7 @@
     "summary": [
       "블랙록의 주간 시장 논평 발표",
       "글로벌 금융 시장 동향 분석",
-      "투자 전략 및 경제 전망 제시"
+      "향후 경제 전망 및 투자 전략"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -58,23 +19,23 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVnp2RXJOMlR5Nm1OWkoxeDB0UmlvRWMybzJzSnJ2TFBlNURqS19PWDc2X2p2ZE55Q1pJZVVoVUVZWWRZeHN1N1JDTko5WUdPX2h3QWg5Xzc5N2JSd3RyTExYWG96Uy1aa3Ntdm5yeFVWSG11ZXJfYnhkSVdwZHBYclNVQjZvRHhOZDNXMldnclo?oc=5",
     "publisher": "Yahoo Finance",
     "summary": [
-      "피터 시프가 미국 경제가 붕괴 최종 단계라고 경고함",
-      "AI 붐이 광범위한 경기 침체 위험을 숨기고 있음",
-      "전체 경제 시스템이 폭발할 수 있다고 주장함"
+      "피터 시프, 미국 경제 붕괴 최종 단계 경고",
+      "AI 붐이 광범위한 경기 침체 위험을 은폐 중",
+      "전체 경제 시스템이 폭발할 수 있다고 주장"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
     "type": "해외"
   },
   {
-    "title": "Weekly market wrap - Edward Jones",
-    "original_title": "Weekly market wrap - Edward Jones",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
-    "publisher": "Edward Jones",
+    "title": "AI and the economy: Your questions, answered - Economic Policy Institute",
+    "original_title": "AI and the economy: Your questions, answered - Economic Policy Institute",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNckVJT1hpVEFhWUltWWhXSzZDdVhkU29XZ29CV0R5NmpfLThFX3djbjMxQVNPbHNxekR4VktpcjNVbGJ1Y20xZ1pWb2tWaTJpaTRnN1ZpcXNJRjVtN0NaMDV5NVpTMkNLZGE3d2ZPNFROcm8tbjdzYzV4bHN6QkljNA?oc=5",
+    "publisher": "Economic Policy Institute",
     "summary": [
-      "에드워드 존스의 주간 시장 동향 보고서입니다.",
-      "한 주간의 주요 금융 시장 흐름을 정리했습니다.",
-      "글로벌 증권 및 경제 상황을 요약했습니다."
+      "AI가 경제에 미치는 영향 분석",
+      "경제 정책 연구소의 AI 관련 질답",
+      "AI 시대의 경제적 변화 조망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
