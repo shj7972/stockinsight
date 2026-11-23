@@ -1,15 +1,28 @@
 [
   {
-    "title": "‘4869.96’ 올해 1월 수준 돌아간 코스피…고점 대비 3400조 증발 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GR2d1M1dqY1JuV0I3OEpDcldiOVJKOEx2cUNnRzZzZjBHcDMyX2t3MnNpa2tTdk1WRUx1ZmQydS1Rd0lORVM5emtWT2tBSzM5Wk5GMHE2MGh4aXdqODdxWl9IQXoxVms?oc=5",
+    "title": "“위험 피할 곳 현금뿐”…주식 이어 비트코인, 금·은 가격 모두 폭락 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9icEdPTEYxT1REZmRfQ0dLRVNOOHdzLUdRSjZPeF9Wd0xNRWx4TzQ0OE0zN0NsTjAyQVN5Q3dsTW5Sd1pVVENjUER1VnM5QXVYNUVtcUoxbGFaakRVTnhoaHZYXzlaVzg?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "코스피가 올해 1월 수준인 4869선으로 하락함",
-      "고점 대비 시가총액 3400조원이 증발함",
-      "증시 하락으로 인한 경제적 타격이 커짐"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.9,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "type": "국내"
+  },
+  {
+    "title": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91Z1EyaE0xU2ttdmZsYW11ZkkzZU9IdmRVZWp1am0xbjY1Y0FJN2w0UE5nRmJrS2pYSV9EbkNvUFFpRkVKREF2NFNFTEJNcGU4bTlabnhHN0JCVmZ4Qk9BbS1OejZUcjA?oc=5",
+    "publisher": "한겨레",
+    "summary": [
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
+    ],
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "국내"
   },
   {
@@ -18,25 +31,26 @@
     "publisher": "한겨레",
     "summary": [
       "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
-      "현재의 강세장이 타당한 이유가 있는지 분석이 필요함",
-      "투자자들 사이에서 시장 상승세의 지속성에 관심이 집중됨"
+      "현재의 주가 강세가 정당한 이유가 있는지 분석 필요",
+      "한겨레를 통해 증시의 향방에 대한 관심이 집중됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "국내"
   },
   {
-    "title": "‘빚투’ 단 사흘 만에 신용대출 1조 증가…주담대 금리는 최고 7.3%까지 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
-    "publisher": "한겨레",
+    "title": "Weekly market commentary - BlackRock",
+    "original_title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "publisher": "BlackRock",
     "summary": [
-      "사흘 만에 신용대출 1조 원 증가",
-      "투자자들의 빚투 현상 심화",
-      "주택담보대출 금리 최고 7.3% 기록"
+      "블랙록의 주간 시장 논평 발표",
+      "글로벌 금융 시장 동향 분석",
+      "투자 전략 및 경제 전망 제시"
     ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": 0.2,
-    "type": "국내"
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.5,
+    "type": "해외"
   },
   {
     "title": "Boom or Bubble? Understanding AI and the U.S. Economy - Council on Foreign Relations",
@@ -46,38 +60,24 @@
     "summary": [
       "AI 붐이 미국 경제에 미치는 영향 분석",
       "인공지능의 성장이 버블인지 진단",
-      "외교협회(CFR)의 AI 경제 보고서"
+      "미국 경제와 AI 산업의 미래 전망"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "original_title": "Stock Market Under the Trump Administration: What is Driving Markets in 2026? - U.S. Bank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
-    "publisher": "U.S. Bank",
+    "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
+    "original_title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamhQcGtONXo1SHNRdHRjWHRPZ3gzaHJCUTdNbW1BdUJ3ZUhLTjZ6X1F2dVo3SDdmZHZlWFIwMHVOX3RSZ3lFaE9vRzFDdUE0YlhFbXVTOWxuM2J3dkVwYjE0VE5JV0ZIaHNVLVp3d1dIMGxlX3JvVTNkNnRsRldmeUsyVk9IYldqbTFsU3RZUXpWclpybnhaei1CU2U5WDdQb1ZfcHpZdm5TdldRUlVfMVNnV0dDMG56eWRfNEhCbw?oc=5",
+    "publisher": "Bloomberg.com",
     "summary": [
-      "트럼프 행정부 하의 주식시장 분석",
-      "2026년 증시를 움직이는 주요 동인 탐색",
-      "U.S. Bank의 시장 전망 제시"
+      "AI 요약 생성 중 오류 발생.",
+      "잠시 후 다시 시도해주세요.",
+      "원문을 확인하세요."
     ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Asian stock markets tumble as AI bubble fears mount - Al Jazeera",
-    "original_title": "Asian stock markets tumble as AI bubble fears mount - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
-    "publisher": "Al Jazeera",
-    "summary": [
-      "아시아 주식 시장이 큰 폭으로 하락했습니다.",
-      "인공지능(AI) 거품 우려가 확산되고 있습니다.",
-      "투자자들의 불안감이 시장에 반영되었습니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.85,
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
     "type": "해외"
   }
 ]
