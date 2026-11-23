@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GR2d1M1dqY1JuV0I3OEpDcldiOVJKOEx2cUNnRzZzZjBHcDMyX2t3MnNpa2tTdk1WRUx1ZmQydS1Rd0lORVM5emtWT2tBSzM5Wk5GMHE2MGh4aXdqODdxWl9IQXoxVms?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "코스피가 올해 1월 수준인 4869선으로 하락했습니다.",
-      "고점 대비 시가총액 3400조원이 증발했습니다.",
-      "증시 하락으로 인한 경제적 타격이 커지고 있습니다."
+      "코스피가 올해 1월 수준인 4869선으로 하락함",
+      "고점 대비 시가총액 3400조원이 증발함",
+      "증시 하락으로 인한 경제적 타격이 커짐"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
@@ -17,9 +17,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rVWdaZjMzT1h0eEo2UjRYekVkM01samtBNThIZWJWZlJfTDdpaXZZQ0xvRzRxODRSaHdRVnFERW9KNTZTOTNHQ256X2RzSnVraFdzQ0ZfMlVFei1id2tlSzUtV0M0QQ?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "주가가 3000 고지를 향해 상승세를 보이고 있음",
-      "이번 주가 강세가 정당한 이유가 있는지 분석 필요",
-      "한겨레를 통해 시장의 기대감과 우려가 공존함"
+      "주가가 3000 고지를 바라보며 상승세를 보이고 있음",
+      "현재의 강세장이 타당한 이유가 있는지 분석이 필요함",
+      "투자자들 사이에서 시장 상승세의 지속성에 관심이 집중됨"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -30,9 +30,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85STV5V2UtU0tOV2VTU0d0SHlPNDFwblVsZWxWeTZlanBzcDBYMWlFaTE4bUtKWFlLTm96Z2hmV2M5WDFpTWtKR2hKRlRPV1JVa0tJa29Td1gxMVlMd1BMbnZOdk5Rb1k?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "사흘 만에 신용대출 1조원 급증",
-      "투자 목적의 빚투 현상 확산",
-      "주택담보대출 금리는 최고 7.3% 기록"
+      "사흘 만에 신용대출 1조 원 증가",
+      "투자자들의 빚투 현상 심화",
+      "주택담보대출 금리 최고 7.3% 기록"
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": 0.2,
@@ -45,8 +45,8 @@
     "publisher": "Council on Foreign Relations",
     "summary": [
       "AI 붐이 미국 경제에 미치는 영향 분석",
-      "기술 발전이 경제적 호황인지 거품인지 진단",
-      "미국 경제와 인공지능의 상관관계 조명"
+      "인공지능의 성장이 버블인지 진단",
+      "외교협회(CFR)의 AI 경제 보고서"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -58,26 +58,26 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUowVHR1VXAzd0Zfamw1MkVSejFsRGo1bkdGdHhjNVBZVFdwU3VpcE5neGJOeWl6RmdQVkFsYlcxNEVTRGg3WHNYSGR1d1BpTjV4T2NqdWdER3ZtQ0RVbU40WTcyRXRaTEM5bFZteVlYNE5EYkM1M1BaR0lYTGlUeFlTeDhVMzRaWFFqZEZhcGc3RFJoZy1qZy1mTGViQQ?oc=5",
     "publisher": "U.S. Bank",
     "summary": [
-      "트럼프 행정부 하의 주식시장 동향 분석",
-      "2026년 시장을 움직이는 주요 동인 탐색",
-      "미국 은행이 바라보는 향후 경제 전망"
+      "트럼프 행정부 하의 주식시장 분석",
+      "2026년 증시를 움직이는 주요 동인 탐색",
+      "U.S. Bank의 시장 전망 제시"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
     "type": "해외"
   },
   {
-    "title": "Markets in 2027: Stocks Take the Lead - Morgan Stanley",
-    "original_title": "Markets in 2027: Stocks Take the Lead - Morgan Stanley",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcTE2UjRDRTBqRElBclJqUE1jaHJLcERZcjRJZE5qeC1OSGFtVDI1bXM4VHVESlMxbVJWMzFXRUkzM0VHb0kxZEJ0V3k0ZkhjeDdlUFNuTm1RWUM0NXpHLTdSU1AxTXBybC1mRHZrQ1RJQjF2aE1JdXF4TTlGcGpfSjR0STROQzdhWVU0ZQ?oc=5",
-    "publisher": "Morgan Stanley",
+    "title": "Asian stock markets tumble as AI bubble fears mount - Al Jazeera",
+    "original_title": "Asian stock markets tumble as AI bubble fears mount - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
+    "publisher": "Al Jazeera",
     "summary": [
-      "2027년 시장 전망 발표",
-      "주식 시장이 상승 주도",
-      "모건스탠리의 분석 제시"
+      "아시아 주식 시장이 큰 폭으로 하락했습니다.",
+      "인공지능(AI) 거품 우려가 확산되고 있습니다.",
+      "투자자들의 불안감이 시장에 반영되었습니다."
     ],
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.75,
+    "sentiment": "NEGATIVE",
+    "sentiment_score": -0.85,
     "type": "해외"
   }
 ]
