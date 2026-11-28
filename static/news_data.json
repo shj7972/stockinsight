@@ -4,9 +4,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55bWx2c182WHA2YXVDd3BCemZpVnpIekNVLW9tN1AxekRWemFxckR3WVNfTlhNLXVPb056SzUxVmdjeHMxUzcyZG9DQnZVYklwVzJ1MzZhUE5fTVRnZk9TeGc0N0hvcVk?oc=5",
     "publisher": "한겨레",
     "summary": [
-      "산업은행이 금융회사에 증안펀드 추가 출자 여력 문의",
-      "증권시장안정펀드(증안펀드)의 규모 확대 추진 가능성",
-      "금융시장의 변동성 대응을 위한 선제적 조치 분석"
+      "증안펀드 규모 확대 가능성 제기",
+      "산업은행, 금융사에 추가 출자 여력 문의",
+      "시장 안정화 조치 선제적 대응 차원"
     ],
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.5,
@@ -17,12 +17,12 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nVlRUM2JxUzQ4c1VlWjJFdlhhOTdEMmtielowTU44UHAzWXZzOG9femliRjNEd3Ixek9DeEUtZkdYNFBtUXVxa21acl9wTnlBSmRiSHg2WjZpbmVWWFE?oc=5",
     "publisher": "경향신문",
     "summary": [
-      "한·중·일 재무장관 회의 개최",
-      "중동 전쟁으로 인한 경제 하방 압력 우려",
-      "3국 재무장관의 한목소리 대응 공조"
+      "한중일 재무장관이 한목소리를 냈습니다.",
+      "중동 전쟁으로 인한 경제 하방 압력을 우려했습니다.",
+      "경제 리스크에 대한 공동 대응을 논의했습니다."
     ],
     "sentiment": "NEGATIVE",
-    "sentiment_score": -0.7,
+    "sentiment_score": 0.2,
     "type": "국내"
   },
   {
@@ -32,52 +32,10 @@
     "summary": [
       "주식에 이어 비트코인 가격이 급락했습니다.",
       "안전자산으로 꼽히던 금과 은 가격도 폭락했습니다.",
-      "위험 회피 심리가 커지며 현금만 선호되고 있습니다."
+      "시장 불안으로 현금만이 유일한 피난처로 부상했습니다."
     ],
     "sentiment": "NEGATIVE",
     "sentiment_score": -0.9,
     "type": "국내"
-  },
-  {
-    "title": "2027 economic and market outlook - Fidelity Investments",
-    "original_title": "2027 economic and market outlook - Fidelity Investments",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazk1SWlkR0kxVUJrdThCMmhUVi12eXJ4ZS1haHNtbmdMelRQN3RwQkd4RlRlaVhxOEhjcUtYMVdMZU5KeEFiMFlPVVVCaUtJdVlXS2N2NGVMSEFxSml5djNGbnlXQVMwVnBZV3lDMmRuZDcyVUxRQ1F2VkVHZGFGX18xNDI3clQ2N011ZjlaOEs?oc=5",
-    "publisher": "Fidelity Investments",
-    "summary": [
-      "피델리티 인베스트먼트의 2027 경제 전망",
-      "2027년 시장 상황 및 경제 성장 분석",
-      "향후 투자 시장에 대한 전망 제시"
-    ],
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.5,
-    "type": "해외"
-  },
-  {
-    "title": "Why are investors freaking out even as the U.S. economy surges? - CBS News",
-    "original_title": "Why are investors freaking out even as the U.S. economy surges? - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSTTFwUEpMWjI1TFJzbVRra3BraEh3czZ6ZGpWNmItT2pMeDhlOWdEb0hneXhtaDhncmhiMDlmcDRENlJlMl9hLTd0anlDQXpqWDRYb1RsUEZTSUpoSXhsaEF1VTFKZVN1TlQ1Yg?oc=5",
-    "publisher": "CBS News",
-    "summary": [
-      "미국 경제가 급성장 중에도 투자자들의 불안이 가중됨",
-      "호조를 보이는 경제 지표와 시장 심리의 괴리 발생",
-      "투자자들이 시장 상황에 대해 우려하는 이유 집중 조명"
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
-  },
-  {
-    "title": "Nvidia is crucial to the economy. An AI wipeout could unleash unexpected consequences - CNN",
-    "original_title": "Nvidia is crucial to the economy. An AI wipeout could unleash unexpected consequences - CNN",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52c3JDajhQZ1R2d0RKejhxZDhrZ0QyXzBvWDVNSHFaMzFiV2dGZGZKbjdvZHNUZ3N2U3RGOVV3NHg2bm1CZUpkaEgwUkI4cHlhNmMwa3VDV0liSVluaVZZMnNpbnFRQTNaenc?oc=5",
-    "publisher": "CNN",
-    "summary": [
-      "엔비디아는 현재 경제에서 매우 중요한 역할을 담당하고 있습니다.",
-      "인공지능 시장이 붕괴될 경우 예상치 못한 부작용이 발생할 수 있습니다.",
-      "AI 거품 붕괴가 전체 경제에 미칠 파장에 대한 우려가 커지고 있습니다."
-    ],
-    "sentiment": "NEGATIVE",
-    "sentiment_score": -0.6,
-    "type": "해외"
   }
 ]
